@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.reflect.generics.scope;
 
+
 import java.lang.reflect.GenericDeclaration;
 import java.lang.reflect.TypeVariable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract superclass for lazy scope objects, used when building

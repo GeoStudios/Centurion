@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.AWTException;
 import java.awt.Button;
 import java.awt.Canvas;
@@ -76,6 +77,20 @@ import java.awt.peer.TextAreaPeer;
 import java.awt.peer.TextFieldPeer;
 import java.awt.peer.WindowPeer;
 import java.desktop.share.classes.sun.awt.datatransfer.DataTransferer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LightweightPeerHolder {
     static final LightweightPeer lightweightMarker = new NullComponentPeer();

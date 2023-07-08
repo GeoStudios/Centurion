@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -37,6 +38,20 @@ import javax.swing.plaf.synth.*;
 import javax.swing.plaf.ActionMapUIResource;
 import java.desktop.share.classes.sun.awt.shell.ShellFolder;
 import java.desktop.share.classes.sun.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Synth FileChooserUI implementation.
@@ -129,6 +144,7 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
     public SynthFileChooserUIImpl(JFileChooser b) {
         super(b);
     }
+
 
     private class SynthFileChooserUIAccessor implements FilePane.FileChooserUIAccessor {
         public JFileChooser getFileChooser() {
@@ -331,6 +347,7 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
         filePane.setPreferredSize(LIST_PREF_SIZE);
         fc.add(filePane, BorderLayout.CENTER);
 
+
         // ********************************** //
         // **** Construct the bottom panel ** //
         // ********************************** //
@@ -370,6 +387,7 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
             setFileName(fileNameString(fc.getSelectedFile()));
         }
 
+
         // Filetype label and combobox
         JPanel filesOfTypePanel = new JPanel();
         filesOfTypePanel.setLayout(new BoxLayout(filesOfTypePanel, BoxLayout.LINE_AXIS));
@@ -386,6 +404,7 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
         filesOfTypeLabel.setLabelFor(filterComboBox);
         filterComboBox.setRenderer(createFilterComboBoxRenderer());
         filesOfTypePanel.add(filterComboBox);
+
 
         // buttons
         buttonPanel = new JPanel();
@@ -491,6 +510,7 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
         return SwingUtilities2.getUIDefaultsInt(key, l);
     }
 
+
     public String getFileName() {
         if (fileNameTextField != null) {
             return fileNameTextField.getText();
@@ -564,6 +584,7 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
         }
     }
 
+
     protected void doFileSelectionModeChanged(PropertyChangeEvent e) {
         super.doFileSelectionModeChanged(e);
 
@@ -613,6 +634,9 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
             bottomPanel.remove(buttonPanel);
         }
     }
+
+
+
 
     // *******************************************************
     // ************ FileChooser UI PLAF methods **************
@@ -968,6 +992,8 @@ public class SynthFileChooserUIImpl extends SynthFileChooserUI {
             }
         }
     }
+
+
 
     /**
      * <code>ButtonAreaLayout</code> behaves in a similar manner to

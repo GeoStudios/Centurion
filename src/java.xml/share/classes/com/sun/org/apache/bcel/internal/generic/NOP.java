@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * NOP - Do nothing
@@ -35,6 +52,7 @@ public class NOP extends Instruction {
     public NOP() {
         super(com.sun.org.apache.bcel.internal.Const.NOP, (short) 1);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

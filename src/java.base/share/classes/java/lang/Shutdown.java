@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.lang;
 
+
 import jdk.internal.misc.VM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Package-private utility class containing data structures and logic
@@ -168,6 +183,7 @@ class Shutdown {
             halt(status);
         }
     }
+
 
     /* Invoked by the JNI DestroyJavaVM procedure when the last non-daemon
      * thread has finished.  Unlike the exit method, this method does not

@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import java.awt.Color;
 import java.awt.Insets;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DefaultLookup provides a way to customize the lookup done by the
@@ -58,6 +73,7 @@ public class DefaultLookup {
      * If true, a custom DefaultLookup has been set.
      */
     private static boolean isLookupSet;
+
 
     /**
      * Sets the DefaultLookup instance to use for the current

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.JSlider;
 import java.desktop.share.classes.javax.swing.JSpinner;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.javax.swing.JSpinner.DefaultEditor;
 import java.desktop.share.classes.javax.swing.SpinnerNumberModel;
 import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class SlidingSpinner implements ChangeListener {
 

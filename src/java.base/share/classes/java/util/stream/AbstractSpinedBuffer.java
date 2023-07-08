@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util.stream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Base class for a data structure for gathering elements into a buffer and then
  * iterating them. Maintains an array of increasingly sized arrays, so there is
@@ -46,6 +62,7 @@ abstract class AbstractSpinedBuffer {
      * Minimum array size for array-of-chunks.
      */
     public static final int MIN_SPINE_SIZE = 8;
+
 
     /**
      * log2 of the size of the first chunk.

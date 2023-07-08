@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.util.Vector;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A queue of text layout tasks.

@@ -21,8 +21,22 @@
 
 package jit.t.t013;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t013.t013
  */
+
+
 
 class Globals {
         static public int NumDisks;

@@ -21,8 +21,22 @@
 
 package nsk.jvmti.unit.heap;
 
+
 import nsk.share.jvmti.unit.*;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Unit tests for JVMTI OBJECT_FREE event
@@ -32,6 +46,8 @@ import java.io.PrintStream;
  * can think of a better way to test this event.
  *
  */
+
+
 
 public class ObjectFreeTests {
 

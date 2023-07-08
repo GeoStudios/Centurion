@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.util.HashMap;
@@ -39,6 +40,20 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPa
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexItem;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Extensions to {@code IndexBuilder} to fill in remaining fields
@@ -82,6 +97,7 @@ public class HtmlIndexBuilder extends IndexBuilder {
         if (classesOnly) {
             return;
         }
+
 
         Map<String,Integer> duplicateLabelCheck = new HashMap<>();
         for (Character ch : getFirstCharacters()) {
@@ -147,6 +163,7 @@ public class HtmlIndexBuilder extends IndexBuilder {
                 throw new Error();
         }
     }
+
 
     /**
      * Generates the set of index files used by interactive search.

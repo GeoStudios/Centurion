@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 import java.io.InputStream;
@@ -28,6 +29,20 @@ import java.io.Reader;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an input source for an XML resource
@@ -138,6 +153,7 @@ public final class HTTPInputSource extends XMLInputSource {
     public boolean getFollowHTTPRedirects() {
         return fFollowRedirects;
     } // getFollowHTTPRedirects():boolean
+
 
     /**
      * Sets the preference whether HTTP redirects should

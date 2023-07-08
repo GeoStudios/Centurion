@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.unsafe;
 
+
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,8 @@ import jdk.internal.misc.Unsafe;
  * @run main/othervm -XX:-UseOnStackReplacement -XX:-BackgroundCompilation -XX:-TieredCompilation
  *      compiler.intrinsics.unsafe.TestUnsafeMismatchedArrayFieldAccess
  */
+
+
 
 public class TestUnsafeMismatchedArrayFieldAccess {
 

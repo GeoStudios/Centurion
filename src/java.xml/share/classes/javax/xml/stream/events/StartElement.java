@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
+
 import java.xml.share.classes.javax.xml.namespace.QName;
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The StartElement interface provides access to information about

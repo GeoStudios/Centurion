@@ -21,9 +21,24 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A

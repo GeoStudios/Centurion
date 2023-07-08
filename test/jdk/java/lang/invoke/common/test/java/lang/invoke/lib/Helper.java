@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke.lib;
 
+
 import jdk.test.lib.Asserts;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -30,6 +31,19 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Helper {
     /** Flag for verbose output, true if {@code -Dverbose} specified */

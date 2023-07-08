@@ -21,8 +21,22 @@
 
 package gc.memory.Churn.Churn4;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm gc.memory.Churn.Churn4.Churn4
  */
+
+
 
 /**
  *  Test that GC works with memory that is churn over.

@@ -21,12 +21,27 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
+
 import java.base.share.classes.java.util.Arrays;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates the concept of a Kerberos checksum.
@@ -93,6 +108,7 @@ public class Checksum {
             }
             CKSUMTYPE_DEFAULT = -1;
         }
+
 
         try {
             temp = cfg.get("libdefaults", "safe_checksum_type");
@@ -172,6 +188,7 @@ public class Checksum {
                     data, data.length, key.getBytes(), checksum, usage);
         }
     }
+
 
     /**
      * Verifies the checksum over the data passed in. The checksum might
@@ -261,6 +278,7 @@ public class Checksum {
         temp.write(DerValue.tag_Sequence, bytes);
         return temp.toByteArray();
     }
+
 
     /**
      * Parse (unmarshal) a checksum object from a DER input stream.  This form

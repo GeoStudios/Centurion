@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * IADD - Add ints
@@ -38,6 +55,7 @@ public class IADD extends ArithmeticInstruction {
     public IADD() {
         super(com.sun.org.apache.bcel.internal.Const.IADD);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

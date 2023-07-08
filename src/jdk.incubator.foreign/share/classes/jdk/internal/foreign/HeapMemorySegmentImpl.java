@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaNioAccess;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
@@ -28,6 +29,20 @@ import jdk.incubator.foreign.share.classes.jdk.internal.misc.Unsafe;
 import jdk.incubator.foreign.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for heap memory segments. An heap memory segment is composed by an offset and

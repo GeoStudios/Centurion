@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DSUB - Substract doubles
@@ -39,6 +56,7 @@ public class DSUB extends ArithmeticInstruction {
     public DSUB() {
         super(com.sun.org.apache.bcel.internal.Const.DSUB);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

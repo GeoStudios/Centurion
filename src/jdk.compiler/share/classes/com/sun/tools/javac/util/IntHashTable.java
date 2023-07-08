@@ -21,6 +21,22 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A hash table that maps Object to int.
  *

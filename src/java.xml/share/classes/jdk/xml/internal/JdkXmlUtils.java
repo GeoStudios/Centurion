@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.jdk.xml.internal;
 
+
 import com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
 import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl;
 import com.sun.org.apache.xerces.internal.impl.Constants;
@@ -44,6 +45,20 @@ import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.XMLReader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Constants for use across JAXP processors.
  */
@@ -60,6 +75,7 @@ public class JdkXmlUtils {
     public static final String NAMESPACE_PREFIXES_FEATURE =
         Constants.SAX_FEATURE_PREFIX + Constants.NAMESPACE_PREFIXES_FEATURE;
 
+
     /**
      * Catalog features
      */
@@ -70,11 +86,14 @@ public class JdkXmlUtils {
     public final static String CATALOG_PREFER = CatalogFeatures.Feature.PREFER.getPropertyName();
     public final static String CATALOG_RESOLVE = CatalogFeatures.Feature.RESOLVE.getPropertyName();
 
+
+
     /**
      * Default value of USE_CATALOG. This will read the System property
      */
     public static final boolean USE_CATALOG_DEFAULT
             = SecuritySupport.getJAXPSystemProperty(Boolean.class, SP_USE_CATALOG, "true");
+
 
     /**
      * The system-default factory

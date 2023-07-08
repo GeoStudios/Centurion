@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.lang;
 
+
 import jdk.internal.access.JavaLangInvokeAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.java.lang.StackWalker.StackFrame;
 import java.base.share.classes.java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StackFrameInfo implements StackFrame {
     private static final JavaLangInvokeAccess JLIA =
@@ -104,6 +119,7 @@ class StackFrameInfo implements StackFrame {
 
         return toStackTraceElement().getLineNumber();
     }
+
 
     @Override
     public boolean isNativeMethod() {

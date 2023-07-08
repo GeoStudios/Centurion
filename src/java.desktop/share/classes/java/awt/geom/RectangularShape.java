@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
 import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.beans.Transient;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code RectangularShape} is the base class for a number of

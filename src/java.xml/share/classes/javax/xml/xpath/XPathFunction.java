@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.xpath;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p><code>XPathFunction</code> provides access to XPath functions.</p>

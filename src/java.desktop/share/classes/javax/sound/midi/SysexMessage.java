@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
 import com.sun.media.sound.MidiUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code SysexMessage} object represents a MIDI system exclusive message.

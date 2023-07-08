@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.font;
 
+
 import java.desktop.unix.classes.sun.awt.FontConfiguration;
 import java.desktop.unix.classes.sun.awt.X11FontManager;
 import java.desktop.unix.classes.sun.font.FontUtilities;
@@ -34,6 +35,20 @@ import java.util.HashSet;
 import java.util.Properties;
 import java.util.Scanner;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MFontConfiguration extends FontConfiguration {
 
     private static final FontConfiguration fontConfig = null;
@@ -46,6 +61,7 @@ public class MFontConfiguration extends FontConfiguration {
         }
         initTables();
     }
+
 
     public MFontConfiguration(SunFontManager fm,
                               boolean preferLocaleFonts,

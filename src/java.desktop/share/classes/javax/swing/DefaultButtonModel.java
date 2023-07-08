@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
 import java.io.Serializable;
 import java.util.Eventjava.util.Listener;
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default implementation of a <code>Button</code> component's data model.
@@ -202,6 +217,7 @@ public class DefaultButtonModel implements ButtonModel, Serializable {
             stateMask &= ~PRESSED;
         }
 
+
         fireStateChanged();
     }
 
@@ -228,6 +244,7 @@ public class DefaultButtonModel implements ButtonModel, Serializable {
         fireStateChanged();
 
     }
+
 
     /**
      * {@inheritDoc}

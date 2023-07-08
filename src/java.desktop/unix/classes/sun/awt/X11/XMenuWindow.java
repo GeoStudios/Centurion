@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
@@ -28,6 +29,20 @@ import java.awt.image.BufferedImage;
 import java.awt.geom.Point2D;
 import java.util.Vector;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XMenuWindow extends XBaseMenuWindow {
 
@@ -142,6 +157,7 @@ public class XMenuWindow extends XBaseMenuWindow {
         }
 
     }
+
 
     /************************************************
      *

@@ -21,9 +21,23 @@
 
 package nsk.jdi.ArrayType.componentSignature;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the componentsignature002 JDI test.
@@ -71,6 +85,7 @@ public class componentsignature002a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -122,8 +137,10 @@ interface InterfaceForCheck {
     static final Object  s_iface_object  = new Object();
 }
 
+
 class ClassForCheck_2 implements InterfaceForCheck {
 }
+
 
 class ClassForCheck {
 
@@ -138,6 +155,9 @@ class ClassForCheck {
 
     // case 2
     static boolean bl[][] = {{true,false}, {false,true} };
+
+
+
 
     static boolean   s_boolean;
     static byte      s_byte;

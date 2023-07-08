@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class implements an optimized iterator for
@@ -122,5 +139,6 @@ public class ChildIterator extends LocPathIterator
   {
     return com.sun.org.apache.xml.internal.dtm.Axis.CHILD;
   }
+
 
 }

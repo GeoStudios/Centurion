@@ -21,7 +21,21 @@
 
 package gc.gctests.FinalizerGC01;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm gc.gctests.FinalizerGC01.FinalizerGC01
  */
+
+
 
 class node {
         byte [] arr;

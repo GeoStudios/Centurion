@@ -21,8 +21,22 @@
 
 package jit.t.t087;
 
+
 import nsk.share.GoldChecker;
 import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -52,6 +66,9 @@ import java.io.File;
  *      jit.t.t087.t087
  *      -WorkDir ./jit/t/t087
  */
+
+
+
 
 class foo {
     static void bar() {

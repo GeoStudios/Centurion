@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7009359
@@ -30,6 +45,7 @@ package compiler.c2;
  *                   -XX:CompileCommand=dontinline,compiler.c2.Test7009359::stringmakerBUG
  *                   compiler.c2.Test7009359
  */
+
 
 public class Test7009359 {
     public static void main (String[] args) {

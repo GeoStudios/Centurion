@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Receive notification of general document events.
  *
@@ -53,6 +69,7 @@ package java.xml.share.classes.org.xml.sax;
 @Deprecated(since="1.5")
 public interface DocumentHandler {
 
+
     /**
      * Receive an object for locating the origin of SAX document events.
      *
@@ -80,6 +97,7 @@ public interface DocumentHandler {
      */
     void setDocumentLocator (Locator locator);
 
+
     /**
      * Receive notification of the beginning of a document.
      *
@@ -92,6 +110,7 @@ public interface DocumentHandler {
      */
     void startDocument ()
         throws SAXException;
+
 
     /**
      * Receive notification of the end of a document.
@@ -107,6 +126,7 @@ public interface DocumentHandler {
      */
     void endDocument ()
         throws SAXException;
+
 
     /**
      * Receive notification of the beginning of an element.
@@ -133,6 +153,7 @@ public interface DocumentHandler {
     void startElement (String name, AttributeList atts)
         throws SAXException;
 
+
     /**
      * Receive notification of the end of an element.
      *
@@ -150,6 +171,7 @@ public interface DocumentHandler {
      */
     void endElement (String name)
         throws SAXException;
+
 
     /**
      * Receive notification of character data.
@@ -179,6 +201,7 @@ public interface DocumentHandler {
     void characters (char[] ch, int start, int length)
         throws SAXException;
 
+
     /**
      * Receive notification of ignorable whitespace in element content.
      *
@@ -205,6 +228,7 @@ public interface DocumentHandler {
      */
     void ignorableWhitespace (char[] ch, int start, int length)
         throws SAXException;
+
 
     /**
      * Receive notification of a processing instruction.

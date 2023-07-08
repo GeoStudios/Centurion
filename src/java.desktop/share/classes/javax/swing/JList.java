@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -74,6 +75,20 @@ import sun.swing.SwingUtilities2;
 import sun.swing.SwingUtilities2.Section;
 import static sun.swing.SwingUtilities2.Section.LEADING;.extended
 import static sun.swing.SwingUtilities2.Section.TRAILING;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A component that displays a list of objects and allows the user to select
@@ -453,6 +468,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         updateUI();
     }
 
+
     /**
      * Constructs a <code>JList</code> that displays the elements in
      * the specified array. This constructor creates a read-only model
@@ -477,6 +493,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         );
     }
 
+
     /**
      * Constructs a <code>JList</code> that displays the elements in
      * the specified <code>Vector</code>. This constructor creates a read-only
@@ -500,6 +517,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         );
     }
 
+
     /**
      * Constructs a <code>JList</code> with an empty, read-only, model.
      */
@@ -512,6 +530,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         );
     }
 
+
     /**
      * Returns the {@code ListUI}, the look and feel object that
      * renders this component.
@@ -521,6 +540,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public ListUI getUI() {
         return (ListUI)ui;
     }
+
 
     /**
      * Sets the {@code ListUI}, the look and feel object that
@@ -534,6 +554,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public void setUI(ListUI ui) {
         super.setUI(ui);
     }
+
 
     /**
      * Resets the {@code ListUI} property by setting it to the value provided
@@ -561,6 +582,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         }
     }
 
+
     /**
      * Returns {@code "ListUI"}, the <code>UIDefaults</code> key used to look
      * up the name of the {@code javax.swing.plaf.ListUI} class that defines
@@ -574,6 +596,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /* -----private-----
      * This method is called by setPrototypeCellValue and setCellRenderer
@@ -610,6 +633,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             c.setFont(f);
         }
     }
+
 
     /**
      * Returns the "prototypical" cell value -- a value used to calculate a
@@ -672,6 +696,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         firePropertyChange("prototypeCellValue", oldValue, prototypeCellValue);
     }
 
+
     /**
      * Returns the value of the {@code fixedCellWidth} property.
      *
@@ -705,6 +730,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         firePropertyChange("fixedCellWidth", oldValue, fixedCellWidth);
     }
 
+
     /**
      * Returns the value of the {@code fixedCellHeight} property.
      *
@@ -737,6 +763,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         fixedCellHeight = height;
         firePropertyChange("fixedCellHeight", oldValue, fixedCellHeight);
     }
+
 
     /**
      * Returns the object responsible for painting list items.
@@ -785,6 +812,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         firePropertyChange("cellRenderer", oldValue, cellRenderer);
     }
 
+
     /**
      * Returns the color used to draw the foreground of selected items.
      * {@code DefaultListCellRenderer} uses this color to draw the foreground
@@ -798,6 +826,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public Color getSelectionForeground() {
         return selectionForeground;
     }
+
 
     /**
      * Sets the color used to draw the foreground of selected items, which
@@ -828,6 +857,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         firePropertyChange("selectionForeground", oldValue, selectionForeground);
     }
 
+
     /**
      * Returns the color used to draw the background of selected items.
      * {@code DefaultListCellRenderer} uses this color to draw the background
@@ -841,6 +871,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public Color getSelectionBackground() {
         return selectionBackground;
     }
+
 
     /**
      * Sets the color used to draw the background of selected items, which
@@ -870,6 +901,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         this.selectionBackground = selectionBackground;
         firePropertyChange("selectionBackground", oldValue, selectionBackground);
     }
+
 
     /**
      * Returns the value of the {@code visibleRowCount} property. See the
@@ -923,6 +955,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         firePropertyChange("visibleRowCount", oldValue, visibleRowCount);
     }
 
+
     /**
      * Returns the layout orientation property for the list: {@code VERTICAL}
      * if the layout is a single column of cells, {@code VERTICAL_WRAP} if the
@@ -936,6 +969,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public int getLayoutOrientation() {
         return layoutOrientation;
     }
+
 
     /**
      * Defines the way list cells are layed out. Consider a {@code JList}
@@ -1016,6 +1050,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         }
     }
 
+
     /**
      * Returns the smallest list index that is currently visible.
      * In a left-to-right {@code componentOrientation}, the first visible
@@ -1048,6 +1083,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         }
         return first;
     }
+
 
     /**
      * Returns the largest list index that is currently visible.
@@ -1125,6 +1161,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         }
         return location;
     }
+
 
     /**
      * Scrolls the list within an enclosing viewport to make the specified
@@ -1564,6 +1601,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
      * --- ListUI Delegations ---
      */
 
+
     /**
      * Returns the cell index closest to the given location in the list's
      * coordinate system. To determine if the cell actually contains the
@@ -1583,6 +1621,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return (ui != null) ? ui.locationToIndex(this, location) : -1;
     }
 
+
     /**
      * Returns the origin of the specified item in the list's coordinate
      * system. This method returns {@code null} if the index isn't valid.
@@ -1598,6 +1637,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         ListUI ui = getUI();
         return (ui != null) ? ui.indexToLocation(this, index) : null;
     }
+
 
     /**
      * Returns the bounding rectangle, in the list's coordinate system,
@@ -1622,9 +1662,11 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return (ui != null) ? ui.getCellBounds(this, index0, index1) : null;
     }
 
+
     /**
      * --- ListModel Support ---
      */
+
 
     /**
      * Returns the data model that holds the list of items displayed
@@ -1664,6 +1706,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         clearSelection();
     }
 
+
     /**
      * Constructs a read-only <code>ListModel</code> from an array of items,
      * and calls {@code setModel} with this model.
@@ -1685,6 +1728,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             }
         );
     }
+
 
     /**
      * Constructs a read-only <code>ListModel</code> from a <code>Vector</code>
@@ -1708,9 +1752,11 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         );
     }
 
+
     /**
      * --- ListSelectionModel delegations and extensions ---
      */
+
 
     /**
      * Returns an instance of {@code DefaultListSelectionModel}; called
@@ -1726,6 +1772,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return new DefaultListSelectionModel();
     }
 
+
     /**
      * Returns the current selection model. The selection model maintains the
      * selection state of the list. See the class level documentation for more
@@ -1740,6 +1787,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public ListSelectionModel getSelectionModel() {
         return selectionModel;
     }
+
 
     /**
      * Notifies {@code ListSelectionListener}s added directly to the list
@@ -1779,6 +1827,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         }
     }
 
+
     /* A ListSelectionListener that forwards ListSelectionEvents from
      * the selectionModel to the JList ListSelectionListeners.  The
      * forwarded events only differ from the originals in that their
@@ -1792,6 +1841,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
                                       e.getValueIsAdjusting());
         }
     }
+
 
     /**
      * Adds a listener to the list, to be notified each time a change to the
@@ -1815,6 +1865,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         listenerList.add(ListSelectionListener.class, listener);
     }
 
+
     /**
      * Removes a selection listener from the list.
      *
@@ -1825,6 +1876,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public void removeListSelectionListener(ListSelectionListener listener) {
         listenerList.remove(ListSelectionListener.class, listener);
     }
+
 
     /**
      * Returns an array of all the {@code ListSelectionListener}s added
@@ -1838,6 +1890,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public ListSelectionListener[] getListSelectionListeners() {
         return listenerList.getListeners(ListSelectionListener.class);
     }
+
 
     /**
      * Sets the <code>selectionModel</code> for the list to a
@@ -1873,6 +1926,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         this.selectionModel = selectionModel;
         firePropertyChange("selectionModel", oldValue, selectionModel);
     }
+
 
     /**
      * Sets the selection mode for the list. This is a cover method that sets
@@ -1922,6 +1976,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return getSelectionModel().getSelectionMode();
     }
 
+
     /**
      * Returns the anchor selection index. This is a cover method that
      * delegates to the method of the same name on the list's selection model.
@@ -1933,6 +1988,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public int getAnchorSelectionIndex() {
         return getSelectionModel().getAnchorSelectionIndex();
     }
+
 
     /**
      * Returns the lead selection index. This is a cover method that
@@ -1947,6 +2003,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return getSelectionModel().getLeadSelectionIndex();
     }
 
+
     /**
      * Returns the smallest selected cell index, or {@code -1} if the selection
      * is empty. This is a cover method that delegates to the method of the same
@@ -1960,6 +2017,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return getSelectionModel().getMinSelectionIndex();
     }
 
+
     /**
      * Returns the largest selected cell index, or {@code -1} if the selection
      * is empty. This is a cover method that delegates to the method of the same
@@ -1972,6 +2030,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public int getMaxSelectionIndex() {
         return getSelectionModel().getMaxSelectionIndex();
     }
+
 
     /**
      * Returns {@code true} if the specified index is selected,
@@ -1988,6 +2047,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return getSelectionModel().isSelectedIndex(index);
     }
 
+
     /**
      * Returns {@code true} if nothing is selected, else {@code false}.
      * This is a cover method that delegates to the method of the same
@@ -2002,6 +2062,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return getSelectionModel().isSelectionEmpty();
     }
 
+
     /**
      * Clears the selection; after calling this method, {@code isSelectionEmpty}
      * will return {@code true}. This is a cover method that delegates to the
@@ -2013,6 +2074,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public void clearSelection() {
         getSelectionModel().clearSelection();
     }
+
 
     /**
      * Selects the specified interval. Both {@code anchor} and {@code lead}
@@ -2034,6 +2096,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public void setSelectionInterval(int anchor, int lead) {
         getSelectionModel().setSelectionInterval(anchor, lead);
     }
+
 
     /**
      * Sets the selection to be the union of the specified interval with current
@@ -2057,6 +2120,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         getSelectionModel().addSelectionInterval(anchor, lead);
     }
 
+
     /**
      * Sets the selection to be the set difference of the specified interval
      * and the current selection. Both the {@code index0} and {@code index1}
@@ -2078,6 +2142,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public void removeSelectionInterval(int index0, int index1) {
         getSelectionModel().removeSelectionInterval(index0, index1);
     }
+
 
     /**
      * Sets the selection model's {@code valueIsAdjusting} property. When
@@ -2107,6 +2172,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         getSelectionModel().setValueIsAdjusting(b);
     }
 
+
     /**
      * Returns the value of the selection model's {@code isAdjusting} property.
      * <p>
@@ -2122,6 +2188,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return getSelectionModel().getValueIsAdjusting();
     }
 
+
     /**
      * Returns an array of all of the selected indices, in increasing
      * order.
@@ -2135,6 +2202,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public int[] getSelectedIndices() {
         return getSelectionModel().getSelectedIndices();
     }
+
 
     /**
      * Selects a single cell. Does nothing if the given index is greater
@@ -2156,6 +2224,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         }
         getSelectionModel().setSelectionInterval(index, index);
     }
+
 
     /**
      * Changes the selection to be the set of indices specified by the given
@@ -2182,6 +2251,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             }
         }
     }
+
 
     /**
      * Returns an array of all the selected values, in increasing order based
@@ -2252,6 +2322,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return Collections.emptyList();
     }
 
+
     /**
      * Returns the smallest selected cell index; <i>the selection</i> when only
      * a single item is selected in the list. When multiple items are selected,
@@ -2267,6 +2338,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
     public int getSelectedIndex() {
         return getMinSelectionIndex();
     }
+
 
     /**
      * Returns the value for the smallest selected cell index;
@@ -2288,6 +2360,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return ((i == -1) || (i >= getModel().getSize())) ? null :
                 getModel().getElementAt(i);
     }
+
 
     /**
      * Selects the specified object from the list.
@@ -2316,6 +2389,8 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         repaint(); /** FIX-ME setSelectedIndex does not redraw all the time with the basic l&f**/
     }
 
+
+
     /**
      * --- The Scrollable Implementation ---
      */
@@ -2332,6 +2407,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             throw new IllegalArgumentException("orientation must be one of: VERTICAL, HORIZONTAL");
         }
     }
+
 
     /**
      * Computes the size of viewport needed to display {@code visibleRowCount}
@@ -2408,6 +2484,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             return new Dimension(fixedCellWidth, fixedCellHeight * visibleRowCount);
         }
     }
+
 
     /**
      * Returns the distance to scroll to expose the next or previous
@@ -2532,6 +2609,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         Font f = getFont();
         return (f != null) ? f.getSize() : 1;
     }
+
 
     /**
      * Returns the distance to scroll to expose the next or previous block.
@@ -2691,6 +2769,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return visibleRect.width;
     }
 
+
     /**
      * Returns {@code true} if this {@code JList} is displayed in a
      * {@code JViewport} and the viewport is wider than the list's
@@ -2745,6 +2824,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         return false;
     }
 
+
     /*
      * See {@code readObject} and {@code writeObject} in {@code JComponent}
      * for more information about serialization in Swing.
@@ -2760,6 +2840,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             }
         }
     }
+
 
     /**
      * Returns a {@code String} representation of this {@code JList}.
@@ -2787,6 +2868,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
         ",visibleRowCount=" + visibleRowCount +
         ",layoutOrientation=" + layoutOrientation;
     }
+
 
     /**
      * --- Accessibility Support ---
@@ -3043,6 +3125,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             return this;
         }
 
+
     // AccessibleSelection methods
 
         /**
@@ -3187,6 +3270,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
                 }
             }
 
+
             // Accessible Methods
            /**
             * Get the AccessibleContext for this object. In the
@@ -3198,6 +3282,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
             public AccessibleContext getAccessibleContext() {
                 return this;
             }
+
 
             // AccessibleContext methods
 
@@ -3346,6 +3431,7 @@ public class JList<E> extends JComponent implements Scrollable, Accessible
                 AccessibleContext ac = getCurrentAccessibleContext();
                 return ac != null ? ac.getAccessibleValue() : null;
             }
+
 
             // AccessibleComponent methods
 

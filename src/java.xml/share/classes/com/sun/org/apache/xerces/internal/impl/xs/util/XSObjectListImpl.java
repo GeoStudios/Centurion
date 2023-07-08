@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObject;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.lang.reflect.Array;
@@ -28,6 +29,20 @@ import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Containts a list of XSObject's.

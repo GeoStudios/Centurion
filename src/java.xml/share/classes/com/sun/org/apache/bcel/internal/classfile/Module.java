@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and represents the list of
@@ -97,6 +115,7 @@ public final class Module extends Attribute {
         }
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -119,6 +138,7 @@ public final class Module extends Attribute {
         return requiresTable;
     }
 
+
     /**
      * @return table of exported interfaces
      * @see ModuleExports
@@ -126,6 +146,7 @@ public final class Module extends Attribute {
     public ModuleExports[] getExportsTable() {
         return exportsTable;
     }
+
 
     /**
      * @return table of provided interfaces
@@ -135,6 +156,7 @@ public final class Module extends Attribute {
         return opensTable;
     }
 
+
     /**
      * @return table of provided interfaces
      * @see ModuleProvides
@@ -142,6 +164,7 @@ public final class Module extends Attribute {
     public ModuleProvides[] getProvidesTable() {
         return providesTable;
     }
+
 
     /**
      * Dump Module attribute to file stream in binary format.
@@ -182,6 +205,7 @@ public final class Module extends Attribute {
             entry.dump(file);
         }
     }
+
 
     /**
      * @return String representation, i.e., a list of packages.
@@ -224,6 +248,7 @@ public final class Module extends Attribute {
 
         return buf.substring(0, buf.length()-1); // remove the last newline
     }
+
 
     /**
      * @return deep copy of this attribute

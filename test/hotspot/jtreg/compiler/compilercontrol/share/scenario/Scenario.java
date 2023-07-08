@@ -21,6 +21,7 @@
 
 package compiler.compilercontrol.share.scenario;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.pool.PoolHelper;
 import compiler.compilercontrol.share.processors.CommandProcessor;
@@ -40,6 +41,19 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test scenario

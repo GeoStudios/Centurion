@@ -21,6 +21,7 @@
 
 package stream.XMLResolverTest;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -32,6 +33,19 @@ import javax.xml.stream.XMLStreamReader;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

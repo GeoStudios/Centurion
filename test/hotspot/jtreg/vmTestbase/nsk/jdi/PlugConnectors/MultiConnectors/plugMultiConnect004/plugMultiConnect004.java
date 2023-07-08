@@ -21,6 +21,7 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect004;
 
+
 import nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect004.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -113,6 +127,10 @@ import java.io.*;
  *      -transport.address=dynamic
  */
 
+
+
+
+
 /**
  * The test for the mechanism for creating pluggable Connectors             <BR>
  * on base of classes which implement the TransportService abstract         <BR>
@@ -190,6 +208,7 @@ public class plugMultiConnect004 {
     static final String infoLogPrefix     = "-->                      ";
     static final String emptyString = "";
 
+
     static ArgumentHandler  argsHandler;
     static Log logHandler;
 
@@ -220,6 +239,7 @@ public class plugMultiConnect004 {
         }
         return result;
     }
+
 
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;

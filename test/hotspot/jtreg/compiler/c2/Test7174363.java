@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -30,6 +44,8 @@ import java.base.share.classes.java.util.Arrays;
  *
  * @run main/othervm -XX:-BackgroundCompilation compiler.c2.Test7174363
  */
+
+
 
 public class Test7174363 {
 

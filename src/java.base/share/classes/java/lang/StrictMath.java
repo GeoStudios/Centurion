@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.util.Random;
 import jdk.internal.math.DoubleConsts;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class {@code StrictMath} contains methods for performing basic

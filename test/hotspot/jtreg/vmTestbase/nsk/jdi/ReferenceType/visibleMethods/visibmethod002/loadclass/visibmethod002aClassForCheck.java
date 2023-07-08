@@ -21,6 +21,21 @@
 
 package nsk.jdi.ReferenceType.visibleMethods;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is loaded by visibmethod002aClassLoader .
  */
@@ -45,6 +60,7 @@ class visibmethod002aClassForCheck {
     static Object  s_object_par_method(Object obj) {return new Object();}
     static long[]  s_prim_array_par_method(long[] la) {return new long[100];}
     static Object[]  s_ref_array_par_method(Object[] obja) {return new Object[100];}
+
 
     // instance methods
     void i_void_method() {}

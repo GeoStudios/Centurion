@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Notepad;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -34,6 +35,20 @@ import javax.swing.text.*;
 import javax.swing.event.*;
 import javax.swing.UIManager.LookAndFeelInfo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -41,6 +56,10 @@ import javax.swing.UIManager.LookAndFeelInfo;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * Sample application using the simple text editor component that
@@ -181,6 +200,7 @@ public class Notepad extends JPanel {
     protected JTextComponent getEditor() {
         return editor;
     }
+
 
     /**
      * To shutdown when run as an application.  This is a
@@ -466,6 +486,7 @@ public class Notepad extends JPanel {
     public static final String exitAction = "exit";
     public static final String showElementTreeAction = "showElementTree";
 
+
     class UndoHandler implements UndoableEditListener {
 
         /**
@@ -478,6 +499,7 @@ public class Notepad extends JPanel {
             redoAction.update();
         }
     }
+
 
     /**
      * FIXME - I'm not very useful yet
@@ -510,6 +532,7 @@ public class Notepad extends JPanel {
         redoAction
     };
 
+
     class UndoAction extends AbstractAction {
 
         public UndoAction() {
@@ -539,6 +562,7 @@ public class Notepad extends JPanel {
         }
     }
 
+
     class RedoAction extends AbstractAction {
 
         public RedoAction() {
@@ -567,6 +591,7 @@ public class Notepad extends JPanel {
             }
         }
     }
+
 
     class OpenAction extends NewAction {
 
@@ -606,6 +631,7 @@ public class Notepad extends JPanel {
         }
     }
 
+
     class SaveAction extends AbstractAction {
 
         SaveAction() {
@@ -627,6 +653,7 @@ public class Notepad extends JPanel {
             saver.start();
         }
     }
+
 
     class NewAction extends AbstractAction {
 
@@ -651,6 +678,7 @@ public class Notepad extends JPanel {
         }
     }
 
+
     /**
      * Really lame implementation of an exit command
      */
@@ -664,6 +692,7 @@ public class Notepad extends JPanel {
             System.exit(0);
         }
     }
+
 
     /**
      * Action that brings up a JFrame with a JTree showing the structure
@@ -703,6 +732,7 @@ public class Notepad extends JPanel {
             elementTreeFrame.setVisible(true);
         }
     }
+
 
     /**
      * Thread to load a file into the text storage model
@@ -768,6 +798,7 @@ public class Notepad extends JPanel {
         Document doc;
         File f;
     }
+
 
     /**
      * Thread to save a document to file

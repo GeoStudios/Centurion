@@ -21,9 +21,23 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodType;
 import java.security.AccessControlException;
 import java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8229785
@@ -31,6 +45,8 @@ import java.security.Permission;
  * @run main/othervm -Djava.security.manager=allow test.java.lang.invoke.MethodTypeSecurityManager
  * @run main/othervm/policy=getclassloader.policy test.java.lang.invoke.MethodTypeSecurityManager access
  */
+
+
 
 public class MethodTypeSecurityManager {
     private static boolean hasClassLoaderAccess;

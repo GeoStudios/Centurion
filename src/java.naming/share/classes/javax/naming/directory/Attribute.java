@@ -21,12 +21,27 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
+
 import java.util.Vector;
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
 import java.naming.share.classes.javax.naming.NamingException;
 import java.naming.share.classes.javax.naming.NamingEnumeration;
 import java.naming.share.classes.javax.naming.OperationNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents an attribute associated with a named object.
@@ -302,6 +317,7 @@ public interface Attribute extends Cloneable, java.io.Serializable {
      * {@code attrVal} is one of those values.
      */
     void add(int ix, Object attrVal);
+
 
     /**
      * Sets an attribute value in the ordered list of attribute values.

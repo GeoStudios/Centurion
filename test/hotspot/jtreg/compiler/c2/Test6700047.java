@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6700047
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main compiler.c2.Test6700047
  */
+
 
 public class Test6700047 {
     static byte[] dummy = new byte[256];

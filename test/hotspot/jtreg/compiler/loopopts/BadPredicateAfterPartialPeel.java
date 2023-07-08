@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8146792
@@ -32,6 +47,7 @@ package compiler.loopopts;
  *      -XX:CompileCommand=quiet
  *      compiler.loopopts.BadPredicateAfterPartialPeel
  */
+
 
 public class BadPredicateAfterPartialPeel {
 

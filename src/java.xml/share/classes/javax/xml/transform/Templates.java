@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
+
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that implements this interface is the runtime representation of processed

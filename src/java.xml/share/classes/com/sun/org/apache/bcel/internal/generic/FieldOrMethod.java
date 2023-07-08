@@ -21,16 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantCP;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Super class for InvokeInstruction and FieldInstruction, since they have
@@ -47,12 +64,14 @@ public abstract class FieldOrMethod extends CPInstruction implements LoadClass {
         // no init
     }
 
+
     /**
      * @param index to constant pool
      */
     protected FieldOrMethod(final short opcode, final int index) {
         super(opcode, index);
     }
+
 
     /** @return signature of referenced method/field.
      */
@@ -63,6 +82,7 @@ public abstract class FieldOrMethod extends CPInstruction implements LoadClass {
         return ((ConstantUtf8) cp.getConstant(cnat.getSignatureIndex())).getBytes();
     }
 
+
     /** @return name of referenced method/field.
      */
     public String getName(final ConstantPoolGen cpg) {
@@ -71,6 +91,7 @@ public abstract class FieldOrMethod extends CPInstruction implements LoadClass {
         final ConstantNameAndType cnat = (ConstantNameAndType) cp.getConstant(cmr.getNameAndTypeIndex());
         return ((ConstantUtf8) cp.getConstant(cnat.getNameIndex())).getBytes();
     }
+
 
     /**
      * @return name of the referenced class/interface
@@ -95,6 +116,7 @@ public abstract class FieldOrMethod extends CPInstruction implements LoadClass {
         return className.replace('/', '.');
     }
 
+
     /** @return type of the referenced class/interface
      * @deprecated If the instruction references an array class,
      *    the ObjectType returned will be invalid.  Use
@@ -104,6 +126,7 @@ public abstract class FieldOrMethod extends CPInstruction implements LoadClass {
     public ObjectType getClassType(final ConstantPoolGen cpg) {
         return ObjectType.getInstance(getClassName(cpg));
     }
+
 
     /**
      * Gets the reference type representing the class, interface,
@@ -123,6 +146,7 @@ public abstract class FieldOrMethod extends CPInstruction implements LoadClass {
         className = className.replace('/', '.');
         return ObjectType.getInstance(className);
     }
+
 
     /**
      * Gets the ObjectType of the method return or field.

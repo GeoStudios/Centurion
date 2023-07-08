@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.subcommon.subcommon03;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.subcommon.subcommon03;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon03.subcommon03
  */
+
 
 /* Tests the Local Common Sub-expression Elimination optimization, including duplicate
    calls to math function.
@@ -113,6 +129,7 @@ public class subcommon03 {
         arr[7] = d;
     }
 
+
     void hand_optimized() {
         c = (float)1.123456789;
         d = (float)1.010101012;
@@ -147,6 +164,7 @@ public class subcommon03 {
         arr_opt[6] = c;
         arr_opt[7] = d;
     }
+
 
     boolean eCheck() {
         boolean st = true;

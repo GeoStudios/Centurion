@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.hierarchicallayout;
 
+
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.awt.Point;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.awt.Rectangle;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.HashMap;
@@ -35,6 +36,20 @@ import com.sun.hotspot.igv.layout.LayoutManager;
 import com.sun.hotspot.igv.layout.Link;
 import com.sun.hotspot.igv.layout.Port;
 import com.sun.hotspot.igv.layout.Vertex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -180,6 +195,7 @@ public class HierarchicalClusterLayoutManager implements LayoutManager {
                 }
 
                 linkClusterIngoingConnection.put(l, conn);
+
 
                 InterClusterConnection interConn = new InterClusterConnection(outputSlotNode, inputSlotNode);
                 linkInterClusterConnection.put(l, interConn);

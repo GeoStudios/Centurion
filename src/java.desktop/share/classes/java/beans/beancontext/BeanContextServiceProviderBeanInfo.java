@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
+
 import java.desktop.share.classes.java.beans.BeanInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A BeanContextServiceProvider implementor who wishes to provide explicit

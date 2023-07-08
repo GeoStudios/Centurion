@@ -21,6 +21,21 @@
 
 package nsk.share.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Empty class, used to be sure that there are no instances of this class in target VM
  * Used in tests where subclass of test class is needed

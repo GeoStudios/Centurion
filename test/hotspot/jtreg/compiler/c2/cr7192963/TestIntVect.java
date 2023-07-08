@@ -21,6 +21,21 @@
 
 package compiler.c2.cr7192963;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7192963
@@ -28,6 +43,7 @@ package compiler.c2.cr7192963;
  *
  * @run main/othervm/timeout=400 -Xbatch -Xmx128m compiler.c2.cr7192963.TestIntVect
  */
+
 
 public class TestIntVect {
   private static final int ARRLEN = 997;

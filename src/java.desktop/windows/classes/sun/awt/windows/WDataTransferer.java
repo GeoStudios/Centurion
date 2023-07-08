@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Image;
 import java.awt.Graphics2D;
 import java.awt.Transparency;
@@ -62,6 +63,20 @@ import java.desktop.windows.classes.sun.awt.image.ImageRepresentation;
 import java.desktop.windows.classes.sun.awt.image.ToolkitImage;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.io.ByteArrayOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Platform-specific support for the data transfer subsystem.
@@ -226,6 +241,7 @@ final class WDataTransferer extends DataTransferer {
     public Object translateBytes(byte[] bytes, DataFlavor flavor, long format,
         Transferable localeTransferable) throws IOException
     {
+
 
         if (format == CF_FILEGROUPDESCRIPTORA || format == CF_FILEGROUPDESCRIPTORW) {
             if (bytes == null || !DataFlavor.javaFileListFlavor.equals(flavor)) {

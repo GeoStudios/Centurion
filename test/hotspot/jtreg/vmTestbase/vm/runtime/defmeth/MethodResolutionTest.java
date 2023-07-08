@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth;
 
+
 import java.util.Set;
 import vm.runtime.defmeth.shared.data.*;
 import vm.runtime.defmeth.shared.data.method.param.*;
@@ -28,6 +29,19 @@ import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.builder.TestBuilder;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,6 +58,9 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.MethodResolutionTest
  */
+
+
+
 
 /**
  * Tests on method resolution in presence of default methods in the hierarchy.
@@ -675,6 +692,7 @@ public class MethodResolutionTest extends DefMethTest {
             .build();
 
         ConcreteClass C = b.clazz("C").implement(I,J).build();
+
 
         // I i = new C(); ...
         b.test().callSite(I, C, "m", "()I")

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.TrayIconPeer;
@@ -30,6 +31,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.lang.reflect.InvocationTargetException;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XTrayIconPeer implements TrayIconPeer,
        InfoWindow.Balloon.LiveArguments,
@@ -86,6 +101,7 @@ public class XTrayIconPeer implements TrayIconPeer,
                 return null;
             }
         });
+
 
         if (XWM.getWMID() != XWM.METACITY_WM) {
             parentXED = dummyXED; // We don't like to leave it 'null'.
@@ -374,8 +390,10 @@ public class XTrayIconPeer implements TrayIconPeer,
         }
     }
 
+
     // ******************************************************************
     // ******************************************************************
+
 
     private void addXED(long window, XEventDispatcher xed, long mask) {
         if (window == 0) {

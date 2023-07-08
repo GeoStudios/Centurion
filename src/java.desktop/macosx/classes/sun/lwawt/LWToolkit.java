@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.*;
 import java.awt.java.util.java.util.java.util.List;
 import java.awt.datatransfer.*;
@@ -33,6 +34,20 @@ import java.desktop.macosx.classes.sun.awt.*;
 import java.desktop.macosx.classes.sun.print.*;
 import java.desktop.macosx.classes.sun.awt.util.ThreadGroupUtils;
 import static java.desktop.macosx.classes.sun.lwawt.LWWindowPeer.PeerType;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class LWToolkit extends SunToolkit implements Runnable {
 

@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marker interface for methods which are called from the JVM.
  */

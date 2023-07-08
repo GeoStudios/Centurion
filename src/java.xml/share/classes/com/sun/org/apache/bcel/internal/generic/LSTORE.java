@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LSTORE - Store long into local variable
@@ -41,9 +58,11 @@ public class LSTORE extends StoreInstruction {
         super(com.sun.org.apache.bcel.internal.Const.LSTORE, com.sun.org.apache.bcel.internal.Const.LSTORE_0);
     }
 
+
     public LSTORE(final int n) {
         super(com.sun.org.apache.bcel.internal.Const.LSTORE, com.sun.org.apache.bcel.internal.Const.LSTORE_0, n);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

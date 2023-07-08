@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
+
 import java.awt.Font;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A subclass of java.awt.Font that implements UIResource.

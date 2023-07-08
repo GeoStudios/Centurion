@@ -21,12 +21,27 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
+
 import java.io.*;
 import java.net.*;
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.util.regex.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RMIHelper {
     private static final boolean startRegistry;

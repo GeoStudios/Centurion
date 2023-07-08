@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.io.Writer;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import java.awt.Color;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MinimalHTMLWriter is a fallback writer used by the
@@ -136,6 +151,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         writeEndTag("</html>");
     }
 
+
     /**
      * Writes out all the attributes for the
      * following types:
@@ -168,6 +184,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Writes out text.
      *
@@ -198,6 +215,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         incrIndent();
     }
 
+
     /**
      * Writes out an end tag appropriately
      * indented.  Also decrements the indent level.
@@ -211,6 +229,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         write(endTag);
         write(NEWLINE);
     }
+
 
     /**
      * Writes out the &lt;head&gt; and &lt;style&gt;
@@ -232,6 +251,8 @@ public class MinimalHTMLWriter extends AbstractWriter {
         writeEndTag("</style>");
         writeEndTag("</head>");
     }
+
+
 
     /**
      * Writes out all the named styles as the
@@ -267,6 +288,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
             write("}\n");
         }
     }
+
 
     /**
      * Iterates over the elements in the document
@@ -319,6 +341,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         writeEndTag("</body>");
     }
 
+
     /**
      * Emits an end tag for a &lt;p&gt;
      * tag.  Before writing out the tag, this method ensures
@@ -336,6 +359,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         }
         writeEndTag("</p>");
     }
+
 
     /**
      * Emits the start tag for a paragraph. If
@@ -357,6 +381,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Responsible for writing out other non-text leaf
      * elements.
@@ -373,6 +398,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Responsible for handling Icon Elements;
      * deliberately unimplemented.  How to implement this method is
@@ -388,6 +414,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
     protected void writeImage(Element elem) throws IOException {
     }
 
+
     /**
      * Responsible for handling Component Elements;
      * deliberately unimplemented.
@@ -399,6 +426,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
     protected void writeComponent(Element elem) throws IOException {
     }
 
+
     /**
      * Returns true if the element is a text element.
      *
@@ -408,6 +436,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
     protected boolean isText(Element elem) {
         return (elem.getName() == AbstractDocument.ContentElementName);
     }
+
 
     /**
      * Writes out the attribute set
@@ -430,6 +459,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         writeHTMLTags(attr);
         text(elem);
     }
+
 
     /**
      * Generates
@@ -474,6 +504,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         writeStartMask(startMask);
     }
 
+
     /**
      * Tweaks the appropriate bits of fontMask
      * to reflect whether the text is to be displayed in
@@ -493,6 +524,9 @@ public class MinimalHTMLWriter extends AbstractWriter {
             fontMask |= UNDERLINE;
         }
     }
+
+
+
 
     /**
      * Writes out start tags &lt;u&gt;, &lt;i&gt;, and &lt;b&gt; based on
@@ -533,6 +567,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
             }
         }
     }
+
 
     /**
      * Writes out the remaining
@@ -596,6 +631,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Returns true if we are currently in a &lt;font&gt; tag.
      *
@@ -617,6 +653,7 @@ public class MinimalHTMLWriter extends AbstractWriter {
         writeEndTag("</font>");
         fontAttributes = null;
     }
+
 
     /**
      * This is no longer used, instead &lt;span&gt; will be written out.

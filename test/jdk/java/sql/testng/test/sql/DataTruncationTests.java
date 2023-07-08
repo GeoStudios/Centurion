@@ -21,11 +21,25 @@
 
 package test.sql;
 
+
 import java.sql.DataTruncation;
 import java.sql.SQLException;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DataTruncationTests extends BaseTest {
 

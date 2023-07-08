@@ -21,12 +21,26 @@
 
 package nsk.jdi.ByteValue.equals;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -201,6 +215,7 @@ public class equals001 {
                 case 2: if (bvplus1_1.equals(svplus1))
                             expresult = 1;
                         break;
+
 
                 default: expresult = 2;
                          break ;

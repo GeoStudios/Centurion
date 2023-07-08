@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.util.EnumSet;
 import java.util.Set;
 import java.base.share.classes.java.util.Locale;
@@ -31,6 +32,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.exten
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.PACKAGE;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVAR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Internal symbol kinds, which distinguish between elements of
  *  different subclasses of Symbol. Symbol kinds are organized so they can be

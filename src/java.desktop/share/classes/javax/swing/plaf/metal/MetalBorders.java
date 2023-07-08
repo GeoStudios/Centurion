@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
@@ -35,6 +36,20 @@ import java.awt.Graphics;
 import java.awt.Window;
 import sun.swing.StringUIClientPropertyKey;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Borders appropriate for the metal L &amp; F.
@@ -399,6 +414,7 @@ public class MetalBorders {
                 g.drawRect(x+i,y+i,w-(i*2)-1, h-(i*2)-1);
             }
 
+
             if ((window instanceof Dialog) && ((Dialog) window).isResizable()) {
                 g.setColor(highlight);
                 // Draw the Long highlight lines
@@ -435,6 +451,7 @@ public class MetalBorders {
         }
     }
 
+
     /**
      * Border for a QuestionDialog.  Also used for a JFileChooser and a
      * JColorChooser..
@@ -447,6 +464,7 @@ public class MetalBorders {
         }
     }
 
+
     /**
      * Border for a Warning Dialog.
      */
@@ -457,6 +475,7 @@ public class MetalBorders {
             return UIManager.getColor("OptionPane.warningDialog.border.background");
         }
     }
+
 
     /**
      * Border for a Palette.
@@ -960,6 +979,7 @@ public class MetalBorders {
             int rowHeaderWidth = 0;
             if (rowHeader != null)
                rowHeaderWidth = rowHeader.getWidth();
+
 
             g.translate( x, y);
 

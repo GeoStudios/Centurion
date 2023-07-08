@@ -21,9 +21,24 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import org.xml.sax.*;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the <code>EntityResolver</code> interface, which
@@ -43,6 +58,9 @@ public class XmlResolver implements EntityResolver {
               // use the default behaviour
               return null;
            }
+
+
+
 
        }
 }

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import javax.swing.*;
 import javax.swing.filechooser.*;
 import javax.swing.event.*;
@@ -35,6 +36,20 @@ import java.desktop.share.classes.com.sun.java.io.java.io.java.io.java.io.IOExce
 import java.desktop.share.classes.com.sun.java.util.*;
 import java.desktop.share.classes.com.sun.awt.shell.ShellFolder;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif FileChooserUI.
@@ -319,6 +334,7 @@ public class MotifFileChooserUI extends BasicFileChooserUI {
 
         interior.add(Box.createRigidArea(vstrut10));
 
+
         // CENTER: left, right accessory
         JPanel centerPanel = new JPanel();
         centerPanel.setLayout(new BoxLayout(centerPanel, BoxLayout.LINE_AXIS));
@@ -367,6 +383,7 @@ public class MotifFileChooserUI extends BasicFileChooserUI {
         l.setLabelFor(sp.getViewport().getView());
         leftPanel.add(sp);
         leftPanel.setInheritsPopupMenu(true);
+
 
         // create files list
         JPanel rightPanel = new JPanel();
@@ -767,6 +784,7 @@ public class MotifFileChooserUI extends BasicFileChooserUI {
     protected FilterComboBoxRenderer createFilterComboBoxRenderer() {
         return new FilterComboBoxRenderer();
     }
+
 
     /**
      * Render different type sizes and styles.

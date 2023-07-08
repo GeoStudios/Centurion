@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
+
 import java.xml.share.classes.org.w3c.dom.traversal.NodeFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>LSSerializerFilter</code>s provide applications the ability to

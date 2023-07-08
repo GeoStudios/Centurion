@@ -21,6 +21,22 @@
 
 package java.management.share.classes.sun.management.counter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface for performance counter wrapping <code>long[]</code> objects.
  *

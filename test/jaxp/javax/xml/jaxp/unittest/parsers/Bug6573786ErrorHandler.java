@@ -21,9 +21,23 @@
 
 package parsers;
 
+
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Bug6573786ErrorHandler extends DefaultHandler {
     public boolean fail = false;

@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** This is a type-safe enum mirroring the ThreadState enum in
  osThread.hpp. The conversion between the underlying ints
  and these values is done in OSThread. */

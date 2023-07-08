@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Information about a class being parsed in a {@link ClassReader}.
  *

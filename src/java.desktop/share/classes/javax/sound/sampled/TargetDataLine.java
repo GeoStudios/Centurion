@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A target data line is a type of {@link DataLine} from which audio data can be
  * read. The most common example is a data line that gets its data from an audio

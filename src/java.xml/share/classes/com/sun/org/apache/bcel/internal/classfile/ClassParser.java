@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
@@ -30,10 +31,27 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Wrapper class that parses a given Java .class file. The method <A
@@ -67,6 +85,7 @@ public final class ClassParser {
     private final boolean isZip; // Loaded from zip file
     private static final int BUFSIZE = 8192;
 
+
     /**
      * Parses class from the given stream.
      *
@@ -85,6 +104,7 @@ public final class ClassParser {
         }
     }
 
+
     /** Parses class from given .class file.
      *
      * @param fileName file name
@@ -94,6 +114,7 @@ public final class ClassParser {
         this.fileName = fileName;
         fileOwned = true;
     }
+
 
     /** Parses class from given .class file in a ZIP-archive
      *
@@ -106,6 +127,7 @@ public final class ClassParser {
         this.zipFile = zipFile;
         this.fileName = fileName;
     }
+
 
     /**
      * Parses the given Java class file and return an object that represents
@@ -196,6 +218,7 @@ public final class ClassParser {
                         : JavaClass.FILE);
     }
 
+
     /**
      * Reads information about the attributes of the class.
      * @throws  IOException
@@ -208,6 +231,7 @@ public final class ClassParser {
             attributes[i] = Attribute.readAttribute(dataInputStream, constantPool);
         }
     }
+
 
     /**
      * Reads information about the class and its super class.
@@ -230,6 +254,7 @@ public final class ClassParser {
         superclassNameIndex = dataInputStream.readUnsignedShort();
     }
 
+
     /**
      * Reads constant pool entries.
      * @throws  IOException
@@ -238,6 +263,7 @@ public final class ClassParser {
     private void readConstantPool() throws IOException, ClassFormatException {
         constantPool = new ConstantPool(dataInputStream);
     }
+
 
     /**
      * Reads information about the fields of the class, i.e., its variables.
@@ -252,6 +278,7 @@ public final class ClassParser {
         }
     }
 
+
     /******************** Private utility methods **********************/
     /**
      * Checks whether the header of the file is ok.
@@ -264,6 +291,7 @@ public final class ClassParser {
             throw new ClassFormatException(fileName + " is not a Java .class file");
         }
     }
+
 
     /**
      * Reads information about the interfaces implemented by this class.
@@ -278,6 +306,7 @@ public final class ClassParser {
         }
     }
 
+
     /**
      * Reads information about the methods of the class.
      * @throws  IOException
@@ -290,6 +319,7 @@ public final class ClassParser {
             methods[i] = new Method(dataInputStream, constantPool);
         }
     }
+
 
     /**
      * Reads major and minor version of compiler which created the file.

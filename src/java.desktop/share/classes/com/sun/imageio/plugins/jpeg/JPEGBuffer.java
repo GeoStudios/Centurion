@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class wrapping a buffer and its state.  For efficiency,

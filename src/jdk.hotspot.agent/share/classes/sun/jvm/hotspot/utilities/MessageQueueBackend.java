@@ -21,11 +21,27 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
 import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The backend for the message queue abstraction. This class is
     instantiated first and queried to provide the two "sides" of the
     message queue. */
+
 
 public class MessageQueueBackend {
   // The two queues

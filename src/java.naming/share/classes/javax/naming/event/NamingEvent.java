@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming.event;
 
+
 import java.naming.share.classes.javax.naming.Binding;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class represents an event fired by a naming/directory service.

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.desktop.share.classes.javax.swing.MenuElement;
 import java.desktop.share.classes.javax.swing.MenuSelectionManager;
 import java.util.EventObject;
 import java.awt.event.MouseEvent;
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MenuDragMouseEvent is used to notify interested parties that

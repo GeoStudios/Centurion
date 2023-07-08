@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.org.xml.sax.XMLReader;
 import java.xml.share.classes.org.xml.sax.XMLFilter;
@@ -35,6 +36,20 @@ import java.xml.share.classes.org.xml.sax.SAXException;
 import java.xml.share.classes.org.xml.sax.SAXParseException;
 import java.xml.share.classes.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.org.xml.sax.SAXNotRecognizedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for deriving an XML filter.
@@ -57,9 +72,11 @@ public class XMLFilterImpl
     implements XMLFilter, EntityResolver, DTDHandler, ContentHandler, ErrorHandler
 {
 
+
     ////////////////////////////////////////////////////////////////////
     // Constructors.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Construct an empty XML filter, with no parent.
@@ -78,6 +95,7 @@ public class XMLFilterImpl
         super();
     }
 
+
     /**
      * Construct an XML filter with the specified parent.
      *
@@ -91,9 +109,12 @@ public class XMLFilterImpl
         setParent(parent);
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.XMLFilter.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set the parent reader.
@@ -113,6 +134,7 @@ public class XMLFilterImpl
         this.parent = parent;
     }
 
+
     /**
      * Get the parent reader.
      *
@@ -124,9 +146,12 @@ public class XMLFilterImpl
         return parent;
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.XMLReader.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set the value of a feature.
@@ -151,6 +176,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Look up the value of a feature.
      *
@@ -173,6 +199,7 @@ public class XMLFilterImpl
             throw new SAXNotRecognizedException("Feature: " + name);
         }
     }
+
 
     /**
      * Set the value of a property.
@@ -197,6 +224,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Look up the value of a property.
      *
@@ -218,6 +246,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Set the entity resolver.
      *
@@ -227,6 +256,7 @@ public class XMLFilterImpl
     {
         entityResolver = resolver;
     }
+
 
     /**
      * Get the current entity resolver.
@@ -238,6 +268,7 @@ public class XMLFilterImpl
         return entityResolver;
     }
 
+
     /**
      * Set the DTD event handler.
      *
@@ -247,6 +278,7 @@ public class XMLFilterImpl
     {
         dtdHandler = handler;
     }
+
 
     /**
      * Get the current DTD event handler.
@@ -258,6 +290,7 @@ public class XMLFilterImpl
         return dtdHandler;
     }
 
+
     /**
      * Set the content event handler.
      *
@@ -267,6 +300,7 @@ public class XMLFilterImpl
     {
         contentHandler = handler;
     }
+
 
     /**
      * Get the content event handler.
@@ -278,6 +312,7 @@ public class XMLFilterImpl
         return contentHandler;
     }
 
+
     /**
      * Set the error event handler.
      *
@@ -288,6 +323,7 @@ public class XMLFilterImpl
         errorHandler = handler;
     }
 
+
     /**
      * Get the current error event handler.
      *
@@ -297,6 +333,7 @@ public class XMLFilterImpl
     {
         return errorHandler;
     }
+
 
     /**
      * Parse a document.
@@ -315,6 +352,7 @@ public class XMLFilterImpl
         parent.parse(input);
     }
 
+
     /**
      * Parse a document.
      *
@@ -331,9 +369,12 @@ public class XMLFilterImpl
         parse(new InputSource(systemId));
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.EntityResolver.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Filter an external entity resolution.
@@ -357,9 +398,12 @@ public class XMLFilterImpl
         }
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.DTDHandler.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Filter a notation declaration event.
@@ -377,6 +421,7 @@ public class XMLFilterImpl
             dtdHandler.notationDecl(name, publicId, systemId);
         }
     }
+
 
     /**
      * Filter an unparsed entity declaration event.
@@ -398,9 +443,12 @@ public class XMLFilterImpl
         }
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.ContentHandler.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Filter a new document locator event.
@@ -414,6 +462,7 @@ public class XMLFilterImpl
             contentHandler.setDocumentLocator(locator);
         }
     }
+
 
     /**
      * Filter a start document event.
@@ -429,6 +478,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter an end document event.
      *
@@ -442,6 +492,7 @@ public class XMLFilterImpl
             contentHandler.endDocument();
         }
     }
+
 
     /**
      * Filter a start Namespace prefix mapping event.
@@ -459,6 +510,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter an end Namespace prefix mapping event.
      *
@@ -473,6 +525,7 @@ public class XMLFilterImpl
             contentHandler.endPrefixMapping(prefix);
         }
     }
+
 
     /**
      * Filter a start element event.
@@ -494,6 +547,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter an end element event.
      *
@@ -512,6 +566,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter a character data event.
      *
@@ -528,6 +583,7 @@ public class XMLFilterImpl
             contentHandler.characters(ch, start, length);
         }
     }
+
 
     /**
      * Filter an ignorable whitespace event.
@@ -546,6 +602,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter a processing instruction event.
      *
@@ -562,6 +619,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter a skipped entity event.
      *
@@ -577,9 +635,12 @@ public class XMLFilterImpl
         }
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.ErrorHandler.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Filter a warning event.
@@ -596,6 +657,7 @@ public class XMLFilterImpl
         }
     }
 
+
     /**
      * Filter an error event.
      *
@@ -610,6 +672,7 @@ public class XMLFilterImpl
             errorHandler.error(e);
         }
     }
+
 
     /**
      * Filter a fatal error event.
@@ -626,9 +689,12 @@ public class XMLFilterImpl
         }
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Internal methods.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set up before a parse.
@@ -647,6 +713,8 @@ public class XMLFilterImpl
         parent.setContentHandler(this);
         parent.setErrorHandler(this);
     }
+
+
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.

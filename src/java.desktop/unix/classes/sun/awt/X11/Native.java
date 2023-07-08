@@ -21,10 +21,25 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import jdk.internal.misc.Unsafe;
 import java.util.Vector;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains the collection of utility functions to help work with
@@ -70,6 +85,7 @@ class Native {
     static boolean getBool(long ptr, int index) { return getInt(ptr, index) != 0; }
     static void putBool(long ptr, boolean data) { putInt(ptr, (data)?(1):(0)); }
     static void putBool(long ptr, int index, boolean data) { putInt(ptr, index, (data)?(1):(0)); }
+
 
     /**
      * Access to C byte data(one byte)
@@ -370,6 +386,7 @@ class Native {
         return res;
     }
 
+
     /**
      * Access to C "unsigned long" date type, which is XID in X
      */
@@ -394,6 +411,7 @@ class Native {
         return unsafe.allocateMemory((long) getLongSize() * length);
     }
 
+
     static long getWindow(long ptr) {
         return getLong(ptr);
     }
@@ -416,6 +434,7 @@ class Native {
     static int getWindowSize() {
         return getLongSize();
     }
+
 
     /**
      * Set of function to access CARD32 type. All data which types are derived

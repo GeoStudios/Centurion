@@ -21,11 +21,25 @@
 
 package jit.graph;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.TestFailure;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class test5 {
     private final int[] MethodID = {Globals.MethodID_Array[7],
@@ -222,6 +236,7 @@ class test5 {
         Globals.callMethod(methodCallStr, summation, ID, numFcalls, staticFcalls);
     }
 
+
     public void combTest(Vector summation, Vector ID, Long functionDepth, Integer staticFunctionDepth)
             throws InvocationTargetException {
         Globals.appendSumToSummationVector(MethodID[2], summation);
@@ -262,6 +277,7 @@ class test5 {
         Globals.addFunctionIDToVector(methodCallStr.id, ID);
         Globals.callMethod(methodCallStr, summation, ID, numFcalls, staticFcalls);
     }
+
 
     public void pascalTest(Vector summation, Vector ID, Long functionDepth, Integer staticFunctionDepth)
             throws InvocationTargetException {

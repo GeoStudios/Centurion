@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note: State of the content model is stored in the validator
@@ -34,6 +49,7 @@ import java.util.java.util.java.util.java.util.List;
  * @LastModified: Oct 2017
  */
 public interface XSCMValidator {
+
 
     short FIRST_ERROR = -1;
 
@@ -50,6 +66,7 @@ public interface XSCMValidator {
      */
     int[] startContentModel();
 
+
     /**
      * The method corresponds to one transaction in the content model.
      *
@@ -59,6 +76,7 @@ public interface XSCMValidator {
      *         corresponds to the element from the Schema grammar
      */
     Object oneTransition (QName elementName, int[] state, SubstitutionGroupHandler subGroupHandler);
+
 
     /**
      * The method indicates the end of list of children

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.lang.ref.SoftReference;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the superclass for Paints which use a multiple color

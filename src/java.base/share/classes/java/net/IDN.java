@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.security.AccessController;
@@ -28,6 +29,20 @@ import java.base.share.classes.java.security.PrivilegedAction;
 import jdk.internal.icu.impl.Punycode;
 import jdk.internal.icu.text.StringPrep;
 import jdk.internal.icu.text.UCharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods to convert internationalized domain names (IDNs) between
@@ -78,6 +93,7 @@ public final class IDN {
      */
     public static final int USE_STD3_ASCII_RULES = 0x02;
 
+
     /**
      * Translates a string from Unicode to ASCII Compatible Encoding (ACE),
      * as defined by the ToASCII operation of <a href="http://www.ietf.org/rfc/rfc3490.txt">RFC 3490</a>.
@@ -124,6 +140,7 @@ public final class IDN {
         return out.toString();
     }
 
+
     /**
      * Translates a string from Unicode to ASCII Compatible Encoding (ACE),
      * as defined by the ToASCII operation of <a href="http://www.ietf.org/rfc/rfc3490.txt">RFC 3490</a>.
@@ -143,6 +160,7 @@ public final class IDN {
     public static String toASCII(String input) {
         return toASCII(input, 0);
     }
+
 
     /**
      * Translates a string from ASCII Compatible Encoding (ACE) to Unicode,
@@ -183,6 +201,7 @@ public final class IDN {
         return out.toString();
     }
 
+
     /**
      * Translates a string from ASCII Compatible Encoding (ACE) to Unicode,
      * as defined by the ToUnicode operation of <a href="http://www.ietf.org/rfc/rfc3490.txt">RFC 3490</a>.
@@ -200,6 +219,7 @@ public final class IDN {
     public static String toUnicode(String input) {
         return toUnicode(input, 0);
     }
+
 
     /* ---------------- Private members -------------- */
 
@@ -235,7 +255,9 @@ public final class IDN {
         }
     }
 
+
     /* ---------------- Private operations -------------- */
+
 
     //
     // to suppress the default zero-argument constructor
@@ -388,6 +410,7 @@ public final class IDN {
         // just return the input
         return label;
     }
+
 
     //
     // LDH stands for "letter/digit/hyphen", with characters restricted to the

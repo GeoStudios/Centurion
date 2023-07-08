@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class RecordComponentWriter extends RecordComponentVisitor {
     /** Where the constants used in this RecordComponentWriter must be stored. */
     private final SymbolTable symbolTable;

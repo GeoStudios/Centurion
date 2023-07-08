@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import sun.swing.SwingUtilities2;
 import java.util.*;
 import java.awt.*;
@@ -32,6 +33,20 @@ import java.desktop.share.classes.javax.swing.UIManager;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Support for defining the visual characteristics of
@@ -1726,6 +1741,7 @@ public class StyleSheet extends StyleContext {
         return fontSizeInherit;
     }
 
+
     /**
      * A temporary class used to hold a Vector, a StringBuffer and a
      * Hashtable. This is used to avoid allocing a lot of garbage when
@@ -1803,6 +1819,7 @@ public class StyleSheet extends StyleContext {
             }
         }
     }
+
 
     static final Border noBorder = new EmptyBorder(0,0,0,0);
 
@@ -2473,6 +2490,7 @@ public class StyleSheet extends StyleContext {
             }
         }
 
+
         /**
          * Converts the item number into a roman numeral
          *
@@ -2511,6 +2529,7 @@ public class StyleSheet extends StyleContext {
         private final int bulletgap = 5;
         private boolean isLeftToRight;
     }
+
 
     /**
      * Paints the background image.
@@ -2677,6 +2696,7 @@ public class StyleSheet extends StyleContext {
             return true;
         }
     }
+
 
     /**
      * A subclass of MuxingAttributeSet that translates between
@@ -2846,6 +2866,7 @@ public class StyleSheet extends StyleContext {
         /** View created for. */
         View host;
     }
+
 
     /**
      * A subclass of MuxingAttributeSet that implements Style. Currently
@@ -3079,6 +3100,7 @@ public class StyleSheet extends StyleContext {
         private int extendedIndex;
     }
 
+
     /**
      * SelectorMapping contains a specifitiy, as an integer, and an associated
      * Style. It can also reference children <code>SelectorMapping</code>s,
@@ -3190,6 +3212,7 @@ public class StyleSheet extends StyleContext {
         private HashMap<String, SelectorMapping> children;
     }
 
+
     // ---- Variables ---------------------------------------------
 
     static final int DEFAULT_FONT_SIZE = 3;
@@ -3213,6 +3236,7 @@ public class StyleSheet extends StyleContext {
 
     /** Where the style sheet was found. Used for relative imports. */
     private URL base;
+
 
     /**
      * Default parser for CSS specifications that get loaded into
@@ -3360,6 +3384,7 @@ public class StyleSheet extends StyleContext {
             selectors.addElement(selector);
             selectorTokens.removeAllElements();
         }
+
 
         Vector<String[]> selectors = new Vector<String[]>();
         Vector<String> selectorTokens = new Vector<String>();

@@ -21,6 +21,7 @@
 
 package nsk.jdi.VirtualMachine.dispose;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -28,6 +29,19 @@ import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -138,6 +152,7 @@ public class dispose004 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -182,6 +197,7 @@ public class dispose004 {
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
+
 
             label0: {
 
@@ -232,6 +248,7 @@ public class dispose004 {
                 vm.suspend();
                 log2("      resuming debuggee's main thread");
                 mainThread.resume();
+
 
                 log2("      checking up on mainThread state: not suspened is expected");
                 if (!mainThread.isSuspended()) {

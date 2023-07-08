@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.threadGroup;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,12 +31,29 @@ import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 
 // ThreadReference  Interface Name      ThreadReference
 // threadGroup  Method Name             threadGroup
 // threadgroup001  Test Name            threadgroup001
 // ------------------------------------------------------
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -154,6 +172,7 @@ public class threadgroup001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -241,6 +260,7 @@ public class threadgroup001 {
                 log2("      getting a List of all running threads");
                 threads = vm.allThreads();
 
+
                 log2("      getting Thread 2,3,4 mirror objects");
 
                 iterator = threads.listIterator();
@@ -255,6 +275,7 @@ public class threadgroup001 {
                          thread4 = thread;
                 }
 
+
                 log2("......checking up Thread2's group");
                 if (!thread2.threadGroup().equals(groups[1])) {
                     log3("ERROR: !thread2.threadGroup.equals(groups[1])");
@@ -267,11 +288,13 @@ public class threadgroup001 {
                     expresult = 1;
                 }
 
+
                 log2("......checking up Thread4's group");
                 if (!thread4.threadGroup().equals(groups[3])) {
                     log3("ERROR: !thread4.threadGroup.equals(groups[3])");
                     expresult = 1;
                 }
+
 
                 log2("......instructing mainThread to leave synchronized block");
                 pipe.println("continue");

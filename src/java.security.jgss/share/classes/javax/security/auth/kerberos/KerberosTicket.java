@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
+
 import java.io.*;
 import java.util.Date;
 import java.base.share.classes.java.util.Arrays;
@@ -32,6 +33,20 @@ import java.security.jgss.share.classes.javax.security.auth.Destroyable;
 import java.security.jgss.share.classes.javax.security.auth.RefreshFailedException;
 import java.security.jgss.share.classes.javax.security.auth.DestroyFailedException;
 import sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos ticket and associated
@@ -424,6 +439,7 @@ public class KerberosTicket implements Destroyable, Refreshable,
     public final boolean isProxy() {
         return flags != null && flags[PROXY_TICKET_FLAG];
     }
+
 
     /**
      * Determines is this ticket is post-dated.

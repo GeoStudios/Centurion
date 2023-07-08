@@ -21,12 +21,26 @@
 
 package nsk.jdi.Accessible.isPackagePrivate;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks if the method <code>isPackagePrivate()</code>
@@ -41,8 +55,10 @@ public class accipp001 extends Log {
         thisClassName = "nsk.jdi.Accessible.isPackagePrivate.accipp001",
         debugeeName   = thisClassName + "a";
 
+
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
+
 
     /** Debugee's classes which status (private or public) is known. */
     private final static String knownClasses[][] = {
@@ -104,6 +120,7 @@ public class accipp001 extends Log {
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
 
+
         if (argsHandler.verbose()) {
             debugee = binder.bindToDebugee(debugeeName + " -vbs");
         } else {
@@ -111,6 +128,7 @@ public class accipp001 extends Log {
         }
 
         IOPipe pipe     = new IOPipe(debugee);
+
 
         debugee.redirectStderr(out);
         debugee.resume();

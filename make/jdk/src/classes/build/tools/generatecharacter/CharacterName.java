@@ -21,6 +21,56 @@
 
 package build.tools.generatecharacter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class CharacterName {
 
     public static void main(String[] args) {

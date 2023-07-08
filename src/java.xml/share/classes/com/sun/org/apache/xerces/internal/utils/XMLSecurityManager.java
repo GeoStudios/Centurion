@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SecurityManager;
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import jdk.xml.internal.JdkConstants;
@@ -28,6 +29,20 @@ import jdk.xml.internal.JdkProperty.State;
 import jdk.xml.internal.JdkProperty.ImplPropMap;
 import jdk.xml.internal.SecuritySupport;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages standard and implementation-specific limitations.
@@ -168,6 +183,7 @@ public final class XMLSecurityManager {
      * States that determine if properties are set explicitly
      */
     private final boolean[] isSet;
+
 
     /**
      * Index of the special entityCountInfo property
@@ -492,6 +508,7 @@ public final class XMLSecurityManager {
         }
     }
 
+
     /**
      * Indicate if a property is set explicitly
      * @param index
@@ -568,6 +585,7 @@ public final class XMLSecurityManager {
         }
         return false;
     }
+
 
     /**
      * Convert a value set through setProperty to XMLSecurityManager.

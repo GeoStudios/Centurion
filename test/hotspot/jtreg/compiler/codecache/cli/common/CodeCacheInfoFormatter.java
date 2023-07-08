@@ -21,8 +21,22 @@
 
 package compiler.codecache.cli.common;
 
+
 import sun.hotspot.code.BlobType;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CodeCacheInfoFormatter {
     private static final String DEFAULT_SIZE_FORMAT = "[0-9]+Kb";

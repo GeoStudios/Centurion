@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  The <code>Rect</code> interface is used to represent any rect value. This
  * interface reflects the values in the underlying style property. Hence,

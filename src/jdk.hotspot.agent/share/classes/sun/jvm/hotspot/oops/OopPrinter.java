@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OopPrinter implements OopVisitor {
   public OopPrinter(PrintStream tty) {
@@ -39,9 +54,11 @@ public class OopPrinter implements OopVisitor {
     tty.println();
   }
 
+
   private Oop obj;
   public void setObj(Oop obj) { this.obj = obj; }
   public Oop getObj() { return obj; }
+
 
   private void printField(Field field) {
     field.printOn(tty);

@@ -21,7 +21,22 @@
 
 package utils.IdealGraphVisualizer.Settings.src.main.java.com.sun.hotspot.igv.settings;
 
+
 import utils.IdealGraphVisualizer.Settings.src.main.java.util.prefs.Preferences;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

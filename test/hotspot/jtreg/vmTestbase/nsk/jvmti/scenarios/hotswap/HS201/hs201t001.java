@@ -21,11 +21,26 @@
 
 package nsk.jvmti.scenarios.hotswap.HS201;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class hs201t001 extends DebugeeClass {
+
 
     static final String PACKAGE_NAME = "nsk.jvmti.scenarios.hotswap.HS201";
     static final String TESTED_EXCEPTION_NAME = PACKAGE_NAME + ".hs201t001a";

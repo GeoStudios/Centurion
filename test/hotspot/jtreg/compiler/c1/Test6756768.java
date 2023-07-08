@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6756768
@@ -28,6 +43,7 @@ package compiler.c1;
  *
  * @run main/othervm -Xcomp compiler.c1.Test6756768
  */
+
 
 class Test6756768a
 {

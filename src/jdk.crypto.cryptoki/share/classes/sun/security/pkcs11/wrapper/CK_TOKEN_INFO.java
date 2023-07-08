@@ -21,6 +21,22 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * class CK_TOKEN_INFO provides information about a token.<p>
  * <B>PKCS#11 structure:</B>

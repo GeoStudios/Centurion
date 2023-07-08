@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.CompilerException;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.SourceLoader;
@@ -43,6 +44,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of a JAXP1.1 TemplatesHandler
@@ -108,6 +123,7 @@ public class TemplatesHandlerImpl
                 tfactory.getAttribute(XMLConstants.ACCESS_EXTERNAL_DTD));
         xsltc.setProperty(JdkConstants.SECURITY_MANAGER,
                 tfactory.getAttribute(JdkConstants.SECURITY_MANAGER));
+
 
         xsltc.setTemplateInlining("true".equals(tfactory.getAttribute(TransformerFactoryImpl.ENABLE_INLINING)));
 

@@ -21,12 +21,26 @@
 
 package nsk.jdi.LocalVariable.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -217,6 +231,7 @@ public class hashcode001 {
                 LocalVariable lVar2 = (LocalVariable) lVars2.get(0);
                 LocalVariable lVar3 = (LocalVariable) lVars3.get(0);
                 LocalVariable lVar4 = (LocalVariable) lVars4.get(0);
+
 
                 if (lVar1.hashCode() != lVar2.hashCode()) {
                     testExitCode = FAILED;

@@ -21,9 +21,23 @@
 
 package nsk.jdi.Field.isTransient;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class istrans001a {
     boolean z0, z1[]={z0}, z2[][]={z1};

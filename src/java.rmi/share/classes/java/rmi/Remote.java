@@ -21,6 +21,22 @@
 
 package java.rmi.share.classes.java.rmi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The <code>Remote</code> interface serves to identify interfaces whose
  * methods may be invoked from a non-local virtual machine.  Any object that

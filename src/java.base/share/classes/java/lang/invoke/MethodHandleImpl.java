@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import jdk.internal.access.JavaLangInvokeAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.invoke.NativeEntryPoint;
@@ -52,6 +53,20 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Trusted implementation code for MethodHandle.
@@ -633,6 +648,7 @@ abstract class MethodHandleImpl {
         assert(mh.type() == type);
         return mh;
     }
+
 
     static MethodHandle profile(MethodHandle target) {
         if (DONT_INLINE_THRESHOLD >= 0) {

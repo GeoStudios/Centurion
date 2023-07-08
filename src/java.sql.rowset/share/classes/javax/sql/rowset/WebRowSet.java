@@ -21,12 +21,27 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
+
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.sql.rowset.share.classes.javax.naming.*;
 import java.io.*;
 import java.math.*;
 import org.xml.sax.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard interface that all implementations of a {@code WebRowSet}

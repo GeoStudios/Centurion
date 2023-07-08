@@ -21,6 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The mapping in the Java programming language of an SQL {@code REF}
  * value, which is a reference to an SQL structured type value in the database.
@@ -77,6 +93,7 @@ public interface Ref {
      * @see #setObject
      */
     Object getObject(java.util.Map<String,Class<?>> map) throws SQLException;
+
 
     /**
      * Retrieves the SQL structured type instance referenced by

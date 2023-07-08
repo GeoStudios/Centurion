@@ -21,6 +21,21 @@
 
 package compiler.intrinsics.mathexact;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -32,6 +47,7 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.MulExactILoadTest
  */
+
 
 public class MulExactILoadTest {
     public static void main(String[] args) {

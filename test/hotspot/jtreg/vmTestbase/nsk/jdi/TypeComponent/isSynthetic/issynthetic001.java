@@ -21,12 +21,26 @@
 
 package nsk.jdi.TypeComponent.isSynthetic;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class issynthetic001 {
     final static String FIELD_NAME[] = {

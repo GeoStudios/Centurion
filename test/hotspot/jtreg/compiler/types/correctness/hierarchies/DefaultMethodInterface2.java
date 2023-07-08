@@ -21,6 +21,21 @@
 
 package compiler.types.correctness.hierarchies;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class DefaultMethodInterface2 {
     private DefaultMethodInterface2() {
     }

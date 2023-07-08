@@ -21,9 +21,23 @@
 
 package nsk.share.test;
 
+
 import nsk.share.log.*;
 import nsk.share.runner.*;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Tests {
         protected static class TestRunner {
@@ -70,6 +84,7 @@ public class Tests {
                         return runner;
                 }
 
+
                 public void execute(Object o) {
                         if (o instanceof Initializable)
                                 ((Initializable) o).initialize();
@@ -93,6 +108,7 @@ public class Tests {
                         execute(test);
                 }
         }
+
 
         public static void runTest(Test test, String[] args) {
                 new TestRunner(test, args).run();

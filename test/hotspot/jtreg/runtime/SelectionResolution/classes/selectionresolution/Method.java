@@ -21,6 +21,7 @@
 
 package selectionresolution;
 
+
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.Handle;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -45,6 +46,19 @@ import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKESPECIAL;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKESTATIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKEINTERFACE;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKEVIRTUAL;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Method {
     public static final String defaultMethodName        = "m";
@@ -188,6 +202,7 @@ class Method {
 
         return new Handle(H_INVOKESTATIC, ownerClassName, bootstrapName, bootstrapType.toMethodDescriptorString());
     }
+
 
     private static Handle convertToHandle(int invokeInstruction, String className, String methodName, String methodDesc) {
         int tag;

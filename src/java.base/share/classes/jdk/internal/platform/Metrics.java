@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.platform;
 
+
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Operating System Metrics class
@@ -65,6 +80,7 @@ public interface Metrics {
      *
      */
     String getProvider();
+
 
     /*****************************************************************
      * CPU Accounting Subsystem
@@ -142,6 +158,7 @@ public interface Metrics {
      */
     long getCpuQuota();
 
+
     /**
      * Returns the relative weighting of processes with the Isolation
      * Group used for prioritizing the scheduling of processes across
@@ -192,6 +209,7 @@ public interface Metrics {
      *
      */
     long getCpuThrottledTime();
+
 
     /**
      * Returns the number of effective processors that this Isolation

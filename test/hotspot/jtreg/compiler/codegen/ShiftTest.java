@@ -21,12 +21,28 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4093292
  * @summary Test for correct code generation by the JIT
  * @run main compiler.codegen.ShiftTest
  */
+
 
 public class ShiftTest {
     static final int w = 32;

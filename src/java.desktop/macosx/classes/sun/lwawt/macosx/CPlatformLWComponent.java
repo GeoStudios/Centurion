@@ -21,7 +21,22 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CPlatformLWComponent extends CPlatformComponent {
 

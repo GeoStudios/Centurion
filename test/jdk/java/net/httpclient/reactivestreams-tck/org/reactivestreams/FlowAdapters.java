@@ -21,8 +21,22 @@
 
 package org.reactivestreams;
 
+
 import java.util.concurrent.Flow;
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Bridge between Reactive Streams API and the Java 9 {@link java.util.concurrent.Flow} API.
@@ -203,6 +217,7 @@ public final class FlowAdapters {
         public void cancel() {
             flow.cancel();
         }
+
 
     }
 

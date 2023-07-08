@@ -21,10 +21,24 @@
 
 package gc.TestJNIWeak;
 
+
 import sun.hotspot.gc.GC;
 import sun.hotspot.WhiteBox;
 import jtreg.SkippedException;
 import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8166188 8178813
@@ -45,6 +59,7 @@ import java.lang.ref.Reference;
  *    -Xcomp
  *    gc.TestJNIWeak.TestJNIWeak
  */
+
 
 public final class TestJNIWeak {
 

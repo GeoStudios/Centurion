@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt;
 
+
 import java.awt.AWTError;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
@@ -34,6 +35,20 @@ import java.desktop.windows.classes.sun.java2d.SurfaceManagerFactory;
 import java.desktop.windows.classes.sun.java2d.WindowsSurfaceManagerFactory;
 import java.desktop.windows.classes.sun.java2d.d3d.D3DGraphicsDevice;
 import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the
@@ -121,6 +136,7 @@ public final class Win32GraphicsEnvironment extends SunGraphicsEnvironment {
      */
     public native int getYResolution();
 
+
 /*
  * ----DISPLAY CHANGE SUPPORT----
  */
@@ -202,6 +218,7 @@ public final class Win32GraphicsEnvironment extends SunGraphicsEnvironment {
         displayChanger.notifyListeners();
         // note: do not call super.displayChanged, we've already done everything
     }
+
 
 /*
  * ----END DISPLAY CHANGE SUPPORT----

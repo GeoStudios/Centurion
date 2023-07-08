@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.print;
 
+
 import java.net.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code URIException} is a mixin interface which a subclass of

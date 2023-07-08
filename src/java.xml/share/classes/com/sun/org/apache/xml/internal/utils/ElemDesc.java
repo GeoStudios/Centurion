@@ -21,12 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: ElemDesc.java,v 1.2.4.1 2005/09/15 08:15:44 suresh_emailid Exp $
  */
+
+
+
 
 /**
  * This class is in support of SerializerToHTML, and acts as a sort

@@ -21,12 +21,27 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.Insets;
 import java.awt.event.ComponentEvent;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements window which serves as content window for decorated frames.
@@ -151,6 +166,7 @@ public final class XContentWindow extends XWindow {
         AWTAccessor.getComponentAccessor().setSize(target, bounds.width, bounds.height);
         postEvent(new ComponentEvent(target, ComponentEvent.COMPONENT_RESIZED));
     }
+
 
     public void postPaintEvent(Component target, int x, int y, int w, int h) {
         // TODO: ?

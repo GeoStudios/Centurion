@@ -21,8 +21,23 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
+
 import java.sql.SQLException;
 import java.sql.rowset.share.classes.javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates an error with the <code>SyncProvider</code> mechanism. This exception

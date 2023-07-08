@@ -21,10 +21,24 @@
 
 package nsk.jdb.step_up.step_up001;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -60,6 +74,9 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class step_up001 extends JdbTest {
 
@@ -119,6 +136,7 @@ public class step_up001 extends JdbTest {
             success = false;
         }
     }
+
 
     private boolean checkSteppedUp () {
         Paragrep grep;

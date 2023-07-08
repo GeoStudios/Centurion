@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.*;
@@ -47,6 +48,20 @@ import java.naming.share.classes.com.sun.jndi.toolkit.ctx.*;
 import java.naming.share.classes.com.sun.jndi.toolkit.dir.HierMemDirCtx;
 import java.naming.share.classes.com.sun.jndi.toolkit.dir.SearchFilter;
 import java.naming.share.classes.com.sun.jndi.ldap.ext.StartTlsResponseImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The LDAP context implementation.
@@ -481,6 +496,7 @@ public final class LdapCtx extends ComponentDirContext
             throws NamingException {
         c_rebind(name, obj, null, cont);
     }
+
 
     /*
      * attrs == null
@@ -976,6 +992,7 @@ public final class LdapCtx extends ComponentDirContext
             return attrs;
     }
 
+
     private static boolean containsIgnoreCase(NamingEnumeration<String> enumStr,
                                 String str) throws NamingException {
         String strEntry;
@@ -988,6 +1005,7 @@ public final class LdapCtx extends ComponentDirContext
         }
         return false;
     }
+
 
     private void adjustDeleteStatus(String fname, LdapResult answer) {
         if (answer.status == LdapClient.LDAP_NO_SUCH_OBJECT &&
@@ -1914,6 +1932,7 @@ public final class LdapCtx extends ComponentDirContext
         }
     }
 
+
     LdapResult getSearchReply(LdapClient eClnt, LdapResult res)
             throws NamingException {
         // ensureOpen() won't work here because
@@ -2017,6 +2036,7 @@ public final class LdapCtx extends ComponentDirContext
                 throw e2;
             }
     }
+
 
     /*
      * Certain simple JNDI searches are automatically converted to
@@ -2960,6 +2980,7 @@ public final class LdapCtx extends ComponentDirContext
             }
         }
     }
+
 
    // ------------ Return code and Error messages  -----------------------
 

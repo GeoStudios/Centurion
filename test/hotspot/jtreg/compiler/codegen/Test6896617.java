@@ -21,6 +21,7 @@
 
 package compiler.codegen;
 
+
 import jdk.test.lib.Utils;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -30,6 +31,19 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,6 +58,9 @@ import java.util.Random;
  * @ignore 8193479
  * @run main/othervm/timeout=1200 -Xbatch -Xmx256m compiler.codegen.Test6896617
  */
+
+
+
 
 public class Test6896617 {
     final static int SIZE = 256;

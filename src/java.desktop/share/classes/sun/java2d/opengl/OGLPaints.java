@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
+
 import java.awt.GradientPaint;
 import java.awt.LinearGradientPaint;
 import java.awt.MultipleGradientPaint;
@@ -36,6 +37,20 @@ import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.loops.CompositeType;
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedPaints.*;.extended
 import static java.desktop.share.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class OGLPaints {
 

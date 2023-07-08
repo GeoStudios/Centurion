@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassType.invokeMethod;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test checks up the following assertions:                           <br>
@@ -210,6 +224,7 @@ public class invokemethod003 {
             throw new TestRuntimeException("ClassPrepareEvent didn't arrive");
         }
 
+
         testedClass = (ClassType )debugee.classByName(prefix
                                                     + invokemethod003a.class2Check);
 
@@ -233,6 +248,7 @@ public class invokemethod003 {
                             + invokemethod003a.anotherClassName
                             + " has not been loaded yet");
         }
+
 
         // waiting the breakpoint event
         event = debugee.waitingEvent(brkp, waitTime);

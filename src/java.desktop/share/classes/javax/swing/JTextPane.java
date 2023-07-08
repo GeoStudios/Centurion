@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
@@ -39,6 +40,20 @@ import java.desktop.share.classes.javax.swing.text.Style;
 import java.desktop.share.classes.javax.swing.text.StyleConstants;
 import java.desktop.share.classes.javax.swing.text.StyledDocument;
 import java.desktop.share.classes.javax.swing.text.StyledEditorKit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A text component that can be marked up with attributes that are
@@ -434,6 +449,7 @@ public class JTextPane extends JEditorPane {
      */
     private static final String uiClassID = "TextPaneUI";
 
+
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
      * <code>JComponent</code> for more
@@ -452,6 +468,7 @@ public class JTextPane extends JEditorPane {
             }
         }
     }
+
 
     // --- JEditorPane ------------------------------------
 

@@ -21,6 +21,22 @@
 
 package java.base.macosx.classes.sun.nio.fs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class BsdUserDefinedFileAttributeView
     extends UnixUserDefinedFileAttributeView
 {

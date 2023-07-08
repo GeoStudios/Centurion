@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
@@ -47,6 +48,20 @@ import com.sun.java.swing.plaf.motif.*;
 import java.awt.im.InputMethodRequests;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XTextFieldPeer extends XComponentPeer implements TextFieldPeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XTextField");
@@ -389,6 +404,7 @@ final class XTextFieldPeer extends XComponentPeer implements TextFieldPeer {
     void handleJavaKeyEvent(KeyEvent e) {
         AWTAccessor.getComponentAccessor().processEvent(xtext,e);
     }
+
 
     @Override
     public void handleJavaMouseEvent( MouseEvent mouseEvent ) {

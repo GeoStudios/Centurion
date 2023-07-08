@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -39,6 +40,20 @@ import java.management.share.classes.javax.management.MBeanAttributeInfo;
 import com.sun.jmx.remote.util.EnvHelp;
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 //
@@ -86,10 +101,12 @@ public class OpenMBeanAttributeInfoSupport
     @SuppressWarnings("serial") // Conditionally serializable
     private final Comparable<?> maxValue;
 
+
     // As this instance is immutable, these two values need only
     // be calculated once.
     private transient Integer myHashCode = null;
     private transient String  myToString = null;
+
 
     /**
      * Constructs an {@code OpenMBeanAttributeInfoSupport} instance,
@@ -247,6 +264,7 @@ public class OpenMBeanAttributeInfoSupport
              defaultValue, null);
     }
 
+
     /**
      * <p>Constructs an {@code OpenMBeanAttributeInfoSupport} instance,
      * which describes the attribute of an open MBean with the
@@ -315,6 +333,7 @@ public class OpenMBeanAttributeInfoSupport
         this(name, description, openType, isReadable, isWritable, isIs,
              defaultValue, legalValues, null, null);
     }
+
 
     /**
      * Constructs an {@code OpenMBeanAttributeInfoSupport} instance,
@@ -545,6 +564,7 @@ public class OpenMBeanAttributeInfoSupport
             }
         }
 
+
         // Check that, if both specified, minValue <= maxValue
         //
         if (info.hasMinValue() && info.hasMaxValue()) {
@@ -601,6 +621,7 @@ public class OpenMBeanAttributeInfoSupport
         }
         return makeDescriptor(openType, defaultValue, legals, minValue, maxValue);
     }
+
 
     static <T> T valueFrom(Descriptor d, String name, OpenType<T> openType) {
         Object x = d.getFieldValue(name);
@@ -733,6 +754,7 @@ public class OpenMBeanAttributeInfoSupport
                                            "string to " +
                                            openType.getTypeName());
     }
+
 
     /* A Descriptor contained an array value encoded as Strings.  The
        Strings must be organized in an array corresponding to the desired
@@ -908,6 +930,7 @@ public class OpenMBeanAttributeInfoSupport
         return (maxValue != null);
     }
 
+
     /**
      * Tests whether {@code obj} is a valid value for the attribute
      * described by this {@code OpenMBeanAttributeInfoSupport}
@@ -938,6 +961,7 @@ public class OpenMBeanAttributeInfoSupport
     }
 
     /* ***  Commodity methods from java.lang.Object  *** */
+
 
     /**
      * Compares the specified {@code obj} parameter with this {@code

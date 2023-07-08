@@ -21,7 +21,21 @@
 
 package nsk.jvmti.unit.GetLineNumberTable;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface Interface004 {
     int instanceMeth0();

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
+
 import java.desktop.share.classes.java.util.Vector;
 import java.desktop.share.classes.java.awt.RenderingHints;
 import java.desktop.share.classes.java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RenderableImage is a common interface for rendering-independent

@@ -21,12 +21,27 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
 
+
 import static jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes.ACONST_NULL;.extended
 import static jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes.ALOAD;.extended
 import static jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes.INVOKESTATIC;.extended
 import static jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
 import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ConstructorWriter extends MethodVisitor {
 

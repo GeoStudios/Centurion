@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
+
 import com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory;
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -34,6 +35,20 @@ import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import java.util.function.Supplier;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@link SchemaFactory#newInstance(String)}.
@@ -176,6 +191,7 @@ class SchemaFactoryFinder  {
         String javah = SecuritySupport.getSystemProperty( "java.home" );
         String configFile = javah + File.separator +
         "conf" + File.separator + "jaxp.properties";
+
 
         // try to read from $java.home/conf/jaxp.properties
         try {
@@ -349,6 +365,7 @@ class SchemaFactoryFinder  {
     }
 
     private static final Class<SchemaFactory> SERVICE_CLASS = SchemaFactory.class;
+
 
     // Used for debugging purposes
     private static String which( Class<?> clazz ) {

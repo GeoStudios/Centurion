@@ -21,11 +21,26 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.im.spi.InputMethod;
 import java.awt.im.spi.InputMethodDescriptor;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides sufficient information about an input method

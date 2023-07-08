@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The <code>ProcessingInstruction</code> interface represents a "processing
  * instruction", used in XML as a way to keep processor-specific information

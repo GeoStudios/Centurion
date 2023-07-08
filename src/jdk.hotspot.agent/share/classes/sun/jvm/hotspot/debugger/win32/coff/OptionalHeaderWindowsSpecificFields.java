@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface OptionalHeaderWindowsSpecificFields {
   /** Preferred address of first byte of image when loaded into
       memory; must be a multiple of 64K. The default for DLLs is

@@ -21,8 +21,22 @@
 
 package compiler.types;
 
+
 import java.util.Random;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,8 @@ import jdk.test.lib.Asserts;
  * @library /test/lib /
  * @run main/othervm compiler.types.TestMeetXor -Xbatch -XX::CompileCommand=dontinline,*::test*
  */
+
+
 
 public class TestMeetXor {
     public static void main(String[] args) throws Exception {

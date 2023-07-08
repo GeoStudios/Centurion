@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.FocusEvent;
 import java.desktop.share.classes.java.awt.event.InputEvent;
 import java.desktop.share.classes.java.awt.event.KeyEvent;
@@ -47,6 +48,20 @@ import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.awt.KeyboardFocusManagerPeerProvider;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The KeyboardFocusManager is responsible for managing the active and focused
@@ -1774,6 +1789,7 @@ public abstract class KeyboardFocusManager
         }
     }
 
+
     /**
      * Removes a previously added KeyEventPostProcessor from this
      * KeyboardFocusManager's post-processor chain. This KeyboardFocusManager
@@ -1805,6 +1821,7 @@ public abstract class KeyboardFocusManager
         }
     }
 
+
     /**
      * Returns this KeyboardFocusManager's KeyEventPostProcessor chain as a
      * List. The List will not include this KeyboardFocusManager unless it was
@@ -1826,6 +1843,8 @@ public abstract class KeyboardFocusManager
             ? (java.util.List<KeyEventPostProcessor>)keyEventPostProcessors.clone()
             : null;
     }
+
+
 
     static void setMostRecentFocusOwner(Component component) {
         Component window = component;

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.peer.TextAreaPeer;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
@@ -30,6 +31,20 @@ import java.desktop.share.classes.java.util.Set;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code TextArea} object is a multi-line region
@@ -471,6 +486,7 @@ public class TextArea extends TextComponent {
         return scrollbarVisibility;
     }
 
+
     /**
      * Determines the preferred size of a text area with the specified
      * number of rows and columns.
@@ -616,6 +632,7 @@ public class TextArea extends TextComponent {
           ",scrollbarVisibility=" + sbVisStr;
     }
 
+
     /*
      * Serialization support.
      */
@@ -666,9 +683,11 @@ public class TextArea extends TextComponent {
         }
     }
 
+
 /////////////////
 // Accessibility support
 ////////////////
+
 
     /**
      * Returns the {@code AccessibleContext} associated with
@@ -718,5 +737,6 @@ public class TextArea extends TextComponent {
             return states;
         }
     }
+
 
 }

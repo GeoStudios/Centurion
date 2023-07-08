@@ -21,6 +21,21 @@
 
 package nsk.jvmti.GetSourceFileName;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface getsrcfn006b extends getsrcfn006a {
     int i2 = 2;
     void m2();

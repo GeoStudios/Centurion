@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface {@code Accessible} is the main interface for the accessibility
  * package. All components that support the accessibility package must implement

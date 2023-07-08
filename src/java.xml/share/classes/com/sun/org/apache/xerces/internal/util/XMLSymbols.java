@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * All internalized xml symbols. They can be compared using "==".
@@ -103,5 +120,6 @@ public class XMLSymbols {
 
     /** Symbol: "#FIXED". */
     public static final String fFIXEDSymbol = "#FIXED";
+
 
 }

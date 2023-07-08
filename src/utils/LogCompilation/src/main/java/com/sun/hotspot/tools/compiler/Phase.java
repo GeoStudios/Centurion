@@ -21,7 +21,22 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
+
 import utils.LogCompilation.src.main.java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Representation of a compilation phase as a log event.

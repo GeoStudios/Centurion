@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -34,9 +49,11 @@ public class NamedEvent extends DummyEvent {
     public NamedEvent() {
     }
 
+
     public NamedEvent(QName qname) {
         this.name = qname;
     }
+
 
     public NamedEvent(String prefix, String uri, String localpart) {
         this.name = new QName(uri, localpart, prefix);
@@ -45,6 +62,7 @@ public class NamedEvent extends DummyEvent {
     public String getPrefix() {
         return this.name.getPrefix();
     }
+
 
     public QName getName() {
         return name;

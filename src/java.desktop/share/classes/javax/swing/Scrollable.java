@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Dimension;
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface that provides information to a scrolling container
@@ -51,6 +66,7 @@ public interface Scrollable
      */
     Dimension getPreferredScrollableViewportSize();
 
+
     /**
      * Components that display logical rows or columns should compute
      * the scroll increment that will completely expose one new row
@@ -70,6 +86,7 @@ public interface Scrollable
      */
     int getScrollableUnitIncrement(Rectangle visibleRect, int orientation, int direction);
 
+
     /**
      * Components that display logical rows or columns should compute
      * the scroll increment that will completely expose one block
@@ -86,6 +103,7 @@ public interface Scrollable
      * @see JScrollBar#setBlockIncrement
      */
     int getScrollableBlockIncrement(Rectangle visibleRect, int orientation, int direction);
+
 
     /**
      * Return true if a viewport should always force the width of this

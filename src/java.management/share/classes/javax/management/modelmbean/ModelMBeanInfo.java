@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
+
 import java.management.share.classes.javax.management.Descriptor;
 import java.management.share.classes.javax.management.MBeanAttributeInfo;
 import java.management.share.classes.javax.management.MBeanConstructorInfo;
@@ -28,6 +29,20 @@ import java.management.share.classes.javax.management.RuntimeOperationsException
 import java.management.share.classes.javax.management.MBeanException;
 import java.management.share.classes.javax.management.MBeanNotificationInfo;
 import java.management.share.classes.javax.management.MBeanOperationInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is implemented by the ModelMBeanInfo for every ModelMBean. An implementation of this interface
@@ -55,6 +70,7 @@ import java.management.share.classes.javax.management.MBeanOperationInfo;
 
 public interface ModelMBeanInfo
 {
+
 
     /**
      * Returns a Descriptor array consisting of all
@@ -142,6 +158,7 @@ public interface ModelMBeanInfo
 
     void setDescriptor(Descriptor inDescriptor, String inDescriptorType)
             throws MBeanException, RuntimeOperationsException;
+
 
     /**
      * <p>Returns the ModelMBean's descriptor which contains MBean wide
@@ -243,6 +260,7 @@ public interface ModelMBeanInfo
     void setMBeanDescriptor(Descriptor inDescriptor)
             throws MBeanException, RuntimeOperationsException;
 
+
     /**
      * Returns a ModelMBeanAttributeInfo requested by name.
      *
@@ -262,6 +280,7 @@ public interface ModelMBeanInfo
     ModelMBeanAttributeInfo getAttribute(String inName)
             throws MBeanException, RuntimeOperationsException;
 
+
     /**
      * Returns a ModelMBeanOperationInfo requested by name.
      *
@@ -278,6 +297,7 @@ public interface ModelMBeanInfo
 
     ModelMBeanOperationInfo getOperation(String inName)
             throws MBeanException, RuntimeOperationsException;
+
 
     /**
      * Returns a ModelMBeanNotificationInfo requested by name.

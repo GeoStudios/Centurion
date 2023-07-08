@@ -21,12 +21,26 @@
 
 package nsk.jdi.Method.argumentTypes;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -174,6 +188,7 @@ public class argumenttypes001 {
             Method m        = null;
             Method m1       = null;
             List   argTypes = null;
+
 
             methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
                 methodsByName("primitiveargsmethod");
@@ -386,6 +401,7 @@ public class argumenttypes001 {
                             break;
                         }
                         break;
+
 
                 default: expresult = 2;
                          break ;

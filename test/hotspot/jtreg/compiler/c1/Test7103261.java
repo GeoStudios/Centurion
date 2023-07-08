@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7103261
@@ -28,6 +43,7 @@ package compiler.c1;
  *
  * @run main compiler.c1.Test7103261
  */
+
 
 // exercise implicit null checking in the compiler for various field types
 public class Test7103261 {

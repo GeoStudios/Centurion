@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * A very simple table that stores a list of byte. Very similar API to our
@@ -96,6 +113,7 @@ public class SuballocatedByteVector
     // increaseSize not currently used.
     this(blocksize);
   }
+
 
   /**
    * Get the length of the list.

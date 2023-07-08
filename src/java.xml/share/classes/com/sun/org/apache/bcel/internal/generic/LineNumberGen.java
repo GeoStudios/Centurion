@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.base.share.classes.java.util.Objects;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LineNumber;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents a line number within a method, i.e., give an instruction
@@ -51,6 +69,7 @@ public class LineNumberGen implements InstructionTargeter, Cloneable {
         setSourceLine(src_line);
     }
 
+
     /**
      * @return true, if ih is target of this line number
      */
@@ -58,6 +77,7 @@ public class LineNumberGen implements InstructionTargeter, Cloneable {
     public boolean containsTarget( final InstructionHandle ih ) {
         return this.ih == ih;
     }
+
 
     /**
      * @param old_ih old target
@@ -71,6 +91,7 @@ public class LineNumberGen implements InstructionTargeter, Cloneable {
         setInstruction(new_ih);
     }
 
+
     /**
      * Get LineNumber attribute .
      *
@@ -81,11 +102,13 @@ public class LineNumberGen implements InstructionTargeter, Cloneable {
         return new LineNumber(ih.getPosition(), srcLine);
     }
 
+
     public void setInstruction( final InstructionHandle instructionHandle ) { // TODO could be package-protected?
         Objects.requireNonNull(instructionHandle, "instructionHandle");
         BranchInstruction.notifyTarget(this.ih, instructionHandle, this);
         this.ih = instructionHandle;
     }
+
 
     @Override
     public Object clone() {
@@ -96,13 +119,16 @@ public class LineNumberGen implements InstructionTargeter, Cloneable {
         }
     }
 
+
     public InstructionHandle getInstruction() {
         return ih;
     }
 
+
     public void setSourceLine( final int src_line ) { // TODO could be package-protected?
         this.srcLine = src_line;
     }
+
 
     public int getSourceLine() {
         return srcLine;

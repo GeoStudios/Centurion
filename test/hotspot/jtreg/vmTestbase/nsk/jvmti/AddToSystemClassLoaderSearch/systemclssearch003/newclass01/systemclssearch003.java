@@ -21,8 +21,22 @@
 
 package nsk.jvmti.AddToSystemClassLoaderSearch;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Debuggee class for this test. */
 public class systemclssearch003 {

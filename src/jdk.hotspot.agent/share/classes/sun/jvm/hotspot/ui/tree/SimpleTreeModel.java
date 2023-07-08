@@ -21,10 +21,25 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree;
 
+
 import java.util.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.tree.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A very simple tree model which allows the root to be set, so we
     can reuse the same model for various types of data; the

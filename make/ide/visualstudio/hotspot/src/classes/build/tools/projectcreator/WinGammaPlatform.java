@@ -21,6 +21,56 @@
 
 package build.tools.projectcreator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 abstract class HsArgHandler extends ArgHandler {
     static final int STRING = 1;
     static final int VECTOR = 2;
@@ -66,6 +116,7 @@ class ArgRuleSpecific extends ArgRule {
     }
 }
 
+
 class SpecificHsArgHandler extends HsArgHandler {
 
     String message, argKey, valKey;
@@ -102,6 +153,7 @@ class SpecificHsArgHandler extends HsArgHandler {
         this.type = type;
     }
 }
+
 
 class HsArgRule extends ArgRuleSpecific {
 
@@ -150,6 +202,7 @@ public abstract class WinGammaPlatform {
                            "<name of file generated later in the build process>");
         throw new IllegalArgumentException();
     }
+
 
     public void addPerFileLine(Hashtable table,
                                String fileName,
@@ -269,6 +322,7 @@ public abstract class WinGammaPlatform {
         }
         System.err.println();
     }
+
 
     void parseArguments(String[] args) {
         new ArgsParser(args,
@@ -665,5 +719,6 @@ public abstract class WinGammaPlatform {
           printWriter.print("  ");
        }
     }
+
 
 }

@@ -21,9 +21,23 @@
 
 package nsk.jdi.StackFrame.setValue.setvalue004;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the setvalue004 JDI test.
@@ -72,6 +86,7 @@ public class setvalue004a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -141,6 +156,8 @@ public class setvalue004a {
     }
 }
 
+
+
 class Threadsetvalue004a extends Thread {
 
     public Threadsetvalue004a(String threadName) {
@@ -169,6 +186,7 @@ class Threadsetvalue004a extends Thread {
         log("method 'run' exit");
         return;
     }
+
 
     int i0 = 0;
 
@@ -207,6 +225,7 @@ class Threadsetvalue004a extends Thread {
     public static final int breakpointLineNumber1 = 12;
     public static final int breakpointLineNumber2 = 2;
 //    public static final int breakpointLineNumber3 = 7;
+
 
     void log(String str) {
         setvalue004a.log2("thread2: " + str);

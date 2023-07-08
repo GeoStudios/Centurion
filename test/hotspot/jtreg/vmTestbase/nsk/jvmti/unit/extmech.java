@@ -21,12 +21,28 @@
 
 package nsk.jvmti.unit;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * %W% %E
  * SUN PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
+
+
 
 public class extmech {
 
@@ -67,6 +83,7 @@ public class extmech {
 
         return getResult();
     }
+
 
     // ---
 

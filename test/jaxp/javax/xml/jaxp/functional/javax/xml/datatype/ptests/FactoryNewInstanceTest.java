@@ -21,6 +21,7 @@
 
 package javax.xml.datatype.ptests;
 
+
 import static org.testng.Assert.assertNotNull;.extended
 import static org.testng.Assert.assertNotSame;.extended
 import static org.testng.Assert.assertSame;.extended
@@ -32,6 +33,19 @@ import jaxp.library.JAXPDataProvider;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -80,6 +94,7 @@ public class FactoryNewInstanceTest {
         Duration duration = dtf.newDuration(true, 1, 1, 1, 1, 1, 1);
         assertNotNull(duration);
     }
+
 
     /*
      * test for DatatypeFactory.newInstance(java.lang.String factoryClassName,

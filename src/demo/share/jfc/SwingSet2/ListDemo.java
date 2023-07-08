@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -35,6 +36,20 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * List Demo. This demo shows that it is not
@@ -279,6 +294,7 @@ public class ListDemo extends DemoModule {
             }
         }
     }
+
 
     class GeneratedListModel extends AbstractListModel<String> {
         ListDemo demo;

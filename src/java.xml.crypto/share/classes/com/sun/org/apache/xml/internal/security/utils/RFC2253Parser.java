@@ -21,13 +21,30 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 public class RFC2253Parser {
 

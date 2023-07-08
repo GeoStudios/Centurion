@@ -21,6 +21,21 @@
 
 package compiler.jvmci.common.testcases;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class SingleSubclass extends SingleSubclassedClass {
     public void usualMethod() {
         // empty

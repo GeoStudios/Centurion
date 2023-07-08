@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import javax.swing.*;
 import javax.swing.event.Changejava.util.Listener;
 import javax.swing.event.ChangeEvent;
@@ -28,6 +29,20 @@ import java.awt.*;
 import java.awt.event.MouseWheelEvent;
 import java.awt.peer.ScrollPanePeer;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link ScrollPanePeer}. Delegates most of the

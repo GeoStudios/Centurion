@@ -21,12 +21,27 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import java.awt.Font;
 import java.io.InputStream;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A cache of the dynamically loaded fonts found in the fonts directory.
@@ -45,6 +60,7 @@ public class DemoFonts {
 
     public static void newDemoFonts() {
     }
+
 
     public static Font getFont(String name) {
         Font font = null;

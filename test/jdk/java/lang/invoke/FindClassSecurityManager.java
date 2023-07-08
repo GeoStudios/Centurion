@@ -21,12 +21,28 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandles;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8139885
  * @run main/othervm/policy=getclassloader.policy/secure=java.lang.SecurityManager -ea -esa test.java.lang.invoke.FindClassSecurityManager
  */
+
+
 
 public class FindClassSecurityManager {
     public static void main(String[] args) throws Throwable {

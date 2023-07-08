@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFNullDecompressor extends TIFFDecompressor {
 

@@ -21,6 +21,7 @@
 
 package nsk.jdi.Argument.isValid;
 
+
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -32,6 +33,19 @@ import com.sun.jdi.VirtualMachineManager;
 import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.Connector.IntegerArgument;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type <BR>
@@ -153,6 +167,7 @@ public class isvalid005 {
                      "check: super.isValid(String s = null)\n" +
                      "result: true\n");
         }
+
 
         if (exitCode != exitCode0) {
             out.println("TEST FAILED");

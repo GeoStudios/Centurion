@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The LightweightPeer interface marks a component as depending upon
  * a native container so window related events can be routed to the

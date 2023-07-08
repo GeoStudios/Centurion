@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassPrepareRequest.addClassFilter_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -193,6 +207,7 @@ public class filter_s002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -246,6 +261,7 @@ public class filter_s002 extends JDIBase {
         String bPointMethod = "methodForCommunication";
         String lineForComm  = "lineForComm";
 
+
         ThreadReference   mainThread = debuggee.threadByNameOrThrow("main");
 
         BreakpointRequest bpRequest = settingBreakpoint(mainThread,
@@ -263,6 +279,7 @@ public class filter_s002 extends JDIBase {
 
         eventRequest1 = setting22ClassPrepareRequest(testedClassName1,
                                  EventRequest.SUSPEND_NONE, property1);
+
 
         for (int i = 0; ; i++) {
 
@@ -284,6 +301,7 @@ public class filter_s002 extends JDIBase {
             switch (i) {
 
               case 0:
+
 
                      log2("......eventRequest1.enable();");
                      eventRequest1.enable();

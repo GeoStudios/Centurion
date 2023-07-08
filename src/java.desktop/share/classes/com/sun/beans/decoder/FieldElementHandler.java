@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
 import java.desktop.share.classes.com.sun.beans.finder.FieldFinder;
 import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;field&gt; element.

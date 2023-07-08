@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class NameFilter implements ClassFilter
 {

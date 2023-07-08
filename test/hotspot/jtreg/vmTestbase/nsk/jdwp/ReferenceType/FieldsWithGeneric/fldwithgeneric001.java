@@ -21,11 +21,25 @@
 
 package nsk.jdwp.ReferenceType.FieldsWithGeneric;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks that the JDWP command <code>FieldsWithGeneric</code>

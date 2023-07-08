@@ -21,6 +21,21 @@
 
 package nsk.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Finalizable interface allows <tt>Finalizer</tt> to perform finalization of an object.
  * Each object that requires finalization at VM shutdown time should implement this

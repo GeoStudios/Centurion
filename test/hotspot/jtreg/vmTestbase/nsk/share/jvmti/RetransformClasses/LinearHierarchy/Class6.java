@@ -21,6 +21,21 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class6 extends Class7 {
     short var_1;
     int var_2;
@@ -32,6 +47,7 @@ public class Class6 extends Class7 {
     boolean var_8;
     boolean var_9;
     Object var_10;
+
 
     public Class6()
     {

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.imageio.spi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An optional interface that may be provided by service provider
  * objects that will be registered with a

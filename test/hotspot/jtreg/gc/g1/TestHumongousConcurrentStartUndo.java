@@ -21,11 +21,25 @@
 
 package gc.g1;
 
+
 import gc.testlibrary.Helpers;
 import sun.hotspot.WhiteBox;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestHumongousConcurrentStartUndo
@@ -42,6 +56,9 @@ import java.lang.ref.Reference;
  * @run main/othervm -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                   gc.g1.TestHumongousConcurrentStartUndo
  */
+
+
+
 
 public class TestHumongousConcurrentStartUndo {
     // Heap sizes < 224 MB are increased to 224 MB if vm_page_size == 64K to
@@ -84,6 +101,7 @@ public class TestHumongousConcurrentStartUndo {
         // Number of objects to allocate to go above IHOP
         private static final int NumHumongousObjectAllocations =
                 (int)(((HeapSize - YoungSize) * 80 / 100.0) / HeapRegionSize);
+
 
         private static void allocateHumongous(int num, Object[] holder) {
             for (int i = 0; i < num; i++) {

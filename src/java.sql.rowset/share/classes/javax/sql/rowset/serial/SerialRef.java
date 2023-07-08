@@ -21,9 +21,24 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
+
 import java.sql.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serialized mapping of a <code>Ref</code> object, which is the mapping in the
@@ -144,6 +159,7 @@ public class SerialRef implements Ref, Serializable, Cloneable {
             return object;
         }
 
+
         throw new SerialException("The object is not set");
 
     }
@@ -255,5 +271,6 @@ public class SerialRef implements Ref, Serializable, Cloneable {
      * object.
      */
     static final long serialVersionUID = -4727123500609662274L;
+
 
 }

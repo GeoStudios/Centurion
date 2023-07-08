@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8230062
@@ -29,6 +44,7 @@ package compiler.loopopts.superword;
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,compiler.loopopts.superword.SuperWordIntermediateUse::test
  *      compiler.loopopts.superword.SuperWordIntermediateUse
  */
+
 
 public class SuperWordIntermediateUse {
 

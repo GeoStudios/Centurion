@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.treetable;
 
+
 import javax.swing.tree.*;
 import javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract implementation of the TreeTableModel interface, handling the list
@@ -188,6 +203,7 @@ public abstract class AbstractTreeTableModel implements TreeTableModel {
     }
 
     public void setValueAt(Object aValue, Object node, int column) {}
+
 
     // Left to be implemented in the subclass:
 

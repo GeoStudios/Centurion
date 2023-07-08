@@ -21,6 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Corresponds to <or>
 final class XmlOr extends XmlExpression {
 

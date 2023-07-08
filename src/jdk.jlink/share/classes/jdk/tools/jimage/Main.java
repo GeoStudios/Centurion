@@ -21,7 +21,22 @@
 
 package jdk.jlink.share.classes.jdk.tools.jimage;
 
+
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
     public static void main(String[] args) throws Exception {

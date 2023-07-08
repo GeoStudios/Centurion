@@ -21,11 +21,25 @@
 
 package compiler.jvmci;
 
+
 import jdk.test.lib.Utils;
 import java.security.AccessControlException;
 import java.security.Permission;
 import java.util.PropertyPermission;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -60,6 +74,9 @@ import java.util.function.Consumer;
  *      compiler.jvmci.SecurityRestrictionsTest
  *      NO_JVMCI
  */
+
+
+
 
 public class SecurityRestrictionsTest {
 

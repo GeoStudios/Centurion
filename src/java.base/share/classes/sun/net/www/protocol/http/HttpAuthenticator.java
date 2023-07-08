@@ -21,7 +21,22 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
+
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface for all objects that implement HTTP authentication.
@@ -38,6 +53,7 @@ import java.net.URL;
 // a goal, there's no reason to carry this forward into JDK 2.0.
 @Deprecated
 public interface HttpAuthenticator {
+
 
     /**
      * Indicate whether the specified authentication scheme is

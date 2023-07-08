@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.visibleMethods;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the visibleMethods() method of ReferenceType interface for UNLOADED class
+
 
 class visibmethod003b {}

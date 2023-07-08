@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.pipe.hw;
 
+
 import java.awt.image.VolatileImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementors of this interface provida a way to create a

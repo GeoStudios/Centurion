@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class represents a (PC offset, line number) pair, i.e., a line number in
@@ -54,6 +71,7 @@ public final class LineNumber implements Cloneable, Node {
         this(c.getStartPC(), c.getLineNumber());
     }
 
+
     /**
      * Construct object from file stream.
      *
@@ -64,6 +82,7 @@ public final class LineNumber implements Cloneable, Node {
         this(file.readUnsignedShort(), file.readUnsignedShort());
     }
 
+
     /**
      * @param startPc Program Counter (PC) corresponds to
      * @param lineNumber line number in source file
@@ -72,6 +91,7 @@ public final class LineNumber implements Cloneable, Node {
         this.startPc = (short) startPc;
         this.lineNumber = (short)lineNumber;
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -85,6 +105,7 @@ public final class LineNumber implements Cloneable, Node {
         v.visitLineNumber(this);
     }
 
+
     /**
      * Dump line number/pc pair to file stream in binary format.
      *
@@ -96,12 +117,14 @@ public final class LineNumber implements Cloneable, Node {
         file.writeShort(lineNumber);
     }
 
+
     /**
      * @return Corresponding source line
      */
     public int getLineNumber() {
         return 0xffff & lineNumber;
     }
+
 
     /**
      * @return PC in code
@@ -110,12 +133,14 @@ public final class LineNumber implements Cloneable, Node {
         return  0xffff & startPc;
     }
 
+
     /**
      * @param lineNumber the source line number
      */
     public void setLineNumber( final int lineNumber ) {
         this.lineNumber = (short) lineNumber;
     }
+
 
     /**
      * @param startPc the pc for this line number
@@ -124,6 +149,7 @@ public final class LineNumber implements Cloneable, Node {
         this.startPc = (short) startPc;
     }
 
+
     /**
      * @return String representation
      */
@@ -131,6 +157,7 @@ public final class LineNumber implements Cloneable, Node {
     public String toString() {
         return "LineNumber(" + startPc + ", " + lineNumber + ")";
     }
+
 
     /**
      * @return deep copy of this object

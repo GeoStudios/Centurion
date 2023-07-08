@@ -21,7 +21,21 @@
 
 package nsk.jdi.ObjectReference._bounds_;
 
+
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>bounds003a</code> is debuggee's part of the bounds003.

@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.util.zip;
 
+
 import java.base.share.classes.java.io.FilterOutputStream;
 import java.base.share.classes.java.io.OutputStream;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements an output stream filter for compressing data in
@@ -82,6 +97,7 @@ public class DeflaterOutputStream extends FilterOutputStream {
         this.syncFlush = syncFlush;
     }
 
+
     /**
      * Creates a new output stream with the specified compressor and
      * buffer size.
@@ -117,6 +133,7 @@ public class DeflaterOutputStream extends FilterOutputStream {
         this(out, def, 512, syncFlush);
     }
 
+
     /**
      * Creates a new output stream with the specified compressor and
      * a default buffer size.
@@ -132,6 +149,7 @@ public class DeflaterOutputStream extends FilterOutputStream {
     }
 
     boolean usesDefaultDeflater = false;
+
 
     /**
      * Creates a new output stream with a default compressor, a default

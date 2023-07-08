@@ -21,6 +21,7 @@
 
 package org.xml.sax.ptests;
 
+
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.LocatorImpl;
 import org.xml.sax.Locator;
@@ -29,6 +30,19 @@ import java.io.BufferedWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileWriter;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MyNSContentHandler extends DefaultHandler implements AutoCloseable{
     /**

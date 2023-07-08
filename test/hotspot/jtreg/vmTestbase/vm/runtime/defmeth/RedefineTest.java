@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth;
 
+
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
@@ -39,6 +40,19 @@ import vm.runtime.defmeth.shared.data.Tester;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -54,6 +68,9 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.RedefineTest
  */
+
+
+
 
 /*
  * Basic scenarios on class redefinition.

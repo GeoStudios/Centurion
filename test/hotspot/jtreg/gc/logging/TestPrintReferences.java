@@ -21,12 +21,26 @@
 
 package gc.logging;
 
+
 import java.lang.ref.SoftReference;
 import java.math.BigDecimal;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestPrintReferences
@@ -38,6 +52,7 @@ import java.util.regex.Matcher;
  *          java.management
  * @run driver gc.logging.TestPrintReferences
  */
+
 
 public class TestPrintReferences {
     static String output;

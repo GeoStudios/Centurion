@@ -21,6 +21,21 @@
 
 package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter001;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Dummy class used for ClassPrepareRequest testing
  */

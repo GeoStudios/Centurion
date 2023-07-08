@@ -21,6 +21,21 @@
 
 package compiler.exceptions;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8066900
@@ -28,6 +43,7 @@ package compiler.exceptions;
  *
  * @run main/othervm -Xbatch compiler.exceptions.SumTest
  */
+
 
 public class SumTest {
     private static class Sum {

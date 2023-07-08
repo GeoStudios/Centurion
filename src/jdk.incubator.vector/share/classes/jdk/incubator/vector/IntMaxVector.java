@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
@@ -29,6 +30,20 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -441,6 +456,7 @@ final class IntMaxVector extends IntVector {
                                      (IntMaxMask) m);  // specialize
     }
 
+
     @ForceInline
     @Override
     public int lane(int i) {
@@ -681,6 +697,7 @@ final class IntMaxVector extends IntVector {
         private static final IntMaxMask  TRUE_MASK = new IntMaxMask(true);
         private static final IntMaxMask FALSE_MASK = new IntMaxMask(false);
 
+
         static boolean[] maskLowerHalf() {
             boolean[] a = new boolean[VLENGTH];
             int len = a.length >> 1;
@@ -769,6 +786,8 @@ final class IntMaxVector extends IntVector {
     IntVector fromArray0(int[] a, int offset) {
         return super.fromArray0Template(a, offset);  // specialize
     }
+
+
 
     @ForceInline
     @Override

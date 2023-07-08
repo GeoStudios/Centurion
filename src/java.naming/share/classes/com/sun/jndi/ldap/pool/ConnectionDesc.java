@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a description of PooledConnection in Connections.
  * Contains a PooledConnection, its state (busy, idle, expired), and idle time.

@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OopMapStream {
   private final CompressedReadStream stream;

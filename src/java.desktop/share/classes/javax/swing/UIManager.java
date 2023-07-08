@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
 import java.awt.Font;
 import java.awt.Color;
@@ -52,6 +53,20 @@ import java.util.HashMap;
 import java.base.share.classes.java.util.Objects;
 import sun.awt.AppContext;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code UIManager} manages the current look and feel, the set of
@@ -213,6 +228,9 @@ public class UIManager implements Serializable
         }
     }
 
+
+
+
     /* Lock object used in place of class object for synchronization. (4187686)
      */
     private static final Object classLock = new Object();
@@ -246,6 +264,7 @@ public class UIManager implements Serializable
         }
         return rv;
     }
+
 
     /* Keys used in the <code>swing.properties</code> properties file.
      * See loadUserProperties(), initialize().
@@ -283,6 +302,7 @@ public class UIManager implements Serializable
         }
         return javaHome + sep + "conf" + sep + "swing.properties";
     }
+
 
     /**
      * Provides a little information about an installed
@@ -341,6 +361,7 @@ public class UIManager implements Serializable
         }
     }
 
+
     /**
      * The default value of <code>installedLAFS</code> is used when no
      * <code>swing.properties</code>
@@ -383,6 +404,7 @@ public class UIManager implements Serializable
         installedLAFs = iLAFs.toArray(new LookAndFeelInfo[iLAFs.size()]);
     }
 
+
     /**
      * Returns an array of {@code LookAndFeelInfo}s representing the
      * {@code LookAndFeel} implementations currently available. The
@@ -414,6 +436,7 @@ public class UIManager implements Serializable
         return rv;
     }
 
+
     /**
      * Sets the set of available look and feels. While this method does
      * not check to ensure all of the {@code LookAndFeelInfos} are
@@ -435,6 +458,7 @@ public class UIManager implements Serializable
         getLAFState().installedLAFs = newInfos;
     }
 
+
     /**
      * Adds the specified look and feel to the set of available look
      * and feels. While this method allows a {@code null} {@code info},
@@ -452,6 +476,7 @@ public class UIManager implements Serializable
         setInstalledLookAndFeels(newInfos);
     }
 
+
     /**
      * Adds the specified look and feel to the set of available look
      * and feels. While this method does not check the
@@ -465,6 +490,7 @@ public class UIManager implements Serializable
     public static void installLookAndFeel(String name, String className) {
         installLookAndFeel(new LookAndFeelInfo(name, className));
     }
+
 
     /**
      * Returns the current look and feel or <code>null</code>.
@@ -578,6 +604,7 @@ public class UIManager implements Serializable
         }
     }
 
+
     /**
      * Loads the {@code LookAndFeel} specified by the given class
      * name, using the current thread's context class loader, and
@@ -656,6 +683,7 @@ public class UIManager implements Serializable
         return getCrossPlatformLookAndFeelClassName();
     }
 
+
     /**
      * Returns the name of the <code>LookAndFeel</code> class that implements
      * the default cross platform look and feel -- the Java
@@ -675,6 +703,7 @@ public class UIManager implements Serializable
         }
         return "javax.swing.plaf.metal.MetalLookAndFeel";
     }
+
 
     /**
      * Returns the defaults. The returned defaults resolve using the
@@ -1034,6 +1063,7 @@ public class UIManager implements Serializable
         return ui;
     }
 
+
     /**
      * Returns the {@code UIDefaults} from the current look and feel,
      * that were obtained at the time the look and feel was installed.
@@ -1184,6 +1214,7 @@ public class UIManager implements Serializable
         }
     }
 
+
     /**
      * Adds a <code>PropertyChangeListener</code> to the listener list.
      * The listener is registered for all properties.
@@ -1198,6 +1229,7 @@ public class UIManager implements Serializable
                              addPropertyChangeListener(listener);
         }
     }
+
 
     /**
      * Removes a <code>PropertyChangeListener</code> from the listener list.
@@ -1214,6 +1246,7 @@ public class UIManager implements Serializable
                           removePropertyChangeListener(listener);
         }
     }
+
 
     /**
      * Returns an array of all the <code>PropertyChangeListener</code>s added
@@ -1288,6 +1321,7 @@ public class UIManager implements Serializable
         }
     }
 
+
     /**
      * If a <code>swing.properties</code> file exist and it has a
      * <code>swing.installedlafs</code> property
@@ -1332,6 +1366,7 @@ public class UIManager implements Serializable
         getLAFState().installedLAFs = installedLAFs;
     }
 
+
     /**
      * If the user has specified a default look and feel, use that.
      * Otherwise use the look and feel that's native to this platform.
@@ -1373,6 +1408,7 @@ public class UIManager implements Serializable
             }
         }
     }
+
 
     @SuppressWarnings("deprecation")
     private static void initializeAuxiliaryLAFs(Properties swingProps)
@@ -1422,9 +1458,11 @@ public class UIManager implements Serializable
         getLAFState().auxLookAndFeels = auxLookAndFeels;
     }
 
+
     private static void initializeSystemDefaults(Properties swingProps) {
         getLAFState().swingProps = swingProps;
     }
+
 
     /*
      * This method is called before any code that depends on the

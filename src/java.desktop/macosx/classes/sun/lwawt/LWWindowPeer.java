@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Component;
@@ -73,6 +74,20 @@ import java.desktop.macosx.classes.sun.java2d.loops.Blit;
 import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
 import java.desktop.macosx.classes.sun.java2d.pipe.Region;
 import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LWWindowPeer
     extends LWContainerPeer<Window, JComponent>
@@ -208,6 +223,7 @@ public class LWWindowPeer
     @Override
     void initializeImpl() {
         super.initializeImpl();
+
 
         if (getTarget() instanceof Frame frame) {
             setTitle(frame.getTitle());
@@ -913,6 +929,7 @@ public class LWWindowPeer
                 targetPeer = this;
             }
 
+
             Point lp = targetPeer.windowToLocal(x, y, this);
             if (targetPeer.isEnabled()) {
                 MouseEvent event = new MouseEvent(targetPeer.getTarget(), id,
@@ -1252,6 +1269,7 @@ public class LWWindowPeer
         KeyboardFocusManager kfm = AWTAccessor.getKeyboardFocusManagerAccessor()
                 .getCurrentKeyboardFocusManager(targetAppContext);
         Window currentActive = kfm.getActiveWindow();
+
 
         Window opposite = LWKeyboardFocusManagerPeer.getInstance().
             getCurrentFocusedWindow();

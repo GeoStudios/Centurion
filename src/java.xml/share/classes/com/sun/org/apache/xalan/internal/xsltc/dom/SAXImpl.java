@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
@@ -52,6 +53,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAXImpl is the core model for SAX input source. SAXImpl objects are
@@ -223,6 +238,7 @@ public final class SAXImpl extends SAX2DTM2
     public void setFilter(StripFilter filter) {
     }
 
+
     /**
      * Returns true if node1 comes before node2 in document order
      */
@@ -336,6 +352,8 @@ public final class SAXImpl extends SAX2DTM2
             return (END);
         }
     }  // end of TypedNamespaceIterator
+
+
 
     /**************************************************************
      * This is a specialised iterator for predicates comparing node or
@@ -467,6 +485,8 @@ public final class SAXImpl extends SAX2DTM2
         int eType = getIdForNamespace(s);
         return _nsIndex.get(eType);
     }
+
+
 
     /**
      * Returns the namespace type of a specific node
@@ -841,6 +861,7 @@ public final class SAXImpl extends SAX2DTM2
         _textNodeToProcess = DTM.NULL;
     }
 
+
     /****************************************************************/
     /*               SAX Interface Starts Here                      */
     /****************************************************************/
@@ -1062,6 +1083,7 @@ public final class SAXImpl extends SAX2DTM2
         String s;
         return (s = getNamespaceURI(node)) == null ? EMPTYSTRING : s;
     }
+
 
     /**
      * Returns the attribute node of a given type (if any) for an element
@@ -1582,6 +1604,7 @@ public final class SAXImpl extends SAX2DTM2
     {
         copy(node, handler, false );
     }
+
 
  private void copy(final int node, SerializationHandler handler, boolean isChild)
         throws TransletException

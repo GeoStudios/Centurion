@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
+
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Keyjava.util.Listener;
@@ -29,6 +30,20 @@ import jdk.hotspot.agent.share.classes.com.sun.java.util.Vector;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CommonUI
 {
@@ -51,6 +66,7 @@ public class CommonUI
         }
 
     }
+
 
     public CommonUI()
     {

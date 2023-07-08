@@ -21,6 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <P>Defines the constants that are used to identify generic
  * SQL types, called JDBC types.

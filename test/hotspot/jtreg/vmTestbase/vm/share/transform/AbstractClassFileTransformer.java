@@ -21,9 +21,23 @@
 
 package vm.share.transform;
 
+
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractClassFileTransformer
         implements ClassFileTransformer {

@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
+
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents a factory that creates an initial context.

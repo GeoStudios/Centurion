@@ -21,9 +21,24 @@
 
 package jit.init.init01;
 
+
 import nsk.share.TestFailure;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // testing correct initialization order
+
 
 /*
  * @test
@@ -35,6 +50,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.init.init01.init01
  */
+
+
 
 class InitTest1 {
   static int ix1 = 0;
@@ -50,6 +67,7 @@ class InitTest2 {
 }
 
 public class init01 {
+
 
   public static void main (String s[]) {
         InitTest1.ix1 = 5445;

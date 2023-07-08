@@ -21,9 +21,24 @@
 
 package java.base.share.classes.sun.security.util;
 
+
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.security.GeneralSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to expand properties embedded in a string.
@@ -34,6 +49,7 @@ import java.security.GeneralSecurityException;
  *
  */
 public class PropertyExpander {
+
 
     public static class ExpandException extends GeneralSecurityException {
 

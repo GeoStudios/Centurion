@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.isVerified;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>isVerified()</code>
@@ -44,6 +58,7 @@ public class isVerified001 extends Log {
 //        package_prefix = "",    //  for DEBUG without package
         thisClassName = package_prefix + "isVerified001",
         debugeeName   = thisClassName + "a";
+
 
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
@@ -116,6 +131,7 @@ public class isVerified001 extends Log {
 
         Debugee debugee = binder.bindToDebugee(debugee_launch_command);
         IOPipe pipe = new IOPipe(debugee);
+
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> isVerified001: isVerified001a debugee launched");

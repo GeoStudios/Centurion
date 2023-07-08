@@ -21,11 +21,26 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.rowset.share.classes.com.sun.rowset.JdbcRowSetResourceBundle;
 import java.sql.*;
 import javax.sql.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class used internally to manage a <code>CachedRowSet</code> object's

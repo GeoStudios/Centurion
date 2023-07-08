@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
@@ -35,6 +36,20 @@ import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a hook to access platform-specific
@@ -143,6 +158,7 @@ public class ImagingLib {
         return opIndex;
     }
 
+
     public static WritableRaster filter(RasterOp op, Raster src,
                                         WritableRaster dst) {
         if (!useLib) {
@@ -153,6 +169,7 @@ public class ImagingLib {
         if (dst == null) {
             dst = op.createCompatibleDestRaster(src);
         }
+
 
         WritableRaster retRaster = null;
         switch (getNativeOpIndex(op.getClass())) {
@@ -199,6 +216,7 @@ public class ImagingLib {
 
         return retRaster;
     }
+
 
     public static BufferedImage filter(BufferedImageOp op, BufferedImage src,
                                        BufferedImage dst)

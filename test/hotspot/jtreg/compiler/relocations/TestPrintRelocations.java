@@ -21,6 +21,21 @@
 
 package compiler.relocations;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8044538
@@ -33,6 +48,7 @@ package compiler.relocations;
  * The test compiles all methods (-Xcomp) and prints their relocation
  * entries (-XX:+PrintRelocations) to make sure the printing works.
  */
+
 
 public class TestPrintRelocations {
 

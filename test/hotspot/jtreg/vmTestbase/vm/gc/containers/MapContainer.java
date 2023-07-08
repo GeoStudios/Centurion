@@ -21,12 +21,26 @@
 
 package vm.gc.containers;
 
+
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The MapContainer select a certain amout of random elements and remove

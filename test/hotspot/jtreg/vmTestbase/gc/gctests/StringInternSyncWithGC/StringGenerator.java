@@ -21,6 +21,7 @@
 
 package gc.gctests.StringInternSyncWithGC;
 
+
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
@@ -32,6 +33,19 @@ import nsk.share.TestFailure;
 import nsk.share.gc.gp.string.RandomStringProducer;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StringGenerator implements Runnable {
 

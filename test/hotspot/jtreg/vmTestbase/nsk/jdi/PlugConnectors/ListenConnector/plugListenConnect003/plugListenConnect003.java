@@ -21,6 +21,7 @@
 
 package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect003;
 
+
 import nsk.jdi.PlugConnectors.java.util.ListenConnector.plugjava.util.ListenConnect003.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -28,6 +29,19 @@ import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -66,6 +80,10 @@ import java.io.*;
  *      -debugee.vmkind=java
  *      -transport.address=dynamic
  */
+
+
+
+
 
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>
@@ -122,6 +140,7 @@ public class plugListenConnect003 {
         return result;
     }
 
+
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;
 
@@ -134,6 +153,7 @@ public class plugListenConnect003 {
             ("==> Test checks that pluggable listening connector is NOT created.");
         logOnVerbose
             ("    for ListeningConnector implementation for which instance can not be created.");
+
 
         VirtualMachineManager virtualMachineManager = null;
         try {
@@ -173,6 +193,7 @@ public class plugListenConnect003 {
             logOnError(errorLogPrefix + "Connector name = '" + checkedPlugListenConnector.name() + "'");
             testResult = STATUS_FAILED;
         }
+
 
         // check that pluggable connectors are NOT contained in allConnectors() List too
         List allConnectorsList = virtualMachineManager.allConnectors();

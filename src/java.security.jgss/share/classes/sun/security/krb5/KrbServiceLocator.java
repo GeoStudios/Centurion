@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
@@ -32,6 +33,20 @@ import java.util.StringTokenizer;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.NamingManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class discovers the location of Kerberos services by querying DNS,

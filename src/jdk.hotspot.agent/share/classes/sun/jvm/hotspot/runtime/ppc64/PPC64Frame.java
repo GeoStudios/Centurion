@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.ppc64;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.*;
@@ -31,6 +32,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Specialization of and implementation of abstract methods of the
     Frame class for the ppc64 family of CPUs. */
@@ -73,6 +88,7 @@ public class PPC64Frame extends Frame {
     int wordLength = (int) VM.getVM().getAddressSize();
     ENTRY_FRAME_CALL_WRAPPER_OFFSET = -entry_frame_locals_size/wordLength;
   }
+
 
   // an additional field beyond sp and pc:
   Address raw_fp; // frame pointer
@@ -318,6 +334,7 @@ public class PPC64Frame extends Frame {
 
     return new PPC64Frame(sp, unextendedSP, getLink(), getSenderPC());
   }
+
 
   private Frame senderForCompiledFrame(PPC64RegisterMap map, CodeBlob cb) {
     if (DEBUG) {

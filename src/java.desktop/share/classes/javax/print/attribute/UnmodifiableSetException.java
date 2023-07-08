@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
+
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown to indicate that the requested operation cannot be performed because

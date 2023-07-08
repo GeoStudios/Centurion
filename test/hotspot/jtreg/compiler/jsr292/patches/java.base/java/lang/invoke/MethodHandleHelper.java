@@ -21,9 +21,23 @@
 
 package java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandles.Lookup;
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class to inject into java.lang.invoke that provides access to

@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.util.Pair;
 import jdk.test.lib.jittester.OperatorKind;
 import jdk.test.lib.jittester.ProductionFailedException;
@@ -29,6 +30,19 @@ import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
 import jdk.test.lib.jittester.utils.TypeUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BinaryShiftOperatorFactory extends BinaryOperatorFactory {
     BinaryShiftOperatorFactory(OperatorKind opKind, long complexityLimit, int operatorLimit,

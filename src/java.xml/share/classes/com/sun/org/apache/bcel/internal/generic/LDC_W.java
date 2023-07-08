@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * LDC_W - Push item from constant pool (wide index)
@@ -44,9 +62,11 @@ public class LDC_W extends LDC {
     LDC_W() {
     }
 
+
     public LDC_W(final int index) {
         super(index);
     }
+
 
     /**
      * Read needed data (i.e., index) from file.

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import jdk.internal.reflect.MethodAccessor;
 import jdk.internal.reflect.ConstructorAccessor;
 import java.base.share.classes.java.lang.StackWalker.Option;
@@ -39,6 +40,20 @@ import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
 import sun.security.action.GetPropertyAction;
 import static java.base.share.classes.java.lang.StackStreamFactory.WalkerState.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * StackStreamFactory class provides static factory methods
@@ -627,6 +642,7 @@ final class StackStreamFactory {
 
             @Override
             Class<?> at(int index) { return classes[index];}
+
 
             // ------ subclass may override the following methods -------
             /**

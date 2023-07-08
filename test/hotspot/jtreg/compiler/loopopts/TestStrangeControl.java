@@ -21,7 +21,21 @@
 
 package compiler.loopopts;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,8 @@ import jdk.test.lib.Utils;
  * @run main/othervm -Xbatch -XX:CompileCommand=inline,compiler.loopopts.StrangeControl::test
  *                   compiler.loopopts.TestStrangeControl
  */
+
+
 
 public class TestStrangeControl {
 

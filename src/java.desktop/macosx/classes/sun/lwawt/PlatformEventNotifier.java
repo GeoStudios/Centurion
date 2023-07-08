@@ -21,7 +21,22 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface PlatformEventNotifier {
     void notifyIconify(boolean iconify);

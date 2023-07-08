@@ -21,11 +21,25 @@
 
 package nsk.share.jdb;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import java.util.*;
 import java.io.*;
 import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wrapper of <i>jdb</i>.s
@@ -890,6 +904,7 @@ public class Jdb extends LocalProcess implements Finalizable {
             flog.flush();
         }
     }
+
 
     /**
      *  Starts jdb with attaching connector. Makes several tries during <i>waitTime</i>

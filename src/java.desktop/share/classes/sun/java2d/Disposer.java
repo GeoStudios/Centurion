@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
 import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
@@ -30,6 +31,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used for registering and disposing the native

@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.allFields;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the allFields() method of ReferenceType interface for UNLOADED class
+
 
 class allfields003b {}

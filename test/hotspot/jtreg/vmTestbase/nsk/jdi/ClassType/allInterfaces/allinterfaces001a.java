@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.allInterfaces;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the allinterfaces001 JDI test.
@@ -75,6 +89,7 @@ public class allinterfaces001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -117,6 +132,7 @@ public class allinterfaces001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 interface Iface1 {
     static int i1 = 0;

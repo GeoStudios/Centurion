@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
+
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.RandomAccessFile;
 import java.nio.file.Files;
 import com.sun.imageio.stream.StreamCloser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@code ImageOutputStream} that writes its

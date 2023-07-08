@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */
@@ -36,6 +53,7 @@ public class LocaleUtility {
      */
     public final static char IETF_SEPARATOR = '-';
     public final static String EMPTY_STRING = "";
+
 
  public static Locale langToLocale(String lang) {
        if((lang == null) || lang.equals(EMPTY_STRING)){ // not specified => getDefault
@@ -81,5 +99,7 @@ public class LocaleUtility {
 
         return new Locale(language, country, variant );
     }
+
+
 
  }

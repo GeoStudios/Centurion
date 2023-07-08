@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.util.Vector;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the Highlighter interfaces.  Implements a simple highlight
@@ -351,6 +366,7 @@ public class DefaultHighlighter extends LayeredHighlighter {
     private boolean drawsLayeredHighlights;
     private final SafeDamager safeDamager = new SafeDamager();
 
+
     /**
      * Default implementation of LayeredHighlighter.LayerPainter that can
      * be used for painting highlights.
@@ -358,6 +374,7 @@ public class DefaultHighlighter extends LayeredHighlighter {
      * As of 1.4 this field is final.
      */
     public static final LayeredHighlighter.LayerPainter DefaultPainter = new DefaultHighlightPainter(null);
+
 
     /**
      * Simple highlight painter that fills a highlighted area with
@@ -498,6 +515,7 @@ public class DefaultHighlighter extends LayeredHighlighter {
 
     }
 
+
     class HighlightInfo implements Highlighter.Highlight {
 
         public int getStartOffset() {
@@ -516,6 +534,7 @@ public class DefaultHighlighter extends LayeredHighlighter {
         Position p1;
         Highlighter.HighlightPainter painter;
     }
+
 
     /**
      * LayeredHighlightPainter is used when a drawsLayeredHighlights is

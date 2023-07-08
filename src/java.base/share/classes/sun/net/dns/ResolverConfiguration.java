@@ -21,7 +21,22 @@
 
 package java.base.share.classes.sun.net.dns;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The configuration of the client resolver.
@@ -73,6 +88,7 @@ public abstract class ResolverConfiguration {
      * @return list of the name servers
      */
     public abstract List<String> nameservers();
+
 
     /**
      * Options representing certain resolver variables of

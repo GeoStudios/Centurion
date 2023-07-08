@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
+
 import java.awt.Transparency;
 import java.awt.geom.Path2D;
 import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
@@ -32,6 +33,20 @@ import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.windows.classes.sun.java2d.pipe.SpanIterator;
 import java.desktop.windows.classes.sun.java2d.pipe.ParallelogramPipe;
 import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class D3DRenderer extends BufferedRenderPipe {
 

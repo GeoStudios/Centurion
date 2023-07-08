@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  */
 public class XMLSimpleType {
@@ -89,6 +105,7 @@ public class XMLSimpleType {
 
     /** non-normalized defaultValue */
     public String nonNormalizedDefaultValue;
+
 
     //
     // Methods

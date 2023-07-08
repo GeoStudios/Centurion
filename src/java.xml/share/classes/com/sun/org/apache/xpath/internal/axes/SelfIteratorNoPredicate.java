@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class implements an optimized iterator for
@@ -66,6 +83,7 @@ public class SelfIteratorNoPredicate extends LocPathIterator
   {
     super(null);
   }
+
 
   /**
    *  Returns the next node in the set and advances the position of the
@@ -128,5 +146,6 @@ public class SelfIteratorNoPredicate extends LocPathIterator
   {
     return 1;
   }
+
 
 }

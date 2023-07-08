@@ -21,8 +21,22 @@
 
 package vm.compiler.CodeCacheInfoOnCompilation;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,8 @@ import jdk.test.lib.process.ProcessTools;
  *          /test/lib
  * @run driver vm.compiler.CodeCacheInfoOnCompilation.Test
  */
+
+
 
 public class Test {
     private static String REGEXP = "^(CodeCache|(CodeHeap.*)): size=\\d+Kb used=\\d+Kb max_used=\\d+Kb free=\\d+Kb";

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
@@ -38,6 +39,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constaints shared by traversers and validator
@@ -927,6 +942,7 @@ public class XSConstraints {
                 }
             }
 
+
             case XSModelGroupImpl.MODELGROUP_SEQUENCE:
             {
                 switch (bType) {
@@ -1027,6 +1043,7 @@ public class XSConstraints {
         return children;
     }
 
+
     private static void gatherChildren(int parentType, XSParticleDecl p, List<XSParticleDecl> children) {
 
         int min = p.fMinOccurs;
@@ -1058,6 +1075,7 @@ public class XSConstraints {
     private static void checkNameAndTypeOK(XSElementDecl dElement, int dMin, int dMax,
             XSElementDecl bElement, int bMin, int bMax)
         throws XMLSchemaException {
+
 
         //
         // Check that the names are the same
@@ -1129,6 +1147,7 @@ public class XSConstraints {
             throw new XMLSchemaException("rcase-NameAndTypeOK.6",
                     new Object[]{dElement.fName});
 
+
         //
         // Check that the derived element's type is derived from the base's.
         //
@@ -1140,11 +1159,13 @@ public class XSConstraints {
 
     }
 
+
     private static void checkIDConstraintRestriction(XSElementDecl derivedElemDecl,
             XSElementDecl baseElemDecl)
         throws XMLSchemaException {
         // TODO
     } // checkIDConstraintRestriction
+
 
     private static boolean checkOccurrenceRange(int min1, int max1, int min2, int max2) {
 
@@ -1203,11 +1224,13 @@ public class XSConstraints {
 
     }
 
+
     private static void checkNSRecurseCheckCardinality(List<XSParticleDecl> children, int min1, int max1,
             SubstitutionGroupHandler dSGHandler,
             XSParticleDecl wildcard, int min2, int max2,
             boolean checkWCOccurrence)
         throws XMLSchemaException {
+
 
         // check Occurrence ranges
         if (checkWCOccurrence && !checkOccurrenceRange(min1,max1,min2,max2)) {
@@ -1287,6 +1310,7 @@ public class XSConstraints {
             List<XSParticleDecl> bChildren, int min2, int max2,
             SubstitutionGroupHandler bSGHandler)
         throws XMLSchemaException {
+
 
         // check Occurrence ranges
         if (!checkOccurrenceRange(min1,max1,min2,max2)) {

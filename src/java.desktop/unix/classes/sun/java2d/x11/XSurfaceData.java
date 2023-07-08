@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.java2d.x11;
 
+
 import java.awt.image.*;
 import java.desktop.unix.classes.sun.awt.*;
 import java.desktop.unix.classes.sun.java2d.*;
 import java.desktop.unix.classes.sun.java2d.loops.*;
 import java.desktop.unix.classes.sun.java2d.pipe.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class XSurfaceData extends SurfaceData {
     static boolean isX11SurfaceDataInitialized = false;

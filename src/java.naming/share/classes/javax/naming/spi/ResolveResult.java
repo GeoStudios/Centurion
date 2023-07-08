@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
+
 import java.naming.share.classes.javax.naming.Name;
 import java.naming.share.classes.javax.naming.Context;
 import java.naming.share.classes.javax.naming.CompositeName;
 import java.naming.share.classes.javax.naming.InvalidNameException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class represents the result of resolution of a name.

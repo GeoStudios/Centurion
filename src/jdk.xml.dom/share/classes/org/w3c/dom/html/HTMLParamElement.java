@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  Parameters fed to the <code>OBJECT</code> element. See the  PARAM element
  * definition in HTML 4.0.

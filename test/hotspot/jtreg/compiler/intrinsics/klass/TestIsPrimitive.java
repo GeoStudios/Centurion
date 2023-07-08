@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.klass;
 
+
 import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -37,6 +51,8 @@ import java.util.concurrent.Callable;
  * @run main/othervm -ea -Diters=30000 -XX:TieredStopAtLevel=4
  *      compiler.intrinsics.klass.TestIsPrimitive
  */
+
+
 
 public class TestIsPrimitive {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -172,6 +188,7 @@ public class TestIsPrimitive {
         static boolean testNull()    { return classNull.isPrimitive();    }
         static boolean testBooleanArray() { return classBooleanArray.isPrimitive();    }
     }
+
 
 }
 

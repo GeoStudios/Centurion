@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.awt.image.ImageFilter;
 import java.desktop.share.classes.java.awt.image.ImageConsumer;
 import java.desktop.share.classes.java.awt.image.ImageProducer;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.awt.image.ColorModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is an implementation of the ImageProducer interface which

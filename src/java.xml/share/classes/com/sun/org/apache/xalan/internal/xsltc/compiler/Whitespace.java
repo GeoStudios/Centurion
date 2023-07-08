@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
@@ -40,6 +41,20 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Oct 2017
@@ -169,6 +184,7 @@ final class Whitespace extends TopLevelElement {
         _elementList = elements.toString();
     }
 
+
     /**
      * De-tokenize the elements listed in the 'elements' attribute and
      * instanciate a set of strip/preserve rules.
@@ -184,6 +200,7 @@ final class Whitespace extends TopLevelElement {
         }
         return rules;
     }
+
 
     /**
      * Scans through the rules vector and looks for a rule of higher
@@ -221,6 +238,7 @@ final class Whitespace extends TopLevelElement {
         }
         return null;
     }
+
 
     /**
      * Orders a set or rules by priority, removes redundant rules and rules
@@ -453,6 +471,7 @@ final class Whitespace extends TopLevelElement {
 
         classGen.addMethod(stripSpace);
     }
+
 
     /**
      * Takes a vector of WhitespaceRule objects and generates a predicate

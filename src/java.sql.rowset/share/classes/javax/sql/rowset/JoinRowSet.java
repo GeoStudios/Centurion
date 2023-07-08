@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
+
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.sql.rowset.share.classes.javax.naming.*;
@@ -28,6 +29,20 @@ import java.io.*;
 import java.math.*;
 import java.util.*;
 import java.sql.rowset.share.classes.javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>JoinRowSet</code> interface provides a mechanism for combining related
@@ -526,5 +541,6 @@ public interface JoinRowSet extends WebRowSet {
      * records on the other table.
      */
     int FULL_JOIN = 4;
+
 
 }

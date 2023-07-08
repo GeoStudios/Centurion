@@ -21,9 +21,23 @@
 
 package nsk.jdi.ExceptionEvent._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class exevent004t {
     public static void main(String args[]) {

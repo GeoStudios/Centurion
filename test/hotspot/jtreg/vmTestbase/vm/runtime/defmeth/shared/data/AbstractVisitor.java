@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared.data;
 
+
 import vm.runtime.defmeth.shared.data.method.AbstractMethod;
 import vm.runtime.defmeth.shared.data.method.ConcreteMethod;
 import vm.runtime.defmeth.shared.data.method.DefaultMethod;
@@ -39,6 +40,19 @@ import vm.runtime.defmeth.shared.data.method.param.NewInstanceParam;
 import vm.runtime.defmeth.shared.data.method.param.StringParam;
 import vm.runtime.defmeth.shared.data.method.result.IntResult;
 import vm.runtime.defmeth.shared.data.method.result.ThrowExResult;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code AbstactVisitor} provides implementation for all methods from {@code Visitor},

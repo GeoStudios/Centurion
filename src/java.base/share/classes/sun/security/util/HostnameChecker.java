@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.util;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.IDN;
 import java.net.InetAddress;
@@ -34,6 +35,20 @@ import javax.net.ssl.SNIHostName;
 import java.base.share.classes.sun.net.util.IPAddressUtil;
 import java.base.share.classes.sun.security.x509.X500Name;
 import java.base.share.classes.sun.security.ssl.SSLLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to check hostnames against the names specified in a certificate as
@@ -225,6 +240,7 @@ public class HostnameChecker {
         throw new CertificateException(msg);
     }
 
+
     /**
      * Return the subject of a certificate as X500Name, by reparsing if
      * necessary. X500Name should only be used if access to name components
@@ -247,6 +263,7 @@ public class HostnameChecker {
             throw new CertificateParsingException(e);
         }
     }
+
 
     /**
      * Returns true if name matches against template.<p>
@@ -390,6 +407,7 @@ public class HostnameChecker {
         return true;
     }
 
+
     /**
      * Returns true if name matches against template.<p>
      *
@@ -423,6 +441,7 @@ public class HostnameChecker {
             return false;
         }
     }
+
 
     /**
      * Returns true if the name matches against the template that may

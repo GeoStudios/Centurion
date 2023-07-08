@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
+
 import java.util.logging.*;
 import java.util.*;
 import java.sql.*;
@@ -35,6 +36,20 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.sql.rowset.share.classes.javax.naming.*;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Service Provider Interface (SPI) mechanism that generates <code>SyncProvider</code>

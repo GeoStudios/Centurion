@@ -21,6 +21,7 @@
 
 package stream.EventsTest;
 
+
 import java.io.StringReader;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
@@ -35,6 +36,19 @@ import javax.xml.stream.events.XMLEvent;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -99,6 +113,7 @@ public class Issue48Test {
         XMLEventReader er = inputFactory.createXMLEventReader(new StringReader(XML));
         return er;
     }
+
 
     private void testListElems(List l, Class expType) {
         Iterator it = l.iterator();

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
@@ -30,6 +31,20 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.text.View;
 import sun.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicMenuItem implementation
@@ -952,6 +967,7 @@ public class BasicMenuItemUI extends MenuItemUI
         }
     }
 
+
     private static class Actions extends UIAction {
         private static final String CLICK = "doClick";
 
@@ -1025,6 +1041,7 @@ public class BasicMenuItemUI extends MenuItemUI
                 (actionCommand == "Restore") ||
                 (actionCommand == "Maximize");
     }
+
 
     // BasicMenuUI subclasses this.
     class Handler implements MenuDragMouseListener,
@@ -1117,6 +1134,7 @@ public class BasicMenuItemUI extends MenuItemUI
                 manager.clearSelectedPath();
             }
         }
+
 
         //
         // PropertyChangeListener

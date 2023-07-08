@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An abstraction which represents a seekable data source.
     RandomAccessFile can be trivially mapped to this; in addition, we

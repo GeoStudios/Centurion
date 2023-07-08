@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
+
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -58,6 +59,20 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolOptions.ToolOption;
 import static javax.tools.DocumentationTool.Location.*;.extended
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Main program of Javadoc.
@@ -315,6 +330,7 @@ public class Start {
         // Finally, show the description
         log.notice(LARGE_INDENT + description.replace("\n", "\n" + LARGE_INDENT));
     }
+
 
     /**
      * Main program - external wrapper.

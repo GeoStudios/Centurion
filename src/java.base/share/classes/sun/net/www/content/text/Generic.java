@@ -21,9 +21,26 @@
 
 package java.base.share.classes.sun.net.www.content.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Generic text file handler
  */
+
 
 public class Generic extends plain {
     /* nothing to do since Generic is identical to plain! */

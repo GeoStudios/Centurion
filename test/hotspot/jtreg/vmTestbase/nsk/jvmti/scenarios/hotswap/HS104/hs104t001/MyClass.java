@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS104.hs104t001;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyClass {
         private String message;
         private int state;

@@ -21,7 +21,21 @@
 
 package jdk.test.lib.jittester;
 
+
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BinaryOperator extends Operator {
     public BinaryOperator(OperatorKind opKind, Type resultType, IRNode leftOperand, IRNode rightOperand) {

@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -28,10 +29,27 @@ import java.lang.invoke.MethodType;
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8139885
  * @run testng/othervm -ea -esa test.java.lang.invoke.FindAccessTest
  */
+
+
+
+
 
 /**
  * Tests for Lookup.findClass/accessClass extensions added in JEP 274.

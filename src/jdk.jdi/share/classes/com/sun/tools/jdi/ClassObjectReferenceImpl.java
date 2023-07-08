@@ -21,9 +21,24 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.ClassObjectReference;
 import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassObjectReferenceImpl extends ObjectReferenceImpl
                                       implements ClassObjectReference

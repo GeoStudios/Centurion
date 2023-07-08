@@ -21,11 +21,26 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
+
 import java.io.*;
 import sun.security.krb5.KrbException;
 import sun.security.krb5.PrincipalName;
 import sun.security.krb5.Realm;
 import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos principal.
@@ -85,6 +100,7 @@ public final class KerberosPrincipal
     private transient String realm;
 
     private transient int nameType;
+
 
     /**
      * Constructs a {@code KerberosPrincipal} from the provided string input.

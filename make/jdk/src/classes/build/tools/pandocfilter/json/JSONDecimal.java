@@ -21,6 +21,56 @@
 
 package build.tools.pandocfilter.json;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class JSONDecimal implements JSONValue {
     private double value;
 

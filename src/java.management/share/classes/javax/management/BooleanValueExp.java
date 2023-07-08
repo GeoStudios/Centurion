@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class represents a boolean value. A BooleanValueExp may be
  * used anywhere a ValueExp is required.
@@ -37,6 +53,7 @@ class BooleanValueExp extends QueryEval implements ValueExp {
      */
     private boolean val = false;
 
+
     /** Creates a new BooleanValueExp representing the boolean literal {@code val}.*/
     BooleanValueExp(boolean val) {
         this.val = val;
@@ -46,6 +63,7 @@ class BooleanValueExp extends QueryEval implements ValueExp {
     BooleanValueExp(Boolean val) {
         this.val = val.booleanValue();
     }
+
 
     /** Returns the  Boolean object representing the value of the BooleanValueExp object.*/
     public Boolean getValue()  {
@@ -80,5 +98,6 @@ class BooleanValueExp extends QueryEval implements ValueExp {
     public void setMBeanServer(MBeanServer s) {
         super.setMBeanServer(s);
     }
+
 
  }

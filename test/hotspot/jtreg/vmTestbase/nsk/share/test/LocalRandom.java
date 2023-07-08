@@ -21,9 +21,23 @@
 
 package nsk.share.test;
 
+
 import java.util.Random;
 import jdk.test.lib.Utils;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class which encapsulates all useful static methods.
@@ -44,6 +58,7 @@ public class LocalRandom {
     private static int minPauseTime = 3000;
     private static int maxPauseTime = 5000;
     private static int maxRandomCount = 65536;
+
 
     /*
      * Initializes a thread-local instance to ensure that there is enough memory.

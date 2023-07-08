@@ -21,10 +21,25 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.lang.System.Logger.Level;
 import com.sun.jmx.defaults.JmxProperties;
 import com.sun.jmx.defaults.ServiceName;
 import com.sun.jmx.mbeanserver.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents  the MBean server from the management point of view.
@@ -67,6 +82,7 @@ public class MBeanServerDelegate implements MBeanServerDelegateMBean,
         stamp = getStamp();
         broadcaster = new NotificationBroadcasterSupport() ;
     }
+
 
     /**
      * Returns the MBean server agent identity.

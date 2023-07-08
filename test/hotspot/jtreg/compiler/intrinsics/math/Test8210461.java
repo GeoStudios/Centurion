@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.math;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -30,6 +44,8 @@ import java.base.share.classes.java.util.Arrays;
  *
  * @run main/othervm compiler.intrinsics.math.Test8210461
  */
+
+
 
 public class Test8210461 {
     private static final double[] testCases = new double[] {

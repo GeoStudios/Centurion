@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -32,6 +33,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compile
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpCodes;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends NodeSetDTM, which implements DTMIterator,
@@ -143,6 +158,7 @@ public class UnionPathIterator extends LocPathIterator
                   m_iterators = null;
           }
   }
+
 
   /**
    * Create a UnionPathIterator object, including creation
@@ -290,6 +306,7 @@ public class UnionPathIterator extends LocPathIterator
 
     return clone;
   }
+
 
   /**
    * Create a new location path iterator.
@@ -462,6 +479,7 @@ public class UnionPathIterator extends LocPathIterator
    */
   protected LocPathIterator[] m_exprs;
 
+
   /**
    * The location path iterators, one for each
    * <a href="http://www.w3.org/TR/xpath#NT-LocationPath">location
@@ -570,5 +588,6 @@ public class UnionPathIterator extends LocPathIterator
 
       return true;
     }
+
 
 }

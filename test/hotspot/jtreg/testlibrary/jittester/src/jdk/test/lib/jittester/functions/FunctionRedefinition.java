@@ -21,9 +21,23 @@
 
 package jdk.test.lib.jittester.functions;
 
+
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FunctionRedefinition extends IRNode {
     private final FunctionInfo functionInfo;

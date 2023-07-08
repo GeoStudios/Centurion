@@ -21,10 +21,24 @@
 
 package nsk.jvmti.ResourceExhausted;
 
+
 import java.io.PrintStream;
 import nsk.share.Consts;
 import nsk.share.test.Stresser;
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class resexhausted002 {
     static final long MAX_ITERATIONS = Long.MAX_VALUE;

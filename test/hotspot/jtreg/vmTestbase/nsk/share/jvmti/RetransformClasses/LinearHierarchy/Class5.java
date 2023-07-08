@@ -21,6 +21,21 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class5 extends Class6 {
     short var_1 = (short)1599163378;
     final int var_2 = 1450699882;
@@ -30,6 +45,7 @@ public class Class5 extends Class6 {
     short var_6 = (false ? false : false) ? (byte)var_3 : var_1++;
     int var_7;
     byte var_8;
+
 
     public Class5()
     {

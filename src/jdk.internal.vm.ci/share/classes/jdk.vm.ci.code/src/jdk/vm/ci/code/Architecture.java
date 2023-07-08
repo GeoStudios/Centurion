@@ -21,11 +21,26 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
 
+
 import java.nio.ByteOrder;
 import java.util.Set;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.Register.RegisterCategory;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaKind;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.PlatformKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a CPU architecture, including information such as its endianness, CPU registers, word

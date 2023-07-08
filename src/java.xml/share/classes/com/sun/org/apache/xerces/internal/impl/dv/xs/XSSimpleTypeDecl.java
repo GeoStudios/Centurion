@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DatatypeException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeFacetException;
@@ -57,6 +58,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @xerces.internal
@@ -1211,6 +1226,7 @@ public class XSSimpleTypeDecl implements XSSimpleType, TypeInfo {
                 }
             }
 
+
             // check 4.3.2.c1 must: maxLength < fBase.minLength
             if ( ((fFacetsDefined & FACET_MAXLENGTH ) != 0 ) && ((fBase.fFacetsDefined & FACET_MINLENGTH ) != 0 )) {
                 if ( fMaxLength < fBase.fMinLength) {
@@ -2088,6 +2104,7 @@ public class XSSimpleTypeDecl implements XSSimpleType, TypeInfo {
         throw new InvalidDatatypeFacetException(key, args);
     }
 
+
     private String whiteSpaceValue(short ws){
         return WS_FACET_STRING[ws];
     }
@@ -2653,6 +2670,7 @@ public class XSSimpleTypeDecl implements XSSimpleType, TypeInfo {
         return false;
     }
 
+
     /**
      * Checks if a type is derived from another by any combination of restriction, list ir union. See:
      * http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/core.html#TypeInfo-isDerivedFrom
@@ -2803,6 +2821,7 @@ public class XSSimpleTypeDecl implements XSSimpleType, TypeInfo {
         }
         return false;
     }
+
 
     static final XSSimpleTypeDecl fAnySimpleType = new XSSimpleTypeDecl(null, "anySimpleType", DV_ANYSIMPLETYPE, ORDERED_FALSE, false, true, false, true, XSConstants.ANYSIMPLETYPE_DT);
 

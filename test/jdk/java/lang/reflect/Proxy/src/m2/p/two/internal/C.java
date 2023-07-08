@@ -21,6 +21,21 @@
 
 package p.two.internal;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface C {
     default int m() { return 2; }
 }

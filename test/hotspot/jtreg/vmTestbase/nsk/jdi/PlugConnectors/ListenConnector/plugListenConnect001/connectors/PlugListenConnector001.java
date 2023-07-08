@@ -21,15 +21,31 @@
 
 package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect001.connectors;
 
+
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * A Simple ListeningConnector used by
  * nsk/jdi/PlugConnectors/ListenConnector/plugListenConnect001 test
  */
+
+
 
 public class PlugListenConnector001 extends PlugConnectors implements ListeningConnector {
 
@@ -37,6 +53,7 @@ public class PlugListenConnector001 extends PlugConnectors implements ListeningC
     static String plugListenConnectorDescription = "PlugListenConnector001_Description";
     static Transport plugListenConnectorTransport = new PlugConnectorsTransport("PlugListenConnector001_Transport");
     static Map<String, Connector.Argument> plugListenConnectorDefaultArguments = new HashMap<String, Connector.Argument>();
+
 
     public PlugListenConnector001() {
 

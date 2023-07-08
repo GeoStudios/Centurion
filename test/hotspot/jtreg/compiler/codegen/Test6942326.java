@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6942326
@@ -36,6 +51,7 @@ package compiler.codegen;
  *      -XX:CompileCommand=exclude,compiler.codegen.Test6942326::test_subcon
  *      compiler.codegen.Test6942326
  */
+
 
 public class Test6942326 {
 
@@ -76,6 +92,8 @@ public class Test6942326 {
         b =  "111xx1y";
         test_varsub_indexof(a, b);
 
+
+
         // search substring (17 chars) in variable size string.
         a =                 "1111111111111xx1x";
         b = " 1111111111111xx1111111111111xx1x"; // +1 to execute b.substring(1) first
@@ -111,6 +129,8 @@ public class Test6942326 {
         b = " 1111111111111xx1111111111111xx1y";
         test_varstr_indexof(a, b);
 
+
+
         // search non matching variable size substring in string (33 chars).
         a = " 1111111111111xx1111111111111xx11z"; // +1 to execute a.substring(1) first
         b =  "1111111111111xx1111111111111xx11y";
@@ -140,6 +160,8 @@ public class Test6942326 {
         a = " 111xx1z";
         b =  "111xx1y";
         test_missub_indexof(a, b);
+
+
 
         // Testing constant substring search in variable size string.
 
@@ -182,6 +204,7 @@ public class Test6942326 {
         b = " 1111111111111xx1111111111111xx1y";
         tc = new TestCon1();
         test_consub_indexof(tc, b);
+
 
         // search non matching constant substring (17 chars).
         b = " 1111111111111xx1111111111111xx1z"; // +1 to execute b.substring(1) first
@@ -302,6 +325,8 @@ public class Test6942326 {
         System.out.println("End search non matching variable size substring in string (" + b.length() + " chars), time: " + (end_it - start_it));
     }
 
+
+
     public static void test_consub_indexof(TestCon tc, String b) {
         System.out.println("Start search constant substring (" + tc.constr().length() + " chars)");
         long start_it = System.currentTimeMillis();
@@ -394,6 +419,7 @@ public class Test6942326 {
         public String constr() { return constr; }
         public int indexOf(String str) { return str.indexOf(constr); }
     }
+
 
     // search constant substring (1 chars).
     private final static class TestCon1 implements TestCon {

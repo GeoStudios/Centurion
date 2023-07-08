@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.FastStringBuffer;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class will wrap a FastStringBuffer and allow for
@@ -60,6 +78,7 @@ public class XStringForChars extends XString
       throw new IllegalArgumentException(
                           XSLMessages.createXPATHMessage(XPATHErrorResources.ER_FASTSTRINGBUFFER_CANNOT_BE_NULL, null)); //"The FastStringBuffer argument can not be null!!");
   }
+
 
   /**
    * Construct a XNodeSet object.
@@ -93,6 +112,7 @@ public class XStringForChars extends XString
     fsb.append((char[])m_obj, m_start, m_length);
   }
 
+
   /**
    * Tell if this object contains a java String object.
    *
@@ -102,6 +122,7 @@ public class XStringForChars extends XString
   {
     return (null != m_strCache);
   }
+
 
   /**
    * Cast result object to a string.
@@ -115,6 +136,7 @@ public class XStringForChars extends XString
 
     return m_strCache;
   }
+
 
   /**
    * Since this object is incomplete without the length and the offset, we

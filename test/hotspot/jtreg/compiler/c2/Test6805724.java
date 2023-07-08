@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -35,6 +49,8 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6805724::fcomp
  *      compiler.c2.Test6805724
  */
+
+
 
 public class Test6805724 implements Runnable {
     // Initialize DIVISOR so that it is final in this class.

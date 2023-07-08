@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Models all compound types, i.e., those containing fields: classes,
     structs, and unions. The boolean type accessors indicate how the
     type is really defined in the debug information. */

@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class iterates over set of nodes that needs to be sorted.
@@ -87,6 +102,7 @@ public class WalkingIteratorSorted extends WalkingIterator
     return m_inNaturalOrderStatic;
   }
 
+
   /**
    * Tell if the nodeset can be walked in doc order, via static analysis.
    *
@@ -134,6 +150,7 @@ public class WalkingIteratorSorted extends WalkingIterator
     }
     return false;
   }
+
 
 //  /**
 //   * NEEDSDOC Method canBeWalkedInNaturalDocOrder

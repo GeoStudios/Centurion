@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype;
 
+
 import java.math.BigInteger;
 import javax.xml.datatype.DatatypeConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Represent a subtype <code>xdt:yearMonthDuration</code> of a <code>Duration</code>
@@ -90,7 +105,9 @@ class DurationYearMonthImpl
             wrap(years),
             wrap(months));
 
+
     }
+
 
         /**
          * <p>Construct a <code>Duration</code> of type <code>xdt:yearMonthDuration</code> using the specified milliseconds as defined in
@@ -135,6 +152,7 @@ class DurationYearMonthImpl
         seconds = null;
         signum = calcSignum(signum >= 0);
     }
+
 
         /**
          * <p>Construct a <code>Duration</code> of type <code>xdt:yearMonthDuration</code> by parsing its <code>String</code> representation,

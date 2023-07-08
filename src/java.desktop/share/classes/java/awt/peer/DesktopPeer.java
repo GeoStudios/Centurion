@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.Desktop.Action;
 import java.desktop.share.classes.java.awt.desktop.AboutHandler;
 import java.desktop.share.classes.java.awt.desktop.OpenFilesHandler;
@@ -36,6 +37,20 @@ import java.desktop.share.classes.java.io.File;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.net.URI;
 import javax.swing.JMenuBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DesktopPeer} interface provides methods for the operation

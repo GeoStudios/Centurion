@@ -21,6 +21,21 @@
 
 package compiler.jvmci.common.testcases;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class MultipleSuperImplementers implements DuplicateSimpleSingleImplementerInterface, SimpleSingleImplementerInterface {
     public void finalize() {
     }

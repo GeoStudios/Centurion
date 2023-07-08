@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Set up error messages.
@@ -38,5 +55,6 @@ package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
  */
 public class XMLErrorResources_zh_HK extends XMLErrorResources_zh_TW
 {
+
 
 }

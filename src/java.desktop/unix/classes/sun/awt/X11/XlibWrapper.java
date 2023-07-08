@@ -21,9 +21,24 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.security.AccessController;
 import jdk.internal.misc.Unsafe;
 import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XlibWrapper {
 
@@ -87,6 +102,7 @@ final class XlibWrapper {
 
     static  native long RootWindow(long display, long screen_number);
     static native int ScreenCount(long display);
+
 
 /*
    Window XCreateWindow(display, parent, x, y, width, height,
@@ -166,6 +182,9 @@ Window w;
 
     static  native void XUnmapWindow(long display, long window);
 
+
+
+
 /*
   XSelectInput(display, w, event_mask)
   Display *display;
@@ -212,6 +231,7 @@ static native boolean XSupportsLocale();
 */
 static native String XSetLocaleModifiers(String modifier_list);
 
+
     static  native int XTranslateCoordinates(
                                              long display, long src_w, long dest_w,
                                              long src_x, long src_y,
@@ -241,6 +261,7 @@ static native String XSetLocaleModifiers(String modifier_list);
 */
 
     static native void XSync(long display,int discard);
+
 
 /*    XMoveResizeWindow(display, w, x, y, width, height)
       Display *display;
@@ -390,6 +411,7 @@ static native String XSetLocaleModifiers(String modifier_list);
     */
    static native long XCreatePixmapCursor(long display, long source, long mask, long fore, long back, int x, int y);
 
+
     /*
          Status XQueryBestCursor(display, d, width, height,
      width_return, height_return)
@@ -402,6 +424,7 @@ static native String XSetLocaleModifiers(String modifier_list);
 
     static native boolean XQueryBestCursor(long display, long drawable, int width, int height, long width_return, long height_return);
 
+
     /*
      Status XAllocColor(display, colormap, screen_in_out)
            Display *display;
@@ -410,6 +433,7 @@ static native String XSetLocaleModifiers(String modifier_list);
   */
 
     static native boolean XAllocColor( long display, long colormap, long screen_in_out);
+
 
     static native long SetToolkitErrorHandler();
     static native void XSetErrorHandler(long handler);
@@ -451,6 +475,7 @@ static native String XSetLocaleModifiers(String modifier_list);
     static native String XGetAtomName(long display, long atom);
 
     static native long XMaxRequestSize(long display);
+
 
     static native long XCreatePixmap(long display, long drawable, int width, int height, int depth);
     static native long XCreateImage(long display, long visual_ptr, int depth, int format,
@@ -496,6 +521,7 @@ static native String XSetLocaleModifiers(String modifier_list);
     static native boolean XkbTranslateKeyCode(long xkb, int keycode, long mods, long mods_rtrn, long keysym_rtrn);
     static native void XkbSetDetectableAutoRepeat(long display, boolean detectable);
 
+
     static native void XConvertCase(long keysym,
                                     long keysym_lowercase,
                                     long keysym_uppercase);
@@ -503,6 +529,7 @@ static native String XSetLocaleModifiers(String modifier_list);
     static native long XGetModifierMapping(long display);
     static native void XFreeModifiermap(long keymap);
     static native void XRefreshKeyboardMapping(long event);
+
 
     static native void XChangeActivePointerGrab(long display, int mask,
                                                 long cursor, long time);
@@ -569,6 +596,7 @@ static native String XSetLocaleModifiers(String modifier_list);
     static final long iarg6 = iarg5+4;
     static final long iarg7 = iarg6+4;
     static final long iarg8 = iarg7+4;
+
 
     static int dataModel;
     static final boolean isBuildInternal;

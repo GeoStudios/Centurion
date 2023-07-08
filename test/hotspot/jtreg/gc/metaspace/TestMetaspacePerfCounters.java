@@ -21,6 +21,7 @@
 
 package gc.metaspace;
 
+
 import java.lang.management.GarbageCollectorMXBean;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -31,6 +32,19 @@ import sun.management.ManagementFactoryHelper;
 import static jdk.test.lib.Asserts.*;.extended
 import gc.testlibrary.PerfCounter;
 import gc.testlibrary.PerfCounters;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test TestMetaspacePerfCountersSerial
  * @bug 8014659

@@ -21,7 +21,21 @@
 
 package compiler.cha;
 
+
 import static compiler.cha.Utils.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -50,6 +64,7 @@ import static compiler.cha.Utils.*;.extended
  *                   -XX:+TieredCompilation -XX:TieredStopAtLevel=1
  *                      compiler.cha.DefaultRootMethod
  */
+
 
 public class DefaultRootMethod {
     public static void main(String[] args) {

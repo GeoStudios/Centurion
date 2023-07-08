@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and denotes that this class
@@ -43,6 +61,7 @@ public final class InnerClasses extends Attribute {
 
     private InnerClass[] innerClasses;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -50,6 +69,7 @@ public final class InnerClasses extends Attribute {
     public InnerClasses(final InnerClasses c) {
         this(c.getNameIndex(), c.getLength(), c.getInnerClasses(), c.getConstantPool());
     }
+
 
     /**
      * @param name_index Index in constant pool to CONSTANT_Utf8
@@ -62,6 +82,7 @@ public final class InnerClasses extends Attribute {
         super(Const.ATTR_INNER_CLASSES, name_index, length, constant_pool);
         this.innerClasses = innerClasses != null ? innerClasses : new InnerClass[0];
     }
+
 
     /**
      * Construct object from input stream.
@@ -82,6 +103,7 @@ public final class InnerClasses extends Attribute {
         }
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -93,6 +115,7 @@ public final class InnerClasses extends Attribute {
     public void accept( final Visitor v ) {
         v.visitInnerClasses(this);
     }
+
 
     /**
      * Dump source file attribute to file stream in binary format.
@@ -109,6 +132,7 @@ public final class InnerClasses extends Attribute {
         }
     }
 
+
     /**
      * @return array of inner class "records"
      */
@@ -116,12 +140,14 @@ public final class InnerClasses extends Attribute {
         return innerClasses;
     }
 
+
     /**
      * @param innerClasses the array of inner classes
      */
     public void setInnerClasses( final InnerClass[] innerClasses ) {
         this.innerClasses = innerClasses != null ? innerClasses : new InnerClass[0];
     }
+
 
     /**
      * @return String representation.
@@ -137,6 +163,7 @@ public final class InnerClasses extends Attribute {
         }
         return buf.substring(0, buf.length()-1); // remove the last newline
     }
+
 
     /**
      * @return deep copy of this attribute

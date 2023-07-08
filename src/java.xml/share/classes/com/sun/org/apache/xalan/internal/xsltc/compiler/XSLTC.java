@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
@@ -52,6 +53,20 @@ import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.SecuritySupport;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021
@@ -92,6 +107,7 @@ public final class XSLTC {
     private Map<String, Integer> _namespaces; // Map of all registered namespaces
     private Map<String, Integer> _namespacePrefixes;// Map of all registered namespace prefixes
 
+
     // All literal text in the stylesheet
     private List<StringBuilder> m_characterData;
 
@@ -101,6 +117,7 @@ public final class XSLTC {
     public static final int CLASSLOADER_OUTPUT = 3;
     public static final int BYTEARRAY_AND_FILE_OUTPUT = 4;
     public static final int BYTEARRAY_AND_JAR_OUTPUT  = 5;
+
 
     // Compiler options (passed from command line or XSLTC client)
     private boolean _debug = false;      // -x
@@ -959,6 +976,7 @@ public final class XSLTC {
     public boolean debug() {
         return _debug;
     }
+
 
     /**
      * Retrieve a string representation of the character data to be stored

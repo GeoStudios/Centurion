@@ -21,10 +21,24 @@
 
 package COM.foo.content.text;
 
+
 import java.net.ContentHandler;
 import java.io.InputStream;
 import java.net.URLConnection;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Plain text file handler
@@ -43,6 +57,7 @@ import java.io.java.io.java.io.java.io.IOException;
  * 3) the class must be a subclass of ContentHandler.
  * 4) It must define the getContent function.
  */
+
 
 public class plain extends ContentHandler {
     /**

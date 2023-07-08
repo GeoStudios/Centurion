@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The PropertyEditorManager can be used to locate a property editor for
  * any given type name.  This property editor must support the

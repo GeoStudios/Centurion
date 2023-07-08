@@ -21,6 +21,21 @@
 
 package compiler.jvmci.common.testcases;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // just a most common simple class with method "testMethod" to use anywhere
 public class SimpleClass {
 

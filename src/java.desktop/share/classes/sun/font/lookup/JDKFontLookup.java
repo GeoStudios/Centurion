@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.font.lookup;
 
+
 import java.desktop.share.classes.sun.font.SunFontManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation-class accessed by other JDK modules to

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.print;
 
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -51,6 +52,20 @@ import java.io.FileReader;
 import java.net.URL;
 import java.nio.file.Files;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Remind: This class uses solaris commands. We also need a linux
  * version
@@ -72,6 +87,7 @@ public class PrintServiceLookupProvider extends PrintServiceLookup
     private static boolean pollServices = true;
     private static final int DEFAULT_MINREFRESH = 120;  // 2 minutes
     private static int minRefreshTime = DEFAULT_MINREFRESH;
+
 
     static String osname;
 
@@ -182,6 +198,7 @@ public class PrintServiceLookupProvider extends PrintServiceLookup
         "| grep -E '^[ 0-9a-zA-Z_-]*@' | awk -F'@' '{print $1}'"
     };
 
+
     static int getBSDCommandIndex() {
         String command  = "/usr/sbin/lpc status all";
         String[] names = execCmd(command);
@@ -198,6 +215,7 @@ public class PrintServiceLookupProvider extends PrintServiceLookup
 
         return BSD_LPD;
     }
+
 
     public PrintServiceLookupProvider() {
         // start the printer listener thread
@@ -257,6 +275,7 @@ public class PrintServiceLookupProvider extends PrintServiceLookup
         printerList.add(ps);
         return (printerList.size() - 1);
     }
+
 
     // refreshes "printServices"
     public synchronized void refreshServices() {
@@ -622,6 +641,7 @@ public class PrintServiceLookupProvider extends PrintServiceLookup
         }
         return new MultiDocPrintService[0];
     }
+
 
     public synchronized PrintService getDefaultPrintService() {
         SecurityManager security = System.getSecurityManager();

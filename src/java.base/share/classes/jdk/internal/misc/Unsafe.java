@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.misc;
 
+
 import java.base.share.classes.jdk.internal.ref.Cleaner;
 import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
@@ -28,6 +29,20 @@ import sun.nio.ch.DirectBuffer;
 import java.lang.reflect.Field;
 import java.security.ProtectionDomain;
 import static java.base.share.classes.jdk.internal.misc.UnsafeConstants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of methods for performing low-level, unsafe operations.
@@ -411,6 +426,8 @@ public final class Unsafe {
         putAddress(null, address, x);
     }
 
+
+
     /// helper methods for validating various types of objects/values
 
     /**
@@ -570,6 +587,7 @@ public final class Unsafe {
             checkPrimitiveArray(o.getClass());
         }
     }
+
 
     /// wrappers for malloc, realloc, free:
 
@@ -1159,6 +1177,7 @@ public final class Unsafe {
         return arrayBaseOffset0(arrayClass);
     }
 
+
     /** The value of {@code arrayBaseOffset(boolean[].class)} */
     public static final int ARRAY_BOOLEAN_BASE_OFFSET
             = theUnsafe.arrayBaseOffset(boolean[].class);
@@ -1213,6 +1232,7 @@ public final class Unsafe {
 
         return arrayIndexScale0(arrayClass);
     }
+
 
     /** The value of {@code arrayIndexScale(boolean[].class)} */
     public static final int ARRAY_BOOLEAN_INDEX_SCALE
@@ -1630,6 +1650,7 @@ public final class Unsafe {
                                                short x) {
         return weakCompareAndSetShort(o, offset, expected, x);
     }
+
 
     @IntrinsicCandidate
     public short compareAndExchangeShortAcquire(Object o, long offset,
@@ -2122,6 +2143,8 @@ public final class Unsafe {
     /** Volatile version of {@link #putDouble(Object, long, double)}  */
     @IntrinsicCandidate
     public native void    putDoubleVolatile(Object o, long offset, double x);
+
+
 
     /** Acquire version of {@link #getReferenceVolatile(Object, long)} */
     @IntrinsicCandidate
@@ -2870,6 +2893,7 @@ public final class Unsafe {
         return Double.longBitsToDouble(v);
     }
 
+
     // The following contain CAS-based Java implementations used on
     // platforms not supporting native instructions
 
@@ -2917,6 +2941,7 @@ public final class Unsafe {
     public boolean getAndBitwiseXorBooleanAcquire(Object o, long offset, boolean mask) {
         return byte2bool(getAndBitwiseXorByteAcquire(o, offset, bool2byte(mask)));
     }
+
 
     @ForceInline
     public byte getAndBitwiseOrByte(Object o, long offset, byte mask) {
@@ -3011,6 +3036,7 @@ public final class Unsafe {
         return current;
     }
 
+
     @ForceInline
     public char getAndBitwiseOrChar(Object o, long offset, char mask) {
         return s2c(getAndBitwiseOrShort(o, offset, c2s(mask)));
@@ -3055,6 +3081,7 @@ public final class Unsafe {
     public char getAndBitwiseXorCharAcquire(Object o, long offset, char mask) {
         return s2c(getAndBitwiseXorShortAcquire(o, offset, c2s(mask)));
     }
+
 
     @ForceInline
     public short getAndBitwiseOrShort(Object o, long offset, short mask) {
@@ -3148,6 +3175,7 @@ public final class Unsafe {
                                                current, (short) (current ^ mask)));
         return current;
     }
+
 
     @ForceInline
     public int getAndBitwiseOrInt(Object o, long offset, int mask) {
@@ -3252,6 +3280,7 @@ public final class Unsafe {
         return current;
     }
 
+
     @ForceInline
     public long getAndBitwiseOrLong(Object o, long offset, long mask) {
         long current;
@@ -3345,6 +3374,8 @@ public final class Unsafe {
         return current;
     }
 
+
+
     /**
      * Ensures that loads before the fence will not be reordered with loads and
      * stores after the fence; a "LoadLoad plus LoadStore barrier".
@@ -3406,6 +3437,7 @@ public final class Unsafe {
     public void storeStoreFence() {
         storeFence();
     }
+
 
     /**
      * Throws IllegalAccessError; for use by the VM for access control
@@ -3765,6 +3797,8 @@ public final class Unsafe {
     private static int convEndian(boolean big, int n)     { return big == BIG_ENDIAN ? n : Integer.reverseBytes(n)  ; }
     private static long convEndian(boolean big, long n)   { return big == BIG_ENDIAN ? n : Long.reverseBytes(n)     ; }
 
+
+
     private native long allocateMemory0(long bytes);
     private native long reallocateMemory0(long address, long bytes);
     private native void freeMemory0(long address);
@@ -3781,6 +3815,7 @@ public final class Unsafe {
     private native int arrayBaseOffset0(Class<?> arrayClass);
     private native int arrayIndexScale0(Class<?> arrayClass);
     private native int getLoadAverage0(double[] loadavg, int nelems);
+
 
     /**
      * Invokes the given direct byte buffer's cleaner, if any.
@@ -3824,6 +3859,7 @@ public final class Unsafe {
         return getReferenceOpaque(o, offset);
     }
 
+
     @Deprecated(since="12", forRemoval=true)
     public void putObject(Object o, long offset, Object x) {
         putReference(o, offset, x);
@@ -3841,6 +3877,7 @@ public final class Unsafe {
         putReferenceRelease(o, offset, x);
     }
 
+
     @Deprecated(since="12", forRemoval=true)
     public Object getAndSetObject(Object o, long offset, Object newValue) {
         return getAndSetReference(o, offset, newValue);
@@ -3853,6 +3890,7 @@ public final class Unsafe {
     public Object getAndSetObjectRelease(Object o, long offset, Object newValue) {
         return getAndSetReferenceRelease(o, offset, newValue);
     }
+
 
     @Deprecated(since="12", forRemoval=true)
     public boolean compareAndSetObject(Object o, long offset, Object expected, Object x) {
@@ -3870,6 +3908,7 @@ public final class Unsafe {
     public Object compareAndExchangeObjectRelease(Object o, long offset, Object expected, Object x) {
         return compareAndExchangeReferenceRelease(o, offset, expected, x);
     }
+
 
     @Deprecated(since="12", forRemoval=true)
     public boolean weakCompareAndSetObject(Object o, long offset, Object expected, Object x) {

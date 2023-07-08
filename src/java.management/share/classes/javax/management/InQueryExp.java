@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is used by the query-building mechanism to represent binary
  * operations.
@@ -42,6 +58,7 @@ class InQueryExp extends QueryEval implements QueryExp {
      */
     private ValueExp[]  valueList;
 
+
     /**
      * Basic Constructor.
      */
@@ -56,6 +73,7 @@ class InQueryExp extends QueryEval implements QueryExp {
         val       = v1;
         valueList = items;
     }
+
 
     /**
      * Returns the checked value of the query.
@@ -114,6 +132,7 @@ class InQueryExp extends QueryEval implements QueryExp {
     public String toString()  {
         return val + " in (" + generateValueList() + ")";
     }
+
 
     private String generateValueList() {
         if (valueList == null || valueList.length == 0) {

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
+
 import java.desktop.share.classes.javax.swing.event.TreeModelEvent;
 import java.awt.Rectangle;
 import java.util.Enumeration;
@@ -28,6 +29,20 @@ import java.util.Hashtable;
 import java.util.NoSuchElementException;
 import java.util.Stack;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NOTE: This will become more open in a future release.
@@ -142,6 +157,7 @@ public class FixedHeightLayoutCache extends AbstractLayoutCache {
      */
     public void invalidatePathBounds(TreePath path) {
     }
+
 
     /**
      * Informs the TreeState that it needs to recalculate all the sizes
@@ -510,6 +526,7 @@ public class FixedHeightLayoutCache extends AbstractLayoutCache {
         }
     }
 
+
     //
     // Local methods
     //
@@ -751,6 +768,7 @@ public class FixedHeightLayoutCache extends AbstractLayoutCache {
 
         /** Path of this node. */
         protected TreePath        path;
+
 
         public FHTreeStateNode(Object userObject, int childIndex, int row) {
             super(userObject);
@@ -1440,6 +1458,7 @@ public class FixedHeightLayoutCache extends AbstractLayoutCache {
 
     } // FixedHeightLayoutCache.FHTreeStateNode
 
+
     /**
      * Used as a placeholder when getting the path in FHTreeStateNodes.
      */
@@ -1459,6 +1478,7 @@ public class FixedHeightLayoutCache extends AbstractLayoutCache {
             return node.path;
         }
     } // FixedHeightLayoutCache.SearchInfo
+
 
     /**
      * An enumerator to iterate through visible nodes.

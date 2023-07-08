@@ -21,8 +21,22 @@
 
 package compiler.oracle;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestInvalidCompileCommand
@@ -32,6 +46,8 @@ import jdk.test.lib.process.ProcessTools;
  * @requires vm.flagless
  * @run driver compiler.oracle.TestInvalidCompileCommand
  */
+
+
 
 public class TestInvalidCompileCommand {
 

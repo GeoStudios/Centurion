@@ -21,7 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StratumLineInfo implements LineInfo {
     private final String stratumID;

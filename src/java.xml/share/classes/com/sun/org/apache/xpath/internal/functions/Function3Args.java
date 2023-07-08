@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for functions that accept three arguments.
@@ -138,6 +153,7 @@ public class Function3Args extends Function2Args
       return m_arg2;
     }
 
+
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -147,6 +163,7 @@ public class Function3Args extends Function2Args
         m_arg2 = exp;
     }
   }
+
 
   /**
    * @see com.sun.org.apache.xpath.internal.XPathVisitable#callVisitors(ExpressionOwner, XPathVisitor)
@@ -175,5 +192,6 @@ public class Function3Args extends Function2Args
         }
         else return null == ((Function3Args) expr).m_arg2;
   }
+
 
 }

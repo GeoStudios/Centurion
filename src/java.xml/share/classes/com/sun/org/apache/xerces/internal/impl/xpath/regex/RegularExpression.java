@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.regex;
 
+
 import java.text.CharacterIterator;
 import java.base.share.classes.java.util.Locale;
 import java.util.Stack;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.IntStack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A regular expression matching engine using Non-deterministic Finite Automaton (NFA).
@@ -657,6 +672,7 @@ public class RegularExpression implements java.io.Serializable {
         return ret;
     }
 
+
 //Public
 
     /**
@@ -689,6 +705,7 @@ public class RegularExpression implements java.io.Serializable {
     public boolean matches(char[]  target, Match match) {
         return this.matches(target, 0,  target .length , match);
     }
+
 
     /**
      * Checks whether the <var>target</var> text <strong>contains</strong> this pattern
@@ -1543,6 +1560,7 @@ public class RegularExpression implements java.io.Serializable {
         return getWordType0(target.charAt(offset) , opts);
     }
 
+
     /**
      * Checks whether the <var>target</var> text <strong>contains</strong> this pattern or not.
      *
@@ -1551,6 +1569,7 @@ public class RegularExpression implements java.io.Serializable {
     public boolean matches(CharacterIterator target) {
         return this.matches(target, null);
     }
+
 
     /**
      * Checks whether the <var>target</var> text <strong>contains</strong> this pattern or not.
@@ -1561,6 +1580,8 @@ public class RegularExpression implements java.io.Serializable {
     public boolean matches(CharacterIterator  target, Match match) {
         int start = target.getBeginIndex();
         int end = target.getEndIndex();
+
+
 
         synchronized (this) {
             if (this.operations == null)
@@ -2221,6 +2242,7 @@ public class RegularExpression implements java.io.Serializable {
      * ",".
      */
     static final int SPECIAL_COMMA = 1<<10;
+
 
     private static final boolean isSet(int options, int flag) {
         return (options & flag) == flag;

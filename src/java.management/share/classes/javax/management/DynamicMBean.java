@@ -21,12 +21,29 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Defines the methods that should be implemented by
  * a Dynamic MBean (MBean that exposes a dynamic management interface).
  *
  */
 public interface DynamicMBean {
+
 
     /**
      * Obtain the value of a specific attribute of the Dynamic MBean.

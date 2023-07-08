@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>redefineclasses022b</code> is deugee's part of the redefineclasses022.
@@ -34,6 +48,7 @@ public class redefineclasses022b {
     Object obj = new redefineclasses022ib();
 
     public class redefineclasses022ib {
+
 
         public      void dummyMethod01(){
         }

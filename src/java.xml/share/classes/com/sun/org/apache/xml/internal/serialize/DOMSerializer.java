@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for a DOM serializer implementation.
@@ -40,6 +55,7 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
 public interface DOMSerializer
 {
 
+
     /**
      * Serialized the DOM element. Throws an exception only if
      * an I/O exception occured while serializing.
@@ -50,6 +66,7 @@ public interface DOMSerializer
      */
     void serialize( Element elem )
         throws IOException;
+
 
     /**
      * Serializes the DOM document. Throws an exception only if
@@ -62,6 +79,7 @@ public interface DOMSerializer
     void serialize( Document doc )
         throws IOException;
 
+
     /**
      * Serializes the DOM document fragment. Throws an exception
      * only if an I/O exception occured while serializing.
@@ -72,5 +90,6 @@ public interface DOMSerializer
      */
     void serialize( DocumentFragment frag )
         throws IOException;
+
 
 }

@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.util.Comparator;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.awt.Component;
 import java.awt.ComponentOrientation;
 import java.awt.Window;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Comparator which attempts to sort Components based on their size and

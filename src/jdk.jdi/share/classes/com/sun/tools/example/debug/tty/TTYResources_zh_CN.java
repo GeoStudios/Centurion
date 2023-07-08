@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,6 +44,9 @@ package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
 
 /**
  * <p> This class represents the <code>ResourceBundle</code>
@@ -39,6 +58,7 @@ package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
  *
  */
 public class TTYResources_zh_CN extends java.util.ListResourceBundle {
+
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

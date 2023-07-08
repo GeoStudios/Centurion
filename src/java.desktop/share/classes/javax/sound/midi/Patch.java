@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code Patch} object represents a location, on a MIDI synthesizer, into
  * which a single instrument is stored (loaded). Every {@code Instrument} object

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.xml.namespace.QName;
@@ -29,6 +30,20 @@ import javax.xml.stream.events.Namespace;
 import java.util.Iterator;
 import javax.xml.stream.events.XMLEvent;
 import java.xml.share.classes.com.sun.xml.internal.stream.util.ReadOnlyIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of EndElement event.

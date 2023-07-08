@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.beans.*;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A basic L&amp;F implementation of JInternalFrame.
@@ -407,6 +422,8 @@ public class BasicInternalFrameUI extends InternalFrameUI
         return new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE);
     }
 
+
+
     /**
      * Installs necessary mouse handlers on <code>newPane</code>
      * and adds it to the frame.
@@ -455,6 +472,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
       titlePane = new BasicInternalFrameTitlePane(w);
       return titlePane;
     }
+
 
     /**
      * Creates the north pane.
@@ -530,6 +548,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
     protected final void setKeyBindingActive(boolean b){
       keyBindingActive = b;
     }
+
 
     /**
      * Setup the menu open key.
@@ -1055,6 +1074,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
                 pWidth = s.width;
                 pHeight = s.height;
 
+
                 newX = startingBounds.x - deltaX;
                 newY = startingBounds.y - deltaY;
 
@@ -1342,6 +1362,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
       return getHandler();
     }
 
+
     /**
      * Glass pane dispatcher.
      */
@@ -1530,6 +1551,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
         public void componentShown(ComponentEvent e) {}
         public void componentHidden(ComponentEvent e) {}
 
+
         // InternalFrameListener
         public void internalFrameClosed(InternalFrameEvent e) {
             frame.removeInternalFrameListener(getHandler());
@@ -1553,6 +1575,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
         public void internalFrameOpened(InternalFrameEvent e) { }
         public void internalFrameIconified(InternalFrameEvent e) { }
         public void internalFrameDeiconified(InternalFrameEvent e) { }
+
 
         // LayoutManager
         public void addLayoutComponent(String name, Component c) {}
@@ -1657,6 +1680,7 @@ public class BasicInternalFrameUI extends InternalFrameUI
                 frame.getRootPane().setBounds(cx, cy, cw, ch);
             }
         }
+
 
         // MouseInputListener
         public void mousePressed(MouseEvent e) { }

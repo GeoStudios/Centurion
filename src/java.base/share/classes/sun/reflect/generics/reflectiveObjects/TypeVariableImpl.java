@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
+
 import java.lang.annotation.*;
 import java.lang.reflect.AnnotatedType;
 import java.lang.reflect.Array;
@@ -40,6 +41,20 @@ import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
 import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
 import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
 import java.base.share.classes.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@code java.lang.reflect.TypeVariable} interface
@@ -93,6 +108,7 @@ public class TypeVariableImpl<D extends GenericDeclaration>
         return new TypeVariableImpl<T>(decl, name, bs, f);
     }
 
+
     /**
      * Returns an array of {@code Type} objects representing the
      * upper bound(s) of this type variable.  Note that if no upper bound is
@@ -140,6 +156,7 @@ public class TypeVariableImpl<D extends GenericDeclaration>
             throw new AssertionError("Unexpected kind of GenericDeclaration");
         return genericDeclaration;
     }
+
 
     /**
      * Returns the name of this type variable, as it occurs in the source code.

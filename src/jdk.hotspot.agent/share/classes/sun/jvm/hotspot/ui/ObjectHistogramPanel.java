@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -39,6 +40,20 @@ import com.sun.java.swing.ui.StatusBar;
 import com.sun.java.swing.ui.CommonToolBar;
 import com.sun.java.swing.action.ActionManager;
 import com.sun.java.swing.action.DelegateAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Displays the results of an ObjectHistogram run in a JTable, with a
@@ -112,6 +127,7 @@ public class ObjectHistogramPanel extends JPanel implements ActionListener {
         private final String LABEL_COUNT = "Count";
         private final String LABEL_DESC = "Class Description";
 
+
         public ObjectHistogramColummModel() {
             // Should actually get the line metrics for
             int PREF_WIDTH = 80;
@@ -144,6 +160,7 @@ public class ObjectHistogramPanel extends JPanel implements ActionListener {
             addColumn(column);
         }
     }
+
 
     /**
      * A table model which encapsulates the ObjectHistogram
@@ -217,6 +234,7 @@ public class ObjectHistogramPanel extends JPanel implements ActionListener {
         }
 
     }
+
 
     //
     // ActionListener implementation and actions support

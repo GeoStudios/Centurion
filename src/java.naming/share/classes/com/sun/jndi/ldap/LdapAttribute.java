@@ -21,11 +21,26 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Hashtable;
 import java.util.Vector;
 import javax.naming.*;
 import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This subclass is used by LDAP to implement the schema calls.

@@ -21,9 +21,23 @@
 
 package nsk.jdi.ObjectReference.equals;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the equals001 JDI test.
@@ -73,6 +87,7 @@ public class equals001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -111,6 +126,7 @@ public class equals001a {
     }
 }
 
+
 class TestClass1 {
 
     static ClassForCheck_2   class2_0 = new ClassForCheck_2();
@@ -127,6 +143,7 @@ class TestClass  {
                   {{{true, false}, {true, false}}, {{true, false}, {true, false}} }  };
 
 }
+
 
 interface InterfaceForCheck {
 

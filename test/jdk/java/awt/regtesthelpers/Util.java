@@ -21,6 +21,7 @@
 
 package test.java.awt.regtesthelpers;
 
+
 import java.awt.Component;
 import java.awt.Frame;
 import java.awt.Dialog;
@@ -52,6 +53,19 @@ import java.security.PrivilegedAction;
 import java.security.AccessController;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>This class contains utilities useful for regression testing.
  * <p>When using jtreg you would include this class into the build
@@ -67,6 +81,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * import test.java.awt.regtesthelpers.Util;
  * into the java source of test.
 */
+
+
+
+
+
 
 public final class Util {
     private Util() {} // this is a helper class with static methods :)
@@ -86,6 +105,7 @@ public final class Util {
             throw new RuntimeException("Error: unable to create robot", e);
         }
     }
+
 
     /**
      * Makes the window visible and waits until it's shown.
@@ -205,6 +225,7 @@ public final class Util {
         }
         robot.waitForIdle();
     }
+
 
     /*
      * Waits for a notification and for a boolean condition to become true.
@@ -478,6 +499,7 @@ public final class Util {
         wgfListener = null;
     }
 
+
     ////////////////////////////
     // Some stuff to test focus.
     ////////////////////////////
@@ -621,6 +643,7 @@ public final class Util {
                                 time, printEvent);
 
     }
+
 
     /**
      * Invokes the <code>task</code> on the EDT thread.

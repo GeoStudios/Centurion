@@ -21,11 +21,25 @@
 
 package gc;
 
+
 import jdk.test.lib.Utils;
 import jdk.test.lib.Asserts;
 import java.lang.ref.SoftReference;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestSoftReferencesBehaviorOnOOME

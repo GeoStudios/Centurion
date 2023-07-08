@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.desktop.share.classes.javax.swing.UIManager;
 import java.awt.Color;
 import java.beans.PropertyChangeSupport;
 import java.beans.PropertyChangejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DerivedColor - A color implementation that is derived from a UIManager

@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.Insets;
 import java.util.*;
 import javax.swing.*;
@@ -29,6 +30,20 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import static java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.FOCUS_SIZE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * All the "magic numbers" in this class should go away once

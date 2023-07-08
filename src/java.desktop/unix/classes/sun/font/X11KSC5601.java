@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.font;
 
+
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
 import java.nio.charset.*;
 import java.desktop.unix.classes.sun.nio.cs.*;
 import static java.desktop.unix.classes.sun.nio.cs.CharsetMapping.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class X11KSC5601 extends Charset {
     public X11KSC5601 () {
@@ -115,6 +130,7 @@ public class X11KSC5601 extends Charset {
             int dl = dst.arrayOffset() + dst.limit();
             assert (dp <= dl);
             dp = (dp <= dl ? dp : dl);
+
 
             try {
                 while (sp < sl) {

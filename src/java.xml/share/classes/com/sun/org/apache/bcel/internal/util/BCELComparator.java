@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Used for BCEL comparison strategy
@@ -40,6 +57,7 @@ public interface BCELComparator {
      * @return true if and only if THIS equals THAT
      */
     boolean equals( Object THIS, Object THAT );
+
 
     /**
      * Return hashcode for THIS.hashCode()

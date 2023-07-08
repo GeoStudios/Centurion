@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.awt.event.MouseAdapter;
@@ -36,6 +37,20 @@ import javax.swing.tree.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
 import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.*;
 import com.sun.tools.jconsole.JConsoleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class MBeansTab extends Tab implements

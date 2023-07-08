@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * MULTIANEWARRAY - Create new mutidimensional array of references
@@ -42,12 +60,14 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
 
     private short dimensions;
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     MULTIANEWARRAY() {
     }
+
 
     public MULTIANEWARRAY(final int index, final short dimensions) {
         super(com.sun.org.apache.bcel.internal.Const.MULTIANEWARRAY, index);
@@ -57,6 +77,7 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
         this.dimensions = dimensions;
         super.setLength(4);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -69,6 +90,7 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
         out.writeByte(dimensions);
     }
 
+
     /**
      * Read needed data (i.e., no. dimension) from file.
      */
@@ -79,12 +101,14 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
         super.setLength(4);
     }
 
+
     /**
      * @return number of dimensions to be created
      */
     public final short getDimensions() {
         return dimensions;
     }
+
 
     /**
      * @return mnemonic for instruction
@@ -94,6 +118,7 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
         return super.toString(verbose) + " " + super.getIndex() + " " + dimensions;
     }
 
+
     /**
      * @return mnemonic for instruction with symbolic references resolved
      */
@@ -101,6 +126,7 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
     public String toString( final ConstantPool cp ) {
         return super.toString(cp) + " " + dimensions;
     }
+
 
     /**
      * Also works for instructions whose stack effect depends on the
@@ -112,12 +138,14 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
         return dimensions;
     }
 
+
     @Override
     public Class<?>[] getExceptions() {
         return ExceptionConst.createExceptions(ExceptionConst.EXCS.EXCS_CLASS_AND_INTERFACE_RESOLUTION,
             ExceptionConst.ILLEGAL_ACCESS_ERROR,
             ExceptionConst.NEGATIVE_ARRAY_SIZE_EXCEPTION);
     }
+
 
     @Override
     public ObjectType getLoadClassType( final ConstantPoolGen cpg ) {
@@ -127,6 +155,7 @@ public class MULTIANEWARRAY extends CPInstruction implements LoadClass, Allocati
         }
         return (t instanceof ObjectType) ? (ObjectType) t : null;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

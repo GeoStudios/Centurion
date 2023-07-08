@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import java.net.URI;
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogManager;
@@ -31,6 +32,19 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import static jaxp.library.JAXPTestUtilities.tryRunWithAllPerm;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

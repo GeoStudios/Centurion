@@ -21,16 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class implements a general iterator for
@@ -80,6 +97,9 @@ public class OneStepIteratorForward extends ChildTestIterator
     int whatToShow = DTMFilter.SHOW_ALL;
     initNodeTest(whatToShow);
   }
+
+
+
 
   /**
    * Initialize the context values for this expression
@@ -167,5 +187,6 @@ public class OneStepIteratorForward extends ChildTestIterator
 
       return m_axis == ((OneStepIteratorForward) expr).m_axis;
   }
+
 
 }

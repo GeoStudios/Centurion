@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and records the nest host of the nest
@@ -42,6 +60,7 @@ public final class NestHost extends Attribute {
 
     private int hostClassIndex;
 
+
     /**
      * Initializes from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -49,6 +68,7 @@ public final class NestHost extends Attribute {
     public NestHost(final NestHost c) {
         this(c.getNameIndex(), c.getLength(), c.getHostClassIndex(), c.getConstantPool());
     }
+
 
     /**
      * @param nameIndex Index in constant pool
@@ -61,6 +81,7 @@ public final class NestHost extends Attribute {
         super(Const.ATTR_NEST_MEMBERS, nameIndex, length, constantPool);
         this.hostClassIndex = hostClassIndex;
     }
+
 
     /**
      * Constructs object from input stream.
@@ -75,6 +96,7 @@ public final class NestHost extends Attribute {
         hostClassIndex = input.readUnsignedShort();
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -86,6 +108,7 @@ public final class NestHost extends Attribute {
     public void accept( final Visitor v ) {
         v.visitNestHost(this);
     }
+
 
     /**
      * Dumps NestHost attribute to file stream in binary format.
@@ -99,6 +122,7 @@ public final class NestHost extends Attribute {
         file.writeShort(hostClassIndex);
     }
 
+
     /**
      * @return index into constant pool of host class name.
      */
@@ -106,12 +130,14 @@ public final class NestHost extends Attribute {
         return hostClassIndex;
     }
 
+
     /**
      * @param hostClassIndex the host class index
      */
     public void setHostClassIndex( final int hostClassIndex ) {
         this.hostClassIndex = hostClassIndex;
     }
+
 
     /**
      * @return String representation
@@ -124,6 +150,7 @@ public final class NestHost extends Attribute {
         buf.append(Utility.compactClassName(class_name, false));
         return buf.toString();
     }
+
 
     /**
      * @return deep copy of this attribute

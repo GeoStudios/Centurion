@@ -21,8 +21,22 @@
 
 package jit.t.t065;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t065.t065
  */
+
+
 
 // Main() does getfields of k.b and putfields of l.b.  K.set() does putfields
 // of k.b; l.show() does getfields of l.b.  The idea is, you jit only

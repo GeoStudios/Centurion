@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Constants used to control the window-closing operation.
  * The <code>setDefaultCloseOperation</code> and

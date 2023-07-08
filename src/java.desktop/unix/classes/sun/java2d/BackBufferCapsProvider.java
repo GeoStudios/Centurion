@@ -21,7 +21,22 @@
 
 package java.desktop.unix.classes.sun.java2d;
 
+
 import java.awt.BufferCapabilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to back-buffer's BufferCapabilities.

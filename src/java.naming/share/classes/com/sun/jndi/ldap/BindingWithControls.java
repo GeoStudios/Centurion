@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BindingWithControls extends Binding implements HasControls {
     private final Control[] controls;

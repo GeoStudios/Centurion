@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * {@code StringCharacterIterator} implements the
  * {@code CharacterIterator} protocol for a {@code String}.

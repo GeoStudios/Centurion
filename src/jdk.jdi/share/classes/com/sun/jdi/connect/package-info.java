@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -53,4 +69,5 @@ package jdk.jdi.share.classes.com.sun.jdi.connect;
  * releases. Existing packages may be renamed if the JDI becomes a standard
  * extension.
  */
+
 

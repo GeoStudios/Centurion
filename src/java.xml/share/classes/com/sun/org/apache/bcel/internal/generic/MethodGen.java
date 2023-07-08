@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Annotations;
@@ -46,6 +47,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Template class for building up a method. This is done by defining exception
@@ -91,12 +106,14 @@ public class MethodGen extends FieldGenOrMethodGen {
                     && Objects.equals(THIS.getSignature(), THAT.getSignature());
         }
 
+
         @Override
         public int hashCode( final Object o ) {
             final MethodGen THIS = (MethodGen) o;
             return THIS.getSignature().hashCode() ^ THIS.getName().hashCode();
         }
     };
+
 
     /**
      * Declare method. If the method is non-static the constructor
@@ -168,6 +185,7 @@ public class MethodGen extends FieldGenOrMethodGen {
             }
         }
     }
+
 
     /**
      * Instantiate from existing method.
@@ -248,6 +266,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         }
     }
 
+
     private static byte[] getByteCodes(final Method method) {
         final Code code = method.getCode();
         if (code == null) {
@@ -290,6 +309,7 @@ public class MethodGen extends FieldGenOrMethodGen {
                 + " as type for local variable");
     }
 
+
     /**
      * Adds a local variable to this method.
      *
@@ -324,6 +344,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         return addLocalVariable(name, type, maxLocals, start, end);
     }
 
+
     /**
      * Remove a local variable, its slot will not be reused, if you do not use
      * addLocalVariable with an explicit index argument.
@@ -332,12 +353,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         variableList.remove(l);
     }
 
+
     /**
      * Remove all local variables.
      */
     public void removeLocalVariables() {
         variableList.clear();
     }
+
 
     /*
      * If the range of the variable has not been set yet, it will be set to be valid from
@@ -362,6 +385,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         }
         return lg;
     }
+
 
     /**
      * @return `LocalVariableTable' attribute of all the local variables of this method.
@@ -397,6 +421,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         return l;
     }
 
+
     /**
      * Remove a line number.
      */
@@ -404,12 +429,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         lineNumberList.remove(l);
     }
 
+
     /**
      * Remove all line numbers.
      */
     public void removeLineNumbers() {
         lineNumberList.clear();
     }
+
 
     /*
      * @return array of line numbers
@@ -419,6 +446,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         lineNumberList.toArray(lg);
         return lg;
     }
+
 
     /**
      * @return `LineNumberTable' attribute of all the local variables of this method.
@@ -432,6 +460,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         return new LineNumberTable(cp.addUtf8("LineNumberTable"), 2 + ln.length * 4, ln, cp
                 .getConstantPool());
     }
+
 
     /**
      * Add an exception handler, i.e., specify region where a handler is active and an
@@ -454,6 +483,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         return c;
     }
 
+
     /**
      * Remove an exception handler.
      */
@@ -461,12 +491,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         exceptionList.remove(c);
     }
 
+
     /**
      * Remove all line numbers.
      */
     public void removeExceptionHandlers() {
         exceptionList.clear();
     }
+
 
     /*
      * @return array of declared exception handlers
@@ -476,6 +508,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         exceptionList.toArray(cg);
         return cg;
     }
+
 
     /**
      * @return code exceptions for `Code' attribute
@@ -490,6 +523,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         return c_exc;
     }
 
+
     /**
      * Add an exception possibly thrown by this method.
      *
@@ -499,12 +533,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         throwsList.add(className);
     }
 
+
     /**
      * Remove an exception.
      */
     public void removeException( final String c ) {
         throwsList.remove(c);
     }
+
 
     /**
      * Remove all exceptions.
@@ -513,12 +549,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         throwsList.clear();
     }
 
+
     /*
      * @return array of thrown exceptions
      */
     public String[] getExceptions() {
         return throwsList.toArray(new String[0]);
     }
+
 
     /**
      * @return `Exceptions' attribute of all the exceptions thrown by this method.
@@ -532,6 +570,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         return new ExceptionTable(cp.addUtf8("Exceptions"), 2 + 2 * size, ex, cp.getConstantPool());
     }
 
+
     /**
      * Add an attribute to the code. Currently, the JVM knows about the
      * LineNumberTable, LocalVariableTable and StackMap attributes,
@@ -544,6 +583,7 @@ public class MethodGen extends FieldGenOrMethodGen {
     public void addCodeAttribute( final Attribute a ) {
         codeAttrsList.add(a);
     }
+
 
     /**
      * Remove the LocalVariableTypeTable
@@ -559,6 +599,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         codeAttrsList.remove(a);
     }
 
+
     /**
      * Remove all code attributes.
      */
@@ -566,6 +607,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         localVariableTypeTable = null;
         codeAttrsList.clear();
     }
+
 
     /**
      * @return all attributes of this method.
@@ -625,6 +667,7 @@ public class MethodGen extends FieldGenOrMethodGen {
             removeAttribute(attr);
         }
     }
+
 
     /**
      * Get method object. Never forget to call setMaxStack() or setMaxStack(max), respectively,
@@ -749,6 +792,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         }
     }
 
+
     /**
      * Remove all NOPs from the instruction list (if possible) and update every
      * object referring to them, i.e., branch instructions, local variables and
@@ -776,6 +820,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         }
     }
 
+
     /**
      * Set maximum number of local variables.
      */
@@ -783,9 +828,11 @@ public class MethodGen extends FieldGenOrMethodGen {
         maxLocals = m;
     }
 
+
     public int getMaxLocals() {
         return maxLocals;
     }
+
 
     /**
      * Set maximum stack size for this method.
@@ -794,9 +841,11 @@ public class MethodGen extends FieldGenOrMethodGen {
         maxStack = m;
     }
 
+
     public int getMaxStack() {
         return maxStack;
     }
+
 
     /** @return class that contains this method
      */
@@ -804,62 +853,77 @@ public class MethodGen extends FieldGenOrMethodGen {
         return className;
     }
 
+
     public void setClassName( final String class_name ) { // TODO could be package-protected?
         this.className = class_name;
     }
+
 
     public void setReturnType( final Type return_type ) {
         setType(return_type);
     }
 
+
     public Type getReturnType() {
         return getType();
     }
+
 
     public void setArgumentTypes( final Type[] arg_types ) {
         this.argTypes = arg_types;
     }
 
+
     public Type[] getArgumentTypes() {
         return argTypes.clone();
     }
+
 
     public void setArgumentType( final int i, final Type type ) {
         argTypes[i] = type;
     }
 
+
     public Type getArgumentType( final int i ) {
         return argTypes[i];
     }
+
 
     public void setArgumentNames( final String[] arg_names ) {
         this.argNames = arg_names;
     }
 
+
     public String[] getArgumentNames() {
         return argNames.clone();
     }
+
 
     public void setArgumentName( final int i, final String name ) {
         argNames[i] = name;
     }
 
+
     public String getArgumentName( final int i ) {
         return argNames[i];
     }
+
 
     public InstructionList getInstructionList() {
         return il;
     }
 
+
     public void setInstructionList( final InstructionList il ) { // TODO could be package-protected?
         this.il = il;
     }
+
 
     @Override
     public String getSignature() {
         return Type.getMethodSignature(super.getType(), argTypes);
     }
+
 
     /**
      * Computes max. stack size by performing control flow analysis.
@@ -871,6 +935,7 @@ public class MethodGen extends FieldGenOrMethodGen {
             maxStack = 0;
         }
     }
+
 
     /**
      * Compute maximum number of local variables.
@@ -900,6 +965,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         }
     }
 
+
     /** Do not/Do produce attributes code attributesLineNumberTable and
      * LocalVariableTable, like javac -O
      */
@@ -912,6 +978,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         final InstructionHandle target;
         final int stackDepth;
 
+
         BranchTarget(final InstructionHandle target, final int stackDepth) {
             this.target = target;
             this.stackDepth = stackDepth;
@@ -923,12 +990,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         private final Stack<BranchTarget> branchTargets = new Stack<>();
         private final Map<InstructionHandle, BranchTarget> visitedTargets = new HashMap<>();
 
+
         public void push( final InstructionHandle target, final int stackDepth ) {
             if (visited(target)) {
                 return;
             }
             branchTargets.push(visit(target, stackDepth));
         }
+
 
         public BranchTarget pop() {
             if (!branchTargets.empty()) {
@@ -938,16 +1007,19 @@ public class MethodGen extends FieldGenOrMethodGen {
             return null;
         }
 
+
         private BranchTarget visit( final InstructionHandle target, final int stackDepth ) {
             final BranchTarget bt = new BranchTarget(target, stackDepth);
             visitedTargets.put(target, bt);
             return bt;
         }
 
+
         private boolean visited( final InstructionHandle target ) {
             return visitedTargets.get(target) != null;
         }
     }
+
 
     /**
      * Computes stack usage of an instruction list by performing control flow analysis.
@@ -1026,6 +1098,7 @@ public class MethodGen extends FieldGenOrMethodGen {
 
     private List<MethodObserver> observers;
 
+
     /** Add observer for this object.
      */
     public void addObserver( final MethodObserver o ) {
@@ -1035,6 +1108,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         observers.add(o);
     }
 
+
     /** Remove observer for this object.
      */
     public void removeObserver( final MethodObserver o ) {
@@ -1042,6 +1116,7 @@ public class MethodGen extends FieldGenOrMethodGen {
             observers.remove(o);
         }
     }
+
 
     /** Call notify() method on all observers. This method is not called
      * automatically whenever the state has changed, but has to be
@@ -1054,6 +1129,7 @@ public class MethodGen extends FieldGenOrMethodGen {
             }
         }
     }
+
 
     /**
      * Return string representation close to declaration format,
@@ -1081,6 +1157,7 @@ public class MethodGen extends FieldGenOrMethodGen {
         }
         return buf.toString();
     }
+
 
     /** @return deep copy of this method
      */
@@ -1205,12 +1282,14 @@ public class MethodGen extends FieldGenOrMethodGen {
         return bcelComparator;
     }
 
+
     /**
      * @param comparator Comparison strategy object
      */
     public static void setComparator( final BCELComparator comparator ) {
         bcelComparator = comparator;
     }
+
 
     /**
      * Return value as defined by given BCELComparator strategy.
@@ -1223,6 +1302,7 @@ public class MethodGen extends FieldGenOrMethodGen {
     public boolean equals( final Object obj ) {
         return bcelComparator.equals(this, obj);
     }
+
 
     /**
      * Return value as defined by given BCELComparator strategy.

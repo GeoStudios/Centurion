@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface PathConsumer2D {
     /**
      * @see java.awt.geom.Path2D.Float#moveTo

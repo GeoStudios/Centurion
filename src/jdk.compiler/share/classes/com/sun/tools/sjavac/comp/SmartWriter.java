@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
+
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import java.io.*;
 import javax.tools.JavaFileObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The SmartWriter will cache the written data and when the writer is closed,

@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6855164
@@ -28,6 +43,7 @@ package compiler.loopopts;
  *
  * @run main/othervm -Xbatch compiler.loopopts.Test6855164
  */
+
 
 public class Test6855164 {
     public static void main(String[] args) throws Exception {

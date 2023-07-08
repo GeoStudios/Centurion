@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.getValues;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -135,6 +149,7 @@ public class getvalues003{
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -186,6 +201,7 @@ public class getvalues003{
             log2("      getting ReferenceType and ClassType objects for debuggeeClass");
             ReferenceType debuggeeClass = (ReferenceType) classes.get(0);
 
+
             Field    field1  = null;
             Value    val1    = null;
             List<Field>     fields  = null;
@@ -196,6 +212,7 @@ public class getvalues003{
             ObjectReference objRef    = null;
 
             ReferenceType testedClass = null;
+
 
             log2("......getting the mirror of tested getvalues003aTestClass obj : ObjectReference objRef");
 
@@ -208,6 +225,7 @@ public class getvalues003{
             classes      = vm.classesByName(testedClass1Name);
             testedClass  = (ReferenceType) classes.get(0);
             fields       = testedClass.visibleFields();
+
 
             log2("......performing the check; IllegalArgumentException is expected");
             try {

@@ -21,9 +21,23 @@
 
 package compiler.intrinsics.unsafe;
 
+
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,10 @@ import static org.testng.Assert.*;.extended
  * @run testng/othervm -Diters=200000 -XX:TieredStopAtLevel=1
  *      compiler.intrinsics.unsafe.UnsafeTwoCASLong
  */
+
+
+
+
 
 public class UnsafeTwoCASLong {
     static final int ITERS = Integer.getInteger("iters", 1);

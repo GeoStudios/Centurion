@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics;
@@ -44,6 +45,20 @@ import java.desktop.share.classes.javax.swing.tree.TreeCellEditor;
 import java.desktop.share.classes.javax.swing.tree.TreeCellRenderer;
 import java.desktop.share.classes.javax.swing.tree.TreeModel;
 import java.desktop.share.classes.javax.swing.tree.TreePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -227,6 +242,7 @@ public class SynthTreeUI extends BasicTreeUI
         context = getContext(tree, Region.TREE_CELL, ENABLED);
         cellStyle.uninstallDefaults(context);
         cellStyle = null;
+
 
         if (tree.getTransferHandler() instanceof UIResource) {
             tree.setTransferHandler(null);
@@ -743,6 +759,7 @@ public class SynthTreeUI extends BasicTreeUI
             SynthLookAndFeel.resetSelectedUI();
         }
     }
+
 
     private static class SynthTreeCellEditor extends DefaultTreeCellEditor {
         public SynthTreeCellEditor(JTree tree,

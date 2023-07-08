@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.beans.BeanProperty;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -30,6 +31,20 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.ToolTipUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used to display a "Tip" for a Component. Typically components provide api
@@ -96,6 +111,7 @@ public class JToolTip extends JComponent implements Accessible {
         setUI(UIManager.getUI(this));
     }
 
+
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -106,6 +122,7 @@ public class JToolTip extends JComponent implements Accessible {
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * Sets the text to show when the tool tip is displayed.
@@ -176,6 +193,7 @@ public class JToolTip extends JComponent implements Accessible {
         return true;
     }
 
+
     /**
      * See <code>readObject</code> and <code>writeObject</code>
      * in <code>JComponent</code> for more
@@ -192,6 +210,7 @@ public class JToolTip extends JComponent implements Accessible {
             }
         }
     }
+
 
     /**
      * Returns a string representation of this <code>JToolTip</code>.
@@ -210,6 +229,7 @@ public class JToolTip extends JComponent implements Accessible {
         return super.paramString() +
         ",tipText=" + tipTextString;
     }
+
 
 /////////////////
 // Accessibility support

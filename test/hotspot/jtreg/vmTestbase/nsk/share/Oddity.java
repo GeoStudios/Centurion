@@ -21,6 +21,21 @@
 
 package nsk.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Oddity exception is used to simulate C/C++ style <code>assert()</code>
  * facility. It is thrown when an internal contradiction is revealed, which

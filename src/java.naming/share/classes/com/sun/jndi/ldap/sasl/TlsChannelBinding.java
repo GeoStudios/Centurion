@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.sasl;
 
+
 import javax.naming.NamingException;
 import javax.security.sasl.SaslException;
 import java.security.MessageDigest;
@@ -29,6 +30,20 @@ import java.security.cert.CertificateEncodingException;
 import java.security.cert.X509Certificate;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the Channel Binding for TLS as defined in

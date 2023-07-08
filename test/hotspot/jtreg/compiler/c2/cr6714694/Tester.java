@@ -21,6 +21,21 @@
 
 package compiler.c2.cr6714694;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6714694
@@ -34,6 +49,7 @@ package compiler.c2.cr6714694;
 interface Tester_Interface_0 {
 }
 
+
 abstract class Tester_Class_1 implements Tester_Interface_0 {
     static int var_1 = (false ? (short)'b' : (short)-2.4256387E38F) | (byte)('g' * -7.660532860983624E307);
     float var_2;
@@ -44,6 +60,7 @@ abstract class Tester_Class_1 implements Tester_Interface_0 {
     static short var_7;
     final static char var_8 = 'x';
     final static float var_9 = 2.2030989E38F;
+
 
     public Tester_Class_1()
     {
@@ -99,7 +116,10 @@ abstract class Tester_Class_1 implements Tester_Interface_0 {
         byte var_17;
     }
 
+
+
     abstract public Tester_Interface_0 func_0(double[][] arg_0, final Object arg_1);
+
 
     final double func_0(final float arg_0, final short arg_1, final boolean arg_2)
     {
@@ -162,9 +182,11 @@ abstract class Tester_Class_1 implements Tester_Interface_0 {
     }
 }
 
+
 class Tester_Class_2 extends Tester_Class_1 implements Tester_Interface_0 {
     final static String var_18 = false | Tester_Class_1.var_4 | (Tester_Class_1.var_4 &= (Tester_Class_1.var_4 |= (Tester_Class_1.var_4 = var_4))) ? "tbobyhqne" : "";
     static String var_19 = "acxfj";
+
 
     public Tester_Class_2()
     {
@@ -175,6 +197,7 @@ class Tester_Class_2 extends Tester_Class_1 implements Tester_Interface_0 {
         var_6 = (var_19 = "hsshyw");
         var_19 = var_19;
     }
+
 
     public Tester_Interface_0 func_0(double[][] arg_0, final Object arg_1)
     {
@@ -202,6 +225,7 @@ class Tester_Class_2 extends Tester_Class_1 implements Tester_Interface_0 {
         return true ? (var_20 = var_20) : (new Tester_Interface_0[(byte)5618282952859970560L])[var_3 = (byte)Tester_Class_1.var_8];
     }
 
+
     public boolean equals(Object obj)
     {
         Tester_Class_1.var_7 = (var_7 = (((Tester_Class_1)obj).var_3 = (byte)var_9));
@@ -218,6 +242,7 @@ class Tester_Class_2 extends Tester_Class_1 implements Tester_Interface_0 {
         ("o".compareTo("kwlfk") > (var_2 = 5289241662482067456L) ? (Tester_Class_1)obj : (Tester_Class_1)obj).var_5 -= (((Tester_Class_1)obj).var_3 = (((Tester_Class_1)obj).var_3 = (((Tester_Class_1)obj).var_3 = (byte)var_9)));
         return true;
     }
+
 
     public String toString()
     {
@@ -249,6 +274,7 @@ class Tester_Class_2 extends Tester_Class_1 implements Tester_Interface_0 {
     }
 }
 
+
 class Tester_Class_3 extends Tester_Class_2 implements Tester_Interface_0 {
     long var_24 = 9026266006808413184L;
     char var_25;
@@ -260,6 +286,7 @@ class Tester_Class_3 extends Tester_Class_2 implements Tester_Interface_0 {
     int var_31 = 750583762;
     Tester_Class_2 var_32;
     final static long var_33 = 3050784555932008448L;
+
 
     public Tester_Class_3()
     {
@@ -288,6 +315,9 @@ class Tester_Class_3 extends Tester_Class_2 implements Tester_Interface_0 {
         ((Tester_Class_2)(Tester_Class_1)(((Tester_Class_1)(var_6 = Tester_Class_2.var_18)).var_6 = (var_26 = ""))).var_2 = var_31;
         --var_1;
     }
+
+
+
 
     public String toString()
     {
@@ -348,6 +378,7 @@ public class Tester {
     Tester_Class_1 var_41;
     static int var_42;
     final static boolean var_43 = false;
+
 
     final static Tester_Class_2 func_0(Tester_Class_1 arg_0, final Tester_Class_2 arg_1)
     {
@@ -677,6 +708,7 @@ public class Tester {
         public static String print(float arg)   { return String.valueOf(arg); }
         public static String print(double arg)  { return String.valueOf(arg); }
 
+
         public static String print(Object arg)
         {
             return print_r(new java.util.Stack(), arg);
@@ -800,4 +832,5 @@ public class Tester {
         }
     }
 }
+
 

@@ -21,6 +21,7 @@
 
 package jdk.attach.windows.classes.sun.tools.attach;
 
+
 import com.sun.tools.attach.AttachOperationFailedException;
 import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.AttachNotSupportedException;
@@ -29,6 +30,20 @@ import jdk.attach.windows.classes.sun.tools.attach.HotSpotVirtualMachine;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VirtualMachineImpl extends HotSpotVirtualMachine {
 
@@ -172,6 +187,7 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
            }
         }
     }
+
 
     //-- native methods
 

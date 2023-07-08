@@ -21,6 +21,7 @@
 
 package compiler.jsr292;
 
+
 import jdk.test.lib.Utils;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -28,6 +29,19 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -40,6 +54,9 @@ import java.util.concurrent.CyclicBarrier;
  *
  * @run main/othervm compiler.jsr292.ConcurrentClassLoadingTest
  */
+
+
+
 
 public class ConcurrentClassLoadingTest {
     int numThreads = 0;

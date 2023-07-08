@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DatatypeMessageFormatter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectStreamException;
@@ -35,6 +36,20 @@ import java.util.TimeZone;
 import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.Duration;
 import javax.xml.datatype.XMLGregorianCalendar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Immutable representation of a time span as defined in
@@ -103,6 +118,7 @@ class DurationImpl
         extends Duration
         implements Serializable {
 
+
     /**
      * <p>Internal array of value Fields.</p>
      */
@@ -114,6 +130,7 @@ class DurationImpl
         DatatypeConstants.MINUTES,
         DatatypeConstants.SECONDS
     };
+
 
     /**
      * TimeZone for GMT.
@@ -467,6 +484,7 @@ class DurationImpl
             throw new IllegalArgumentException(s); //,idx[0]-1);
         }
 
+
         // phase 1: chop the string into chunks
         // (where a chunk is '<number><a symbol>'
         //--------------------------------------
@@ -524,6 +542,7 @@ class DurationImpl
         seconds = parseBigDecimal(s, timeParts[2], timePartsIndex[2]);
         signum = calcSignum(positive);
     }
+
 
     /**
      * TODO: Javadoc
@@ -1741,6 +1760,7 @@ class DurationImpl
     public int signum() {
         return signum;
     }
+
 
     /**
      * Adds this duration to a {@link Calendar} object.

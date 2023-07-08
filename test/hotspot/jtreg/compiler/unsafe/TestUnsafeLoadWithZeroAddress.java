@@ -21,7 +21,21 @@
 
 package compiler.unsafe;
 
+
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import jdk.internal.misc.Unsafe;
  *                   -XX:CompileCommand=compileonly,compiler.unsafe.TestUnsafeLoadWithZeroAddress::*
  *                   compiler.unsafe.TestUnsafeLoadWithZeroAddress
  */
+
+
 
 public class TestUnsafeLoadWithZeroAddress {
     static final Unsafe UNSAFE = Unsafe.getUnsafe();

@@ -21,6 +21,56 @@
 
 package build.tools.generatenimbus;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class UIStateType {
     private String key;
 

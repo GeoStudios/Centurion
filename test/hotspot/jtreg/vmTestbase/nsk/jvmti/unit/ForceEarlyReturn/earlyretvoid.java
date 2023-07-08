@@ -21,8 +21,22 @@
 
 package nsk.jvmti.unit.ForceEarlyReturn;
 
+
 import java.io.PrintStream;
 import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class earlyretvoid {
 
@@ -71,6 +85,7 @@ public class earlyretvoid {
 
     static class Monitor {
     }
+
 
     // Tested thread class
     static class earlyretThread extends Thread {

@@ -21,11 +21,26 @@
 
 package java.base.share.classes.java.security;
 
+
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.Hashtable;
 import java.base.share.classes.java.util.StringTokenizer;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The AllPermission is a permission that implies all other permissions.
@@ -61,6 +76,7 @@ public final class AllPermission extends Permission {
     public AllPermission() {
         super("<all permissions>");
     }
+
 
     /**
      * Creates a new AllPermission object. This

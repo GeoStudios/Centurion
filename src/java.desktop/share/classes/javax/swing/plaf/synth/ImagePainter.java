@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.lang.ref.WeakReference;
 import java.net.*;
 import java.desktop.share.classes.javax.swing.*;
 import sun.awt.AppContext;
 import sun.swing.plaf.synth.Paint9Painter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ImagePainter fills in the specified region using an Image. The Image
@@ -142,6 +157,7 @@ class ImagePainter extends SynthPainter {
                              mask);
         }
     }
+
 
     // SynthPainter
     public void paintArrowButtonBackground(SynthContext context,
@@ -669,6 +685,7 @@ class ImagePainter extends SynthPainter {
                                  int w, int h) {
         paint(context, g, x, y, w, h);
     }
+
 
     public void paintSliderTrackBorder(SynthContext context,
                                        Graphics g, int x, int y,

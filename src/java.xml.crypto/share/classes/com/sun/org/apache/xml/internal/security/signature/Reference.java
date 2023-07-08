@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.AccessController;
@@ -56,10 +57,27 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Handles {@code &lt;ds:Reference&gt;} elements.
@@ -216,6 +234,7 @@ public class Reference extends SignatureElementProxy {
         appendSelf(digestValueElement);
         addReturnToSelf();
     }
+
 
     /**
      * Build a {@link Reference} from an {@link Element}
@@ -687,6 +706,7 @@ public class Reference extends SignatureElementProxy {
         }
     }
 
+
     /**
      * Method calculateDigest
      *
@@ -779,6 +799,7 @@ public class Reference extends SignatureElementProxy {
         String content = XMLUtils.getFullTextChildrenFromNode(digestValueElement);
         return XMLUtils.decode(content);
     }
+
 
     /**
      * Tests reference validation is success or false

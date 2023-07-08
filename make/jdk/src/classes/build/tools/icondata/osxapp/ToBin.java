@@ -21,6 +21,56 @@
 
 package build.tools.icondata.osxapp;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ToBin {
     public static void main(String[] args) throws Exception {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();

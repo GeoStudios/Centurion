@@ -21,6 +21,7 @@
 
 package nsk.share.jdi;
 
+
 import com.sun.jdi.IntegerValue;
 import com.sun.jdi.Location;
 import com.sun.jdi.Method;
@@ -40,12 +41,26 @@ import com.sun.jdi.request.EventRequestManager;
 import java.util.java.util.java.util.java.util.List;
 import nsk.share.Log;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class JDIBase {
 
     // Exit code constants
     public static final int PASSED = 0;
     public static final int FAILED = 2;
     public static final int PASS_BASE = 95;
+
 
     // Log helpers
     private final String sHeader1 = "\n=> " + this.getClass().getName().replace(".", "/") + " ";

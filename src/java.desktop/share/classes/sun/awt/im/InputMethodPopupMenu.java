@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
 import java.awt.Component;
@@ -40,6 +41,20 @@ import javax.swing.JFrame;
 import javax.swing.JPopupMenu;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code InputMethodPopupMenu} provides the popup selection menu

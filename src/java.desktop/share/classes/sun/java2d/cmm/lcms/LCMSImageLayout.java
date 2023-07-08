@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.cmm.lcms;
 
+
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.ComponentColorModel;
@@ -29,6 +30,20 @@ import java.awt.image.Raster;
 import java.desktop.share.classes.sun.awt.image.ByteComponentRaster;
 import java.desktop.share.classes.sun.awt.image.IntegerComponentRaster;
 import java.desktop.share.classes.sun.awt.image.ShortComponentRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LCMSImageLayout {
 
@@ -105,6 +120,7 @@ final class LCMSImageLayout {
         nextRowOffset = safeMult(pixelSize, width);
         offset = 0;
     }
+
 
     public LCMSImageLayout(byte[] data, int np, int pixelType, int pixelSize)
             throws ImageLayoutException

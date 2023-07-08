@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.awt;
 
+
 import java.awt.AWTPermission;
 import java.awt.DisplayMode;
 import java.awt.GraphicsConfiguration;
@@ -38,6 +39,20 @@ import java.desktop.macosx.classes.sun.java2d.metal.MTLGraphicsConfig;
 import java.desktop.macosx.classes.sun.java2d.opengl.CGLGraphicsConfig;
 import static java.awt.peer.ComponentPeer.SET_BOUNDS;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class CGraphicsDevice extends GraphicsDevice
         implements DisplayChangedListener {
 
@@ -54,6 +69,7 @@ public final class CGraphicsDevice extends GraphicsDevice
     private GraphicsConfiguration config;
     private static boolean metalPipelineEnabled = false;
     private static boolean oglPipelineEnabled = false;
+
 
     private static AWTPermission fullScreenExclusivePermission;
 

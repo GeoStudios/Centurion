@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8261235
@@ -32,6 +47,7 @@ package compiler.c1;
  * @run main/othervm -Xbatch -XX:CompileCommand=dontinline,compiler.c1.TestExceptionBlockWithPredecessors::*
  *                   compiler.c1.TestTooManyVirtualRegistersMain
  */
+
 
 public class TestTooManyVirtualRegistersMain {
     public static void main(String[] args) {

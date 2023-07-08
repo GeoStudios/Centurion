@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
@@ -31,6 +32,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an XPath nodeset object, and is capable of
@@ -88,6 +103,7 @@ public class XNodeSet extends NodeSequence
         val.setShouldCacheNodes(true);
     setObject(val.m_obj);
   }
+
 
   /**
    * Construct an empty XNodeSet object.  This is used to create a mutable
@@ -179,6 +195,7 @@ public class XNodeSet extends NodeSequence
     return (node != DTM.NULL) ? getNumberFromNode(node) : Double.NaN;
   }
 
+
   /**
    * Cast result object to a boolean.
    *
@@ -199,6 +216,7 @@ public class XNodeSet extends NodeSequence
   {
     return (nextNode() != DTM.NULL);
   }
+
 
   /**
    * Get the string conversion from a single node.
@@ -265,6 +283,7 @@ public class XNodeSet extends NodeSequence
     XString xstring = (XString)xstr();
     xstring.appendToFsb(fsb);
   }
+
 
   /**
    * Cast result object to a string.
@@ -350,6 +369,7 @@ public class XNodeSet extends NodeSequence
     SetVector(clone.getVector());
     return nodelist;
   }
+
 
 //  /**
 //   * Return a java object that's closest to the representation

@@ -21,7 +21,22 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import javax.management.* ;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used for storing a pair (name, object) where name is
@@ -29,6 +44,7 @@ import javax.management.* ;.extended
  *
  */
 public class NamedObject  {
+
 
     /**
      * Object name.
@@ -39,6 +55,7 @@ public class NamedObject  {
      * Object reference.
      */
     private final DynamicMBean object;
+
 
     /**
      * Allows a named object to be created.
@@ -85,6 +102,7 @@ public class NamedObject  {
         if (!(object instanceof NamedObject no)) return false;
         return name.equals(no.getName());
     }
+
 
     /**
      * Returns a hash code for this named object.

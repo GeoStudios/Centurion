@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -29,6 +30,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // A MethodData provides interpreter profiling information
 
@@ -51,6 +66,7 @@ public class MethodData extends Metadata implements MethodDataInterface<Klass,Me
     return "reason" + reason;
   }
 
+
   static int trapStateReason(int trapState) {
     // This assert provides the link between the width of DataLayout.trapBits
     // and the encoding of "recorded" reasons.  It ensures there are enough
@@ -65,6 +81,7 @@ public class MethodData extends Metadata implements MethodDataInterface<Klass,Me
       return trapState;
     }
   }
+
 
   static final int dsReasonMask   = DataLayout.trapMask >> 1;
   static final int dsRecompileBit = DataLayout.trapMask - dsReasonMask;
@@ -114,6 +131,8 @@ public class MethodData extends Metadata implements MethodDataInterface<Klass,Me
       return trapReasonName(reason) + (recompFlag ? " recompiled" : "");
     }
   }
+
+
 
   static {
     VM.registerVMInitializedObserver(new Observer() {

@@ -21,4 +21,19 @@
 
 package otherPkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class WrongPackageNotPublic implements Pkg.SealedInterface { }

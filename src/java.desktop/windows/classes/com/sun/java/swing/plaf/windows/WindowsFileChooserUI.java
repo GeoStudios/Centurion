@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.BorderLayout;
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
@@ -88,6 +89,20 @@ import java.desktop.windows.classes.com.sun.awt.shell.ShellFolder;
 import java.desktop.windows.classes.com.sun.swing.FilePane;
 import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 import java.desktop.windows.classes.com.sun.swing.WindowsPlacesBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows {@literal L&F} implementation of a FileChooser.
@@ -893,6 +908,7 @@ public class WindowsFileChooserUI extends BasicFileChooserUI {
         };
     }
 
+
     protected void removeControlButtons() {
         getBottomPanel().remove(getButtonPanel());
     }
@@ -1310,6 +1326,9 @@ public class WindowsFileChooserUI extends BasicFileChooserUI {
      * Acts when DirectoryComboBox has changed the selected item.
      */
     protected class DirectoryComboBoxAction implements ActionListener {
+
+
+
 
         public void actionPerformed(ActionEvent e) {
             File f = (File)directoryComboBox.getSelectedItem();

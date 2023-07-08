@@ -21,8 +21,22 @@
 
 package compiler.oracle;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestCompileCommand
@@ -34,6 +48,8 @@ import jdk.test.lib.process.ProcessTools;
  * @requires vm.flagless
  * @run driver compiler.oracle.TestCompileCommand
  */
+
+
 
 public class TestCompileCommand {
 

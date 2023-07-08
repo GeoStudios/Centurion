@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util;
 
+
 import jdk.internal.util.java.util.ArraysSupport;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.java.io.Serializable;
@@ -41,6 +42,21 @@ import java.base.share.classes.java.util.stream.IntStream;
 import java.base.share.classes.java.util.stream.LongStream;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains various methods for manipulating arrays (such as
@@ -4937,6 +4953,7 @@ public class Arrays {
         dejaVu.remove(a);
     }
 
+
     /**
      * Set all elements of the specified array, using the provided
      * generator function to compute each element.
@@ -5416,6 +5433,7 @@ public class Arrays {
         return StreamSupport.doubleStream(spliterator(array, startInclusive, endExclusive), false);
     }
 
+
     // Comparison methods
 
     // Compare boolean
@@ -5734,6 +5752,7 @@ public class Arrays {
 
         return a.length - b.length;
     }
+
 
     /**
      * Compares two {@code byte} arrays lexicographically over the specified
@@ -7255,6 +7274,7 @@ public class Arrays {
 
         return aLength - bLength;
     }
+
 
     // Mismatch methods
 

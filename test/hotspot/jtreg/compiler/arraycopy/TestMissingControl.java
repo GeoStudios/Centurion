@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8055153
@@ -30,6 +45,7 @@ package compiler.arraycopy;
  *                   compiler.arraycopy.TestMissingControl
  *
  */
+
 
 public class TestMissingControl {
 

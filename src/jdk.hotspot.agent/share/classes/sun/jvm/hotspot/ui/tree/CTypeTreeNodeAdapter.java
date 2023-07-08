@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.FieldIdentifier;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Oop;
@@ -29,6 +30,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.CStringUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Encapsulates an arbitrary type value in a tree handled by SimpleTreeModel */
 
@@ -50,6 +65,7 @@ public class CTypeTreeNodeAdapter extends FieldTreeNodeAdapter {
       }
     }
   }
+
 
   private CTypeFieldIdentifier[] getFields() {
     if (fields == null) {
@@ -77,6 +93,7 @@ public class CTypeTreeNodeAdapter extends FieldTreeNodeAdapter {
       return field.getType().getName() + " " + holder.getName() + "::" + field.getName();
     }
   }
+
 
   public CTypeTreeNodeAdapter(Address a, Type t, FieldIdentifier id) {
     this(a, t, id, false);

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
+
 import java.awt.geom.Path2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.QuadCurve2D;
 import java.desktop.share.classes.sun.awt.SunHints;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is the java implementation of the native code from
  * src/share/native/sun/java2d/loops/ProcessPath.[c,h]
@@ -188,12 +203,14 @@ public class ProcessPath {
     private static final int UPPER_OUT_BND = 1 << (30 - MDP_PREC);
     private static final int LOWER_OUT_BND = -UPPER_OUT_BND;
 
+
     /* Calculation boundaries. They are used for switching to the more slow but
      * allowing larger input values method of calculation of the initial values
      * of the scan converted line segments inside the FillPolygon
      */
     private static final float CALC_UBND = 1 << (30 - MDP_PREC);
     private static final float CALC_LBND = -CALC_UBND;
+
 
     /* Following constants are used for providing open boundaries of the
      * intervals
@@ -281,6 +298,7 @@ public class ProcessPath {
         return (int)(b1 + (t - a1)*(b2 - b1) / (a2 - a1));
     }
 
+
     private static final int CRES_MIN_CLIPPED = 0;
     private static final int CRES_MAX_CLIPPED = 1;
     private static final int CRES_NOT_CLIPPED = 3;
@@ -342,6 +360,8 @@ public class ProcessPath {
         }
         return res;
     }
+
+
 
     /* Following method is used for clipping and clumping filled shapes.
      * An example of this process is shown on the picture below:

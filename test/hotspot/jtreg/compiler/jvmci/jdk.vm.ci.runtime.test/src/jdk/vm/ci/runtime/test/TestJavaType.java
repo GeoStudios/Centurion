@@ -21,10 +21,24 @@
 
 package jdk.vm.ci.runtime.test;
 
+
 import jdk.vm.ci.meta.JavaKind;
 import jdk.vm.ci.meta.JavaType;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -35,6 +49,9 @@ import static org.junit.Assert.assertEquals;.extended
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestJavaType
  */
+
+
+
 
 /**
  * Tests for {@link JavaType}.

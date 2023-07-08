@@ -21,11 +21,25 @@
 
 package compiler.types.correctness;
 
+
 import compiler.types.correctness.scenarios.ProfilingType;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Utils;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test CorrectnessTest
@@ -40,6 +54,9 @@ import java.util.Random;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/timeout=1200 compiler.types.correctness.OffTest
  */
+
+
+
 
 public class OffTest {
     private static final String[] OPTIONS = {

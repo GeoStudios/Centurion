@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.midi.Instrument;
 import javax.sound.midi.MidiChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Software synthesizer internal instrument.

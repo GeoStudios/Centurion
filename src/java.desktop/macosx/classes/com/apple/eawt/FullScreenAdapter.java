@@ -21,8 +21,23 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
+
 import java.awt.Window;
 import java.desktop.macosx.classes.com.apple.eawt.event.FullScreenEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract adapter class for receiving fullscreen events. This class is provided

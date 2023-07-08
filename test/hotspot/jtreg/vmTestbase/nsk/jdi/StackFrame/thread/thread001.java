@@ -21,6 +21,7 @@
 
 package nsk.jdi.StackFrame.thread;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -136,6 +150,7 @@ public class thread001 {
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
 
+
         if (argsHandler.verbose()) {
             debuggee = binder.bindToDebugee(debuggeeName + " -vbs");  // *** tp
         } else {
@@ -143,6 +158,7 @@ public class thread001 {
         }
 
         waitTime = argsHandler.getWaitTime();
+
 
         IOPipe pipe     = new IOPipe(debuggee);
 
@@ -182,6 +198,7 @@ public class thread001 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -193,6 +210,7 @@ public class thread001 {
             String bpLine1 = "breakpointLineNumber1";
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
+
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -321,6 +339,7 @@ public class thread001 {
         return testExitCode;
     }
 
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -376,6 +395,7 @@ public class thread001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

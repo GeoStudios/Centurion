@@ -21,10 +21,24 @@
 
 package vm.share.process;
 
+
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.java.io.java.io.java.io.IOException;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StreamMessageOutput implements MessageOutput {
         private OutputStream out;

@@ -21,12 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Set up error messages.
@@ -90,6 +108,7 @@ public class XMLErrorResources_ca extends ListResourceBundle
 
   /** Maximum total warnings and error messages.          */
   public static final int MAX_MESSAGES = MAX_CODE + MAX_WARNING + 1;
+
 
   /*
    * Message keys
@@ -428,6 +447,7 @@ public class XMLErrorResources_ca extends ListResourceBundle
 
     {ER_COULD_NOT_LOAD_METHOD_PROPERTY,
       "No s''ha pogut carregar el fitxer de propietats ''{0}'' del m\u00e8tode de sortida ''{1}'' (comproveu la CLASSPATH)" }
+
 
   };
 

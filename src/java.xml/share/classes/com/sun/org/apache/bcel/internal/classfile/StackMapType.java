@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents the type of a local variable or item on stack
@@ -45,6 +63,7 @@ public final class StackMapType implements Cloneable {
     private int index = -1; // Index to CONSTANT_Class or offset
     private ConstantPool constantPool;
 
+
     /**
      * Construct object from file stream.
      * @param file Input stream
@@ -57,6 +76,7 @@ public final class StackMapType implements Cloneable {
         }
         this.constantPool = constant_pool;
     }
+
 
     /**
      * @param type type tag as defined in the Constants interface
@@ -71,6 +91,7 @@ public final class StackMapType implements Cloneable {
         this.constantPool = constant_pool;
     }
 
+
     public void setType( final byte t ) {
         if ((t < Const.ITEM_Bogus) || (t > Const.ITEM_NewObject)) {
             throw new IllegalArgumentException("Illegal type for StackMapType: " + t);
@@ -78,13 +99,16 @@ public final class StackMapType implements Cloneable {
         type = t;
     }
 
+
     public byte getType() {
         return type;
     }
 
+
     public void setIndex( final int t ) {
         index = t;
     }
+
 
     /** @return index to constant pool if type == ITEM_Object, or offset
      * in byte code, if type == ITEM_NewObject, and -1 otherwise
@@ -92,6 +116,7 @@ public final class StackMapType implements Cloneable {
     public int getIndex() {
         return index;
     }
+
 
     /**
      * Dump type entries to file.
@@ -106,11 +131,13 @@ public final class StackMapType implements Cloneable {
         }
     }
 
+
     /** @return true, if type is either ITEM_Object or ITEM_NewObject
      */
     public boolean hasIndex() {
         return type == Const.ITEM_Object || type == Const.ITEM_NewObject;
     }
+
 
     private String printIndex() {
         if (type == Const.ITEM_Object) {
@@ -125,6 +152,7 @@ public final class StackMapType implements Cloneable {
         }
     }
 
+
     /**
      * @return String representation
      */
@@ -132,6 +160,7 @@ public final class StackMapType implements Cloneable {
     public String toString() {
         return "(type=" + Const.getItemName(type) + printIndex() + ")";
     }
+
 
     /**
      * @return deep copy of this object
@@ -145,12 +174,14 @@ public final class StackMapType implements Cloneable {
         return null;
     }
 
+
     /**
      * @return Constant pool used by this object.
      */
     public ConstantPool getConstantPool() {
         return constantPool;
     }
+
 
     /**
      * @param constantPool Constant pool to be used for this object.

@@ -21,10 +21,24 @@
 
 package nsk.monitoring.RuntimeMXBean.RuntimeMXBean001;
 
+
 import nsk.share.*;
 import nsk.share.test.*;
 import nsk.monitoring.share.*;
 import java.lang.management.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,6 +53,8 @@ import java.lang.management.*;
  *      nsk.monitoring.RuntimeMXBean.RuntimeMXBean001.RuntimeMXBean001
  *      -testMode=directly
  */
+
+
 
 /**
  * Test functions of RuntimeMXBean.

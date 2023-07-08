@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming.event;
 
+
 import java.naming.share.classes.javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class represents an event fired when the procedures/processes

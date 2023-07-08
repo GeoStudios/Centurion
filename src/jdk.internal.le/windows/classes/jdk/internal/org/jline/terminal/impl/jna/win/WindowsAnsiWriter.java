@@ -21,6 +21,7 @@
 
 package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.utils.AnsiWriter;
@@ -34,8 +35,24 @@ import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.im
 import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_INTENSITY;.extended
 import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_RED;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //import com.sun.jna.Pointer;
 //import com.sun.jna.ptr.IntByReference;
+
+
 
 /**
  * A Windows ANSI escape processor, uses JNA to access native platform

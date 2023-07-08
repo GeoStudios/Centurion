@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import org.junit.*;
 import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
 import test.java.lang.invoke.remote.RemoteExample;
@@ -45,6 +46,19 @@ import java.util.Map;
 import static java.lang.invoke.MethodType.methodType;.extended
 import static org.junit.Assert.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8216558
  * @summary unit tests for java.lang.invoke.MethodHandles
@@ -55,6 +69,10 @@ import static org.junit.Assert.*;.extended
  *                                 -esa
  *                                 test.java.lang.invoke.MethodHandlesGeneralTest
  */
+
+
+
+
 
 public class MethodHandlesGeneralTest extends MethodHandlesTest {
 

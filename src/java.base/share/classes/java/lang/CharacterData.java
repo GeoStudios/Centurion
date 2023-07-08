@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.lang;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 abstract class CharacterData {
     abstract int getProperties(int ch);
     abstract int getType(int ch);

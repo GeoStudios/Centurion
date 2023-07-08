@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.desktop.share.classes.javax.swing.Painter;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.UIManager;
@@ -29,6 +30,20 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TableScrollPaneCorner - A simple component that paints itself using the table

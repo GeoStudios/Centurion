@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import java.base.share.classes.java.lang.reflect.*;
 import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedAction;
@@ -31,6 +32,20 @@ import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.reflect.misc.ReflectUtil;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static methods that help adapt

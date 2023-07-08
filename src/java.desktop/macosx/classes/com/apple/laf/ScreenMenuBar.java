@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import sun.lwawt.macosx.CMenuBar;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 import static sun.awt.AWTAccessor.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 public class ScreenMenuBar extends MenuBar

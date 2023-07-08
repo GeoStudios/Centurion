@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
+
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -93,6 +94,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.ENDORSE
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.EXTDIRS;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.XBOOTCLASSPATH_APPEND;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.XBOOTCLASSPATH_PREPEND;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class converts command line arguments, environment variables and system properties (in
@@ -1435,6 +1450,7 @@ public class Locations {
                             .replaceAll("^\\.", "")           // drop leading dots
                             .replaceAll("\\.$", "");          // drop trailing dots
 
+
                     if (!mn.isEmpty()) {
                         return new Pair<>(mn, p);
                     }
@@ -1639,6 +1655,7 @@ public class Locations {
         //where:
             private final Predicate<Path> checkModuleInfo =
                     p -> Files.exists(p.resolve("module-info.java"));
+
 
         private boolean isSeparator(char ch) {
             // allow both separators on Windows

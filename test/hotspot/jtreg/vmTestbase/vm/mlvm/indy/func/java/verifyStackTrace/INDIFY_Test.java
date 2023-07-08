@@ -21,6 +21,7 @@
 
 package vm.mlvm.indy.func.java.verifyStackTrace;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
@@ -28,6 +29,19 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.invoke.MethodType;
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,9 @@ import vm.mlvm.share.MlvmTest;
  *
  * @run main/othervm vm.mlvm.indy.func.java.verifyStackTrace.INDIFY_Test
  */
+
+
+
 
 public class INDIFY_Test extends MlvmTest {
 

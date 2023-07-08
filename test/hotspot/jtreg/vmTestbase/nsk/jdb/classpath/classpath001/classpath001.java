@@ -21,10 +21,24 @@
 
 package nsk.jdb.classpath.classpath001;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,6 +65,9 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class classpath001 extends JdbTest {
 

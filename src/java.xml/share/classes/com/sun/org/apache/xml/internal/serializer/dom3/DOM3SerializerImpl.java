@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.DOM3Serializer;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
@@ -29,10 +30,27 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class implements the DOM3Serializer interface.
@@ -89,6 +107,7 @@ public final class DOM3SerializerImpl implements DOM3Serializer {
     public LSSerializerFilter getNodeFilter() {
         return fSerializerFilter;
     }
+
 
     /**
      * Serializes the Level 3 DOM node by creating an instance of DOM3TreeWalker

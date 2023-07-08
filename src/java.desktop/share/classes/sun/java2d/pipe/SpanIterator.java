@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface defines a general method for iterating through the
  * rectangular "spans" that represent the interior of a filled path.

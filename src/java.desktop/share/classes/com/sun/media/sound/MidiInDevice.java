@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Transmitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MidiInDevice class representing functionality of MidiIn devices.

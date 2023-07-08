@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
+
 import java.xml.share.classes.javax.xml.stream.events.*;
 import java.xml.share.classes.javax.xml.stream.util.XMLEventConsumer;
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -239,5 +254,6 @@ public interface XMLEventWriter extends XMLEventConsumer {
    * @return the current namespace context
    */
   NamespaceContext getNamespaceContext();
+
 
 }

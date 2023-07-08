@@ -21,10 +21,24 @@
 
 package compiler.loopopts;
 
+
 import java.lang.reflect.Method;
 import sun.hotspot.WhiteBox;
 import jdk.test.lib.Asserts;
 import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UseCountedLoopSafepoints {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

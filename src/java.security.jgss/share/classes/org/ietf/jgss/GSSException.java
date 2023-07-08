@@ -21,6 +21,22 @@
 
 package java.security.jgss.share.classes.org.ietf.jgss;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This exception is thrown whenever a GSS-API error occurs, including
  * any mechanism specific error.  It may contain both the major and the
@@ -150,6 +166,7 @@ public class GSSException extends Exception {
      */
     public static final int OLD_TOKEN = 20;
 
+
     /**
      * A later token has already been processed.  This is a
      * fatal error code that may occur during context establishment.
@@ -158,6 +175,7 @@ public class GSSException extends Exception {
      */
     public static final int UNSEQ_TOKEN = 21;
 
+
     /**
      * An expected per-message token was not received.  This is a
      * fatal error code that may occur during context establishment.
@@ -165,6 +183,7 @@ public class GSSException extends Exception {
      * The MessageProp object is used for that purpose.
      */
     public static final int GAP_TOKEN = 22;
+
 
     private static final String[] messages = {
         "Channel binding mismatch", // BAD_BINDINGS
@@ -251,6 +270,7 @@ public class GSSException extends Exception {
         this.majorString = majorString;
     }
 
+
     /**
      * Creates a GSSException object with the specified major code, minor
      * code, and minor code textual explanation.  This constructor is to be
@@ -322,6 +342,7 @@ public class GSSException extends Exception {
             return messages[major - 1];
     }
 
+
     /**
      * Returns a string explaining the mechanism specific error code.
      * If the minor status code is 0, then no mechanism level error details
@@ -337,6 +358,7 @@ public class GSSException extends Exception {
         return minorMessage;
     }
 
+
     /**
      * Used by the exception thrower to set the mechanism
      * level minor error code and its string explanation.  This is used by
@@ -351,6 +373,7 @@ public class GSSException extends Exception {
         minor = minorCode;
         minorMessage = message;
     }
+
 
     /**
      * Returns a textual representation of both the major and the minor
@@ -375,6 +398,7 @@ public class GSSException extends Exception {
         return (getMajorString()
                 + " (Mechanism level: " + getMinorString() + ")");
     }
+
 
     /*
      * Validates the major code in the proper range.

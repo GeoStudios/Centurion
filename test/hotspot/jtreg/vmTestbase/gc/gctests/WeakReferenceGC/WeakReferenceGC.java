@@ -21,12 +21,26 @@
 
 package gc.gctests.WeakReferenceGC;
 
+
 import java.util.*;
 import java.lang.ref.*;
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.ThreadedGCTest;
 import nsk.share.gc.gp.GarbageUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -95,6 +109,8 @@ import nsk.share.gc.gp.GarbageUtils;
  *      -gcCount 5
  *      -iter 100
  */
+
+
 
 public class WeakReferenceGC extends ThreadedGCTest {
 

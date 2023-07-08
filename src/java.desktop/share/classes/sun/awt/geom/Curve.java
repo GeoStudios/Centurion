@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
+
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.QuadCurve2D;
 import java.awt.geom.CubicCurve2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.IllegalPathStateException;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class Curve {
     public static final int INCREASING = 1;

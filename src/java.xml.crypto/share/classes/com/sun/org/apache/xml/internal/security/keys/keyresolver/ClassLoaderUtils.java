@@ -21,10 +21,27 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 // NOTE! This is a duplicate of utils.ClassLoaderUtils with public
 // modifiers changed to package-private. Make sure to integrate any future

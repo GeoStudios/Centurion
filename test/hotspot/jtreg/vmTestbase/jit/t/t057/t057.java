@@ -21,8 +21,22 @@
 
 package jit.t.t057;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t057.t057
  */
+
+
 
 // Just like t056 except here the exception is not explicitly thrown.
 

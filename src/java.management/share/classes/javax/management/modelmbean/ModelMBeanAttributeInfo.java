@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
+
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,6 +36,20 @@ import java.management.share.classes.javax.management.DescriptorKey;
 import java.management.share.classes.javax.management.DescriptorAccess;
 import java.management.share.classes.javax.management.MBeanAttributeInfo;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The ModelMBeanAttributeInfo object describes an attribute of the ModelMBean.
@@ -367,6 +382,7 @@ public class ModelMBeanAttributeInfo
                 return((Descriptor)attrDescriptor.clone());
         }
 
+
         /**
         * Sets associated Descriptor (full replace) for the
         * ModelMBeanAttributeDescriptor.  If the new Descriptor is
@@ -419,6 +435,7 @@ public class ModelMBeanAttributeInfo
                 " ; isWritable: " + this.isWritable() +
                 " ; Descriptor: " + this.getDescriptor();
         }
+
 
         /**
          * Clones the passed in Descriptor, sets default values, and checks for validity.
@@ -478,6 +495,7 @@ public class ModelMBeanAttributeInfo
             return clone;
         }
 
+
     /**
      * Deserializes a {@link ModelMBeanAttributeInfo} from an {@link ObjectInputStream}.
      */
@@ -486,6 +504,7 @@ public class ModelMBeanAttributeInfo
       // New serial form ignores extra field "currClass"
       in.defaultReadObject();
     }
+
 
     /**
      * Serializes a {@link ModelMBeanAttributeInfo} to an {@link ObjectOutputStream}.

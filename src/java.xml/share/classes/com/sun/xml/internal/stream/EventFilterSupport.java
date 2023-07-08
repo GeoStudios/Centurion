@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
+
 import java.util.NoSuchElementException;
 import javax.xml.stream.EventFilter;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.stream.util.EventReaderDelegate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

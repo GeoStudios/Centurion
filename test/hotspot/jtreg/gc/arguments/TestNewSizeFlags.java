@@ -21,6 +21,7 @@
 
 package gc.arguments;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.MemoryUsage;
 import java.base.share.classes.java.util.Arrays;
@@ -30,6 +31,19 @@ import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestNewSizeFlags
@@ -44,6 +58,7 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver/timeout=240  gc.arguments.TestNewSizeFlags
  */
+
 
 public class TestNewSizeFlags {
 

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.TextAreaPeer;
@@ -56,6 +57,20 @@ import javax.swing.plaf.BorderUIResource;
 import java.awt.im.InputMethodRequests;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XTextAreaPeer extends XComponentPeer implements TextAreaPeer {
 
@@ -931,6 +946,7 @@ final class XTextAreaPeer extends XComponentPeer implements TextAreaPeer {
             super.processFocusEvent(fe);
         }
 
+
         void forwardFocusLost( FocusEvent e) {
             isFocused = false;
             FocusEvent fe = new FocusEvent(this, e.getID(), e.isTemporary(),
@@ -1231,6 +1247,7 @@ final class XTextAreaPeer extends XComponentPeer implements TextAreaPeer {
         }
     }
 
+
     // This class dispatches 'MouseEvent's to 'XTextAreaPeer''s (hidden)
     // subcomponents, and overrides mouse cursor, e.g. for scrollbars.
     //
@@ -1253,6 +1270,7 @@ final class XTextAreaPeer extends XComponentPeer implements TextAreaPeer {
         JavaMouseEventHandler( XTextAreaPeer outer ) {
             this.outer = outer;
         }
+
 
         // 1. We can make grab-tracking emulation here more robust to variations in
         //    in mouse-events order and consistence. E.g. by using such code:
@@ -1355,6 +1373,7 @@ final class XTextAreaPeer extends XComponentPeer implements TextAreaPeer {
                 outer.pSetCursor( outer.textPane.getCursor(), true );
             }
         }
+
 
         // Current way of grab-detection causes interesting (but harmless)
         // side-effect. If mouse is draged from outside to inside of TextArea,

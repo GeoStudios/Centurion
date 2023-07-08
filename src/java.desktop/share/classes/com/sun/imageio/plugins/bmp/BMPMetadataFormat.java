@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
+
 import java.base.share.classes.java.util.Arrays;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BMPMetadataFormat extends IIOMetadataFormatImpl {
 
@@ -176,6 +191,7 @@ public class BMPMetadataFormat extends IIOMetadataFormatImpl {
         addAttribute("PaletteEntry", "blue",
                      DATATYPE_INTEGER, true, null,
                      "0", "255", true, true);
+
 
         // root -> CommentExtensions
         addElement("CommentExtensions",

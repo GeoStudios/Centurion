@@ -21,10 +21,24 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test exercises that the JVMTI function RedefineClasses()
@@ -183,6 +197,7 @@ public class redefclass029 extends DebugeeClass {
         status = Consts.TEST_FAILED;
         return false;
     }
+
 
     private void checkOuterFields(int index, int expValue) {
         if (prStOuterFl[index] != expValue

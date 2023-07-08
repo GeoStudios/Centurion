@@ -21,12 +21,26 @@
 
 package jdk.vm.ci.code.test;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 import jdk.vm.ci.code.VirtualObject;
 import jdk.vm.ci.meta.JavaKind;
 import jdk.vm.ci.meta.JavaValue;
 import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VirtualObjectFormattingTest extends VirtualObjectTestBase {
 

@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
+
 import javax.tools.Diagnostic;
 import jdk.compiler.share.classes.com.sun.source.doctree.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
@@ -36,6 +37,20 @@ import java.io.StringWriter;
 import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Name;
 import javax.tools.JavaFileObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p><b>This is NOT part of any supported API.
@@ -644,6 +659,7 @@ public abstract class DCTree implements DocTree {
         public final JCTree qualifierExpression;
         public final Name memberName;
         public final List<JCTree> paramTypes;
+
 
         DCReference(String signature, JCTree.JCExpression moduleName, JCTree qualExpr, Name member, List<JCTree> paramTypes) {
             this.signature = signature;

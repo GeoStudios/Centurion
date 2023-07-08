@@ -21,9 +21,24 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
+
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.*;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Arrayjava.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Filter that hides slots with no connections.

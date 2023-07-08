@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.FastStringBuffer;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Class XMLStringFactoryImpl creates XString versions of XMLStrings.

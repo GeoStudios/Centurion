@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.peer.RobotPeer;
 import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CRobot implements RobotPeer {
 

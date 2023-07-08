@@ -21,11 +21,26 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DataSource;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.RandomAccessFileDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ELFFileParser {
     private static ELFFileParser elfParser;
@@ -96,6 +111,7 @@ public class ELFFileParser {
         public byte getObjectSize()         { return ident[NDX_OBJECT_SIZE]; }
         public byte getEncoding()           { return ident[NDX_ENCODING]; }
         public byte getVersion()            { return ident[NDX_VERSION]; }
+
 
         /**
          * Implementation of the ELFHeader interface.
@@ -204,6 +220,7 @@ public class ELFFileParser {
 
 //            public short getProgramHeaderSize()      { return ph_entry_size; }
 //            public short getNumberOfProgramHeaders() { return num_ph; }
+
 
             /**
              * Returns the section header at the specified index.  The section
@@ -367,6 +384,7 @@ public class ELFFileParser {
 //                return (ProgramHeader)programHeaders[index].getValue();
 //            }
         }
+
 
         /**
          * Implementation of the ELFSectionHeader interface.
@@ -532,6 +550,7 @@ public class ELFFileParser {
             }
         }
 
+
 //        class ProgramHeaderImpl implements ProgramHeader {
 //            /** Defines the kind of segment this element describes. */
 //            private int type;                           // Elf32_Word
@@ -608,6 +627,7 @@ public class ELFFileParser {
 //                return type;
 //            }
 //        }
+
 
         /**
          * Implementation of the ELFSymbol interface.
@@ -760,6 +780,7 @@ public class ELFFileParser {
             }
         }
 
+
         /** Implementation of the ELFHashTable. */
         class ELFHashTableImpl implements ELFHashTable {
             private final int num_buckets;
@@ -833,6 +854,7 @@ public class ELFFileParser {
                 return null;
             }
         }
+
 
         public void close() throws ELFException {
             try {
@@ -957,6 +979,7 @@ public class ELFFileParser {
             return ((((long) byteSwap((int) arg)) << 32) |
                    (((long) byteSwap((int) (arg >>> 32))) & 0xFFFFFFFF));
         }
+
 
         /* Unsigned byte utility functions.  Since java does not have unsigned
          * data types we must convert values manually and we must return

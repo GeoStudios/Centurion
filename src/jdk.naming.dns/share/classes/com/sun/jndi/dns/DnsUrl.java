@@ -21,11 +21,26 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import java.net.MalformedURLException;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.Uri;
 import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.UrlUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DnsUrl represents a DNS pseudo-URL of the form
@@ -45,9 +60,11 @@ import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.UrlUtil;
  *
  */
 
+
 public class DnsUrl extends Uri {
 
     private String domain;      // domain name of the context
+
 
     /**
      * Given a space-separated list of DNS URLs, returns an array of DnsUrl
@@ -95,6 +112,7 @@ public class DnsUrl extends Uri {
     public String getDomain() {
         return domain;
     }
+
 
 /*
     // Debug

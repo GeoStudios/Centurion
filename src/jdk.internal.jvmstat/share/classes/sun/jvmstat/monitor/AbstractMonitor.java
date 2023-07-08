@@ -21,6 +21,22 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The base class for Instrumentation Monitoring Objects. This base class
  * provides implementations of the {@link Monitor} methods that are common

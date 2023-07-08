@@ -21,9 +21,23 @@
 
 package test.java.awt.regtesthelpers;
 
+
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> This class is used to test a focus traversal policy implementation.
@@ -35,6 +49,8 @@ import java.util.Map;
  * </pre>
  * <p> And put "import test.java.awt.regtesthelpers.AbstractPolicyTest;" into the test.
  */
+
+
 
 public abstract class AbstractPolicyTest {
 

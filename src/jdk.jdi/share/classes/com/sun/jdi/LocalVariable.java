@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A local variable in the target VM. Each variable declared within a
  * {@link Method} has its own LocalVariable object. Variables of the same

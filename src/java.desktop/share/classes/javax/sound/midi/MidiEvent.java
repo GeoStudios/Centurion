@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * MIDI events contain a MIDI message and a corresponding time-stamp expressed
  * in ticks, and can represent the MIDI event information stored in a MIDI file

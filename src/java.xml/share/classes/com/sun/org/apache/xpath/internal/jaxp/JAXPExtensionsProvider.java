@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExtensionsProvider;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncExtFunction;
@@ -34,6 +35,20 @@ import javax.xml.xpath.XPathFunction;
 import javax.xml.xpath.XPathFunctionException;
 import javax.xml.xpath.XPathFunctionResolver;
 import jdk.xml.internal.JdkXmlFeatures;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -80,7 +95,9 @@ public class JAXPExtensionsProvider implements ExtensionsProvider {
         return false;
       }
 
+
     }
+
 
     /**
      * Is the extension element available?

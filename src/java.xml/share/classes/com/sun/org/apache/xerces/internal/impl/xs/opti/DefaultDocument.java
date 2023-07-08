@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
@@ -37,10 +38,28 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * @xerces.internal
@@ -64,37 +83,46 @@ public class DefaultDocument extends NodeImpl
         return null;
     }
 
+
     public DOMImplementation getImplementation() {
         return null;
     }
+
 
     public Element getDocumentElement() {
         return null;
     }
 
+
     public NodeList getElementsByTagName(String tagname) {
         return null;
     }
+
 
     public NodeList getElementsByTagNameNS(String namespaceURI, String localName) {
         return null;
     }
 
+
     public Element getElementById(String elementId) {
         return null;
     }
+
 
     public Node importNode(Node importedNode, boolean deep) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
+
     public Element createElement(String tagName) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
+
     public DocumentFragment createDocumentFragment() {
         return null;
     }
+
 
     public Text createTextNode(String data) {
         return null;
@@ -104,25 +132,31 @@ public class DefaultDocument extends NodeImpl
         return null;
     }
 
+
     public CDATASection createCDATASection(String data) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
+
 
     public ProcessingInstruction createProcessingInstruction(String target, String data) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
+
     public Attr createAttribute(String name) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
+
 
     public EntityReference createEntityReference(String name) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
+
     public Element createElementNS(String namespaceURI, String qualifiedName) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
+
 
     public Attr createAttributeNS(String namespaceURI, String qualifiedName) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
@@ -143,6 +177,7 @@ public class DefaultDocument extends NodeImpl
     public String getXmlEncoding(){
         return null;
     }
+
 
     /**
      * An attribute specifying, as part of the XML declaration, the encoding
@@ -257,5 +292,12 @@ public class DefaultDocument extends NodeImpl
     public Node renameNode(Node n,String namespaceURI, String name) throws DOMException{
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
+
+
+
+
+
+
+
 
 }

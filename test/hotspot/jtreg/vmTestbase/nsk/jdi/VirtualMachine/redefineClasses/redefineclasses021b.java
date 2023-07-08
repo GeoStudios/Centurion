@@ -21,6 +21,21 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  <code>redefineclasses021b</code> is deugee's part of the redefineclasses021.
  */
@@ -31,11 +46,13 @@ public class redefineclasses021b {
 
     interface redefineclasses021bi {
 
+
         void dummyMethod01();
 
     }
 
     public interface redefineclasses021bir {
+
 
         void dummyMethod01();
 

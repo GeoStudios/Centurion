@@ -21,6 +21,22 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>This class represents the user object of the nodes in the MBean tree.</p>
  *

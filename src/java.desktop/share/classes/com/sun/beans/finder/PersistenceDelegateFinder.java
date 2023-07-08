@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
+
 import java.beans.PersistenceDelegate;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is utility class that provides functionality

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Encapsulation of a link, or set of links (e.g. client side imagemap) in a
  * Hypertext document

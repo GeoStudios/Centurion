@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import com.apple.eawt.Application;
 import java.awt.Image;
 import java.awt.PopupMenu;
 import java.awt.Taskbar.Feature;
 import java.awt.peer.TaskbarPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CTaskbarPeer implements TaskbarPeer {
 

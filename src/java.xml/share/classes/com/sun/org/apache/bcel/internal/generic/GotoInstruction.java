@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Super class for GOTO
@@ -35,6 +52,7 @@ public abstract class GotoInstruction extends BranchInstruction implements Uncon
     GotoInstruction(final short opcode, final InstructionHandle target) {
         super(opcode, target);
     }
+
 
     /**
      * Empty constructor needed for Instruction.readInstruction.

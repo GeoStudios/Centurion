@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The <code>Element</code> interface represents an element in an HTML or XML
  * document. Elements may have attributes associated with them; since the

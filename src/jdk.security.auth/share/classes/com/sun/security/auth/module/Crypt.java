@@ -21,7 +21,22 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
+
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*        All Rights Reserved   */
 
@@ -48,6 +63,9 @@ import java.nio.charset.StandardCharsets;
  * itself.
  *
  */
+
+
+
 
 class Crypt {
 
@@ -157,6 +175,7 @@ class Crypt {
                 E[i] = e2[i];
     }
 
+
     private static final byte[][] S = {
         {14, 4,13, 1, 2,15,11, 8, 3,10, 6,12, 5, 9, 0, 7,
         0,15, 7, 4,14, 2,13, 1,10, 6,12,11, 9, 5, 3, 8,
@@ -199,6 +218,7 @@ class Crypt {
          2, 1,14, 7, 4,10, 8,13,15,12, 9, 0, 3, 5, 6,11},
     };
 
+
     private static final byte[] P = {
         16, 7,20,21,
         29,12,28,17,
@@ -214,6 +234,7 @@ class Crypt {
     private final byte[] tempL = new byte[32];
     private final byte[] f = new byte[32];
     private final byte[] preS = new byte[48];
+
 
     private void encrypt(byte[] block,int fake) {
         int     i;

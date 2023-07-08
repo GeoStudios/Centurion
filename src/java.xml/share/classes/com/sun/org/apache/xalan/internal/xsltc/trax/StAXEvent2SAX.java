@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Iterator;
@@ -51,6 +52,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  */
 public class StAXEvent2SAX implements XMLReader, Locator {
@@ -67,6 +82,7 @@ public class StAXEvent2SAX implements XMLReader, Locator {
     private SAXImpl _saxImpl = null;
     private String version = null;
     private String encoding = null;
+
 
     public StAXEvent2SAX(XMLEventReader staxCore) {
         staxEventReader = staxCore;
@@ -89,6 +105,7 @@ public class StAXEvent2SAX implements XMLReader, Locator {
         }
     }
 
+
     public void parse(InputSource unused) throws IOException, SAXException {
        try {
             bridge();
@@ -97,10 +114,12 @@ public class StAXEvent2SAX implements XMLReader, Locator {
         }
     }
 
+
     //Main Work Starts Here.
     public void parse() throws IOException, SAXException, XMLStreamException {
         bridge();
     }
+
 
     /*  public void parse() throws IOException, SAXException {
         if (_dom != null) {
@@ -252,6 +271,7 @@ public class StAXEvent2SAX implements XMLReader, Locator {
             throw new XMLStreamException(e);
         }
     }
+
 
     private void handleEndDocument() throws SAXException {
         _sax.endDocument();
@@ -455,6 +475,7 @@ public class StAXEvent2SAX implements XMLReader, Locator {
         // no-op ???
         // this event is listed in the javadoc, but not in the spec.
     }
+
 
     /**
      * This class is only used internally so this method should never

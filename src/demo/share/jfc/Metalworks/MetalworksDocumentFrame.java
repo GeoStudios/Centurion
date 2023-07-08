@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
@@ -39,6 +40,20 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -46,6 +61,10 @@ import javax.swing.border.EmptyBorder;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This is a subclass of JInternalFrame which displays documents.
@@ -71,10 +90,13 @@ public class MetalworksDocumentFrame extends JInternalFrame {
         content.setBorder(new EmptyBorder(0, 5, 0, 5));
         content.setLineWrap(true);
 
+
+
         JScrollPane textScroller = new JScrollPane(content,
                 JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
                 JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         top.add(textScroller, BorderLayout.CENTER);
+
 
         setContentPane(top);
         pack();
@@ -86,15 +108,18 @@ public class MetalworksDocumentFrame extends JInternalFrame {
         JPanel p = new JPanel();
         p.setLayout(new LabeledPairLayout());
 
+
         JLabel toLabel = new JLabel("To: ", JLabel.RIGHT);
         JTextField toField = new JTextField(25);
         p.add(toLabel, "label");
         p.add(toField, "field");
 
+
         JLabel subLabel = new JLabel("Subj: ", JLabel.RIGHT);
         JTextField subField = new JTextField(25);
         p.add(subLabel, "label");
         p.add(subField, "field");
+
 
         JLabel ccLabel = new JLabel("cc: ", JLabel.RIGHT);
         JTextField ccField = new JTextField(25);
@@ -104,6 +129,7 @@ public class MetalworksDocumentFrame extends JInternalFrame {
         return p;
 
     }
+
 
     class LabeledPairLayout implements LayoutManager {
 

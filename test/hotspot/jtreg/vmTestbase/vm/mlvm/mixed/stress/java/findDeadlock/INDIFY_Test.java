@@ -21,6 +21,7 @@
 
 package vm.mlvm.mixed.stress.java.findDeadlock;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -36,7 +37,23 @@ import nsk.share.test.Stresser;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // generated from vm/mlvm/mixed/stress/java/findDeadlock/INDIFY_Test.jmpp
+
+
+
 
 public class INDIFY_Test extends MlvmTest {
 
@@ -18172,6 +18189,7 @@ public class INDIFY_Test extends MlvmTest {
     static Object indyWrapper998 (Object o1, Object o2, Object o3) throws Throwable { return INDY_call998 ().invokeExact(o1, o2, o3); }
 
     static Object bootstrap998 (Object l, Object n, Object t) throws Throwable { return _mh[ 998 ].invokeExact(l, n, t); }
+
 
     // End of BSM+indy pairs
 

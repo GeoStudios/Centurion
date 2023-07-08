@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class give users a handle to the instructions contained in
@@ -56,6 +71,7 @@ public class InstructionHandle {
     private Set<InstructionTargeter> targeters;
     private Map<Object, Object> attributes;
 
+
     /**
      * Does nothing.
      *
@@ -70,13 +86,16 @@ public class InstructionHandle {
         return next;
     }
 
+
     public final InstructionHandle getPrev() {
         return prev;
     }
 
+
     public final Instruction getInstruction() {
         return instruction;
     }
+
 
     /**
      * Replace current instruction contained in this handle.
@@ -95,6 +114,7 @@ public class InstructionHandle {
         instruction = i;
     }
 
+
     /**
      * Temporarily swap the current instruction, without disturbing
      * anything. Meant to be used by a debugger, implementing
@@ -112,6 +132,7 @@ public class InstructionHandle {
         return oldInstruction;
     }
 
+
     /*private*/protected InstructionHandle(final Instruction i) {
         setInstruction(i);
     }
@@ -121,6 +142,7 @@ public class InstructionHandle {
     static InstructionHandle getInstructionHandle( final Instruction i ) {
         return new InstructionHandle(i);
     }
+
 
     /**
      * Called by InstructionList.setPositions when setting the position for every
@@ -137,6 +159,7 @@ public class InstructionHandle {
         return 0;
     }
 
+
     /** @return the position, i.e., the byte code offset of the contained
      * instruction. This is accurate only after
      * InstructionList.setPositions() has been called.
@@ -145,12 +168,14 @@ public class InstructionHandle {
         return i_position;
     }
 
+
     /** Set the position, i.e., the byte code offset of the contained
      * instruction.
      */
     void setPosition( final int pos ) {
         i_position = pos;
     }
+
 
     /**
      * Delete contents, i.e., remove user access.
@@ -164,6 +189,7 @@ public class InstructionHandle {
         removeAllTargeters();
     }
 
+
     /** Remove all targeters, if any.
      */
     public void removeAllTargeters() {
@@ -171,6 +197,7 @@ public class InstructionHandle {
             targeters.clear();
         }
     }
+
 
     /**
      * Denote this handle isn't referenced anymore by t.
@@ -180,6 +207,7 @@ public class InstructionHandle {
             targeters.remove(t);
         }
     }
+
 
     /**
      * Denote this handle is being referenced by t.
@@ -192,9 +220,11 @@ public class InstructionHandle {
         targeters.add(t);
     }
 
+
     public boolean hasTargeters() {
         return (targeters != null) && (targeters.size() > 0);
     }
+
 
     /**
      * @return null, if there are no targeters
@@ -208,11 +238,13 @@ public class InstructionHandle {
         return t;
     }
 
+
     /** @return a (verbose) string representation of the contained instruction.
      */
     public String toString( final boolean verbose ) {
         return Utility.format(i_position, 4, false, ' ') + ": " + instruction.toString(verbose);
     }
+
 
     /** @return a string representation of the contained instruction.
      */
@@ -220,6 +252,7 @@ public class InstructionHandle {
     public String toString() {
         return toString(true);
     }
+
 
     /** Add an attribute to an instruction handle.
      *
@@ -233,6 +266,7 @@ public class InstructionHandle {
         attributes.put(key, attr);
     }
 
+
     /** Delete an attribute of an instruction handle.
      *
      * @param key the key object to retrieve the attribute
@@ -242,6 +276,7 @@ public class InstructionHandle {
             attributes.remove(key);
         }
     }
+
 
     /** Get attribute of an instruction handle.
      *
@@ -254,6 +289,7 @@ public class InstructionHandle {
         return null;
     }
 
+
     /** @return all attributes associated with this handle
      */
     public Collection<Object> getAttributes() {
@@ -263,6 +299,7 @@ public class InstructionHandle {
         return attributes.values();
     }
 
+
     /** Convenience method, simply calls accept() on the contained instruction.
      *
      * @param v Visitor object
@@ -271,6 +308,7 @@ public class InstructionHandle {
         instruction.accept(v);
     }
 
+
     /**
      * @param next the next to set
      */
@@ -278,6 +316,7 @@ public class InstructionHandle {
         this.next = next;
         return next;
     }
+
 
     /**
      * @param prev the prev to set

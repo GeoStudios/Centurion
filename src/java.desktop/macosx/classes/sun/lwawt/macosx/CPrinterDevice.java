@@ -21,8 +21,23 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CPrinterDevice extends GraphicsDevice {
 

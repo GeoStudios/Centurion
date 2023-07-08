@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.naming.internal;
 
+
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -33,6 +34,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.WeakHashMap;
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * The ResourceManager class facilitates the reading of JNDI resource files.
@@ -120,6 +135,7 @@ public final class ResourceManager {
     // There should be no instances of this class.
     private ResourceManager() {
     }
+
 
     // ---------- Public methods ----------
 
@@ -418,6 +434,7 @@ public final class ResourceManager {
         }
     }
 
+
     // ---------- Private methods ----------
 
     /*
@@ -462,6 +479,7 @@ public final class ResourceManager {
             return props;
         }
     }
+
 
     /*
      * Returns the Hashtable (never null) that results from merging

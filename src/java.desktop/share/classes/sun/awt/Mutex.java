@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Mutex {
     private boolean locked;
     private Thread owner;

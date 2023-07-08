@@ -21,7 +21,21 @@
 
 package p1;
 
+
 import java.lang.invoke.MethodHandles;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class A {
     static final Object lock;

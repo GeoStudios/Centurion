@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An implementor determines if requests to quit this application should proceed
  * or cancel.

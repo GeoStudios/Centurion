@@ -21,6 +21,21 @@
 
 package jit.graph;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // This class defines the tree object.
 public class RBTree {
     public final static int maxNodes = 70;      // maximum nodes allowed.
@@ -65,6 +80,7 @@ public class RBTree {
         return height;
     }
 
+
     // This method inserts k into the Red Black Tree
     public boolean RBInsert(int k) {
         // checking similar to the RB_Insert method
@@ -100,6 +116,7 @@ public class RBTree {
             System.out.println("Insertion failed. This key already exist.");
         return false;
     }
+
 
     // This method deletes the element k from the Red Black tree
     public boolean RBDelete(int k) {

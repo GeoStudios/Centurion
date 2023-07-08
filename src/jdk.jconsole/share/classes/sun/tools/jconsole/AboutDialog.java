@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -63,6 +64,20 @@ import static java.awt.BorderLayout.NORTH;.extended
 import static java.awt.BorderLayout.SOUTH;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.setAccessibleDescription;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.setAccessibleName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class AboutDialog extends InternalDialog {

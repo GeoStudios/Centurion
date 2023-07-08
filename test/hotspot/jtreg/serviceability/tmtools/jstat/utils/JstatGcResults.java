@@ -21,7 +21,21 @@
 
 package utils;
 
+
 import common.ToolResults;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Results of running the JstatGcTool ("jstat -gc <pid>")
@@ -52,6 +66,7 @@ import common.ToolResults;
  * GCT     Total garbage collection time.
  *
  */
+
 
 public class JstatGcResults extends JstatResults {
 

@@ -21,7 +21,21 @@
 
 package vm.compiler.jbe.subcommon.subcommon02;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,7 @@ import java.io.*;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon02.subcommon02
  */
+
 
 /* -- Common subexpression elimination testing
    Using global common subexpression in method fopt() to calculate x**n.
@@ -64,6 +79,7 @@ public class subcommon02 {
             throw new Error("Test subcommon02 Failed.");
         }
     }
+
 
     double nPower(int x, int pwr) {
         return Math.pow(x, pwr); // x**pwr
@@ -193,6 +209,7 @@ public class subcommon02 {
                 return nextAfter(d, Double.POSITIVE_INFINITY) - d;
         }
     }
+
 
     /*
      * return signed difference in ulps between two floating-point

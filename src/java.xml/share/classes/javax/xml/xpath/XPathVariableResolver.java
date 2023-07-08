@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.xpath;
 
+
 import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p><code>XPathVariableResolver</code> provides access to the set of user defined XPath variables.</p>

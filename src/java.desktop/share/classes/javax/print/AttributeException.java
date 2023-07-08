@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.print;
 
+
 import java.desktop.share.classes.javax.print.attribute.Attribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code AttributeException} is a mixin interface which a subclass of

@@ -21,12 +21,26 @@
 
 package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames001;
 
+
 import java.io.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.jdi.*;
 import nsk.share.jpda.StateTestThread;
 import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -59,6 +73,8 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
 
 public class ownedMonitorsAndFrames001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

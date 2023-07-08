@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This is the default implementation of the ErrorHandler interface and is

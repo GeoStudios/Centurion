@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.ShortMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A short message class that support for than 16 midi channels.

@@ -21,9 +21,25 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.util.Random;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //package nsk.jvmti.RedefineClasses.StressRedefine;
+
+
 
 public class GenerateSourceHelper {
 
@@ -69,5 +85,6 @@ public class GenerateSourceHelper {
                                         "public String methodFinalInClass() {return s1 + s2 + i; } \n" +
                         "}";
     }
+
 
 }

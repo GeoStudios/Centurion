@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.text;
 
+
 import java.base.share.classes.java.util.Vector;
 import sun.text.UCompactIntArray;
 import sun.text.IntHashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains the static state of a RuleBasedCollator: The various

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Used to respond to a request to quit the application.
  *

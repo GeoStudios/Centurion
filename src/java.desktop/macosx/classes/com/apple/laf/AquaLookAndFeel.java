@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.KeyboardFocusManager;
@@ -52,6 +53,20 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIUtils;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
 import static javax.swing.UIDefaults.LazyValue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class AquaLookAndFeel extends BasicLookAndFeel {

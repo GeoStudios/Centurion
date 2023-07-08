@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.util;
 
+
 import java.lang.ref.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a Singleton class that allows you to allocate buffer that

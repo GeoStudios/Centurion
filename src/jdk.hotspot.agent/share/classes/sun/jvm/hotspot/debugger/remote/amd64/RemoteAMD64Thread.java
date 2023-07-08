@@ -21,10 +21,25 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.amd64;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RemoteAMD64Thread extends RemoteThread  {
   public RemoteAMD64Thread(RemoteDebuggerClient debugger, Address addr) {

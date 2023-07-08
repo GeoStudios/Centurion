@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.isSuspended;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the issuspended003 JDI test.
@@ -72,6 +86,7 @@ public class issuspended003a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -191,10 +206,12 @@ class Threadissuspended003a extends Thread {
         return;
     }
 
+
     public static final int breakpointLineNumber1 = 2;
     public static final int breakpointLineNumber3 = 7;
 
     public static final int breakpointLineNumber2 = 2;
+
 
     void log(String str) {
         issuspended003a.log2("thread2: " + str);

@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
+
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.Color;
 import java.awt.Component;
 import java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which implements a raised or lowered bevel with
@@ -117,6 +132,7 @@ public class SoftBevelBorder extends BevelBorder
 
             g.setColor(getShadowInnerColor(c));
             g.drawLine(width-2, height-2, width-2, height-2);
+
 
         } else if (bevelType == LOWERED) {
             g.setColor(getShadowOuterColor(c));

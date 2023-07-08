@@ -21,9 +21,24 @@
 
 package java.management.share.classes.sun.management;
 
+
 import javax.management.MBeanRegistration;
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class of HotspotInternalMBean interface.

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.util.EventObject;
 import java.desktop.share.classes.javax.swing.tree.TreePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Encapsulates information describing changes to a tree model, and

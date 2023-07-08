@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.relation;
 
+
 import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;.extended
 import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
@@ -36,6 +37,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.lang.System.Logger.Level;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RelationTypeSupport object implements the RelationType interface.
@@ -374,6 +389,7 @@ public class RelationTypeSupport implements RelationType {
             throw new InvalidRelationTypeException(excMsg);
         }
 
+
         Set<String> roleNames = new HashSet<String>();
 
         for (int i = 0; i < roleInfoArray.length; i++) {
@@ -397,6 +413,7 @@ public class RelationTypeSupport implements RelationType {
         }
 
     }
+
 
     /**
      * Deserializes a {@link RelationTypeSupport} from an {@link ObjectInputStream}.
@@ -431,6 +448,7 @@ public class RelationTypeSupport implements RelationType {
         in.defaultReadObject();
       }
     }
+
 
     /**
      * Serializes a {@link RelationTypeSupport} to an {@link ObjectOutputStream}.

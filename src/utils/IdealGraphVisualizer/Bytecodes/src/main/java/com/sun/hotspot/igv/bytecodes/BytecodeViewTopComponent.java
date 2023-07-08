@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.bytecodes;
 
+
 import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.Group;
 import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
@@ -35,6 +36,20 @@ import org.openide.explorer.view.BeanTreeView;
 import org.openide.util.*;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

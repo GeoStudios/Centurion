@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.awt.*;
 import java.awt.event.*;
@@ -34,6 +35,20 @@ import static java.awt.BorderLayout.*;.extended
 import static javax.swing.java.util.ListSelectionModel.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @SuppressWarnings("serial")
 public class ConnectDialog extends InternalDialog
                 implements DocumentListener, FocusListener,
@@ -41,6 +56,7 @@ public class ConnectDialog extends InternalDialog
 
     private static final int COL_NAME = 0;
     private static final int COL_PID  = 1;
+
 
     JConsole jConsole;
     JTextField userNameTF, passwordTF;
@@ -61,6 +77,7 @@ public class ConnectDialog extends InternalDialog
     JScrollPane localTableScrollPane = null;
 
     private Action connectAction, cancelAction;
+
 
     public ConnectDialog(JConsole jConsole) {
         super(jConsole, Messages.CONNECT_DIALOG_TITLE, true);
@@ -356,6 +373,7 @@ public class ConnectDialog extends InternalDialog
         };
     }
 
+
     // a label used solely for calculating the width
     private static final JLabel tmpLabel = new JLabel();
     public static int getLabelWidth(String text) {
@@ -467,6 +485,7 @@ public class ConnectDialog extends InternalDialog
         }
     }
 
+
     public void itemStateChanged(ItemEvent ev) {
         if (!localRadioButton.isSelected()) {
             vmTable.getSelectionModel().clearSelection();
@@ -562,6 +581,7 @@ public class ConnectDialog extends InternalDialog
     public void keyReleased(KeyEvent e) {
     }
 
+
     // ListSelectionListener interface
     public void valueChanged(ListSelectionEvent e) {
         updateButtonStates();
@@ -582,6 +602,7 @@ public class ConnectDialog extends InternalDialog
         localMessageLabel.setText("<html><font color=#" + colorStr + ">" + labelText);
     }
     // ----
+
 
     // Refresh the list of managed VMs
     public void refresh() {
@@ -671,6 +692,7 @@ public class ConnectDialog extends InternalDialog
         public ManagedVmTableModel() {
             refresh();
         }
+
 
         public synchronized LocalVirtualMachine vmAt(int pos) {
             return vmList.get(pos);

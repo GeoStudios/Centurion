@@ -21,10 +21,25 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.compiler.share.classes.javax.lang.model.element.Element;
 import java.compiler.share.classes.javax.lang.model.element.TypeElement;
 import java.compiler.share.classes.javax.lang.model.util.Types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a declared type, either a class type or an interface type.

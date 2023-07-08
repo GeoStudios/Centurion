@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
+
 import java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Arrays;
 import java.net.URL;
@@ -87,9 +88,24 @@ import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.UNKNO
 import java.base.share.classes.sun.security.action.GetIntegerAction;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A class to represent an HTTP connection to a remote object.
  */
+
 
 public class HttpURLConnection extends java.net.HttpURLConnection {
 
@@ -152,6 +168,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
      *     the size (in bytes) to use for the buffering the error stream;
      *     default is 4k
      */
+
 
     /* Should we enable buffering of error streams? */
     private static boolean enableESBuffer = false;
@@ -442,6 +459,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
     public final boolean isLockHeldByCurrentThread() {
         return connectionLock.isHeldByCurrentThread();
     }
+
 
     /*
      * privileged request password authentication
@@ -815,6 +833,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
         http.setReadTimeout(readTimeout);
     }
 
+
     /**
      * Create a new HttpClient object, set up so that it uses
      * per-instance proxying to the given HTTP proxy.  This
@@ -989,6 +1008,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
         } while (redir);
         return in;
     }
+
 
     //
     // Same as java.net.URL.hostsEqual
@@ -3070,6 +3090,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
                     hc.closeIdleConnection();
                 }
 
+
             } else {
                 // We are deliberatly being disconnected so HttpClient
                 // should not try to resend the request no matter what stage
@@ -3399,6 +3420,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
             throw new IllegalArgumentException("timeouts can't be negative");
         connectTimeout = timeout;
     }
+
 
     /**
      * Returns setting for connect timeout.
@@ -3810,6 +3832,7 @@ public class HttpURLConnection extends java.net.HttpURLConnection {
             }
         }
     }
+
 
     static class ErrorStream extends InputStream {
         ByteBuffer buffer;

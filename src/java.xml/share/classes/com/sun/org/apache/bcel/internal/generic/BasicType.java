@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Denotes basic type such as int.
@@ -46,6 +63,7 @@ public final class BasicType extends Type {
             throw new ClassGenException("Invalid type: " + type);
         }
     }
+
 
     public static BasicType getType( final byte type ) {
         switch (type) {
@@ -72,12 +90,14 @@ public final class BasicType extends Type {
         }
     }
 
+
     /** @return a hash code value for the object.
      */
     @Override
     public int hashCode() {
         return super.getType();
     }
+
 
     /** @return true if both type objects refer to the same type
      */

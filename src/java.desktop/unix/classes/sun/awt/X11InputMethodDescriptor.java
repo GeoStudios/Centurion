@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt;
 
+
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.im.spi.InputMethod;
@@ -29,6 +30,20 @@ import java.security.AccessController;
 import java.base.share.classes.java.util.Locale;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides sufficient information about an input method

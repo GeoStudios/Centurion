@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
 
+
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.CustomFilter;
@@ -53,6 +54,20 @@ import org.openide.util.*;
 import org.openide.util.actions.SystemAction;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -432,6 +447,7 @@ public final class FilterTopComponent extends TopComponent implements LookupList
             }
 
             String displayName = fo.getName();
+
 
             final CustomFilter cf = new CustomFilter(displayName, code);
             map.put(displayName, cf);

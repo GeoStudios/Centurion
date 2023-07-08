@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.fields;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -73,6 +87,7 @@ public class fields006a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(fields006.SIGNAL_READY);
+
 
         //pipe.println(fields006.SIGNAL_GO);
         receiveSignal(fields006.SIGNAL_QUIT);

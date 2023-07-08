@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AudioFileFormat {
 
@@ -86,6 +101,7 @@ public class AudioFileFormat {
      *         {@code AudioSystem.NOT_SPECIFIED}
      */
     public AudioFileFormat(Type type, AudioFormat format, int frameLength) {
+
 
         this(type,AudioSystem.NOT_SPECIFIED,format,frameLength);
     }

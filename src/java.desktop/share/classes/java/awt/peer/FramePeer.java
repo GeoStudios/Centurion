@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.*;
 import sun.awt.EmbeddedFrame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link Frame}. This adds a couple of frame specific

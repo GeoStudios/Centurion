@@ -21,7 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes an argument of an operation exposed by an MBean.
@@ -41,6 +56,7 @@ public class MBeanParameterInfo extends MBeanFeatureInfo implements Cloneable {
      * @serial The type or class name of the data.
      */
     private final String type;
+
 
     /**
      * Constructs an {@code MBeanParameterInfo} object.
@@ -73,6 +89,7 @@ public class MBeanParameterInfo extends MBeanFeatureInfo implements Cloneable {
 
         this.type = type;
     }
+
 
     /**
      * <p>Returns a shallow clone of this instance.

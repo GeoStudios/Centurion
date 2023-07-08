@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.net;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * CookiePolicy implementations decide which cookies should be accepted
  * and which should be rejected. Three pre-defined policy implementations
@@ -58,6 +74,7 @@ public interface CookiePolicy {
             return HttpCookie.domainMatches(cookie.getDomain(), uri.getHost());
         }
     };
+
 
     /**
      * Will be called to see whether or not this cookie should be accepted.

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -33,6 +34,20 @@ import java.security.PrivilegedAction;
 import java.desktop.unix.classes.sun.awt.AWTAccessor.ComponentAccessor;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XFileDialogPeer extends XDialogPeer
         implements FileDialogPeer, ActionListener, ItemListener,
@@ -113,6 +128,7 @@ class XFileDialogPeer extends XDialogPeer
     String openButtonText= null;
     String saveButtonText= null;
     String actionButtonText= null;
+
 
     void installStrings() {
         Locale l = target.getLocale();
@@ -219,6 +235,8 @@ class XFileDialogPeer extends XDialogPeer
         addComponent(pathPanel, gbl, gbc, 0, 1, 2,
                     GridBagConstraints.WEST, fileDialog,
                    1, 0, GridBagConstraints.HORIZONTAL, textFieldInset);
+
+
 
         label = new Label(filterLabelText);
 
@@ -504,6 +522,7 @@ class XFileDialogPeer extends XDialogPeer
         }
     }
 
+
     String[] getDirList(String dir) {
         if (!dir.endsWith("/"))
             dir = dir + "/";
@@ -668,6 +687,7 @@ class XFileDialogPeer extends XDialogPeer
         return false;
     }
 
+
     /**
      * set the file
      */
@@ -741,6 +761,7 @@ class XFileDialogPeer extends XDialogPeer
         }
         pathField.setText(this.dir);
 
+
         if (dir.endsWith("/")) {
             this.dir = dir;
             handleFilter("");
@@ -763,6 +784,7 @@ class XFileDialogPeer extends XDialogPeer
     public void setFilenameFilter(FilenameFilter filter) {
         this.filter = filter;
     }
+
 
     public void dispose() {
         FileDialog fd = (FileDialog)fileDialog;

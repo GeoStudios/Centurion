@@ -21,6 +21,7 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi;
 
+
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
@@ -28,6 +29,20 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JnaSupport {
 

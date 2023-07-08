@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This is a "smart" variable reference that is used in situations where

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
@@ -51,6 +52,20 @@ import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.URIResolver;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Default class for the runtime execution context for XPath.
@@ -359,6 +374,7 @@ public class XPathContext extends DTMManager // implements ExpressionContext
                         m_dtmManager.release(m_global_rtfdtm,true);
     m_global_rtfdtm=null;
 
+
     m_dtmManager = DTMManager.newInstance(
                    com.sun.org.apache.xpath.internal.objects.XMLStringFactoryImpl.getFactory()
                    );
@@ -411,6 +427,7 @@ public class XPathContext extends DTMManager // implements ExpressionContext
   {
     m_saxLocations.push(null);
   }
+
 
   /**
    * Pop the current locater.
@@ -532,6 +549,7 @@ public class XPathContext extends DTMManager // implements ExpressionContext
     m_errorListener = listener;
   }
 
+
   // =================================================
 
   /** The TrAX URI Resolver for resolving URIs from the document(...)
@@ -585,6 +603,7 @@ public class XPathContext extends DTMManager // implements ExpressionContext
   }
 
   // =================================================
+
 
   /** Misnamed string manager for XPath messages.  */
   // private static XSLMessages m_XSLMessages = new XSLMessages();
@@ -712,6 +731,8 @@ public class XPathContext extends DTMManager // implements ExpressionContext
     m_prefixResolvers.pop();
   }
 
+
+
   /**
    * Set the current context node.
    *
@@ -786,6 +807,7 @@ public class XPathContext extends DTMManager // implements ExpressionContext
 
   /** A stack of the current sub-expression nodes.  */
   private IntStack m_currentExpressionNodes = new IntStack(RECURSIONLIMIT);
+
 
   public IntStack getCurrentExpressionNodeStack() { return m_currentExpressionNodes; }
   public void setCurrentExpressionNodeStack(IntStack nv) { m_currentExpressionNodes = nv; }
@@ -1140,6 +1162,9 @@ public class XPathContext extends DTMManager // implements ExpressionContext
         }
     return m_global_rtfdtm;
   }
+
+
+
 
   /**
    * Get a DTM to be used as a container for a dynamic Result Tree

@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface to support optional warnings, needed for support of

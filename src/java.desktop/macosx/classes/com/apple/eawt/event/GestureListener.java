@@ -21,7 +21,22 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
 import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Marker interface for all gesture sub-types.

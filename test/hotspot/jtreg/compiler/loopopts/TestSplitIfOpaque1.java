@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8214994
@@ -28,6 +43,7 @@ package compiler.loopopts;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:-UseOnStackReplacement -XX:-BackgroundCompilation
  *                   compiler.loopopts.TestSplitIfOpaque1
  */
+
 
 public class TestSplitIfOpaque1 {
 

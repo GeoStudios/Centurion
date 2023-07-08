@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.base.share.classes.java.util.Objects;
 import static java.xml.share.classes.javax.xml.catalog.CatalogMessages.ERR_INVALID_ARGUMENT;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a general Catalog entry.

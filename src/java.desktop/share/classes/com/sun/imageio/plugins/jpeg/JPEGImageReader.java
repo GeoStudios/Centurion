@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
@@ -52,6 +53,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
 import java.desktop.share.classes.com.sun.java2d.Disposer;
 import java.desktop.share.classes.com.sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGImageReader extends ImageReader {
 
@@ -153,6 +168,7 @@ public class JPEGImageReader extends ImageReader {
     private int numComponents;
     /** Set by setImageData native code callback */
     private ColorSpace iccCS = null;
+
 
     /** If we need to post-convert in Java, convert with this op */
     private ColorConvertOp convert = null;
@@ -467,6 +483,7 @@ public class JPEGImageReader extends ImageReader {
                     buffer.skipData(length);
                 }
             }
+
 
             iis.reset();
 

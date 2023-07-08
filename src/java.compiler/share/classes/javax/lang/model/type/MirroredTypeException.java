@@ -21,9 +21,24 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
+
 import java.io.ObjectInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.compiler.share.classes.javax.lang.model.element.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown when an application attempts to access the {@link Class} object

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio.metadata;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.javax.imageio.ImageTypeSpecifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object describing the structure of metadata documents returned

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
@@ -32,6 +33,20 @@ import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.io.StringReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class wraps DOM entity resolver to XNI entity resolver.

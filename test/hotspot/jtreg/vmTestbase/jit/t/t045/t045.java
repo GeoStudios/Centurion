@@ -21,7 +21,21 @@
 
 package jit.t.t045;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.t.t045.t045
  */
+
+
 
 // Putfield interferes with one lazy load but not the other.
 

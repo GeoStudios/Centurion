@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.ComponentEvent;
 import java.desktop.share.classes.java.awt.event.HierarchyEvent;
 import java.desktop.share.classes.java.awt.event.InvocationEvent;
@@ -44,6 +45,20 @@ import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.awt.util.IdentityArrayjava.util.java.util.java.util.List;
 import sun.awt.util.IdentityLinkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Dialog is a top-level window with a title and a border
@@ -114,6 +129,7 @@ public class Dialog extends Window {
      * @see #setResizable(boolean)
      */
     boolean resizable = true;
+
 
     /**
      * This field indicates whether the dialog is undecorated.
@@ -1206,6 +1222,7 @@ public class Dialog extends Window {
             invalidateIfValid();
         }
     }
+
 
     /**
      * Disables or enables decorations for this dialog.

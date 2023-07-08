@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class _AppMiscHandlers {
     private static boolean isSuddenTerminationEnabled;
 

@@ -21,7 +21,22 @@
 
 package java.smartcardio.share.classes.sun.security.smartcardio;
 
+
 import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Exception for PC/SC errors. The native code portion checks the return value

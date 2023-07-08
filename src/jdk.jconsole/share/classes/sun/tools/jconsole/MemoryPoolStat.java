@@ -21,7 +21,22 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.lang.management.MemoryUsage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryPoolStat {
     private final String      poolName;
@@ -90,6 +105,7 @@ public class MemoryPoolStat {
     public long getLastGcId() {
         return lastGcId;
     }
+
 
     /**
      * Returns the start time of the most recent GC on

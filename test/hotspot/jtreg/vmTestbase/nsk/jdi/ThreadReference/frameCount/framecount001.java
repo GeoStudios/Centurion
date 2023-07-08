@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.frameCount;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -153,6 +167,7 @@ public class framecount001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -192,6 +207,7 @@ public class framecount001 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -203,6 +219,7 @@ public class framecount001 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             String bpLine3 = "breakpointLineNumber3";
+
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -217,6 +234,7 @@ public class framecount001 {
 
             StackFrame stackFrame  = null;
             StackFrame stackFrame0 = null;
+
 
             label0: {
 
@@ -325,6 +343,7 @@ public class framecount001 {
                     int iCount = 0;
                     int frameCount1 = 0;
 
+
                     log2("      getting BreakpointEvent");
                     expresult = breakpoint();
                     if (expresult != returnCode0)
@@ -424,6 +443,7 @@ public class framecount001 {
         return testExitCode;
     }
 
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -479,6 +499,7 @@ public class framecount001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

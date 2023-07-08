@@ -21,8 +21,23 @@
 
 package jdk.management.share.classes.com.sun.management;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.PlatformManagedObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Diagnostic management interface for the HotSpot Virtual Machine.

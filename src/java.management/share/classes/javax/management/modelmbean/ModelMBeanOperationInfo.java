@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
+
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -36,6 +37,20 @@ import java.management.share.classes.javax.management.DescriptorKey;
 import java.management.share.classes.javax.management.MBeanOperationInfo;
 import java.management.share.classes.javax.management.MBeanParameterInfo;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The ModelMBeanOperationInfo object describes a management operation of
@@ -496,6 +511,7 @@ public class ModelMBeanOperationInfo extends MBeanOperationInfo
       // New serial form ignores extra field "currClass"
       in.defaultReadObject();
     }
+
 
     /**
      * Serializes a {@link ModelMBeanOperationInfo} to an {@link ObjectOutputStream}.

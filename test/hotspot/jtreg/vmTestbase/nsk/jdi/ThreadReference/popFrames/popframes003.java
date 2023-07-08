@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.popFrames;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -196,6 +210,7 @@ public class popframes003 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -246,6 +261,7 @@ public class popframes003 extends JDIBase {
 
         log2("      received: ClassPrepareEvent for debuggeeClass");
 
+
         if ( !vm.canPopFrames() ) {
             log2("......vm.canPopFrames() == false : test is cancelled");
             vm.resume();
@@ -273,6 +289,7 @@ public class popframes003 extends JDIBase {
 
         int flag = 0;
 
+
         vm.resume();
         breakpointForCommunication();
 
@@ -282,6 +299,7 @@ public class popframes003 extends JDIBase {
                                               "zero");
         log2("meRequest.enable();");
         meRequest.enable();
+
 
         String thread2Name         = "thread2";
         ThreadReference thread2Ref = debuggee.threadByNameOrThrow(thread2Name);
@@ -457,5 +475,6 @@ public class popframes003 extends JDIBase {
         log2("      a methodEntryRequest has been set up");
         return methodEntryRequest;
     }
+
 
 }

@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and represents a constant
@@ -42,6 +60,7 @@ public final class ConstantValue extends Attribute {
 
     private int constantValueIndex;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -49,6 +68,7 @@ public final class ConstantValue extends Attribute {
     public ConstantValue(final ConstantValue c) {
         this(c.getNameIndex(), c.getLength(), c.getConstantValueIndex(), c.getConstantPool());
     }
+
 
     /**
      * Construct object from input stream.
@@ -63,6 +83,7 @@ public final class ConstantValue extends Attribute {
         this(name_index, length, input.readUnsignedShort(), constant_pool);
     }
 
+
     /**
      * @param name_index Name index in constant pool
      * @param length Content length in bytes
@@ -74,6 +95,7 @@ public final class ConstantValue extends Attribute {
         super(Const.ATTR_CONSTANT_VALUE, name_index, length, constant_pool);
         this.constantValueIndex = constantValueIndex;
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -87,6 +109,7 @@ public final class ConstantValue extends Attribute {
         v.visitConstantValue(this);
     }
 
+
     /**
      * Dump constant value attribute to file stream on binary format.
      *
@@ -99,6 +122,7 @@ public final class ConstantValue extends Attribute {
         file.writeShort(constantValueIndex);
     }
 
+
     /**
      * @return Index in constant pool of constant value.
      */
@@ -106,12 +130,14 @@ public final class ConstantValue extends Attribute {
         return constantValueIndex;
     }
 
+
     /**
      * @param constantValueIndex the index info the constant pool of this constant value
      */
     public void setConstantValueIndex( final int constantValueIndex ) {
         this.constantValueIndex = constantValueIndex;
     }
+
 
     /**
      * @return String representation of constant value.
@@ -145,6 +171,7 @@ public final class ConstantValue extends Attribute {
         }
         return buf;
     }
+
 
     /**
      * @return deep copy of this attribute

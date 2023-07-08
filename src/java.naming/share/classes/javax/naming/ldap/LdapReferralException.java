@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
+
 import java.naming.share.classes.javax.naming.ReferralException;
 import java.naming.share.classes.javax.naming.Context;
 import java.naming.share.classes.javax.naming.NamingException;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is used to represent an LDAP referral exception.

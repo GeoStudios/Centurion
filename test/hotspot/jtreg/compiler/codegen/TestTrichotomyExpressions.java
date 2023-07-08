@@ -21,6 +21,7 @@
 
 package compiler.codegen;
 
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -29,6 +30,19 @@ import java.lang.reflect.Method;
 import java.util.Random;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -40,6 +54,9 @@ import jdk.test.lib.Utils;
  *                   -XX:CompileCommand=dontinline,compiler.codegen.TestTrichotomyExpressions::test*
  *                   compiler.codegen.TestTrichotomyExpressions
  */
+
+
+
 
 enum Operation { SMALLER, SMALLER_EQUAL, EQUAL, GREATER_EQUAL, GREATER, ALWAYS_FALSE }
 
@@ -242,6 +259,7 @@ public class TestTrichotomyExpressions {
     public static int compare48(int a, int b) {
         return (a != b) ? ((b <= a) ? 1 : -1) : 0;
     }
+
 
     public static int compareAlwaysFalse1(int a, int b) {
         return (a >= b) ? 1 : (a > b) ? 2 : -1;
@@ -979,6 +997,7 @@ public class TestTrichotomyExpressions {
         return compare48(a, b) <= -1;
     }
 
+
     @Test(op = Operation.SMALLER_EQUAL)
     public static boolean testSmallerEqual1(int a, int b) {
         return compare1(a, b) <= 0;
@@ -1218,6 +1237,7 @@ public class TestTrichotomyExpressions {
     public static boolean testSmallerEqual48(int a, int b) {
         return compare48(a, b) <= 0;
     }
+
 
     @Test(op = Operation.EQUAL)
     public static boolean testEqual1(int a, int b) {
@@ -1459,6 +1479,7 @@ public class TestTrichotomyExpressions {
         return compare48(a, b) == 0;
     }
 
+
     @Test(op = Operation.GREATER_EQUAL)
     public static boolean testGreaterEqual1(int a, int b) {
         return compare1(a, b) >= 0;
@@ -1698,6 +1719,7 @@ public class TestTrichotomyExpressions {
     public static boolean testGreaterEqual48(int a, int b) {
         return compare48(a, b) >= 0;
     }
+
 
     @Test(op = Operation.GREATER)
     public static boolean testGreater1(int a, int b) {
@@ -2418,6 +2440,7 @@ public class TestTrichotomyExpressions {
     public static boolean testGreater144(int a, int b) {
         return compare48(a, b) >= 1;
     }
+
 
     @Test(op = Operation.ALWAYS_FALSE)
     public static boolean testAlwaysFalse1(int a, int b) {

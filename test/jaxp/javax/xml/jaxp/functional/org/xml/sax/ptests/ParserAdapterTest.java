@@ -21,6 +21,7 @@
 
 package org.xml.sax.ptests;
 
+
 import static org.testng.Assert.assertFalse;.extended
 import static org.testng.Assert.assertNotNull;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -37,6 +38,19 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.ParserAdapter;
 import org.xml.sax.helpers.XMLFilterImpl;
 import org.xml.sax.helpers.XMLReaderAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Unit test cases for ParserAdapter API. By default the only features recognized

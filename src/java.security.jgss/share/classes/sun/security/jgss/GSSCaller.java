@@ -21,6 +21,22 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Denotes what client is calling the JGSS-API. The object can be sent deep
  * into the mechanism level so that special actions can be performed for

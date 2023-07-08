@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.io.Serial;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.print.attribute.EnumSyntax;
 import javax.print.attribute.standard.Media;
 import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaSizeName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CustomMediaSizeName extends MediaSizeName {
     private static final ArrayList<String> customStringTable = new ArrayList<>();
@@ -94,6 +109,7 @@ class CustomMediaSizeName extends MediaSizeName {
         return choiceName;
     }
 
+
     /**
      * Returns matching standard MediaSizeName.
      */
@@ -101,12 +117,14 @@ class CustomMediaSizeName extends MediaSizeName {
         return mediaName;
     }
 
+
     // moved from RasterPrinterJob
     /**
      * Returns closest matching MediaSizeName among given array of Media
      */
     public static MediaSizeName findMedia(Media[] media, float x, float y,
                                           int units) {
+
 
         if (x <= 0.0f || y <= 0.0f || units < 1) {
             throw new IllegalArgumentException("args must be +ve values");
@@ -165,6 +183,7 @@ class CustomMediaSizeName extends MediaSizeName {
     public  Media[] getSuperEnumTable() {
         return (Media[])super.getEnumValueTable();
     }
+
 
     /**
      * Returns the string table for class CustomMediaSizeName.

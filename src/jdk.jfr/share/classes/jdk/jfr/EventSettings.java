@@ -21,9 +21,24 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
+
 import java.time.Duration;
 import java.util.Map;
 import jdk.jfr.share.classes.jdk.jfr.internal.management.EventSettingsModifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Convenience class for applying event settings to a recording.

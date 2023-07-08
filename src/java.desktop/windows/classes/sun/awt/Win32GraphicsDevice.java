@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt;
 
+
 import java.awt.AWTPermission;
 import java.awt.DisplayMode;
 import java.awt.EventQueue;
@@ -43,6 +44,20 @@ import java.desktop.windows.classes.sun.java2d.opengl.WGLGraphicsConfig;
 import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
 import static java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment.debugScaleX;.extended
 import static java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment.debugScaleY;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsDevice object for a single
@@ -188,6 +203,7 @@ public class Win32GraphicsDevice extends GraphicsDevice implements
     public String getIDstring() {
         return idString;
     }
+
 
     /**
      * Returns all of the graphics

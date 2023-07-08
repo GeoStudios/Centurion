@@ -21,6 +21,21 @@
 
 package compiler.macronodes;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8236140
@@ -29,6 +44,7 @@ package compiler.macronodes;
  * @run main/othervm -Xbatch -XX:+UseSerialGC -XX:CompileCommand=compileonly,compiler.macronodes.TestCompleteVolatileStore::test
  *                   compiler.macronodes.TestCompleteVolatileStore
  */
+
 
 public class TestCompleteVolatileStore {
     int i1 = 4;

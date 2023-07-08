@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A simple look-ahead volume limiter with very fast attack and fast release.
  * This filter is used for preventing clipping.

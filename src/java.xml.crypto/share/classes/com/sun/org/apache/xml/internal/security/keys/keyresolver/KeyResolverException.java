@@ -21,12 +21,29 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver;
 
+
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 public class KeyResolverException extends XMLSecurityException {
 

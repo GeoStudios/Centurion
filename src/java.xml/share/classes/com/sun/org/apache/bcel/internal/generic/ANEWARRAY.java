@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * ANEWARRAY -  Create new array of references
@@ -43,15 +60,18 @@ public class ANEWARRAY extends CPInstruction implements LoadClass, AllocationIns
     ANEWARRAY() {
     }
 
+
     public ANEWARRAY(final int index) {
         super(com.sun.org.apache.bcel.internal.Const.ANEWARRAY, index);
     }
+
 
     @Override
     public Class<?>[] getExceptions() {
         return ExceptionConst.createExceptions(ExceptionConst.EXCS.EXCS_CLASS_AND_INTERFACE_RESOLUTION,
             ExceptionConst.NEGATIVE_ARRAY_SIZE_EXCEPTION);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:
@@ -71,6 +91,7 @@ public class ANEWARRAY extends CPInstruction implements LoadClass, AllocationIns
         v.visitCPInstruction(this);
         v.visitANEWARRAY(this);
     }
+
 
     @Override
     public ObjectType getLoadClassType( final ConstantPoolGen cpg ) {

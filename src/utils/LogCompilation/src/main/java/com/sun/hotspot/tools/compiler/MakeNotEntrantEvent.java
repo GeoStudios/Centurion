@@ -21,7 +21,22 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
+
 import utils.LogCompilation.src.main.java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * In a compilation log, represent the event of making a given compiled method

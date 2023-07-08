@@ -21,8 +21,23 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides an implementation of the {@link javax.management.NotificationFilter} interface.
@@ -60,6 +75,7 @@ public class NotificationFilterSupport implements NotificationFilter {
      */
     @SuppressWarnings("serial") // Not statically typed as Serializable
     private final List<String> enabledTypes = new Vector<String>();
+
 
     /**
      * Constructs a {@code NotificationFilterSupport}.
@@ -148,6 +164,7 @@ public class NotificationFilterSupport implements NotificationFilter {
     public synchronized void disableAllTypes() {
         enabledTypes.clear();
     }
+
 
     /**
      * Gets all the enabled notification types for this filter.

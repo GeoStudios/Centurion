@@ -21,11 +21,26 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.report;
 
+
 import java.io.*;
 import java.text.DecimalFormat;
 import java.util.*;
 import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultHolder;
 import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultSetHolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,6 +49,10 @@ import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultSetHolde
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This simple utility generates a wiki- or html-formatted table, which

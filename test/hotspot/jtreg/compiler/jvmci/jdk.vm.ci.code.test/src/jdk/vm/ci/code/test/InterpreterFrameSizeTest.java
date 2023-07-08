@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.code.test;
 
+
 import jdk.vm.ci.code.BytecodeFrame;
 import jdk.vm.ci.hotspot.HotSpotCodeCacheProvider;
 import jdk.vm.ci.meta.JavaKind;
@@ -28,6 +29,19 @@ import jdk.vm.ci.meta.JavaValue;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import org.junit.Assert;
 import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -44,6 +58,8 @@ import org.junit.Test;
  * @compile CodeInstallationTest.java TestAssembler.java TestHotSpotVMConfig.java amd64/AMD64TestAssembler.java aarch64/AArch64TestAssembler.java
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.InterpreterFrameSizeTest
  */
+
+
 
 public class InterpreterFrameSizeTest extends CodeInstallationTest {
 

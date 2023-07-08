@@ -21,6 +21,7 @@
 
 package nsk.jdi.VirtualMachine.allClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -179,6 +193,7 @@ public class allclasses001 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -271,6 +286,7 @@ public class allclasses001 extends JDIBase {
                               "Class3ForCheck",
                               "InterfaceForCheck" };
 
+
             switch (i) {
 
                 case 0:
@@ -293,6 +309,8 @@ public class allclasses001 extends JDIBase {
                         }
                         break;
 
+
+
                 case 1:
                         log2("...... check case: Objects# ==1, Classes# ==1, Interfaces# ==0,");
                         if (refTypeYes(name[0]) == 0) {
@@ -312,6 +330,7 @@ public class allclasses001 extends JDIBase {
                             expresult = returnCode1;
                         }
                         break;
+
 
                 case 2:
                         log2("...... check case: Objects# ==2, Classes# ==2, Interfaces# ==1,");
@@ -333,6 +352,7 @@ public class allclasses001 extends JDIBase {
                         }
                         break;
 
+
                 case 3:
                         log2("...... check case: Objects# ==3, Classes# ==2, Interfaces# ==1,");
                         if (refTypeYes(name[0]) == 0) {
@@ -353,6 +373,7 @@ public class allclasses001 extends JDIBase {
                         }
                         break;
 
+
                 case 4:
                         log2("...... check case: Objects# ==4, Classes# ==3, Interfaces# ==1,");
                         if (refTypeYes(name[0]) == 0) {
@@ -372,6 +393,7 @@ public class allclasses001 extends JDIBase {
                             expresult = returnCode1;
                         }
                         break;
+
 
                 default:
                         break ;

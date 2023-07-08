@@ -21,11 +21,25 @@
 
 package compiler.jsr292;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -37,6 +51,9 @@ import java.lang.invoke.MethodType;
  *
  * @run driver compiler.jsr292.PollutedTrapCounts
  */
+
+
+
 
 public class PollutedTrapCounts {
     public static void main(String[] args) throws Exception {

@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management.monitor;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Exception thrown by the monitor when a monitor setting becomes invalid while the monitor is running.
  * <P>

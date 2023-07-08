@@ -21,6 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Base class for events, to be subclassed in order to define events and their
  * fields.

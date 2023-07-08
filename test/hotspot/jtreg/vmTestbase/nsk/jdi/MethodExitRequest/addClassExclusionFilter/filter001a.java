@@ -21,9 +21,23 @@
 
 package nsk.jdi.MethodExitRequest.addClassExclusionFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter001 JDI test.
@@ -79,6 +93,7 @@ public class filter001a {
         log = argHandler.createDebugeeLog();
 
         log1("debuggee started!");
+
 
             for (int i = 0; ; i++) {
 
@@ -156,6 +171,7 @@ class Thread1filter001a extends Thread {
         throw new NullPointerException("m11");
         }
     }
+
 
     String tName = null;
 

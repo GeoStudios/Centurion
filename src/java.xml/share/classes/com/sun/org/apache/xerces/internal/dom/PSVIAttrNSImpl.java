@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.AttributePSVImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
@@ -30,6 +31,20 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Attribute namespace implementation; stores PSVI attribute items.
@@ -136,6 +151,7 @@ public class PSVIAttrNSImpl extends AttrNSImpl implements AttributePSVI {
     public boolean getIsSchemaSpecified() {
         return fSpecified;
     }
+
 
     /**
      * Determines the extent to which the document has been validated

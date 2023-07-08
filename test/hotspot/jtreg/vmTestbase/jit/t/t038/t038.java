@@ -21,8 +21,22 @@
 
 package jit.t.t038;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t038.t038
  */
+
+
 
 // opc_laload, opc_lastore, opc_lconst_0
 

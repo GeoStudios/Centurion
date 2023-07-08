@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
@@ -29,6 +30,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObjectFactory;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FileMapInfo {
   private static FileMapHeader headerObj;
@@ -137,6 +152,7 @@ public class FileMapInfo {
     }
     return vTableTypeMap.get(vptrAddress);
   }
+
 
   //------------------------------------------------------------------------------------------
 

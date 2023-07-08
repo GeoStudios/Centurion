@@ -21,10 +21,25 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.function.Function;
 import java.util.function.Predicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Utilities for Iterators.
  *

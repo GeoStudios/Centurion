@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.io.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -31,6 +32,20 @@ import java.desktop.share.classes.javax.swing.Action;
 import java.desktop.share.classes.javax.swing.JEditorPane;
 import java.desktop.share.classes.javax.swing.KeyStroke;
 import java.desktop.share.classes.javax.swing.UIManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the set of things needed by a text component
@@ -187,6 +202,7 @@ public class StyledEditorKit extends DefaultEditorKit {
     private void createInputAttributeUpdated() {
         inputAttributeUpdater = new AttributeTracker();
     }
+
 
     private static final ViewFactory defaultFactory = new StyledViewFactory();
 
@@ -844,6 +860,7 @@ public class StyledEditorKit extends DefaultEditorKit {
             }
         }
     }
+
 
     /**
      * StyledInsertBreakAction has similar behavior to that of

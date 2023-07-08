@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Placeholder for now; simply need a couple of constants (FIXME:
     should read these from the target VM) */
 

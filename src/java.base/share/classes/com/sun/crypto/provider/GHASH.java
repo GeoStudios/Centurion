@@ -21,12 +21,27 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
+
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.base.share.classes.java.security.ProviderException;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the GHASH function defined in NIST 800-38D
@@ -301,6 +316,7 @@ final class GHASH implements Cloneable, GCM {
         state[1] = 0;
         return result;
     }
+
 
     /**
      * None of the out or dst values are necessary, they are to satisfy the

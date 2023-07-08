@@ -21,12 +21,26 @@
 
 package nsk.aod.AttachProvider.AttachProvider02;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.spi.AttachProvider;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -53,6 +67,9 @@ import java.util.Properties;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.share.aod.DummyTargetApplication
  */
+
+
+
 
 /*
  * Test checks following methods:

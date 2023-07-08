@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -88,6 +89,20 @@ import java.desktop.share.classes.javax.swing.text.html.HTML;
 import java.desktop.share.classes.javax.swing.text.html.HTMLDocument;
 import java.desktop.share.classes.javax.swing.text.html.HTMLEditorKit;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A text component to edit various kinds of content.
@@ -392,6 +407,7 @@ public class JEditorPane extends JTextComponent {
         }
     }
 
+
     /**
      * Sets the current URL being displayed.  The content type of the
      * pane is set, and if the editor kit for the pane is
@@ -460,6 +476,7 @@ public class JEditorPane extends JTextComponent {
             throw new IOException("invalid url");
         }
         URL loaded = getPage();
+
 
         // reset scrollbar
         if (!page.equals(loaded) && page.getRef() == null) {
@@ -583,6 +600,7 @@ public class JEditorPane extends JTextComponent {
         }
     }
 
+
     /**
      * This method invokes the <code>EditorKit</code> to initiate a
      * read.  In the case where a <code>ChangedCharSetException</code>
@@ -634,6 +652,7 @@ public class JEditorPane extends JTextComponent {
             read(in, doc);
         }
     }
+
 
     /**
      * Loads a stream into the text document model.
@@ -848,6 +867,7 @@ public class JEditorPane extends JTextComponent {
         }
     }
 
+
     /**
      * Scrolls the view to the given reference location
      * (that is, the value returned by the <code>URL.getRef</code>
@@ -1058,6 +1078,7 @@ public class JEditorPane extends JTextComponent {
             e.printStackTrace();
         }
     }
+
 
     /**
      * Sets the currently installed kit for handling
@@ -1590,6 +1611,7 @@ public class JEditorPane extends JTextComponent {
      */
     private static final String uiClassID = "EditorPaneUI";
 
+
     /**
      * Key for a client property used to indicate whether
      * <a href="https://www.w3.org/TR/CSS22/syndata.html#length-units">
@@ -1638,9 +1660,11 @@ public class JEditorPane extends JTextComponent {
         ",typeHandlers=" + typeHandlersString;
     }
 
+
 /////////////////
 // Accessibility support
 ////////////////
+
 
     /**
      * Gets the AccessibleContext associated with this JEditorPane.
@@ -1961,6 +1985,7 @@ public class JEditorPane extends JTextComponent {
             public Object getAccessibleActionAnchor(int i) {
                 return getAccessibleActionDescription(i);
             }
+
 
             /**
              * Get the index with the hypertext document at which this
@@ -2339,6 +2364,7 @@ public class JEditorPane extends JTextComponent {
  *
  * author Dave Brown
  */
+
 
 static class HeaderParser {
 

@@ -21,6 +21,7 @@
 
 package nsk.jdi.StackFrame.setValue.setvalue004;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -114,6 +128,10 @@ import com.sun.jdi.request.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -230,6 +248,7 @@ public class setvalue004 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -268,6 +287,7 @@ public class setvalue004 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -279,6 +299,7 @@ public class setvalue004 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
+
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -363,6 +384,7 @@ public class setvalue004 {
                     break label1;
                 }
 
+
                 String names[] = { "bl1", "bt1", "ch1", "db1",
                                    "fl1", "in1", "ln1", "sh1" };
 
@@ -397,6 +419,7 @@ public class setvalue004 {
                         expresult = returnCode1;
                     }
                 }
+
 
                 String name = "testObj";
 
@@ -523,6 +546,7 @@ public class setvalue004 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

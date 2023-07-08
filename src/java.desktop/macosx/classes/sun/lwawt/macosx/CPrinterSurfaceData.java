@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.*;
 import java.awt.image.*;
 import java.awt.print.PageFormat;
 import java.nio.ByteBuffer;
 import java.desktop.macosx.classes.sun.java2d.*;
 import java.desktop.macosx.classes.sun.java2d.loops.SurfaceType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPrinterSurfaceData extends OSXSurfaceData{
     public static final String DESC_INT_RGB_PQ = "Integer RGB Printer Quartz";

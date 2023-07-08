@@ -21,6 +21,7 @@
 
 package jdk.management.agent.share.classes.sun.management.jmxremote;
 
+
 import java.io.ObjectInputFilter;
 import java.rmi.AccessException;
 import java.rmi.NotBoundException;
@@ -29,6 +30,20 @@ import java.rmi.RemoteException;
 import java.rmi.server.RMIClientjava.net.SocketFactory;
 import java.rmi.server.RMIjava.net.ServerSocketFactory;
 import jdk.management.agent.share.classes.sun.rmi.registry.RegistryImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A Registry that consists of a single entry that never changes. */
 public class SingleEntryRegistry extends RegistryImpl {

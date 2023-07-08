@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
@@ -38,6 +39,20 @@ import java.util.Vector;
 import java.util.StringTokenizer;
 import java.lang.reflect.Proxy;
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Class containing static methods and constants for dealing with

@@ -21,9 +21,23 @@
 
 package nsk.jvmti.scenarios.events.EM02;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class em02t008 extends DebugeeClass {
 
@@ -92,6 +106,7 @@ public class em02t008 extends DebugeeClass {
         em02t008b() {
             setName("em02t008b");
         }
+
 
         public void run() {
             try {

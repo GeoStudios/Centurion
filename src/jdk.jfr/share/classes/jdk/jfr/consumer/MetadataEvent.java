@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
@@ -28,6 +29,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import jdk.jfr.share.classes.jdk.jfr.Configuration;
 import jdk.jfr.share.classes.jdk.jfr.EventType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Event that contains information about event types and configurations.

@@ -21,9 +21,24 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BindingInterpreter {
 

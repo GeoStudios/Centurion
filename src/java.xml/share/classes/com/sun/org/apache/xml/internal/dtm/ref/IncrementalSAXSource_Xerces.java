@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.SAXParser;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
@@ -31,6 +32,20 @@ import java.lang.reflect.Method;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <p>IncrementalSAXSource_Xerces takes advantage of the fact that Xerces1
  * incremental mode is already a coroutine of sorts, and just wraps our
@@ -286,6 +301,7 @@ public class IncrementalSAXSource_Xerces
       throw new SAXException(XMLMessages.createXMLMessage(XMLErrorResources.ER_COULD_NOT_INIT_PARSER, null)); //"could not initialize parser with");
   }
 
+
   /** deliverMoreNodes() is a simple API which tells the coroutine
    * parser that we need more nodes.  This is intended to be called
    * from one of our partner routines, and serves to encapsulate the
@@ -379,6 +395,7 @@ public class IncrementalSAXSource_Xerces
                 }
         }
 
+
   //================================================================
   /** Simple unit test. Attempt coroutine parsing of document indicated
    * by first argument (as a URI), report progress.
@@ -451,5 +468,6 @@ public class IncrementalSAXSource_Xerces
     }
 
   }
+
 
 } // class IncrementalSAXSource_Xerces

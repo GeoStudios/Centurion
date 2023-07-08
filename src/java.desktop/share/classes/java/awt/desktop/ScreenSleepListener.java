@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Implementors receive notification when the displays attached to the system
  * have entered power save sleep.

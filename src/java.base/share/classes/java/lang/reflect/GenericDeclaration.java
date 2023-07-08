@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.lang.reflect;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A common interface for all entities that declare type variables.
  *

@@ -21,10 +21,25 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
+
 import utils.IdealGraphVisualizer.View.src.main.java.awt.*;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.event.*;
 import javax.swing.JComponent;
 import org.netbeans.api.visual.widget.Scene;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -86,6 +101,7 @@ public class ExtendedSatelliteComponent extends JComponent implements MouseListe
         int vh = (int) (scale * bounds.height);
         int vx = (size.width - vw) / 2;
         int vy = (size.height - vh) / 2;
+
 
         if (image == null || vw != imageWidth || vh != imageHeight) {
             imageWidth = vw;

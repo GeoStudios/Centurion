@@ -21,10 +21,25 @@
 
 package java.management.share.classes.sun.management;
 
+
 import java.lang.management.MemoryUsage;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract sensor.
@@ -137,6 +152,7 @@ public abstract class Sensor {
         }
         clearAction();
     }
+
 
     /**
      * Clears this sensor

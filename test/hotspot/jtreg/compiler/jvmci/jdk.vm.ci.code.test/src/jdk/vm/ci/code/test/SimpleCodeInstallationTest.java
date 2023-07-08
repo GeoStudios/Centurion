@@ -21,8 +21,22 @@
 
 package jdk.vm.ci.code.test;
 
+
 import jdk.vm.ci.code.Register;
 import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,8 @@ import org.junit.Test;
  * @compile CodeInstallationTest.java DebugInfoTest.java TestAssembler.java TestHotSpotVMConfig.java amd64/AMD64TestAssembler.java aarch64/AArch64TestAssembler.java
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.SimpleCodeInstallationTest
  */
+
+
 
 /**
  * Test simple code installation.

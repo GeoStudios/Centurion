@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.bcinstr.BI04;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class bi04t002a {
 
     public final static int TOTAL_INSTRUMENTED_METHODS = 4;

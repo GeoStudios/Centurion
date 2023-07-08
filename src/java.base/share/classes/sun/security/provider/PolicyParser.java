@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.provider;
 
+
 import java.io.*;
 import java.security.GeneralSecurityException;
 import java.security.Principal;
@@ -29,6 +30,20 @@ import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.sun.security.util.PropertyExpander;
 import java.base.share.classes.sun.security.util.LocalizedMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The policy for a Java runtime (specifying
@@ -108,6 +123,7 @@ public class PolicyParser {
     public PolicyParser() {
         grantEntries = new Vector<GrantEntry>();
     }
+
 
     public PolicyParser(boolean expandProp) {
         this();
@@ -906,6 +922,7 @@ public class PolicyParser {
         public Enumeration<PermissionEntry> permissionElements(){
             return permissionEntries.elements();
         }
+
 
         public void write(PrintWriter out) {
             out.print("grant");

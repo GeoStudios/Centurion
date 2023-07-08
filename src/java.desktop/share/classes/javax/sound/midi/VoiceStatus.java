@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code VoiceStatus} object contains information about the current status of
  * one of the voices produced by a {@link Synthesizer}.

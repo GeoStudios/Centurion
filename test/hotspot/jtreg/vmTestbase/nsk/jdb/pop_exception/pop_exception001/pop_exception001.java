@@ -21,10 +21,24 @@
 
 package nsk.jdb.pop_exception.pop_exception001;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,6 +65,9 @@ import java.util.*;
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
+
+
+
 public class pop_exception001 extends JdbTest {
 
     static final String PACKAGE_NAME    = "nsk.jdb.pop_exception.pop_exception001";
@@ -69,6 +86,8 @@ public class pop_exception001 extends JdbTest {
         lastBreak = LAST_BREAK;
         return new pop_exception001().runTest(argv, out);
     }
+
+
 
     protected void runCases() {
 

@@ -21,7 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JFR logger
@@ -36,6 +51,7 @@ public final class Logger {
         // This will try to initialize the JVM logging system
         JVMSupport.tryToInitializeJVM();
     }
+
 
     public static void log(LogTag logTag, LogLevel logLevel, String message) {
         if (shouldLog(logTag, logLevel)) {

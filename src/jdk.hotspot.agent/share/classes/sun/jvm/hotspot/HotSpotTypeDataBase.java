@@ -21,12 +21,27 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This is the cross-platform TypeDataBase used by the Oop
     hierarchy. The decision was made to make this cross-platform by
@@ -487,6 +502,7 @@ public class HotSpotTypeDataBase extends BasicTypeDataBase {
     if (intConstantEntryArrayStride == 0L) {
       throw new RuntimeException("zero stride: cannot read types.");
     }
+
 
     // Fetch the address of the VMIntConstantEntry*
     Address entryAddr = lookupInProcess("gHotSpotVMIntConstants");

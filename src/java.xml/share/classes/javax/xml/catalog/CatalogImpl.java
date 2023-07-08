@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
@@ -44,6 +45,20 @@ import java.xml.share.classes.javax.xml.parsers.ParserConfigurationException;
 import java.xml.share.classes.javax.xml.parsers.SAXParser;
 import java.xml.share.classes.javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of the Catalog.

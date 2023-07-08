@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6758234
@@ -30,6 +45,7 @@ package compiler.c1;
  *      -XX:CompileCommand=compileonly,compiler.c1.Test6758234::main
  *      compiler.c1.Test6758234
  */
+
 
 public class Test6758234 {
     static int x = 0;

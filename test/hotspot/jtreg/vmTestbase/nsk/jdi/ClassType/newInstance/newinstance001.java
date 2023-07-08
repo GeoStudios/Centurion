@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassType.newInstance;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -162,6 +176,7 @@ public class newinstance001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -201,6 +216,7 @@ public class newinstance001 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -228,6 +244,7 @@ public class newinstance001 {
                     expresult = returnCode1;
                     break label0;
                 }
+
 
                 log2("......getting Thread thread2 - 1-st argument");
                 listIterator = allThreads.listIterator();
@@ -276,6 +293,7 @@ public class newinstance001 {
                     break label1;
                 log2("      thread2 is at breakpoint");
 
+
                 log2("......getting ClassType classType - an object to apply newInstance()");
                 classes     = vm.classesByName(testedClassName);
                 testedClass = (ReferenceType) classes.get(0);
@@ -304,6 +322,7 @@ public class newinstance001 {
                     break label1;
                 }
 
+
                 // this is only to get an empty List with JDI methods but not with API List methods
                 log2("......forming an empty List argumentList for 3-d argument");
                 log2("       List argumentList = testedClass.methodsByName('m');");
@@ -321,6 +340,7 @@ public class newinstance001 {
                                      invokeMethod, argumentList, 0);
                     if (objRef == null)
                         log2("       objRe == null");
+
 
                     log2("        ReferenceType refType = objRef.referenceType();");
                     ReferenceType refType = objRef.referenceType();
@@ -370,6 +390,7 @@ public class newinstance001 {
         }
         return testExitCode;
     }
+
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
@@ -428,6 +449,7 @@ public class newinstance001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

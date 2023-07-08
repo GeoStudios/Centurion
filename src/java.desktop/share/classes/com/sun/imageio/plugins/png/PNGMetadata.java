@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.png;
 
+
 import java.awt.image.ColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.SampleModel;
@@ -40,6 +41,20 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.metadata.IIOMetadataNode;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PNGMetadata extends IIOMetadata implements Cloneable {
 
@@ -1161,6 +1176,7 @@ public class PNGMetadata extends IIOMetadata implements Cloneable {
         }
         return attr.getNodeValue();
     }
+
 
     // Get an integer-valued attribute
     private int getIntAttribute(Node node, String name,

@@ -21,10 +21,24 @@
 
 package nsk.jdwp.ObjectReference.ReferringObjects.referringObjects001;
 
+
 import java.util.*;
 import nsk.share.ReferringObjectSet;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class referringObjects001a extends AbstractJDWPDebuggee {
     public static Object testInstance;

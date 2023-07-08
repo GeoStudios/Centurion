@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import javax.xml.datatype.DatatypeConstants;
@@ -28,10 +29,28 @@ import javax.xml.datatype.Duration;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * Validator for &lt;duration&gt; datatype (W3C Schema Datatypes)
@@ -303,6 +322,7 @@ public class DurationDV extends AbstractDateTimeDV {
         temp = addto.hour + date.hour + carry;
         carry = fQuotient(temp, 24);
         duration.hour = mod(temp, 24, carry);
+
 
         duration.day=addto.day + date.day + carry;
 

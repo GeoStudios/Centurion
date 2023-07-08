@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code ShortMessage} contains a MIDI message that has at most two data
  * bytes following its status byte. The types of MIDI message that satisfy this
@@ -311,6 +327,7 @@ public class ShortMessage extends MidiMessage {
                 }
             }
         }
+
 
         // set the length
         length = dataLength + 1;

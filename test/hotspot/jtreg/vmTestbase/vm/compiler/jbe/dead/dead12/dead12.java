@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.dead.dead12;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.dead.dead12;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead12.dead12
  */
+
 
 // dead12.java
 

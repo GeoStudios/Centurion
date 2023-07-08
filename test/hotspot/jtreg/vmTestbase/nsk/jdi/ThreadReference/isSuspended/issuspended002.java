@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.isSuspended;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -151,6 +165,7 @@ public class issuspended002 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -190,6 +205,7 @@ public class issuspended002 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -202,6 +218,7 @@ public class issuspended002 {
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
+
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -212,6 +229,7 @@ public class issuspended002 {
 
             int suspCount = 0;
             int frameCount;
+
 
             label0: {
 
@@ -284,6 +302,7 @@ public class issuspended002 {
                     expresult = returnCode1;
                 }
 
+
                 log2("     suspending thread2 with thread2.suspend();");
                 thread2.suspend();
 
@@ -312,6 +331,7 @@ public class issuspended002 {
 
                 if (expresult != returnCode0)
                     break label1;
+
 
                 log2("      suspending VM with vm.suspend();");
                 vm.suspend();
@@ -342,6 +362,7 @@ public class issuspended002 {
                     log3("ERROR:  !mainThread.isSuspended()");
                     expresult = returnCode1;
                 }
+
 
                 log2("      double resuming thread2 with thread2.resume();");
 
@@ -452,6 +473,8 @@ public class issuspended002 {
         return testExitCode;
     }
 
+
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -507,6 +530,7 @@ public class issuspended002 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

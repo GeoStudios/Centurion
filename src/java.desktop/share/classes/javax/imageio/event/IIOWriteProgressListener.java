@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio.event;
 
+
 import java.util.Eventjava.util.Listener;
 import java.desktop.share.classes.javax.imageio.ImageWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface used by {@code ImageWriter} implementations to notify

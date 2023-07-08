@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -29,9 +30,26 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: SymbolTable.java,v 1.5 2005/09/28 13:48:16 pvedula Exp $
  */
+
+
+
 
 /**
  * @LastModified: June 2021

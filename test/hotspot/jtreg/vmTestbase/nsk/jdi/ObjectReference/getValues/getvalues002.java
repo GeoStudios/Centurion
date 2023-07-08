@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.getValues;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -132,6 +146,7 @@ public class getvalues002 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -183,6 +198,7 @@ public class getvalues002 {
             log2("      getting ReferenceType and ClassType objects for debuggeeClass");
             ReferenceType debuggeeClass = (ReferenceType) classes.get(0);
 
+
             Field    field1  = null;
             Value    val1    = null;
             List<Field>     fields  = null;
@@ -192,6 +208,7 @@ public class getvalues002 {
             ObjectReference objRef    = null;
 
             ReferenceType testedClass = null;
+
 
             log2("......getting the mirror of tested getvalues002aTestClass obj : ObjectReference objRef");
 
@@ -205,12 +222,15 @@ public class getvalues002 {
             testedClass  = (ReferenceType) classes.get(0);
             fields       = testedClass.visibleFields();
 
+
             String [] names = { "class2_0",  "iface_0",
                                 "cfc_0",      "bl0"       };
 
             Field [] fArray = {
                 testedClass.fieldByName(names[ 0]), testedClass.fieldByName(names[ 1]),
                 testedClass.fieldByName(names[ 2]), testedClass.fieldByName(names[ 3]) };
+
+
 
             log2("......getting the Map of tested fields : Map vMap = objRef.getValues(fields);");
 

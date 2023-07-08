@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassPrepareRequest.addClassExclusionFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter003 JDI test.
@@ -149,6 +163,7 @@ class Thread1filter003a extends Thread {
     class TestClass11 extends TestClass10{
         int var11 = 0;
     }
+
 
     String tName = null;
 

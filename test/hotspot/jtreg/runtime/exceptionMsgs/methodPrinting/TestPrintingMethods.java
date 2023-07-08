@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Check that methods are printed properly.
@@ -28,6 +43,7 @@ package test;
  * @compile TeMe3_C.jasm
  * @run main/othervm -Xbootclasspath/a:. test.TestPrintingMethods
  */
+
 
 public class TestPrintingMethods {
 
@@ -93,6 +109,7 @@ public class TestPrintingMethods {
 //
 // Errorneous versions of these classes are implemented in java
 // assembler.
+
 
 // -----------------------------------------------------------------------
 // Test AbstractMethod error shadowing existing implementation.

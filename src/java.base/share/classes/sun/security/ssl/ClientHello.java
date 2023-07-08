@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.SecureRandom;
@@ -38,6 +39,20 @@ import javax.net.ssl.SSLProtocolException;
 import static java.base.share.classes.sun.security.ssl.ClientAuthType.CLIENT_AUTH_REQUIRED;.extended
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.ssl.SupportedVersionsExtension.CHSupportedVersionsSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the ClientHello handshake message.
@@ -1303,6 +1318,7 @@ final class ClientHello {
                             "Client initiated renegotiation is not allowed");
                 }
             }
+
 
             // Does the client want to resume a session?
             if (clientHello.sessionId.length() != 0) {

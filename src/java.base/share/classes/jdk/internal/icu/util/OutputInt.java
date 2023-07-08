@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.icu.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Simple struct-like class for int output parameters.
  * Like <code>Output&lt;Integer&gt;</code> but without auto-boxing.

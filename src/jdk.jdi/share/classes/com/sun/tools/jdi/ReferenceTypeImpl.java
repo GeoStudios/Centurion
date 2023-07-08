@@ -21,6 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import java.lang.ref.SoftReference;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -46,6 +47,20 @@ import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
 import jdk.jdi.share.classes.com.sun.jdi.Type;
 import jdk.jdi.share.classes.com.sun.jdi.Value;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ReferenceTypeImpl extends TypeImpl implements ReferenceType {
     protected long ref;
@@ -624,6 +639,7 @@ public abstract class ReferenceTypeImpl extends TypeImpl implements ReferenceTyp
         Map<Field, Value> map = getValues(list);
         return map.get(sig);
     }
+
 
     void validateFieldAccess(Field field) {
         /*

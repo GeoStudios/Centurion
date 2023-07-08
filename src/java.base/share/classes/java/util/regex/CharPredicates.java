@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.util.regex;
 
+
 import java.base.share.classes.java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.regex.Pattern.CharPredicate;
 import java.base.share.classes.java.util.regex.Pattern.BmpCharPredicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CharPredicates {
 

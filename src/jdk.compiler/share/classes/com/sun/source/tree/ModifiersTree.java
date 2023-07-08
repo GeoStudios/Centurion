@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import javax.lang.model.element.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A tree node for the modifiers, including annotations, for a declaration.

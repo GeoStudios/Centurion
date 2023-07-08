@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.dispose;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the dispose005 JDI test.
@@ -74,6 +88,7 @@ public class dispose005a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -122,6 +137,7 @@ public class dispose005a {
                              }
                          }
                          log2("mainThread is out of: synchronized (lockingObject)");
+
 
                          label2:
                          synchronized (Threaddispose005a.lockingObject2) {
@@ -204,6 +220,7 @@ class Threaddispose005a extends Thread {
         }
         log("exited from block:  synchronized (lockingObject)");
 
+
         synchronized (waitnotifyObj3) {
             runt1();
 
@@ -227,6 +244,7 @@ class Threaddispose005a extends Thread {
 
     public static final int breakpointLineNumber1 = 3;
 
+
     public static Object waitnotifyObj2  = new Object();
     public static Object lockingObject2  = new Object();
 
@@ -247,6 +265,7 @@ class Threaddispose005a extends Thread {
         log("invoked method: 'runt2' exit");
         return;
     }
+
 
     static void log(String str) {
         dispose005a.log2("testedThread: " + str);

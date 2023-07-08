@@ -21,10 +21,24 @@
 
 package nsk.jvmti.scenarios.allocation.AP09;
 
+
 import java.io.*;
 import java.base.share.classes.java.security.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ap09t001 extends DebugeeClass implements Cloneable {
     public static void main(String[] argv) {

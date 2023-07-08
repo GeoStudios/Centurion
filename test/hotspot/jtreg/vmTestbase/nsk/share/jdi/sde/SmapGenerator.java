@@ -21,11 +21,25 @@
 
 package nsk.share.jdi.sde;
 
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a source map (SMAP), which serves to associate lines
@@ -45,6 +59,7 @@ public class SmapGenerator {
      *  - to serialize this logical SMAP for eventual inclusion directly
      *    into a .class file.
      */
+
 
     //*********************************************************************
     // Private state

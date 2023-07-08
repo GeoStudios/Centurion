@@ -21,10 +21,24 @@
 
 package compiler.compilercontrol.share.method;
 
+
 import jdk.test.lib.util.Triple;
 import java.lang.reflect.Executable;
 import java.util.function.Function;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Method descriptor for Compiler Control commands.

@@ -21,6 +21,56 @@
 
 package build.tools.cldrconverter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class StringEntry extends Entry<String> {
     private String value;
 

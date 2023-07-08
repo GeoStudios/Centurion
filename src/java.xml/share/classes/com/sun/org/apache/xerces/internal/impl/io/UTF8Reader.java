@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io;
 
+
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
@@ -30,10 +31,28 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMes
 import java.xml.share.classes.com.sun.xml.internal.stream.util.BufferAllocator;
 import java.xml.share.classes.com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * <p>A UTF-8 reader.</p>

@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Color;
 import java.awt.Font;
 import static java.awt.RenderingHints.*;.extended
@@ -30,6 +31,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
 import java.desktop.windows.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class encapsulating Windows desktop properties.;

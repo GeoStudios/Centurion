@@ -21,11 +21,26 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the interface and common implementation of a Unicode Trie2.
@@ -385,6 +400,7 @@ abstract class Trie2 implements Iterable<Trie2.Range> {
 
     static final int UTRIE2_OPTIONS_VALUE_BITS_MASK=0x000f;
 
+
     /** Shift size for getting the index-1 table offset. */
     static final int UTRIE2_SHIFT_1=6+5;
 
@@ -609,6 +625,7 @@ abstract class Trie2 implements Iterable<Trie2.Range> {
         }
         return c - 1;
     }
+
 
     //
     //  Hashing implementation functions.  FNV hash.  Respected public domain algorithm.

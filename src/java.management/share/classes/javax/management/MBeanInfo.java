@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StreamCorruptedException;
 import java.io.Serializable;
@@ -34,6 +35,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Objects;
 import static java.management.share.classes.javax.management.ImmutableDescriptor.nonNullDescriptor;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Describes the management interface exposed by an MBean; that is,
@@ -270,6 +285,7 @@ public class MBeanInfo implements Cloneable, Serializable, DescriptorRead {
              return null;
          }
      }
+
 
     /**
      * Returns the name of the Java class of the MBean described by

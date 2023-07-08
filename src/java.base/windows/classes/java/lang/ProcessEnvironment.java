@@ -21,8 +21,23 @@
 
 package java.base.windows.classes.java.lang;
 
+
 import java.base.windows.classes.java.io.*;
 import java.base.windows.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* We use APIs that access a so-called Windows "Environment Block",
  * which looks like an array of jchars like this:
@@ -59,6 +74,9 @@ import java.base.windows.classes.java.util.*;
  * think of using this class unless your method's name appears below.
  *
  */
+
+
+
 
 final class ProcessEnvironment extends HashMap<String,String>
 {
@@ -184,6 +202,7 @@ final class ProcessEnvironment extends HashMap<String,String>
     public Set<Map.Entry<String,String>> entrySet() {
         return new CheckedEntrySet(super.entrySet());
     }
+
 
     private static final class NameComparator
         implements Comparator<String> {

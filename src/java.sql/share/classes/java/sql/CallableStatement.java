@@ -21,10 +21,25 @@
 
 package java.sql.share.classes.java.sql;
 
+
 import java.sql.share.classes.java.math.BigDecimal;
 import java.sql.share.classes.java.util.Calendar;
 import java.sql.share.classes.java.io.Reader;
 import java.sql.share.classes.java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface used to execute SQL stored procedures.  The JDBC API
@@ -358,6 +373,7 @@ public interface CallableStatement extends PreparedStatement {
     //----------------------------------------------------------------------
     // Advanced features:
 
+
     /**
      * Retrieves the value of the designated parameter as an {@code Object}
      * in the Java programming language. If the value is an SQL {@code NULL},
@@ -379,6 +395,7 @@ public interface CallableStatement extends PreparedStatement {
      * @see #setObject
      */
     Object getObject(int parameterIndex) throws SQLException;
+
 
     //--------------------------JDBC 2.0-----------------------------
 
@@ -556,6 +573,7 @@ public interface CallableStatement extends PreparedStatement {
      */
     java.sql.Timestamp getTimestamp(int parameterIndex, Calendar cal)
         throws SQLException;
+
 
     /**
      * Registers the designated output parameter.
@@ -1138,6 +1156,7 @@ public interface CallableStatement extends PreparedStatement {
      * @see #getObject
      */
     void setObject(String parameterName, Object x) throws SQLException;
+
 
     /**
      * Sets the designated parameter to the given {@code Reader}
@@ -1876,6 +1895,7 @@ public interface CallableStatement extends PreparedStatement {
      */
     NClob getNClob (int parameterIndex) throws SQLException;
 
+
     /**
      * Retrieves the value of a JDBC {@code NCLOB} parameter as a
      * {@code java.sql.NClob} object in the Java programming language.
@@ -1959,6 +1979,7 @@ public interface CallableStatement extends PreparedStatement {
      * @see #setNString
      */
     String getNString(int parameterIndex) throws SQLException;
+
 
     /**
      *  Retrieves the value of the designated {@code NCHAR},
@@ -2325,6 +2346,7 @@ public interface CallableStatement extends PreparedStatement {
 
     //------------------------- JDBC 4.1 -----------------------------------
 
+
     /**
      * Returns an object representing the value of OUT parameter
      * {@code parameterIndex} and will convert from the
@@ -2351,6 +2373,7 @@ public interface CallableStatement extends PreparedStatement {
      * this method
      */
     <T> T getObject(int parameterIndex, Class<T> type) throws SQLException;
+
 
     /**
      * Returns an object representing the value of OUT parameter

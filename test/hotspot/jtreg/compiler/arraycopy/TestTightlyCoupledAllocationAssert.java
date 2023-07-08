@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8237945
@@ -28,6 +43,7 @@ package compiler.arraycopy;
  *
  * @run main/othervm -Xbatch compiler.arraycopy.TestTightlyCoupledAllocationAssert
  */
+
 
 public class TestTightlyCoupledAllocationAssert {
 

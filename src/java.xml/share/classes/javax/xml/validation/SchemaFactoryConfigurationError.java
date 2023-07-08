@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when a problem with configuration with the Schema Factories
  * exists. This error will typically be thrown when the class of a
@@ -37,6 +53,7 @@ public final class SchemaFactoryConfigurationError extends Error {
      */
     public SchemaFactoryConfigurationError() {
     }
+
 
     /**
      * Create a new <code>SchemaFactoryConfigurationError</code> with

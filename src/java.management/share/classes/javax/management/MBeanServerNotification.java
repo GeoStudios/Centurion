@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a notification emitted by the MBean Server through the MBeanServerDelegate MBean.
  * The MBean Server emits the following types of notifications: MBean registration, MBean
@@ -90,6 +106,7 @@ package java.management.share.classes.javax.management;
  *
  */
 public class MBeanServerNotification extends Notification {
+
 
     /* Serial version */
     private static final long serialVersionUID = 2876477500475969677L;

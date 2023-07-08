@@ -21,6 +21,56 @@
 
 package build.tools.publicsuffixlist;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This tool takes the original Mozilla public suffix rule list as input
  * and slices it into a set of files, one for each top-level domain.

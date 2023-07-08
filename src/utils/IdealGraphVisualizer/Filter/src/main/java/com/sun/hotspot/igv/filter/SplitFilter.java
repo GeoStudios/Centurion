@@ -21,8 +21,23 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
+
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.*;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -58,6 +73,7 @@ public class SplitFilter extends AbstractFilter {
                         os.setAssociatedNode(f.getSource().getSourceNodes().get(0));
                         os.setColor(f.getColor());
                     }
+
 
                     String s = f.getProperties().resolveString(propertyName);
                     if (s != null) {

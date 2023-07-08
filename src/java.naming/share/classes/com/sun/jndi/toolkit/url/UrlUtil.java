@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.url;
 
+
 import java.net.MalformedURLException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities for dealing with URLs.

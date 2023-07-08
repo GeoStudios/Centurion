@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface for an XML filter.
  *
@@ -50,6 +66,7 @@ public interface XMLFilter extends XMLReader
      * @param parent The parent reader.
      */
     void setParent (XMLReader parent);
+
 
     /**
      * Get the parent reader.

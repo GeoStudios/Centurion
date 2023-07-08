@@ -21,12 +21,26 @@
 
 package nsk.jdi.Accessible.isProtected;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>isProtected()</code>
@@ -45,8 +59,10 @@ public class isProtected001 extends Log {
         thisClassName = package_prefix + "isProtected001",
         debugeeName   = thisClassName + "a";
 
+
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
+
 
     /** Debugee's classes for check **/
     private final static String classes_for_check[][] = {
@@ -120,11 +136,13 @@ public class isProtected001 extends Log {
             out_stream = out;
         }
 
+
         Debugee debugee;
 
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
+
 
         if (argsHandler.verbose()) {
             debugee = binder.bindToDebugee(debugeeName + " -vbs");
@@ -134,9 +152,11 @@ public class isProtected001 extends Log {
 
         IOPipe pipe     = new IOPipe(debugee);
 
+
         logHandler.display("==> nsk/jdi/Accessible/isProtected/isProtected001 test LOG:");
         logHandler.display("==> test checks the isProtected() method of Accessible interface");
         logHandler.display("    of the com.sun.jdi package for ArrayType, ClassType, InterfaceType\n");
+
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> isProtected001: isProtected001a debugee launched");

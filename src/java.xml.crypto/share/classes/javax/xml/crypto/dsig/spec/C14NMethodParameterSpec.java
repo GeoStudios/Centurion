@@ -21,11 +21,28 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.CanonicalizationMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: C14NMethodParameterSpec.java,v 1.3 2005/05/10 16:40:17 mullan Exp $
  */
+
+
 
 /**
  * A specification of algorithm parameters for a {@link CanonicalizationMethod}

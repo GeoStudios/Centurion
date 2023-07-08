@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
+
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StatusBar extends JPanel
     implements ActionListener, MouseListener

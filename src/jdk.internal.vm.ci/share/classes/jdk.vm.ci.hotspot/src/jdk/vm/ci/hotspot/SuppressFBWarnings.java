@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Used to suppress <a href="http://findbugs.sourceforge.net">FindBugs</a> warnings.
  */

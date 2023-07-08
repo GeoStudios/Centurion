@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LXOR - Bitwise XOR long
@@ -36,6 +53,7 @@ public class LXOR extends ArithmeticInstruction {
     public LXOR() {
         super(com.sun.org.apache.bcel.internal.Const.LXOR);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

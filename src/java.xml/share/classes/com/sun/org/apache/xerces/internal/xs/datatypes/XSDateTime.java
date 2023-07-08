@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes;
 
+
 import javax.xml.datatype.Duration;
 import javax.xml.datatype.XMLGregorianCalendar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * <p>Interface to expose the values for all date-time related types. The following

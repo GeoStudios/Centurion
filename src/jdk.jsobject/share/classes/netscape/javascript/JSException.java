@@ -21,6 +21,22 @@
 
 package jdk.jsobject.share.classes.netscape.javascript;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when an exception is raised in the JavaScript engine. This is merely
  * a marker class to indicate an exception relating to the JavaScript

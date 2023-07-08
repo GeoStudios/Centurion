@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface declares the constants used in this API.
  * Numbers in the range 0 to 256 are reserved for the specification,

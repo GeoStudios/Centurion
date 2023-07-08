@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.lang.reflect.Array;
@@ -28,6 +29,20 @@ import java.util.Collection;
 import java.util.Map;
 import javax.swing.JEditorPane;
 import javax.swing.JScrollPane;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XArrayDataViewer {
 

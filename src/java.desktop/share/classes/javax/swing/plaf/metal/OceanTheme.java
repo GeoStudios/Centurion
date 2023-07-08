@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.awt.*;
 import java.net.URL;
 import java.util.*;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import sun.swing.SwingUtilities2;
 import sun.swing.PrintColorUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default theme for the {@code MetalLookAndFeel}.

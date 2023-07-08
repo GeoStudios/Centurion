@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AccessibleExtendedText} interface contains additional methods not

@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
+
 import java.xml.share.classes.org.w3c.dom.Document;
 import java.xml.share.classes.org.w3c.dom.events.Event;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This interface represents a load event object that signals the completion

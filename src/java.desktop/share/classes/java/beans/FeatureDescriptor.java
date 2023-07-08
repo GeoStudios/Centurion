@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import com.sun.beans.TypeResolver;
 import java.desktop.share.classes.java.lang.ref.Reference;
 import java.desktop.share.classes.java.lang.ref.WeakReference;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.java.lang.reflect.Method;
 import java.desktop.share.classes.java.util.Enumeration;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.util.Map.Entry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The FeatureDescriptor class is the common baseclass for PropertyDescriptor,

@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
+
 import com.sun.source.doctree.DocTree;
 import com.sun.source.doctree.EndElementTree;
 import com.sun.source.doctree.StartElementTree;
@@ -49,6 +50,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DocFilesHandlerImpl implements DocFilesHandler {
 
@@ -208,6 +223,7 @@ public class DocFilesHandlerImpl implements DocFilesHandler {
                 .setFooter(docletWriter.getFooter()));
         docletWriter.printHtmlDocument(Collections.emptyList(), null, localTagsContent, Collections.emptyList(), htmlContent);
     }
+
 
     private List<? extends DocTree> getLocalHeaderTags(List<? extends DocTree> dtrees) {
         List<DocTree> localTags = new ArrayList<>();

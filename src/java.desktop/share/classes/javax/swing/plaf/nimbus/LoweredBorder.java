@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.desktop.share.classes.javax.swing.border.Border;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Insets;
@@ -31,6 +32,20 @@ import java.awt.Color;
 import java.awt.RenderingHints;
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LoweredBorder - A recessed rounded inner shadowed border. Used as the

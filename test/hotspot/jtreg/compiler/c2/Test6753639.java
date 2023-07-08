@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6753639
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main/othervm -Xbatch compiler.c2.Test6753639
  */
+
 
 public class Test6753639 {
     public static void main(String[] args) throws InterruptedException {
@@ -45,4 +61,5 @@ public class Test6753639 {
         System.exit(97);
     }
 }
+
 

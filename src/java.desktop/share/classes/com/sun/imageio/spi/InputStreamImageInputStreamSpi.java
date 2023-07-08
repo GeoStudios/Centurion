@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.spi;
 
+
 import java.io.File;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -29,6 +30,20 @@ import javax.imageio.spi.ImageInputStreamSpi;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.FileCacheImageInputStream;
 import javax.imageio.stream.MemoryCacheImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InputStreamImageInputStreamSpi extends ImageInputStreamSpi {
 

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import javax.swing.UIManager;
 import javax.swing.plaf.basic.BasicArrowButton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif scroll bar button.
@@ -35,6 +50,7 @@ public class MotifScrollBarButton extends BasicArrowButton
 {
     private final Color darkShadow = UIManager.getColor("controlShadow");
     private final Color lightShadow = UIManager.getColor("controlLtHighlight");
+
 
     public MotifScrollBarButton(int direction)
     {
@@ -56,6 +72,7 @@ public class MotifScrollBarButton extends BasicArrowButton
         setBackground(UIManager.getColor("ScrollBar.background"));
         setForeground(UIManager.getColor("ScrollBar.foreground"));
     }
+
 
     public Dimension getPreferredSize() {
         switch (direction) {

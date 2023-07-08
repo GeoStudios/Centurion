@@ -21,12 +21,26 @@
 
 package gc.gctests.LargeObjects.large001;
 
+
 import java.lang.reflect.*;
 import java.lang.ref.WeakReference;
 import java.util.*;
 import nsk.share.TestFailure;
 import nsk.share.gc.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -75,6 +89,10 @@ import nsk.share.*;
  *      -aggregationDepth 0
  *      -t 1
  */
+
+
+
+
 
 public class large001 extends ThreadedGCTest {
 

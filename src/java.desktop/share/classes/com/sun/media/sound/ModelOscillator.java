@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface is used for oscillators.
  * See example in ModelDefaultOscillator which is a wavetable oscillator.

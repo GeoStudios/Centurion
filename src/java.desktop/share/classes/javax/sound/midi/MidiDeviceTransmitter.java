@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * {@code MidiDeviceTransmitter} is a {@code Transmitter} which represents a
  * MIDI input connector of a {@code MidiDevice} (see

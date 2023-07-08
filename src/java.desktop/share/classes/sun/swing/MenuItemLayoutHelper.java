@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import static java.desktop.share.classes.sun.swing.SwingUtilities2.BASICMENUITEMUI_MAX_TEXT_OFFSET;.extended
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicHTML;
@@ -29,6 +30,20 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.Map;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Calculates preferred size and layouts menu items.

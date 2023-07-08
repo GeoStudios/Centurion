@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
@@ -28,6 +29,20 @@ import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicTabbedPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Metal subclass of BasicTabbedPaneUI.
@@ -113,6 +128,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
         }
     }
 
+
     protected void paintTabBorder( Graphics g, int tabPlacement,
                                    int tabIndex, int x, int y, int w, int h,
                                    boolean isSelected) {
@@ -134,6 +150,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
             paintTopTabBorder(tabIndex, g, x, y, w, h, bottom, right, isSelected);
         }
     }
+
 
     /**
      * Paints the top tab border.
@@ -437,6 +454,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
             g.drawLine( 2, 3, 2, 3 );
         }
 
+
         //
         // Paint Highlight
         //
@@ -526,6 +544,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
         g.translate( -x, -y );
     }
 
+
     /**
      * Paints the bottom tab border.
      *
@@ -574,6 +593,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
         }
 
         g.translate( x, y );
+
 
         //
         // Paint Border
@@ -734,6 +754,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
             g.fillRect( right - 2, 3, 2, 2 );
         }
 
+
         //
         // Paint Highlight
         //
@@ -750,6 +771,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
         if ( !isSelected ) {
             g.drawLine( 0, 1, 0, bottom );
         }
+
 
         //
         // Paint Border
@@ -865,6 +887,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
         return 0;
     }
 
+
     /**
      * Overridden to do nothing for the Java L&amp;F.
      */
@@ -930,6 +953,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
     protected void paintHighlightBelowTab( ) {
 
     }
+
 
     protected void paintFocusIndicator(Graphics g, int tabPlacement,
                                        Rectangle[] rects, int tabIndex,
@@ -1230,6 +1254,7 @@ public class MetalTabbedPaneUI extends BasicTabbedPaneUI {
         return super.calculateMaxTabHeight( tabPlacement ) -
                   (tallerIcons ? (tabInsets.top + tabInsets.bottom) : 0);
     }
+
 
     protected int getTabRunOverlay( int tabPlacement ) {
         // Tab runs laid out vertically should overlap

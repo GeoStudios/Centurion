@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.*;
 import java.awt.event.FocusEvent.Cause;
 import java.awt.dnd.DropTarget;
@@ -33,6 +34,20 @@ import java.util.ResourceBundle;
 import java.util.MissingResourceException;
 import java.util.Vector;
 import java.desktop.windows.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WFileDialogPeer extends WWindowPeer implements FileDialogPeer {
 

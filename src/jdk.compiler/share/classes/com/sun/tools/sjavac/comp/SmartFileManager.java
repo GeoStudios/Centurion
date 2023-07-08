@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URI;
@@ -36,6 +37,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Intercepts reads and writes to the file system to gather
@@ -85,6 +100,7 @@ public class SmartFileManager extends ForwardingJavaFileManager<JavaFileManager>
     public String inferBinaryName(Location location, JavaFileObject file) {
         return super.inferBinaryName(location, locUnwrap(file));
     }
+
 
     public Map<String,Set<URI>> getPackageArtifacts() {
         return packageArtifacts;

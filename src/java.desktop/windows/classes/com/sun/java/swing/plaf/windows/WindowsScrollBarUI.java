@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
@@ -45,6 +46,20 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Prop;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.
@@ -223,6 +238,7 @@ public class WindowsScrollBarUI extends BasicScrollBarUI {
         }
     }
 
+
     protected void paintDecreaseHighlight(Graphics g) {
         if (highlightGrid == null) {
             super.paintDecreaseHighlight(g);
@@ -248,6 +264,7 @@ public class WindowsScrollBarUI extends BasicScrollBarUI {
         }
     }
 
+
     protected void paintIncreaseHighlight(Graphics g) {
         if (highlightGrid == null) {
             super.paintDecreaseHighlight(g);
@@ -272,6 +289,7 @@ public class WindowsScrollBarUI extends BasicScrollBarUI {
             highlightGrid.paint(g, x, y, w, h);
         }
     }
+
 
     /**
      * {@inheritDoc}
@@ -375,6 +393,7 @@ public class WindowsScrollBarUI extends BasicScrollBarUI {
             return new Dimension(size, size);
         }
     }
+
 
     /**
      * This should be pulled out into its own class if more classes need to

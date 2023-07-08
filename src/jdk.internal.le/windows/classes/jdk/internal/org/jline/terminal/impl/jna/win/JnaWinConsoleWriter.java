@@ -21,12 +21,28 @@
 
 package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
 
+
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.AbstractWindowsConsoleWriter;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import com.sun.jna.LastErrorException;
 //import com.sun.jna.Pointer;
 //import com.sun.jna.ptr.IntByReference;
+
 
 class JnaWinConsoleWriter extends AbstractWindowsConsoleWriter {
 

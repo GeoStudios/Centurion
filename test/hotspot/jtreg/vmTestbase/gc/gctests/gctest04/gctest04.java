@@ -21,10 +21,24 @@
 
 package gc.gctests.gctest04;
 
+
 import nsk.share.test.*;
 import nsk.share.TestFailure;
 import nsk.share.TestBug;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,7 +53,10 @@ import nsk.share.TestFailure;
  * @run main/othervm gc.gctests.gctest04.gctest04
  */
 
+
 //gctest04.java
+
+
 
 // small objects ( 8 ~ 32k), short live time ( 5 ~ 10 ms)
 public class gctest04 {
@@ -59,10 +76,12 @@ public class gctest04 {
         }
     }
 
+
     queue  requestque = new queue(queueLimit);
     reqgen  gen = new reqgen(requestque, 5);
     gen.setsize(8, 32*1024);
     gen.setlive(5, 10);
+
 
     reqdisp disp = new reqdisp(requestque);
     gen.start();

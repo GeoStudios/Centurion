@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.JAXPNamespaceContextWrapper;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.StAXLocationWrapper;
@@ -46,6 +47,20 @@ import javax.xml.stream.events.ProcessingInstruction;
 import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.XMLEvent;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>StAXSchemaParser reads StAX events, converts them into XNI events

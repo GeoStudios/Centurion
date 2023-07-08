@@ -21,6 +21,7 @@
 
 package nsk.jdi.TypeComponent.isSynthetic;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -28,7 +29,21 @@ import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class issynthetic002 {
+
 
     final static String SYNTHETIC_METHOD_NAME = "test";
     final static String SYNTHETIC_METHOD_SIGNATURE = "(Ljava/lang/Object;)Ljava/lang/Object;";
@@ -138,6 +153,7 @@ public class issynthetic002 {
                 }
                 continue;
             }
+
 
             if (isSynthetic) {
                 if (SYNTHETIC_METHOD_NAME.equals(name) && SYNTHETIC_METHOD_SIGNATURE.equals(signature)) {

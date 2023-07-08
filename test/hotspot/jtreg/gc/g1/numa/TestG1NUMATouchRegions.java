@@ -21,10 +21,24 @@
 
 package gc.g1;
 
+
 import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestG1NUMATouchRegions
@@ -38,6 +52,7 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/othervm -XX:+UseG1GC -Xbootclasspath/a:. -XX:+UseNUMA -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestG1NUMATouchRegions
  */
+
 
 public class TestG1NUMATouchRegions {
     enum NUMASupportStatus {

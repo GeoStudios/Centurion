@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  Parser or write operations may throw an <code>LSException</code> if the
  * processing is stopped. The processing can be stopped due to a

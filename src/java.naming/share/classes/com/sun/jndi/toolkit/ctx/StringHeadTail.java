@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * A class for returning the result of c_parseComponent().
   *

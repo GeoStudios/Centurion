@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A class that describes the pointer position.
  * It provides the {@code GraphicsDevice} where the pointer is and

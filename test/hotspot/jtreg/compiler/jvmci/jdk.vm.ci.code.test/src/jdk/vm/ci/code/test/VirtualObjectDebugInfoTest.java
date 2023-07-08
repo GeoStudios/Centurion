@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.code.test;
 
+
 import jdk.vm.ci.code.Register;
 import jdk.vm.ci.code.VirtualObject;
 import jdk.vm.ci.hotspot.HotSpotConstant;
@@ -33,6 +34,19 @@ import org.junit.Assert;
 import org.junit.Test;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -49,6 +63,9 @@ import java.base.share.classes.java.util.Objects;
  * @compile CodeInstallationTest.java DebugInfoTest.java TestAssembler.java TestHotSpotVMConfig.java amd64/AMD64TestAssembler.java aarch64/AArch64TestAssembler.java
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.VirtualObjectDebugInfoTest
  */
+
+
+
 
 public class VirtualObjectDebugInfoTest extends DebugInfoTest {
 

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
+
 import static java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.ARRAY_SIZES;.extended
 import static java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.BUCKETS;.extended
 import static java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.MAX_ARRAY_SIZE;.extended
@@ -30,6 +31,20 @@ import java.lang.ref.WeakReference;
 import java.base.share.classes.java.util.Arrays;
 import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.BucketStats;
 import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.CacheStats;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Note that the [BYTE/INT/FLOAT/DOUBLE]ArrayCache files are nearly identical except

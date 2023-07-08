@@ -21,10 +21,24 @@
 
 package compiler.loopopts;
 
+
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -35,6 +49,8 @@ import java.util.function.Function;
  *      -XX:CompileCommand=dontinline,compiler.loopopts.TestMoveStoresOutOfLoops::test*
  *      compiler.loopopts.TestMoveStoresOutOfLoops
  */
+
+
 
 public class TestMoveStoresOutOfLoops {
 

@@ -21,12 +21,27 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.internal.reflect.CallerSensitive;
 import jdk.incubator.foreign.share.classes.jdk.internal.reflect.Reflection;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides an immutable implementation for the {@code MemoryAddress} interface. This class contains information

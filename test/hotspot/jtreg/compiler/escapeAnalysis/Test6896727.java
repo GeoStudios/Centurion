@@ -21,6 +21,21 @@
 
 package compiler.escapeAnalysis;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6896727
@@ -29,6 +44,7 @@ package compiler.escapeAnalysis;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -Xcomp -XX:+DoEscapeAnalysis
  *      compiler.escapeAnalysis.Test6896727
  */
+
 
 public class Test6896727 {
 

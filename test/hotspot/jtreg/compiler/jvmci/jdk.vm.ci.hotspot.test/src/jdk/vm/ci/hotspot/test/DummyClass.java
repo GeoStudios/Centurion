@@ -21,7 +21,21 @@
 
 package jdk.vm.ci.hotspot.test;
 
+
 import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DummyClass {
 

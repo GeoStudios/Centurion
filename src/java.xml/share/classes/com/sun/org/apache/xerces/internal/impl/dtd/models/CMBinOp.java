@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Content model Bin-Op node.
@@ -55,6 +72,7 @@ public class CMBinOp extends CMNode
         fRightChild = rightNode;
     }
 
+
     // -------------------------------------------------------------------
     //  Package, final methods
     // -------------------------------------------------------------------
@@ -67,6 +85,7 @@ public class CMBinOp extends CMNode
     {
         return fRightChild;
     }
+
 
     // -------------------------------------------------------------------
     //  Package, inherited methods
@@ -85,6 +104,7 @@ public class CMBinOp extends CMNode
         else
             throw new RuntimeException("ImplementationMessages.VAL_BST");
     }
+
 
     // -------------------------------------------------------------------
     //  Protected, inherited methods
@@ -138,6 +158,7 @@ public class CMBinOp extends CMNode
             throw new RuntimeException("ImplementationMessages.VAL_BST");
         }
     }
+
 
     // -------------------------------------------------------------------
     //  Private data members

@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * The default implementation of the XMLString interface,
@@ -189,6 +206,7 @@ public class XMLStringDefault implements XMLString
   {
     return m_str.equals(anObject.toString());
   }
+
 
   /**
    * Compares this string to the specified object.

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.ItemEvent;
 import java.desktop.share.classes.java.awt.event.Itemjava.util.Listener;
 import java.desktop.share.classes.java.awt.peer.CheckboxPeer;
@@ -37,6 +38,20 @@ import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import javax.accessibility.AccessibleValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A check box is a graphical component that can be in either an
@@ -590,6 +605,7 @@ public class Checkbox extends Component implements ItemSelectable, Accessible {
         return str + ",state=" + state;
     }
 
+
     /* Serialization support.
      */
 
@@ -671,9 +687,11 @@ public class Checkbox extends Component implements ItemSelectable, Accessible {
      */
     private static native void initIDs();
 
+
 /////////////////
 // Accessibility support
 ////////////////
+
 
     /**
      * Gets the AccessibleContext associated with this Checkbox.
@@ -854,6 +872,7 @@ public class Checkbox extends Component implements ItemSelectable, Accessible {
             }
             return states;
         }
+
 
     } // inner class AccessibleAWTCheckbox
 

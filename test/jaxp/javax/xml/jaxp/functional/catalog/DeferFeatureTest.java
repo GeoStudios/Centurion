@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import static catalog.CatalogTestUtils.DEFER_FALSE;.extended
 import static catalog.CatalogTestUtils.DEFER_TRUE;.extended
 import static catalog.CatalogTestUtils.getCatalogPath;.extended
@@ -37,6 +38,19 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

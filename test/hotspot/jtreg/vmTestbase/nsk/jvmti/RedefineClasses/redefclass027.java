@@ -21,9 +21,25 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    THIS TEST IS LINE NUMBER SENSITIVE
+
+
 
 public class redefclass027 {
 

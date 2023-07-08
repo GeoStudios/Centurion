@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.BorderLayout;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
@@ -37,6 +38,20 @@ import java.desktop.share.classes.javax.swing.ToolTipManager;
 import java.desktop.share.classes.javax.swing.UIManager;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicDesktopIconUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for a minimized internal frame on a desktop.

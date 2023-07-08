@@ -21,6 +21,7 @@
 
 package nsk.jdi.AttachingConnector.attach.attach004;
 
+
 import jdk.test.lib.JDKToolFinder;
 import jdk.test.lib.Utils;
 import jtreg.SkippedException;
@@ -33,6 +34,19 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestDriver {
     public static void main(String[] args) throws InterruptedException {
@@ -80,6 +94,7 @@ public class TestDriver {
             throw new Error("debuggee exit code is " + debuggeeExit);
         }
     }
+
 
     private static Process startDebuggee(String[] jdiArgs, String transport, String suspend) {
         List<String> cmd = new ArrayList<>();

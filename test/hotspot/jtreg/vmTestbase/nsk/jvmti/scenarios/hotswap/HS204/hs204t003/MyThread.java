@@ -21,7 +21,23 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t003;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyThread extends Thread {
+
 
         private static volatile int intState=100;
 

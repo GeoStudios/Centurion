@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8073670
@@ -35,6 +50,7 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.FloatingPointFoldingTest::test_float_nan
  *      compiler.c2.FloatingPointFoldingTest
  */
+
 
 public class FloatingPointFoldingTest {
     // Double values.
@@ -70,6 +86,7 @@ public class FloatingPointFoldingTest {
     // as a second NaN float value.
     public static final int NAN_INTBITS = 0x7fe00000;
     public static final float FLOAT_NAN = Float.intBitsToFloat(NAN_INTBITS);
+
 
     // Double tests.
     static void test_double_inf(long[] result) {

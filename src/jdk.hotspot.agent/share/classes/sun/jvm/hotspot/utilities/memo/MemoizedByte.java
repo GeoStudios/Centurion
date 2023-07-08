@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** A memoized byte. Override {@link #computeValue} in subclasses;
     call {@link #getValue} in using code. */
 

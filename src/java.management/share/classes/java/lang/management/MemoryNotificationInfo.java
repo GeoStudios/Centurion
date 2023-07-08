@@ -21,8 +21,23 @@
 
 package java.management.share.classes.java.lang.management;
 
+
 import javax.management.openmbean.CompositeData;
 import sun.management.MemoryNotifInfoCompositeData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The information about a memory notification.

@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Document interface represents the entire HTML or XML document.
@@ -240,6 +255,7 @@ public class DeferredDocumentImpl
         int chunk     = nodeIndex >> CHUNK_SHIFT;
         int index     = nodeIndex & CHUNK_MASK;
 
+
         // create extra data node
         int extraDataIndex = createNode(Node.NOTATION_NODE);
         int echunk = extraDataIndex >> CHUNK_SHIFT;
@@ -285,6 +301,7 @@ public class DeferredDocumentImpl
         setChunkValue(fNodeValue, null, echunk, eindex);
         // encoding L3
         setChunkValue(fNodeURI, null, echunk, eindex);
+
 
         int extraDataIndex2 = createNode(Node.ENTITY_NODE);
         int echunk2 = extraDataIndex2 >> CHUNK_SHIFT;
@@ -364,6 +381,7 @@ public class DeferredDocumentImpl
 
     } // createDeferredEntityReference(String):int
 
+
     /**
      * Creates an element node with a URI in the table and type information.
      * @deprecated
@@ -410,6 +428,7 @@ public class DeferredDocumentImpl
         return elementNodeIndex;
 
     } // createDeferredElement(String,String):int
+
 
         /**
          * This method is used by the DOMParser to create attributes.
@@ -601,6 +620,7 @@ public class DeferredDocumentImpl
                 childIndex = getRealPrevSibling(childIndex, false);
             }
 
+
         }
 
         // return cloned node index
@@ -692,6 +712,7 @@ public class DeferredDocumentImpl
 
     } // setAttributeNode(int,int):int
 
+
     /** Adds an attribute node to the specified element. */
     public void setIdAttributeNode(int elemIndex, int attrIndex) {
 
@@ -704,6 +725,7 @@ public class DeferredDocumentImpl
         String value = getChunkValue(fNodeValue, chunk, index);
         putIdentifier(value, elemIndex);
     }
+
 
     /** Sets type of attribute */
     public void setIdAttribute(int attrIndex) {
@@ -1199,6 +1221,7 @@ public class DeferredDocumentImpl
         int chunk = nodeIndex >> CHUNK_SHIFT;
         int index = nodeIndex & CHUNK_MASK;
 
+
         Object value = fNodeValue[chunk] != null ? fNodeValue[chunk][index] : null;
         if (value != null) {
             fNodeValue[chunk][index] = null;
@@ -1687,6 +1710,7 @@ public class DeferredDocumentImpl
 
     } // synchronizeChildren(AttrImpl,int):void
 
+
     /**
      * Synchronizes the node's children with the internal structure.
      * Fluffing the children at once solves a lot of work to keep
@@ -1968,6 +1992,7 @@ public class DeferredDocumentImpl
             return data.toString();
         }
     }
+
 
     /**
      * Clears the specified value in the given data at the chunk and index.

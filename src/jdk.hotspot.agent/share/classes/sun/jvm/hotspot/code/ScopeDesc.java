@@ -21,12 +21,27 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** ScopeDescs contain the information that makes source-level
     debugging of nmethods possible; each scopeDesc describes a method

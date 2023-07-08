@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator;
 
+
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.connection.Server;
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.*;
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
@@ -46,6 +47,20 @@ import org.openide.util.NbBundle;
 import org.openide.util.actions.NodeAction;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An abstract adapter class for receiving drop target events. The methods in
  * this class are empty. This class exists only as a convenience for creating

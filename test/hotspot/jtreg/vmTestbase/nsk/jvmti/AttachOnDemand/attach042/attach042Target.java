@@ -21,7 +21,21 @@
 
 package nsk.jvmti.AttachOnDemand.attach042;
 
+
 import nsk.share.aod.TargetApplicationWaitingAgents;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class attach042Target extends TargetApplicationWaitingAgents {
     static class TestThread extends Thread {

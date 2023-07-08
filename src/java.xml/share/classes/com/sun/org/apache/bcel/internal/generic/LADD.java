@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LADD - Add longs
@@ -37,6 +54,7 @@ public class LADD extends ArithmeticInstruction {
     public LADD() {
         super(com.sun.org.apache.bcel.internal.Const.LADD);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

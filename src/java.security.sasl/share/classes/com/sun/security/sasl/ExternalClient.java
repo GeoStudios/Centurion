@@ -21,8 +21,23 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl;
 
+
 import javax.security.sasl.*;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the EXTERNAL SASL client mechanism.

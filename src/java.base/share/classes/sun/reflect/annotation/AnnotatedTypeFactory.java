@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
+
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -31,6 +32,20 @@ import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
 import java.util.stream.Collectors;
 import static java.base.share.classes.sun.reflect.annotation.TypeAnnotation.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class AnnotatedTypeFactory {
     /**
@@ -578,6 +593,7 @@ public final class AnnotatedTypeFactory {
 
             return sb.toString();
         }
+
 
         @Override
         public boolean equals(Object o) {

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code Kernel} class defines a matrix that describes how a
  * specified pixel and its surrounding pixels affect the value

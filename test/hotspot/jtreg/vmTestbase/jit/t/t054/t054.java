@@ -21,8 +21,22 @@
 
 package jit.t.t054;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,9 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t054.t054
  */
+
+
+
 
 // A more comprehensive test for the tomcatv bug, that being failure
 // correctly to reverse the sense of a jump.

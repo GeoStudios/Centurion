@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.newInstance;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>newinstance005a</code> is deugee's part of the newinstance005.

@@ -21,6 +21,21 @@
 
 package vm.runtime.defmeth.shared;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents all supported methods of method invocation for testing purposes.
  * Test scenarios can be run in all of these modes (with some exceptions).

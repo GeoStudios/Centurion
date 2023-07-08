@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.visibleFields;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the visibleFields() method of ReferenceType interface for UNLOADED class
+
 
 class visibfield003b {}

@@ -21,8 +21,23 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class AbstractMask<E> extends VectorMask<E> {
     AbstractMask(boolean[] bits) {

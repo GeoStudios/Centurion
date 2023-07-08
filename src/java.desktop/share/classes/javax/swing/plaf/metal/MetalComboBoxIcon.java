@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboBoxUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This utility class draws the horizontal bars which indicate a MetalComboBox

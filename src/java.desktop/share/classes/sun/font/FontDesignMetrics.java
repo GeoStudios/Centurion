@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.GraphicsEnvironment;
@@ -37,6 +38,20 @@ import java.lang.ref.SoftReference;
 import java.util.concurrent.ConcurrentHashMap;
 import java.desktop.share.classes.sun.java2d.Disposer;
 import java.desktop.share.classes.sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class provides a summary of the glyph measurements  for a Font
@@ -250,6 +265,7 @@ public final class FontDesignMetrics extends FontMetrics {
     public static FontDesignMetrics getMetrics(Font font,
                                                FontRenderContext frc) {
 
+
         /* When using alternate composites, can't cache based just on
          * the java.awt.Font. Since this is rarely used and we can still
          * cache the physical fonts, its not a problem to just return a
@@ -425,6 +441,7 @@ public final class FontDesignMetrics extends FontMetrics {
         }
         return w;
     }
+
 
     /* Override of FontMetrics.getFontRenderContext() */
     public FontRenderContext getFontRenderContext() {

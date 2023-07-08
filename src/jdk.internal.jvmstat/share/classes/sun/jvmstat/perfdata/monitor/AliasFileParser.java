@@ -21,10 +21,25 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
+
 import java.net.*;
 import java.io.*;
 import java.util.*;
 import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class for parsing alias files. File format is expected to follow
@@ -80,6 +95,7 @@ public class AliasFileParser {
             throw new SyntaxException(st.lineno());
         }
     }
+
 
     /*
      * method to match the current Token to a specified token type.

@@ -21,10 +21,24 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
+
 import java.io.*;
 import java.util.*;
 import vm.mlvm.share.Env;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MHMacroTF extends MHTF {
 
@@ -136,6 +150,7 @@ public class MHMacroTF extends MHTF {
             }
         }
     }
+
 
     private static class PrettyPrintElement {
         final String topCallPrefix;

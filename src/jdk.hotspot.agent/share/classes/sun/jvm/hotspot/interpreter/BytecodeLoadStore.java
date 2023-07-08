@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class BytecodeLoadStore extends BytecodeWideable {
   BytecodeLoadStore(Method method, int bci) {

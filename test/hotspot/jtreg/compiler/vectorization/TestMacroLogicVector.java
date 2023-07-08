@@ -21,9 +21,23 @@
 
 package compiler.vectorization;
 
+
 import jdk.test.lib.Utils;
 import java.util.Random;
 import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -35,6 +49,8 @@ import java.util.concurrent.Callable;
  *           -XX:CompileCommand=quiet -XX:CompileCommand=compileonly,*::test*
  *           -XX:+TraceNewVectors compiler.vectorization.TestMacroLogicVector
  */
+
+
 
 public class TestMacroLogicVector {
     static boolean booleanFunc1(boolean a, boolean b) {
@@ -56,6 +72,7 @@ public class TestMacroLogicVector {
             }
         }
     }
+
 
     static short charFunc1(char a, char b) {
         return (short)((a & b) & 1);

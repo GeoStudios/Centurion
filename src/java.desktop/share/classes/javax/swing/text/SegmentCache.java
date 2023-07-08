@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SegmentCache caches <code>Segment</code>s to avoid continually creating
@@ -48,6 +63,7 @@ class SegmentCache {
      */
     private final List<Segment> segments;
 
+
     /**
      * Returns the shared SegmentCache.
      */
@@ -70,6 +86,8 @@ class SegmentCache {
     public static void releaseSharedSegment(Segment segment) {
         getSharedInstance().releaseSegment(segment);
     }
+
+
 
     /**
      * Creates and returns a SegmentCache.
@@ -115,6 +133,7 @@ class SegmentCache {
             }
         }
     }
+
 
     /**
      * CachedSegment is used as a tagging interface to determine if

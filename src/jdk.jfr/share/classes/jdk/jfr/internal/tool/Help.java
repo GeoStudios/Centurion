@@ -21,9 +21,24 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
+
 import java.io.PrintStream;
 import java.util.Deque;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Help extends Command {
 

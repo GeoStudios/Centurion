@@ -21,8 +21,22 @@
 
 package org.openjdk.foreigntest;
 
+
 import jdk.incubator.foreign.*;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PanamaMainReflection {
    public static void main(String[] args) throws Throwable {

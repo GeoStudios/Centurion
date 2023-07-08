@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
+
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
@@ -68,6 +69,20 @@ import org.openide.util.lookup.ProxyLookup;
 import org.openide.windows.Mode;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -143,6 +158,7 @@ public final class EditorTopComponent extends TopComponent implements PropertyCh
 
     private final ChangedEvent<DiagramProvider> diagramChangedEvent = new ChangedEvent<>(diagramProvider);
 
+
     private void updateDisplayName() {
         setDisplayName(getDiagram().getName());
         setToolTipText(getDiagram().getGraph().getGroup().getName());
@@ -178,6 +194,7 @@ public final class EditorTopComponent extends TopComponent implements PropertyCh
             ZoomInAction.get(ZoomInAction.class),
             ZoomOutAction.get(ZoomOutAction.class),
         };
+
 
         Action[] actionsWithSelection = new Action[]{
             ExtractAction.get(ExtractAction.class),

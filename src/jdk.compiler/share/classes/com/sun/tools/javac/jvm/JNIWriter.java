@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -48,6 +49,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class provides operations to write native header files for classes.
  *

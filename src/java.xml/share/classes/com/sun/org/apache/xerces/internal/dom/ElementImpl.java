@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.u
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Elements represent most of the "markup" and structure of the document. They

@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A class or instance variable in the target VM.
  * See {@link TypeComponent}

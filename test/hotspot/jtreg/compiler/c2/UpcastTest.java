@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.flavor == "server"
@@ -29,6 +44,7 @@ package compiler.c2;
  *                   -XX:CompileCommand=quiet -XX:CompileCommand=compileonly,*::test
  *                     compiler.c2.UpcastTest
  */
+
 
 public class UpcastTest {
     static class Test1 {

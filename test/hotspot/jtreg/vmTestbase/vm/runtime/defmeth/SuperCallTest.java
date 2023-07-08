@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth;
 
+
 import java.util.Set;
 import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
@@ -28,6 +29,19 @@ import vm.runtime.defmeth.shared.data.*;
 import vm.runtime.defmeth.shared.builder.TestBuilder;
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,6 +58,9 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.SuperCallTest
  */
+
+
+
 
 /*
  * Tests on invoke-super-default.
@@ -147,6 +164,7 @@ public class SuperCallTest extends DefMethTest {
         ConcreteClass D = b.clazz("D").implement(K,L)
                 .concreteMethod("m", "()I").callSuper(K, "m", "()I").build()
             .build();
+
 
         b.test().callSite(K, C, "m", "()I").returns(1).done()
          .test().callSite(L, C, "m", "()I").returns(1).done()

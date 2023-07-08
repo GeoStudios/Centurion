@@ -21,6 +21,21 @@
 
 package MyPackage;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8222072
@@ -29,6 +44,7 @@ package MyPackage;
  * @compile GenerateEventsTest.java
  * @run main/othervm/native -agentlib:GenerateEvents1 -agentlib:GenerateEvents2 MyPackage.GenerateEventsTest
  */
+
 
 public class GenerateEventsTest {
   static native void agent1GenerateEvents();

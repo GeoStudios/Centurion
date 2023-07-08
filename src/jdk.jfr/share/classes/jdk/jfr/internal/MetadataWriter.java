@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_CONSTANT_POOL;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_DEFAULT_VALUE;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_DIMENSION;.extended
@@ -48,6 +49,20 @@ import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.Attribute;
 import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.Element;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.StringParser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class responsible for converting a list of types into a format that can be

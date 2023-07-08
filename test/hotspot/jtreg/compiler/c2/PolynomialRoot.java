@@ -21,9 +21,23 @@
 
 package compiler.c2;
 
+
 import jdk.test.lib.Utils;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * (C) Vladislav Malyshkin 2010
@@ -48,7 +62,11 @@ import java.util.Random;
  * @run main/timeout=300 compiler.c2.PolynomialRoot
  */
 
+
+
+
 public class PolynomialRoot  {
+
 
 public static int findPolynomialRoots(final int n,
               final double [] p,
@@ -77,7 +95,10 @@ public static int findPolynomialRoots(final int n,
     }
 }
 
+
+
 static final double SQRT3=Math.sqrt(3.0),SQRT2=Math.sqrt(2.0);
+
 
 private static final boolean PRINT_DEBUG=false;
 
@@ -98,6 +119,7 @@ public static int root4(final double [] p,final double [] re_root,final double [
  */
   final double a=p[3]/vs,b=p[2]/vs,c=p[1]/vs,d=p[0]/vs;
   if(PRINT_DEBUG) System.err.println("input a="+a+" b="+b+" c="+c+" d="+d);
+
 
   final double r4 = 1.0 / 4.0;
   final double q2 = 1.0 / 2.0, q4 = 1.0 / 4.0, q8 = 1.0 / 8.0;
@@ -248,6 +270,7 @@ public static int root4(final double [] p,final double [] re_root,final double [
    * mt=3 : 2 real roots
    */
 
+
   final double w1_re,w1_im,w2_re,w2_im,w3_re,w3_im,mod_w1w2,mod_w1w2_squared;
   if (flag_realroots)
   {
@@ -389,6 +412,8 @@ public static int root4(final double [] p,final double [] re_root,final double [
   return 4;
 }
 
+
+
     static void setRandomP(final double [] p, final int n, Random r)
     {
   if(r.nextDouble()<0.1)
@@ -426,6 +451,7 @@ public static int root4(final double [] p,final double [] re_root,final double [
       p[n]=(r.nextInt(2)<=0?-1:1)*(0.1+r.nextDouble());
   }
     }
+
 
     static void checkValues(final double [] p,
           final int n,
@@ -523,6 +549,9 @@ public static int root4(final double [] p,final double [] re_root,final double [
   }
   System.err.println("testRoots(): n_tests="+n_tests+" OK, dim="+n);
     }
+
+
+
 
     static final double EPS=0;
 
@@ -665,6 +694,7 @@ public static int root4(final double [] p,final double [] re_root,final double [
 
     }
 
+
     static void root3a(final double [] p,final double [] re_root,final double [] im_root)
     {
   if(Math.abs(p[3])>EPS)
@@ -710,6 +740,7 @@ public static int root4(final double [] p,final double [] re_root,final double [
       re_root[0]=re_root[1]=re_root[2]=im_root[0]=im_root[1]=im_root[2]=Double.NaN;
   }
     }
+
 
     static void printSpecialValues()
     {
@@ -769,6 +800,8 @@ public static int root4(final double [] p,final double [] re_root,final double [
   }
     }
 
+
+
     public static void main(final String [] args)
     {
       if (System.getProperty("os.arch").equals("x86") ||
@@ -791,5 +824,7 @@ public static int root4(final double [] p,final double [] re_root,final double [
        System.out.println("PASS test for non-x86");
      }
    }
+
+
 
 }

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.reflect;
 
+
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.ConstructorAccessor;
@@ -35,6 +36,20 @@ import sun.reflect.generics.scope.ConstructorScope;
 import java.base.share.classes.java.lang.annotation.Annotation;
 import java.base.share.classes.java.lang.annotation.AnnotationFormatError;
 import java.base.share.classes.java.util.StringJoiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code Constructor} provides information about, and access to, a single
@@ -236,6 +251,7 @@ public final class Constructor<T> extends Executable {
           return (TypeVariable<Constructor<T>>[])new TypeVariable[0];
     }
 
+
     @Override
     Class<?>[] getSharedParameterTypes() {
         return parameterTypes;
@@ -277,6 +293,7 @@ public final class Constructor<T> extends Executable {
     public Class<?>[] getExceptionTypes() {
         return exceptionTypes.clone();
     }
+
 
     /**
      * {@inheritDoc}
@@ -560,6 +577,7 @@ public final class Constructor<T> extends Executable {
     byte[] getRawParameterAnnotations() {
         return parameterAnnotations;
     }
+
 
     /**
      * {@inheritDoc}

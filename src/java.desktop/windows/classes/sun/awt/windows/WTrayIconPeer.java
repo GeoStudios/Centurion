@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Graphics2D;
 import java.awt.AWTEvent;
 import java.awt.Frame;
@@ -36,6 +37,20 @@ import java.desktop.windows.classes.sun.awt.AWTAccessor;
 import java.desktop.windows.classes.sun.awt.SunToolkit;
 import java.desktop.windows.classes.sun.awt.image.IntegerComponentRaster;
 import java.desktop.windows.classes.sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WTrayIconPeer extends WObjectPeer implements TrayIconPeer {
     static final int TRAY_ICON_WIDTH = 16;
@@ -111,8 +126,10 @@ final class WTrayIconPeer extends WObjectPeer implements TrayIconPeer {
         _displayMessage(caption, text, messageType);
     }
 
+
     // ***********************************************
     // ***********************************************
+
 
     synchronized void updateNativeImage(Image image) {
         if (isDisposed())

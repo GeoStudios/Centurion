@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Models a segment descriptor in {@link
     sun.jvm.hotspot.debugger.win32.coff.DebugVC50SSSegMap}. */
 

@@ -21,8 +21,23 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
+
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple data class that contains language model data (TypeElement, etc.)

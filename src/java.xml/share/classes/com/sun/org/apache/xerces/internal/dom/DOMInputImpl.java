@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
 import java.io.Reader;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This Class <code>DOMInputImpl</code> represents a single input source for an XML entity.

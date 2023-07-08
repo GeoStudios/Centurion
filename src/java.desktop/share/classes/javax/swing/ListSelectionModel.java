@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface represents the current state of the
@@ -63,6 +78,7 @@ public interface ListSelectionModel
      */
     int MULTIPLE_INTERVAL_SELECTION = 2;
 
+
     /**
      * Changes the selection to be between {@code index0} and {@code index1}
      * inclusive. {@code index0} doesn't have to be less than or equal to
@@ -79,6 +95,7 @@ public interface ListSelectionModel
      * @see #addListSelectionListener
      */
     void setSelectionInterval(int index0, int index1);
+
 
     /**
      * Changes the selection to be the set union of the current selection
@@ -102,6 +119,7 @@ public interface ListSelectionModel
      */
     void addSelectionInterval(int index0, int index1);
 
+
     /**
      * Changes the selection to be the set difference of the current selection
      * and the indices between {@code index0} and {@code index1} inclusive.
@@ -122,12 +140,14 @@ public interface ListSelectionModel
      */
     void removeSelectionInterval(int index0, int index1);
 
+
     /**
      * Returns the first selected index or -1 if the selection is empty.
      *
      * @return the first selected index or -1 if the selection is empty.
      */
     int getMinSelectionIndex();
+
 
     /**
      * Returns the last selected index or -1 if the selection is empty.
@@ -136,6 +156,7 @@ public interface ListSelectionModel
      */
     int getMaxSelectionIndex();
 
+
     /**
      * Returns true if the specified index is selected.
      *
@@ -143,6 +164,7 @@ public interface ListSelectionModel
      * @return {@code true} if the specified index is selected
      */
     boolean isSelectedIndex(int index);
+
 
     /**
      * Return the first index argument from the most recent call to
@@ -159,6 +181,7 @@ public interface ListSelectionModel
      */
     int getAnchorSelectionIndex();
 
+
     /**
      * Set the anchor selection index.
      *
@@ -166,6 +189,7 @@ public interface ListSelectionModel
      * @see #getAnchorSelectionIndex
      */
     void setAnchorSelectionIndex(int index);
+
 
     /**
      * Return the second index argument from the most recent call to

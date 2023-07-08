@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Repository;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Denotes reference such as java.lang.String.
@@ -52,11 +69,13 @@ public class ObjectType extends ReferenceType {
         this.className = className.replace('/', '.');
     }
 
+
     /** @return name of referenced class
      */
     public String getClassName() {
         return className;
     }
+
 
     /** @return a hash code value for the object.
      */
@@ -65,12 +84,14 @@ public class ObjectType extends ReferenceType {
         return className.hashCode();
     }
 
+
     /** @return true if both type objects refer to the same class.
      */
     @Override
     public boolean equals( final Object type ) {
         return type instanceof ObjectType && ((ObjectType) type).className.equals(className);
     }
+
 
     /**
      * If "this" doesn't reference a class, it references an interface
@@ -89,6 +110,7 @@ public class ObjectType extends ReferenceType {
         }
     }
 
+
     /**
      * If "this" doesn't reference an interface, it references a class
      * or a non-existant entity.
@@ -106,6 +128,7 @@ public class ObjectType extends ReferenceType {
         }
     }
 
+
     /**
      * Return true if this type references a class,
      * false if it references an interface.
@@ -118,6 +141,7 @@ public class ObjectType extends ReferenceType {
         final JavaClass jc = Repository.lookupClass(className);
         return jc.isClass();
     }
+
 
     /**
      * Return true if this type references an interface,
@@ -132,6 +156,7 @@ public class ObjectType extends ReferenceType {
         return !jc.isClass();
     }
 
+
     /**
      * Return true if this type is a subclass of given ObjectType.
      * @throws ClassNotFoundException if any of this class's superclasses
@@ -143,6 +168,7 @@ public class ObjectType extends ReferenceType {
         }
         return Repository.instanceOf(this.className, superclass.className);
     }
+
 
     /**
      * Java Virtual Machine Specification edition 2,  5.4.4 Access Control

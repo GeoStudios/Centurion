@@ -21,8 +21,23 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface Parser {
     String REGEX_VARIABLE = "[a-zA-Z_]{1,}[a-zA-Z0-9_-]*";

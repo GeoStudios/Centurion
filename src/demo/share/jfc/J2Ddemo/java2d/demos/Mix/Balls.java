@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Mix;
 
+
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.ORANGE;.extended
@@ -46,6 +47,20 @@ import javax.swing.AbstractButton;
 import javax.swing.JComboBox;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Animated color bouncing balls with custom controls.
@@ -120,6 +135,7 @@ public class Balls extends AnimatingControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new Balls());
     }
+
 
     protected static final class Ball {
 
@@ -245,6 +261,7 @@ public class Balls extends AnimatingControlsSurface {
             }
         }
     }  // End class Ball
+
 
     final class DemoControls extends CustomControls implements ActionListener {
 

@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8211100
@@ -29,6 +44,7 @@ package compiler.c1;
  * @run main/othervm -XX:+PrintCompilation -XX:CompileOnly=compiler.c1.Test8211100::test
  *                   -XX:CompileCommand=quiet compiler.c1.Test8211100
  */
+
 
 public class Test8211100 {
     private static final int ITERATIONS = 100_000;

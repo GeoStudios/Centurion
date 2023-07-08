@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import static catalog.CatalogTestUtils.FEATURE_FILES;.extended
 import static catalog.CatalogTestUtils.catalogResolver;.extended
@@ -34,6 +35,19 @@ import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogResolver;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -21,8 +21,22 @@
 
 package compiler.cpuflags;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.cpuflags.RestoreMXCSR
  */
+
+
 
 public class RestoreMXCSR {
     public static void main(String[] args) throws Exception {

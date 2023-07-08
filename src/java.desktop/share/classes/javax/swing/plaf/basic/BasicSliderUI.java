@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -64,6 +65,20 @@ import java.desktop.share.classes.javax.swing.plaf.SliderUI;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Basic L&amp;F implementation of SliderUI.
@@ -441,6 +456,7 @@ public class BasicSliderUI extends SliderUI{
         SwingUtilities.replaceUIInputMap(slider, JComponent.WHEN_FOCUSED,
                                          null);
     }
+
 
     /**
      * Returns the baseline.
@@ -1127,6 +1143,7 @@ public class BasicSliderUI extends SliderUI{
 
         return min;
     }
+
 
     /**
      * Returns the label that corresponds to the highest slider value in the
@@ -1822,6 +1839,7 @@ public class BasicSliderUI extends SliderUI{
         return value;
     }
 
+
     private class Handler implements ChangeListener,
             ComponentListener, FocusListener, PropertyChangeListener {
         // Change Handler
@@ -2322,6 +2340,7 @@ public class BasicSliderUI extends SliderUI{
 
     }
 
+
     /**
      * A static version of the above.
      */
@@ -2361,6 +2380,7 @@ public class BasicSliderUI extends SliderUI{
             "negativeBlockIncrement";
         public static final String MIN_SCROLL_INCREMENT = "minScroll";
         public static final String MAX_SCROLL_INCREMENT = "maxScroll";
+
 
         Actions() {
             super(null);

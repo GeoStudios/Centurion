@@ -21,10 +21,28 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Class for XPath diagnostic functions.

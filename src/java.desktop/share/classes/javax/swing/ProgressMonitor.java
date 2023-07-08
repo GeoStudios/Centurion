@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.io.*;
 import java.awt.BorderLayout;
 import java.awt.Frame;
@@ -41,6 +42,20 @@ import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.javax.accessibility.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class to monitor the progress of some operation. If it looks
  * like the operation will take a while, a progress dialog will be popped up.
@@ -83,6 +98,7 @@ public class ProgressMonitor implements Accessible
     private int             min;
     private int             max;
 
+
     /**
      * Constructs a graphic object that shows progress, typically by filling
      * in a rectangular bar as the process nears completion.
@@ -113,6 +129,7 @@ public class ProgressMonitor implements Accessible
                            int max) {
         this(parentComponent, message, note, min, max, null);
     }
+
 
     private ProgressMonitor(Component parentComponent,
                             Object message,
@@ -151,9 +168,11 @@ public class ProgressMonitor implements Accessible
                   null);
         }
 
+
         public int getMaxCharactersPerLineCount() {
             return 60;
         }
+
 
         // Equivalent to JOptionPane.createDialog,
         // but create a modeless dialog.
@@ -231,6 +250,7 @@ public class ProgressMonitor implements Accessible
         }
     }
 
+
     /**
      * Indicate the progress of the operation being monitored.
      * If the specified value is &gt;= the maximum, the progress
@@ -282,6 +302,7 @@ public class ProgressMonitor implements Accessible
         }
     }
 
+
     /**
      * Indicate that the operation is complete.  This happens automatically
      * when the value set by setProgress is &gt;= max, but it may be called
@@ -297,6 +318,7 @@ public class ProgressMonitor implements Accessible
         }
     }
 
+
     /**
      * Returns the minimum value -- the lower end of the progress value.
      *
@@ -306,6 +328,7 @@ public class ProgressMonitor implements Accessible
     public int getMinimum() {
         return min;
     }
+
 
     /**
      * Specifies the minimum value.
@@ -320,6 +343,7 @@ public class ProgressMonitor implements Accessible
         min = m;
     }
 
+
     /**
      * Returns the maximum value -- the higher end of the progress value.
      *
@@ -329,6 +353,7 @@ public class ProgressMonitor implements Accessible
     public int getMaximum() {
         return max;
     }
+
 
     /**
      * Specifies the maximum value.
@@ -342,6 +367,7 @@ public class ProgressMonitor implements Accessible
         }
         max = m;
     }
+
 
     /**
      * Returns true if the user hits the Cancel button or closes
@@ -364,6 +390,7 @@ public class ProgressMonitor implements Accessible
                 v.equals(Integer.valueOf(JOptionPane.CLOSED_OPTION)));
     }
 
+
     /**
      * Specifies the amount of time to wait before deciding whether or
      * not to popup a progress monitor.
@@ -375,6 +402,7 @@ public class ProgressMonitor implements Accessible
     public void setMillisToDecideToPopup(int millisToDecideToPopup) {
         this.millisToDecideToPopup = millisToDecideToPopup;
     }
+
 
     /**
      * Returns the amount of time this object waits before deciding whether
@@ -388,6 +416,7 @@ public class ProgressMonitor implements Accessible
         return millisToDecideToPopup;
     }
 
+
     /**
      * Specifies the amount of time it will take for the popup to appear.
      * (If the predicted time remaining is less than this time, the popup
@@ -400,6 +429,7 @@ public class ProgressMonitor implements Accessible
         this.millisToPopup = millisToPopup;
     }
 
+
     /**
      * Returns the amount of time it will take for the popup to appear.
      *
@@ -410,6 +440,7 @@ public class ProgressMonitor implements Accessible
     public int getMillisToPopup() {
         return millisToPopup;
     }
+
 
     /**
      * Specifies the additional note that is displayed along with the
@@ -425,6 +456,7 @@ public class ProgressMonitor implements Accessible
             noteLabel.setText(note);
         }
     }
+
 
     /**
      * Specifies the additional note that is displayed along with the

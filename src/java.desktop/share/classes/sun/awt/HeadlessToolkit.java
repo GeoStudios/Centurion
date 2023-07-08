@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.dnd.DragGesturejava.util.Listener;
@@ -41,6 +42,20 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.net.URL;
 import java.util.Map;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class HeadlessToolkit extends Toolkit
     implements ComponentFactory, KeyboardFocusManagerPeerProvider {
@@ -307,6 +322,7 @@ public final class HeadlessToolkit extends Toolkit
     public Image createImage(byte[] imagedata) {
         return tk.createImage(imagedata);
     }
+
 
     /*
      * Fonts

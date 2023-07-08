@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import sun.invoke.util.Wrapper;
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.mapLookupExceptionToError;.extended
 import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Bootstrap methods for dynamically-computed constants.
@@ -215,6 +230,7 @@ public final class ConstantBootstraps {
                              : type;
         return getStaticFinal(lookup, name, type, declaring);
     }
+
 
     /**
      * Returns the result of invoking a method handle with the provided

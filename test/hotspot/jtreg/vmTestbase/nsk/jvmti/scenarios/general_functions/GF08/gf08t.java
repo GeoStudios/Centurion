@@ -21,10 +21,24 @@
 
 package nsk.jvmti.scenarios.general_functions.GF08;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class gf08t {
     public static void main(String[] args) throws Exception {

@@ -21,9 +21,23 @@
 
 package nsk.share.gc;
 
+
 import nsk.share.test.TestBase;
 import nsk.share.runner.RunParams;
 import nsk.share.runner.RunParamsAware;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class GCTestBase extends TestBase implements RunParamsAware, GCParamsAware {
         protected RunParams runParams;

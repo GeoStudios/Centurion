@@ -21,11 +21,26 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import java.math.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A JScrollBar which uses BigIntegers as the representation for the
     minimum, maximum, unit increment, etc. Interaction with the
@@ -52,6 +67,7 @@ public class HighPrecisionJScrollBar extends JScrollBar {
   // Number of digits after decimal point to use when scaling between
   // high and low precision
   private static final int SCALE = 20;
+
 
   // This is a hack to allow us to differentiate between clicks on the
   // arrow and track since we can't get useful information from
@@ -86,6 +102,7 @@ public class HighPrecisionJScrollBar extends JScrollBar {
   public BigInteger getValueHP() {
     return valueHP;
   }
+
 
   /** NOTE: the real value will always be set to be (value mod
       unitIncrement) == 0, subtracting off the mod of the passed value
@@ -165,6 +182,7 @@ public class HighPrecisionJScrollBar extends JScrollBar {
     // NOTE we do not forward this to the underlying scrollBar because of
     // the earlier mentioned hack.
   }
+
 
   public void addChangeListener(ChangeListener l) {
     changeListeners.add(l);
@@ -276,6 +294,7 @@ public class HighPrecisionJScrollBar extends JScrollBar {
   private BigDecimal getScaleFactor() {
     return scaleFactor;
   }
+
 
   // Value scaling routines
   private BigInteger scaleToHP(int i) {

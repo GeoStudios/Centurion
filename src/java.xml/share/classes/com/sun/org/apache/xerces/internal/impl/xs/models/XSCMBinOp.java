@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  *
@@ -56,6 +73,7 @@ public class XSCMBinOp extends CMNode {
         fRightChild = rightNode;
     }
 
+
     // -------------------------------------------------------------------
     //  Package, final methods
     // -------------------------------------------------------------------
@@ -66,6 +84,7 @@ public class XSCMBinOp extends CMNode {
     final CMNode getRight() {
         return fRightChild;
     }
+
 
     // -------------------------------------------------------------------
     //  Package, inherited methods
@@ -83,6 +102,7 @@ public class XSCMBinOp extends CMNode {
         else
             throw new RuntimeException("ImplementationMessages.VAL_BST");
     }
+
 
     // -------------------------------------------------------------------
     //  Protected, inherited methods
@@ -128,6 +148,7 @@ public class XSCMBinOp extends CMNode {
             throw new RuntimeException("ImplementationMessages.VAL_BST");
         }
     }
+
 
     // -------------------------------------------------------------------
     //  Private data members

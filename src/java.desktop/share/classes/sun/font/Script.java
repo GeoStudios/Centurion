@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.font;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class Script {
 
     public static final int INVALID_CODE = -1;

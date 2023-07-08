@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -30,12 +31,30 @@ import static java.lang.invoke.MethodType.methodType;.extended
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8157246
  * @summary Tests invocation of MethodHandle with invalid leading argument
  * @run testng/othervm test.java.lang.invoke.InvokeMethodHandleWithBadArgument
  */
+
+
+
+
+
 
 /**
  * Tests invocation of MethodHandle with invalid leading argument such as

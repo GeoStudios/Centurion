@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Match pattern step that contains a function.
@@ -88,6 +103,7 @@ public class FunctionPattern extends StepPattern
     super.fixupVariables(vars, globalsSize);
     m_functionExpr.fixupVariables(vars, globalsSize);
   }
+
 
   /**
    * Test a node to see if it matches the given node test.
@@ -227,6 +243,7 @@ public class FunctionPattern extends StepPattern
     {
       return m_functionExpr;
     }
+
 
     /**
      * @see ExpressionOwner#setExpression(Expression)

@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
@@ -34,6 +35,20 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Prop;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.
@@ -50,6 +65,7 @@ public class WindowsSliderUI extends BasicSliderUI
     public static ComponentUI createUI(JComponent b) {
         return new WindowsSliderUI((JSlider)b);
     }
+
 
     /**
      * Overrides to return a private track listener subclass which handles
@@ -110,6 +126,7 @@ public class WindowsSliderUI extends BasicSliderUI
 
     }
 
+
     public void paintTrack(Graphics g)  {
         XPStyle xp = XPStyle.getXP();
         if (xp != null) {
@@ -130,6 +147,7 @@ public class WindowsSliderUI extends BasicSliderUI
             super.paintTrack(g);
         }
     }
+
 
     protected void paintMinorTickForHorizSlider( Graphics g, Rectangle tickBounds, int x ) {
         XPStyle xp = XPStyle.getXP();
@@ -162,6 +180,7 @@ public class WindowsSliderUI extends BasicSliderUI
         }
         super.paintMajorTickForVertSlider(g, tickBounds, y);
     }
+
 
     public void paintThumb(Graphics g)  {
         XPStyle xp = XPStyle.getXP();

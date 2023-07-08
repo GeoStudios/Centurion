@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.com.sun.beans;
 
+
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.util.Map;
 import java.util.WeakHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A hashtable-based cache with weak keys and weak values.

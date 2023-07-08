@@ -21,6 +21,7 @@
 
 package compiler.uncommontrap;
 
+
 import compiler.testlibrary.uncommontrap.Verifier;
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.ClassWriter;
@@ -46,6 +47,19 @@ import static jdk.internal.org.objectweb.asm.Opcodes.IFEQ;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ILOAD;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ISUB;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -85,6 +99,10 @@ import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
  *                                                        never_taken_not_fired.xml
  *                                                        never_taken_fired.xml
  */
+
+
+
+
 
 public class TestUnstableIfTrap {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

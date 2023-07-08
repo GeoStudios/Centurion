@@ -21,8 +21,22 @@
 
 package gc.epsilon;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestDieWithOnError
@@ -31,6 +45,7 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver gc.epsilon.TestDieWithOnError
  */
+
 
 public class TestDieWithOnError {
 

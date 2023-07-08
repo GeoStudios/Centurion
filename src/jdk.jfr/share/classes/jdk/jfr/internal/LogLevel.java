@@ -21,6 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public enum LogLevel {
     TRACE(1),
     DEBUG(2),

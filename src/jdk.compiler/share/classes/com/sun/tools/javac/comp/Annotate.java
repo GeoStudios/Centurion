@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.Compound;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
@@ -56,6 +57,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.ASS
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.IDENT;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.NEWARRAY;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Enter annotations onto symbols and types (and trees).
  *
@@ -207,6 +222,7 @@ public class Annotate {
     ListBuffer<Runnable> typesQ = new ListBuffer<>();
     ListBuffer<Runnable> afterTypesQ = new ListBuffer<>();
 
+
     public void typeAnnotation(Runnable a) {
         typesQ.append(a);
     }
@@ -273,6 +289,7 @@ public class Annotate {
             }
         });
     }
+
 
     /** Queue processing of an attribute default value. */
     public void annotateDefaultValueLater(JCExpression defaultValue, Env<AttrContext> localEnv,

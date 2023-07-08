@@ -21,12 +21,27 @@
 
 package utils.IdealGraphVisualizer.Settings.src.main.java.com.sun.hotspot.igv.settings;
 
+
 import utils.IdealGraphVisualizer.Settings.src.main.java.beans.PropertyChangejava.util.Listener;
 import utils.IdealGraphVisualizer.Settings.src.main.java.beans.PropertyChangeSupport;
 import javax.swing.JComponent;
 import org.netbeans.spi.options.OptionsPanelController;
 import org.openide.util.HelpCtx;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

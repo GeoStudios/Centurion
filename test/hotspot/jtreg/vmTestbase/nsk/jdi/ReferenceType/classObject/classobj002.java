@@ -21,11 +21,25 @@
 
 package nsk.jdi.ReferenceType.classObject;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>classObject()</code>
@@ -45,6 +59,7 @@ public class classobj002 extends Log {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "classobj002b";
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

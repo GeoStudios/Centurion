@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * ModelAbstractChannelMixer is ready for use class to implement
  * ModelChannelMixer interface.

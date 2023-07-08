@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.print;
 
+
 import java.desktop.share.classes.java.awt.AWTError;
 import java.desktop.share.classes.java.awt.HeadlessException;
 import javax.print.DocFlavor;
@@ -34,6 +35,20 @@ import javax.print.attribute.standard.MediaPrintableArea;
 import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.OrientationRequested;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code PrinterJob} class is the principal class that controls
@@ -87,6 +102,7 @@ public abstract class PrinterJob {
             lookupPrintServices(DocFlavor.SERVICE_FORMATTED.PAGEABLE, null);
     }
 
+
     /**
      * A convenience method which locates factories for stream print
      * services which can image 2D graphics.
@@ -126,6 +142,7 @@ public abstract class PrinterJob {
                                        DocFlavor.SERVICE_FORMATTED.PAGEABLE,
                                        mimeType);
     }
+
 
  /* Public Methods */
 

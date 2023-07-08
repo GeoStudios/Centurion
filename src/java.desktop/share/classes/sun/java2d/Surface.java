@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is a tag interface for a surface.
  * @see sun.java2d.SurfaceData

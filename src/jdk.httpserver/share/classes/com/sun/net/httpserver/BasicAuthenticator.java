@@ -21,10 +21,25 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
+
 import java.nio.charset.Charset;
 import java.util.Base64;
 import java.base.share.classes.java.util.Objects;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicAuthenticator provides an implementation of HTTP Basic

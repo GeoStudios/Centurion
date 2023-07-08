@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8236721
@@ -30,6 +45,7 @@ package compiler.c2;
  *                   -Xbatch -XX:-TieredCompilation
  *                   compiler.c2.TestFoldNECompares
  */
+
 
 public class TestFoldNECompares {
 

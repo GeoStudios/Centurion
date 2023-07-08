@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.print;
 
+
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code PrinterIOException} class is a subclass of

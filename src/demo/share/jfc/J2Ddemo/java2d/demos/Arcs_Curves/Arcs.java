@@ -21,11 +21,26 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Arcs_Curves;
 
+
 import java.awt.*;
 import java.awt.geom.Arc2D;
 import java.awt.geom.AffineTransform;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
 import static java.awt.Color.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Arc2D Open, Chord & Pie arcs; Animated Pie Arc.

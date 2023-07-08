@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.util.Properties;
 import javax.xml.transform.OutputKeys;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a factory to generate a set of default properties
@@ -166,6 +181,7 @@ public final class OutputPropertiesFactory
     public static final int S_BUILTIN_OLD_EXTENSIONS_UNIVERSAL_LEN =
         S_BUILTIN_OLD_EXTENSIONS_UNIVERSAL.length();
 
+
     //************************************************************
     //*  PRIVATE CONSTANTS
     //************************************************************
@@ -298,6 +314,7 @@ public final class OutputPropertiesFactory
         if (null == m_xml_properties) {
             m_xml_properties = initProperties(PROP_XML, PROP_XML_VALUE, null);
         }
+
 
         switch (method) {
             case Method.XML:

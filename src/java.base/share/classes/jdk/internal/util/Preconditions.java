@@ -21,10 +21,25 @@
 
 package java.base.share.classes.jdk.internal.util;
 
+
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods to check if state or arguments are correct.

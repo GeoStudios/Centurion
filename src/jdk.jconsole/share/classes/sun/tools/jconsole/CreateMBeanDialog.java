@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.java.util.java.util.java.util.List;
@@ -33,6 +34,20 @@ import javax.management.ObjectName;
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.InstanceNotFoundException;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class CreateMBeanDialog extends InternalDialog
@@ -174,6 +189,7 @@ public class CreateMBeanDialog extends InternalDialog
         }
 
         super.setVisible(b);
+
 
         if (b && !wasVisible) {
             // Need to delay this to make focus stick

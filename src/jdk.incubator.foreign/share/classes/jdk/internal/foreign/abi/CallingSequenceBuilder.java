@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import sun.security.action.GetPropertyAction;
@@ -32,6 +33,20 @@ import java.util.EnumSet;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.Binding.Tag.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CallingSequenceBuilder {
     private static final boolean VERIFY_BINDINGS = Boolean.parseBoolean(

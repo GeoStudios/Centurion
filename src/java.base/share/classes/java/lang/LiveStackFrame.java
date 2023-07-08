@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.lang.StackWalker.StackFrame;
 import java.base.share.classes.java.util.EnumSet;
 import java.base.share.classes.java.util.Set;
 import static java.base.share.classes.java.lang.StackWalker.ExtendedOption.LOCALS_AND_OPERANDS;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <em>UNSUPPORTED</em> This interface is intended to be package-private
@@ -143,6 +158,7 @@ interface LiveStackFrame extends StackFrame {
             throw new UnsupportedOperationException("this " + size() + "-byte primitive");
         }
     }
+
 
     /**
      * Gets {@code StackWalker} that can get locals and operands.

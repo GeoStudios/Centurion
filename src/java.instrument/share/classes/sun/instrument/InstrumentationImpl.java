@@ -21,6 +21,7 @@
 
 package java.instrument.share.classes.sun.instrument;
 
+
 import java.lang.instrument.UnmodifiableModuleException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -41,6 +42,20 @@ import java.util.Set;
 import java.util.jar.JarFile;
 import jdk.internal.module.Modules;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java side of the JPLIS implementation. Works in concert with a native JVMTI agent
@@ -288,6 +303,7 @@ public class InstrumentationImpl implements Instrumentation {
         }
         extraProvides = tmpProvides;
 
+
         // update reads
         extraReads.forEach(m -> Modules.addReads(module, m));
 
@@ -340,6 +356,7 @@ public class InstrumentationImpl implements Instrumentation {
         return result;
     }
 
+
     private TransformerManager
     findTransformerManager(ClassFileTransformer transformer) {
         if (mTransformerManager.includesTransformer(transformer)) {
@@ -351,6 +368,7 @@ public class InstrumentationImpl implements Instrumentation {
         }
         return null;
     }
+
 
     /*
      *  Natives
@@ -399,6 +417,7 @@ public class InstrumentationImpl implements Instrumentation {
     /*
      *  Internals
      */
+
 
     // Enable or disable Java programming language access checks on a
     // reflected object (for example, a method)
@@ -487,6 +506,7 @@ public class InstrumentationImpl implements Instrumentation {
         loadClassAndStartAgent( classname, "premain", optionsString );
     }
 
+
     // WARNING: the native code knows the name & signature of this method
     private void
     loadClassAndCallAgentmain(  String  classname,
@@ -529,6 +549,7 @@ public class InstrumentationImpl implements Instrumentation {
                                     classfileBuffer);
         }
     }
+
 
     /**
      * Invoked by the java launcher to load a java agent that is packaged with

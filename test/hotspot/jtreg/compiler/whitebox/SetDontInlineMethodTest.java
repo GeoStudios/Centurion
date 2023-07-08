@@ -21,6 +21,21 @@
 
 package compiler.whitebox;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test SetDontInlineMethodTest
  * @bug 8006683 8007288 8022832
@@ -35,6 +50,7 @@ package compiler.whitebox;
  *                   -XX:CompileCommand=compileonly,compiler.whitebox.SimpleTestCaseHelper::*
  *                   compiler.whitebox.SetDontInlineMethodTest
  */
+
 
 public class SetDontInlineMethodTest extends CompilerWhiteBoxTest {
 

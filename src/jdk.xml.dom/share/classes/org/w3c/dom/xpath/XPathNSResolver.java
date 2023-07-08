@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The <code>XPathNSResolver</code> interface permit <code>prefix</code>
  * strings in the expression to be properly bound to

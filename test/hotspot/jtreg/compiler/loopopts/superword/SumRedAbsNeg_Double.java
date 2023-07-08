@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8138583
@@ -71,6 +86,7 @@ package compiler.loopopts.superword;
  *      -XX:LoopMaxUnroll=16
  *      compiler.loopopts.superword.SumRedAbsNeg_Double
  */
+
 
 public class SumRedAbsNeg_Double {
     public static void main(String[] args) throws Exception {

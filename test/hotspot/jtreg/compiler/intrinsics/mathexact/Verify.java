@@ -21,8 +21,22 @@
 
 package compiler.intrinsics.mathexact;
 
+
 import jdk.test.lib.Utils;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class depends on Utils class from testlibrary package.
@@ -69,6 +83,7 @@ public class Verify {
         }
     }
 
+
     public static void verifyUnary(int a, UnaryMethod method) {
         boolean exception1 = false, exception2 = false;
         int result1 = 0, result2 = 0;
@@ -103,6 +118,7 @@ public class Verify {
         verifyResult(method, result1, result2, exception1, exception2, a);
     }
 
+
     public static void verifyBinary(int a, int b, BinaryMethod method) {
         boolean exception1 = false, exception2 = false;
         int result1 = 0, result2 = 0;
@@ -136,6 +152,7 @@ public class Verify {
 
         verifyResult(method, result1, result2, exception1, exception2, a, b);
     }
+
 
     public static class LoadTest {
         public static Random rnd = Utils.getRandomInstance();
@@ -334,6 +351,7 @@ public class Verify {
             return method.name();
         }
     }
+
 
     public static class AddExactI implements BinaryMethod {
         @Override

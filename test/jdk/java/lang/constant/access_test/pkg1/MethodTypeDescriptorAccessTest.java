@@ -21,12 +21,26 @@
 
 package pkg1;
 
+
 import java.lang.invoke.*;
 import java.lang.invoke.MethodType;
 import java.lang.constant.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,9 @@ import static java.lang.invoke.MethodType.*;.extended
  * @compile ../pkg2/PublicClass.java ../pkg2/NonPublicClass.java
  * @run main pkg1.MethodTypeDescriptorAccessTest
  */
+
+
+
 
 public class MethodTypeDescriptorAccessTest {
     public static void main(String... args) throws Throwable {

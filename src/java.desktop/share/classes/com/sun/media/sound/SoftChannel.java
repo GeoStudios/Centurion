@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.*;
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.Patch;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Software Synthesizer MIDI channel class.
@@ -781,6 +796,7 @@ public final class SoftChannel implements MidiChannel, ModelDirectedPlayer {
                 }
                 Collections.addAll(connblocks, cds_polypressure_connections);
             }
+
 
             if (cds_channelpressure_connections != null) {
                 Iterator<ModelConnectionBlock> iter = connblocks.iterator();

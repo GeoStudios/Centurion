@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Use the {@code BeanInfo} interface

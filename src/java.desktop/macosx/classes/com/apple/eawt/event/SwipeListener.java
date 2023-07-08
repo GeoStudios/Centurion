@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Listener interface for receiving swipe events. A single swipe event
  * may be both vertical and horizontal simultaneously, invoking both

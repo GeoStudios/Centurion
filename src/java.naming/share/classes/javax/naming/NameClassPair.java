@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class represents the object name and class name pair of a binding
  * found in a context.
@@ -79,6 +95,7 @@ public class NameClassPair implements java.io.Serializable {
      * @see #setNameInNamespace
      */
     private String fullName = null;
+
 
     /**
      * Records whether the name of this {@code NameClassPair}
@@ -279,6 +296,7 @@ public class NameClassPair implements java.io.Serializable {
         return (isRelative() ? "" : "(not relative)") + getName() + ": " +
                 getClassName();
     }
+
 
     /**
      * Use serialVersionUID from JNDI 1.1.1 for interoperability

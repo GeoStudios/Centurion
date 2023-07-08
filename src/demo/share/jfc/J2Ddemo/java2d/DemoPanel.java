@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.START;.extended
 import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.STOP;.extended
 import java.awt.BorderLayout;
@@ -32,6 +33,20 @@ import javax.swing.border.BevelBorder;
 import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.SoftBevelBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The panel for the Surface, Custom Controls & Tools.

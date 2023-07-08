@@ -21,15 +21,33 @@
 
 package nsk.jdb.stop_at.stop_at003;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    THIS TEST IS LINE NUMBER SENSITIVE
+
+
+
 
 /* This is debuggee aplication */
 public class stop_at003a {
+
 
     public static void main(String args[]) {
        stop_at003a _stop_at003a = new stop_at003a();

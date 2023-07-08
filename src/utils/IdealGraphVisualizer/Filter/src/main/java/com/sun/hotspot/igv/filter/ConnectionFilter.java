@@ -21,11 +21,26 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
+
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.*;
 import utils.IdealGraphVisualizer.Filter.src.main.java.awt.Color;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Arrayjava.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
+
 import java.io.InputStream;
 import java.util.PropertyResourceBundle;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to simplify use of internationalization message strings.

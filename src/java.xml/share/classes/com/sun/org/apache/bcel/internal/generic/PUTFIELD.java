@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * PUTFIELD - Put field in object
@@ -45,14 +62,17 @@ public class PUTFIELD extends FieldInstruction implements PopInstruction, Except
     PUTFIELD() {
     }
 
+
     public PUTFIELD(final int index) {
         super(Const.PUTFIELD, index);
     }
+
 
     @Override
     public int consumeStack( final ConstantPoolGen cpg ) {
         return getFieldSize(cpg) + 1;
     }
+
 
     @Override
     public Class<?>[] getExceptions() {
@@ -60,6 +80,7 @@ public class PUTFIELD extends FieldInstruction implements PopInstruction, Except
             ExceptionConst.NULL_POINTER_EXCEPTION,
             ExceptionConst.INCOMPATIBLE_CLASS_CHANGE_ERROR);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

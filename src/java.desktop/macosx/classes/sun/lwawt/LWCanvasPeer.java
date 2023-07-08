@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
 import java.awt.peer.CanvasPeer;
 import javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link CanvasPeer}. This peer is empty, because

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //This class delegates all invokes to the charset "javaCs" if
 //its subclasses do not provide their own en/decode solution.

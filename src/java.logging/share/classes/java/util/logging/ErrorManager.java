@@ -21,6 +21,22 @@
 
 package java.logging.share.classes.java.util.logging;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * ErrorManager objects can be attached to Handlers to process
  * any error that occurs on a Handler during Logging.

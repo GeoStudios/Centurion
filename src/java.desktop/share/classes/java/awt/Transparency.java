@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Transparency} interface defines the common transparency

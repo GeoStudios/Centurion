@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class uses the alpha graybits arrays from a GlyphList object to

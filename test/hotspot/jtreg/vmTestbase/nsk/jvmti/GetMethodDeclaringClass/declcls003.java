@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetMethodDeclaringClass;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class declcls003 {
 

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.font;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -28,8 +29,25 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.desktop.unix.classes.sun.nio.cs.Surrogate;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
+
+
+
 
 public abstract class DoubleByteEncoder
     extends CharsetEncoder
@@ -64,6 +82,7 @@ public abstract class DoubleByteEncoder
         this.index1 = index1;
         this.index2 = index2;
     }
+
 
     protected DoubleByteEncoder(Charset cs,
                                 short[] index1, String[] index2,

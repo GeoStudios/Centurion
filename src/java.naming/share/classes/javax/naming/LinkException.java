@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This exception is used to describe problems encountered while resolving links.
  * Additional information is added to the base NamingException for pinpointing
@@ -47,12 +63,14 @@ package java.naming.share.classes.javax.naming;
   * @see LinkRef
   */
 
+
   /*<p>
   * The serialized form of a LinkException object consists of the
   * serialized fields of its NamingException superclass, the link resolved
   * name (a Name object), the link resolved object, link remaining name
   * (a Name object), and the link explanation String.
 */
+
 
 public class LinkException extends NamingException {
     /**

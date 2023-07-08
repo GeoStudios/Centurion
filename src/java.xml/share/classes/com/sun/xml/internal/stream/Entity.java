@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
+
 import java.io.InputStream;
 import java.io.Reader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.xml.internal.stream.util.BufferAllocator;
 import java.xml.share.classes.com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Entity information.
@@ -88,6 +103,7 @@ public abstract class Entity {
         name = entity.name;
         inExternalSubset = entity.inExternalSubset;
     } // setValues(Entity)
+
 
     /**
      * Internal entity.
@@ -230,6 +246,7 @@ public abstract class Entity {
     public static class ScannedEntity
             extends Entity {
 
+
         /** Default buffer size (4096). */
         public static final int DEFAULT_BUFFER_SIZE = 8192;
         //4096;
@@ -370,6 +387,7 @@ public abstract class Entity {
         public Reader getEntityReader(){
             return reader;
         }
+
 
         /** if entity was opened using the stream, return the associated inputstream
          * with this entity

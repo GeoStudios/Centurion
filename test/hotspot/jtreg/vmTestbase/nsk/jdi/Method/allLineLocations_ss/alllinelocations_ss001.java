@@ -21,12 +21,26 @@
 
 package nsk.jdi.Method.allLineLocations_ss;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -120,6 +134,7 @@ public class alllinelocations_ss001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -161,6 +176,7 @@ public class alllinelocations_ss001 {
             Method m         = null;
             List   locations = null;
 
+
             log2("      getting: List classes = vm.classesByName(mName + '.TestClass');");
             List classes = vm.classesByName(mName + ".TestClass");
 
@@ -172,6 +188,7 @@ public class alllinelocations_ss001 {
 
             log2("...... getting : String defaultStratum = vm.getDefaultStratum();");
             String defaultStratum = vm.getDefaultStratum();
+
 
             log2("      getting a tested Method object 'm'");
             methods = ((ReferenceType) classes.get(0)).methodsByName("primitiveargsmethod");

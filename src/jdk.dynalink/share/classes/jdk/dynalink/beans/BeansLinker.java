@@ -21,6 +21,7 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
+
 import java.lang.invoke.MethodHandles.Lookup;
 import java.util.Collections;
 import java.util.Set;
@@ -33,6 +34,20 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -40,6 +55,8 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLi
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * A linker for ordinary Java objects. Normally used as the ultimate fallback

@@ -21,11 +21,25 @@
 
 package nsk.jdb.exclude.exclude001;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is debuggee aplication */
 public class exclude001a {
@@ -68,6 +82,7 @@ public class exclude001a {
         return exclude001.PASSED;
     }
 }
+
 
 class MyThread extends Thread {
     String name;

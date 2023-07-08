@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  For the <code>H1</code> to <code>H6</code> elements. See the  H1 element
  * definition in HTML 4.0.

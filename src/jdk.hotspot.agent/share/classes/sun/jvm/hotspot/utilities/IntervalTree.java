@@ -21,12 +21,28 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
 import java.io.PrintStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Comparator;
 import java.util.java.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Derived from the example in Section 15.3 of CLR. */
+
 
 public class IntervalTree extends RBTree {
   private final Comparator<Object> endpointComparator;

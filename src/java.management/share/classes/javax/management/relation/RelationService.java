@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.relation;
 
+
 import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;.extended
 import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -47,6 +48,20 @@ import java.management.share.classes.javax.management.NotificationBroadcasterSup
 import java.management.share.classes.javax.management.Notificationjava.util.Listener;
 import java.management.share.classes.javax.management.ObjectName;
 import java.management.share.classes.javax.management.ReflectionException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Relation Service is in charge of creating and deleting relation types
@@ -1135,6 +1150,7 @@ public class RelationService extends NotificationBroadcasterSupport
                             null,
                             null);
 
+
         RELATION_LOGGER.log(Level.TRACE, "RETURN");
     }
 
@@ -1429,6 +1445,7 @@ public class RelationService extends NotificationBroadcasterSupport
         //    have to be removed (then a notification would have to be sent
         //    to inform that they should be unregistered.
 
+
         // Clones the list of notifications to be able to still receive new
         // notifications while proceeding those ones
         List<MBeanServerNotification> localUnregNtfList;
@@ -1438,6 +1455,7 @@ public class RelationService extends NotificationBroadcasterSupport
             // Resets list
             myUnregNtfList = new ArrayList<MBeanServerNotification>();
         }
+
 
         // Updates the listener filter to avoid receiving notifications for
         // those MBeans again
@@ -2796,6 +2814,7 @@ public class RelationService extends NotificationBroadcasterSupport
                 }
 // End test
 
+
 //              if (!newListenerFlag) {
                     // The Relation Service was already registered as a
                     // listener:
@@ -3162,6 +3181,7 @@ public class RelationService extends NotificationBroadcasterSupport
         RELATION_LOGGER.log(Level.TRACE, "RETURN");
         return 0;
     }
+
 
     // Initializes roles associated to given role infos to default value (empty
     // ArrayList of ObjectNames) in given relation.

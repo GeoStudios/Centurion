@@ -21,9 +21,23 @@
 
 package compiler.arraycopy;
 
+
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
 import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,10 @@ import compiler.whitebox.CompilerWhiteBoxTest;
  *                   -XX:CompileCommand=compileonly,*TestDefaultMethodArrayCloneDeoptC2Interface::test
  *                   compiler.arraycopy.TestDefaultMethodArrayCloneDeoptC2
  */
+
+
+
+
 
 interface TestDefaultMethodArrayCloneDeoptC2Interface {
     default int[] test(int[] arr) {

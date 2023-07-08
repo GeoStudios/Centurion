@@ -21,8 +21,22 @@
 
 package gc.memory.Array.ArrayJuggle.Juggle2;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm -Xlog:gc=debug:gc.log gc.memory.Array.ArrayJuggle.Juggle2.Juggle2
  */
+
+
 
 /**
  * Test that tries to confuse the GC.

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A typesafe enumeration of colors that can be fetched from a style.
  * <p>

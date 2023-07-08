@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
+
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Component;
 import java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A composite Border class used to compose two Border objects

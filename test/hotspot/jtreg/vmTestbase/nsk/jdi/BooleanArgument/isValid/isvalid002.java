@@ -21,6 +21,7 @@
 
 package nsk.jdi.BooleanArgument.isValid;
 
+
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -33,6 +34,19 @@ import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.LaunchingConnector;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The test for the implementation of an object of the type <BR>
  * Connector.BooleanArgument. <BR>
@@ -44,6 +58,7 @@ import com.sun.jdi.connect.LaunchingConnector;
  * The case for testing includes throwing NullPointerException as       <BR>
  * correct reaction to the null-parameter.                              <BR>
  */
+
 
 public class isvalid002 {
 

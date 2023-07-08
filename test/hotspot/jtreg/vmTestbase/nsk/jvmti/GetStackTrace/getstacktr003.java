@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetStackTrace;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getstacktr003 {
 
@@ -63,6 +77,7 @@ public class getstacktr003 {
                 throw new Error("Unexpected " + e);
             }
         }
+
 
         synchronized (lockOut) {
             res = check(thr);

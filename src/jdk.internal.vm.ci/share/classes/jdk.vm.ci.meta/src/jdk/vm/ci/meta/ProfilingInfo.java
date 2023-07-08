@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Provides access to the profiling information of one specific method. Every accessor method
  * returns the information that is available at the time of invocation. If a method is invoked

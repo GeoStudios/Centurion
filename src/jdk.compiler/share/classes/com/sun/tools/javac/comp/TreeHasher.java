@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCFieldAccess;
@@ -33,6 +34,20 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A tree visitor that computes a hash code. */
 public class TreeHasher extends TreeScanner {

@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.lang.ref.SoftReference;
 import java.util.HashSet;
 import java.util.HashMap;
@@ -56,6 +57,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;.extend
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.externalize;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class containing various operations on types.
@@ -3086,6 +3101,7 @@ public class Types {
     }
     // </editor-fold>
 
+
     /** Return first abstract member of class `sym'.
      */
     public MethodSymbol firstUnimplementedAbstract(ClassSymbol sym) {
@@ -4800,6 +4816,7 @@ public class Types {
         }
     }
 
+
     /**
      * Create a wildcard with the given upper (extends) bound; create
      * an unbounded wildcard if bound is Object.
@@ -5003,6 +5020,7 @@ public class Types {
         }
     }
     // </editor-fold>
+
 
     // <editor-fold defaultstate="collapsed" desc="Annotation support">
 

@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
+
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
@@ -32,6 +33,20 @@ import java.net.UnknownHostException;
 import java.security.Provider;
 import java.base.share.classes.java.util.Locale;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the GSSNameSpi for the krb5 mechanism.
@@ -255,6 +270,7 @@ public class Krb5NameElement
     public int hashCode() {
         return 37 * 17 + krb5PrincipalName.getName().hashCode();
     }
+
 
     /**
      * Returns the principal name in the form user@REALM or

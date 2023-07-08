@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
+
 import java.awt.image.ColorModel;
 import java.awt.image.SampleModel;
 import java.base.share.classes.java.util.Locale;
@@ -29,6 +30,20 @@ import javax.imageio.ImageWriter;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.PaletteBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GIFImageWriterSpi extends ImageWriterSpi {
 

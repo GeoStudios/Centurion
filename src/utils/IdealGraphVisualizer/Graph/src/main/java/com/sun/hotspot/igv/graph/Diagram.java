@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph;
 
+
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputBlock;
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputEdge;
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputGraph;
@@ -29,6 +30,20 @@ import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.P
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
 import utils.IdealGraphVisualizer.Graph.src.main.java.awt.Font;
 import utils.IdealGraphVisualizer.Graph.src.main.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -186,6 +201,7 @@ public class Diagram {
                 c.setStyle(Connection.ConnectionStyle.DASHED);
             }
         }
+
 
         return d;
     }

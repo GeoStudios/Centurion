@@ -21,11 +21,26 @@
 
 package java.base.share.classes.java.io;
 
+
 import java.base.share.classes.java.util.Formatter;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.nio.charset.Charset;
 import java.base.share.classes.java.nio.charset.IllegalCharsetNameException;
 import java.base.share.classes.java.nio.charset.UnsupportedCharsetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code PrintStream} adds functionality to another output stream,
@@ -357,6 +372,7 @@ public class PrintStream extends FilterOutputStream
         // ensure charset is checked before the file is opened
         this(false, toCharset(csn), new FileOutputStream(file));
     }
+
 
     /**
      * Creates a new print stream, without automatic line flushing, with the
@@ -857,6 +873,7 @@ public class PrintStream extends FilterOutputStream
         write(String.valueOf(obj));
     }
 
+
     /* Methods that do terminate lines */
 
     /**
@@ -1035,6 +1052,7 @@ public class PrintStream extends FilterOutputStream
             }
         }
     }
+
 
     /**
      * A convenience method to write a formatted string to this output stream

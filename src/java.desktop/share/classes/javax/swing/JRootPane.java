@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
@@ -33,6 +34,20 @@ import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.border.*;
 import sun.awt.AWTAccessor;
 import sun.security.action.GetBooleanAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A lightweight container used behind the scenes by
@@ -424,6 +439,7 @@ public class JRootPane extends JComponent implements Accessible {
         super.setUI(ui);
     }
 
+
     /**
      * Resets the UI property to a value from the current look and feel.
      *
@@ -432,6 +448,7 @@ public class JRootPane extends JComponent implements Accessible {
     public void updateUI() {
         setUI((RootPaneUI)UIManager.getUI(this));
     }
+
 
     /**
      * Returns a string that specifies the name of the L&amp;F class
@@ -714,6 +731,7 @@ public class JRootPane extends JComponent implements Accessible {
         super.removeNotify();
     }
 
+
     /**
      * Sets the <code>defaultButton</code> property,
      * which determines the current default button for this <code>JRootPane</code>.
@@ -801,9 +819,11 @@ public class JRootPane extends JComponent implements Accessible {
         }
     }
 
+
 ///////////////////////////////////////////////////////////////////////////////
 //// Begin Inner Classes
 ///////////////////////////////////////////////////////////////////////////////
+
 
     /**
      * A custom layout manager that is responsible for the layout of

@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -104,6 +119,7 @@ public class ErrorMessages_es extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "La plantilla ''{0}'' ya se ha definido en esta hoja de estilo."},
+
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -680,8 +696,10 @@ public class ErrorMessages_es extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "El valor del par\u00E1metro {0} debe ser un objeto Java v\u00E1lido"},
 
+
         {ErrorMsg.COMPILE_STDIN_ERR,
         "La opci\u00F3n -i debe utilizarse con la opci\u00F3n -o."},
+
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -706,6 +724,8 @@ public class ErrorMessages_es extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "SYNOPSIS \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <archivo jar>]\n      [-x] [-n <iteraciones>] {-u <url_documento> | <documento>}\n      <clase> [<par\u00E1metro1>=<valor1> ...]\n\n   utiliza el translet <clase> para transformar un documento XML \n   especificado como <documento>. El translet <clase> se encuentra en\n   la CLASSPATH del usuario o en el <archivo jar> especificado opcionalmente.\nOPCIONES\n   -j <archivo jar>    especifica un archivo jar desde el que cargar el translet\n   -x              activa la salida del mensaje de depuraci\u00F3n adicional\n   -n <iteraciones> ejecuta el n\u00FAmero de <iteraciones> de una transformaci\u00F3n y\n                   muestra la informaci\u00F3n de la creaci\u00F3n de perfil\n   -u <url_documento> especifica el documento de entrada XML como una URL\n"},
+
+
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -963,6 +983,7 @@ public class ErrorMessages_es extends ListResourceBundle {
         {ErrorMsg.OUTLINE_ERR_DELETED_TARGET,
          "Error interno de XSLTC: todav\u00EDa se hace referencia a una instrucci\u00F3n que formaba parte de un bloque de c\u00F3digo de bytes delimitado en el m\u00E9todo original."
         },
+
 
         /*
          * Note to translators:  This message describes an internal error in the

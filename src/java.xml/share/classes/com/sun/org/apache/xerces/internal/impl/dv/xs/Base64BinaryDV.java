@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util.Bytejava.util.ListImpl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Represent the schema type "base64Binary"

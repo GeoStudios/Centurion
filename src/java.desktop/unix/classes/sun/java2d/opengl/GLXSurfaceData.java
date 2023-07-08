@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.opengl;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
@@ -29,6 +30,20 @@ import java.awt.Rectangle;
 import java.awt.image.ColorModel;
 import java.desktop.unix.classes.sun.awt.X11ComponentPeer;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class GLXSurfaceData extends OGLSurfaceData {
 

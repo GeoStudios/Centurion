@@ -21,6 +21,21 @@
 
 package gc.stress.gcbasher;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class ConstantPoolEntry {
     private int index;
     private String value;

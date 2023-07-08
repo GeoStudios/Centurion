@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
 
+
 import javax.xml.transform.TransformerException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
@@ -36,10 +37,28 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.util.java.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * The 'here()' function returns a node-set containing the attribute or

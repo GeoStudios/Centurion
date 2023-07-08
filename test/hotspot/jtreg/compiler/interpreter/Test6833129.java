@@ -21,6 +21,21 @@
 
 package compiler.interpreter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6833129
@@ -28,6 +43,7 @@ package compiler.interpreter;
  * @run main/othervm -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+DeoptimizeALot
  *      compiler.interpreter.Test6833129
  */
+
 
 public class Test6833129 {
     public static void init(int src[]) {

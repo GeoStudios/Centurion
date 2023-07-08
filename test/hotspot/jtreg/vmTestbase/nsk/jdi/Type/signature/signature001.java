@@ -21,12 +21,26 @@
 
 package nsk.jdi.Type.signature;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -268,6 +282,7 @@ public class signature001 {
                             log3("ERROR: !shSignature.equals('S')");
                         }
                         break;
+
 
                 default: expresult = 2;
                          break ;

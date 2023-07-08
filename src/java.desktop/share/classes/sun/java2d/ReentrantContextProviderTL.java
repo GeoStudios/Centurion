@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
 import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * This ReentrantContextProvider implementation uses a ThreadLocal to hold

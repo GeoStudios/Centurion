@@ -21,6 +21,7 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
+
 import java.nio.file.Path;
 import java.text.MessageFormat;
 import java.util.Collections;
@@ -35,6 +36,20 @@ import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerPa
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.FA_CONTENT_TYPE;.extended
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.FA_ICON;.extended
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.FA_DESCRIPTION;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class FileAssociation {
     void verify() {

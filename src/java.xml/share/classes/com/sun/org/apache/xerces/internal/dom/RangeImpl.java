@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.CharacterData;
@@ -29,6 +30,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.ranges.Range;
 import java.xml.share.classes.com.sun.org.w3c.dom.ranges.RangeException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The RangeImpl class implements the org.w3c.dom.range.Range interface.
  *  <p> Please see the API documentation for the interface classes
@@ -43,6 +58,7 @@ public class RangeImpl  implements Range {
     //
     // Constants
     //
+
 
     //
     // Data
@@ -153,6 +169,7 @@ public class RangeImpl  implements Range {
         }
         return result;
     }
+
 
     public void setStart(Node refNode, int offset)
                          throws RangeException, DOMException
@@ -686,6 +703,7 @@ public class RangeImpl  implements Range {
              // signal other Ranges to update their start/end containers/offsets
              signalSplitData(fStartContainer, cloneCurrent, fStartOffset);
 
+
         } else { // ! TEXT_NODE
             if ( fEndContainer == fStartContainer )      //need to remember number of kids
                 currentChildren= fEndContainer.getChildNodes().getLength();
@@ -888,6 +906,7 @@ public class RangeImpl  implements Range {
         fDeleteNode = null;
     }
 
+
     /** This function is called from DOM.
      *  The  text has already beeen inserted.
      *  Fix-up any offsets.
@@ -924,6 +943,7 @@ public class RangeImpl  implements Range {
         node.insertData( index,  insert);
         fInsertNode = null;
     }
+
 
     /** This function is called from DOM.
      *  The  text has already beeen inserted.
@@ -1108,6 +1128,7 @@ public class RangeImpl  implements Range {
         // case 1: same container
         if ( fStartContainer == fEndContainer )
             return traverseSameContainer( how );
+
 
         // case 2: Child C of start container is ancestor of end container
         // This can be quickly tested by walking the parent chain of
@@ -1941,6 +1962,7 @@ public class RangeImpl  implements Range {
                 return true;
         }
 
+
         /**
          * Finds the root container for the given node and determines
          * if that root container is legal with respect to the
@@ -2001,6 +2023,7 @@ public class RangeImpl  implements Range {
         if (result != null) {
             return result;
         }
+
 
         // return parent's 1st sibling.
         Node parent = node.getParentNode();

@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.BasicStroke;
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
@@ -48,6 +49,20 @@ import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Icons appropriate for the Windows {@literal L & F}.
@@ -161,6 +176,7 @@ public class WindowsIconFactory implements Serializable
             frame_resizeIcon = new ResizeIcon();
         return frame_resizeIcon;
     }
+
 
     @SuppressWarnings("serial") // Same-version serialization only
     private static class FrameButtonIcon implements Icon, Serializable {
@@ -296,6 +312,8 @@ public class WindowsIconFactory implements Serializable
             return height;
         }
     }
+
+
 
         @SuppressWarnings("serial") // Same-version serialization only
         private static class ResizeIcon implements Icon, Serializable {
@@ -482,6 +500,7 @@ public class WindowsIconFactory implements Serializable
                 }
                 g.fillRect(x+2, y+2, 8, 8);
 
+
                 boolean isScaledGraphics = SwingUtilities2.isScaledGraphics(g);
 
                 if (isScaledGraphics) {
@@ -539,6 +558,7 @@ public class WindowsIconFactory implements Serializable
                     g.drawLine(x+11, y+7, x+11, y+4);
                     g.drawLine(x+10, y+3, x+10, y+2);
 
+
                     // inner left arc
                     g.setColor(UIManager.getColor("RadioButton.darkShadow"));
                     g.drawLine(x+4, y+1, x+7, y+1);
@@ -548,6 +568,7 @@ public class WindowsIconFactory implements Serializable
                     g.drawLine(x+1, y+4, x+1, y+7);
                     g.drawLine(x+2, y+8, x+2, y+8);
 
+
                     // inner right arc
                     g.setColor(UIManager.getColor("RadioButton.light"));
                     g.drawLine(x+2,  y+9,  x+3,  y+9);
@@ -556,6 +577,7 @@ public class WindowsIconFactory implements Serializable
                     g.drawLine(x+9,  y+8,  x+9,  y+8);
                     g.drawLine(x+10, y+7,  x+10, y+4);
                     g.drawLine(x+9,  y+3,  x+9,  y+3);
+
 
                      // indicate whether selected or not
                     if (model.isSelected()) {
@@ -590,6 +612,7 @@ public class WindowsIconFactory implements Serializable
         }
     } // end class RadioButtonIcon
 
+
     @SuppressWarnings("serial") // Same-version serialization only
     private static class CheckBoxMenuItemIcon implements Icon, UIResource, Serializable
     {
@@ -615,6 +638,7 @@ public class WindowsIconFactory implements Serializable
 
     } // End class CheckBoxMenuItemIcon
 
+
     @SuppressWarnings("serial") // Same-version serialization only
     private static class RadioButtonMenuItemIcon implements Icon, UIResource, Serializable
     {
@@ -630,6 +654,7 @@ public class WindowsIconFactory implements Serializable
         public int getIconHeight() { return 12; }
 
     } // End class RadioButtonMenuItemIcon
+
 
     @SuppressWarnings("serial") // Same-version serialization only
     private static class MenuItemCheckIcon implements Icon, UIResource, Serializable{

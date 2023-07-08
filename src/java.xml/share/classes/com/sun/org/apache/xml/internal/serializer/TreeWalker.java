@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.Attjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.DOM2Helper;
 import javax.xml.transform.Result;
@@ -35,6 +36,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class does a pre-order walk of the DOM tree, calling a ContentHandler
@@ -292,6 +307,7 @@ public final class TreeWalker
       NamedNodeMap atts = elem_node.getAttributes();
       int nAttrs = atts.getLength();
       // System.out.println("TreeWalker#startNode: "+node.getNodeName());
+
 
       // Make sure the namespace node of
       // each attribute is declared to the ContentHandler

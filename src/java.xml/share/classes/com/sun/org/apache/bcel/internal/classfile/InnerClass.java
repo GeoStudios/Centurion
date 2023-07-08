@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents a inner class attribute, i.e., the class
@@ -45,6 +63,7 @@ public final class InnerClass implements Cloneable, Node {
     private int innerNameIndex;
     private int innerAccessFlags;
 
+
     /**
      * Initialize from another object.
      */
@@ -52,6 +71,7 @@ public final class InnerClass implements Cloneable, Node {
         this(c.getInnerClassIndex(), c.getOuterClassIndex(), c.getInnerNameIndex(), c
                 .getInnerAccessFlags());
     }
+
 
     /**
      * Construct object from file stream.
@@ -62,6 +82,7 @@ public final class InnerClass implements Cloneable, Node {
         this(file.readUnsignedShort(), file.readUnsignedShort(), file.readUnsignedShort(), file
                 .readUnsignedShort());
     }
+
 
     /**
      * @param innerClassIndex Class index in constant pool of inner class
@@ -77,6 +98,7 @@ public final class InnerClass implements Cloneable, Node {
         this.innerAccessFlags = innerAccessFlags;
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -88,6 +110,7 @@ public final class InnerClass implements Cloneable, Node {
     public void accept( final Visitor v ) {
         v.visitInnerClass(this);
     }
+
 
     /**
      * Dump inner class attribute to file stream in binary format.
@@ -102,12 +125,14 @@ public final class InnerClass implements Cloneable, Node {
         file.writeShort(innerAccessFlags);
     }
 
+
     /**
      * @return access flags of inner class.
      */
     public int getInnerAccessFlags() {
         return innerAccessFlags;
     }
+
 
     /**
      * @return class index of inner class.
@@ -116,12 +141,14 @@ public final class InnerClass implements Cloneable, Node {
         return innerClassIndex;
     }
 
+
     /**
      * @return name index of inner class.
      */
     public int getInnerNameIndex() {
         return innerNameIndex;
     }
+
 
     /**
      * @return class index of outer class.
@@ -130,12 +157,14 @@ public final class InnerClass implements Cloneable, Node {
         return outerClassIndex;
     }
 
+
     /**
      * @param innerAccessFlags access flags for this inner class
      */
     public void setInnerAccessFlags( final int innerAccessFlags ) {
         this.innerAccessFlags = innerAccessFlags;
     }
+
 
     /**
      * @param innerClassIndex index into the constant pool for this class
@@ -144,6 +173,7 @@ public final class InnerClass implements Cloneable, Node {
         this.innerClassIndex = innerClassIndex;
     }
 
+
     /**
      * @param innerNameIndex index into the constant pool for this class's name
      */
@@ -151,12 +181,14 @@ public final class InnerClass implements Cloneable, Node {
         this.innerNameIndex = innerNameIndex;
     }
 
+
     /**
      * @param outerClassIndex index into the constant pool for the owning class
      */
     public void setOuterClassIndex( final int outerClassIndex ) { // TODO unused
         this.outerClassIndex = outerClassIndex;
     }
+
 
     /**
      * @return String representation.
@@ -166,6 +198,7 @@ public final class InnerClass implements Cloneable, Node {
         return "InnerClass(" + innerClassIndex + ", " + outerClassIndex + ", "
                 + innerNameIndex + ", " + innerAccessFlags + ")";
     }
+
 
     /**
      * @return Resolved string representation
@@ -193,6 +226,7 @@ public final class InnerClass implements Cloneable, Node {
         access = access.isEmpty() ? "" : (access + " ");
         return "  " + access + inner_name + "=class " + inner_class_name + outer_class_name;
     }
+
 
     /**
      * @return deep copy of this object

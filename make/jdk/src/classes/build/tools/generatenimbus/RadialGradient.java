@@ -21,6 +21,56 @@
 
 package build.tools.generatenimbus;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class RadialGradient extends AbstractGradient {
     RadialGradient(XMLStreamReader reader) throws XMLStreamException {
         super(reader);

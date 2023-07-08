@@ -21,8 +21,23 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.io.ObjectStreamException;
 import java.lang.reflect.Array;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ArrayType} class is the <i>open type</i> class whose instances describe
@@ -650,6 +665,7 @@ public class ArrayType<T> extends OpenType<T> {
                 at.isPrimitiveArray() == isPrimitiveArray() &&
                 at.getElementOpenType().isAssignableFrom(getElementOpenType()));
     }
+
 
     /* *** Methods overriden from class Object *** */
 

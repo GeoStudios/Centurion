@@ -21,7 +21,21 @@
 
 package vm.compiler.complog.uninit.uninit009;
 
+
 import vm.compiler.complog.share.Constants;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,7 @@ import vm.compiler.complog.share.Constants;
  *      -parserClass vm.compiler.complog.uninit.UninitializedTrapCounter
  *      -parserOptions "-classFilter=.*uninit.*"
  */
+
 
 /**
  * Provoke OSR in initializer of super class with 'new' calls of it's subclass.

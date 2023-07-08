@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
 import java.xml.share.classes.com.sun.xml.internal.stream.XMLEntityStorage;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,6 +43,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.xml.internal.stream.Entity;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import java.xml.share.classes.com.sun.xml.stream.XMLEntityManager;
 //import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -279,6 +294,7 @@ public abstract class XMLScanner
                         init();
                         return;
                 }
+
 
         // Xerces properties
         fSymbolTable = (SymbolTable)componentManager.getProperty(SYMBOL_TABLE);
@@ -1005,6 +1021,7 @@ public abstract class XMLScanner
         }
     } // scanAttributeValue()
 
+
     /**
      * Resolves character entity references.
      * @param entityName the name of the entity
@@ -1109,6 +1126,7 @@ public abstract class XMLScanner
         identifiers[1] = publicId;
     }
 
+
     /**
      * Scans public ID literal.
      *
@@ -1169,6 +1187,7 @@ public abstract class XMLScanner
         }
         return dataok;
     }
+
 
     /**
      * Normalize whitespace in an XMLString converting all whitespace
@@ -1453,6 +1472,7 @@ public abstract class XMLScanner
         return true;
 
     } // scanSurrogates():boolean
+
 
     /**
      * Convenience function used in all XML scanners.

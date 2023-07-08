@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A <code>SizeSequence</code> object
  * efficiently maintains an ordered list

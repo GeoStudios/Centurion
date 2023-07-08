@@ -21,11 +21,26 @@
 
 package demo.share.jfc.FileChooserDemo;
 
+
 import javax.swing.*;
 import javax.swing.filechooser.*;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,6 +49,10 @@ import java.util.Map;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * A convenience implementation of the FileView interface that

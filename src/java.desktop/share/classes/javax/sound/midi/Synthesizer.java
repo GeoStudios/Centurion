@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code Synthesizer} generates sound. This usually happens when one of the
  * {@code Synthesizer}'s {@link MidiChannel} objects receives a

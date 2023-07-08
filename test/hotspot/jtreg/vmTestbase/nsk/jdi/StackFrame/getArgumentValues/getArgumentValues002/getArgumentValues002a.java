@@ -21,8 +21,22 @@
 
 package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues002;
 
+
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Debuggee class, starts test thread which has stack with many frames
 public class getArgumentValues002a extends AbstractJDIDebuggee {

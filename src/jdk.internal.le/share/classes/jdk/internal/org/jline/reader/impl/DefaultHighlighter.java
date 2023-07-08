@@ -21,6 +21,7 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
+
 import java.util.regex.Pattern;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.LineReader;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.LineReader.RegionType;
@@ -29,6 +30,20 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStri
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStringBuilder;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.WCWidth;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultHighlighter implements Highlighter {
     private Pattern errorPattern;

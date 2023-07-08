@@ -21,8 +21,22 @@
 
 package compiler.jvmci.common.testcases;
 
+
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface MultipleImplementersInterface {
 

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
@@ -31,6 +32,20 @@ import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the main Xerces SAX parser class. It uses the abstract SAX
@@ -77,6 +92,7 @@ public class SAXParser
         SYMBOL_TABLE,
         XMLGRAMMAR_POOL,
     };
+
 
     //
     // Constructors

@@ -21,12 +21,27 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import java.util.Timer;
 import javax.swing.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XPlottingViewer extends PlotterPanel implements ActionListener {

@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is used for reading resources requested in &lt;include&gt; elements in

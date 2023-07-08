@@ -21,6 +21,7 @@
 
 package parsers;
 
+
 import java.io.StringReader;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -31,6 +32,19 @@ import org.xml.sax.helpers.DefaultHandler;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -60,6 +74,7 @@ public class HandleError {
             }
         });
     }
+
 
     /*
      * Verifies that the parser throws SAXParseException when parsing error is

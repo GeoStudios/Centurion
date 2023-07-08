@@ -21,7 +21,58 @@
 
 package build.tools.projectcreator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class WinGammaPlatformVC10 extends WinGammaPlatform {
+
 
    LinkedList <String>filters = new LinkedList<String>();
    LinkedList <String[]>filterDeps = new LinkedList<String[]>();
@@ -134,6 +185,7 @@ public class WinGammaPlatformVC10 extends WinGammaPlatform {
         writeFilterFile(projectFileName, projectName, allConfigs, projDir);
         writeUserFile(projectFileName, allConfigs);
     }
+
 
     private void writeUserFile(String projectFileName, Vector<BuildConfig> allConfigs) throws FileNotFoundException, UnsupportedEncodingException {
         String userFileName = projectFileName + ".user";

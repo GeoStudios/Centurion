@@ -21,6 +21,21 @@
 
 package compiler.interpreter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestVerifyStackAfterDeopt
  * @bug 8148871
@@ -32,6 +47,7 @@ package compiler.interpreter;
  *                   -XX:+DeoptimizeALot -XX:+VerifyStack
  *                   compiler.interpreter.TestVerifyStackAfterDeopt
  */
+
 
 public class TestVerifyStackAfterDeopt {
 

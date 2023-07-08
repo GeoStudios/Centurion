@@ -21,7 +21,21 @@
 
 package jit.misctests.clss14702;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.misctests.clss14702.clss14702
  */
+
+
 
 public class  clss14702 {
     static int ML = 1;

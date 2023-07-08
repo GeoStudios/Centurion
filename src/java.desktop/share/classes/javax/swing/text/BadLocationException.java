@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This exception is to report bad locations within a document model
  * (that is, attempts to reference a location that doesn't exist).

@@ -21,9 +21,24 @@
 
 package java.base.unix.classes.java.io;
 
+
 import java.base.unix.classes.java.util.Properties;
 import jdk.internal.util.StaticProperty;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class UnixFileSystem extends FileSystem {
 
@@ -41,6 +56,7 @@ class UnixFileSystem extends FileSystem {
         cache = useCanonCaches ? new ExpiringCache() : null;
         javaHomePrefixCache = useCanonPrefixCache ? new ExpiringCache() : null;
     }
+
 
     /* -- Normalization and construction -- */
 
@@ -125,6 +141,7 @@ class UnixFileSystem extends FileSystem {
         }
         return p;
     }
+
 
     /* -- Path operations -- */
 
@@ -376,6 +393,7 @@ class UnixFileSystem extends FileSystem {
     public int hashCode(File f) {
         return f.getPath().hashCode() ^ 1234321;
     }
+
 
     private static native void initIDs();
 

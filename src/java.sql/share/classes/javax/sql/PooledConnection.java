@@ -21,8 +21,23 @@
 
 package java.sql.share.classes.javax.sql;
 
+
 import java.sql.Connection;
 import java.sql.SQLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that provides hooks for connection pool management.

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -30,6 +31,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
 import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XML non-validating parser engine.
@@ -2961,6 +2976,7 @@ public abstract class Parser {
                 return null;
         }
     }
+
 
     /**
      * Using a mature technique from Xerces, this method checks further after

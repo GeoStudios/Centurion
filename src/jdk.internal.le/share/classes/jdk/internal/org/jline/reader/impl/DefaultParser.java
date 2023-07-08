@@ -21,6 +21,7 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
+
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.regex.Matcher;
@@ -29,6 +30,20 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.CompletingPar
 import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.EOFError;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.ParsedLine;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Parser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultParser implements Parser {
 
@@ -189,6 +204,7 @@ public class DefaultParser implements Parser {
     public boolean validVariableName(String name) {
         return name != null && name.matches(regexVariable);
     }
+
 
     @Override
     public String getCommand(final String line) {

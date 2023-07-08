@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.io.BufferedInputStream;
 import java.base.share.classes.java.io.BufferedOutputStream;
 import java.base.share.classes.java.io.Console;
@@ -82,6 +83,20 @@ import sun.nio.fs.DefaultFileSystemProvider;
 import sun.reflect.annotation.AnnotationType;
 import sun.nio.ch.Interruptible;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code System} class contains several useful class fields
@@ -1091,6 +1106,7 @@ public final class System {
         return ProcessEnvironment.getenv(name);
     }
 
+
     /**
      * Returns an unmodifiable string map view of the current system environment.
      * The environment is a system-dependent mapping from names to
@@ -1687,6 +1703,7 @@ public final class System {
             return accessProvider();
         }
 
+
         private static volatile LoggerFinder service;
         @SuppressWarnings("removal")
         static LoggerFinder accessProvider() {
@@ -1703,6 +1720,7 @@ public final class System {
         }
 
     }
+
 
     /**
      * Returns an instance of {@link Logger Logger} for the caller's
@@ -2105,6 +2123,7 @@ public final class System {
         // way as other threads; we must do it ourselves here.
         Thread current = Thread.currentThread();
         current.getThreadGroup().add(current);
+
 
         // Subsystems that are invoked during initialization can invoke
         // VM.isBooted() in order to avoid doing things that should

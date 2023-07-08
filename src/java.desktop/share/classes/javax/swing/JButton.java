@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.beans.BeanProperty;
 import java.beans.ConstructorProperties;
 import java.beans.JavaBean;
@@ -31,6 +32,20 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of a "push" button.
@@ -136,6 +151,7 @@ public class JButton extends AbstractButton implements Accessible {
         setUI((ButtonUI)UIManager.getUI(this));
     }
 
+
     /**
      * Returns a string that specifies the name of the L&amp;F class
      * that renders this component.
@@ -149,6 +165,7 @@ public class JButton extends AbstractButton implements Accessible {
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * Gets the value of the <code>defaultButton</code> property,
@@ -236,6 +253,7 @@ public class JButton extends AbstractButton implements Accessible {
         }
     }
 
+
     /**
      * Returns a string representation of this <code>JButton</code>.
      * This method is intended to be used only for debugging purposes, and the
@@ -251,6 +269,7 @@ public class JButton extends AbstractButton implements Accessible {
         return super.paramString() +
             ",defaultCapable=" + defaultCapableString;
     }
+
 
 /////////////////
 // Accessibility support

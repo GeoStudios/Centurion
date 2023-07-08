@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Windows look and feel for a password field.
@@ -62,6 +77,7 @@ public class BasicPasswordFieldUI extends BasicTextFieldUI {
     protected String getPropertyPrefix() {
         return "PasswordField";
     }
+
 
     /**
      * Installs the necessary properties on the JPasswordField.

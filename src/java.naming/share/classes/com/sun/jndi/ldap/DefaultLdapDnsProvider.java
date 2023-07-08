@@ -21,12 +21,27 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import javax.naming.NamingException;
 import javax.naming.ldap.spi.LdapDnsProviderResult;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultLdapDnsProvider {
 

@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -37,6 +52,7 @@ public final class ConstantInteger extends Constant implements ConstantObject {
 
     private int bytes;
 
+
     /**
      * @param bytes Data
      */
@@ -45,12 +61,14 @@ public final class ConstantInteger extends Constant implements ConstantObject {
         this.bytes = bytes;
     }
 
+
     /**
      * Initialize from another object.
      */
     public ConstantInteger(final ConstantInteger c) {
         this(c.getBytes());
     }
+
 
     /**
      * Initialize instance from file data.
@@ -61,6 +79,7 @@ public final class ConstantInteger extends Constant implements ConstantObject {
     ConstantInteger(final DataInput file) throws IOException {
         this(file.readInt());
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -74,6 +93,7 @@ public final class ConstantInteger extends Constant implements ConstantObject {
         v.visitConstantInteger(this);
     }
 
+
     /**
      * Dump constant integer to file stream in binary format.
      *
@@ -86,12 +106,14 @@ public final class ConstantInteger extends Constant implements ConstantObject {
         file.writeInt(bytes);
     }
 
+
     /**
      * @return data, i.e., 4 bytes.
      */
     public int getBytes() {
         return bytes;
     }
+
 
     /**
      * @param bytes the raw bytes that represent this integer
@@ -100,6 +122,7 @@ public final class ConstantInteger extends Constant implements ConstantObject {
         this.bytes = bytes;
     }
 
+
     /**
      * @return String representation.
      */
@@ -107,6 +130,7 @@ public final class ConstantInteger extends Constant implements ConstantObject {
     public String toString() {
         return super.toString() + "(bytes = " + bytes + ")";
     }
+
 
     /** @return Integer object
      */

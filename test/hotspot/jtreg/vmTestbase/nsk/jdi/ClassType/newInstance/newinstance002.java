@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassType.newInstance;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -159,6 +173,7 @@ public class newinstance002 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -198,6 +213,7 @@ public class newinstance002 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -225,6 +241,7 @@ public class newinstance002 {
                     expresult = returnCode1;
                     break label0;
                 }
+
 
                 listIterator = allThreads.listIterator();
                 for (;;) {
@@ -272,6 +289,7 @@ public class newinstance002 {
                     break label1;
                 log2("      thread2 is at breakpoint");
 
+
                 log2("......getting ClassType classType - an object to apply newInstance()");
                 classes     = vm.classesByName(testedClassName);
                 testedClass = (ReferenceType) classes.get(0);
@@ -300,6 +318,7 @@ public class newinstance002 {
                     break label1;
                 }
 
+
                 ObjectReference objRef = null;
 
                 log2("......ObjectReference objRef = classType.newInstance(thread2, invokeMethod, Arrays.asList(thread2), 0);");
@@ -309,6 +328,7 @@ public class newinstance002 {
                                      invokeMethod, Arrays.asList(thread2), 0);
                     if (objRef == null)
                         log2("       objRe == null");
+
 
                     log2("        ReferenceType refType = objRef.referenceType();");
                     ReferenceType refType = objRef.referenceType();
@@ -359,6 +379,7 @@ public class newinstance002 {
         }
         return testExitCode;
     }
+
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
@@ -417,6 +438,7 @@ public class newinstance002 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This implementation of NamespaceContext has the ability to maintain multiple

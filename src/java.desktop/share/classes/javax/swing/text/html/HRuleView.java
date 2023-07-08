@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.util.Enumeration;
 import java.lang.Integer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A view implementation to display an html horizontal
@@ -159,6 +174,7 @@ class HRuleView extends View  {
         }
 
     }
+
 
     /**
      * Calculates the desired shape of the rule... this is

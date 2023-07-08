@@ -21,8 +21,22 @@
 
 package gc.gctests.MTasyncGC;
 
+
 import java.util.Vector;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -43,6 +57,8 @@ import nsk.share.TestFailure;
  * @run main/othervm gc.gctests.MTasyncGC.MTasyncGC
  */
 
+
+
 // Each thread creates 1Meg of garbage in the run() method.
 
 class MemEvil extends Thread {
@@ -60,6 +76,7 @@ class MemEvil extends Thread {
         }
    }
 }
+
 
 public class MTasyncGC {
 

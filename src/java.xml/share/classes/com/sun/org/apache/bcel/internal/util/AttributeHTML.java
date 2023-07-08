@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -41,10 +42,27 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVa
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.SourceFile;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Convert found attributes into HTML file.
@@ -59,6 +77,7 @@ final class AttributeHTML {
     private final ConstantHTML constant_html;
     private final ConstantPool constant_pool;
 
+
     AttributeHTML(final String dir, final String class_name, final ConstantPool constant_pool,
             final ConstantHTML constant_html) throws IOException {
         this.class_name = class_name;
@@ -68,19 +87,23 @@ final class AttributeHTML {
         file.println("<HTML><BODY BGCOLOR=\"#C0C0C0\"><TABLE BORDER=0>");
     }
 
+
     private String codeLink( final int link, final int method_number ) {
         return "<A HREF=\"" + class_name + "_code.html#code" + method_number + "@" + link
                 + "\" TARGET=Code>" + link + "</A>";
     }
+
 
     void close() {
         file.println("</TABLE></BODY></HTML>");
         file.close();
     }
 
+
     void writeAttribute( final Attribute attribute, final String anchor ) {
         writeAttribute(attribute, anchor, 0);
     }
+
 
     void writeAttribute( final Attribute attribute, final String anchor, final int method_number ) {
         final byte tag = attribute.getTag();

@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -34,6 +48,7 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test5057225::doload
  *      compiler.c2.Test5057225
  */
+
 
 public class Test5057225 {
     static byte[]  ba = new byte[]  { -1 };

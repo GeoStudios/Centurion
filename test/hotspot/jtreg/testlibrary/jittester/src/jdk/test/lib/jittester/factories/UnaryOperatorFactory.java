@@ -21,11 +21,25 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.OperatorKind;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class UnaryOperatorFactory extends OperatorFactory<UnaryOperator> {
     protected final OperatorKind opKind;

@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth;
 
+
 import java.util.Set;
 import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
@@ -30,6 +31,19 @@ import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;.extended
 import static vm.runtime.defmeth.shared.data.method.body.CallMethod.Invoke.*;.extended
 import static vm.runtime.defmeth.shared.data.method.body.CallMethod.IndexbyteOp.*;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -46,6 +60,9 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.PrivateMethodsTest
  */
+
+
+
 
 /**
  * Scenarios on private methods in interfaces.

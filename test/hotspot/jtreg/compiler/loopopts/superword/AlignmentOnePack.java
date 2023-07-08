@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8229694
@@ -29,6 +44,7 @@ package compiler.loopopts.superword;
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,compiler.loopopts.superword.AlignmentOnePack::test
  *      compiler.loopopts.superword.AlignmentOnePack
  */
+
 
 public class AlignmentOnePack {
     static int iFld;

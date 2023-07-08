@@ -21,10 +21,25 @@
 
 package java.desktop.unix.classes.sun.font;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.desktop.unix.classes.sun.awt.SunHints;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Small utility class to manage FontConfig.
@@ -132,6 +147,7 @@ public class FontConfigManager {
             }
         }
     }
+
 
     private static String getFCLocaleStr() {
         Locale l = SunToolkit.getStartupLocale();

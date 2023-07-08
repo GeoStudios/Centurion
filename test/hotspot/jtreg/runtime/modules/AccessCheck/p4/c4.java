@@ -21,7 +21,23 @@
 
 package p4;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Small class used by multiple hotspot/runtime/modules/AccessCheck/* tests.
+
 
 public class c4 {
     // Add a read edge from c4's module to given module m

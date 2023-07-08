@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.beans.*;
 import javax.swing.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicMenuItemUI;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Size;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO: no screen menu bar for now
 public class AquaMenuItemUI extends BasicMenuItemUI implements AquaMenuPainter.Client/*, ScreenMenuItemUI*/ {

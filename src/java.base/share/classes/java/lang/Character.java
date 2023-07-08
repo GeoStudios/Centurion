@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import jdk.internal.misc.CDS;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.java.lang.constant.Constable;
@@ -34,6 +35,20 @@ import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_EXPLI
 import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_char;.extended
 import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_int;.extended
 import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Character} class wraps a value of the primitive
@@ -374,6 +389,7 @@ class Character implements java.io.Serializable, Comparable<Character>, Constabl
      * Error flag. Use int (code point) to avoid confusion with U+FFFF.
      */
     static final int ERROR = 0xFFFFFFFF;
+
 
     /**
      * Undefined bidirectional character type. Undefined {@code char}
@@ -3763,6 +3779,7 @@ class Character implements java.io.Serializable, Comparable<Character>, Constabl
             SUPPLEMENTARY_PRIVATE_USE_AREA_B,
         };
 
+
         /**
          * Returns the object representing the Unicode block containing the
          * given character, or {@code null} if the character is not a
@@ -3865,6 +3882,7 @@ class Character implements java.io.Serializable, Comparable<Character>, Constabl
             return block;
         }
     }
+
 
     /**
      * A family of character subsets representing the character scripts
@@ -10260,6 +10278,7 @@ class Character implements java.io.Serializable, Comparable<Character>, Constabl
             (1L << 0x000D) |
             (1L << 0x0020)) >> ch) & 1L) != 0);
     }
+
 
     /**
      * Determines if the specified character is a Unicode space character.

@@ -21,8 +21,22 @@
 
 package compiler.uncommontrap;
 
+
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,6 +53,9 @@ import java.lang.reflect.Method;
  *                   -XX:CompileCommand=inline,compiler.uncommontrap.TestNullAssertAtCheckCast::store
  *                   compiler.uncommontrap.TestNullAssertAtCheckCast
  */
+
+
+
 
 public class TestNullAssertAtCheckCast {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

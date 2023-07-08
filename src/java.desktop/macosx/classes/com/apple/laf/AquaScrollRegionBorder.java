@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.Component;
 import java.awt.Graphics;
 import javax.swing.JComponent;
@@ -31,6 +32,20 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Widget;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.SizeDescriptor;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.SizeVariant;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaScrollRegionBorder extends AquaBorder {
     private static final RecyclableSingletonFromDefaultConstructor<AquaScrollRegionBorder> instance = new RecyclableSingletonFromDefaultConstructor<AquaScrollRegionBorder>(AquaScrollRegionBorder.class);

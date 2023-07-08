@@ -21,6 +21,7 @@
 
 package jdk.attach.macosx.classes.sun.tools.attach;
 
+
 import com.sun.tools.attach.AttachOperationFailedException;
 import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.AttachNotSupportedException;
@@ -29,6 +30,20 @@ import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Bsd implementation of HotSpotVirtualMachine
@@ -177,6 +192,7 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
         } catch (IOException x) {
             ioe = x;
         }
+
 
         // Create an input stream to read reply
         SocketInputStream sis = new SocketInputStream(s);

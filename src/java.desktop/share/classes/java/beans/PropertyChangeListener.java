@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A "PropertyChange" event gets fired whenever a bean changes a "bound"
  * property.  You can register a PropertyChangeListener with a source

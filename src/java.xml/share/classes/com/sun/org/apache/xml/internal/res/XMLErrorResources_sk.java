@@ -21,12 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Set up error messages.
@@ -90,6 +108,7 @@ public class XMLErrorResources_sk extends ListResourceBundle
 
   /** Maximum total warnings and error messages.          */
   public static final int MAX_MESSAGES = MAX_CODE + MAX_WARNING + 1;
+
 
   /*
    * Message keys
@@ -428,6 +447,7 @@ public class XMLErrorResources_sk extends ListResourceBundle
 
     {ER_COULD_NOT_LOAD_METHOD_PROPERTY,
       "Nedal sa na\u010d\u00edta\u0165 s\u00fabor vlastnost\u00ed ''{0}'' pre v\u00fdstupn\u00fa met\u00f3du ''{1}'' (skontrolujte CLASSPATH)" }
+
 
   };
 

@@ -21,12 +21,26 @@
 
 package compiler.testlibrary.rtm;
 
+
 import java.util.EnumMap;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wrapper for +UsePreciseRTMLockingStatistics output.
@@ -95,6 +109,7 @@ public class RTMLockingStatistics {
             setAborts(AbortType.lookup(type), count);
         }
     }
+
 
     /**
      * Parses string and return all founded RTM locking statistics entries.

@@ -21,11 +21,26 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.im.InputMethodRequests;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WTextFieldPeer extends WTextComponentPeer implements TextFieldPeer {
 

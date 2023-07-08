@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Comparator;
 import javax.sound.midi.Instrument;
 import javax.sound.midi.Patch;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instrument comparator class.

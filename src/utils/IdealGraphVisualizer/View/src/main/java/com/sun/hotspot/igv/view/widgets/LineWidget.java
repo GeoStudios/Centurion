@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
 
+
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Connection;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.InputSlot;
@@ -42,6 +43,20 @@ import org.netbeans.api.visual.action.SelectProvider;
 import org.netbeans.api.visual.animator.SceneAnimator;
 import org.netbeans.api.visual.model.ObjectState;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -211,6 +226,7 @@ public class LineWidget extends Widget implements PopupMenuProvider {
         if (predecessor == null || predecessor.getTo().equals(getFrom())) {
             sameFrom = true;
         }
+
 
         int size = ARROW_SIZE;
         if (isBold) {

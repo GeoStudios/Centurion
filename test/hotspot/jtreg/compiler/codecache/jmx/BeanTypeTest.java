@@ -21,9 +21,23 @@
 
 package compiler.codecache.jmx;
 
+
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test BeanTypeTest
@@ -43,6 +57,9 @@ import java.lang.management.MemoryType;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.BeanTypeTest
  */
+
+
+
 
 public class BeanTypeTest {
 

@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Enumerates the COMDAT selection types. One of these is returned
     from {@link
     sun.jvm.hotspot.debugger.win32.coff.AuxSectionDefinitionsRecord#getSelection()}. */

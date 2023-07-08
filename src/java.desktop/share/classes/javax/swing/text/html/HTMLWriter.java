@@ -21,16 +21,32 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.desktop.share.classes.javax.swing.text.*;
 import java.io.Writer;
 import java.util.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is a writer for HTMLDocuments.
  *
  */
+
 
 public class HTMLWriter extends AbstractWriter {
     /*
@@ -84,6 +100,7 @@ public class HTMLWriter extends AbstractWriter {
      * Temporary buffer.
      */
     private char[] tempChars;
+
 
     /**
      * Creates a new HTMLWriter.
@@ -229,6 +246,7 @@ public class HTMLWriter extends AbstractWriter {
         segment.array = null;
     }
 
+
     /**
      * Writes out the attribute set.  Ignores all
      * attributes with a key of type HTML.Tag,
@@ -343,6 +361,7 @@ public class HTMLWriter extends AbstractWriter {
         return false;
     }
 
+
     /**
      * Writes out a start tag for the element.
      * Ignores all synthesized elements.
@@ -431,6 +450,7 @@ public class HTMLWriter extends AbstractWriter {
 
     }
 
+
     /**
      * Writes out text that is contained in a TEXTAREA form
      * element.
@@ -462,6 +482,7 @@ public class HTMLWriter extends AbstractWriter {
             }
         }
     }
+
 
     /**
      * Writes out text.  If a range is specified when the constructor
@@ -532,6 +553,7 @@ public class HTMLWriter extends AbstractWriter {
         decrIndent();
     }
 
+
     /**
      * Writes out the content of the Option form element.
      * @param option  an Option
@@ -592,6 +614,8 @@ public class HTMLWriter extends AbstractWriter {
         writeLineSeparator();
     }
 
+
+
     /**
      * Writes out comments.
      *
@@ -613,6 +637,7 @@ public class HTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Writes out comment string.
      *
@@ -631,6 +656,7 @@ public class HTMLWriter extends AbstractWriter {
         indentSmart();
     }
 
+
     /**
      * Writes out any additional comments (comments outside of the body)
      * stored under the property HTMLDocument.AdditionalComments.
@@ -648,6 +674,7 @@ public class HTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Returns {@code true} if the element is a
      * synthesized element.  Currently we are only testing
@@ -659,6 +686,7 @@ public class HTMLWriter extends AbstractWriter {
     protected boolean synthesizedElement(Element elem) {
         return matchNameAttribute(elem.getAttributes(), HTML.Tag.IMPLIED);
     }
+
 
     /**
      * Returns true if the StyleConstants.NameAttribute is
@@ -710,6 +738,7 @@ public class HTMLWriter extends AbstractWriter {
         }
     }
 
+
     /**
      * Searches the attribute set for a tag, both of which
      * are passed in as a parameter.  Returns true if no match is found
@@ -724,6 +753,7 @@ public class HTMLWriter extends AbstractWriter {
         }
         return true;
     }
+
 
     /**
      * Searches the attribute set and for each tag
@@ -783,6 +813,7 @@ public class HTMLWriter extends AbstractWriter {
             }
         }
     }
+
 
     /**
      * Determines if the element associated with the attributeset

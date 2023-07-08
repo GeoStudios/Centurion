@@ -21,6 +21,7 @@
 
 package nsk.jdi.Method.isObsolete;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -195,6 +209,7 @@ public class isobsolete002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -245,11 +260,13 @@ public class isobsolete002 extends JDIBase {
 
         log2("      received: ClassPrepareEvent for debuggeeClass");
 
+
         if ( !vm.canRedefineClasses() ) {
             log2("......vm.canRedefineClasses() == false : test is cancelled");
             vm.resume();
             return;
         }
+
 
         String bPointMethod = "methodForCommunication";
         String lineForComm  = "lineForComm";
@@ -264,6 +281,7 @@ public class isobsolete002 extends JDIBase {
     //------------------------------------------------------  testing section
 
         log1("     TESTING BEGINS");
+
 
         String className  = "nsk.jdi.Method.isObsolete.isobsolete002b";
         String methodName = "m2";
@@ -367,6 +385,7 @@ public class isobsolete002 extends JDIBase {
 
     // ============================== test's additional methods
 
+
     private Map<? extends com.sun.jdi.ReferenceType,byte[]> mapClassToBytes()
                 throws JDITestRuntimeException {
 
@@ -381,6 +400,7 @@ public class isobsolete002 extends JDIBase {
         }
         String testDir = args[0];
         log2("...... testDir = " + testDir);
+
 
         String filePrefix = File.separator + "nsk"
                           + File.separator + "jdi"

@@ -21,11 +21,26 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import javax.swing.plaf.*;
 import javax.swing.plaf.metal.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,6 +49,10 @@ import java.awt.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This class describes a theme using "green" colors.
@@ -100,12 +119,14 @@ public class BigContrastMetalTheme extends ContrastMetalTheme {
         table.put("InternalFrame.minimizeIcon", MetalIconFactory.
                 getInternalFrameAltMaximizeIcon(internalFrameIconSize));
 
+
         Border blackLineBorder = new BorderUIResource(new MatteBorder(2, 2, 2, 2,
                 Color.black));
         Border textBorder = blackLineBorder;
 
         table.put("ToolTip.border", blackLineBorder);
         table.put("TitledBorder.border", blackLineBorder);
+
 
         table.put("TextField.border", textBorder);
         table.put("PasswordField.border", textBorder);
@@ -115,6 +136,8 @@ public class BigContrastMetalTheme extends ContrastMetalTheme {
         table.put("ScrollPane.border", blackLineBorder);
 
         table.put("ScrollBar.width", 25);
+
+
 
     }
 }

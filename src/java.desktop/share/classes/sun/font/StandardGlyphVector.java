@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Point;
@@ -43,6 +44,20 @@ import java.lang.ref.SoftReference;
 import java.text.CharacterIterator;
 import java.desktop.share.classes.sun.awt.SunHints;
 import java.desktop.share.classes.sun.java2d.loops.FontInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Standard implementation of GlyphVector used by Font, GlyphList, and
@@ -1264,6 +1279,7 @@ public class StandardGlyphVector extends GlyphVector {
      */
     public static final int FLAG_USES_ALTERNATE_ORIENTATION = 512;
 
+
     /**
      * Ensure that the positions array exists and holds position data.
      * If the array is null, this allocates it and sets default positions.
@@ -1341,6 +1357,7 @@ public class StandardGlyphVector extends GlyphVector {
         }
         return gs;
     }
+
 
     /////////////////////
     // Internal utility classes

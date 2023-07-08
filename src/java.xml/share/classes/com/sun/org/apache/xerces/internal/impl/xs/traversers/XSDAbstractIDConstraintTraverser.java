@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.XPathException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.Field;
@@ -30,10 +31,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class contains code that all three IdentityConstraint

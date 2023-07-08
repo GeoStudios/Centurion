@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8134288
@@ -30,6 +45,7 @@ package compiler.loopopts;
  *                   -XX:-BackgroundCompilation
  *                   compiler.loopopts.TestMoveStoresOutOfLoopsStoreNoCtrl
  */
+
 
 public class TestMoveStoresOutOfLoopsStoreNoCtrl {
 

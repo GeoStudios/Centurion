@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.runtime.test;
 
+
 import static jdk.vm.ci.meta.MetaUtil.toInternalName;.extended
 import static org.junit.Assert.assertEquals;.extended
 import static org.junit.Assert.assertNotNull;.extended
@@ -39,6 +40,19 @@ import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.meta.Signature;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -48,6 +62,11 @@ import jdk.vm.ci.meta.Signature;
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestMetaAccessProvider
  */
+
+
+
+
+
 
 /**
  * Tests for {@link MetaAccessProvider}.

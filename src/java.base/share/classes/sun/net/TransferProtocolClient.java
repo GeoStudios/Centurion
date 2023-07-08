@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.net;
 
+
 import java.io.*;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements that basic intefaces of transfer protocols.
@@ -41,6 +56,7 @@ public class TransferProtocolClient extends NetworkClient {
 
     /** code for last reply */
     protected int       lastReplyCode;
+
 
     /**
      * Pulls the response from the server and returns the code as a

@@ -21,13 +21,28 @@
 
 package nsk.jdb.stop_in.stop_in002;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* This is debuggee aplication */
 public class stop_in002a {
+
 
     public static void main(String args[]) {
        stop_in002a _stop_in002a = new stop_in002a();

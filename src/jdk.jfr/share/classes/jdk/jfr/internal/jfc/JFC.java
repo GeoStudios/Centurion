@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
@@ -39,6 +40,20 @@ import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
 import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@link Configuration} factory for JFC files. *
@@ -137,6 +152,7 @@ public final class JFC {
         return new SafePath(path);
     }
 
+
     private static String nullSafeFileName(Path file) throws IOException {
         Path filename = file.getFileName();
         if (filename == null) {
@@ -220,6 +236,7 @@ public final class JFC {
         }
         return (capacity == nread) ? buf : Arrays.copyOf(buf, nread);
     }
+
 
     /**
      * Returns list of predefined configurations available.

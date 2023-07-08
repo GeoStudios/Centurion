@@ -21,10 +21,24 @@
 
 package nsk.jvmti.scenarios.allocation.AP05;
 
+
 import java.io.*;
 import java.lang.reflect.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ap05t001 extends DebugeeClass {
     public static void main(String[] argv) {

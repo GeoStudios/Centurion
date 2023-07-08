@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio;
 
+
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class describing how a stream is to be decoded.  Instances of

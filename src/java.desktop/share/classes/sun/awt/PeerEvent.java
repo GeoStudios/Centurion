@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.event.InvocationEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class PeerEvent extends InvocationEvent {

@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown to indicate that there is an inconistency in the debug
  * information provided by the target VM. For example, this exception

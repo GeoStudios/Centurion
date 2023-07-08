@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.Entity;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Entity nodes hold the reference data for an XML Entity -- either
@@ -90,11 +107,13 @@ public class EntityImpl
     /** Encoding */
     protected String encoding;
 
+
     /** Input Encoding */
     protected String inputEncoding;
 
     /** Version */
     protected String version;
+
 
     /** Notation name. */
     protected String notationName;
@@ -209,6 +228,7 @@ public class EntityImpl
 
    } // getVersion():String
 
+
     /**
      * DOM Level 3 WD - experimental
      * the encoding of this entity, when it is an external parsed entity.
@@ -222,6 +242,10 @@ public class EntityImpl
        return encoding;
 
    } // getVersion():String
+
+
+
+
 
     /**
      * Unparsed entities -- which contain non-XML data -- have a
@@ -268,6 +292,7 @@ public class EntityImpl
         encoding = value;
     } // setEncoding (String)
 
+
     /**
      * An attribute specifying the encoding used for this entity at the tiome
      * of parsing, when it is an external parsed entity. This is
@@ -304,6 +329,7 @@ public class EntityImpl
         version = value;
     } // setVersion (String)
 
+
     /**
      * DOM Level 2: The system identifier associated with the entity. If not
      * specified, this will be null.
@@ -330,6 +356,8 @@ public class EntityImpl
 
     } // setNotationName(String)
 
+
+
     /**
      * Returns the absolute base URI of this node or null if the implementation
      * wasn't able to obtain an absolute URI. Note: If the URI is malformed, a
@@ -352,5 +380,7 @@ public class EntityImpl
         }
         baseURI = uri;
     }
+
+
 
 } // class EntityImpl

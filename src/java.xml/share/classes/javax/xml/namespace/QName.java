@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.javax.xml.namespace;
 
+
 import java.io.Serializable;
 import java.xml.share.classes.javax.xml.XMLConstants;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p><code>QName</code> represents a <strong>qualified name</strong>

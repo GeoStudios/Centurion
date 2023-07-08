@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signals that an AWT component is not in an appropriate state for

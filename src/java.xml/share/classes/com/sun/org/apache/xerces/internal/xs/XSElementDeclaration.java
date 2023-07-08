@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The interface represents the Element Declaration schema component.
  */

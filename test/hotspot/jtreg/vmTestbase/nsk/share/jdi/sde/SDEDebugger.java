@@ -21,6 +21,7 @@
 
 package nsk.share.jdi.sde;
 
+
 import java.io.*;
 import java.nio.channels.FileChannel;
 import java.util.*;
@@ -32,6 +33,19 @@ import nsk.share.ClassFileFinder;
 import nsk.share.TestBug;
 import nsk.share.jdi.EventHandler;
 import nsk.share.jdi.TestDebuggerType2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class is used as base debugger for SDE tests.

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Transformer;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
@@ -29,9 +30,27 @@ import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: SerializationHandler.java,v 1.2.4.1 2005/09/15 08:15:22 suresh_emailid Exp $
  */
+
+
+
+
 
 /**
  * This interface is the one that a serializer implements. It is a group of

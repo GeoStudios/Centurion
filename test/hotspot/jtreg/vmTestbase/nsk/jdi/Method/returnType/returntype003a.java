@@ -21,9 +21,23 @@
 
 package nsk.jdi.Method.returnType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the returntype003 JDI test.
@@ -71,6 +85,7 @@ public class returntype003a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -128,6 +143,7 @@ class returntype003aTestClass {
         return iface;
     }
 }
+
 
 interface returntype003aIntfForCheck {
 

@@ -21,11 +21,26 @@
 
 package java.base.linux.classes.jdk.internal.platform.cgroupv1;
 
+
 import java.util.Map;
 import java.base.linux.classes.jdk.internal.platform.CgroupInfo;
 import java.base.linux.classes.jdk.internal.platform.CgroupSubsystem;
 import java.base.linux.classes.jdk.internal.platform.CgroupSubsystemController;
 import java.base.linux.classes.jdk.internal.platform.CgroupV1Metrics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
     private CgroupV1MemorySubSystemController memory;
@@ -139,6 +154,7 @@ public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
          return retval > 0;
      }
 
+
     private static boolean getHierarchical(CgroupV1MemorySubSystemController controller) {
         long hierarchical = getLongValue(controller, "memory.use_hierarchy");
         return hierarchical > 0;
@@ -180,6 +196,7 @@ public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
      * CPU Accounting Subsystem
      ****************************************************************/
 
+
     public long getCpuUsage() {
         return getLongValue(cpuacct, "cpuacct.usage");
     }
@@ -206,9 +223,11 @@ public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
         return CgroupV1SubsystemController.getLongEntry(cpuacct, "cpuacct.stat", "system");
     }
 
+
     /*****************************************************************
      * CPU Subsystem
      ****************************************************************/
+
 
     public long getCpuPeriod() {
         return getLongValue(cpu, "cpu.cfs_period_us");
@@ -242,6 +261,7 @@ public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
         return Runtime.getRuntime().availableProcessors();
     }
 
+
     /*****************************************************************
      * CPUSet Subsystem
      ****************************************************************/
@@ -271,9 +291,11 @@ public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
         return (val == 1);
     }
 
+
     /*****************************************************************
      * Memory Subsystem
      ****************************************************************/
+
 
     public long getMemoryFailCount() {
         return getLongValue(memory, "memory.failcnt");
@@ -382,9 +404,11 @@ public class CgroupV1Subsystem implements CgroupSubsystem, CgroupV1Metrics {
         return CgroupV1SubsystemController.longValOrUnlimited(getLongValue(memory, "memory.soft_limit_in_bytes"));
     }
 
+
     /*****************************************************************
      * BlKIO Subsystem
      ****************************************************************/
+
 
     public long getBlkIOServiceCount() {
         return CgroupV1SubsystemController.getLongEntry(blkio, "blkio.throttle.io_service_bytes", "Total");

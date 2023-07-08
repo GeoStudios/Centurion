@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import sun.swing.DefaultLookup;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SynthDefaultLookup redirects all lookup calls to the SynthContext.

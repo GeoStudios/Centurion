@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import sun.invoke.util.Wrapper;
 import java.base.share.classes.java.lang.ref.SoftReference;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Shared information for a group of method types, which differ

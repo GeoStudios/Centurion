@@ -21,6 +21,7 @@
 
 package nsk.jdi.VirtualMachine.eventQueue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -125,6 +139,7 @@ public class eventqueue001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -165,6 +180,7 @@ public class eventqueue001 {
             int expresult = returnCode0;
 
             EventQueue eventQueue2 = null;
+
 
             log2("...... getting two EventQueue objects, one is static, another one is instance");
             eventQueue1 = vm.eventQueue();

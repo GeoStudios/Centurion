@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FontDescriptor implements Cloneable {
 
@@ -98,6 +113,7 @@ public class FontDescriptor implements Cloneable {
      * Initialize JNI field and method IDs
      */
     private static native void initIDs();
+
 
     public CharsetEncoder unicodeEncoder;
     boolean useUnicode; // set to true from native code on Unicode-based systems

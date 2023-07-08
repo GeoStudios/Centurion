@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
 import java.util.HashMap;
 import java.util.Map;
 import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
@@ -47,6 +48,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.ex
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.CRTFlags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This pass maps flat Java (i.e. without inner classes) to bytecodes.
  *
@@ -2165,6 +2180,7 @@ public class Gen extends JCTree.Visitor {
             result = completeBinop(tree.lhs, tree.rhs, operator);
         }
     }
+
 
         /** Complete generating code for operation, with left operand
          *  already on stack.

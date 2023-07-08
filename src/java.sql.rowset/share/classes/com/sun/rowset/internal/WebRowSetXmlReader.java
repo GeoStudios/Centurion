@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.*;
 import javax.sql.*;
 import java.io.*;
@@ -32,6 +33,20 @@ import java.text.MessageFormat;
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An implementation of the <code>XmlReader</code> interface, which
  * reads and parses an XML formatted <code>WebRowSet</code> object.
@@ -39,6 +54,7 @@ import javax.sql.rowset.spi.*;
  * as its parser.
  */
 public class WebRowSetXmlReader implements XmlReader, Serializable {
+
 
     private JdbcRowSetResourceBundle resBundle;
 
@@ -125,6 +141,7 @@ public class WebRowSetXmlReader implements XmlReader, Serializable {
         }
 
     }
+
 
     /**
      * Parses the given <code>WebRowSet</code> object, getting its input from

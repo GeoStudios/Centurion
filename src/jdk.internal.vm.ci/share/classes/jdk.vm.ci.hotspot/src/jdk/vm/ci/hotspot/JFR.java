@@ -21,11 +21,26 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;.extended
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper methods for interacting with the Java Flight Recorder (JFR) to register events and notify

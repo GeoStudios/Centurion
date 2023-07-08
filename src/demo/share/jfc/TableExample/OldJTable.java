@@ -21,6 +21,7 @@
 
 package demo.share.jfc.TableExample;
 
+
 import java.util.EventObject;
 import java.util.java.util.java.util.java.util.List;
 import javax.swing.JTable;
@@ -29,6 +30,20 @@ import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -36,6 +51,10 @@ import javax.swing.table.TableColumn;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  *  The OldJTable is an unsupported class containing some methods that were
@@ -248,5 +267,6 @@ public class OldJTable extends JTable
     public boolean editColumnRow(int columnIndex, int rowIndex, EventObject e){
         return super.editCellAt(rowIndex, columnIndex, e);
     }
+
 
 }  // End Of Class OldJTable

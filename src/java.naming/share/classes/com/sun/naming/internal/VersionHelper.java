@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.naming.internal;
 
+
 import javax.naming.NamingEnumeration;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -34,6 +35,20 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * VersionHelper was used by JNDI to accommodate differences between
@@ -248,6 +263,7 @@ public final class VersionHelper {
         }
         return new InputStreamEnumeration(urls);
     }
+
 
     /**
      * Package private.

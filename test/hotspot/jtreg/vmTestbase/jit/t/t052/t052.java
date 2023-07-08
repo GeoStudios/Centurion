@@ -21,8 +21,22 @@
 
 package jit.t.t052;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t052.t052
  */
+
+
 
 // This is a whittle-down of a tomcatv failure.  At the time it found
 // its way in among the tests, it failed because of a failure correctly
@@ -119,6 +135,7 @@ t052.goldChecker.println(x[i][j]);
        }
    }
 
+
                                 //  the values are dec on purpose
    i1p = 1;
    j1p = 1;
@@ -129,6 +146,7 @@ t052.goldChecker.println(x[i][j]);
 
    ixcm = jxcm = iycm = jycm = irxm = jrxm = irym = jrym = m = -1;
    dxcm = dycm = rxm = rym = 0.0;
+
 
 t052.goldChecker.println();
 t052.goldChecker.println("entering loop");
@@ -273,6 +291,7 @@ t052.goldChecker.println(rym);
    t052.goldChecker.println(dmax);
    t052.goldChecker.println(eps);
    } while ((ll < lmax) && (dmax > eps));
+
 
    t052.goldChecker.check();
  }

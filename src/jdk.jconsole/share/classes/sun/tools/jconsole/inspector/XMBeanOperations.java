@@ -21,9 +21,24 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import javax.management.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XMBeanOperations extends XOperations {

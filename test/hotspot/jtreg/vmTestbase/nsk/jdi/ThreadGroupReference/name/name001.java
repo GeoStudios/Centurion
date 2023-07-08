@@ -21,12 +21,26 @@
 
 package nsk.jdi.ThreadGroupReference.name;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import com.sun.jdi.event.*;
 //import com.sun.jdi.request.*;
@@ -147,6 +161,7 @@ public class name001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -195,6 +210,7 @@ public class name001 {
             String thread2GroupName = "thread2GroupName";
             List            classes      = null;
 
+
              label0: {
 
                 log2("getting ThreadReference objects");
@@ -208,6 +224,7 @@ public class name001 {
                     expresult = returnCode1;
                     break label0;
                 }
+
 
                 log2("      getting: ThreadGroupReference mainGroup");
                 ThreadGroupReference mainGroup = (ThreadGroupReference)

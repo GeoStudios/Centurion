@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
+
 import java.beans.Transient;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
@@ -34,7 +35,22 @@ import java.util.NoSuchElementException;
 import java.util.Stack;
 import java.util.Vector;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ISSUE: this class depends on nothing in AWT -- move to java.util?
+
 
 /**
  * A <code>DefaultMutableTreeNode</code> is a general-purpose node in a tree data
@@ -118,6 +134,7 @@ public class DefaultMutableTreeNode implements Cloneable,
     /** true if the node is able to have children */
     protected boolean           allowsChildren;
 
+
     /**
      * Creates a tree node that has no parent and no children, but which
      * allows children.
@@ -153,6 +170,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         this.allowsChildren = allowsChildren;
         this.userObject = userObject;
     }
+
 
     //
     //  Primitives
@@ -354,6 +372,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return userObject;
     }
 
+
     //
     //  Derived methods
     //
@@ -416,6 +435,8 @@ public class DefaultMutableTreeNode implements Cloneable,
         else
             insert(newChild, getChildCount());
     }
+
+
 
     //
     //  Tree Queries
@@ -532,6 +553,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return null;
     }
 
+
     /**
      * Returns true if and only if <code>aNode</code> is in the same tree
      * as this node.  Returns false if <code>aNode</code> is null.
@@ -545,6 +567,7 @@ public class DefaultMutableTreeNode implements Cloneable,
     public boolean isNodeRelated(DefaultMutableTreeNode aNode) {
         return (aNode != null) && (getRoot() == aNode.getRoot());
     }
+
 
     /**
      * Returns the depth of the tree rooted at this node -- the longest
@@ -571,6 +594,8 @@ public class DefaultMutableTreeNode implements Cloneable,
         return ((DefaultMutableTreeNode)last).getLevel() - getLevel();
     }
 
+
+
     /**
      * Returns the number of levels above this node -- the distance from
      * the root to this node.  If this node is the root, returns 0.
@@ -589,6 +614,7 @@ public class DefaultMutableTreeNode implements Cloneable,
 
         return levels;
     }
+
 
     /**
       * Returns the path from the root, to get to this node.  The last
@@ -669,6 +695,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return previous;
     }
 
+
     /**
      * Returns true if this node is the root of the tree.  The root is
      * the only node in the tree with a null parent; every tree has exactly
@@ -679,6 +706,7 @@ public class DefaultMutableTreeNode implements Cloneable,
     public boolean isRoot() {
         return getParent() == null;
     }
+
 
     /**
      * Returns the node that follows this node in a preorder traversal of this
@@ -717,6 +745,7 @@ public class DefaultMutableTreeNode implements Cloneable,
             return (DefaultMutableTreeNode)getChildAt(0);
         }
     }
+
 
     /**
      * Returns the node that precedes this node in a preorder traversal of
@@ -838,6 +867,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return new PathBetweenNodesEnumeration(ancestor, this);
     }
 
+
     //
     //  Child Queries
     //
@@ -866,6 +896,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return retval;
     }
 
+
     /**
      * Returns this node's first child.  If this node has no children,
      * throws NoSuchElementException.
@@ -880,6 +911,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return getChildAt(0);
     }
 
+
     /**
      * Returns this node's last child.  If this node has no children,
      * throws NoSuchElementException.
@@ -893,6 +925,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         }
         return getChildAt(getChildCount()-1);
     }
+
 
     /**
      * Returns the child in this node's child array that immediately
@@ -927,6 +960,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         }
     }
 
+
     /**
      * Returns the child in this node's child array that immediately
      * precedes <code>aChild</code>, which must be a child of this node.  If
@@ -958,9 +992,11 @@ public class DefaultMutableTreeNode implements Cloneable,
         }
     }
 
+
     //
     //  Sibling Queries
     //
+
 
     /**
      * Returns true if <code>anotherNode</code> is a sibling of (has the
@@ -990,6 +1026,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return retval;
     }
 
+
     /**
      * Returns the number of siblings of this node.  A node is its own sibling
      * (if it has no parent or no siblings, this method returns
@@ -1006,6 +1043,7 @@ public class DefaultMutableTreeNode implements Cloneable,
             return myParent.getChildCount();
         }
     }
+
 
     /**
      * Returns the next sibling of this node in the parent's children array.
@@ -1035,6 +1073,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return retval;
     }
 
+
     /**
      * Returns the previous sibling of this node in the parent's children
      * array.  Returns null if this node has no parent or is the parent's
@@ -1061,6 +1100,8 @@ public class DefaultMutableTreeNode implements Cloneable,
         return retval;
     }
 
+
+
     //
     //  Leaf Queries
     //
@@ -1077,6 +1118,7 @@ public class DefaultMutableTreeNode implements Cloneable,
     public boolean isLeaf() {
         return (getChildCount() == 0);
     }
+
 
     /**
      * Finds and returns the first leaf that is a descendant of this node --
@@ -1097,6 +1139,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return node;
     }
 
+
     /**
      * Finds and returns the last leaf that is a descendant of this node --
      * either this node or its last child's last leaf.
@@ -1115,6 +1158,7 @@ public class DefaultMutableTreeNode implements Cloneable,
 
         return node;
     }
+
 
     /**
      * Returns the leaf after this node or null if this node is the
@@ -1150,6 +1194,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return myParent.getNextLeaf();  // tail recursion
     }
 
+
     /**
      * Returns the leaf before this node or null if this node is the
      * first leaf in the tree.
@@ -1184,6 +1229,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         return myParent.getPreviousLeaf();              // tail recursion
     }
 
+
     /**
      * Returns the total number of leaves that are descendants of this node.
      * If this node is a leaf, returns <code>1</code>.  This method is O(n)
@@ -1211,6 +1257,7 @@ public class DefaultMutableTreeNode implements Cloneable,
 
         return count;
     }
+
 
     //
     //  Overrides
@@ -1254,6 +1301,7 @@ public class DefaultMutableTreeNode implements Cloneable,
 
         return newNode;
     }
+
 
     // Serialization support.
     @Serial
@@ -1324,6 +1372,8 @@ public class DefaultMutableTreeNode implements Cloneable,
 
     }  // End of class PreorderEnumeration
 
+
+
     final class PostorderEnumeration implements Enumeration<TreeNode> {
         protected TreeNode root;
         private final Enumeration<? extends TreeNode> children;
@@ -1358,6 +1408,8 @@ public class DefaultMutableTreeNode implements Cloneable,
 
     }  // End of class PostorderEnumeration
 
+
+
     final class BreadthFirstEnumeration implements Enumeration<TreeNode> {
         protected Queue queue;
 
@@ -1387,6 +1439,7 @@ public class DefaultMutableTreeNode implements Cloneable,
             }
             return node;
         }
+
 
         // A simple queue with a linked list data structure.
         final class Queue {
@@ -1443,6 +1496,8 @@ public class DefaultMutableTreeNode implements Cloneable,
 
     }  // End of class BreadthFirstEnumeration
 
+
+
     final class PathBetweenNodesEnumeration implements Enumeration<TreeNode> {
         protected Stack<TreeNode> stack;
 
@@ -1484,5 +1539,7 @@ public class DefaultMutableTreeNode implements Cloneable,
         }
 
     } // End of class PathBetweenNodesEnumeration
+
+
 
 } // End of class DefaultMutableTreeNode

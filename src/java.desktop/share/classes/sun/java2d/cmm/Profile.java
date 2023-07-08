@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.cmm;
 
+
 import java.awt.color.CMMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Profile {
     private final long nativePtr;

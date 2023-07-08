@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
+
 import javax.xml.transform.SourceLocator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * <code>DTM</code> is an XML document model expressed as a table

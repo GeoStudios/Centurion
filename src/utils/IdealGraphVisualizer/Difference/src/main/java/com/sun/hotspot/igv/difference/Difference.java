@@ -21,11 +21,26 @@
 
 package utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.difference;
 
+
 import utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.data.*;
 import utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.data.services.Scheduler;
 import utils.IdealGraphVisualizer.Difference.src.main.java.util.*;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -62,6 +77,7 @@ public class Difference {
 
         for (InputNode n : a.getNodes()) {
             Integer key = n.getId();
+
 
             if (keyMapB.containsKey(key)) {
                 InputNode nB = keyMapB.get(key);
@@ -245,6 +261,7 @@ public class Difference {
     }
 
     private static class NodePair extends Pair<InputNode, InputNode> {
+
 
         public NodePair(InputNode n1, InputNode n2) {
             super(n1, n2);

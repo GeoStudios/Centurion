@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
 
+
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The 'quo' operation expression executer. (no longer supported by XPath).

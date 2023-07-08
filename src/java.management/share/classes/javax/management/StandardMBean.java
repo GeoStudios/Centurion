@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management;
 
+
 import static com.sun.jmx.defaults.JmxProperties.MISC_LOGGER;.extended
 import com.sun.jmx.mbeanserver.DescriptorCache;
 import com.sun.jmx.mbeanserver.Introspector;
@@ -42,6 +43,20 @@ import java.management.share.classes.javax.management.openmbean.OpenMBeanOperati
 import java.management.share.classes.javax.management.openmbean.OpenMBeanOperationInfoSupport;
 import java.management.share.classes.javax.management.openmbean.OpenMBeanParameterInfo;
 import java.management.share.classes.javax.management.openmbean.OpenMBeanParameterInfoSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An MBean whose management interface is determined by reflection

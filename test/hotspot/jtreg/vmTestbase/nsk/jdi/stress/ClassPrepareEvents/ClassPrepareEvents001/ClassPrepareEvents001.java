@@ -21,11 +21,25 @@
 
 package nsk.jdi.stress.ClassPrepareEvents.ClassPrepareEvents001;
 
+
 import java.io.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import nsk.share.*;
 import nsk.share.jdi.*;
 import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -54,6 +68,8 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  *      -testClassPath ${test.class.path}
  */
+
+
 
 public class ClassPrepareEvents001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

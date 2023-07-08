@@ -21,7 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WindowDimensions {
     private Point loc;

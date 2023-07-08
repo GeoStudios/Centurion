@@ -21,6 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
+
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
@@ -34,6 +35,20 @@ import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import javax.lang.model.element.ElementKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A database of deprecations (APIs declared to be deprecated),
@@ -66,6 +81,7 @@ public class DeprDB {
         Set.of(Arrays.stream(ElementKind.values())
                      .map(ElementKind::toString)
                      .toArray(String[]::new));
+
 
     private DeprDB() { }
 

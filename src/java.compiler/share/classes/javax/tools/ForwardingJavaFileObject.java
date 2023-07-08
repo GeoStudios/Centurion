@@ -21,8 +21,23 @@
 
 package java.compiler.share.classes.javax.tools;
 
+
 import java.compiler.share.classes.javax.lang.model.element.Modifier;
 import java.compiler.share.classes.javax.lang.model.element.NestingKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Forwards calls to a given file object.  Subclasses of this class

@@ -21,7 +21,21 @@
 
 package jdk.test.lib.jittester.jtreg;
 
+
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Printer {
 

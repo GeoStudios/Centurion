@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.swing.SwingUtilities2;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
@@ -43,6 +44,20 @@ import java.awt.Font;
 import java.awt.FontMetrics;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Windows L&amp;F implementation of LabelUI.  This implementation
@@ -131,6 +146,7 @@ public class BasicLabelUI extends LabelUI implements  PropertyChangeListener
         SwingUtilities2.drawStringUnderlineCharAt(l, g, s, mnemIndex,
                                                      textX, textY);
     }
+
 
     /**
      * Paint clippedText at textX, textY with background.lighter() and then
@@ -264,6 +280,7 @@ public class BasicLabelUI extends LabelUI implements  PropertyChangeListener
         }
     }
 
+
     /**
      * @return getPreferredSize(c)
      */
@@ -332,12 +349,14 @@ public class BasicLabelUI extends LabelUI implements  PropertyChangeListener
         return Component.BaselineResizeBehavior.OTHER;
     }
 
+
     public void installUI(JComponent c) {
         installDefaults((JLabel)c);
         installComponents((JLabel)c);
         installListeners((JLabel)c);
         installKeyboardActions((JLabel)c);
     }
+
 
     public void uninstallUI(JComponent c) {
         uninstallDefaults((JLabel) c);

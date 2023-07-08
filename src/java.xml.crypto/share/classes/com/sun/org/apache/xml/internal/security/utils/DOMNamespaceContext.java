@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
+
 import java.util.Iterator;
 import java.base.share.classes.java.util.Objects;
 import javax.xml.namespace.NamespaceContext;
@@ -32,10 +33,29 @@ import static javax.xml.XMLConstants.XMLNS_ATTRIBUTE_NS_URI;.extended
 import static javax.xml.XMLConstants.XML_NS_PREFIX;.extended
 import static javax.xml.XMLConstants.XML_NS_URI;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
+
 
 /**
  * This class adapts the {@link Node} namespace/prefix lookup API to that of {@link NamespaceContext}.

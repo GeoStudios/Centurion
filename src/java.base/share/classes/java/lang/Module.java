@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.lang.annotation.Annotation;
@@ -64,6 +65,20 @@ import jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a run-time module, either {@link #isNamed() named} or unnamed.
@@ -135,6 +150,7 @@ public final class Module implements AnnotatedElement {
         }
     }
 
+
     /**
      * Create the unnamed Module for the given ClassLoader.
      *
@@ -147,6 +163,7 @@ public final class Module implements AnnotatedElement {
         this.descriptor = null;
     }
 
+
     /**
      * Creates a named module but without defining the module to the VM.
      *
@@ -158,6 +175,7 @@ public final class Module implements AnnotatedElement {
         this.loader = loader;
         this.descriptor = descriptor;
     }
+
 
     /**
      * Returns {@code true} if this module is a named module.
@@ -345,6 +363,7 @@ public final class Module implements AnnotatedElement {
             new WeakPairMap<>();
     }
 
+
     // -- readability --
 
     // the modules that this module reads
@@ -476,6 +495,7 @@ public final class Module implements AnnotatedElement {
         }
     }
 
+
     // -- exported and open packages --
 
     // the packages are open to other modules, can be null
@@ -592,6 +612,7 @@ public final class Module implements AnnotatedElement {
         Objects.requireNonNull(pn);
         return implIsExportedOrOpen(pn, EVERYONE_MODULE, /*open*/true);
     }
+
 
     /**
      * Returns {@code true} if this module exports or opens the given package
@@ -719,6 +740,7 @@ public final class Module implements AnnotatedElement {
         return isReflectivelyExportedOrOpen(pn, other, true);
     }
 
+
     /**
      * If the caller's module is this module then update this module to export
      * the given package to the given module.
@@ -818,6 +840,7 @@ public final class Module implements AnnotatedElement {
 
         return this;
     }
+
 
     /**
      * Updates this module to export a package unconditionally.
@@ -1027,6 +1050,7 @@ public final class Module implements AnnotatedElement {
         }
     }
 
+
     /**
      * Indicates if this module has a service dependence on the given service
      * type. This method always returns {@code true} when invoked on an unnamed
@@ -1055,6 +1079,8 @@ public final class Module implements AnnotatedElement {
         // uses added via addUses
         return ReflectionData.uses.containsKeyPair(this, service);
     }
+
+
 
     // -- packages --
 
@@ -1405,6 +1431,7 @@ public final class Module implements AnnotatedElement {
         return m;
     }
 
+
     // -- annotations --
 
     /**
@@ -1561,7 +1588,9 @@ public final class Module implements AnnotatedElement {
         }
     }
 
+
     // -- misc --
+
 
     /**
      * Returns an input stream for reading a resource in this module.
@@ -1682,6 +1711,7 @@ public final class Module implements AnnotatedElement {
     private Module getCallerModule(Class<?> caller) {
         return (caller != null) ? caller.getModule() : null;
     }
+
 
     // -- native methods --
 

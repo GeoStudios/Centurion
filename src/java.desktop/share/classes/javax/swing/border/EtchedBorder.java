@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
+
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.Color;
 import java.awt.Component;
 import java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which implements a simple etched border which can

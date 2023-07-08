@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
 
+
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.EnumSet;
@@ -30,6 +31,20 @@ import java.util.Set;
 import javax.lang.model.element.Name;
 import com.sun.tools.javac.util.StringUtils;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag.Attr.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Enum representing HTML tags.
@@ -539,6 +554,7 @@ public enum HtmlTag {
             super(Attr.class);
         }
     }
+
 
     public final ElemKind elemKind;
     public final BlockType blockType;

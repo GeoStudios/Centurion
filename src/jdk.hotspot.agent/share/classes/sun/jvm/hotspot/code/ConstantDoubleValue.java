@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A ConstantDoubleValue describes a constant double; i.e., the
     corresponding logical entity is either a source constant or its

@@ -21,7 +21,21 @@
 
 package nsk.stress.thread;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,9 @@ import java.io.PrintStream;
  *
  * @run main/othervm nsk.stress.thread.thread006 500 2m 5s
  */
+
+
+
 
 /**
  * Try many threads of lower priority starting simultaneously.
@@ -164,6 +181,7 @@ public class thread006 extends Thread {
 
     private static boolean GO = false;
     private static boolean STOP = false;
+
 
     /**
      * The thread activity: do nothing special, but do not

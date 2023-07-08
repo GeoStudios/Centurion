@@ -21,14 +21,31 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.AlgorithmMethod;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec.DigestMethodParameterSpec;
 import java.security.spec.AlgorithmParameterSpec;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: DigestMethod.java,v 1.6 2005/05/10 16:03:46 mullan Exp $
  */
+
+
 
 /**
  * A representation of the XML <code>DigestMethod</code> element as

@@ -21,9 +21,24 @@
 
 package java.management.share.classes.javax.management;
 
+
 import com.sun.jmx.mbeanserver.Introspector;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Represents attributes used as arguments to relational constraints.
@@ -35,6 +50,7 @@ import java.io.ObjectInputStream;
  *
  */
 public class AttributeValueExp implements ValueExp  {
+
 
     /* Serial version */
     private static final long serialVersionUID = -7768025046539163385L;
@@ -115,6 +131,7 @@ public class AttributeValueExp implements ValueExp  {
         return attr;
     }
 
+
     /**
      * Sets the MBean server on which the query is to be performed.
      *
@@ -130,6 +147,7 @@ public class AttributeValueExp implements ValueExp  {
     @Override
     public void setMBeanServer(MBeanServer s)  {
     }
+
 
     /**
      * <p>Return the value of the given attribute in the named MBean.

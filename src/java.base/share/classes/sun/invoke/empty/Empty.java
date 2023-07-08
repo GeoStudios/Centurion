@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.invoke.empty;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An empty class in an empty package.
  * Used as a proxy for unprivileged code, since making access checks

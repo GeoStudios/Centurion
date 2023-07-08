@@ -21,11 +21,25 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine09;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import nsk.aod.VirtualMachine.VirtualMachine07.VirtualMachine07;
 import nsk.share.TestBug;
 import nsk.share.aod.AgentInformation;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -53,6 +67,9 @@ import java.util.java.util.java.util.java.util.List;
  *      -na VirtualMachine09agent00
  *      -testedMethod loadAgentLibrary
  */
+
+
+
 
 /*
  * Test checks methods VirtualMachine.loadAgentLib and VirtualMachineloadAgentPath.

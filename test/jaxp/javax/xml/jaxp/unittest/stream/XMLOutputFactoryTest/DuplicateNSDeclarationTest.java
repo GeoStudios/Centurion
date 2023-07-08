@@ -21,6 +21,7 @@
 
 package stream.XMLOutputFactoryTest;
 
+
 import java.io.ByteArrayOutputStream;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
@@ -29,6 +30,19 @@ import javax.xml.transform.stream.StreamResult;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

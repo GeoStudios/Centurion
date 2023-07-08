@@ -21,6 +21,22 @@
 
 package java.rmi.share.classes.java.rmi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A <code>StubNotFoundException</code> is thrown if a valid stub class
  * could not be found for a remote object when it is exported.

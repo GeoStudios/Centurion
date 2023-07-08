@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This is a default implementation of a table that manages mappings from
@@ -130,6 +147,7 @@ public class ExpandedNameTable
 
     initExtendedTypes();
   }
+
 
   /**
    *  Initialize the vector of extended types with the
@@ -310,6 +328,7 @@ public class ExpandedNameTable
     else
     return ExpandedNameID;
   }
+
 
   /**
    * Given an expanded-name ID, return the namespace URI part.

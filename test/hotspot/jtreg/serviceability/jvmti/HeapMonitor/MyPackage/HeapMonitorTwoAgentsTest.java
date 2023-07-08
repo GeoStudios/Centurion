@@ -21,7 +21,21 @@
 
 package MyPackage;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -31,6 +45,7 @@ import java.util.java.util.java.util.java.util.List;
  * @compile HeapMonitorTwoAgentsTest.java
  * @run main/othervm/native -agentlib:HeapMonitorTest MyPackage.HeapMonitorTwoAgentsTest
  */
+
 
 public class HeapMonitorTwoAgentsTest {
   private native static boolean enablingSamplingInSecondaryAgent();

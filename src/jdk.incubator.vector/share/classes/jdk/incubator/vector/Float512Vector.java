@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
@@ -29,6 +30,20 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -273,6 +288,7 @@ final class Float512Vector extends FloatVector {
         return (Float512Vector) super.lanewiseTemplate(op, v);  // specialize
     }
 
+
     /*package-private*/
     @Override
     @ForceInline
@@ -433,6 +449,7 @@ final class Float512Vector extends FloatVector {
             super.selectFromTemplate((Float512Vector) v,
                                      (Float512Mask) m);  // specialize
     }
+
 
     @ForceInline
     @Override
@@ -784,6 +801,8 @@ final class Float512Vector extends FloatVector {
     FloatVector fromArray0(float[] a, int offset) {
         return super.fromArray0Template(a, offset);  // specialize
     }
+
+
 
     @ForceInline
     @Override

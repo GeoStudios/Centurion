@@ -21,10 +21,25 @@
 
 package jdk.attach.aix.classes.sun.tools.attach;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Based on linux/classes/sun/tools/attach/AttachProviderImpl.java.
 

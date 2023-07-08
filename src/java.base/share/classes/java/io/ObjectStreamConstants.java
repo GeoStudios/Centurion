@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.io;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Constants written into the Object Serialization Stream.
  *
@@ -132,6 +148,7 @@ public interface ObjectStreamConstants {
      */
     int baseWireHandle = 0x7e0000;
 
+
     /******************************************************/
     /* Bit masks for ObjectStreamClass flag.*/
 
@@ -164,6 +181,7 @@ public interface ObjectStreamConstants {
      * Bit mask for ObjectStreamClass flag. Indicates class is an enum type.
      */
     byte SC_ENUM = 0x10;
+
 
     /* *******************************************************************/
     /* Security permissions */
@@ -206,6 +224,7 @@ public interface ObjectStreamConstants {
     * @see java.io.ObjectOutputStream#useProtocolVersion(int)
     */
    int PROTOCOL_VERSION_1 = 1;
+
 
    /**
     * A Stream Protocol Version. <p>

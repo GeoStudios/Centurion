@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.font.GlyphVector;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.loops.FontInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class represents a list of actual renderable glyphs.
@@ -249,6 +264,7 @@ public final class GlyphList {
         glyphindex = -1;
         return true;
     }
+
 
     public void setFromGlyphVector(FontInfo info, GlyphVector gv,
                                    float x, float y) {

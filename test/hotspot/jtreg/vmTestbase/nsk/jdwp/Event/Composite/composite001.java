@@ -21,10 +21,24 @@
 
 package nsk.jdwp.Event.Composite;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: Event.Composite.

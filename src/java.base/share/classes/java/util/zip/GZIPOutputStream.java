@@ -21,8 +21,23 @@
 
 package java.base.share.classes.java.util.zip;
 
+
 import java.base.share.classes.java.io.OutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a stream filter for writing compressed data in
@@ -90,6 +105,7 @@ public class GZIPOutputStream extends DeflaterOutputStream {
         writeHeader();
         crc.reset();
     }
+
 
     /**
      * Creates a new output stream with a default buffer size.

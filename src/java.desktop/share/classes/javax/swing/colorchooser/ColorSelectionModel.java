@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.Color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A model that supports selecting a <code>Color</code>.

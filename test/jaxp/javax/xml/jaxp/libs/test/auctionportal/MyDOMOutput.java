@@ -21,9 +21,23 @@
 
 package test.auctionportal;
 
+
 import org.w3c.dom.ls.LSOutput;
 import java.io.OutputStream;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Thread-safe LS output destination for DOM processing. LSOutput objects

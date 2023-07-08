@@ -21,10 +21,24 @@
 
 package nsk.share.jdi;
 
+
 import com.sun.jdi.ReferenceType;
 import nsk.share.Consts;
 import nsk.share.TestBug;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Subclass of ClassExclusionFilterTest, create ClassReferenceFilter instead

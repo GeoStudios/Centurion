@@ -21,6 +21,7 @@
 
 package nsk.jdi.Scenarios.invokeMethod;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Debuggee's part contains a tested class (class <code>B</code>) and debugger exercises
@@ -70,6 +84,7 @@ public class popframes001 {
     private int eventCount = 0;
     private ClassType debugeeClass, testedClass;
     private EventRequestManager evm;
+
 
     private static void display(String msg) {
         log.display(msg);

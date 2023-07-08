@@ -21,6 +21,21 @@
 
 package compiler.inlining;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031695
@@ -28,6 +43,7 @@ package compiler.inlining;
  *
  * @run main/othervm -Xbatch compiler.inlining.DefaultAndConcreteMethodsCHA
  */
+
 
 public class DefaultAndConcreteMethodsCHA {
     interface I {

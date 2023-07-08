@@ -21,5 +21,21 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface SSLCredentials {
 }

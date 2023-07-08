@@ -21,6 +21,7 @@
 
 package vm.mlvm.mixed.stress.regression.b6969574;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
@@ -31,6 +32,19 @@ import java.util.Linkedjava.util.java.util.java.util.List;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
 import vm.share.options.Option;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -48,6 +62,9 @@ import vm.share.options.Option;
  *
  * @run main/othervm vm.mlvm.mixed.stress.regression.b6969574.INDIFY_Test
  */
+
+
+
 
 /**
  * Test for CR 6969574: Verify that MethodHandles is faster than reflection and comparable

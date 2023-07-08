@@ -21,11 +21,26 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl;
 
+
 import javax.security.sasl.*;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the CRAM-MD5 SASL client-side mechanism.

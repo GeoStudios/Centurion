@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.Menu;
 import java.awt.MenuBar;
 import java.awt.MenuItem;
 import java.awt.peer.MenuItemPeer;
 import java.awt.peer.MenuPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CMenu extends CMenuItem implements MenuPeer {
 

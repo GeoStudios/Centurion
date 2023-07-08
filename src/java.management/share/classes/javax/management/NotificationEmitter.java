@@ -21,7 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;  // for Javadoc.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Interface implemented by an MBean that emits Notifications. It

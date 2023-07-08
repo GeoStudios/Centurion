@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DocumentImpl;
 import java.lang.reflect.InvocationTargetException;
@@ -41,6 +42,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.NamespaceSupport;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class provides support to build a DOM tree using XMLStreamWriter API's.
  */
@@ -55,6 +70,7 @@ import java.xml.share.classes.com.sun.org.xml.sax.helpers.NamespaceSupport;
  */
 
 public class XMLDOMWriterImpl implements XMLStreamWriterBase  {
+
 
     private Document ownerDoc = null;
     private Node currentNode = null;

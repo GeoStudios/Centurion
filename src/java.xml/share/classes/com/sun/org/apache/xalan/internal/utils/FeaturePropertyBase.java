@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
 
+
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the base class for features and properties
@@ -41,6 +56,7 @@ public abstract class FeaturePropertyBase {
         DEFAULT, FSP, JAXPDOTPROPERTIES, SYSTEMPROPERTY, APIPROPERTY
     }
 
+
     /**
      * Values of the properties as defined in enum Properties
      */
@@ -49,6 +65,7 @@ public abstract class FeaturePropertyBase {
      * States of the settings for each property in Properties above
      */
     State[] states = {State.DEFAULT, State.DEFAULT};
+
 
     /**
      * Set the value for a specific property.
@@ -182,6 +199,7 @@ public abstract class FeaturePropertyBase {
         }
         return -1;
     }
+
 
     /**
      * Read from system properties, or those in jaxp.properties

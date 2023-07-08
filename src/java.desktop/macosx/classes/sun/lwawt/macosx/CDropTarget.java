@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
 import java.desktop.macosx.classes.sun.lwawt.PlatformDropTarget;
 import java.awt.*;
 import java.awt.dnd.DropTarget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CDropTarget implements PlatformDropTarget {
     private long fNativeDropTarget;

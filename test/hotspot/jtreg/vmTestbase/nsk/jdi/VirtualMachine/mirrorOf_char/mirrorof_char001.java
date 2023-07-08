@@ -21,12 +21,26 @@
 
 package nsk.jdi.VirtualMachine.mirrorOf_char;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -187,6 +201,7 @@ public class mirrorof_char001 {
                         expresult = 1;
                     break;
 
+
             // tests for CharValue.equals()
 
             case 2: if (!val_4.equals(val_5))
@@ -201,6 +216,7 @@ public class mirrorof_char001 {
                         expresult = 1;
                     break;
 
+
             // tests for CharValue.hashCode()
 
             case 5: if (val_1.hashCode() != val_1.hashCode())
@@ -210,6 +226,8 @@ public class mirrorof_char001 {
             case 6: if (val_4.hashCode() != val_5.hashCode())
                         expresult = 1;
                     break;
+
+
 
             default: expresult = 2;
                      break ;

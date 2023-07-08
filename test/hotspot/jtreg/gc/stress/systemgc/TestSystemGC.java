@@ -21,12 +21,27 @@
 
 package gc.stress.systemgc;
 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // A test that stresses a full GC by allocating objects of different lifetimes
 // and concurrently calling System.gc().
+
 
 final class ThreadUtils {
     public static void sleep(long durationMS) {

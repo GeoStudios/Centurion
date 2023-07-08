@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8074981
@@ -38,6 +53,7 @@ package compiler.loopopts.superword;
  *      -XX:-SuperWordReductions
  *      compiler.loopopts.superword.ReductionPerf
  */
+
 
 public class ReductionPerf {
     public static void main(String[] args) throws Exception {

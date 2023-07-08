@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An interface that describes the data found in processing instructions
  *

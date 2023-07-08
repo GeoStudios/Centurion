@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management.timer;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class provides definitions of the notifications sent by timer MBeans.
  * <BR>It defines a timer notification identifier which allows to retrieve a timer notification
@@ -30,6 +46,7 @@ package java.management.share.classes.javax.management.timer;
  *
  */
 public class TimerNotification extends javax.management.Notification {
+
 
     /* Serial version */
     private static final long serialVersionUID = 1798492029603825750L;
@@ -45,6 +62,7 @@ public class TimerNotification extends javax.management.Notification {
      *         This identifier is used to retrieve a timer notification from the timer list of notifications.
      */
     private final Integer notificationID;
+
 
     /*
      * ------------------------------------------

@@ -21,10 +21,25 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
 import java.security.AccessControlContext;
 import java.security.PermissionCollection;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaSecurityAccess {
 

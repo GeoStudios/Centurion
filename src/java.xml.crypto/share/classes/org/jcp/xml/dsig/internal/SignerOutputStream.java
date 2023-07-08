@@ -21,14 +21,31 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal;
 
+
 import java.io.ByteArrayOutputStream;
 import java.security.Signature;
 import java.security.SignatureException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Derived from Apache sources and changed to use java.security.Signature

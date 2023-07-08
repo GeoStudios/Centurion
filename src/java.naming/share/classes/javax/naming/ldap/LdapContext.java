@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
+
 import java.naming.share.classes.javax.naming.NamingException;
 import java.naming.share.classes.javax.naming.directory.DirContext;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface represents a context in which you can perform

@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A better GridLayout class
@@ -42,12 +57,14 @@ class SmartGridLayout implements LayoutManager, Serializable {
   int componentCount = 0;
   Component[][] layoutGrid;
 
+
   public SmartGridLayout(int numColumns, int numRows) {
     rows = numRows;
     columns = numColumns;
     layoutGrid = new Component[numColumns][numRows];
 
   }
+
 
   public void layoutContainer(Container c) {
 
@@ -63,6 +80,7 @@ class SmartGridLayout implements LayoutManager, Serializable {
     for (int column = 0; column < columns; column++) {
         columnWidths[column] = computeColumnWidth(column);
     }
+
 
     Insets insets = c.getInsets();
 
@@ -97,12 +115,16 @@ class SmartGridLayout implements LayoutManager, Serializable {
         }
     }
 
+
+
   }
 
   public Dimension minimumLayoutSize(Container c) {
 
     buildLayoutGrid(c);
     Insets insets = c.getInsets();
+
+
 
     int height = 0;
     int width = 0;
@@ -120,15 +142,18 @@ class SmartGridLayout implements LayoutManager, Serializable {
 
     return new Dimension(width, height);
 
+
   }
 
   public Dimension preferredLayoutSize(Container c) {
       return minimumLayoutSize(c);
   }
 
+
   public void addLayoutComponent(String s, Component c) {}
 
   public void removeLayoutComponent(Component c) {}
+
 
   private void buildLayoutGrid(Container c) {
 

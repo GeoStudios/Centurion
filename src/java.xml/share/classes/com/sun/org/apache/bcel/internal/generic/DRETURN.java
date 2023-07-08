@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DRETURN -  Return double from method
@@ -38,6 +55,7 @@ public class DRETURN extends ReturnInstruction {
     public DRETURN() {
         super(com.sun.org.apache.bcel.internal.Const.DRETURN);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

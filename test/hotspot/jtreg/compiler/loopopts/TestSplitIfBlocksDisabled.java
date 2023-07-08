@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestSplitIfBlocksDisabled
  * @bug 8086057
@@ -29,6 +44,7 @@ package compiler.loopopts;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -Xcomp -XX:-SplitIfBlocks
  *                   compiler.loopopts.TestSplitIfBlocksDisabled
  */
+
 
 public class TestSplitIfBlocksDisabled {
 

@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class CWrapper {
     private CWrapper() { }
 

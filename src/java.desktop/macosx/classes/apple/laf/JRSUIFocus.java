@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.apple.laf;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class JRSUIFocus {
     private static final int SUCCESS = 0;
     private static final int NULL_PTR = -1;

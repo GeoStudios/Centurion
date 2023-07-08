@@ -21,10 +21,25 @@
 
 package jdk.editpad.share.classes.jdk.editpad;
 
+
 import java.util.concurrent.CountDownLatch;
 import java.util.function.Consumer;
 import javax.swing.SwingUtilities;
 import jdk.editpad.share.classes.jdk.internal.editor.spi.BuildInEditorProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the provider of an Edit Pad implementation.

@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -28,6 +29,20 @@ import java.io.ObjectStreamField;
 import java.util.EventObject;
 import java.security.AccessController;
 import com.sun.jmx.mbeanserver.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The Notification class represents a notification emitted by an
@@ -163,6 +178,7 @@ public class Notification extends EventObject {
      * @serial The object on which the notification initially occurred.
      */
     protected Object source = null;
+
 
     /**
      * Creates a Notification object.
@@ -363,6 +379,7 @@ public class Notification extends EventObject {
       in.defaultReadObject();
       super.source = source;
     }
+
 
     /**
      * Serializes a {@link Notification} to an {@link ObjectOutputStream}.

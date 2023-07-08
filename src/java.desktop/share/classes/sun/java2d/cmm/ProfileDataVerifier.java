@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.cmm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ProfileDataVerifier {
     /**
      * Throws an IllegalArgumentException if the data does not correspond

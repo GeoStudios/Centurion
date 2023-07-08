@@ -21,8 +21,22 @@
 
 package compiler.escapeAnalysis;
 
+
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,6 +58,8 @@ import java.lang.reflect.Method;
  *
  * @author Volker Simonis
  */
+
+
 
 public class TestArrayCopy {
 

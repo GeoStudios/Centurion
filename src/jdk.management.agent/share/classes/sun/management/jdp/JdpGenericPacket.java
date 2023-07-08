@@ -21,6 +21,22 @@
 
 package jdk.management.agent.share.classes.sun.management.jdp;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * JdpGenericPacket responsible to provide fields
  * common for all Jdp packets
@@ -47,6 +63,7 @@ public abstract class JdpGenericPacket implements JdpPacket {
     protected  JdpGenericPacket(){
         // do nothing
     }
+
 
     /**
      * Validate protocol header magic field

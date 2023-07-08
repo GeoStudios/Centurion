@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Method;
@@ -29,11 +30,27 @@ import org.testng.*;
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for java.lang.invoke.MethodType
  * @compile MethodTypeTest.java
  * @run testng/othervm test.java.lang.invoke.MethodTypeTest
  */
+
+
+
 
 /**
  *

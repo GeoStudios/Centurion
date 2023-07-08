@@ -21,6 +21,7 @@
 
 package nsk.jdi.Method._bounds_;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.request.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks up the following methods of <code>com.sun.jdi.Method</code>: <br>
@@ -59,6 +73,7 @@ public class bounds001 {
     private final static String debugeeName = debuggerName + "a";
     private final static String classWithNativeMethod = "java.lang.System";
     private final static String nativeMethod = "currentTimeMillis";
+
 
     public final static String SGNL_READY = "ready";
     public final static String SGNL_QUIT = "quit";
@@ -219,6 +234,7 @@ public class bounds001 {
             j += 2;
         }
 
+
         Location loc;
         display("invoking locationOfCodeIndex(long):");
         display("-----------------------------------");
@@ -253,6 +269,7 @@ public class bounds001 {
             exitStatus = Consts.TEST_FAILED;
         }
         display("");
+
 
         byte[] bytes;
         display("invoking bytecodes():");

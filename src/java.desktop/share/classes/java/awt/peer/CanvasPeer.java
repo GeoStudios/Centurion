@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.Canvas;
 import java.desktop.share.classes.java.awt.GraphicsConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link Canvas}.

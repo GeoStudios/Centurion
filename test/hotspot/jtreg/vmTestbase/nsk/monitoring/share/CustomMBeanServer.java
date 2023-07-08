@@ -21,6 +21,7 @@
 
 package nsk.monitoring.share;
 
+
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.*;
@@ -28,6 +29,19 @@ import java.lang.management.*;
 import javax.management.*;
 import javax.management.loading.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>CustomMBeanServer</code> implemenets the
@@ -571,6 +585,7 @@ public class CustomMBeanServer implements MBeanServer {
                         }
                         return theClass;
                 }
+
 
         /**
          * Instantiates an object using the list of all class loaders

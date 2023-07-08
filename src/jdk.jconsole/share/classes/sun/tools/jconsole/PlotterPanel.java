@@ -21,9 +21,24 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.event.*;
 import javax.accessibility.*;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class PlotterPanel extends BorderedComponent {

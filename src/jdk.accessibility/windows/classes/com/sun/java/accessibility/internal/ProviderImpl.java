@@ -21,7 +21,22 @@
 
 package jdk.accessibility.windows.classes.com.sun.java.accessibility.internal;
 
+
 import javax.accessibility.AccessibilityProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This class provided methods to identify and activate the mapping from the
  * JavaAccessBridge API to the Java Accessibility API.

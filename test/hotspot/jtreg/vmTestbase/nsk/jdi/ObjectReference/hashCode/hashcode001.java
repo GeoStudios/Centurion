@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -135,6 +149,7 @@ public class hashcode001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -186,6 +201,7 @@ public class hashcode001 {
             log2("      getting ReferenceType and ClassType objects for debuggeeClass");
             ReferenceType debuggeeClass = (ReferenceType) classes.get(0);
 
+
             Field    field1  = null;
             Value    val1    = null;
             List     fields  = null;
@@ -197,21 +213,25 @@ public class hashcode001 {
             ObjectReference objRef2    = null;
             ObjectReference objRef3    = null;
 
+
             log2("......getting first mirror of tested TestClass obj : ObjectReference objRef1");
 
             field1  = debuggeeClass.fieldByName(objName);
             val1    = debuggeeClass.getValue(field1);
             objRef1  = (ObjectReference) val1;
 
+
             log2("......getting second mirror of tested TestClass obj : ObjectReference objRef2");
 
             objRef2  = (ObjectReference) val1;
+
 
             log2("......getting amirror of tested TestClass1 obj : ObjectReference objRef3");
 
             field1  = debuggeeClass.fieldByName(obj1Name);
             val1    = debuggeeClass.getValue(field1);
             objRef3  = (ObjectReference) val1;
+
 
             log2("......testing equality of hashCodes of objRef1 and objRef2");
             if (objRef1.hashCode() != objRef2.hashCode()) {

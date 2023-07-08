@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for all Java byte codes.
@@ -39,6 +54,7 @@ public abstract class Instruction implements Cloneable {
 
     private static InstructionComparator cmp = InstructionComparator.DEFAULT;
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
@@ -46,10 +62,12 @@ public abstract class Instruction implements Cloneable {
     Instruction() {
     }
 
+
     public Instruction(final short opcode, final short length) {
         this.length = length;
         this.opcode = opcode;
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -59,11 +77,13 @@ public abstract class Instruction implements Cloneable {
         out.writeByte(opcode); // Common for all instructions
     }
 
+
     /** @return name of instruction, i.e., opcode name
      */
     public String getName() {
         return Const.getOpcodeName(opcode);
     }
+
 
     /**
      * Long output format:
@@ -81,6 +101,7 @@ public abstract class Instruction implements Cloneable {
         return getName();
     }
 
+
     /**
      * @return mnemonic for instruction in verbose format
      */
@@ -89,12 +110,14 @@ public abstract class Instruction implements Cloneable {
         return toString(true);
     }
 
+
     /**
      * @return mnemonic for instruction with sumbolic references resolved
      */
     public String toString( final ConstantPool cp ) {
         return toString(false);
     }
+
 
     /**
      * Use with caution, since `BranchInstruction's have a `target' reference which
@@ -119,6 +142,7 @@ public abstract class Instruction implements Cloneable {
         return i;
     }
 
+
     /**
      * Read needed data (e.g. index) from file.
      *
@@ -128,6 +152,7 @@ public abstract class Instruction implements Cloneable {
      */
     protected void initFromFile( final ByteSequence bytes, final boolean wide ) throws IOException {
     }
+
 
     /**
      * Read an instruction from (byte code) input stream and return the
@@ -469,6 +494,7 @@ public abstract class Instruction implements Cloneable {
         return Const.getConsumeStack(opcode);
     }
 
+
     /**
      * This method also gives right results for instructions whose
      * effect on the stack depends on the constant pool entry they
@@ -480,12 +506,14 @@ public abstract class Instruction implements Cloneable {
         return Const.getProduceStack(opcode);
     }
 
+
     /**
      * @return this instructions opcode
      */
     public short getOpcode() {
         return opcode;
     }
+
 
     /**
      * @return length (in bytes) of instruction
@@ -494,12 +522,14 @@ public abstract class Instruction implements Cloneable {
         return length;
     }
 
+
     /**
      * Needed in readInstruction and subclasses in this package
      */
     void setOpcode( final short opcode ) {
         this.opcode = opcode;
     }
+
 
     /**
      * Needed in readInstruction and subclasses in this package
@@ -508,10 +538,12 @@ public abstract class Instruction implements Cloneable {
         this.length = (short) length; // TODO check range?
     }
 
+
     /** Some instructions may be reused, so don't do anything by default.
      */
     void dispose() {
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:
@@ -522,6 +554,7 @@ public abstract class Instruction implements Cloneable {
      * @param v Visitor object
      */
     public abstract void accept( Visitor v );
+
 
     /** Get Comparator object used in the equals() method to determine
      * equality of instructions.
@@ -534,6 +567,7 @@ public abstract class Instruction implements Cloneable {
         return cmp;
     }
 
+
     /** Set comparator to be used for equals().
       * @deprecated (6.0) use the built in comparator, or wrap this class in another object that implements these methods
      */
@@ -541,6 +575,7 @@ public abstract class Instruction implements Cloneable {
     public static void setComparator( final InstructionComparator c ) {
         cmp = c;
     }
+
 
     /** Check for equality, delegated to comparator
      * @return true if that is an Instruction and has the same opcode

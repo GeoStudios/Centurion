@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.image.ColorModel;
 import java.awt.image.DataBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides utilities for converting between the standard
@@ -44,6 +59,7 @@ public class PixelConverter {
      * us in these cases.
      */
     public static final PixelConverter instance = new PixelConverter();
+
 
     protected int alphaMask = 0;
 
@@ -93,6 +109,7 @@ public class PixelConverter {
     public final int getAlphaMask() {
         return alphaMask;
     }
+
 
     /**
      * Subclasses of PixelConverter.  These subclasses are

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.org.objectweb.asm.ClassWriter;
@@ -46,6 +47,20 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Const
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class specialization code.
@@ -996,6 +1011,7 @@ abstract class ClassSpecializer<T,K,S extends ClassSpecializer<T,K,S>.SpeciesDat
     protected Factory makeFactory() {
         return new Factory();
     }
+
 
     // Other misc helpers:
     private static final String MH = "java/lang/invoke/MethodHandle";

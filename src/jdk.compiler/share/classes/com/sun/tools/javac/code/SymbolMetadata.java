@@ -21,12 +21,27 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Container for all annotations (attributes in javac) on a Symbol.

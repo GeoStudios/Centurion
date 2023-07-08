@@ -21,6 +21,21 @@
 
 package nsk.stress.jni;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class GarbageGenerator extends Thread {
     class Garbage {
         Garbage() {

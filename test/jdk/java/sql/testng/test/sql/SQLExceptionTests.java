@@ -21,10 +21,24 @@
 
 package test.sql;
 
+
 import java.sql.SQLException;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SQLExceptionTests extends BaseTest {
 

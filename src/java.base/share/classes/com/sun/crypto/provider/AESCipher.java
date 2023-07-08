@@ -21,6 +21,7 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
+
 import java.base.share.classes.javax.crypto.BadPaddingException;
 import java.base.share.classes.javax.crypto.CipherSpi;
 import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
@@ -163,6 +164,7 @@ abstract class AESCipher extends CipherSpi {
      * to the cipher object.
      */
     private final int fixedKeySize; // in bytes, -1 if no restriction
+
 
     /**
      * Creates an instance of AES cipher with default ECB mode and
@@ -392,6 +394,7 @@ abstract class AESCipher extends CipherSpi {
         return core.update(input, inputOffset, inputLen, output,
                            outputOffset);
     }
+
 
     /**
      * Encrypts or decrypts data in a single-part operation,

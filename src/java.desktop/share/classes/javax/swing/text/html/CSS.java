@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Image;
@@ -43,6 +44,20 @@ import java.desktop.share.classes.javax.swing.text.SimpleAttributeSet;
 import java.desktop.share.classes.javax.swing.text.StyleConstants;
 import java.desktop.share.classes.javax.swing.text.StyleContext;
 import java.desktop.share.classes.javax.swing.text.View;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines a set of
@@ -173,6 +188,7 @@ public class CSS implements Serializable {
         private final String name;
         private final String defaultValue;
         private final boolean inherited;
+
 
         /**
          * CSS attribute "background".
@@ -476,6 +492,7 @@ public class CSS implements Serializable {
         static final Attribute MARGIN_RIGHT_RTL =
             new Attribute("margin-right-rtl",
                           Integer.toString(Integer.MIN_VALUE), false);
+
 
         /**
          * CSS attribute "margin-top".
@@ -1263,6 +1280,7 @@ public class CSS implements Serializable {
         return valueMap.get(name);
     }
 
+
     //
     // Conversion related methods/classes
     //
@@ -1528,6 +1546,7 @@ public class CSS implements Serializable {
         return getIndexOfSize(pt, sizeMap);
     }
 
+
     /**
      * @return an array of all the strings in <code>value</code>
      *         that are separated by whitespace.
@@ -1583,6 +1602,7 @@ public class CSS implements Serializable {
         else
           return sizeMap[index];
     }
+
 
     private void translateEmbeddedAttributes(AttributeSet htmlAttrSet,
                                              MutableAttributeSet cssAttrSet) {
@@ -1742,9 +1762,11 @@ public class CSS implements Serializable {
         return null;
     }
 
+
     private boolean isHTMLFontTag(HTML.Tag tag) {
         return (tag != null && ((tag == HTML.Tag.FONT) || (tag == HTML.Tag.BASEFONT)));
     }
+
 
     private boolean isFloater(String alignValue) {
         return (alignValue.equals("left") || alignValue.equals("right"));
@@ -2596,6 +2618,7 @@ public class CSS implements Serializable {
         String units = null;
     }
 
+
     /**
      * BorderWidthValue is used to model BORDER_XXX_WIDTH and adds support
      * for the thin/medium/thick values.
@@ -2635,6 +2658,7 @@ public class CSS implements Serializable {
         private static final float[] values = { 1, 2, 4 };
    }
 
+
     /**
      * Handles uniquing of CSS values, like lists, and background image
      * repeating.
@@ -2649,6 +2673,7 @@ public class CSS implements Serializable {
             return retValue;
         }
 
+
         Object parseHtmlValue(String value) {
             Object retValue = htmlValueToCssValueMap.get(value);
             if (retValue == null) {
@@ -2657,6 +2682,7 @@ public class CSS implements Serializable {
             return retValue;
         }
     }
+
 
     /**
      * Used for background images, to represent the position.
@@ -2802,6 +2828,7 @@ public class CSS implements Serializable {
             return verticalPosition;
         }
     }
+
 
     /**
      * Used for BackgroundImages.
@@ -2969,8 +2996,10 @@ public class CSS implements Serializable {
         float value;
         String units = null;
 
+
         static final short UNINITIALIZED_LENGTH = (short)10;
     }
+
 
     /**
      * Class used to parse font property. The font property is shorthand
@@ -3115,6 +3144,7 @@ public class CSS implements Serializable {
 
     }
 
+
     /**
      * Parses the background property into its intrinsic values.
      */
@@ -3218,6 +3248,7 @@ public class CSS implements Serializable {
             return (CSS.stringToColor(string) != null);
         }
     }
+
 
     /**
      * Used to parser margin and padding.
@@ -3594,6 +3625,7 @@ public class CSS implements Serializable {
             }
         }
     }
+
 
     /*
      * we need StyleSheet for resolving lenght units. (see

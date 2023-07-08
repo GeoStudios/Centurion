@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common conversions etc.
@@ -155,6 +170,7 @@ public final class Toolkit {
                 "Buffer size (%d) does not represent an integral number of "
                         + "sample frames (%d)", bufferSize, frameSize));
     }
+
 
     static void isFullySpecifiedAudioFormat(AudioFormat format) {
         // Our code requires a positive frame size, that's probably is not

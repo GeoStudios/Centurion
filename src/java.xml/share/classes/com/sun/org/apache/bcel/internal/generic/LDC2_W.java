@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * LDC2_W - Push long or double from constant pool
  *
@@ -37,9 +53,11 @@ public class LDC2_W extends CPInstruction implements PushInstruction {
     LDC2_W() {
     }
 
+
     public LDC2_W(final int index) {
         super(com.sun.org.apache.bcel.internal.Const.LDC2_W, index);
     }
+
 
     @Override
     public Type getType( final ConstantPoolGen cpg ) {
@@ -53,6 +71,7 @@ public class LDC2_W extends CPInstruction implements PushInstruction {
         }
     }
 
+
     public Number getValue( final ConstantPoolGen cpg ) {
         final com.sun.org.apache.bcel.internal.classfile.Constant c = cpg.getConstantPool().getConstant(super.getIndex());
         switch (c.getTag()) {
@@ -64,6 +83,7 @@ public class LDC2_W extends CPInstruction implements PushInstruction {
                 throw new IllegalArgumentException("Unknown or invalid constant type at " + super.getIndex());
         }
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

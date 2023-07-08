@@ -21,10 +21,24 @@
 
 package gc.g1.unloading.bytecode;
 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import vm.share.InMemoryJavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BytecodeFactory that employs in memory compilation.

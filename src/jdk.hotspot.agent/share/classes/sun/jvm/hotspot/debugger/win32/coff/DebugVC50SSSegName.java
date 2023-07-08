@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface DebugVC50SSSegName extends DebugVC50Subsection {
   /** Indexed by (0..DebugVC50SSSegMap.getNumSegDesc() - 1) */
   String getSegName(int i);

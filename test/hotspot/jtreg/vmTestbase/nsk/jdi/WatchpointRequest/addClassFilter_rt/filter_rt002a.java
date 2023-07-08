@@ -21,9 +21,23 @@
 
 package nsk.jdi.WatchpointRequest.addClassFilter_rt;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter_rt002 JDI test.
@@ -86,6 +100,7 @@ public class filter_rt002a {
         log = argHandler.createDebugeeLog();
 
         log1("debuggee started!");
+
 
             for (int i = 0; ; i++) {
 

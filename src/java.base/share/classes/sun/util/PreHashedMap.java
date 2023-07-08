@@ -21,12 +21,27 @@
 
 package java.base.share.classes.sun.util;
 
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.AbstractMap;
 import java.util.AbstractSet;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A precomputed hash map.

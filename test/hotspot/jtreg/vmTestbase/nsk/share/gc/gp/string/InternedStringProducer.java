@@ -21,8 +21,22 @@
 
 package nsk.share.gc.gp.string;
 
+
 import nsk.share.gc.gp.DerivedProducer;
 import nsk.share.gc.gp.GarbageProducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Garbage producer that creates interned strings.

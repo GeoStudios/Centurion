@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.event;
 
+
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The component-level paint event.

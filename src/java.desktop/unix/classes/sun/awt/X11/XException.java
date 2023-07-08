@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Signals that some Xlib routine failed.
  *

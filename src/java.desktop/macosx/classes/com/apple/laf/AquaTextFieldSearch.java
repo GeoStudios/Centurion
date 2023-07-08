@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -32,6 +33,20 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaIcon.DynamicallySizingJRSUIIcon;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaTextFieldSearch {
     private static final String VARIANT_KEY = "JTextField.variant";

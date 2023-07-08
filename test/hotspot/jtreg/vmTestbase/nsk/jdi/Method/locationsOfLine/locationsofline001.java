@@ -21,12 +21,26 @@
 
 package nsk.jdi.Method.locationsOfLine;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -125,6 +139,7 @@ public class locationsofline001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -166,6 +181,7 @@ public class locationsofline001 {
             Method   m         = null;
             List     locations = null;
 
+
             log2("      getting: List classes = vm.classesByName(mName + '.TestClass');");
             List classes = vm.classesByName(mName + ".TestClass");
 
@@ -178,6 +194,7 @@ public class locationsofline001 {
             log2("      getting a tested method object 'm'");
             methods = ((ReferenceType) classes.get(0)).methodsByName("primitiveargsmethod");
             m = (Method) methods.get(0);
+
 
             log2("......locations = m.allLineLocations(); no AbsentInformationException is expected");
             try {

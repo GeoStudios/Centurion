@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -33,6 +34,20 @@ import javax.swing.plaf.*;
 import com.sun.tools.jconsole.JConsolePlugin;
 import com.sun.tools.jconsole.JConsoleContext;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class VMPanel extends JTabbedPane implements PropertyChangeListener {
@@ -369,6 +384,7 @@ public class VMPanel extends JTabbedPane implements PropertyChangeListener {
                 JOptionPane.INFORMATION_MESSAGE, null,
                 new String[]{Messages.CANCEL},
                 0);
+
 
     }
 

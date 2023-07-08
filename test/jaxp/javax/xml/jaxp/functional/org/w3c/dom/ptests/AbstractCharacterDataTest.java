@@ -21,6 +21,7 @@
 
 package org.w3c.dom.ptests;
 
+
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.fail;.extended
 import static org.w3c.dom.DOMException.INDEX_SIZE_ERR;.extended
@@ -32,6 +33,19 @@ import org.testng.annotations.Test;
 import org.w3c.dom.CharacterData;
 import org.w3c.dom.DOMException;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @summary common test for the CharacterData Interface

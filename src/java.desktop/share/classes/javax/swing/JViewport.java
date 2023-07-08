@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.AffineTransform;
@@ -41,6 +42,20 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import sun.awt.AWTAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The "viewport" or "porthole" through which you see the underlying
@@ -229,6 +244,7 @@ public class JViewport extends JComponent implements Accessible
     // A Timer is used instead of just a repaint as it appeared to offer
     // better performance.
 
+
     /**
      * This is set to true in <code>setViewPosition</code>
      * if doing a window blit and the viewport is obscured.
@@ -276,6 +292,8 @@ public class JViewport extends JComponent implements Accessible
         setInheritsPopupMenu(true);
     }
 
+
+
     /**
      * Returns the L&amp;F object that renders this component.
      *
@@ -284,6 +302,7 @@ public class JViewport extends JComponent implements Accessible
     public ViewportUI getUI() {
         return (ViewportUI)ui;
     }
+
 
     /**
      * Sets the L&amp;F object that renders this component.
@@ -297,6 +316,7 @@ public class JViewport extends JComponent implements Accessible
         super.setUI(ui);
     }
 
+
     /**
      * Resets the UI property to a value from the current look and feel.
      *
@@ -305,6 +325,7 @@ public class JViewport extends JComponent implements Accessible
     public void updateUI() {
         setUI((ViewportUI)UIManager.getUI(this));
     }
+
 
     /**
      * Returns a string that specifies the name of the L&amp;F class
@@ -318,6 +339,7 @@ public class JViewport extends JComponent implements Accessible
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * Sets the <code>JViewport</code>'s one lightweight child,
@@ -334,6 +356,7 @@ public class JViewport extends JComponent implements Accessible
     protected void addImpl(Component child, Object constraints, int index) {
       setView(child);
     }
+
 
     /**
      * Removes the <code>Viewport</code>s one lightweight child.
@@ -526,6 +549,7 @@ public class JViewport extends JComponent implements Accessible
         return 0;
     }
 
+
     /**
      * The viewport "scrolls" its child (called the "view") by the
      * normal parent/child clipping (typically the view is moved in
@@ -546,6 +570,7 @@ public class JViewport extends JComponent implements Accessible
             throw new IllegalArgumentException("JViewport.setBorder() not supported");
         }
     }
+
 
     /**
      * Returns the insets (border) dimensions as (0,0,0,0), since borders
@@ -574,6 +599,7 @@ public class JViewport extends JComponent implements Accessible
         return insets;
     }
 
+
     private Graphics getBackingStoreGraphics(Graphics g) {
         Graphics bsg = backingStoreImage.getGraphics();
         bsg.setColor(g.getColor());
@@ -581,6 +607,7 @@ public class JViewport extends JComponent implements Accessible
         bsg.setClip(g.getClipBounds());
         return bsg;
     }
+
 
     private void paintViaBackingStore(Graphics g) {
         Graphics bsg = getBackingStoreGraphics(g);
@@ -629,6 +656,7 @@ public class JViewport extends JComponent implements Accessible
     protected boolean isPaintingOrigin() {
         return scrollMode == BACKINGSTORE_SCROLL_MODE;
     }
+
 
     /**
      * Only used by the paint method below.
@@ -895,6 +923,7 @@ public class JViewport extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Sets the bounds of this viewport.  If the viewport's width
      * or height has changed, fire a <code>StateChanged</code> event.
@@ -919,6 +948,7 @@ public class JViewport extends JComponent implements Accessible
             fireStateChanged();
         }
     }
+
 
     /**
       * Used to control the method of scrolling the viewport contents.
@@ -971,6 +1001,7 @@ public class JViewport extends JComponent implements Accessible
     public boolean isBackingStoreEnabled() {
         return scrollMode == BACKINGSTORE_SCROLL_MODE;
     }
+
 
     /**
      * If true if this viewport will maintain an offscreen
@@ -1059,6 +1090,7 @@ public class JViewport extends JComponent implements Accessible
         repaint();
     }
 
+
     /**
      * If the view's size hasn't been explicitly set, return the
      * preferred size, otherwise return the view's current size.
@@ -1079,6 +1111,7 @@ public class JViewport extends JComponent implements Accessible
             return view.getPreferredSize();
         }
     }
+
 
     /**
      * Sets the size of the view.  A state changed event will be fired.
@@ -1120,6 +1153,7 @@ public class JViewport extends JComponent implements Accessible
             return new Point(0,0);
         }
     }
+
 
     /**
      * Sets the view coordinates that appear in the upper left
@@ -1203,6 +1237,7 @@ public class JViewport extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns a rectangle whose origin is <code>getViewPosition</code>
      * and size is <code>getExtentSize</code>.
@@ -1214,6 +1249,7 @@ public class JViewport extends JComponent implements Accessible
     public Rectangle getViewRect() {
         return new Rectangle(getViewPosition(), getExtentSize());
     }
+
 
     /**
      * Computes the parameters for a blit where the backing store image
@@ -1294,6 +1330,7 @@ public class JViewport extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns the size of the visible part of the view in view coordinates.
      *
@@ -1303,6 +1340,7 @@ public class JViewport extends JComponent implements Accessible
     public Dimension getExtentSize() {
         return getSize();
     }
+
 
     /**
      * Converts a size in pixel coordinates to view coordinates.
@@ -1327,6 +1365,7 @@ public class JViewport extends JComponent implements Accessible
     public Point toViewCoordinates(Point p) {
         return new Point(p);
     }
+
 
     /**
      * Sets the size of the visible part of the view using view coordinates.
@@ -1376,6 +1415,7 @@ public class JViewport extends JComponent implements Accessible
         return new ViewListener();
     }
 
+
     /**
      * Subclassers can override this to install a different
      * layout manager (or <code>null</code>) in the constructor.  Returns
@@ -1386,6 +1426,7 @@ public class JViewport extends JComponent implements Accessible
     protected LayoutManager createLayoutManager() {
         return ViewportLayout.SHARED_INSTANCE;
     }
+
 
     /**
      * Adds a <code>ChangeListener</code> to the list that is
@@ -1464,6 +1505,7 @@ public class JViewport extends JComponent implements Accessible
         else
             super.repaint(tm,x,y,w,h);
     }
+
 
     /**
      * Returns a string representation of this <code>JViewport</code>.
@@ -1784,6 +1826,7 @@ public class JViewport extends JComponent implements Accessible
         // No Window parent.
         return parent != null;
     }
+
 
 /////////////////
 // Accessibility support

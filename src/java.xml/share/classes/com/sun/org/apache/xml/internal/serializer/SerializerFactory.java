@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
 import java.util.Properties;
 import javax.xml.transform.OutputKeys;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a public API, it is a factory for creating serializers.
@@ -101,6 +116,7 @@ public final class SerializerFactory
         String className =
             format.getProperty(OutputPropertiesFactory.S_KEY_CONTENT_HANDLER);
 
+
         if (null == className)
         {
             // Missing Content Handler property, load default using OutputPropertiesFactory
@@ -116,6 +132,8 @@ public final class SerializerFactory
             }
 
         }
+
+
 
         Class<?> cls = ObjectFactory.findProviderClass(className, true);
 

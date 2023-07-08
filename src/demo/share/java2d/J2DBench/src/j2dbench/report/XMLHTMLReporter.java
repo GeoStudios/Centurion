@@ -21,10 +21,25 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.report;
 
+
 import java.io.*;
 import java.util.*;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,12 +49,16 @@ import java.text.SimpleDateFormat;
  * this sample code.
  */
 
+
 /**
  * XMLHTMLReporter.java
  *
  * Generates HTML reports from XML results
  *
  */
+
+
+
 
 public class XMLHTMLReporter {
 
@@ -543,6 +562,7 @@ public class XMLHTMLReporter {
             baseValuesMap.put(tempGroup, new Double(0));
             targetValuesMap.put(tempGroup, new Double(0));
         }
+
 
         Object key = null;
         double baseValue = 0, targetValue = 0;

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.color.ColorSpace;
@@ -62,6 +63,20 @@ import javax.imageio.plugins.tiff.TIFFTagSet;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.SimpleRenderedImage;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.SingleTileRenderedImage;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageWriter extends ImageWriter {
 
@@ -633,6 +648,7 @@ public class TIFFImageWriter extends ImageWriter {
                    BaselineTIFFTagSet.PHOTOMETRIC_INTERPRETATION_WHITE_IS_ZERO;
                 }
 
+
                 // If photometricInterpretation is already set to
                 // WhiteIsZero or BlackIsZero, leave it alone
                 if (photometricInterpretation !=
@@ -843,6 +859,7 @@ public class TIFFImageWriter extends ImageWriter {
                 compressor = new TIFFNullCompressor();
             }
         }
+
 
         this.colorConverter = null;
         if (cm != null
@@ -1443,6 +1460,7 @@ public class TIFFImageWriter extends ImageWriter {
                                       BaselineTIFFTagSet.RESOLUTION_UNIT_INCH);
                     rootIFD.addTIFFField(f);
                 }
+
 
                 // JPEGInterchangeFormat
                 rootIFD.removeTIFFField

@@ -21,10 +21,27 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * An abstract representation of the result of dereferencing a ds:Reference URI.

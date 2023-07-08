@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
@@ -29,10 +30,26 @@ import java.util.NoSuchElementException;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * A representation of a {@code ReferenceNodeSetData} type containing a node-set.

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.*;
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A View that tries to flow it's children into some
@@ -904,5 +919,6 @@ public abstract class FlowView extends BoxView {
         protected void childAllocation(int index, Rectangle a) {
         }
     }
+
 
 }

@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared.executor;
 
+
 import nsk.share.Pair;
 import nsk.share.TestFailure;
 import nsk.share.test.TestUtils;
@@ -43,10 +44,24 @@ import java.lang.reflect.Method;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Test runner for invocation mode through MethodHandle.invokeWithArguments(...).
  */
 public class MHInvokeWithArgsTest extends AbstractReflectionTest {
+
 
     public MHInvokeWithArgsTest(MemoryClassLoader cl, DefMethTest testInstance,
                                 Collection<? extends Tester> tests) {

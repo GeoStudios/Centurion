@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.regex;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -33,6 +34,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a node in parse tree.
@@ -229,6 +244,7 @@ class Token implements java.io.Serializable {
     static Token complementRanges(Token tok) {
         return RangeToken.complementRanges(tok);
     }
+
 
     void setMin(int min) {                      // for CLOSURE
     }

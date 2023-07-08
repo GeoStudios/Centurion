@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import static java.awt.RenderingHints.KEY_ANTIALIASING;.extended
 import static java.awt.RenderingHints.KEY_RENDERING;.extended
 import static java.awt.RenderingHints.VALUE_ANTIALIAS_OFF;.extended
@@ -56,6 +57,20 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JPanel;
 import javax.swing.RepaintManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Surface is the base class for the 2d rendering demos.  Demos must

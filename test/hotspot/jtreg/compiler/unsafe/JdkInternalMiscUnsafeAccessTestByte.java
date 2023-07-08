@@ -21,9 +21,23 @@
 
 package compiler.unsafe;
 
+
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,10 @@ import static org.testng.Assert.*;.extended
  * @run testng/othervm -Diters=20000 -XX:-TieredCompilation  compiler.unsafe.JdkInternalMiscUnsafeAccessTestByte
  * @run testng/othervm -Diters=20000                         compiler.unsafe.JdkInternalMiscUnsafeAccessTestByte
  */
+
+
+
+
 
 public class JdkInternalMiscUnsafeAccessTestByte {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -156,6 +174,7 @@ public class JdkInternalMiscUnsafeAccessTestByte {
             assertEquals(x, (byte)0x23, "putVolatile byte value");
         }
 
+
         // Lazy
         {
             UNSAFE.putByteRelease(base, offset, (byte)0x01);
@@ -169,6 +188,7 @@ public class JdkInternalMiscUnsafeAccessTestByte {
             byte x = UNSAFE.getByteOpaque(base, offset);
             assertEquals(x, (byte)0x23, "putOpaque byte value");
         }
+
 
         UNSAFE.putByte(base, offset, (byte)0x01);
 

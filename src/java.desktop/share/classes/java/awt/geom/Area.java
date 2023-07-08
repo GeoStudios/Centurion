@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
 import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.util.Vector;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.java.util.NoSuchElementException;
 import sun.awt.geom.Curve;
 import sun.awt.geom.Crossings;
 import sun.awt.geom.AreaOp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code Area} object stores and manipulates a

@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 7179138
@@ -31,6 +46,7 @@ package compiler.c2;
  *
  * @author Skip Balk
  */
+
 
 public class Test7179138_2 {
     public static void main(String[] args) throws Exception {

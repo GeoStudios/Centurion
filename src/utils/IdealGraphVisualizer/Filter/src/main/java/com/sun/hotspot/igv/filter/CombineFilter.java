@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
+
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.Properties.PropertyMatcher;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.*;
@@ -28,6 +29,20 @@ import utils.IdealGraphVisualizer.Filter.src.main.java.util.Arrayjava.util.java.
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.HashSet;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -109,6 +124,7 @@ public class CombineFilter extends AbstractFilter {
                         if (succ.getPredecessors().size() == 1 && succ.getInputSlots().size() == 1) {
                             if (succ.getProperties().selectSingle(r.getSecondMatcher()) != null && succ.getOutputSlots().size() == 1) {
 
+
                                 OutputSlot oldSlot = null;
                                 for (OutputSlot s : f.getOutputSlots()) {
                                     for (Connection c : s.getConnections()) {
@@ -156,6 +172,7 @@ public class CombineFilter extends AbstractFilter {
                                     newConn.setColor(c.getColor());
                                     newConn.setStyle(c.getStyle());
                                 }
+
 
                                 figuresToRemove.add(succ);
 

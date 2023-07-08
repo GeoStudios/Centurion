@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.AttrImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DocumentImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti.ElementImpl;
@@ -32,6 +33,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Some useful utility methods.

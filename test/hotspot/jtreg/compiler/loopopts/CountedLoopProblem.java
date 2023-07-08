@@ -21,7 +21,21 @@
 
 package compiler.loopopts;
 
+
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -30,6 +44,8 @@ import java.util.Random;
  * @run main/othervm compiler.loopopts.CountedLoopProblem
  *
  */
+
+
 
 public class CountedLoopProblem {
     public static void main(String[] args) throws Exception {

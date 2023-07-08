@@ -21,17 +21,33 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect004.connectors;
 
+
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * A Simple TransportService implementatiopn with constructor throwing
  * Exception. Used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect004 test
  */
+
+
 
 public class PlugTransportService004_03 extends PlugTransportService {
 

@@ -21,8 +21,23 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.compiler.share.classes.javax.lang.model.element.ExecutableElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the type of an executable.  An <i>executable</i>

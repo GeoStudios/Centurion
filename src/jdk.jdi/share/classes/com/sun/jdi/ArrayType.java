@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Provides access to the class of an array and the type of
  * its components in the target VM.

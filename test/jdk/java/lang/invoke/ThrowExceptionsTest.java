@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import org.testng.*;
 import org.testng.annotations.*;
 import java.util.*;
@@ -29,10 +30,27 @@ import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for method handles which permute their arguments
  * @run testng test.java.lang.invoke.ThrowExceptionsTest
  */
+
+
+
+
 
 public class ThrowExceptionsTest {
     private static final Class<?> CLASS = ThrowExceptionsTest.class;

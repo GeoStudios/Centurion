@@ -21,7 +21,21 @@
 
 package compiler.arraycopy;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -31,6 +45,8 @@ import java.base.share.classes.java.util.Arrays;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.arraycopy.TestArrayCopyOfStopped
  */
+
+
 
 public class TestArrayCopyOfStopped {
     static class A {

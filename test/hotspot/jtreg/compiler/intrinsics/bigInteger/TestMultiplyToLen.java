@@ -21,10 +21,24 @@
 
 package compiler.intrinsics.bigInteger;
 
+
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -40,6 +54,8 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=inline,java.math.BigInteger::multiply
  *      compiler.intrinsics.bigInteger.TestMultiplyToLen
  */
+
+
 
 public class TestMultiplyToLen {
 

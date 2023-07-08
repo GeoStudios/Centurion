@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.beans.PropertyChangeEvent;
 import java.desktop.share.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
 import javax.swing.JComponent;
@@ -31,6 +32,20 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicScrollPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CDE/Motif {@code L&F} implementation of ScrollPaneUI.
@@ -130,6 +145,7 @@ public class MotifScrollPaneUI extends BasicScrollPaneUI
             hsbBorder = null;
         }
     }
+
 
     public static ComponentUI createUI(JComponent x) {
         return new MotifScrollPaneUI();

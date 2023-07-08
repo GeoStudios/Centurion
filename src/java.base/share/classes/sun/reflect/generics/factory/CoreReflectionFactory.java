@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.reflect.generics.factory;
 
+
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.GenericDeclaration;
@@ -32,6 +33,20 @@ import java.lang.reflect.WildcardType;
 import java.base.share.classes.sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.*;
 import java.base.share.classes.sun.reflect.generics.scope.Scope;
 import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory for reflective generic type objects for use by
@@ -49,6 +64,7 @@ public class CoreReflectionFactory implements GenericsFactory {
     private GenericDeclaration getDecl(){ return decl;}
 
     private Scope getScope(){ return scope;}
+
 
     private ClassLoader getDeclsLoader() {
         if (decl instanceof Class) {return ((Class) decl).getClassLoader();}

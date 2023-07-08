@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
@@ -33,6 +34,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compile
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2020
@@ -430,6 +445,7 @@ public abstract class PredicatedNodeTest extends NodeTest implements SubContextL
     }
   }
 
+
   /**
    * Diagnostics.
    *
@@ -499,6 +515,7 @@ public abstract class PredicatedNodeTest extends NodeTest implements SubContextL
 
     return DTMIterator.FILTER_SKIP;
   }
+
 
   /**
    * Get the owning location path iterator.
@@ -633,6 +650,7 @@ public abstract class PredicatedNodeTest extends NodeTest implements SubContextL
     {
       return m_predicates[m_index];
     }
+
 
     /**
      * @see ExpressionOwner#setExpression(Expression)

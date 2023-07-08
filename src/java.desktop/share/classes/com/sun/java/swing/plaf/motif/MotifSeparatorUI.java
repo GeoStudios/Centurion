@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicSeparatorUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Motif {@literal L&F} implementation of SeparatorUI.

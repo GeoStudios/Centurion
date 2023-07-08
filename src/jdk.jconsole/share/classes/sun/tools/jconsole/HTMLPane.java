@@ -21,9 +21,24 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class HTMLPane extends JEditorPane {

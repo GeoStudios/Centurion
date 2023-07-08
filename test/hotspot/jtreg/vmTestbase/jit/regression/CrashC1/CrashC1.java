@@ -21,7 +21,21 @@
 
 package jit.regression.CrashC1;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.regression.CrashC1.CrashC1
  */
+
+
 
 public class CrashC1 {
   public long alignUp(long size, long alignment) {

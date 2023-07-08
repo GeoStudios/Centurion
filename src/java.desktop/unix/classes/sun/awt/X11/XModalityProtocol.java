@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface XModalityProtocol {
     /**
      * Sets modality mode on the dialog.

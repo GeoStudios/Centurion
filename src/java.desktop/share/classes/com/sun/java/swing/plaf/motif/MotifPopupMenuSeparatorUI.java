@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import javax.swing.*;
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import java.desktop.share.classes.com.sun.java.awt.Insets;
 import java.desktop.share.classes.com.sun.java.awt.Rectangle;
 import javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Motif {@literal L&F} implementation of PopupMenuSeparatorUI.

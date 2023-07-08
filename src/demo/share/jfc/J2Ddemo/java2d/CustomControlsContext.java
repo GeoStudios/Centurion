@@ -21,7 +21,22 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ControlsSurface or AnimatingControlsSurface classes implement

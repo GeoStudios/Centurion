@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.beans;
 
+
 import java.lang.reflect.Array;
 import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.ParameterizedType;
@@ -31,6 +32,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.desktop.share.classes.com.sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.GenericArrayTypeImpl;
 import java.desktop.share.classes.com.sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.ParameterizedTypeImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is utility class to resolve types.

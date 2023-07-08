@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
@@ -29,10 +30,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * the base factory to create/return built-in schema DVs and create user-defined DVs

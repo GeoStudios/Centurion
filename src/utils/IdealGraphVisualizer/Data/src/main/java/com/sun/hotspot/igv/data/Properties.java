@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data;
 
+
 import utils.IdealGraphVisualizer.Data.src.main.java.io.Serializable;
 import utils.IdealGraphVisualizer.Data.src.main.java.lang.ref.WeakReference;
 import utils.IdealGraphVisualizer.Data.src.main.java.util.*;
@@ -28,6 +29,20 @@ import utils.IdealGraphVisualizer.Data.src.main.java.util.Map.Entry;
 import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Matcher;
 import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Pattern;
 import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.PatternSyntaxException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

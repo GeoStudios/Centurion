@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * RET - Return from subroutine
@@ -41,6 +59,7 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
     private boolean wide;
     private int index; // index to local variable containg the return address
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
@@ -48,10 +67,12 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
     RET() {
     }
 
+
     public RET(final int index) {
         super(com.sun.org.apache.bcel.internal.Const.RET, (short) 2);
         setIndex(index); // May set wide as side effect
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -70,6 +91,7 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
         }
     }
 
+
     private void setWide() {
         wide = index > com.sun.org.apache.bcel.internal.Const.MAX_BYTE;
         if (wide) {
@@ -78,6 +100,7 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
             super.setLength(2);
         }
     }
+
 
     /**
      * Read needed data (e.g. index) from file.
@@ -94,6 +117,7 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
         }
     }
 
+
     /**
      * @return index of local variable containg the return address
      */
@@ -101,6 +125,7 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
     public final int getIndex() {
         return index;
     }
+
 
     /**
      * Set index of local variable containg the return address
@@ -114,6 +139,7 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
         setWide();
     }
 
+
     /**
      * @return mnemonic for instruction
      */
@@ -122,12 +148,14 @@ public class RET extends Instruction implements IndexedInstruction, TypedInstruc
         return super.toString(verbose) + " " + index;
     }
 
+
     /** @return return address type
      */
     @Override
     public Type getType( final ConstantPoolGen cp ) {
         return ReturnaddressType.NO_TARGET;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

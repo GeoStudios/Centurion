@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.testlibrary.CompilerUtils;
 import jdk.test.lib.Asserts;
@@ -31,6 +32,19 @@ import sun.hotspot.code.NMethod;
 import java.lang.reflect.Executable;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -55,6 +69,9 @@ import java.util.java.util.java.util.java.util.List;
  *                   -XX:-BackgroundCompilation
  *                   compiler.jvmci.compilerToVM.HasCompiledCodeForOSRTest
  */
+
+
+
 
 public class HasCompiledCodeForOSRTest {
     public static void main(String[] args) {

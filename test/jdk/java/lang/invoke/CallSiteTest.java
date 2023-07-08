@@ -21,11 +21,25 @@
 
 package test.java.lang.invoke;
 
+
 import java.io.*;
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
 import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,9 @@ import static jdk.test.lib.Asserts.*;.extended
  *      --expand-properties --classpath ${test.classes}
  *      --java test.java.lang.invoke.CallSiteTest
  */
+
+
+
 
 public class CallSiteTest {
     private static final Class<?> CLASS = CallSiteTest.class;

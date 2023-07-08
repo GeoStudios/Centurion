@@ -21,10 +21,25 @@
 
 package java.rmi.share.classes.sun.rmi.server;
 
+
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.util.Map;
 import java.util.WeakHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract class that maps Class objects to lazily-computed values of

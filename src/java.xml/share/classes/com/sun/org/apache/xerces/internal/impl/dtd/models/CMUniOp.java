@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Content model Uni-Op node.
@@ -55,6 +72,7 @@ public class CMUniOp extends CMNode
         fChild = childNode;
     }
 
+
     // -------------------------------------------------------------------
     //  Package, final methods
     // -------------------------------------------------------------------
@@ -62,6 +80,7 @@ public class CMUniOp extends CMNode
     {
         return fChild;
     }
+
 
     // -------------------------------------------------------------------
     //  Package, inherited methods
@@ -78,6 +97,7 @@ public class CMUniOp extends CMNode
             return true;
     }
 
+
     // -------------------------------------------------------------------
     //  Protected, inherited methods
     // -------------------------------------------------------------------
@@ -92,6 +112,7 @@ public class CMUniOp extends CMNode
         // Its just based on our child node's last pos
         toSet.setTo(fChild.lastPos());
     }
+
 
     // -------------------------------------------------------------------
     //  Private data members

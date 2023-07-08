@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.io.Closeable;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
@@ -39,10 +40,26 @@ import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Wraps a Java 9 JEP 220 modular runtime image. Requires the JRT NIO file system.

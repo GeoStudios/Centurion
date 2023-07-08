@@ -21,8 +21,22 @@
 
 package compiler.types.correctness.execution;
 
+
 import compiler.types.correctness.hierarchies.TypeHierarchy;
 import compiler.types.correctness.scenarios.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Profile type execution scenario. Executes tester method

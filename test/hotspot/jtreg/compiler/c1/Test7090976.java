@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7090976
@@ -29,6 +44,7 @@ package compiler.c1;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *      compiler.c1.Test7090976
  */
+
 
 public class Test7090976 {
 

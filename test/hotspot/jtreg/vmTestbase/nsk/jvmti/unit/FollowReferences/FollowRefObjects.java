@@ -21,8 +21,22 @@
 
 package nsk.jvmti.unit.FollowReferences;
 
+
 import java.lang.ref.*;
 import java.lang.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 2 superinterfaces
 // (Henri Cartier-Bresson, Alex Webb and Bruno Barbey are famous photographers)

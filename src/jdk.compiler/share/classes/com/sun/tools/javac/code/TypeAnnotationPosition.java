@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.util.Iterator;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A type annotation position.
 *
@@ -284,6 +299,7 @@ public class TypeAnnotationPosition {
     public boolean emitToClassfile() {
         return !type.isLocal() || isValidOffset;
     }
+
 
     public boolean matchesPos(int pos) {
         return this.pos == pos;
@@ -681,6 +697,7 @@ public class TypeAnnotationPosition {
         exceptionParameter(final List<TypePathEntry> location) {
         return exceptionParameter(location, null, -1);
     }
+
 
     /**
      * Create a {@code TypeAnnotationPosition} for a resource variable.

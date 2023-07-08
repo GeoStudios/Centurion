@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
+
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements an exception object that all
@@ -60,6 +75,7 @@ public class XPathException extends TransformerException
     m_styleNode = styleNode;
   }
 
+
   /** A nested exception.
    *  @serial   */
   protected Exception m_exception;
@@ -85,6 +101,7 @@ public class XPathException extends TransformerException
   {
     super(message);
   }
+
 
   /**
    * Get the XSLT ElemVariable that this sub-expression references.  In order for
@@ -115,6 +132,8 @@ public class XPathException extends TransformerException
                 parent = parent.exprGetParent();
         return parent;
   }
+
+
 
   /**
    * Create an XPathException object that holds
@@ -258,6 +277,7 @@ public class XPathException extends TransformerException
       super.printStackTrace(s);
     }
     catch (Exception e){}
+
 
     boolean isJdk14OrHigher = false;
     try {

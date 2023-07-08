@@ -21,10 +21,24 @@
 
 package gc.gctests.InterruptGC;
 
+
 import nsk.share.gc.*;
 import nsk.share.test.*;
 import nsk.share.gc.gp.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,6 +56,9 @@ import java.util.*;
  *          /test/lib
  * @run main/othervm gc.gctests.InterruptGC.InterruptGC -gp random(arrays) -ms low
  */
+
+
+
 
 /**
  * The test starts one thread which generates garbage and several other

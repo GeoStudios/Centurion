@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Denote entity that has both name and type. This is true for local variables,
@@ -35,9 +52,12 @@ public interface NamedAndTyped {
 
     String getName();
 
+
     Type getType();
 
+
     void setName( String name );
+
 
     void setType( Type type );
 }

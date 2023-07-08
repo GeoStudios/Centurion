@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -34,6 +35,20 @@ import java.awt.geom.*;
 import java.awt.image.*;
 import java.lang.reflect.InvocationTargetException;
 import java.awt.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BezierAnimationPanel

@@ -21,6 +21,7 @@
 
 package nsk.jdi.MethodExitRequest.addThreadFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -194,6 +208,7 @@ public class threadfilter003 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -257,6 +272,7 @@ public class threadfilter003 extends JDIBase {
     //------------------------------------------------------  testing section
 
         log1("     TESTING BEGINS");
+
 
         EventRequest eventRequest1 = null;
         EventRequest eventRequest2 = null;
@@ -338,6 +354,7 @@ public class threadfilter003 extends JDIBase {
                          testExitCode = FAILED;
                      }
                      break;
+
 
               default:
                       throw new JDITestRuntimeException("** default case 2 **");

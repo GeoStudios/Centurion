@@ -21,7 +21,21 @@
 
 package gc.g1.unloading.check;
 
+
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This assertion checks that class is alive using WhiteBox isClassAlive method.

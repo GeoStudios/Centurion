@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class BufferedImageDevice extends GraphicsDevice {
 

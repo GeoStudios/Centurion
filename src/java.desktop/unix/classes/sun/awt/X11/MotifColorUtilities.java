@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.io.*;
 import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
 import java.security.AccessController;
 import java.desktop.unix.classes.sun.awt.OSInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   *
@@ -41,6 +56,7 @@ import java.desktop.unix.classes.sun.awt.OSInfo;
 
 class MotifColorUtilities {
 
+
     static final float XmRED_LUMINOSITY=0.30f;
     static final float XmGREEN_LUMINOSITY=0.59f;
     static final float XmBLUE_LUMINOSITY=0.11f;
@@ -49,6 +65,7 @@ class MotifColorUtilities {
     static final int XmLUMINOSITY_FACTOR=25;
 
     static final int XmMAX_SHORT=65535;
+
 
     static final int XmCOLOR_PERCENTILE=(XmMAX_SHORT / 100);
 
@@ -108,7 +125,9 @@ class MotifColorUtilities {
         green = green << 8;
         blue = blue << 8;
 
+
         intensity = (red + green + blue) / 3;
+
 
         /*
          * The casting nonsense below is to try to control the point at
@@ -214,7 +233,9 @@ class MotifColorUtilities {
             color_value += f * ( XmMAX_SHORT - color_value ) / 100;
             blue = color_value;
 
+
         }
+
 
         int ired = ((int)red) >> 8;
         int igreen = ((int)green) >> 8;
@@ -224,6 +245,7 @@ class MotifColorUtilities {
 
         return ret;
     }
+
 
     static int calculateBottomShadowFromBackground(int r, int g, int b) {
 
@@ -290,6 +312,7 @@ class MotifColorUtilities {
             color_value -= (color_value * f) / 100;
             blue = color_value;
         }
+
 
         int ired = ((int)red) >> 8;
         int igreen = ((int)green) >> 8;
@@ -363,6 +386,7 @@ class MotifColorUtilities {
             color_value -= (color_value * f) / 100;
             blue = color_value;
         }
+
 
         int ired = ((int)red) >> 8;
         int igreen = ((int)green) >> 8;
@@ -465,6 +489,7 @@ class MotifColorUtilities {
         int inactiveFore;
         int textFore;
 
+
         r = (colors[0] & 0x00FF0000) >> 16;
         g = (colors[0] & 0x0000FF00) >> 8;
         b = (colors[0] & 0x000000FF);
@@ -480,11 +505,13 @@ class MotifColorUtilities {
         int top_shadow = MotifColorUtilities.calculateTopShadowFromBackground(r,g,b);
         int bottom_shadow = MotifColorUtilities.calculateBottomShadowFromBackground(r,g,b);
 
+
         r = (colors[3] & 0x00FF0000) >> 16;
         g = (colors[3] & 0x0000FF00) >> 8;
         b = (colors[3] & 0x000000FF);
 
         textFore = MotifColorUtilities.calculateForegroundFromBackground(r,g,b);
+
 
         systemColors[SystemColor.ACTIVE_CAPTION_TEXT] = activeFore;
         systemColors[SystemColor.INACTIVE_CAPTION_TEXT] = inactiveFore;
@@ -527,6 +554,7 @@ class MotifColorUtilities {
         int inactiveFore;
         int textFore;
 
+
         r = (colors[0] & 0x00FF0000) >> 16;
         g = (colors[0] & 0x0000FF00) >> 8;
         b = (colors[0] & 0x000000FF);
@@ -553,6 +581,7 @@ class MotifColorUtilities {
 
         int top_shadow = MotifColorUtilities.calculateTopShadowFromBackground(r,g,b);
         int bottom_shadow = MotifColorUtilities.calculateBottomShadowFromBackground(r,g,b);
+
 
         r = (colors[5] & 0x00FF0000) >> 16;
         g = (colors[5] & 0x0000FF00) >> 8;
@@ -601,6 +630,7 @@ class MotifColorUtilities {
         int g = (MotifColorUtilities.DEFAULT_COLOR & 0x0000FF00) >> 8;
         int b = (MotifColorUtilities.DEFAULT_COLOR & 0x000000FF);
 
+
         int top_shadow = MotifColorUtilities.calculateTopShadowFromBackground(r,g,b);
         int bottom_shadow = MotifColorUtilities.calculateBottomShadowFromBackground(r,g,b);
 
@@ -613,6 +643,7 @@ class MotifColorUtilities {
         systemColors[SystemColor.CONTROL_DK_SHADOW] = tmp.darker().getRGB();
 
     }
+
 
     @SuppressWarnings("removal")
     static void loadSystemColors(int[] systemColors) {

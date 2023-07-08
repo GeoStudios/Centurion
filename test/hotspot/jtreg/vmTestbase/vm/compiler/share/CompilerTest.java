@@ -21,6 +21,21 @@
 
 package vm.compiler.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class CompilerTest<Output> {
 
     private final String name;

@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface permits a DOM implementer to supply one or more
  * implementations, based upon requested features and versions, as specified

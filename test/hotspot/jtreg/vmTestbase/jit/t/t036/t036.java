@@ -21,8 +21,22 @@
 
 package jit.t.t036;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t036.t036
  */
+
+
 
 // opc_int2byte, opc_int2char, opc_int2short
 

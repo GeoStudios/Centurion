@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.security.CodeSource;
@@ -30,6 +31,20 @@ import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaUtilJarAccess {
     boolean jarFileHasClassPathAttribute(JarFile jar) throws IOException;

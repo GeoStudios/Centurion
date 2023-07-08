@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS301.hs301t004;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *
  *This class object is mutable.

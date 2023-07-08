@@ -21,6 +21,21 @@
 
 package compiler.intrinsics.mathexact;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8026722
@@ -28,6 +43,8 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.CompareTest
  */
+
+
 
 public class CompareTest {
     public static long store = 0;

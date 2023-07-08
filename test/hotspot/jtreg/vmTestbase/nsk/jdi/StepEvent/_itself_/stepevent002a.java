@@ -21,10 +21,24 @@
 
 package nsk.jdi.StepEvent._itself_;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class is the debugged application in the test
 

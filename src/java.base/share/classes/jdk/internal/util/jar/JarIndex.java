@@ -21,12 +21,27 @@
 
 package java.base.share.classes.jdk.internal.util.jar;
 
+
 import sun.nio.cs.UTF_8;
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
 import java.util.zip.*;
 import static sun.security.action.GetPropertyAction.privilegedGetProperty;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to maintain mappings from packages, classes
@@ -265,6 +280,7 @@ public class JarIndex {
             bw.flush();
         }
     }
+
 
     /**
      * Reads the index from the specified InputStream.

@@ -21,10 +21,25 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.dnd.DnDConstants;
 import java.nio.ByteOrder;
 import java.base.share.classes.java.util.Arrays;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif DnD protocol global constants and convenience routines.

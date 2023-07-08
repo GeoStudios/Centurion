@@ -21,9 +21,23 @@
 
 package gc.arguments;
 
+
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestNewSizeThreadIncrease
@@ -36,6 +50,9 @@ import jdk.test.lib.process.ProcessTools;
  *          java.management
  * @run driver gc.arguments.TestNewSizeThreadIncrease
  */
+
+
+
 
 // Range of NewSizeThreadIncrease is 0 ~ max_uintx.
 // Total of 5 threads will be created (1 GCTest thread and 4 TestThread).

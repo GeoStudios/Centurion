@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key stress randomness
@@ -32,6 +47,7 @@ package compiler.loopopts;
  *                   compiler.loopopts.TestPredicateLostDependency
  *
  */
+
 
 public class TestPredicateLostDependency {
     static class A {

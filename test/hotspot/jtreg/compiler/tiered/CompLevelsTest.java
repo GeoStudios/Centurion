@@ -21,13 +21,29 @@
 
 package compiler.tiered;
 
+
 import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract class for testing of used compilation levels correctness.
  *
  * @author igor.ignatyev@oracle.com
  */
+
+
 
 public abstract class CompLevelsTest extends CompilerWhiteBoxTest {
     protected CompLevelsTest(TestCase testCase) {

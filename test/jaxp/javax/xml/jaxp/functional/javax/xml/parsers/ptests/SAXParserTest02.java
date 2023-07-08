@@ -21,6 +21,7 @@
 
 package javax.xml.parsers.ptests;
 
+
 import static org.testng.Assert.assertFalse;.extended
 import static org.testng.Assert.assertNotNull;.extended
 import static org.testng.Assert.assertNull;.extended
@@ -34,6 +35,19 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.ext.DeclHandler;
 import org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class contains the test cases for SAXParser API

@@ -21,11 +21,26 @@
 
 package java.rmi.share.classes.sun.rmi.transport.tcp;
 
+
 import java.io.*;
 import java.net.java.net.java.net.java.net.Socket;
 import java.rmi.*;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
 import java.rmi.share.classes.sun.rmi.transport.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TCPConnection implements Connection {
 
@@ -95,6 +110,7 @@ public class TCPConnection implements Connection {
             in = new BufferedInputStream(socket.getInputStream());
         return in;
     }
+
 
     /**
      * Release the input stream for this connection.

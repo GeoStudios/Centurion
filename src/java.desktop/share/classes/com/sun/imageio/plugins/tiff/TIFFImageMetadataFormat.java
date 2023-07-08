@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageMetadataFormat extends TIFFMetadataFormat {
 

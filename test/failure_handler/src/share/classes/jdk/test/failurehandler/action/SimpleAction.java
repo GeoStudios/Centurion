@@ -21,6 +21,7 @@
 
 package jdk.test.failurehandler.action;
 
+
 import jdk.test.failurehandler.HtmlSection;
 import jdk.test.failurehandler.value.InvalidValueException;
 import jdk.test.failurehandler.value.SubValues;
@@ -29,6 +30,19 @@ import jdk.test.failurehandler.value.ValueHandler;
 import jdk.test.failurehandler.value.DefaultValue;
 import java.io.PrintWriter;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SimpleAction implements Action {
     /* package-private */ final String[] sections;

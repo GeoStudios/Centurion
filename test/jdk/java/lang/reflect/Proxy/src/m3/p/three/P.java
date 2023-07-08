@@ -21,7 +21,21 @@
 
 package p.three;
 
+
 import p.two.Bar;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface P {
     public Bar bar();

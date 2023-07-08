@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used to format DOM error messages, using the system locale.
@@ -42,6 +57,7 @@ public class DOMMessageFormatter {
     private static ResourceBundle xmlResourceBundle = null;
     private static ResourceBundle serResourceBundle = null;
     private static Locale locale = null;
+
 
     DOMMessageFormatter(){
         locale = Locale.getDefault();

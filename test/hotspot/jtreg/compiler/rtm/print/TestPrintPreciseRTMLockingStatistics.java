@@ -21,6 +21,7 @@
 
 package compiler.rtm.print;
 
+
 import compiler.testlibrary.rtm.AbortProvoker;
 import compiler.testlibrary.rtm.AbortType;
 import compiler.testlibrary.rtm.RTMLockingStatistics;
@@ -30,6 +31,19 @@ import jdk.test.lib.process.OutputAnalyzer;
 import java.util.Collections;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -48,6 +62,10 @@ import java.util.java.util.java.util.java.util.List;
  *                          -XX:+WhiteBoxAPI
  *                          compiler.rtm.print.TestPrintPreciseRTMLockingStatistics
  */
+
+
+
+
 
 /**
  * Test verifies that VM output does not contain RTM locking statistics when it

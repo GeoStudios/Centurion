@@ -21,6 +21,7 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests.text;
 
+
 import java.awt.Font;
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
@@ -34,6 +35,20 @@ import demo.share.java2d.J2DBench.src.j2dbench.Group;
 import demo.share.java2d.J2DBench.src.j2dbench.Result;
 import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -41,6 +56,11 @@ import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
+
 
 public abstract class TextConstructionTests extends TextTests {
     static Group constructroot;
@@ -387,6 +407,7 @@ public abstract class TextConstructionTests extends TextTests {
             return pos == max ? DONE : chars[pos];
         }
 
+
     /**
      * Increments the iterator's index by one and returns the character
      * at the new index.  If the resulting index is greater or equal
@@ -402,6 +423,7 @@ public abstract class TextConstructionTests extends TextTests {
             pos = max;
             return DONE;
         }
+
 
     /**
      * Decrements the iterator's index by one and returns the character

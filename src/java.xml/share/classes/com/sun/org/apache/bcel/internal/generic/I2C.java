@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * I2C - Convert int to char
@@ -38,6 +55,7 @@ public class I2C extends ConversionInstruction {
     public I2C() {
         super(com.sun.org.apache.bcel.internal.Const.I2C);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

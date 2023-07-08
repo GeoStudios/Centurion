@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import java.io.InputStream;
 import java.xml.share.classes.javax.xml.stream.XMLResolver;
 import java.xml.share.classes.javax.xml.transform.Source;
@@ -29,6 +30,20 @@ import org.w3c.dom.ls.LSInput;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Catalog Resolver that implements SAX {@link org.xml.sax.EntityResolver},
@@ -124,6 +139,7 @@ public interface CatalogResolver extends EntityResolver, XMLResolver,
      */
     @Override
     InputSource resolveEntity(String publicId, String systemId);
+
 
     /**
      * Implements URIResolver. The method searches through the catalog entries

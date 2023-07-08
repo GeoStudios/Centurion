@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
@@ -45,6 +46,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONST
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.UninitializedType.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassWriter.StackMapTableFrame;.extended
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An internal structure that corresponds to the code attribute of
  *  methods in a classfile. The class also provides some utility operations to
@@ -225,6 +240,7 @@ public class Code {
         lvar = new LocalVar[20];
     }
 
+
 /* **************************************************************************
  * Typecodes & related stuff
  ****************************************************************************/
@@ -304,6 +320,7 @@ public class Code {
         default: throw new AssertionError("arraycode " + type);
         }
     }
+
 
 /* **************************************************************************
  * Emit code
@@ -1239,6 +1256,8 @@ public class Code {
         int pc = curCP();
         if (!needStackMap) return;
 
+
+
         switch (stackMap) {
             case CLDC:
                 emitCLDCStackMap(pc, getLocalsSize());
@@ -1377,6 +1396,7 @@ public class Code {
         frame.stack = null;
         return frame;
     }
+
 
 /**************************************************************************
  * Operations having to do with jumps
@@ -1560,6 +1580,7 @@ public class Code {
                 chain1.state);
     }
 
+
 /* **************************************************************************
  * Catch clauses
  ****************************************************************************/
@@ -1570,6 +1591,7 @@ public class Code {
                          char handlerPc, char catchType) {
             catchInfo.append(new char[]{startPc, endPc, handlerPc, catchType});
         }
+
 
     public void compressCatchTable() {
         ListBuffer<char[]> compressedCatchInfo = new ListBuffer<>();
@@ -1590,6 +1612,7 @@ public class Code {
         }
         catchInfo = compressedCatchInfo;
     }
+
 
 /* **************************************************************************
  * Line numbers
@@ -1626,6 +1649,7 @@ public class Code {
         }
         pendingStatPos = Position.NOPOS;
     }
+
 
 /* **************************************************************************
  * Simulated VM machine state
@@ -1853,6 +1877,7 @@ public class Code {
     }
 
     static final Type jsrReturnValue = new JCPrimitiveType(INT, null);
+
 
 /* **************************************************************************
  * Local variables

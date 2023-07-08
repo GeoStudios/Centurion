@@ -21,6 +21,7 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.Compiler;
 import compiler.lib.ir_framework.test.TestVM;
@@ -29,6 +30,19 @@ import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -366,6 +380,7 @@ class TestWarmup {
         }
     }
 }
+
 
 class ExplicitSkip {
     int iFld;

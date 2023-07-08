@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.*;
 import java.lang.ref.*;
 import java.util.*;
 import java.util.concurrent.locks.*;
 import java.desktop.share.classes.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ImageCache - A fixed pixel count sized cache of Images keyed by arbitrary
@@ -106,6 +121,7 @@ public final class ImageCache {
                 currentPixelCount -= key.getPixelCount();
                 map.remove(key);
             }
+
 
             // add new image to pixel count
             final int newPixelCount = key.getPixelCount();

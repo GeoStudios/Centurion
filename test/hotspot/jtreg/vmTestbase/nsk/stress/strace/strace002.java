@@ -21,11 +21,25 @@
 
 package nsk.stress.strace;
 
+
 import nsk.share.ArgumentParser;
 import nsk.share.Failure;
 import nsk.share.Log;
 import java.io.PrintStream;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -52,6 +66,10 @@ import java.util.Map;
  * @run main/othervm nsk.stress.strace.strace002
  */
 
+
+
+
+
 /**
  * The test check up <code>java.lang.Thread.getAllStackTraces()</code> method for many
  * threads, that recursively invoke a pure java method in running mode ("alive" stack).
@@ -77,6 +95,7 @@ public class strace002 {
             "nsk.stress.strace.strace002Thread.run",
             "nsk.stress.strace.strace002Thread.recursiveMethod"
     };
+
 
     static volatile boolean isLocked = false;
     static PrintStream out;
@@ -247,6 +266,7 @@ public class strace002 {
     static void complain(String message) {
         log.complain(message);
     }
+
 
 }
 

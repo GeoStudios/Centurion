@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Colors;
 
+
 import static java.lang.Math.PI;.extended
 import static java.lang.Math.abs;.extended
 import static java.lang.Math.cos;.extended
@@ -31,6 +32,20 @@ import static java.lang.Math.sqrt;.extended
 import java.awt.Color;
 import java.awt.Graphics2D;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * 3D objects with color & lighting translated, rotated and scaled.
@@ -133,6 +148,7 @@ public class Rotator3D extends AnimatingSurface {
     public static void main(String[] argv) {
         createDemoFrame(new Rotator3D());
     }
+
 
     /**
      * 3D Objects : Solid Cube, Cube & Octahedron with polygonal faces.
@@ -342,6 +358,7 @@ public class Rotator3D extends AnimatingSurface {
             g2.setColor(Color.black);
             g2.drawPolygon(xx, yy, polygons[poly][0]);
         }
+
 
         /**
          * A 3D matrix object.

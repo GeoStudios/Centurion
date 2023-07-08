@@ -21,6 +21,7 @@
 
 package crules;
 
+
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
@@ -38,6 +39,19 @@ import com.sun.tools.javac.util.Log;
 import com.sun.tools.javac.util.Options;
 import com.sun.tools.javac.util.RawDiagnosticFormatter;
 import static com.sun.source.util.TaskEvent.Kind;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractCodingRulesAnalyzer {
 

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.util;
 
+
 import java.base.share.classes.sun.security.validator.Validator;
 import java.security.AlgorithmParameters;
 import java.security.CryptoPrimitive;
@@ -50,6 +51,20 @@ import java.util.StringTokenizer;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Algorithm constraints for disabled algorithms property
@@ -296,6 +311,7 @@ public class DisabledAlgorithmConstraints extends AbstractAlgorithmConstraints {
         // check the key constraints
         return algorithmConstraints.permits(key);
     }
+
 
     /**
      * Key and Certificate Constraints
@@ -895,6 +911,7 @@ public class DisabledAlgorithmConstraints extends AbstractAlgorithmConstraints {
                 }
             }
         }
+
 
         // Check if key constraint disable the specified key
         // Uses old style permit()

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Color filter for DebugGraphics, used for images only.
   *

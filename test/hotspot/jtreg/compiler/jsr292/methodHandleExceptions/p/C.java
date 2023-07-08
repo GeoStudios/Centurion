@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Test class -- implements I, which provides default for m, but this class
  * declares it abstract which (should) hide the interface default, and throw

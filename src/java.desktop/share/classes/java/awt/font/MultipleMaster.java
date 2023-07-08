@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.awt.Font;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code MultipleMaster} interface represents Type 1
@@ -98,5 +113,6 @@ public interface MultipleMaster {
                                    float typicalCapHeight,
                                    float typicalXHeight,
                                    float italicAngle);
+
 
 }

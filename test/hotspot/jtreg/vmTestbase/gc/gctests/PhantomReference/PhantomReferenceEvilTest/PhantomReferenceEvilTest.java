@@ -21,6 +21,7 @@
 
 package gc.gctests.PhantomReference.PhantomReferenceEvilTest;
 
+
 import gc.gctests.PhantomReference.PhantomHelper;
 import gc.gctests.PhantomReference.PRHelper;
 import java.lang.ref.ReferenceQueue;
@@ -33,6 +34,19 @@ import nsk.share.gc.GCTestBase;
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -56,6 +70,8 @@ import nsk.share.test.Stresser;
  *      -XX:-UseGCOverheadLimit
  *      gc.gctests.PhantomReference.PhantomReferenceEvilTest.PhantomReferenceEvilTest
  */
+
+
 
 /**
  * Tests for the PhantomReference handling in a more evil way.
@@ -85,6 +101,7 @@ public class PhantomReferenceEvilTest extends GCTestBase {
         long memToAlloc = 0;
         long nrOfPrs = 0;
         Runtime r = Runtime.getRuntime();
+
 
         seed = runParams.getSeed();
         minSize = 2048;
@@ -145,6 +162,7 @@ public class PhantomReferenceEvilTest extends GCTestBase {
                 throw new TestFailure("OutOfMemoryException was thrown. This should "
                         + "not happen during the execution of this test.");
             }
+
 
             Stresser stresser = new Stresser(runParams.getStressOptions());
             stresser.start(0);

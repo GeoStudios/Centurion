@@ -21,6 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
+
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
@@ -37,6 +38,20 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.trace;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the source of the class files.
@@ -150,6 +165,7 @@ public class Archive implements Closeable {
     public String toString() {
         return filename;
     }
+
 
     public static boolean isSameLocation(Archive archive, Archive other) {
         if (archive.path == null || other.path == null)

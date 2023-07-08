@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DDIV -  Divide doubles
@@ -39,6 +56,7 @@ public class DDIV extends ArithmeticInstruction {
     public DDIV() {
         super(com.sun.org.apache.bcel.internal.Const.DDIV);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

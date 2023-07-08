@@ -21,6 +21,21 @@
 
 package compiler.c2.cr6711117;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6711117
@@ -30,10 +45,12 @@ package compiler.c2.cr6711117;
  *                   -XX:+UseCompressedOops compiler.c2.cr6711117.Test
  */
 
+
 final class Test_Class_0 {
     final static char var_1 = 'E';
     short var_2 = 16213;
     final static String var_3 = "jiiibmmsk";
+
 
     public Test_Class_0()
     {
@@ -59,6 +76,9 @@ final class Test_Class_0 {
         var_20 -= 'f';
         var_20 <<= (((new Test_Class_0[(byte)var_20])[(byte)var_2]).var_2 *= false ? 'g' : 'x');
     }
+
+
+
 
     static float func_0()
     {
@@ -181,6 +201,7 @@ final class Test_Class_0 {
     }
 }
 
+
 class Test_Class_1 {
     static int var_21 = 670918363;
     final float var_22 = 8.650798E37F;
@@ -192,12 +213,16 @@ class Test_Class_1 {
     double var_28;
     static String var_29;
 
+
     public Test_Class_1()
     {
         var_29 = Test_Class_0.var_3;
         ((false ? false || ! !true : ! (! !true & !true)) ? new Test_Class_0() : new Test_Class_0()).var_2++;
         var_23 -= 2.963694E38F;
     }
+
+
+
 
     public String toString()
     {
@@ -225,6 +250,7 @@ class Test_Class_1 {
     }
 }
 
+
 class Test_Class_2 {
     double var_30;
     static byte var_31;
@@ -233,6 +259,7 @@ class Test_Class_2 {
     double var_34 = !false & (true ? true : ! !true && false) ? 'q' - 4789231433793305600L - (var_33 = -1.0677024E38F) : 2.65473560313378E307;
     final double var_35 = ~Test_Class_1.var_26 == 5.145660681364723E307 | false ? 1.4134775E38F : 1.77223030708671E308;
     final int var_36 = Test_Class_1.var_23 |= Test_Class_1.var_21++;
+
 
     public Test_Class_2()
     {
@@ -260,6 +287,10 @@ class Test_Class_2 {
         Test_Class_1.var_29 = "ov";
         Test_Class_1.var_29 = "smtolghw";
     }
+
+
+
+
 
     protected final static String func_0(final long[][] arg_0, byte arg_1, char arg_2)
     {
@@ -300,9 +331,11 @@ class Test_Class_2 {
     }
 }
 
+
 final class Test_Class_3 extends Test_Class_2 {
     byte var_39 = 23;
     static boolean var_40 = false;
+
 
     public Test_Class_3()
     {
@@ -336,6 +369,9 @@ final class Test_Class_3 extends Test_Class_2 {
         var_39 += (((var_40 ^= true) ? new Test_Class_0() : new Test_Class_0()).var_2 ^= var_40 & (var_40 | false) ? var_39-- : var_36);
         new Test_Class_0().var_2 %= (new Test_Class_0().var_2 += (var_39 ^= Test_Class_1.var_26));
     }
+
+
+
 
     private static String func_0()
     {
@@ -405,6 +441,7 @@ final class Test_Class_3 extends Test_Class_2 {
     }
 }
 
+
 class Test_Class_4 {
     final float var_47 = 1.9043434E38F;
     final byte var_48 = 32;
@@ -414,6 +451,7 @@ class Test_Class_4 {
     static int var_52;
     short[] var_53;
     Test_Class_1 var_54;
+
 
     public Test_Class_4()
     {
@@ -446,6 +484,10 @@ class Test_Class_4 {
         --Test_Class_1.var_26;
     }
 
+
+
+
+
     public String toString()
     {
         String result =  "[\n";
@@ -470,14 +512,19 @@ class Test_Class_4 {
     }
 }
 
+
 class Test_Class_5 extends Test_Class_4 {
     char var_60 = '_';
     final byte var_61 = 101;
+
 
     public Test_Class_5()
     {
         Test_Class_0.var_3.indexOf(Test_Class_1.var_21, (Test_Class_3.var_40 |= Test_Class_3.var_40) ? new Test_Class_1().var_24 : 'i');
     }
+
+
+
 
     final char func_0(Test_Class_1 arg_0, final Test_Class_1 arg_1)
     {
@@ -553,6 +600,7 @@ public class Test {
     final static double var_71 = 3.566207721984698E307;
     static boolean var_72;
     final static String var_73 = "nmxx";
+
 
     private final char func_0(Test_Class_3 arg_0, final boolean[] arg_1)
     {
@@ -690,6 +738,7 @@ public class Test {
         public static String print(long arg)    { return String.valueOf(arg); }
         public static String print(float arg)   { return String.valueOf(arg); }
         public static String print(double arg)  { return String.valueOf(arg); }
+
 
         public static String print(Object arg)
         {

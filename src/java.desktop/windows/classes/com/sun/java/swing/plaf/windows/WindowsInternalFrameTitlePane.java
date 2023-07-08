@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -34,6 +35,20 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyVetoException;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class WindowsInternalFrameTitlePane extends BasicInternalFrameTitlePane {
@@ -67,6 +82,7 @@ public class WindowsInternalFrameTitlePane extends BasicInternalFrameTitlePane {
 
         Object obj      = UIManager.get("InternalFrame.titleButtonToolTipsOn");
         hotTrackingOn = (obj instanceof Boolean) ? (Boolean)obj : true;
+
 
         if (XPStyle.getXP() != null) {
             // Fix for XP bug where sometimes these sizes aren't updated properly
@@ -113,6 +129,7 @@ public class WindowsInternalFrameTitlePane extends BasicInternalFrameTitlePane {
             closeButton.setToolTipText(null);
         }
     }
+
 
     public void paintComponent(Graphics g)  {
         XPStyle xp = XPStyle.getXP();

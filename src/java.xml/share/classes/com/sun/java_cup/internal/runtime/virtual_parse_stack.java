@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.java_cup.internal.runtime;
 
+
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class implements a temporary or "virtual" parse stack that
  *  replaces the top portion of the actual parse stack (the part that

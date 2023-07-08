@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.org.xml.sax;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic interface for SAX (Simple API for XML) parsers.
@@ -76,6 +91,7 @@ public interface Parser
     void setLocale (Locale locale)
         throws SAXException;
 
+
     /**
      * Allow an application to register a custom entity resolver.
      *
@@ -93,6 +109,7 @@ public interface Parser
      * @see HandlerBase
      */
     void setEntityResolver (EntityResolver resolver);
+
 
     /**
      * Allow an application to register a DTD event handler.
@@ -112,6 +129,7 @@ public interface Parser
      */
     void setDTDHandler (DTDHandler handler);
 
+
     /**
      * Allow an application to register a document event handler.
      *
@@ -129,6 +147,7 @@ public interface Parser
      * @see HandlerBase
      */
     void setDocumentHandler (DocumentHandler handler);
+
 
     /**
      * Allow an application to register an error event handler.
@@ -148,6 +167,7 @@ public interface Parser
      * @see HandlerBase
      */
     void setErrorHandler (ErrorHandler handler);
+
 
     /**
      * Parse an XML document.
@@ -178,6 +198,7 @@ public interface Parser
      */
     void parse (InputSource source)
         throws SAXException, IOException;
+
 
     /**
      * Parse an XML document from a system identifier (URI).

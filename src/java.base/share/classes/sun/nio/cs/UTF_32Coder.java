@@ -21,12 +21,27 @@
 
 package java.base.share.classes.sun.nio.cs;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class UTF_32Coder {
     protected static final int BOM_BIG = 0xFEFF;

@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.locationsOfLine_i;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -120,6 +134,7 @@ public class locationsofline_i001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -159,6 +174,7 @@ public class locationsofline_i001 {
 
             List          locations = null;
             ReferenceType refType   = null;
+
 
             log2("      getting: List classes = vm.classesByName(mName + '.TestClass');");
             List classes = vm.classesByName(mName + ".TestClass");

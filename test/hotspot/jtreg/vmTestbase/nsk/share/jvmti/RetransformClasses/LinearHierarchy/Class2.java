@@ -21,12 +21,28 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class2 extends Class3 {
     final int var_1 = 279651512;
     final String var_2 = "pe";
     final byte var_3 = (byte)((false | (-2.2800832E38F != (short)1383528274 | false) ? (! !false ? (byte)'t' : (byte)2.7364918E38F) : (byte)(short)+ ((byte)(short)var_1)) - 1162809285);
     String var_4;
     long var_5;
+
 
     public Class2()
     {

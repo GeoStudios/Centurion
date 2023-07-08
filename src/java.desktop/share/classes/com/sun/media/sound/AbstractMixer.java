@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Vector;
 import javax.sound.sampled.Control;
 import javax.sound.sampled.Line;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.Mixer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract Mixer.  Implements Mixer (with abstract methods) and specifies
@@ -39,6 +54,7 @@ abstract class AbstractMixer extends AbstractLine implements Mixer {
     protected static final int PCM  = 0;
     protected static final int ULAW = 1;
     protected static final int ALAW = 2;
+
 
     // IMMUTABLE PROPERTIES
 

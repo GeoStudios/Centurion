@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.allThreads;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the allthreads001 JDI test.
@@ -72,6 +86,7 @@ public class allthreads001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -141,6 +156,9 @@ public class allthreads001a {
     }
 }
 
+
+
+
 class Threadallthreads001a extends Thread {
 
     public Threadallthreads001a(String threadName) {
@@ -177,6 +195,7 @@ class Threadallthreads001a extends Thread {
     }
 
     public static final int breakpointLineNumber1 = 3;
+
 
     void log(String str) {
         allthreads001a.log2("thread2: " + str);

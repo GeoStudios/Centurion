@@ -21,7 +21,22 @@
 
 package jdk.security.jgss.share.classes.com.sun.security.jgss;
 
+
 import java.security.BasicPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to protect various attributes of an established

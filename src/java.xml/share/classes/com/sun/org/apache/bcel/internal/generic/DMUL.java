@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DMUL - Multiply doubles
@@ -39,6 +56,7 @@ public class DMUL extends ArithmeticInstruction {
     public DMUL() {
         super(com.sun.org.apache.bcel.internal.Const.DMUL);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

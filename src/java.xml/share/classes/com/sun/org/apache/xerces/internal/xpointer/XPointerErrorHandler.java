@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer;
 
+
 import java.io.PrintWriter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParseException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * The Default XPointer error handler used by the XInclude implementation.

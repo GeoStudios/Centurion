@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the data model used by components like <code>Slider</code>s
@@ -81,6 +96,7 @@ public interface BoundedRangeModel
      */
     int getMinimum();
 
+
     /**
      * Sets the model's minimum to <I>newMinimum</I>.   The
      * other three properties may be changed as well, to ensure
@@ -97,6 +113,7 @@ public interface BoundedRangeModel
      */
     void setMinimum(int newMinimum);
 
+
     /**
      * Returns the model's maximum.  Note that the upper
      * limit on the model's value is (maximum - extent).
@@ -106,6 +123,7 @@ public interface BoundedRangeModel
      * @see #setExtent
      */
     int getMaximum();
+
 
     /**
      * Sets the model's maximum to <I>newMaximum</I>. The other
@@ -122,6 +140,7 @@ public interface BoundedRangeModel
      */
     void setMaximum(int newMaximum);
 
+
     /**
      * Returns the model's current value.  Note that the upper
      * limit on the model's value is <code>maximum - extent</code>
@@ -131,6 +150,7 @@ public interface BoundedRangeModel
      * @see     #setValue
      */
     int getValue();
+
 
     /**
      * Sets the model's current value to <code>newValue</code> if <code>newValue</code>
@@ -156,6 +176,7 @@ public interface BoundedRangeModel
      */
     void setValue(int newValue);
 
+
     /**
      * This attribute indicates that any upcoming changes to the value
      * of the model should be considered a single event. This attribute
@@ -170,6 +191,7 @@ public interface BoundedRangeModel
      */
     void setValueIsAdjusting(boolean b);
 
+
     /**
      * Returns true if the current changes to the value property are part
      * of a series of changes.
@@ -178,6 +200,7 @@ public interface BoundedRangeModel
      * @see #setValueIsAdjusting
      */
     boolean getValueIsAdjusting();
+
 
     /**
      * Returns the model's extent, the length of the inner range that
@@ -188,6 +211,7 @@ public interface BoundedRangeModel
      * @see     #setValue
      */
     int getExtent();
+
 
     /**
      * Sets the model's extent.  The <I>newExtent</I> is forced to
@@ -208,6 +232,8 @@ public interface BoundedRangeModel
      * @see #setValue
      */
     void setExtent(int newExtent);
+
+
 
     /**
      * This method sets all of the model's data with a single method call.
@@ -230,6 +256,7 @@ public interface BoundedRangeModel
      */
     void setRangeProperties(int value, int extent, int min, int max, boolean adjusting);
 
+
     /**
      * Adds a ChangeListener to the model's listener list.
      *
@@ -237,6 +264,7 @@ public interface BoundedRangeModel
      * @see #removeChangeListener
      */
     void addChangeListener(ChangeListener x);
+
 
     /**
      * Removes a ChangeListener from the model's listener list.

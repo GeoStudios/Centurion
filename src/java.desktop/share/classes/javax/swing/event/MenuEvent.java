@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MenuEvent is used to notify interested parties that

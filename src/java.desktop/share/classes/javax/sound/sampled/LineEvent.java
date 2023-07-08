@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
 import java.io.Serial;
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code LineEvent} class encapsulates information that a line sends its

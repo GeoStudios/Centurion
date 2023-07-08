@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,6 +43,20 @@ import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioFormat.Encoding;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DLS Level 1 and Level 2 soundbank reader (from files/url/streams).
@@ -288,6 +303,7 @@ public final class DLSSoundbank implements Soundbank {
             return 44100;
         return 0;
     }
+
 
     // Reading cdl-ck Chunk
     // "cdl " chunk can only appear inside : DLS,lart,lar2,rgn,rgn2

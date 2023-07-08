@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -47,6 +48,20 @@ import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
 import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import sun.font.FontUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A pool of styles and their associated resources.  This class determines
@@ -1373,6 +1388,7 @@ public class StyleContext implements Serializable, AbstractDocument.AttributeCon
             listenerList.remove(ChangeListener.class, l);
         }
 
+
         /**
          * Returns an array of all the <code>ChangeListener</code>s added
          * to this NamedStyle with addChangeListener().
@@ -1383,6 +1399,7 @@ public class StyleContext implements Serializable, AbstractDocument.AttributeCon
         public ChangeListener[] getChangeListeners() {
             return listenerList.getListeners(ChangeListener.class);
         }
+
 
         /**
          * Notifies all listeners that have registered interest for
@@ -1499,6 +1516,7 @@ public class StyleContext implements Serializable, AbstractDocument.AttributeCon
         public boolean containsAttribute(Object name, Object value) {
             return attributes.containsAttribute(name, value);
         }
+
 
         /**
          * Checks whether the element contains all the attributes.
@@ -1656,5 +1674,6 @@ public class StyleContext implements Serializable, AbstractDocument.AttributeCon
             e.printStackTrace();
         }
     }
+
 
 }

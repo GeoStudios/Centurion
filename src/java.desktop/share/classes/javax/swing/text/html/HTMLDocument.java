@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.font.TextAttribute;
 import java.util.*;
 import java.net.URL;
@@ -32,6 +33,20 @@ import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.undo.*;
 import sun.swing.SwingUtilities2;
 import static sun.swing.SwingUtilities2.IMPLIED_CR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A document that models HTML.  The purpose of this model is to
@@ -727,6 +742,7 @@ public class HTMLDocument extends DefaultStyledDocument {
         }
     }
 
+
     /**
      * Searches the element hierarchy for an FRAME element
      * that has its name attribute equal to the <code>frameName</code>.
@@ -794,6 +810,7 @@ public class HTMLDocument extends DefaultStyledDocument {
         }
     }
 
+
     /**
      * Updates the Frame elements <code>HTML.Attribute.SRC attribute</code>
      * and fires a <code>ChangedUpdate</code> event.
@@ -820,6 +837,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             writeUnlock();
         }
     }
+
 
     /**
      * Returns true if the document will be viewed in a frame.
@@ -1711,6 +1729,7 @@ public class HTMLDocument extends DefaultStyledDocument {
         }
     }
 
+
     // These two are provided for inner class access. The are named different
     // than the super class as the super class implementations are final.
     void obtainLock() {
@@ -1782,6 +1801,7 @@ public class HTMLDocument extends DefaultStyledDocument {
 
     private static final int StepThreshold = 5;
 
+
     /**
      * Document property key value. The value for the key will be a Vector
      * of Strings that are comments not found in the body.
@@ -1850,6 +1870,7 @@ public class HTMLDocument extends DefaultStyledDocument {
         NEWLINE = new char[1];
         NEWLINE[0] = '\n';
     }
+
 
     /**
      * An iterator to iterate over a particular type of
@@ -2995,6 +3016,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             }
         }
 
+
         /**
          * Action used for the actual element form tag. This is named such
          * as there was already a public class named FormAction.
@@ -3018,6 +3040,7 @@ public class HTMLDocument extends DefaultStyledDocument {
                 radioButtonGroupsMap = null;
             }
         }
+
 
         /**
          * Action assigned by default to handle the Paragraph task of the reader.
@@ -3073,6 +3096,7 @@ public class HTMLDocument extends DefaultStyledDocument {
 
         }
 
+
         /**
          * Action assigned by default to handle the Hidden task of the reader.
          */
@@ -3100,6 +3124,7 @@ public class HTMLDocument extends DefaultStyledDocument {
                         t != HTML.Tag.SCRIPT;
             }
         }
+
 
         /**
          * Subclass of HiddenAction to set the content type for style sheets,
@@ -3130,6 +3155,7 @@ public class HTMLDocument extends DefaultStyledDocument {
                 return true;
             }
         }
+
 
         /**
          * End if overridden to create the necessary stylesheets that
@@ -3230,6 +3256,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             }
         }
 
+
         /**
          * A subclass to add the AttributeSet to styles if the
          * attributes contains an attribute for 'rel' with value
@@ -3265,6 +3292,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             }
         }
 
+
         class AreaAction extends TagAction {
 
             public void start(HTML.Tag t, MutableAttributeSet a) {
@@ -3276,6 +3304,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             public void end(HTML.Tag t) {
             }
         }
+
 
         class StyleAction extends TagAction {
 
@@ -3484,6 +3513,7 @@ public class HTMLDocument extends DefaultStyledDocument {
                 return false;
             }
         }
+
 
         class BaseAction extends TagAction {
 
@@ -3739,6 +3769,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             Object selectModel;
             int optionCount;
         }
+
 
         // --- utility methods used by the reader ------------------
 
@@ -4330,6 +4361,7 @@ public class HTMLDocument extends DefaultStyledDocument {
         private HTML.Tag nextTagAfterPImplied = null;
     }
 
+
     /**
      * Used by StyleSheet to determine when to avoid removing HTML.Tags
      * matching StyleConstants.
@@ -4339,6 +4371,7 @@ public class HTMLDocument extends DefaultStyledDocument {
             super();
         }
     }
+
 
     /**
      * An element that represents a chunk of text that has
@@ -4427,6 +4460,7 @@ public class HTMLDocument extends DefaultStyledDocument {
         }
 
     }
+
 
     /**
      * Document that allows you to set the maximum length of the text.

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.color.ColorSpace;
 import java.desktop.share.classes.java.awt.color.ICC_ColorSpace;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code ColorModel} class that works with pixel values that
@@ -936,6 +951,7 @@ public class ComponentColorModel extends ColorModel {
         return getRGBComponent(inData, 0);
     }
 
+
     /**
      * Returns the green color component for the specified pixel, scaled
      * from 0 to 255 in the default RGB {@code ColorSpace}, sRGB.
@@ -969,6 +985,7 @@ public class ComponentColorModel extends ColorModel {
     public int getGreen(Object inData) {
         return getRGBComponent(inData, 1);
     }
+
 
     /**
      * Returns the blue color component for the specified pixel, scaled

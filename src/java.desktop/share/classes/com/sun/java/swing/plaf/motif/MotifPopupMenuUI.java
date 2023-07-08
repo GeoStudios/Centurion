@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
 import java.desktop.share.classes.com.sun.java.awt.Font;
 import java.desktop.share.classes.com.sun.java.awt.FontMetrics;
@@ -37,6 +38,20 @@ import javax.swing.event.Changejava.util.Listener;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicPopupMenuUI;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Motif {@literal L&F} implementation of PopupMenuUI.

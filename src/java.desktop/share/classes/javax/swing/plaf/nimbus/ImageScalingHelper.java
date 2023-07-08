@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Insets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ImageScalingHelper
@@ -269,5 +284,6 @@ class ImageScalingHelper {
         }
         g.drawImage(image, dx1, dy1, dx2, dy2, sx1, sy1, sx2, sy2, null);
     }
+
 
 }

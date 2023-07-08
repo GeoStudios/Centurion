@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Attributes2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wraps {@link XMLAttributes} and makes it look like

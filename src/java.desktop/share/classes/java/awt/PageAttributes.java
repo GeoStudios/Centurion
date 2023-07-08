@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A set of attributes which control the output of a printed page.

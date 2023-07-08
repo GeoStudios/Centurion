@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadStartRequest.addThreadFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the addthreadfilter004 JDI test.
@@ -127,6 +141,7 @@ public class addthreadfilter004a {
         System.exit(exitCode + PASS_BASE);
     }
 
+
     static Object waitnotifyObj = new Object();
 
     static int threadStart(Thread t) {
@@ -142,6 +157,7 @@ public class addthreadfilter004a {
         }
         return PASSED;
     }
+
 
     static Object lockingObj[] = new Object[2];
     static volatile int number = 0;

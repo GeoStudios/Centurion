@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class MarlinUtils {
     // Marlin logger
     private static final sun.util.logging.PlatformLogger LOG;

@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.AWTError;
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
@@ -114,6 +115,20 @@ import java.desktop.macosx.classes.sun.lwawt.PlatformComponent;
 import java.desktop.macosx.classes.sun.lwawt.PlatformDropTarget;
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
 import java.desktop.macosx.classes.sun.lwawt.SecurityWarningWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 final class NamedCursor extends Cursor {

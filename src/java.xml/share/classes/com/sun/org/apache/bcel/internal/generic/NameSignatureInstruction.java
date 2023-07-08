@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantCP;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Super class for FieldOrMethod and INVOKEDYNAMIC, since they both have

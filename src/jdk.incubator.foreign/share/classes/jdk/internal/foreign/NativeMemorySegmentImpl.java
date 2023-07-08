@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
@@ -30,6 +31,20 @@ import jdk.incubator.foreign.share.classes.jdk.internal.misc.VM;
 import jdk.incubator.foreign.share.classes.jdk.internal.vm.annotation.ForceInline;
 import sun.security.action.GetBooleanAction;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for native memory segments. A native memory segment is essentially a wrapper around

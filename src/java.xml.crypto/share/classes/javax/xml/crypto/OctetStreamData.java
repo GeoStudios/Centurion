@@ -21,11 +21,28 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
+
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: OctetStreamData.java,v 1.3 2005/05/10 15:47:42 mullan Exp $
  */
+
+
 
 /**
  * A representation of a <code>Data</code> type containing an octet stream.

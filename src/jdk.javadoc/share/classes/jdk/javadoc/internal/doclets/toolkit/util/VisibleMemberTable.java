@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
+
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
@@ -54,6 +55,20 @@ import java.util.stream.Stream;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseOptions;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PropertyUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class computes the main data structure for the doclet's
@@ -416,6 +431,7 @@ public class VisibleMemberTable {
         // All members have been computed, compute properties.
         computeVisibleProperties(lmt);
     }
+
 
     void computeVisibleMembers(LocalMemberTable lmt, Kind kind) {
         switch (kind) {
@@ -934,6 +950,7 @@ public class VisibleMemberTable {
             //        ":" + propertyMethod.toString() + "->" + propertyMap.get(propertyMethod));
         }
     }
+
 
     // Future cleanups
 

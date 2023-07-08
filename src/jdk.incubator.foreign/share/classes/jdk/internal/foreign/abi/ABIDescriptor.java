@@ -21,7 +21,22 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
 import jdk.incubator.foreign.share.classes.jdk.internal.invoke.ABIDescriptorProxy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ABIDescriptor implements ABIDescriptorProxy {
     final Architecture arch;

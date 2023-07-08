@@ -21,11 +21,25 @@
 
 package nsk.monitoring.share.thread;
 
+
 import nsk.share.log.Log;
 import nsk.share.TestFailure;
 import java.lang.management.LockInfo;
 import java.lang.management.MonitorInfo;
 import java.lang.management.ThreadInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ThreadUtils {
         private ThreadUtils() {
@@ -56,6 +70,7 @@ public final class ThreadUtils {
                 else
                         return "MonitorInfo: lockedStackDepth: " + info.getLockedStackDepth() + " lockedStackFrame: " + info.getLockedStackFrame() + strLockInfo(info);
         }
+
 
         /**
          * Obtain human readable string representation of array of lock info.

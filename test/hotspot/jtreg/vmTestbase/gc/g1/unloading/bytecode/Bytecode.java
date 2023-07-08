@@ -21,6 +21,21 @@
 
 package gc.g1.unloading.bytecode;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is container for class name and bytecode. Bytecode is what BytecodeFactory produces.
  */

@@ -21,8 +21,23 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
 import jdk.jfr.share.classes.jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Options that control Flight Recorder.
@@ -153,5 +168,6 @@ public final class Options {
     static void ensureInitialized() {
         // trigger clinit which will setup JVM defaults.
     }
+
 
 }

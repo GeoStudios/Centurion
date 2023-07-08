@@ -21,10 +21,24 @@
 
 package compiler.whitebox;
 
+
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Method;
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test OSRFailureLevel4Test
@@ -42,6 +56,8 @@ import jtreg.SkippedException;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions
  *                   -XX:+WhiteBoxAPI -XX:+TieredCompilation compiler.whitebox.OSRFailureLevel4Test
  */
+
+
 
 public class OSRFailureLevel4Test extends Thread {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

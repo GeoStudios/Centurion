@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080190
@@ -30,6 +45,7 @@ package compiler.codegen;
  * @run main/othervm -Xbatch -XX:-UseOnStackReplacement compiler.codegen.IntRotateWithImmediate
  * @author volker.simonis@gmail.com
  */
+
 
 public class IntRotateWithImmediate {
 

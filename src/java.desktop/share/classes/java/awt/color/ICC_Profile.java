@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.color;
 
+
 import java.desktop.share.classes.java.io.BufferedInputStream;
 import java.desktop.share.classes.java.io.File;
 import java.desktop.share.classes.java.io.FileInputStream;
@@ -42,6 +43,20 @@ import sun.java2d.cmm.PCMM;
 import sun.java2d.cmm.Profile;
 import sun.java2d.cmm.ProfileDataVerifier;
 import sun.java2d.cmm.ProfileDeferralInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A representation of color profile data for device independent and device
@@ -151,6 +166,7 @@ public class ICC_Profile implements Serializable {
      * Profile class is named color.
      */
     public static final int CLASS_NAMEDCOLOR = 6;
+
 
     /**
      * ICC Profile Color Space Type Signature: 'XYZ '.
@@ -277,6 +293,7 @@ public class ICC_Profile implements Serializable {
      */
     public static final int icSigSpaceFCLR = 0x46434C52;
 
+
     /**
      * ICC Profile Class Signature: 'scnr'.
      */
@@ -312,6 +329,7 @@ public class ICC_Profile implements Serializable {
      */
     public static final int icSigNamedColorClass = 0x6e6d636c;
 
+
     /**
      * ICC Profile Rendering Intent: Perceptual.
      */
@@ -343,6 +361,7 @@ public class ICC_Profile implements Serializable {
      *
      */
     public static final int icICCAbsoluteColorimetric = 3;
+
 
     /**
      * ICC Profile Tag Signature: 'head' - special.
@@ -610,6 +629,7 @@ public class ICC_Profile implements Serializable {
      */
     public static final int icSigColorantTableTag = 0x636C7274;
 
+
     /**
      * ICC Profile Header Location: profile size in bytes.
      */
@@ -696,6 +716,7 @@ public class ICC_Profile implements Serializable {
      */
     public static final int icHdrProfileID = 84;
 
+
     /**
      * ICC Profile Constant: tag type signature.
      */
@@ -720,6 +741,7 @@ public class ICC_Profile implements Serializable {
      * ICC Profile Constant: XYZNumber X.
      */
     public static final int icXYZNumberX = 8;
+
 
     /**
      * Constructs an {@code ICC_Profile} object with a given ID.

@@ -21,9 +21,25 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.io.PrintStream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // THIS TEST IS LINE NUMBER SENSITIVE
+
+
 
 /**
  * This is the old version of a redefined class with some empty

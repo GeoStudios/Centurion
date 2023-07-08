@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -29,10 +30,26 @@ import javax.xml.crypto.XMLCryptoContext;
 import java.xml.crypto.share.classes.org.w3c.dom.NamedNodeMap;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Miscellaneous static utility methods for use in JSR 105 RI.

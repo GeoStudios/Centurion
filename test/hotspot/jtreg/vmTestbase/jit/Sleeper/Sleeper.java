@@ -21,7 +21,21 @@
 
 package jit.Sleeper;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.Sleeper.Sleeper
  */
+
+
 
 public class Sleeper {
     public static void main(String args[] ) {

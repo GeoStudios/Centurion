@@ -21,10 +21,25 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class only for sjavac logging.

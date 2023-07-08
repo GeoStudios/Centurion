@@ -21,6 +21,7 @@
 
 package sun.security.testlibrary;
 
+
 import java.io.*;
 import java.net.*;
 import java.base.share.classes.java.security.*;
@@ -41,6 +42,19 @@ import sun.security.provider.certpath.CertId;
 import sun.security.provider.certpath.OCSPResponse;
 import sun.security.provider.certpath.OCSPResponse.ResponseStatus;
 import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a simple OCSP server designed to listen and respond to incoming
@@ -273,6 +287,7 @@ public class SimpleOCSPServer {
         log("Accept OCSP connections");
         acceptConnections = true;
     }
+
 
     /**
      * Stop the OCSP server.
@@ -891,6 +906,7 @@ public class SimpleOCSPServer {
             return new String(bos.toByteArray(), "UTF-8");
         }
     }
+
 
     /**
      * Simple nested class to handle OCSP requests without making

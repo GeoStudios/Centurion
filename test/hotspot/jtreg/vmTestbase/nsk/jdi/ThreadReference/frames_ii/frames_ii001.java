@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.frames_ii;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -168,6 +182,7 @@ public class frames_ii001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -207,6 +222,7 @@ public class frames_ii001 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -219,6 +235,7 @@ public class frames_ii001 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             String bpLine3 = "breakpointLineNumber3";
+
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -414,6 +431,7 @@ public class frames_ii001 {
                               }
                               break;
 
+
                       case 1:
                               log2("......first breakpoint within 'runt1'");
                               log2("         case for check: frameList = thread2.frames(0, 2);");
@@ -474,6 +492,7 @@ public class frames_ii001 {
                                   breakpRequest2.enable();
                               }
                               break;
+
 
                       case 2:
                               log2("......a breakpoint within 'runt2'");
@@ -570,6 +589,7 @@ public class frames_ii001 {
                               }
                               break;
 
+
                       case 3:
                               log2("......second breakpoint within 'runt1'");
                               log2("         case for check: frameList = thread2.frames(0, 2);");
@@ -662,6 +682,7 @@ public class frames_ii001 {
         return testExitCode;
     }
 
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -717,6 +738,7 @@ public class frames_ii001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -32,6 +33,20 @@ import javax.accessibility.AccessibleEditableText;
 import javax.accessibility.AccessibleText;
 import javax.swing.text.Element;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CAccessibleText {
     static AccessibleEditableText getAccessibleEditableText(final Accessible a, final Component c) {
@@ -148,6 +163,7 @@ class CAccessibleText {
             }
         }, c);
     }
+
 
     static int[] getVisibleCharacterRange(final Accessible a, final Component c) {
         if (a == null) return null;

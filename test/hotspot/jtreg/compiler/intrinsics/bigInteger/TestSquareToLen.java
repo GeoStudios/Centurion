@@ -21,9 +21,23 @@
 
 package compiler.intrinsics.bigInteger;
 
+
 import java.math.BigInteger;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -43,6 +57,8 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=inline,java.math.BigInteger::squareToLen
  *      compiler.intrinsics.bigInteger.TestSquareToLen
  */
+
+
 
 public class TestSquareToLen {
 

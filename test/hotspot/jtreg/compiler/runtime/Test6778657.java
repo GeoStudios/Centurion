@@ -21,6 +21,21 @@
 
 package compiler.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6778657
@@ -28,6 +43,7 @@ package compiler.runtime;
  *
  * @run main compiler.runtime.Test6778657
  */
+
 
 public class Test6778657 {
     public static void check_f2i(int expect) {

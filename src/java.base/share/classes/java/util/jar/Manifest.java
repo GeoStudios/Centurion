@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util.jar;
 
+
 import java.base.share.classes.java.io.DataOutputStream;
 import java.base.share.classes.java.io.FilterInputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -30,6 +31,20 @@ import java.base.share.classes.java.util.HashMap;
 import java.base.share.classes.java.util.Map;
 import sun.nio.cs.UTF_8;
 import sun.security.util.SecurityProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Manifest class is used to maintain Manifest entry names and their

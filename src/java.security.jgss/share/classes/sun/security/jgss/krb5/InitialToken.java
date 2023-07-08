@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
+
 import org.ietf.jgss.*;
 import javax.security.auth.kerberos.DelegationPermission;
 import java.io.java.io.java.io.java.io.IOException;
@@ -33,6 +34,20 @@ import java.base.share.classes.java.util.Arrays;
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.security.jgss.share.classes.sun.security.jgss.krb5.internal.TlsChannelBindingImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class InitialToken extends Krb5Token {
 
@@ -174,6 +189,7 @@ abstract class InitialToken extends Krb5Token {
                         new DelegationPermission(sb.toString());
                     sm.checkPermission(perm);
                 }
+
 
                 /*
                  * Write 1 in little endian but in two bytes

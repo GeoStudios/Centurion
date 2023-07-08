@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.peer.FileDialogPeer;
 import java.desktop.share.classes.java.io.File;
 import java.desktop.share.classes.java.io.FilenameFilter;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code FileDialog} class displays a dialog window
@@ -129,6 +144,7 @@ public class FileDialog extends Dialog {
      */
      @Serial
      private static final long serialVersionUID = 5035145889651310422L;
+
 
     static {
         /* ensure that the necessary native libraries are loaded */
@@ -326,6 +342,7 @@ public class FileDialog extends Dialog {
         setLayout(null);
     }
 
+
     /**
      * {@inheritDoc}
      * <p>
@@ -339,6 +356,7 @@ public class FileDialog extends Dialog {
     public void setTitle(String title) {
         super.setTitle(title);
     }
+
 
     /**
      * Constructs a name for this component. Called by {@code getName()}

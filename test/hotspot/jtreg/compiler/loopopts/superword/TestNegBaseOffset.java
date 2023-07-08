@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8202948
@@ -31,6 +46,7 @@ package compiler.loopopts.superword;
  *                   -XX:CompileOnly=compiler/loopopts/superword/TestNegBaseOffset
  *                   compiler.loopopts.superword.TestNegBaseOffset
  */
+
 
 public class TestNegBaseOffset {
     public static final int N = 400;

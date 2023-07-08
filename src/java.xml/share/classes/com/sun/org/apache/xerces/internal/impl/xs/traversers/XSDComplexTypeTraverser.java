@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeFacetException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
@@ -45,6 +46,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A complex type definition schema component traverser.
@@ -125,6 +140,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         super(handler, gAttrCheck);
     }
 
+
     private static final boolean DEBUG=false;
 
     private static final class ComplexTypeRecoverableError extends Exception {
@@ -155,6 +171,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
     XSComplexTypeDecl traverseLocal(Element complexTypeNode,
             XSDocumentInfo schemaDoc,
             SchemaGrammar grammar) {
+
 
         Object[] attrValues = fAttrChecker.checkAttributes(complexTypeNode, false,
                 schemaDoc);
@@ -223,6 +240,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
 
         return type;
     }
+
 
     private XSComplexTypeDecl traverseComplexTypeDecl(Element complexTypeDecl,
             String complexTypeName,
@@ -350,10 +368,12 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         return fComplexTypeDecl;
     }
 
+
     private void traverseSimpleContent(Element simpleContentElement,
             XSDocumentInfo schemaDoc,
             SchemaGrammar grammar)
     throws ComplexTypeRecoverableError {
+
 
         Object[] simpleContentAttrValues = fAttrChecker.checkAttributes(simpleContentElement, false,
                 schemaDoc);
@@ -410,6 +430,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         Object [] derivationTypeAttrValues = fAttrChecker.checkAttributes(simpleContent, false,
                 schemaDoc);
         QName baseTypeName = (QName)  derivationTypeAttrValues[XSAttributeChecker.ATTIDX_BASE];
+
 
         // -----------------------------------------------------------------------
         // Need a base type.
@@ -683,8 +704,10 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
             SchemaGrammar grammar)
     throws ComplexTypeRecoverableError {
 
+
         Object[] complexContentAttrValues = fAttrChecker.checkAttributes(complexContentElement, false,
                 schemaDoc);
+
 
         // -----------------------------------------------------------------------
         // Determine if this is mixed content
@@ -694,6 +717,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         if (mixedAtt != null) {
             mixedContent = mixedAtt.booleanValue();
         }
+
 
         // -----------------------------------------------------------------------
         // Since the type must have complex content, set the simple type validators
@@ -745,6 +769,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         Object[] derivationTypeAttrValues = fAttrChecker.checkAttributes(complexContent, false,
                 schemaDoc);
         QName baseTypeName = (QName)  derivationTypeAttrValues[XSAttributeChecker.ATTIDX_BASE];
+
 
         // -----------------------------------------------------------------------
         // Need a base type.  Check that it's a complex type
@@ -842,6 +867,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
             // N.B. derivation-ok-restriction.5.3 is checked under schema
             // full checking.   That's because we need to wait until locals are
             // traversed so that occurrence information is correct.
+
 
             if (fContentType == XSComplexTypeDecl.CONTENTTYPE_MIXED &&
                     baseType.getContentType() != XSComplexTypeDecl.CONTENTTYPE_MIXED) {
@@ -948,6 +974,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
 
     } // end of traverseComplexContent
 
+
     // This method merges attribute uses from the base, into the derived set.
     // LM: may want to merge with attributeGroup processing.
     private void mergeAttributes(XSAttributeGroupDecl fromAttrGrp,
@@ -1017,6 +1044,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
             // GROUP, ALL, SEQUENCE or CHOICE, followed by attributes, if specified.
             // Note that it's possible that only attributes are specified.
             // -------------------------------------------------------------
+
 
             String childName = DOMUtil.getLocalName(complexContentChild);
 
@@ -1096,6 +1124,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         else
             fContentType = XSComplexTypeDecl.CONTENTTYPE_ELEMENT;
 
+
         // -------------------------------------------------------------
         // Now, process attributes
         // -------------------------------------------------------------
@@ -1119,7 +1148,10 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
             }
         }
 
+
+
     } // end processComplexContent
+
 
     private boolean isAttrOrAttrGroup(Element e) {
         String elementName = DOMUtil.getLocalName(e);
@@ -1153,6 +1185,7 @@ class  XSDComplexTypeTraverser extends XSDAbstractParticleTraverser {
         }
         return typeName.toString();
     }
+
 
     private void handleComplexTypeError(String messageId,Object[] args,
             Element e) {

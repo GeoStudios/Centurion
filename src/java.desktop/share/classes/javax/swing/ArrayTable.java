@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Enumeration;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Private storage mechanism for Action key-value pairs.
@@ -41,6 +56,7 @@ class ArrayTable implements Cloneable {
     // Our field for storage
     private Object table = null;
     private static final int ARRAY_BOUNDARY = 8;
+
 
     /**
      * Writes the passed in ArrayTable to the passed in ObjectOutputStream.
@@ -94,6 +110,7 @@ class ArrayTable implements Cloneable {
             }
         }
     }
+
 
     /*
      * Put the key-value pair into storage

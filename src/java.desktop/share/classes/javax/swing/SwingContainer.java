@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 import static java.lang.annotation.ElementType.TYPE;.extended
 import static java.lang.annotation.RetentionPolicy.RUNTIME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An annotation used to specify some swing-related information

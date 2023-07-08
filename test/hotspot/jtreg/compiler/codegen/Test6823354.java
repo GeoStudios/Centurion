@@ -21,7 +21,21 @@
 
 package compiler.codegen;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -37,6 +51,8 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=compileonly,compiler.codegen.*::dotzcomp
  *      compiler.codegen.Test6823354
  */
+
+
 
 public class Test6823354 {
     // Arrays of corner case values.
@@ -81,6 +97,7 @@ public class Test6823354 {
             int x = 1 << i;
             testclass(classname, x);
         }
+
 
         // long
 
@@ -137,6 +154,7 @@ public class Test6823354 {
             int x = 1 << i;
             testclass(classname, x);
         }
+
 
         // long
 

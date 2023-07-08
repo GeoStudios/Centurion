@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DatatypeMessageFormatter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
@@ -38,6 +39,20 @@ import javax.xml.datatype.Duration;
 import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.namespace.QName;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Representation for W3C XML Schema 1.0 date/time datatypes.
@@ -302,6 +317,7 @@ public class XMLGregorianCalendarImpl
      */
     private static final int TIMEZONE = 7;
 
+
     /**
      * field names indexed by YEAR..TIMEZONE.
      */
@@ -411,6 +427,7 @@ public class XMLGregorianCalendarImpl
             int countSeparator = 0;
 
             // start at index 1 to skip potential negative sign for year.
+
 
             int timezoneOffset = lexRep.indexOf(':');
             if (timezoneOffset != NOT_FOUND) {
@@ -1089,6 +1106,7 @@ public class XMLGregorianCalendarImpl
         }
     }
 
+
     /**
      * <p>Return millisecond precision of {@link #getFractionalSecond()}.<\p>
      *
@@ -1380,6 +1398,7 @@ public class XMLGregorianCalendarImpl
         // must test hour after setting seconds
         testHour();
     }
+
 
     /**
      * <p>Set time as one unit, including optional milliseconds.</p>
@@ -1893,6 +1912,7 @@ public class XMLGregorianCalendarImpl
         }
     }
 
+
     /**
      * Validate instance by <code>getXMLSchemaType()</code> constraints.
      * @return true if data values are valid.
@@ -2206,6 +2226,7 @@ public class XMLGregorianCalendarImpl
     private static final BigDecimal DECIMAL_TWELVE = BigDecimal.valueOf(12);
     private static final BigDecimal DECIMAL_TWENTY_FOUR = BigDecimal.valueOf(24);
     private static final BigDecimal DECIMAL_SIXTY = BigDecimal.valueOf(60);
+
 
     private static class DaysInMonth {
         private static final int [] table = { 0,  // XML Schema months start at 1.

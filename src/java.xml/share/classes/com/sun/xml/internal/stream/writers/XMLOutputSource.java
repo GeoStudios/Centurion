@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
+
 import java.io.OutputStream;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XMLOutputSource.

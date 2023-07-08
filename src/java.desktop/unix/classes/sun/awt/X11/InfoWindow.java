@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.Color;
@@ -49,6 +50,20 @@ import java.text.BreakIterator;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.awt.UNIXToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An utility window class. This is a base class for Tooltip and Balloon.
@@ -152,6 +167,7 @@ public abstract class InfoWindow extends Window {
             });
         }
     }
+
 
     private interface LiveArguments {
         /** Whether the target of the InfoWindow is disposed. */
@@ -388,6 +404,7 @@ public abstract class InfoWindow extends Window {
                         break;
                     }
                 } while (end != BreakIterator.DONE);
+
 
                 textPanel.setLayout(new GridLayout(nLines, 1));
             }

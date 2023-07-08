@@ -21,12 +21,27 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
 import java.util.Vector;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XMenuBarPeer extends XBaseMenuWindow implements MenuBarPeer {
 
@@ -486,6 +501,8 @@ public class XMenuBarPeer extends XBaseMenuWindow implements MenuBarPeer {
             break;
         }
     }
+
+
 
     /************************************************
      *

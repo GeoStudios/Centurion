@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
+
 import java.security.PrivilegedAction;
 import java.desktop.macosx.classes.sun.java2d.metal.MTLGraphicsConfig;
 import java.desktop.macosx.classes.sun.java2d.opengl.CGLGraphicsConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacOSFlags {
 

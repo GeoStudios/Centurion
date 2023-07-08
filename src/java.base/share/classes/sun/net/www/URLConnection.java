@@ -21,9 +21,24 @@
 
 package java.base.share.classes.sun.net.www;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to represent an active connection to an object
@@ -104,6 +119,7 @@ public abstract class URLConnection extends java.net.URLConnection {
         }
         return properties == null ? null : properties.findValue(name);
     }
+
 
     Map<String, List<String>> headerFields;
 

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
+
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * StateEditable defines the interface for objects that can have

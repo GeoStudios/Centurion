@@ -21,12 +21,28 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Rectangle;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.Point2D;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class FontStrike {
+
 
     protected FontStrikeDisposer disposer;
     protected FontStrikeDesc desc;
@@ -70,5 +86,6 @@ public abstract class FontStrike {
 
     abstract GeneralPath
         getGlyphVectorOutline(int[] glyphs, float x, float y);
+
 
 }

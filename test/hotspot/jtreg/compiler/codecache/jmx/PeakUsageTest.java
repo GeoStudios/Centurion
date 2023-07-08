@@ -21,8 +21,22 @@
 
 package compiler.codecache.jmx;
 
+
 import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test PeakUsageTest
@@ -43,6 +57,10 @@ import java.lang.management.MemoryPoolMXBean;
  * @summary testing of getPeakUsage() and resetPeakUsage for
  *     segmented code cache
  */
+
+
+
+
 
 public class PeakUsageTest {
 

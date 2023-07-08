@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
@@ -55,6 +56,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a DTM that tends to be optimized more for speed than
@@ -1617,6 +1632,7 @@ public class SAX2DTM extends DTMDefaultBaseIterators
     if (DEBUG)
       System.out.println("startDocument");
 
+
     int doc = addNode(DTM.DOCUMENT_NODE,
                       m_expandedNameTable.getExpandedTypeID(DTM.DOCUMENT_NODE),
                       DTM.NULL, DTM.NULL, 0, true);
@@ -1712,6 +1728,7 @@ public class SAX2DTM extends DTMDefaultBaseIterators
     {
       index = m_prefixMappings.indexOf(prefix, ++index);
     } while ( (index >= 0) && ((index & 0x01) == 0x01) );
+
 
     if (index > -1)
     {
@@ -2372,6 +2389,7 @@ public class SAX2DTM extends DTMDefaultBaseIterators
     int dataIndex = m_valuesOrPrefixes.stringToIndex(new String(ch, start,
                       length));
 
+
     m_previous = addNode(DTM.COMMENT_NODE, exName,
                          m_parents.peek(), m_previous, dataIndex, false);
   }
@@ -2403,6 +2421,7 @@ public class SAX2DTM extends DTMDefaultBaseIterators
     {
 
       node = makeNodeIdentity(node);
+
 
       return new NodeLocator(null,
                              m_sourceSystemId.elementAt(node),

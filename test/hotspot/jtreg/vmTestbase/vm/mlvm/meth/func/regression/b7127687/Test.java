@@ -21,6 +21,7 @@
 
 package vm.mlvm.mixed.func.regression.b7127687;
 
+
 import nsk.share.Consts;
 import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.Env;
@@ -30,6 +31,19 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Test extends MlvmTest {
 
@@ -55,6 +69,7 @@ public class Test extends MlvmTest {
 
         return true;
     }
+
 
     private static Class generateClass(String name) throws ClassNotFoundException{
         ClassWriter cw = new ClassWriter(0);

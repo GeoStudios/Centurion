@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDLoader;
@@ -65,6 +66,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class adds implementation for normalizeDocument method.
@@ -164,6 +179,8 @@ public class DOMNormalizer implements XMLDocumentHandler {
     //
 
     public DOMNormalizer(){}
+
+
 
     /**
      * Normalizes document.
@@ -390,6 +407,7 @@ public class DOMNormalizer implements XMLDocumentHandler {
                         }
                     }
                 }
+
 
                 if (fValidationHandler != null) {
                     // REVISIT: possible solutions to discard default content are:
@@ -809,6 +827,8 @@ public class DOMNormalizer implements XMLDocumentHandler {
             }
         }
 
+
+
         // ---------------------------------------------------------
         // Fix up namespaces for element: per DOM L3
         // Need to consider the following cases:
@@ -1059,9 +1079,11 @@ public class DOMNormalizer implements XMLDocumentHandler {
         }
     }
 
+
     //
     // Methods for well-formness checking
     //
+
 
     /**
      * Check if CDATA section is well-formed
@@ -1345,6 +1367,8 @@ public class DOMNormalizer implements XMLDocumentHandler {
         }
     }
 
+
+
     /**
      * Reports a DOM error to the user handler.
      *
@@ -1379,6 +1403,8 @@ public class DOMNormalizer implements XMLDocumentHandler {
         qname.rawname = fSymbolTable.addSymbol(node.getNodeName());
         qname.uri =  (namespace != null)?fSymbolTable.addSymbol(namespace):null;
     }
+
+
 
         /* REVISIT: remove this method if DOM does not change spec.
          * Performs partial XML 1.0 attribute value normalization and replaces
@@ -1464,6 +1490,7 @@ public class DOMNormalizer implements XMLDocumentHandler {
             }
         }
 
+
         /**
          * This method adds default declarations
                  * @see com.sun.org.apache.xerces.internal.xni.XMLAttributes#addAttribute(QName, String, String)
@@ -1497,17 +1524,21 @@ public class DOMNormalizer implements XMLDocumentHandler {
             return index;
         }
 
+
         public void removeAllAttributes(){
             // REVISIT: implement
         }
+
 
         public void removeAttributeAt(int attrIndex){
             // REVISIT: implement
         }
 
+
         public int getLength(){
             return(fAttributes != null)?fAttributes.getLength():0;
         }
+
 
         public int getIndex(String qName){
             // REVISIT: implement
@@ -1548,6 +1579,7 @@ public class DOMNormalizer implements XMLDocumentHandler {
             }
             return null;
         }
+
 
         public String getLocalName(int index) {
             if (fAttributes != null) {
@@ -1874,6 +1906,7 @@ public class DOMNormalizer implements XMLDocumentHandler {
         }
     }
 
+
     /**
      * An empty element.
      *
@@ -2038,6 +2071,7 @@ public class DOMNormalizer implements XMLDocumentHandler {
         }
     }
 
+
     /**
      * The start of a CDATA section.
      *
@@ -2071,9 +2105,11 @@ public class DOMNormalizer implements XMLDocumentHandler {
     public void endDocument(Augmentations augs) throws XNIException{
     }
 
+
     /** Sets the document source. */
     public void setDocumentSource(XMLDocumentSource source){
     }
+
 
     /** Returns the document source. */
     public XMLDocumentSource getDocumentSource(){

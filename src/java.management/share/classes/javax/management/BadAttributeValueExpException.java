@@ -21,8 +21,23 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown when an invalid MBean attribute is passed to a query
@@ -32,6 +47,7 @@ import java.io.ObjectInputStream;
  *
  */
 public class BadAttributeValueExpException extends Exception   {
+
 
     /* Serial version */
     private static final long serialVersionUID = -3105272988410493376L;
@@ -52,6 +68,7 @@ public class BadAttributeValueExpException extends Exception   {
     public BadAttributeValueExpException (Object val) {
         this.val = val == null ? null : val.toString();
     }
+
 
     /**
      * Returns the string representing the object.

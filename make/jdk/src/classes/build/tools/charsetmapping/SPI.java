@@ -21,6 +21,56 @@
 
 package build.tools.charsetmapping;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class SPI {
 
     public static void genClass(String type,

@@ -21,6 +21,7 @@
 
 package compiler.loopopts;
 
+
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
@@ -29,6 +30,19 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -42,6 +56,8 @@ import jdk.test.lib.Asserts;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.loopopts.UseCountedLoopSafepointsTest
  */
+
+
 
 /* Idea of this test is to check if ideal graph has CountedLoopEnd->SafePoint edge in case
    of UseCountedLoopSafepoint enabled and has no such edge in case it's disabled. Restricting

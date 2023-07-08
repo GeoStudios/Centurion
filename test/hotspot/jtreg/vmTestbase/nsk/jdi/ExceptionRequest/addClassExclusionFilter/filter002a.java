@@ -21,9 +21,23 @@
 
 package nsk.jdi.ExceptionRequest.addClassExclusionFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter002 JDI test.
@@ -104,10 +118,12 @@ public class filter002a {
                                 break;
                 }
 
+
                 log1("methodForCommunication();");
                 methodForCommunication();
                 if (instruction == end)
                     break;
+
 
             }
 

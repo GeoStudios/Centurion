@@ -21,6 +21,7 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
+
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Iterator;
@@ -28,6 +29,20 @@ import java.util.NoSuchElementException;
 import java.io.java.io.java.io.java.io.IOException;
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows implementation of DirectoryStream
@@ -52,6 +67,7 @@ class WindowsDirectoryStream
     // need closeLock to access these
     private boolean isOpen = true;
     private Iterator<Path> iterator;
+
 
     WindowsDirectoryStream(WindowsPath dir, DirectoryStream.Filter<? super Path> filter)
         throws IOException

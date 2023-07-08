@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GIFImageMetadataFormatResources extends ListResourceBundle {
 

@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
+
 import java.xml.share.classes.org.xml.sax.Locator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provide an optional convenience implementation of Locator.
@@ -57,6 +72,7 @@ import java.xml.share.classes.org.xml.sax.Locator;
 public class LocatorImpl implements Locator
 {
 
+
     /**
      * Zero-argument constructor.
      *
@@ -66,6 +82,7 @@ public class LocatorImpl implements Locator
     public LocatorImpl ()
     {
     }
+
 
     /**
      * Copy constructor.
@@ -85,9 +102,12 @@ public class LocatorImpl implements Locator
         setColumnNumber(locator.getColumnNumber());
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.Locator
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Return the saved public identifier.
@@ -102,6 +122,7 @@ public class LocatorImpl implements Locator
         return publicId;
     }
 
+
     /**
      * Return the saved system identifier.
      *
@@ -115,6 +136,7 @@ public class LocatorImpl implements Locator
         return systemId;
     }
 
+
     /**
      * Return the saved line number (1-based).
      *
@@ -126,6 +148,7 @@ public class LocatorImpl implements Locator
     {
         return lineNumber;
     }
+
 
     /**
      * Return the saved column number (1-based).
@@ -139,9 +162,12 @@ public class LocatorImpl implements Locator
         return columnNumber;
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Setters for the properties (not in org.xml.sax.Locator)
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set the public identifier for this locator.
@@ -155,6 +181,7 @@ public class LocatorImpl implements Locator
         this.publicId = publicId;
     }
 
+
     /**
      * Set the system identifier for this locator.
      *
@@ -167,6 +194,7 @@ public class LocatorImpl implements Locator
         this.systemId = systemId;
     }
 
+
     /**
      * Set the line number for this locator (1-based).
      *
@@ -178,6 +206,7 @@ public class LocatorImpl implements Locator
         this.lineNumber = lineNumber;
     }
 
+
     /**
      * Set the column number for this locator (1-based).
      *
@@ -188,6 +217,8 @@ public class LocatorImpl implements Locator
     {
         this.columnNumber = columnNumber;
     }
+
+
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.

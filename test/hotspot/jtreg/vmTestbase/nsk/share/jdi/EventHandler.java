@@ -21,11 +21,25 @@
 
 package nsk.share.jdi;
 
+
 import java.util.*;
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a separate thread for asynchronous listening
@@ -216,6 +230,7 @@ public class EventHandler implements Runnable {
         display("finished");
     }
 
+
     /**
      * This is normally called in the main thread of the test debugger.
      * It starts up an <code>EventHandler</code> thread that gets events coming in
@@ -226,6 +241,7 @@ public class EventHandler implements Runnable {
         createDefaultListeners();
         listenThread.start();
     }
+
 
     /**
      * This method sets up default requests.
@@ -363,6 +379,7 @@ public class EventHandler implements Runnable {
             listeners.remove(listener);
         }
     }
+
 
     /**
      * Returns an event which is received for any of given requests.
@@ -541,6 +558,7 @@ public class EventHandler implements Runnable {
          * method for events contained in this set.
          */
         public void eventSetReceived(EventSet set) {}
+
 
         /**
          * This method will be called by <code>EventHandler</code>

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import com.sun.beans.finder.ClassFinder;
 import java.desktop.share.classes.java.applet.Applet;
 import java.desktop.share.classes.java.applet.AppletContext;
@@ -39,6 +40,20 @@ import java.desktop.share.classes.java.util.Enumeration;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.util.Iterator;
 import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides some general purpose beans control methods.

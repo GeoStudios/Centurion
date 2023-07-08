@@ -21,6 +21,7 @@
 
 package nsk.jdi.VoidValue.equals.equals001;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -75,6 +89,9 @@ import java.io.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -195,6 +212,7 @@ public class equals001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -246,6 +264,7 @@ public class equals001 {
             String bpLine1          = "breakpointLineNumber1";
 
             BreakpointRequest breakpRequest1 = null;
+
 
             label0: {
 
@@ -305,11 +324,13 @@ public class equals001 {
                 if (expresult != returnCode0)
                     break label1;
 
+
                 Value returnvdValue1 = null;
                 Value returnvdValue2 = null;
                 List  invokeMethods  = null;
                 Method invokeMethod  = null;
                 List<Value> argumentList    = null;
+
 
                 invokeMethods  =  testedclass.methodsByName("vdValue1");
                 invokeMethod = (Method) invokeMethods.get(0);
@@ -338,6 +359,7 @@ public class equals001 {
                      expresult = returnCode1;
                      break label1;
                 }
+
 
                 VoidValue vdValue1 = null;
                 VoidValue vdValue2 = null;
@@ -405,6 +427,8 @@ public class equals001 {
         return testExitCode;
     }
 
+
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -460,6 +484,7 @@ public class equals001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

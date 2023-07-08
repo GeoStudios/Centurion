@@ -21,8 +21,22 @@
 
 package compiler.membars;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestMembarDependencies
@@ -33,6 +47,8 @@ import jdk.test.lib.process.ProcessTools;
  *          java.management
  * @run driver compiler.membars.TestMembarDependencies
  */
+
+
 
 public class TestMembarDependencies {
     private static TestMembarDependencies f1;

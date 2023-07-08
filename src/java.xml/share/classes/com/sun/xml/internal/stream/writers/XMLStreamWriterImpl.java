@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
@@ -50,6 +51,20 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.transform.stream.StreamResult;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a StAX XMLStreamWriter. It extends
@@ -1038,6 +1053,7 @@ public final class XMLStreamWriterImpl extends AbstractMap<Object, Object>
                 return;
             }
 
+
             if (fInternalNamespaceContext.containsPrefixInCurrentContext(prefix)){
 
                 String tmp = fInternalNamespaceContext.getURI(prefix);
@@ -1342,6 +1358,7 @@ public final class XMLStreamWriterImpl extends AbstractMap<Object, Object>
             fInternalNamespaceContext.pushContext();
 
             String tmpPrefix = fNamespaceContext.getPrefix(namespaceURI);
+
 
             if ((prefix != null) &&
                     (!prefix.equals(tmpPrefix))) {

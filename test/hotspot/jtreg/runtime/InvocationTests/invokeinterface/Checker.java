@@ -21,8 +21,22 @@
 
 package invokeinterface;
 
+
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Checker extends shared.Checker {
     private Class interfaceClass;

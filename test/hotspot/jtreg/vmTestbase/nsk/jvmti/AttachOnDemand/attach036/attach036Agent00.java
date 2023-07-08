@@ -21,7 +21,21 @@
 
 package nsk.jvmti.AttachOnDemand.attach036;
 
+
 import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class attach036Agent00  {
 

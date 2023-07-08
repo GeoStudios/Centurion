@@ -21,14 +21,31 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
+
 import java.xml.crypto.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This {@link org.xml.sax.ErrorHandler} does absolutely nothing but LOG
@@ -65,6 +82,7 @@ public class IgnoreAllErrorHandler implements ErrorHandler {
         }
     }
 
+
     /** {@inheritDoc} */
     @Override
     public void error(SAXParseException ex) throws SAXException {
@@ -75,6 +93,7 @@ public class IgnoreAllErrorHandler implements ErrorHandler {
             throw ex;
         }
     }
+
 
     /** {@inheritDoc} */
     @Override

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
@@ -32,6 +33,20 @@ import javax.sound.midi.MidiMessage;
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.Transmitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract AbstractMidiDevice class representing functionality shared by
@@ -429,6 +444,7 @@ abstract class AbstractMidiDevice implements MidiDevice, ReferenceCountingDevice
     abstract class AbstractReceiver implements MidiDeviceReceiver {
         private volatile boolean open = true;
 
+
         /** Deliver a MidiMessage.
             This method contains magic related to the closed state of a
             Receiver. Therefore, subclasses should not override this method.
@@ -468,6 +484,7 @@ abstract class AbstractMidiDevice implements MidiDevice, ReferenceCountingDevice
             return open;
         }
     } // class AbstractReceiver
+
 
     /**
      * Transmitter base class.
@@ -537,6 +554,7 @@ abstract class AbstractMidiDevice implements MidiDevice, ReferenceCountingDevice
         // handling
         private int optimizedReceiverCount = 0;
 
+
         private void add(Transmitter t) {
             synchronized(transmitters) {
                 transmitters.add(t);
@@ -575,6 +593,7 @@ abstract class AbstractMidiDevice implements MidiDevice, ReferenceCountingDevice
             // more potential for optimization here
         }
 
+
         /** closes all transmitters and empties the list */
         void close() {
             synchronized (transmitters) {
@@ -584,6 +603,8 @@ abstract class AbstractMidiDevice implements MidiDevice, ReferenceCountingDevice
                 transmitters.clear();
             }
         }
+
+
 
         /**
         * Send this message to all receivers

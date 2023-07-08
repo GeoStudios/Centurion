@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio;
 
+
 import java.awt.Dimension;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class describing how a stream is to be encoded.  Instances of
@@ -1285,6 +1300,7 @@ public class ImageWriteParam extends IIOParam {
         }
         return compressionQuality;
     }
+
 
     /**
      * Returns a {@code float} indicating an estimate of the

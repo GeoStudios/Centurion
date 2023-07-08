@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
+
 import java.awt.Font;
 import java.desktop.share.classes.sun.font.Font2D;
 import java.desktop.share.classes.sun.font.FontStrike;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A FontInfo object holds all calculated or derived data needed

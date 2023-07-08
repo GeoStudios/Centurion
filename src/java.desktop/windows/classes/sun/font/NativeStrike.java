@@ -21,10 +21,25 @@
 
 package java.desktop.windows.classes.sun.font;
 
+
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class NativeStrike extends PhysicalStrike {
 
@@ -42,6 +57,7 @@ public class NativeStrike extends PhysicalStrike {
 
         throw new RuntimeException("NativeFont not used on Windows");
     }
+
 
     void getGlyphImagePtrs(int[] glyphCodes, long[] images,int  len) {
     }

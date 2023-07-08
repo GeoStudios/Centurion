@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JStack extends Tool {
     public JStack(boolean mixedMode, boolean concurrentLocks) {

@@ -21,13 +21,31 @@
 
 package java.base.share.classes.sun.net.www;
 
+
 import java.io.*;
 import java.util.Collections;
 import java.util.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-
  *      news stream opener
  */
+
+
+
 
 /** An RFC 844 or MIME message header.  Includes methods
     for parsing headers from incoming streams, fetching
@@ -318,6 +336,7 @@ class MessageHeader {
         print(n, k, v, p);
     }
 
+
     /** Prints the key-value pairs represented by this
         header. Also prints the RFC required blank line
         at the end. Omits pairs with a null key. Omits
@@ -374,6 +393,7 @@ class MessageHeader {
             values[i] = v;
         }
     }
+
 
     /** grow the key/value arrays as needed */
 

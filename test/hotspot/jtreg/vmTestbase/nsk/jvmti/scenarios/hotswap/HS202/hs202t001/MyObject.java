@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS202.hs202t001;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyObject extends Object {
         private String name="NO NAME";
         private int age=100;

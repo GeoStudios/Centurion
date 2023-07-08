@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.filechooser.*;
 import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
@@ -37,6 +38,20 @@ import java.util.regex.*;
 import sun.awt.shell.ShellFolder;
 import sun.swing.*;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic L&amp;F implementation of a FileChooser.
@@ -283,6 +298,7 @@ public class BasicFileChooserUI extends FileChooserUI {
         return map;
     }
 
+
     /**
      * Uninstalls the listeners.
      * @param fc the file chooser
@@ -296,6 +312,7 @@ public class BasicFileChooserUI extends FileChooserUI {
                                          WHEN_ANCESTOR_OF_FOCUSED_COMPONENT, null);
         SwingUtilities.replaceUIActionMap(fc, null);
     }
+
 
     /**
      * Installs the defaults.
@@ -549,6 +566,7 @@ public class BasicFileChooserUI extends FileChooserUI {
     public void clearIconCache() {
         fileView.clearIconCache();
     }
+
 
     // ********************************************
     // ************ Create Listeners **************
@@ -815,9 +833,11 @@ public class BasicFileChooserUI extends FileChooserUI {
         return acceptAllFileFilter;
     }
 
+
     public FileView getFileView(JFileChooser fc) {
         return fileView;
     }
+
 
     /**
      * Returns the title of this dialog
@@ -868,6 +888,7 @@ public class BasicFileChooserUI extends FileChooserUI {
             return null;
         }
     }
+
 
     // *****************************
     // ***** Directory Actions *****
@@ -928,6 +949,7 @@ public class BasicFileChooserUI extends FileChooserUI {
     public Action getUpdateAction() {
         return updateAction;
     }
+
 
     /**
      * Creates a new folder.
@@ -1159,6 +1181,7 @@ public class BasicFileChooserUI extends FileChooserUI {
         }
     }
 
+
     private void resetGlobFilter() {
         if (actualFileFilter != null) {
             JFileChooser chooser = getFileChooser();
@@ -1178,6 +1201,7 @@ public class BasicFileChooserUI extends FileChooserUI {
                                                   || filename.indexOf('?') >= 0
                                                   || filename.indexOf('[') >= 0)));
     }
+
 
     /* A file filter which accepts file patterns containing
      * the special wildcards *? on Windows and *?[] on Unix.
@@ -1338,6 +1362,7 @@ public class BasicFileChooserUI extends FileChooserUI {
         }
     }
 
+
     private void changeDirectory(File dir) {
         JFileChooser fc = getFileChooser();
         // Traverse shortcuts on Windows
@@ -1371,6 +1396,7 @@ public class BasicFileChooserUI extends FileChooserUI {
         }
     }
 
+
     // *****************************************
     // ***** default AcceptAll file filter *****
     // *****************************************
@@ -1399,6 +1425,7 @@ public class BasicFileChooserUI extends FileChooserUI {
             return UIManager.getString("FileChooser.acceptAllFileFilterText");
         }
     }
+
 
     // ***********************
     // * FileView operations *

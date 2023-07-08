@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -31,6 +32,20 @@ import javax.sound.sampled.AudioFormat.Encoding;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.spi.FormatConversionProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to convert between 8,16,24,32 bit signed/unsigned

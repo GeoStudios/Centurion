@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
 
+
 import java.util.Iterator;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface TypeDataBase {
   /** Equivalent to lookupType(cTypeName, true) */

@@ -21,9 +21,23 @@
 
 package nsk.jvmti.scenarios.extension.EX03;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ex03t001 extends DebugeeClass {
 
@@ -102,6 +116,7 @@ public class ex03t001 extends DebugeeClass {
         status = checkStatus(status);
         return status;
     }
+
 
     Class loadClass (ClassUnloader unloader, String className, String path) {
         try {

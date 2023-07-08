@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.runtime.test;
 
+
 import jdk.vm.ci.meta.JavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaType;
@@ -29,6 +30,19 @@ import java.lang.reflect.Method;
 import java.util.Map;
 import static org.junit.Assert.assertEquals;.extended
 import static org.junit.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,10 @@ import static org.junit.Assert.assertTrue;.extended
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestJavaMethod
  */
+
+
+
+
 
 /**
  * Tests for {@link JavaMethod}.

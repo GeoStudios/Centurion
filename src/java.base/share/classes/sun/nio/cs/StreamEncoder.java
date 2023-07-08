@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.nio.cs;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
@@ -34,6 +35,20 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StreamEncoder extends Writer
 {
@@ -78,6 +93,7 @@ public class StreamEncoder extends Writer
         return new StreamEncoder(out, lock, enc);
     }
 
+
     // Factory for java.nio.channels.Channels.newWriter
 
     public static StreamEncoder forEncoder(WritableByteChannel ch,
@@ -86,6 +102,7 @@ public class StreamEncoder extends Writer
     {
         return new StreamEncoder(ch, enc, minBufferCap);
     }
+
 
     // -- Public methods corresponding to those in OutputStreamWriter --
 
@@ -170,6 +187,7 @@ public class StreamEncoder extends Writer
     private boolean isOpen() {
         return !closed;
     }
+
 
     // -- Charset-based stream encoder impl --
 

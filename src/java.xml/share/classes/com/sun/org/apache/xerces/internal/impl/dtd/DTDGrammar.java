@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMAny;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMBinOp;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMLeaf;
@@ -50,6 +51,20 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DTD grammar. This class implements the XNI handler interfaces
@@ -271,6 +286,7 @@ public class DTDGrammar
 
     /** flag if the elementDecl is External. */
     private int[][] fElementDeclIsExternal = new int[INITIAL_CHUNK_COUNT][];
+
 
     // additional fields(columns) for the attribute Decl pool in the Grammar
 
@@ -514,6 +530,7 @@ public class DTDGrammar
                 elementDecl.type = XMLElementDecl.TYPE_CHILDREN;
             }
         }
+
 
         //add(or set) this elementDecl to the local cache
         this.fElementDeclTab.put(name, elementDecl );
@@ -1329,6 +1346,7 @@ public class DTDGrammar
 
     } // getAttributeDecl
 
+
     /**
      * Returns whether the given attribute is of type CDATA or not
      *
@@ -1779,6 +1797,9 @@ public class DTDGrammar
       fElementIndexMap.put(elementDecl.name.rawname, elementDeclIndex);
    }
 
+
+
+
    protected void putElementNameMapping(QName name, int scope,
                                         int elementDeclIndex) {
    }
@@ -1807,6 +1828,7 @@ public class DTDGrammar
       fElementDeclContentSpecIndex[chunk][index] = contentSpecIndex;
    }
 
+
    protected int createAttributeDecl() {
       int chunk = fAttributeDeclCount >> CHUNK_SHIFT;
       int index = fAttributeDeclCount & CHUNK_MASK;
@@ -1822,6 +1844,7 @@ public class DTDGrammar
       fAttributeDeclNextAttributeDeclIndex[chunk][index]  = -1;
       return fAttributeDeclCount++;
    }
+
 
    protected void setAttributeDecl(int elementDeclIndex, int attributeDeclIndex,
                                    XMLAttributeDecl attributeDecl) {
@@ -1884,6 +1907,7 @@ public class DTDGrammar
       fContentSpecValue[chunk][index]      = contentSpec.value;
       fContentSpecOtherValue[chunk][index] = contentSpec.otherValue;
    }
+
 
    protected int createEntityDecl() {
        int chunk = fEntityCount >> CHUNK_SHIFT;

@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.*;
 import java.io.*;
 import java.net.URI;
@@ -34,6 +35,21 @@ import java.util.regex.*;
 import java.awt.datatransfer.*;
 import java.nio.charset.StandardCharsets;
 import java.desktop.macosx.classes.sun.awt.datatransfer.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CDataTransferer extends DataTransferer {
     private static final Map<String, Long> predefinedClipboardNameMap;
@@ -244,6 +260,7 @@ public class CDataTransferer extends DataTransferer {
         if (new String(bytes).startsWith("Unsupported type")) return null;
         return nativeDragQueryFile(bytes);
     }
+
 
     @Override
     protected Image platformImageBytesToImage(byte[] bytes, long format) throws IOException {

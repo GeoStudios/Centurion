@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
@@ -36,10 +37,27 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLD
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDContentModelSource;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * @xerces.internal
@@ -340,6 +358,7 @@ public class DefaultXMLDocumentHandler implements XMLDocumentHandler,
     public void endDocument(Augmentations augs) throws XNIException {
     }
 
+
     //
     // XMLDTDHandler methods
     //
@@ -483,6 +502,7 @@ public class DefaultXMLDocumentHandler implements XMLDocumentHandler,
         throws XNIException {
     }
 */
+
 
     /**
      * An element declaration.
@@ -681,6 +701,7 @@ public class DefaultXMLDocumentHandler implements XMLDocumentHandler,
      */
     public void endDTD(Augmentations augmentations) throws XNIException {
     }
+
 
     //
     // XMLDTDContentModelHandler methods

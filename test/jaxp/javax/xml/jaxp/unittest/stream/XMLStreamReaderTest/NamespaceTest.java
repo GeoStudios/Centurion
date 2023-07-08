@@ -21,6 +21,7 @@
 
 package stream.XMLStreamReaderTest;
 
+
 import java.io.InputStream;
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
@@ -30,6 +31,19 @@ import javax.xml.stream.XMLStreamReader;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

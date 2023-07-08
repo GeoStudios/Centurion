@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table;
 
+
 import java.awt.Component;
 import javax.swing.*;
 import javax.swing.table.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A renderer for long values.

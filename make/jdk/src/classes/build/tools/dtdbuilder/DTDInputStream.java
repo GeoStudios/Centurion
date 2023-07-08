@@ -21,6 +21,56 @@
 
 package build.tools.dtdbuilder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A stream for reading HTML files. This stream takes care
  * of \r\n conversions and parameter entity expansion.
@@ -62,6 +112,7 @@ class DTDInputStream extends FilterReader implements DTDConstants {
         char data[] = {(char)ch};
         push(new CharArrayReader(data));
     }
+
 
     /**
      * Push an array of bytes.

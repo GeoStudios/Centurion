@@ -21,6 +21,7 @@
 
 package vm.mlvm.meth.stress.jni.nativeAndMH;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -28,6 +29,19 @@ import nsk.share.test.Stresser;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.MultiThreadedTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -53,6 +67,9 @@ import vm.mlvm.share.MultiThreadedTest;
  *      -threadsPerCpu 20
  *      -threadsExtra 20
  */
+
+
+
 
 public class Test extends MultiThreadedTest {
 

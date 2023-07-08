@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,8 @@ import jdk.test.lib.Asserts;
  *                   -XX:CompileOnly=compiler.c2.TestUnreachableRegionDuringCCP::test
  *                   compiler.c2.TestUnreachableRegionDuringCCP
  */
+
+
 
 public class TestUnreachableRegionDuringCCP {
     static int iFld1 = -1;

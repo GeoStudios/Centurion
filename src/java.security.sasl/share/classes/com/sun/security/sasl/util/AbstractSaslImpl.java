@@ -21,6 +21,7 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl.util;
 
+
 import javax.security.sasl.*;
 import java.io.*;
 import java.util.Map;
@@ -28,6 +29,20 @@ import java.util.StringTokenizer;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 import java.security.sasl.share.classes.com.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base class used by client and server implementations of SASL
@@ -243,6 +258,7 @@ public abstract class AbstractSaslImpl {
         return answer;
     }
 
+
     /**
      * Outputs a byte array. Can be null.
      */
@@ -284,6 +300,7 @@ public abstract class AbstractSaslImpl {
                 "SASLIMPL09:Error generating trace output: {0}", e);
         }
     }
+
 
     /**
      * Returns the integer represented by  4 bytes in network byte order.

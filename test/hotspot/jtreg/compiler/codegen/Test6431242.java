@@ -21,12 +21,28 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6431242
  *
  * @run main compiler.codegen.Test6431242
  */
+
 
 public class Test6431242 {
 
@@ -102,6 +118,7 @@ public class Test6431242 {
 
     public void test() throws Exception {
         int up_limit = 90000;
+
 
         //test single
 

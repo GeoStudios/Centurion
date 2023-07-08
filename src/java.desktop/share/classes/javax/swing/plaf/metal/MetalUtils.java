@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
@@ -29,6 +30,20 @@ import java.lang.ref.*;
 import java.util.*;
 import sun.swing.CachedPainter;
 import sun.swing.ImageIconUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a dumping ground for random stuff we want to use in several places.
@@ -220,6 +235,7 @@ class MetalUtils {
         return true;
     }
 
+
     private static class GradientPainter extends CachedPainter {
         /**
          * Instance used for painting.  This is the only instance that is
@@ -239,6 +255,7 @@ class MetalUtils {
          * This is the actual height we're painting in, or last painted to
          */
         private int h;
+
 
         GradientPainter(int count) {
             super(count);
@@ -372,6 +389,7 @@ class MetalUtils {
         }
     }
 
+
     /**
      * Returns true if the specified widget is in a toolbar.
      */
@@ -398,6 +416,9 @@ class MetalUtils {
         return new ImageIconUIResource(Toolkit.getDefaultToolkit().createImage(prod));
     }
 
+
+
+
     /**
      * Used to create a disabled Icon with the ocean look.
      */
@@ -421,6 +442,7 @@ class MetalUtils {
                 (gray << 0);
         }
     }
+
 
     /**
      * Used to create the rollover icons with the ocean look.

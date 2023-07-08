@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -41,6 +42,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Nov 2017
@@ -182,6 +197,7 @@ public class SAX2DOM implements ContentHandler, LexicalHandler, Constants {
             }
         } */
 
+
         // Add attributes to element
         final int nattrs = attrs.getLength();
         for (int i = 0; i < nattrs; i++) {
@@ -202,6 +218,7 @@ public class SAX2DOM implements ContentHandler, LexicalHandler, Constants {
                 }
             }
         }
+
 
         // Append this new node onto current stack node
         Node last = _nodeStk.peek();
@@ -275,6 +292,7 @@ public class SAX2DOM implements ContentHandler, LexicalHandler, Constants {
      */
     public void skippedEntity(String name) {
     }
+
 
     /**
      * Lexical Handler method to create comment node in DOM tree.

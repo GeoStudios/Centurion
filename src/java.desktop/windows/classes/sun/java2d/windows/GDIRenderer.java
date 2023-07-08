@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.windows;
 
+
 import java.awt.Composite;
 import java.awt.Shape;
 import java.awt.geom.Path2D;
@@ -36,6 +37,20 @@ import java.desktop.windows.classes.sun.java2d.pipe.SpanIterator;
 import java.desktop.windows.classes.sun.java2d.pipe.ShapeSpanIterator;
 import java.desktop.windows.classes.sun.java2d.pipe.LoopPipe;
 import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GDIRenderer implements
     PixelDrawPipe,

@@ -21,12 +21,26 @@
 
 package nsk.jdi.PrimitiveValue.doubleValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -132,6 +146,7 @@ public class doublevalue002 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -183,6 +198,7 @@ public class doublevalue002 {
 
             log2("......PrimitiveValue pvdb1 = (PrimitiveValue) execClass.getValue(fsdb1);");
             PrimitiveValue pvdb1 = (PrimitiveValue) execClass.getValue(fsdb1);
+
 
             log2("......check: pvdb1.byteValue() == (byte) Double.MAX_VALUE");
             if (pvdb1.byteValue() != (byte) Double.MAX_VALUE) {

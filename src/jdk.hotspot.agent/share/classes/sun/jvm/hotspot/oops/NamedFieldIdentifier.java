@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // A NamedFieldIdentifier describes a field in an Oop with a name
 public class NamedFieldIdentifier extends FieldIdentifier {

@@ -21,6 +21,22 @@
 
 package java.security.jgss.share.classes.org.ietf.jgss;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is a utility class used within the per-message GSSContext
  * methods to convey per-message properties.<p>
@@ -111,6 +127,7 @@ public class MessageProp {
         this.qop = qop;
     }
 
+
     /**
      * Sets the privacy state.
      *
@@ -122,6 +139,7 @@ public class MessageProp {
 
         this.privacyState = privState;
     }
+
 
     /**
      * Tests if this is a duplicate of an earlier token.

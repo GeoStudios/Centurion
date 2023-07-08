@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -33,6 +34,20 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicMenuBarUI;
 import sun.lwawt.macosx.LWCToolkit;
 import sun.security.action.GetBooleanAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // MenuBar implementation for Mac L&F
 @SuppressWarnings("removal")

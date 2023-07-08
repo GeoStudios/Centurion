@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.dir;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import java.util.Enumeration;
@@ -28,6 +29,20 @@ import java.util.HexFormat;
 import java.util.StringTokenizer;
 import java.util.Vector;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A class for parsing LDAP search filters (defined in RFC 1960, 2254)
@@ -194,6 +209,7 @@ public class SearchFilter implements AttrFilter {
                                      " " + endIndex);}
         return filter.substring(beginIndex+pos, endIndex+pos);
     }
+
 
    /**
      * A class for dealing with compound filters ("and" & "or" filters).
@@ -427,6 +443,7 @@ public class SearchFilter implements AttrFilter {
     // ----- static methods for producing string filters given attribute set
     // ----- or object array
 
+
     /**
       * Creates an LDAP filter as a conjunction of the attributes supplied.
       */
@@ -514,6 +531,7 @@ public class SearchFilter implements AttrFilter {
         }
         return sb.toString();
     }
+
 
     /**
       * Finds the first occurrence of {@code ch} in {@code val} starting
@@ -618,6 +636,7 @@ public class SearchFilter implements AttrFilter {
         attrs.put("id", "10414");
         attrs.put("machine", "jurassic");
 
+
         try {
             System.out.println(format(attrs));
 
@@ -628,6 +647,7 @@ public class SearchFilter implements AttrFilter {
             fargs[1] = new Float(5000);
 
             System.out.println(format(expr, fargs));
+
 
             System.out.println(format("bin={0}",
                 new Object[] {new byte[] {0, 1, 2, 3, 4, 5}}));

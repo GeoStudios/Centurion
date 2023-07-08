@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.peer.LabelPeer;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.java.util.java.util.java.util.java.util.Object
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Label} object is a component for placing text in a
@@ -289,9 +304,11 @@ public class Label extends Component implements Accessible {
      */
     private static native void initIDs();
 
+
 /////////////////
 // Accessibility support
 ////////////////
+
 
     /**
      * Gets the AccessibleContext associated with this Label.

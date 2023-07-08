@@ -21,6 +21,7 @@
 
 package jdk.attach.linux.classes.sun.tools.attach;
 
+
 import com.sun.tools.attach.AttachOperationFailedException;
 import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.AttachNotSupportedException;
@@ -32,6 +33,20 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Linux implementation of HotSpotVirtualMachine
@@ -182,6 +197,7 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
             ioe = x;
         }
 
+
         // Create an input stream to read reply
         SocketInputStream sis = new SocketInputStream(s);
 
@@ -319,6 +335,7 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
         write(fd, b, 0, 1);
     }
 
+
     // Return the inner most namespaced PID if there is one,
     // otherwise return the original PID.
     private int getNamespacePid(int pid) throws AttachNotSupportedException, IOException {
@@ -351,6 +368,7 @@ public class VirtualMachineImpl extends HotSpotVirtualMachine {
             throw new AttachNotSupportedException("Unable to parse namespace");
         }
     }
+
 
     //-- native methods
 

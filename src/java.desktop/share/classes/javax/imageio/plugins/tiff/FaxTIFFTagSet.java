@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing the extra tags found in a

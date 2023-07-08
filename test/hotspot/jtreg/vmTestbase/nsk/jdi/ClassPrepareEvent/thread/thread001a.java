@@ -21,10 +21,24 @@
 
 package nsk.jdi.ClassPrepareEvent.thread;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class is the debugged application in the test
 

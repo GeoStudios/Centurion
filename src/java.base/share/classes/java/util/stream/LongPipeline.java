@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util.stream;
 
+
 import java.base.share.classes.java.util.LongSummaryStatistics;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.OptionalDouble;
@@ -40,6 +41,20 @@ import java.base.share.classes.java.util.function.LongToIntFunction;
 import java.base.share.classes.java.util.function.LongUnaryOperator;
 import java.base.share.classes.java.util.function.ObjLongConsumer;
 import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract base class for an intermediate pipeline stage or pipeline source
@@ -119,6 +134,7 @@ abstract class LongPipeline<E_IN>
             throw new UnsupportedOperationException("LongStream.adapt(Spliterator<Long> s)");
         }
     }
+
 
     // Shape-specific methods
 
@@ -540,6 +556,7 @@ abstract class LongPipeline<E_IN>
         return Nodes.flattenLong((Node.OfLong) evaluateToArrayNode(Long[]::new))
                 .asPrimitiveArray();
     }
+
 
     //
 

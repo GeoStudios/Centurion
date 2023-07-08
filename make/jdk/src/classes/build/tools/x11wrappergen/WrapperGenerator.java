@@ -21,6 +21,56 @@
 
 package build.tools.x11wrappergen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class WrapperGenerator {
     /* XLibParser converts Xlib.h to a Java Object that encapsulates the
      * X11 API and data structures */
@@ -61,6 +111,7 @@ public class WrapperGenerator {
 
         String real_type;
         String name;
+
 
         public String getName() {
             return name;
@@ -330,6 +381,7 @@ public class WrapperGenerator {
         static String getJavaConversionForType(int type, String offset, String value) {
             return MessageFormat.format("Native.put{0}({2}, {1})", new Object[] {getNativeAccessForType(type), value, offset});
         }
+
 
         int type;
         int offset;
@@ -809,6 +861,7 @@ public class WrapperGenerator {
 
     public void writeWrapperSubclass(StructType stp, PrintWriter pw, boolean wide) {
 
+
         pw.println("class " + stp.getJavaClassName() + "AccessorImpl"  + " extends " + stp.getJavaClassName() + "Accessor  {");
         pw.println("/*\nThis class serves as a Wrapper for the following X Struct \nsThe offsets here are calculated based on actual compiler.\n\n" +stp.getDescription() + "\n\n */");
 
@@ -884,6 +937,7 @@ public class WrapperGenerator {
                     pw.println("\n\tlong getPData();");
                     writeStubs(stp,pw);
                 }
+
 
                 pw.println("}\n\n\n");
                 pw.close();
@@ -1165,6 +1219,7 @@ public class WrapperGenerator {
 
             for (eo = symbolTable.elements() ; eo.hasMoreElements() ;) {
 
+
                 tp = eo.nextElement();
                 if (tp instanceof StructType)
                 {
@@ -1179,6 +1234,7 @@ public class WrapperGenerator {
                                    ",(int)((unsigned long ) &temp"+j+"."+atp.getName()+"- (unsigned long ) &temp" + j + ")  );");
 
                         i++;
+
 
                     }
                     pw.println("printf(\""+ stp.getName() + "\t%d\\n\"" + ",(int)sizeof(temp"+j+"));");

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
+
 import java.desktop.share.classes.java.util.*;
 import java.desktop.share.classes.java.awt.geom.*;
 import java.desktop.share.classes.java.awt.*;
 import java.desktop.share.classes.java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RenderContext encapsulates the information needed to produce a

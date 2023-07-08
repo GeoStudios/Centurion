@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.beans.BeanProperty;
@@ -36,6 +37,20 @@ import java.desktop.share.classes.javax.accessibility.AccessibleState;
 import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
 import java.desktop.share.classes.javax.accessibility.AccessibleValue;
 import java.desktop.share.classes.javax.swing.plaf.SplitPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JSplitPane</code> is used to divide two (and only two)
@@ -234,6 +249,7 @@ public class JSplitPane extends JComponent implements Accessible
      */
     private int dividerLocation;
 
+
     /**
      * Creates a new <code>JSplitPane</code> configured to arrange the child
      * components side-by-side horizontally, using two buttons for the components.
@@ -244,6 +260,7 @@ public class JSplitPane extends JComponent implements Accessible
                 new JButton(UIManager.getString("SplitPane.leftButtonText")),
                 new JButton(UIManager.getString("SplitPane.rightButtonText")));
     }
+
 
     /**
      * Creates a new <code>JSplitPane</code> configured with the
@@ -259,6 +276,7 @@ public class JSplitPane extends JComponent implements Accessible
         this(newOrientation,
                 UIManager.getBoolean("SplitPane.continuousLayout"));
     }
+
 
     /**
      * Creates a new <code>JSplitPane</code> with the specified
@@ -276,6 +294,7 @@ public class JSplitPane extends JComponent implements Accessible
                       boolean newContinuousLayout) {
         this(newOrientation, newContinuousLayout, null, null);
     }
+
 
     /**
      * Creates a new <code>JSplitPane</code> with the specified
@@ -301,6 +320,7 @@ public class JSplitPane extends JComponent implements Accessible
                 UIManager.getBoolean("SplitPane.continuousLayout"),
                 newLeftComponent, newRightComponent);
     }
+
 
     /**
      * Creates a new <code>JSplitPane</code> with the specified
@@ -347,6 +367,7 @@ public class JSplitPane extends JComponent implements Accessible
 
     }
 
+
     /**
      * Sets the L&amp;F object that renders this component.
      *
@@ -360,6 +381,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns the <code>SplitPaneUI</code> that is providing the
      * current look and feel.
@@ -371,6 +393,7 @@ public class JSplitPane extends JComponent implements Accessible
     public SplitPaneUI getUI() {
         return (SplitPaneUI)ui;
     }
+
 
     /**
      * Notification from the <code>UIManager</code> that the L&amp;F has changed.
@@ -384,6 +407,7 @@ public class JSplitPane extends JComponent implements Accessible
         revalidate();
     }
 
+
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -396,6 +420,7 @@ public class JSplitPane extends JComponent implements Accessible
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * Sets the size of the divider.
@@ -414,6 +439,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns the size of the divider.
      *
@@ -422,6 +448,7 @@ public class JSplitPane extends JComponent implements Accessible
     public int getDividerSize() {
         return dividerSize;
     }
+
 
     /**
      * Sets the component to the left (or above) the divider.
@@ -439,6 +466,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns the component to the left (or above) the divider.
      *
@@ -449,6 +477,7 @@ public class JSplitPane extends JComponent implements Accessible
     public Component getLeftComponent() {
         return leftComponent;
     }
+
 
     /**
      * Sets the component above, or to the left of the divider.
@@ -461,6 +490,7 @@ public class JSplitPane extends JComponent implements Accessible
         setLeftComponent(comp);
     }
 
+
     /**
      * Returns the component above, or to the left of the divider.
      *
@@ -469,6 +499,7 @@ public class JSplitPane extends JComponent implements Accessible
     public Component getTopComponent() {
         return leftComponent;
     }
+
 
     /**
      * Sets the component to the right (or below) the divider.
@@ -488,6 +519,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns the component to the right (or below) the divider.
      *
@@ -496,6 +528,7 @@ public class JSplitPane extends JComponent implements Accessible
     public Component getRightComponent() {
         return rightComponent;
     }
+
 
     /**
      * Sets the component below, or to the right of the divider.
@@ -508,6 +541,7 @@ public class JSplitPane extends JComponent implements Accessible
         setRightComponent(comp);
     }
 
+
     /**
      * Returns the component below, or to the right of the divider.
      *
@@ -516,6 +550,7 @@ public class JSplitPane extends JComponent implements Accessible
     public Component getBottomComponent() {
         return rightComponent;
     }
+
 
     /**
      * Sets the value of the <code>oneTouchExpandable</code> property,
@@ -542,6 +577,7 @@ public class JSplitPane extends JComponent implements Accessible
         repaint();
     }
 
+
     /**
      * Gets the <code>oneTouchExpandable</code> property.
      *
@@ -551,6 +587,7 @@ public class JSplitPane extends JComponent implements Accessible
     public boolean isOneTouchExpandable() {
         return oneTouchExpandable;
     }
+
 
     /**
      * Sets the last location the divider was at to
@@ -570,6 +607,7 @@ public class JSplitPane extends JComponent implements Accessible
                            newLastLocation);
     }
 
+
     /**
      * Returns the last location the divider was at.
      *
@@ -580,6 +618,7 @@ public class JSplitPane extends JComponent implements Accessible
     public int getLastDividerLocation() {
         return lastDividerLocation;
     }
+
 
     /**
      * Sets the orientation, or how the splitter is divided. The options
@@ -611,6 +650,7 @@ public class JSplitPane extends JComponent implements Accessible
         firePropertyChange(ORIENTATION_PROPERTY, oldOrientation, orientation);
     }
 
+
     /**
      * Returns the orientation.
      *
@@ -620,6 +660,7 @@ public class JSplitPane extends JComponent implements Accessible
     public int getOrientation() {
         return orientation;
     }
+
 
     /**
      * Sets the value of the <code>continuousLayout</code> property,
@@ -643,6 +684,7 @@ public class JSplitPane extends JComponent implements Accessible
         firePropertyChange(CONTINUOUS_LAYOUT_PROPERTY, oldCD,
                            newContinuousLayout);
     }
+
 
     /**
      * Gets the <code>continuousLayout</code> property.
@@ -701,6 +743,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Sets the divider location as a percentage of the
      * <code>JSplitPane</code>'s size.
@@ -735,6 +778,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Sets the location of the divider. This is passed off to the
      * look and feel implementation, and then listeners are notified. A value
@@ -767,6 +811,7 @@ public class JSplitPane extends JComponent implements Accessible
         setLastDividerLocation(oldValue);
     }
 
+
     /**
      * Returns the last value passed to <code>setDividerLocation</code>.
      * The value returned from this method may differ from the actual
@@ -778,6 +823,7 @@ public class JSplitPane extends JComponent implements Accessible
     public int getDividerLocation() {
         return dividerLocation;
     }
+
 
     /**
      * Returns the minimum location of the divider from the look and feel
@@ -798,6 +844,7 @@ public class JSplitPane extends JComponent implements Accessible
         return -1;
     }
 
+
     /**
      * Returns the maximum location of the divider from the look and feel
      * implementation.
@@ -815,6 +862,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
         return -1;
     }
+
 
     /**
      * Removes the child component, <code>component</code> from the
@@ -835,6 +883,7 @@ public class JSplitPane extends JComponent implements Accessible
         revalidate();
         repaint();
     }
+
 
     /**
      * Removes the <code>Component</code> at the specified index.
@@ -860,6 +909,7 @@ public class JSplitPane extends JComponent implements Accessible
         repaint();
     }
 
+
     /**
      * Removes all the child components from the split pane. Resets the
      * <code>leftComonent</code> and <code>rightComponent</code>
@@ -873,6 +923,7 @@ public class JSplitPane extends JComponent implements Accessible
         revalidate();
         repaint();
     }
+
 
     /**
      * Returns true, so that calls to <code>revalidate</code>
@@ -889,6 +940,7 @@ public class JSplitPane extends JComponent implements Accessible
     public boolean isValidateRoot() {
         return true;
     }
+
 
     /**
      * Adds the specified component to this split pane.
@@ -971,6 +1023,7 @@ public class JSplitPane extends JComponent implements Accessible
         repaint();
     }
 
+
     /**
      * Subclassed to message the UI with <code>finishedPaintingChildren</code>
      * after super has been messaged, as well as painting the border.
@@ -988,6 +1041,7 @@ public class JSplitPane extends JComponent implements Accessible
             tempG.dispose();
         }
     }
+
 
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
@@ -1022,6 +1076,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
     }
 
+
     /**
      * Returns a string representation of this <code>JSplitPane</code>.
      * This method
@@ -1048,9 +1103,12 @@ public class JSplitPane extends JComponent implements Accessible
         ",orientation=" + orientationString;
     }
 
+
+
     ///////////////////////////
     // Accessibility support //
     ///////////////////////////
+
 
     /**
      * Gets the AccessibleContext associated with this JSplitPane.
@@ -1069,6 +1127,7 @@ public class JSplitPane extends JComponent implements Accessible
         }
         return accessibleContext;
     }
+
 
     /**
      * This class implements accessibility support for the
@@ -1113,6 +1172,7 @@ public class JSplitPane extends JComponent implements Accessible
             return states;
         }
 
+
         /**
          * Get the AccessibleValue associated with this object.  In the
          * implementation of the Java Accessibility API for this class,
@@ -1125,6 +1185,7 @@ public class JSplitPane extends JComponent implements Accessible
             return this;
         }
 
+
         /**
          * Gets the accessible value of this object.
          *
@@ -1133,6 +1194,7 @@ public class JSplitPane extends JComponent implements Accessible
         public Number getCurrentAccessibleValue() {
             return Integer.valueOf(getDividerLocation());
         }
+
 
         /**
          * Sets the value of this object as a Number.
@@ -1148,6 +1210,7 @@ public class JSplitPane extends JComponent implements Accessible
             return true;
         }
 
+
         /**
          * Gets the minimum accessible value of this object.
          *
@@ -1158,6 +1221,7 @@ public class JSplitPane extends JComponent implements Accessible
                                                         JSplitPane.this));
         }
 
+
         /**
          * Gets the maximum accessible value of this object.
          *
@@ -1167,6 +1231,7 @@ public class JSplitPane extends JComponent implements Accessible
             return Integer.valueOf(getUI().getMaximumDividerLocation(
                                                         JSplitPane.this));
         }
+
 
         /**
          * Gets the role of this object.

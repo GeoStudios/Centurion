@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
 import java.lang.invoke.MethodHandle;
 import java.lang.ref.Cleaner;
@@ -28,6 +29,20 @@ import java.nio.channels.FileChannel;
 import java.nio.file.Path;
 import java.base.share.classes.java.util.Objects;
 import java.util.Spliterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A resource scope manages the lifecycle of one or more resources. Resources (e.g. {@link MemorySegment}) associated

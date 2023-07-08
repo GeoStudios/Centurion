@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -38,6 +53,7 @@ package compiler.arraycopy;
  *                   -XX:-ReduceBulkZeroing
  *                   compiler.arraycopy.TestCloneAccessStressGCM
  */
+
 
 public class TestCloneAccessStressGCM {
 

@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
+
 import java.naming.share.classes.javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This exception is thrown when an attempt is
@@ -49,6 +64,7 @@ import java.naming.share.classes.javax.naming.NamingException;
   * superclass, followed by an array of ModificationItem objects.
   *
 */
+
 
 public class AttributeModificationException extends NamingException {
     /**

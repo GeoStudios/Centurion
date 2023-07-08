@@ -21,10 +21,25 @@
 
 package java.sql.share.classes.java.sql;
 
+
 import java.sql.share.classes.java.math.BigDecimal;
 import java.sql.share.classes.java.util.Calendar;
 import java.sql.share.classes.java.io.Reader;
 import java.sql.share.classes.java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A table of data representing a database result set, which
@@ -170,6 +185,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
      *         called on a closed result set
      */
     boolean next() throws SQLException;
+
 
     /**
      * Releases this {@code ResultSet} object's database and
@@ -502,6 +518,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
     java.io.InputStream getBinaryStream(int columnIndex)
         throws SQLException;
 
+
     // Methods for accessing results by column label
 
     /**
@@ -787,6 +804,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
     java.io.InputStream getBinaryStream(String columnLabel)
         throws SQLException;
 
+
     // Advanced features:
 
     /**
@@ -942,6 +960,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
      *  or this method is called on a closed result set
      */
     int findColumn(String columnLabel) throws SQLException;
+
 
     //--------------------------JDBC 2.0-----------------------------------
 
@@ -3138,6 +3157,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
      */
     String getNString(int columnIndex) throws SQLException;
 
+
     /**
      * Retrieves the value of the designated column in the current row
      * of this {@code ResultSet} object as
@@ -3156,6 +3176,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
      * this method
      */
     String getNString(String columnLabel) throws SQLException;
+
 
     /**
      * Retrieves the value of the designated column in the current row
@@ -3920,6 +3941,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
 
     //------------------------- JDBC 4.1 -----------------------------------
 
+
     /**
      *<p>Retrieves the value of the designated column in the current row
      * of this {@code ResultSet} object and will convert from the
@@ -3945,6 +3967,7 @@ public interface ResultSet extends Wrapper, AutoCloseable {
      * this method
      */
     <T> T getObject(int columnIndex, Class<T> type) throws SQLException;
+
 
     /**
      *<p>Retrieves the value of the designated column in the current row

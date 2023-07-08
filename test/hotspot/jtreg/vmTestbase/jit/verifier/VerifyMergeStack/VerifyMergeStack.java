@@ -21,7 +21,21 @@
 
 package jit.verifier.VerifyMergeStack;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.TestFailure;
  * @compile MergeStack.jasm
  * @run main/othervm jit.verifier.VerifyMergeStack.VerifyMergeStack
  */
+
+
 
 /**
  * @(#)VerifyMergeStack.java      1.1 01/25/01

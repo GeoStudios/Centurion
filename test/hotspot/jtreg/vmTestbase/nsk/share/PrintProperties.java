@@ -21,7 +21,21 @@
 
 package nsk.share;
 
+
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This program prints system properties.

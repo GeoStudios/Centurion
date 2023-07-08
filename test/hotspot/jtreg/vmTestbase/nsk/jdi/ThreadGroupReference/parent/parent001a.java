@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadGroupReference.parent;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the parent001 JDI test.
@@ -78,6 +92,7 @@ public class parent001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -148,6 +163,7 @@ public class parent001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 class Threadparent001a extends Thread {
 

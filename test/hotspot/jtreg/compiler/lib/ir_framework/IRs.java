@@ -21,8 +21,22 @@
 
 package compiler.lib.ir_framework;
 
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Annotation to allow to specify multiple {@link IR @IR} annotations at a {@link Test @Test} method.

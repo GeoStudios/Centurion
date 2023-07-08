@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.color.ICC_Profile;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.Rectangle;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.java.awt.RenderingHints;
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.lang.annotation.Native;
 import sun.awt.image.ImagingLib;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a convolution from the source

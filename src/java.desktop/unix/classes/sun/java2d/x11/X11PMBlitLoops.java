@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.x11;
 
+
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitive;
 import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
@@ -33,6 +34,20 @@ import java.desktop.unix.classes.sun.java2d.pipe.Region;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
 import java.awt.Composite;
 import java.awt.image.IndexColorModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * X11PMBlitLoops
@@ -104,6 +119,8 @@ public class X11PMBlitLoops extends Blit {
                                X11SurfaceData.FourByteAbgrPreX11, false),
             new X11PMBlitLoops(X11SurfaceData.IntBgrX11_BM,
                                X11SurfaceData.FourByteAbgrPreX11, true),
+
+
 
             // delegate loops
             new DelegateBlitLoop(X11SurfaceData.IntBgrX11_BM,

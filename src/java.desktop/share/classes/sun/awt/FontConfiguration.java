@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.Font;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -47,6 +48,20 @@ import java.desktop.share.classes.sun.font.SunFontManager;
 import java.desktop.share.classes.sun.font.FontManagerFactory;
 import java.desktop.share.classes.sun.font.FontUtilities;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the definitions of the five logical fonts: Serif, SansSerif,
@@ -417,6 +432,7 @@ public abstract class FontConfiguration {
         stringIDs = null;
         stringTable = null;
     }
+
 
     /////////////////////////////////////////////////////////////////////
     // methods for initializing the FontConfig                         //
@@ -1533,6 +1549,7 @@ public abstract class FontConfiguration {
         System.out.println("\n----Version--------------");
         System.out.println("  " + getString(head[INDEX_version]));
     }
+
 
     //////////////////////////////////////////////////////////////////////
     // Data table access methods                                        //

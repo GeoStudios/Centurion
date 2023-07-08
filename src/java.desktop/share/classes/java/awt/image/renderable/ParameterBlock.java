@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
+
 import java.desktop.share.classes.java.awt.image.RenderedImage;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
 import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code ParameterBlock} encapsulates all the information about sources and

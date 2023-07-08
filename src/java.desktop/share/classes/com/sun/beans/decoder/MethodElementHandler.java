@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
 import java.desktop.share.classes.com.sun.beans.finder.MethodFinder;
 import java.lang.reflect.Method;
 import java.desktop.share.classes.com.sun.reflect.misc.MethodUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;method&gt; element.

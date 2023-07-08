@@ -21,6 +21,7 @@
 
 package nsk.jdi.StepRequest.addClassExclusionFilter;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
@@ -28,6 +29,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -191,6 +205,7 @@ public class filter002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -258,6 +273,7 @@ public class filter002 extends JDIBase {
         EventRequest  eventRequest1      = null;
 
         String        property1          = "StepRequest1";
+
 
         for (int i = 0; ; i++) {
 

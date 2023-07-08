@@ -21,7 +21,21 @@
 
 package jit.t.t050;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.t.t050.t050
  */
+
+
 
 // Pending local load clobbered by local store.
 

@@ -21,6 +21,21 @@
 
 package compiler.escapeAnalysis;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8073956
@@ -30,6 +45,7 @@ package compiler.escapeAnalysis;
  *      -XX:CompileCommand=dontinline,compiler.escapeAnalysis.TestEscapeThroughInvoke::create
  *      compiler.escapeAnalysis.TestEscapeThroughInvoke
  */
+
 
 public class TestEscapeThroughInvoke {
     private A a;

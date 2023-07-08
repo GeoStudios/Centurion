@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * FNEG - Negate float
@@ -36,6 +53,7 @@ public class FNEG extends ArithmeticInstruction {
     public FNEG() {
         super(com.sun.org.apache.bcel.internal.Const.FNEG);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

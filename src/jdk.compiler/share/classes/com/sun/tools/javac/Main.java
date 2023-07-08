@@ -21,7 +21,22 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac;
 
+
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A legacy programmatic interface for the Java Programming Language
@@ -59,6 +74,8 @@ public class Main {
             new com.sun.tools.javac.main.Main("javac");
         return compiler.compile(args).exitCode;
     }
+
+
 
     /** Programmatic interface to the Java Programming Language
      * compiler, javac.

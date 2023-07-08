@@ -21,7 +21,22 @@
 
 package java.security.sasl.share.classes.javax.security.sasl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an error that has occurred when using SASL.

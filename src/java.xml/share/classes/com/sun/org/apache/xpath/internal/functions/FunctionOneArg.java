@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for functions that accept one argument.
@@ -134,6 +149,7 @@ public class FunctionOneArg extends Function implements ExpressionOwner
                 m_arg0.callVisitors(this, visitor);
   }
 
+
   /**
    * @see ExpressionOwner#getExpression()
    */
@@ -168,5 +184,6 @@ public class FunctionOneArg extends Function implements ExpressionOwner
         }
         else return null == ((FunctionOneArg) expr).m_arg0;
   }
+
 
 }

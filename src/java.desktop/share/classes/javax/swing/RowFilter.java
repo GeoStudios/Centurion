@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -29,6 +30,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>RowFilter</code> is used to filter out entries from the
@@ -407,6 +422,7 @@ public abstract class RowFilter<M,I> {
         public abstract I getIdentifier();
     }
 
+
     private abstract static class GeneralFilter<M, I> extends RowFilter<M, I> {
         private final int[] columns;
 
@@ -441,6 +457,7 @@ public abstract class RowFilter<M,I> {
               Entry<? extends M, ? extends I> value, int index);
     }
 
+
     private static class RegexFilter<M, I> extends GeneralFilter<M, I> {
         private final Matcher matcher;
 
@@ -459,6 +476,7 @@ public abstract class RowFilter<M,I> {
             return matcher.find();
         }
     }
+
 
     private static class DateFilter<M, I> extends GeneralFilter<M, I> {
         private final long date;
@@ -558,6 +576,7 @@ public abstract class RowFilter<M,I> {
         }
     }
 
+
     private static class OrFilter<M,I> extends RowFilter<M,I> {
         List<RowFilter<? super M,? super I>> filters;
 
@@ -582,6 +601,7 @@ public abstract class RowFilter<M,I> {
         }
     }
 
+
     private static class AndFilter<M,I> extends OrFilter<M,I> {
         AndFilter(Iterable<? extends RowFilter<? super M,? super I>> filters) {
             super(filters);
@@ -596,6 +616,7 @@ public abstract class RowFilter<M,I> {
             return true;
         }
     }
+
 
     private static class NotFilter<M,I> extends RowFilter<M,I> {
         private final RowFilter<M,I> filter;

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.font.FontRenderContext;
 import java.desktop.share.classes.java.awt.font.LineMetrics;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.text.CharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code FontMetrics} class defines a font metrics object, which
@@ -661,6 +676,7 @@ public abstract class FontMetrics implements java.io.Serializable {
         }
         return DEFAULT_FRC;
     }
+
 
     /**
      * Returns a representation of this {@code FontMetrics}

@@ -21,6 +21,7 @@
 
 package nsk.jdi.ReferenceType.defaultStratum.defaultStratum004;
 
+
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.request.StepRequest;
@@ -28,6 +29,19 @@ import nsk.share.Consts;
 import nsk.share.TestBug;
 import nsk.share.jdi.EventHandler;
 import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -64,6 +78,8 @@ import nsk.share.jdi.sde.*;
  *      -testClassPath ${test.class.path}
  *      -testWorkDir .
  */
+
+
 
 public class defaultStratum004 extends SDEDebugger {
     public static void main(String argv[]) {

@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.util;
 
+
 import java.base.share.classes.java.util.function.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ordered collection (also known as a <i>sequence</i>).  The user of this
@@ -234,6 +249,7 @@ public interface List<E> extends Collection<E> {
      */
     <T> T[] toArray(T[] a);
 
+
     // Modification Operations
 
     /**
@@ -282,6 +298,7 @@ public interface List<E> extends Collection<E> {
      *         is not supported by this list
      */
     boolean remove(Object o);
+
 
     // Bulk Modification Operations
 
@@ -513,6 +530,7 @@ public interface List<E> extends Collection<E> {
      */
     void clear();
 
+
     // Comparison and hashing
 
     /**
@@ -549,6 +567,7 @@ public interface List<E> extends Collection<E> {
      * @see #equals(Object)
      */
     int hashCode();
+
 
     // Positional Access Operations
 
@@ -618,6 +637,7 @@ public interface List<E> extends Collection<E> {
      */
     E remove(int index);
 
+
     // Search Operations
 
     /**
@@ -657,6 +677,7 @@ public interface List<E> extends Collection<E> {
      *         (<a href="Collection.html#optional-restrictions">optional</a>)
      */
     int lastIndexOf(Object o);
+
 
     // List Iterators
 

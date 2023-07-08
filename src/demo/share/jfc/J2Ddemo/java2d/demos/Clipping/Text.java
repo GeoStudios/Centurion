@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Clipping;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.CYAN;.extended
@@ -50,6 +51,20 @@ import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Clipping an image, lines, text, texture and gradient with text.
@@ -152,6 +167,7 @@ public class Text extends ControlsSurface {
     public static void main(String[] s) {
         createDemoFrame(new Text());
     }
+
 
     @SuppressWarnings("serial")
     static final class DemoControls extends CustomControls implements

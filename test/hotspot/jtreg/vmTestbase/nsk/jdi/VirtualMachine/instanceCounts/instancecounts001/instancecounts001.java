@@ -21,12 +21,26 @@
 
 package nsk.jdi.VirtualMachine.instanceCounts.instancecounts001;
 
+
 import java.io.PrintStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import nsk.share.Consts;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import nsk.share.jdi.HeapwalkingDebugger;
 import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -63,6 +77,8 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
 
 public class instancecounts001 extends HeapwalkingDebugger {
     //force or not GC in debuggee vm (value of this field differs in instancecounts001 and instancecounts002)
@@ -136,5 +152,6 @@ public class instancecounts001 extends HeapwalkingDebugger {
         testInstanceCounts();
 
     }
+
 
 }

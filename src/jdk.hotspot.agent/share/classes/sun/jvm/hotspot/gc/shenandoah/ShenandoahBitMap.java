@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMap;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ShenandoahBitMap implements BitMapInterface {
     private final HashMap<ShenandoahHeapRegion, BitMap> regionToBitMap = new HashMap<>();

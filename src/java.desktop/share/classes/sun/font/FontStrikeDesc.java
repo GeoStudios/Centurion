@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.AffineTransform;
 import static java.desktop.share.classes.sun.awt.SunHints.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class encapsulates every thing needed that distinguishes a strike.
@@ -97,6 +112,7 @@ public class FontStrikeDesc {
     FontStrikeDesc() {
         // used with init
     }
+
 
     /* This maps a public text AA hint value into one of the subset of values
      * used to index strikes. For the purpose of the strike cache there are
@@ -252,6 +268,7 @@ public class FontStrikeDesc {
         hashCode = desc.hashCode;
         valuemask = desc.valuemask;
     }
+
 
     public String toString() {
         return "FontStrikeDesc: Style="+style+ " AA="+aaHint+ " FM="+fmHint+

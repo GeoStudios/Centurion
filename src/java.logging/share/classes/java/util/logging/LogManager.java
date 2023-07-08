@@ -21,6 +21,7 @@
 
 package java.logging.share.classes.java.util.logging;
 
+
 import java.logging.share.classes.java.io.*;
 import java.logging.share.classes.java.util.*;
 import java.logging.share.classes.java.security.*;
@@ -39,6 +40,20 @@ import jdk.internal.access.JavaAWTAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.util.logging.internal.LoggingProviderImpl;
 import static jdk.internal.logger.DefaultLoggerFinder.isSystem;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * There is a single global LogManager object that is used to
@@ -208,6 +223,7 @@ public class LogManager {
     private final CopyOnWriteArrayList<CloseOnReset> closeOnResetLoggers =
             new CopyOnWriteArrayList<>();
 
+
     private final Map<Object, Runnable> listeners =
             Collections.synchronizedMap(new IdentityHashMap<>());
 
@@ -275,6 +291,7 @@ public class LogManager {
             reset();
         }
     }
+
 
     /**
      * Protected constructor.  This is protected so that container applications
@@ -600,6 +617,7 @@ public class LogManager {
             this.root = new LogNode(null, this);
         }
 
+
         // Tells whether default loggers are required in this context.
         // If true, the default loggers will be lazily added.
         final boolean requiresDefaultLoggers() {
@@ -638,6 +656,7 @@ public class LogManager {
             return owner.demandLogger(name, resourceBundleName, module);
         }
 
+
         // Due to subtle deadlock issues getUserContext() no longer
         // calls addLocalLogger(rootLogger);
         // Therefore - we need to add the default loggers later on.
@@ -652,6 +671,7 @@ public class LogManager {
                 ensureDefaultLogger(getGlobalLogger());
             }
         }
+
 
         Logger findLogger(String name) {
             // Attempt to find logger without locking.
@@ -1018,6 +1038,7 @@ public class LogManager {
         return handlers;
     }
 
+
     // loggerRefQueue holds LoggerWeakRef objects for Logger objects
     // that have been GC'ed.
     private final ReferenceQueue<Logger> loggerRefQueue
@@ -1196,6 +1217,7 @@ public class LogManager {
             return false;
         }
     }
+
 
     // Checks whether the given logger is a special logger
     // that still requires handler initialization.
@@ -1778,6 +1800,7 @@ public class LogManager {
         static final VisitedLoggers NEVER = new VisitedLoggers(null);
     }
 
+
     /**
      * Type of the modification for a given property. One of SAME, ADDED, CHANGED,
      * or REMOVED.
@@ -2353,6 +2376,7 @@ public class LogManager {
         return defaultValue;
     }
 
+
     // Package private method to get a formatter property.
     // We return an instance of the class named by the "name"
     // property. If the property is not defined or has problems
@@ -2511,6 +2535,7 @@ public class LogManager {
             return super.accessCheckedHandlers();
         }
     }
+
 
     // Private method to be called when the configuration has
     // changed to apply any level settings to any pre-existing loggers.

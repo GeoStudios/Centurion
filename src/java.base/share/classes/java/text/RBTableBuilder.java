@@ -21,11 +21,26 @@
 
 package java.base.share.classes.java.text;
 
+
 import java.base.share.classes.java.util.Vector;
 import sun.text.UCompactIntArray;
 import sun.text.IntHashtable;
 import sun.text.ComposedCharIter;
 import jdk.internal.icu.impl.NormalizerImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains all the code to parse a RuleBasedCollator pattern

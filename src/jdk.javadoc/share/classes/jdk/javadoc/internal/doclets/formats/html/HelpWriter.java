@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
+
 import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Element;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
@@ -36,6 +37,20 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFi
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocLink;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generate the Help File for the generated API documentation. The help file
@@ -124,6 +139,8 @@ public class HelpWriter extends HtmlDocletWriter {
     protected void addHelpFileContents(Content contentTree) {
         HtmlTree mainTOC = new HtmlTree(TagName.UL).setStyle(HtmlStyle.helpTOC);
 
+
+
         contentTree.add(HtmlTree.HEADING(Headings.PAGE_TITLE_HEADING, HtmlStyle.title,
                                         getContent("doclet.help.main_heading")))
                 .add(mainTOC)
@@ -207,6 +224,7 @@ public class HelpWriter extends HtmlDocletWriter {
 
         return content;
     }
+
 
     /**
      * Creates the page-specific help, adding an entry into the main table-of-contents.

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
@@ -41,6 +42,20 @@ import java.xml.share.classes.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.org.xml.sax.SAXParseException;
 import java.xml.share.classes.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Adapt a SAX1 Parser as a SAX2 XMLReader.
@@ -66,6 +81,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     ////////////////////////////////////////////////////////////////////
     // Constructors.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Construct a new parser adapter.
@@ -111,6 +127,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
     /**
      * Construct a new parser adapter.
      *
@@ -127,6 +144,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         super();
         setup(parser);
     }
+
 
     /**
      * Internal setup method.
@@ -147,9 +165,12 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         attAdapter = new AttributeListAdapter();
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.XMLReader.
     ////////////////////////////////////////////////////////////////////
+
 
     //
     // Internal constants for the sake of convenience.
@@ -158,6 +179,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     private final static String NAMESPACES = FEATURES + "namespaces";
     private final static String NAMESPACE_PREFIXES = FEATURES + "namespace-prefixes";
     private final static String XMLNS_URIs = FEATURES + "xmlns-uris";
+
 
     /**
      * Set a feature flag for the parser.
@@ -196,6 +218,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
     /**
      * Check a parser feature flag.
      *
@@ -224,6 +247,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
     /**
      * Set a parser property.
      *
@@ -242,6 +266,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     {
         throw new SAXNotRecognizedException("Property: " + name);
     }
+
 
     /**
      * Get a parser property.
@@ -262,6 +287,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         throw new SAXNotRecognizedException("Property: " + name);
     }
 
+
     /**
      * Set the entity resolver.
      *
@@ -272,6 +298,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     {
         entityResolver = resolver;
     }
+
 
     /**
      * Return the current entity resolver.
@@ -284,6 +311,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         return entityResolver;
     }
 
+
     /**
      * Set the DTD handler.
      *
@@ -294,6 +322,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     {
         dtdHandler = handler;
     }
+
 
     /**
      * Return the current DTD handler.
@@ -306,6 +335,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         return dtdHandler;
     }
 
+
     /**
      * Set the content handler.
      *
@@ -316,6 +346,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     {
         contentHandler = handler;
     }
+
 
     /**
      * Return the current content handler.
@@ -328,6 +359,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         return contentHandler;
     }
 
+
     /**
      * Set the error handler.
      *
@@ -339,6 +371,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         errorHandler = handler;
     }
 
+
     /**
      * Return the current error handler.
      *
@@ -349,6 +382,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     {
         return errorHandler;
     }
+
 
     /**
      * Parse an XML document.
@@ -366,6 +400,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     {
         parse(new InputSource(systemId));
     }
+
 
     /**
      * Parse an XML document.
@@ -394,9 +429,12 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         parsing = false;
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.DocumentHandler.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Adapter implementation method; do not call.
@@ -412,6 +450,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             contentHandler.setDocumentLocator(locator);
         }
     }
+
 
     /**
      * Adapter implementation method; do not call.
@@ -429,6 +468,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
     /**
      * Adapter implementation method; do not call.
      * Adapt a SAX1 end document event.
@@ -444,6 +484,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             contentHandler.endDocument();
         }
     }
+
 
     /**
      * Adapter implementation method; do not call.
@@ -475,6 +516,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             }
             return;
         }
+
 
                                 // OK, we're doing Namespace processing.
         nsSupport.pushContext();
@@ -576,6 +618,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
     /**
      * Adapter implementation method; do not call.
      * Adapt a SAX1 end element event.
@@ -610,6 +653,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         nsSupport.popContext();
     }
 
+
     /**
      * Adapter implementation method; do not call.
      * Adapt a SAX1 characters event.
@@ -628,6 +672,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             contentHandler.characters(ch, start, length);
         }
     }
+
 
     /**
      * Adapter implementation method; do not call.
@@ -648,6 +693,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
     /**
      * Adapter implementation method; do not call.
      * Adapt a SAX1 processing instruction event.
@@ -666,9 +712,12 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         }
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Internal utility methods.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Initialize the parser before each run.
@@ -695,6 +744,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         parser.setDocumentHandler(this);
         locator = null;
     }
+
 
     /**
      * Process a qualified (prefixed) name.
@@ -726,6 +776,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         return parts;
     }
 
+
     /**
      * Report a non-fatal error.
      *
@@ -740,6 +791,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             errorHandler.error(makeException(message));
     }
 
+
     /**
      * Construct an exception for the current context.
      *
@@ -753,6 +805,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             return new SAXParseException(message, null, null, -1, -1);
         }
     }
+
 
     /**
      * Throw an exception if we are parsing.
@@ -775,6 +828,8 @@ public class ParserAdapter implements XMLReader, DocumentHandler
 
         }
     }
+
+
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.
@@ -805,9 +860,12 @@ public class ParserAdapter implements XMLReader, DocumentHandler
     ContentHandler contentHandler = null;
     ErrorHandler errorHandler = null;
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Inner class to wrap an AttributeList when not doing NS proc.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Adapt a SAX1 AttributeList as a SAX2 Attributes object.
@@ -830,6 +888,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
         }
 
+
         /**
          * Set the embedded AttributeList.
          *
@@ -843,6 +902,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             this.qAtts = qAtts;
         }
 
+
         /**
          * Return the length of the attribute list.
          *
@@ -853,6 +913,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
             return qAtts.getLength();
         }
+
 
         /**
          * Return the Namespace URI of the specified attribute.
@@ -866,6 +927,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             return "";
         }
 
+
         /**
          * Return the local name of the specified attribute.
          *
@@ -878,6 +940,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             return "";
         }
 
+
         /**
          * Return the qualified (prefixed) name of the specified attribute.
          *
@@ -888,6 +951,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
             return qAtts.getName(i).intern();
         }
+
 
         /**
          * Return the type of the specified attribute.
@@ -900,6 +964,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             return qAtts.getType(i).intern();
         }
 
+
         /**
          * Return the value of the specified attribute.
          *
@@ -910,6 +975,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
             return qAtts.getValue(i);
         }
+
 
         /**
          * Look up an attribute index by Namespace name.
@@ -923,6 +989,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
             return -1;
         }
+
 
         /**
          * Look up an attribute index by qualified (prefixed) name.
@@ -942,6 +1009,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             return -1;
         }
 
+
         /**
          * Look up the type of an attribute by Namespace name.
          *
@@ -954,6 +1022,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
             return null;
         }
 
+
         /**
          * Look up the type of an attribute by qualified (prefixed) name.
          *
@@ -964,6 +1033,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
             return qAtts.getType(qName).intern();
         }
+
 
         /**
          * Look up the value of an attribute by Namespace name.
@@ -976,6 +1046,7 @@ public class ParserAdapter implements XMLReader, DocumentHandler
         {
             return null;
         }
+
 
         /**
          * Look up the value of an attribute by qualified (prefixed) name.

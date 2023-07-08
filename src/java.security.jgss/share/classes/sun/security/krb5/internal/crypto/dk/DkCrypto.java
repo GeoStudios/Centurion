@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk;
 
+
 import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.Mac;
 import java.security.GeneralSecurityException;
@@ -35,6 +36,20 @@ import java.security.jgss.share.classes.sun.security.krb5.Confounder;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
 import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
 import static java.nio.charset.StandardCharsets.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements Derive Key cryptography functionality as defined in RFC 3961.
@@ -599,6 +614,7 @@ public abstract class DkCrypto {
                     Integer.toHexString(oval)
                     + "\tsum = " + Integer.toHexString(thisbyte));
             }
+
 
             /* keep around the carry bit, if any */
             thisbyte >>>= 8;

@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractCLinker;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.NativeMemorySegmentImpl;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts;
@@ -40,6 +41,20 @@ import java.nio.charset.StandardCharsets;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A C linker implements the C Application Binary Interface (ABI) calling conventions.

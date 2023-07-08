@@ -21,7 +21,22 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
+
 import java.datatransfer.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to encapsulate MimeType parsing related exceptions.

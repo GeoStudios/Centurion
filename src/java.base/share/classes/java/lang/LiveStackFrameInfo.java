@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.lang;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class LiveStackFrameInfo extends StackFrameInfo implements LiveStackFrame {
     private static final Object[] EMPTY_ARRAY = new Object[0];
 

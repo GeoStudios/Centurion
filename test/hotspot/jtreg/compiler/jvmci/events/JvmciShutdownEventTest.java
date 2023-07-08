@@ -21,8 +21,22 @@
 
 package compiler.jvmci.events;
 
+
 import jdk.test.lib.process.ExitCode;
 import jdk.test.lib.cli.CommandLineOptionTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -49,6 +63,8 @@ import jdk.test.lib.cli.CommandLineOptionTest;
  * @run main/othervm -XX:+UnlockExperimentalVMOptions
  *      compiler.jvmci.events.JvmciShutdownEventTest
  */
+
+
 
 public class JvmciShutdownEventTest {
     private final static String[] MESSAGE = new String[]{

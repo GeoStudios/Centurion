@@ -21,11 +21,26 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
+
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.ChangedEventProvider;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.Diagram;
 import org.openide.cookies.OpenCookie;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

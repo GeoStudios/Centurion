@@ -21,9 +21,23 @@
 
 package compiler.intrinsics.zip;
 
+
 import java.nio.ByteBuffer;
 import java.util.zip.CRC32C;
 import java.util.zip.Checksum;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,8 @@ import java.util.zip.Checksum;
  *
  * @run main/othervm/timeout=600 -Xbatch compiler.intrinsics.zip.TestCRC32C -m
  */
+
+
 
 public class TestCRC32C {
     // CRC32C (Castagnoli) polynomial

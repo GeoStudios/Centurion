@@ -21,6 +21,7 @@
 
 package gc.gctests.fileTest;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.test.lib.Utils;
@@ -28,6 +29,19 @@ import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.TestBug;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,6 +54,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm gc.gctests.fileTest.fileTest -Filename fileTest.java -iterations 500
  */
+
+
 
 public class fileTest extends GCTestBase {
         private File [] fileArray;

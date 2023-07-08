@@ -21,9 +21,23 @@
 
 package nsk.share.gc.lock.jniref;
 
+
 import nsk.share.TestBug;
 import nsk.share.gc.lock.Lockers;
 import nsk.share.gc.lock.Locker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JNIRefLockers implements Lockers {
         public Locker createLocker(Object obj) {

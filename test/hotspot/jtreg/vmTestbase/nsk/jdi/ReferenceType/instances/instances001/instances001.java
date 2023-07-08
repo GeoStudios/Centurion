@@ -21,6 +21,7 @@
 
 package nsk.jdi.ReferenceType.instances.instances001;
 
+
 import java.io.PrintStream;
 import java.util.*;
 import com.sun.jdi.*;
@@ -29,6 +30,19 @@ import nsk.share.ObjectInstancesManager;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import nsk.share.jdi.HeapwalkingDebugger;
 import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -77,6 +91,9 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class instances001 extends HeapwalkingDebugger {
     public static void main(String argv[]) {

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.FontUIResource;
 import java.awt.Font;
@@ -28,6 +29,20 @@ import java.util.*;
 import java.util.regex.*;
 import sun.swing.plaf.synth.*;
 import sun.swing.BakedArrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory used for obtaining styles. Supports associating a style based on
@@ -65,6 +80,7 @@ class DefaultSynthStyleFactory extends SynthStyleFactory {
      * Used if there are no styles matching a widget.
      */
     private SynthStyle _defaultStyle;
+
 
     DefaultSynthStyleFactory() {
         _tmpList = new BakedArrayList<SynthStyle>(5);

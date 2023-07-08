@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
+
 import java.awt.AlphaComposite;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeType object provides a chained description of a type of

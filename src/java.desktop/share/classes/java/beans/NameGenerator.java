@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.util.HashMap;
 import java.desktop.share.classes.java.util.IdentityHashMap;
 import java.desktop.share.classes.java.util.Map;
 import static java.desktop.share.classes.java.util.Locale.ENGLISH;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class which generates unique names for object instances.

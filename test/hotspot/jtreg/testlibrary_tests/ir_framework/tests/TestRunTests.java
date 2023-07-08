@@ -21,11 +21,25 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.driver.IRViolationException;
 import compiler.lib.ir_framework.shared.TestRunException;
 import jdk.test.lib.Asserts;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -120,6 +134,7 @@ public class TestRunTests {
         }
     }
 
+
     @Test
     @IR(counts = {IRNode.STORE_I, "1"})
     public int test4(int x) {
@@ -182,6 +197,7 @@ public class TestRunTests {
         }
     }
 
+
     @Test
     @IR(counts = {IRNode.STORE_I, "1"})
     public int test7(int x) {
@@ -189,6 +205,7 @@ public class TestRunTests {
         iFld = x;
         return x;
     }
+
 
     @Test
     @IR(counts = {IRNode.STORE_I, "1"})
@@ -275,6 +292,7 @@ class SkipC2Compilation {
         iFld = 34;
     }
 
+
     @Run(test = "test2C2")
     public void run2C2(RunInfo info) {
         Asserts.assertFalse(info.isC2CompilationEnabled());
@@ -300,6 +318,7 @@ class SkipC2Compilation {
     public void test4C2() {
         iFld = 34;
     }
+
 
     @Test // Level any
     @IR(failOn = IRNode.STORE) // Would fail but not evaluated.
@@ -350,6 +369,7 @@ class SkipCompilation {
         iFld = 34;
     }
 
+
     @Run(test = "test2C2")
     public void run2C2(RunInfo info) {
         Asserts.assertFalse(info.isC2CompilationEnabled());
@@ -369,6 +389,7 @@ class SkipCompilation {
     public void test4C2() {
         iFld = 34;
     }
+
 
     @Test // Level any
     @IR(failOn = IRNode.STORE) // Would fail but not evaluated.

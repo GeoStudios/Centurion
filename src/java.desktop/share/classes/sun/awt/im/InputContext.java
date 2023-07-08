@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
 import java.awt.AWTEvent;
 import java.awt.AWTKeyStroke;
 import java.awt.Component;
@@ -50,6 +51,20 @@ import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 import java.desktop.share.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This InputContext class contains parts of the implementation of
@@ -331,6 +346,7 @@ public class InputContext extends java.awt.im.InputContext
                 if (!isInputMethodActive) {
                     activateInputMethod(true);
                 }
+
 
                 // If the client component is an active client with the below-the-spot
                 // input style, then make the composition window undecorated without a title bar.
@@ -783,6 +799,7 @@ public class InputContext extends java.awt.im.InputContext
             ((InputMethodAdapter)inputMethod).stopListening();
         }
     }
+
 
     private synchronized InputMethod getInputMethod() {
         if (inputMethod != null) {

@@ -21,12 +21,26 @@
 
 package nsk.jdi.VirtualMachine.canGetOwnedMonitorInfo;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -144,6 +158,7 @@ public class cangetinfo001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -190,6 +205,7 @@ public class cangetinfo001 {
             ListIterator    listIterator = null;
             List            classes      = null;
 
+
             label0: {
 
                 log2("getting ThreadReference objects and setting up breakponts");
@@ -218,9 +234,11 @@ public class cangetinfo001 {
                 }
             }
 
+
             label1: {
                 if (expresult != returnCode0)
                     break label1;
+
 
                 log2("       supending the main thread");
                 mainThread.suspend();

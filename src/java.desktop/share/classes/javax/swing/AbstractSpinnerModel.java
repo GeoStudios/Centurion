@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.util.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the ChangeListener part of the
@@ -50,6 +65,7 @@ public abstract class AbstractSpinnerModel implements SpinnerModel, Serializable
      */
     private transient ChangeEvent changeEvent = null;
 
+
     /**
      * The list of ChangeListeners for this model.  Subclasses may
      * store their own listeners here.
@@ -73,6 +89,7 @@ public abstract class AbstractSpinnerModel implements SpinnerModel, Serializable
         listenerList.add(ChangeListener.class, l);
     }
 
+
     /**
      * Removes a ChangeListener from the model's listener list.
      *
@@ -84,6 +101,7 @@ public abstract class AbstractSpinnerModel implements SpinnerModel, Serializable
         listenerList.remove(ChangeListener.class, l);
     }
 
+
     /**
      * Returns an array of all the <code>ChangeListener</code>s added
      * to this AbstractSpinnerModel with addChangeListener().
@@ -94,6 +112,7 @@ public abstract class AbstractSpinnerModel implements SpinnerModel, Serializable
     public ChangeListener[] getChangeListeners() {
         return listenerList.getListeners(ChangeListener.class);
     }
+
 
     /**
      * Run each ChangeListeners stateChanged() method.
@@ -113,6 +132,7 @@ public abstract class AbstractSpinnerModel implements SpinnerModel, Serializable
             }
         }
     }
+
 
     /**
      * Return an array of all the listeners of the given type that

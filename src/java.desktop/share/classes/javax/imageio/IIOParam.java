@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio;
 
+
 import java.awt.Point;
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A superclass of all classes describing how streams should be

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.lang.module.Configuration;
 import java.base.share.classes.java.lang.module.ModuleDescriptor;
 import java.base.share.classes.java.lang.module.ResolvedModule;
@@ -46,6 +47,20 @@ import jdk.internal.module.ServicesCatalog;
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.Stable;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A layer of modules in the Java virtual machine.
@@ -214,6 +229,7 @@ public final class ModuleLayer {
                 throw new IllegalArgumentException(source + " not in layer");
         }
 
+
         /**
          * Updates module {@code source} in the layer to read module
          * {@code target}. This method is a no-op if {@code source} already
@@ -294,6 +310,7 @@ public final class ModuleLayer {
         }
     }
 
+
     /**
      * Creates a new module layer, with this layer as its parent, by defining the
      * modules in the given {@code Configuration} to the Java virtual machine.
@@ -335,6 +352,7 @@ public final class ModuleLayer {
         return defineModulesWithOneLoader(cf, List.of(this), parentLoader).layer();
     }
 
+
     /**
      * Creates a new module layer, with this layer as its parent, by defining the
      * modules in the given {@code Configuration} to the Java virtual machine.
@@ -375,6 +393,7 @@ public final class ModuleLayer {
                                                     ClassLoader parentLoader) {
         return defineModulesWithManyLoaders(cf, List.of(this), parentLoader).layer();
     }
+
 
     /**
      * Creates a new module layer, with this layer as its parent, by defining the
@@ -662,6 +681,7 @@ public final class ModuleLayer {
         }
     }
 
+
     /**
      * Checks that the parent configurations match the configuration of
      * the parent layers.
@@ -737,6 +757,7 @@ public final class ModuleLayer {
         return new LayerInstantiationException(msg);
     }
 
+
     /**
      * Returns the configuration for this layer.
      *
@@ -756,6 +777,7 @@ public final class ModuleLayer {
     public List<ModuleLayer> parents() {
         return parents;
     }
+
 
     /**
      * Returns an ordered stream of layers. The first element is this layer,
@@ -809,6 +831,7 @@ public final class ModuleLayer {
 
     private volatile Set<Module> modules;
 
+
     /**
      * Returns the module with the given name in this layer, or if not in this
      * layer, the {@linkplain #parents() parent} layers. Finding a module in
@@ -838,6 +861,7 @@ public final class ModuleLayer {
                 .filter(Objects::nonNull)
                 .findAny();
     }
+
 
     /**
      * Returns the {@code ClassLoader} for the module with the given name. If
@@ -897,6 +921,7 @@ public final class ModuleLayer {
         return EMPTY_LAYER;
     }
 
+
     /**
      * Returns the boot layer. The boot layer contains at least one module,
      * {@code java.base}. Its parent is the {@link #empty() empty} layer.
@@ -934,6 +959,7 @@ public final class ModuleLayer {
     }
 
     private volatile ServicesCatalog servicesCatalog;
+
 
     /**
      * Record that this layer has at least one module defined to the given

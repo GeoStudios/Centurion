@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.org.w3c.dom.traversal;
 
+
 import java.xml.share.classes.org.w3c.dom.Node;
 import java.xml.share.classes.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>NodeIterators</code> are used to step through a set of nodes, e.g.

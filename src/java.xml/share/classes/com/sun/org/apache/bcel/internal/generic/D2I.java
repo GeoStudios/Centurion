@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * D2I - Convert double to int
@@ -38,6 +55,7 @@ public class D2I extends ConversionInstruction {
     public D2I() {
         super(com.sun.org.apache.bcel.internal.Const.D2I);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

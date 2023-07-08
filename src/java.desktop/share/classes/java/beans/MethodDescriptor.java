@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.lang.ref.Reference;
 import java.desktop.share.classes.java.lang.ref.WeakReference;
 import java.desktop.share.classes.java.lang.reflect.Method;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
 import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A MethodDescriptor describes a particular method that a Java Bean
@@ -52,6 +67,7 @@ public class MethodDescriptor extends FeatureDescriptor {
     public MethodDescriptor(Method method) {
         this(method, null);
     }
+
 
     /**
      * Constructs a {@code MethodDescriptor} from a

@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util.function;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents an operation upon two {@code int}-valued operands and producing an
  * {@code int}-valued result.   This is the primitive type specialization of

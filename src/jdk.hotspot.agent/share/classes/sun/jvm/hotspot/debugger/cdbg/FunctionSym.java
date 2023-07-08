@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** A FunctionSym is an extension of a BlockSym which contains
     additional information such as the type (signature) of the
     function. */

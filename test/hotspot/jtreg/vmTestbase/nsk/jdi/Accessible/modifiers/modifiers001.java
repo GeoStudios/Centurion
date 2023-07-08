@@ -21,12 +21,26 @@
 
 package nsk.jdi.Accessible.modifiers;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The modifiers001 test checks the method <code>modifiers()</code>
@@ -45,8 +59,10 @@ public class modifiers001 extends Log {
         thisClassName = package_prefix + "modifiers001",
         debugeeName   = thisClassName + "a";
 
+
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
+
 
     /** Debugee's classes for check **/
     private final static String classes_for_check[][] = {
@@ -112,11 +128,13 @@ public class modifiers001 extends Log {
             out_stream = out;
         }
 
+
         Debugee debugee;
 
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
+
 
         if (argsHandler.verbose()) {
             debugee = binder.bindToDebugee(debugeeName + " -vbs");
@@ -126,9 +144,11 @@ public class modifiers001 extends Log {
 
         IOPipe pipe     = new IOPipe(debugee);
 
+
         logHandler.display("==> nsk/jdi/Accessible/modifiers/modifiers001 test LOG:");
         logHandler.display("==> test checks the modifiers() method of Accessible interface");
         logHandler.display("    of the com.sun.jdi package for ClassType, InterfaceType\n");
+
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> modifiers001: modifiers001a debugee launched");

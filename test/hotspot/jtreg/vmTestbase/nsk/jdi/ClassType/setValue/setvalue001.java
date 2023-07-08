@@ -21,12 +21,26 @@
 
 package nsk.jdi.ClassType.setValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -132,6 +146,7 @@ public class setvalue001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -187,6 +202,7 @@ public class setvalue001 {
 
             ClassType tClass = (ClassType) testedclass;
 
+
             String bl1 = "bl1", bl2 = "bl2";
             String bt1 = "bt1", bt2 = "bt2";
             String ch1 = "ch1", ch2 = "ch2";
@@ -229,6 +245,7 @@ public class setvalue001 {
 
                             break;
 
+
                     case 1:
                             log2("...... byte values");
                             ByteValue btv1 = null;
@@ -252,6 +269,7 @@ public class setvalue001 {
 
                             break;
 
+
                     case 2:
                             log2("...... char values");
                             CharValue chv1 = null;
@@ -274,6 +292,7 @@ public class setvalue001 {
                             }
 
                             break;
+
 
                     case 3:
                             log2("...... double values");
@@ -299,6 +318,7 @@ public class setvalue001 {
                             }
 
                             break;
+
 
                     case 4:
                             log2("...... float values");
@@ -346,6 +366,7 @@ public class setvalue001 {
 
                             break;
 
+
                     case 6:
                             log2("...... long values");
                             LongValue lnv1 = null;
@@ -371,6 +392,7 @@ public class setvalue001 {
 
                             break;
 
+
                     case 7:
                             log2("...... short values");
                             ShortValue shv1 = null;
@@ -394,6 +416,7 @@ public class setvalue001 {
 
                             break;
 
+
                   default : log3("ERROR: TEST ERROR:  case: default:");
                             testExitCode = FAILED;
                             break;
@@ -406,6 +429,8 @@ public class setvalue001 {
                 } // end of try
 
             } // end of for
+
+
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }

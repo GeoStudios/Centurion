@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface SecurityWarningWindow extends PlatformWindow {
     /**
      * @param x,y,w,h coordinates of the untrusted window

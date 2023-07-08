@@ -21,6 +21,7 @@
 
 package stream.XMLStreamReaderTest;
 
+
 import java.io.StringReader;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
@@ -30,6 +31,19 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -63,6 +77,7 @@ public class BugTest {
        Assert.assertEquals(type1, type1stEvent);
        Assert.assertEquals(type2, type2ndEvent);
     }
+
 
     /**
      * Verifies that the initial event of an XMLEventReader instance is

@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
+
 import java.io.ObjectOutputStream;
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
 import java.security.jgss.share.classes.sun.security.krb5.Checksum;
@@ -36,6 +37,20 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1 KRBError type.

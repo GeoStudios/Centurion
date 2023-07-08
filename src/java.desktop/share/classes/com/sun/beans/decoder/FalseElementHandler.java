@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is intended to handle &lt;false&gt; element.
  * This element specifies {@code false} value.

@@ -21,12 +21,26 @@
 
 package nsk.jdi.FloatValue.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -193,6 +207,7 @@ public class hashcode001 {
             case 1: if (fvplus1_1.hashCode() != fvplus1_2.hashCode())
                         expresult = 1;
                     break;
+
 
                 default: expresult = 2;
                          break ;

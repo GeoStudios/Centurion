@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BsdOopHandle extends BsdAddress implements OopHandle {
   BsdOopHandle(BsdDebugger debugger, long addr) {

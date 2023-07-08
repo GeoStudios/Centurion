@@ -21,6 +21,7 @@
 
 package test.sql;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.ObjectInputStream;
@@ -31,6 +32,19 @@ import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.SerializedBatchUpdateException;
 import util.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BatchUpdateExceptionTests extends BaseTest {
 
@@ -233,6 +247,8 @@ public class BatchUpdateExceptionTests extends BaseTest {
                 && Arrays.equals(bue.getLargeUpdateCounts(), luc)
                 && Arrays.equals(bue.getUpdateCounts(), uc));
     }
+
+
 
     /**
      * De-Serialize a BatchUpdateException from JDBC 4.0 and make sure you can

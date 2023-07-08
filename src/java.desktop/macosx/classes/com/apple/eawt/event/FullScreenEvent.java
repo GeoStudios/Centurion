@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
 import java.desktop.macosx.classes.com.apple.eawt.Application;
 import java.awt.Window;
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 public class FullScreenEvent extends EventObject {

@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
+
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -28,6 +29,20 @@ import java.awt.geom.CubicCurve2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Warps a image on a CubicCurve2D flattened path.

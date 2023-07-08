@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface is used to gain access to descriptors of the Descriptor class
  * which are associated with a JMX component, i.e. MBean, MBeanInfo,

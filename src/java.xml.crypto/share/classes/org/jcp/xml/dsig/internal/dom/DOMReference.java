@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import javax.xml.crypto.*;
 import javax.xml.crypto.dsig.*;
 import javax.xml.crypto.dom.DOMCryptoContext;
@@ -39,10 +40,30 @@ import java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.DigesterOutputStr
 import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
 import com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
+
+
 
 /**
  * DOM-based implementation of Reference.

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * RETURN -  Return from void method
@@ -36,6 +53,7 @@ public class RETURN extends ReturnInstruction {
     public RETURN() {
         super(com.sun.org.apache.bcel.internal.Const.RETURN);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

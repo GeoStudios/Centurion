@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The peer interface for {@link java.awt.Panel}. This is a subinterface of
  * ContainerPeer and does not declare any additional methods because a Panel

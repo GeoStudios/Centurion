@@ -21,10 +21,25 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosFlags;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1TicketFlags type.
@@ -124,6 +139,7 @@ public class TicketFlags extends KerberosFlags {
         }
         return matched;
     }
+
 
     /**
      * Returns the string representative of ticket flags.

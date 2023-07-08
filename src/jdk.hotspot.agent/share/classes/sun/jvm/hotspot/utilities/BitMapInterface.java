@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Minimal bitmap interface to support bitmaps spanning more than Integer.MAX_VALUE bits. */
 public interface BitMapInterface {
   boolean at(long offset);

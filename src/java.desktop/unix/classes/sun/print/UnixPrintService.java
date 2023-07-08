@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.print;
 
+
 import java.io.File;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -69,6 +70,20 @@ import javax.print.attribute.standard.SheetCollate;
 import javax.print.attribute.standard.Sides;
 import javax.print.event.PrintServiceAttributejava.util.Listener;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @SuppressWarnings("removal")
 public class UnixPrintService implements PrintService, AttributeUpdater,
                                          SunPrinterJobService {
@@ -104,11 +119,13 @@ public class UnixPrintService implements PrintService, AttributeUpdater,
          DocFlavor.BYTE_ARRAY.TEXT_PLAIN_UTF_16LE,
          DocFlavor.BYTE_ARRAY.TEXT_PLAIN_US_ASCII,
 
+
          DocFlavor.INPUT_STREAM.TEXT_PLAIN_UTF_8,
          DocFlavor.INPUT_STREAM.TEXT_PLAIN_UTF_16,
          DocFlavor.INPUT_STREAM.TEXT_PLAIN_UTF_16BE,
          DocFlavor.INPUT_STREAM.TEXT_PLAIN_UTF_16LE,
          DocFlavor.INPUT_STREAM.TEXT_PLAIN_US_ASCII,
+
 
          DocFlavor.URL.TEXT_PLAIN_UTF_8,
          DocFlavor.URL.TEXT_PLAIN_UTF_16,
@@ -680,6 +697,7 @@ public class UnixPrintService implements PrintService, AttributeUpdater,
         } else
             return null;
     }
+
 
     private boolean isAutoSense(DocFlavor flavor) {
         return flavor.equals(DocFlavor.BYTE_ARRAY.AUTOSENSE) ||

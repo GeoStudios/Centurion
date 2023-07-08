@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8184271
@@ -30,6 +45,7 @@ package compiler.c1;
  *                   -XX:CompileCommand=dontinline,compiler.c1.TestPinnedIntrinsics::checkCurrentTimeMillis
  *                   compiler.c1.TestPinnedIntrinsics
  */
+
 
 public class TestPinnedIntrinsics {
 

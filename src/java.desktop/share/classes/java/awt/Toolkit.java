@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.datatransfer.Clipboard;
 import java.desktop.share.classes.java.awt.dnd.DragGesturejava.util.Listener;
 import java.desktop.share.classes.java.awt.dnd.DragGestureRecognizer;
@@ -74,6 +75,20 @@ import sun.awt.HeadlessToolkit;
 import sun.awt.PeerEvent;
 import sun.awt.PlatformGraphicsInfo;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the abstract superclass of all actual
@@ -387,6 +402,7 @@ public abstract class Toolkit {
         // Get accessibility properties
         final String sep = File.separator;
         final Properties properties = new Properties();
+
 
         atNames = java.security.AccessController.doPrivileged(
             new java.security.PrivilegedAction<String>() {

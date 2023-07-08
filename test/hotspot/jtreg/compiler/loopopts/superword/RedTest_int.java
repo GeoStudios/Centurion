@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8240248
@@ -74,6 +89,7 @@ package compiler.loopopts.superword;
  *      -XX:LoopMaxUnroll=16
  *      compiler.loopopts.superword.RedTest_int
  */
+
 
 public class RedTest_int {
     static final int NUM = 1024;
@@ -153,6 +169,7 @@ public class RedTest_int {
            c[i] = 0x13;
         }
     }
+
 
     public static int sumReductionImplement(
             int[] a,

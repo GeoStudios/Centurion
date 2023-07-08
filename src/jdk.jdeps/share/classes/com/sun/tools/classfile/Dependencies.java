@@ -21,6 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
+
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -42,6 +43,20 @@ import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.SimpleType;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.TypeParamType;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.WildcardType;
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A framework for determining {@link Dependency dependencies} between class files.
@@ -385,6 +400,7 @@ public class Dependencies {
         private final Location origin;
         private final Location target;
     }
+
 
     /**
      * This class accepts all dependencies.

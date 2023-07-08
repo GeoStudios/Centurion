@@ -21,9 +21,24 @@
 
 package java.base.share.classes.jdk.internal.vm.vector;
 
+
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.jdk.internal.misc.Unsafe;
 import java.util.function.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VectorSupport {
     static {

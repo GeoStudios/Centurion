@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  *
@@ -100,6 +117,7 @@ public class OpMapVector {
 
     m_map[index] = value;
   }
+
 
   /*
    * Reset the array to the supplied size.  No checking is done.

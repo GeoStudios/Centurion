@@ -21,9 +21,24 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import java.io.File;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SDE {
     private static final int INIT_SIZE_FILE = 3;

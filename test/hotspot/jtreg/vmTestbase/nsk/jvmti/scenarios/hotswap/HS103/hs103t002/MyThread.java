@@ -21,7 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS103.hs103t002;
 
+
 import java.util.concurrent.atomic.AtomicInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyThread extends Thread {
     public static AtomicInteger ai = new AtomicInteger(0);

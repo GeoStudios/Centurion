@@ -21,6 +21,21 @@
 
 package compiler.gcbarriers;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8023472
@@ -31,6 +46,7 @@ package compiler.gcbarriers;
  *
  * @author pbiswal@palantir.com
  */
+
 
 public class G1CrashTest {
     static Object[] set = new Object[11];

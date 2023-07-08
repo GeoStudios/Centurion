@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.lang.ref.Reference;
 import java.awt.FontFormatException;
 import java.awt.geom.GeneralPath;
@@ -35,6 +36,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class FileFont extends PhysicalFont {
 
@@ -90,6 +105,7 @@ public abstract class FileFont extends PhysicalFont {
      * file pool management. It may be a no-op.
      */
     protected abstract void close();
+
 
     /*
      * This is the public interface. The subclasses need to implement

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.DataInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.spi.AudioFileWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract File Writer class.

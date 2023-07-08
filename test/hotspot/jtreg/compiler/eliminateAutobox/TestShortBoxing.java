@@ -21,6 +21,21 @@
 
 package compiler.eliminateAutobox;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6934604
@@ -40,6 +55,7 @@ package compiler.eliminateAutobox;
  *                   compiler.eliminateAutobox.TestShortBoxing
  */
 
+
 public class TestShortBoxing {
 
   static final Short ibc = new Short((short)1);
@@ -49,6 +65,7 @@ public class TestShortBoxing {
   static void dummy()      { }
   static short foo(short i)  { return i; }
   static Short foob(short i) { return Short.valueOf(i); }
+
 
   static short simple(short i) {
     Short ib = new Short(i);
@@ -360,6 +377,7 @@ public class TestShortBoxing {
     return (short)(j1 + j2);
   }
 
+
   //===============================================
   // Safepointa and debug info for deoptimization
   static short simple_deop(short i) {
@@ -628,6 +646,7 @@ public class TestShortBoxing {
     return (short)(j1 + j2);
   }
 
+
   public static void main(String[] args) {
     final int ntests = 70;
 
@@ -669,6 +688,7 @@ public class TestShortBoxing {
     for (int i = 0; i < ntests; i++) {
       res[i] = 0;
     }
+
 
     for (int i = 0; i < 12000; i++) {
       res[0] += simple((short)i);

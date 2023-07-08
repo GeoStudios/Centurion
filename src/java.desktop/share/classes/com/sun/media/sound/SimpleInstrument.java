@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import javax.sound.midi.Patch;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple instrument that is made of other ModelInstrument, ModelPerformer

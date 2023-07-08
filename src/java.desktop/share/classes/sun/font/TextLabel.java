@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Graphics2D;
 import java.awt.Shape;
 import java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A label.

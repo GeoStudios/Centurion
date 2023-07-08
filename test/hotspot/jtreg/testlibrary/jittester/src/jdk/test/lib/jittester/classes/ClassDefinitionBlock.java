@@ -21,10 +21,24 @@
 
 package jdk.test.lib.jittester.classes;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassDefinitionBlock extends IRNode {
     public ClassDefinitionBlock(ArrayList<IRNode> content, int level) {

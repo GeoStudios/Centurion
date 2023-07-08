@@ -21,6 +21,56 @@
 
 package build.tools.jigsaw;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ModuleSummary {
     private static final String USAGE = "Usage: ModuleSummary --module-path <dir> -o <outfile> [--root mn]*";
 
@@ -168,6 +218,7 @@ public class ModuleSummary {
     Map<String,Long> configFiles() {
         return jmodInfo.configFiles;
     }
+
 
     static class JmodInfo {
         final long size;

@@ -21,8 +21,22 @@
 
 package compiler.jsr292;
 
+
 import java.lang.invoke.MethodHandles;
 import java.nio.file.Path;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -31,6 +45,8 @@ import java.nio.file.Path;
  *
  * @run main/othervm compiler.jsr292.CreatesInterfaceDotEqualsCallInfo
  */
+
+
 
 public class CreatesInterfaceDotEqualsCallInfo {
     public static void main(String[] args) throws Throwable {

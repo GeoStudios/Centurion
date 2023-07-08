@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import javax.sound.midi.ControllerEventjava.util.Listener;
@@ -29,6 +30,20 @@ import javax.sound.midi.MetaMessage;
 import javax.sound.midi.ShortMessage;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.Linejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EventDispatcher.  Used by various classes in the Java Sound implementation
@@ -295,6 +310,7 @@ final class EventDispatcher implements Runnable {
         }
     }
 
+
     // ////////////////////////// Line Monitoring Support /////////////////// //
     /*
      * go through the list of registered line monitors
@@ -370,6 +386,7 @@ final class EventDispatcher implements Runnable {
 
     } // class EventInfo
 
+
     /**
      * Container for a clip with its expiration time.
      */
@@ -394,6 +411,7 @@ final class EventDispatcher implements Runnable {
             return currTime > expiration;
         }
     } // class ClipInfo
+
 
     /**
      * Interface that a class that wants to get regular

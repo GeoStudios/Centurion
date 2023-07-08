@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code Dimension2D} class is to encapsulate a width
  * and a height dimension.

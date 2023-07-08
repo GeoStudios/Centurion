@@ -21,12 +21,27 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import javax.swing.UIManager;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Divider used for Windows split pane.

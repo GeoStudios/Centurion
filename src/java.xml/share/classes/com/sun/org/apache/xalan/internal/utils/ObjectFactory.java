@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
 
+
 import java.util.function.Supplier;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is duplicated for each JAXP subpackage so keep it in sync.
@@ -45,6 +60,7 @@ public class ObjectFactory {
 
     /** Set to true for debugging */
     private static final boolean DEBUG = false;
+
 
     /** Prints a message to standard error if debugging is enabled. */
     private static void debugPrintln(Supplier<String> msgGen) {

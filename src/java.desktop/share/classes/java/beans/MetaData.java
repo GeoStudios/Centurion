@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import com.sun.beans.finder.PrimitiveWrapperMap;
 import java.desktop.share.classes.java.awt.AWTKeyStroke;
 import java.desktop.share.classes.java.awt.BorderLayout;
@@ -48,6 +49,20 @@ import javax.swing.border.MatteBorder;
 import javax.swing.plaf.ColorUIResource;
 import sun.swing.PrintColorUIResource;
 import static sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Like the {@code Intropector}, the {@code MetaData} class
@@ -544,6 +559,7 @@ static class java_util_List_PersistenceDelegate extends DefaultPersistenceDelega
     }
 }
 
+
 // Map
 static class java_util_Map_PersistenceDelegate extends DefaultPersistenceDelegate {
     protected void initialize(Class<?> type, Object oldInstance, Object newInstance, Encoder out) {
@@ -587,6 +603,7 @@ static final class java_util_AbstractCollection_PersistenceDelegate extends java
 static final class java_util_AbstractList_PersistenceDelegate extends java_util_List_PersistenceDelegate {}
 static final class java_util_AbstractMap_PersistenceDelegate extends java_util_Map_PersistenceDelegate {}
 static final class java_util_Hashtable_PersistenceDelegate extends java_util_Map_PersistenceDelegate {}
+
 
 // Beans
 static final class java_beans_beancontext_BeanContextSupport_PersistenceDelegate extends java_util_Collection_PersistenceDelegate {}
@@ -907,6 +924,7 @@ static final class java_awt_List_PersistenceDelegate extends DefaultPersistenceD
     }
 }
 
+
 // LayoutManagers
 
 // BorderLayout
@@ -1029,6 +1047,7 @@ static final class javax_swing_DefaultComboBoxModel_PersistenceDelegate extends 
         }
     }
 }
+
 
 // DefaultMutableTreeNode
 static final class javax_swing_tree_DefaultMutableTreeNode_PersistenceDelegate extends DefaultPersistenceDelegate {

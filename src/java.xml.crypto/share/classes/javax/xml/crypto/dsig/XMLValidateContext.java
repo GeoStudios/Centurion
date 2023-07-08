@@ -21,11 +21,28 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: XMLValidateContext.java,v 1.8 2005/05/10 16:03:49 mullan Exp $
  */
+
+
 
 /**
  * Contains context information for validating XML Signatures. This interface

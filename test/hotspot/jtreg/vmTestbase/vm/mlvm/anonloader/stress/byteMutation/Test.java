@@ -21,10 +21,24 @@
 
 package vm.mlvm.anonloader.stress.byteMutation;
 
+
 import vm.mlvm.anonloader.share.AnonkTestee01;
 import vm.mlvm.anonloader.share.StressClassLoadingTest;
 import vm.share.FileUtils;
 import vm.share.options.Option;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -43,6 +57,8 @@ import vm.share.options.Option;
  *
  * @run main/othervm vm.mlvm.anonloader.stress.byteMutation.Test -stressIterationsFactor 100000
  */
+
+
 
 /**
  * The test does the following in a cycle:

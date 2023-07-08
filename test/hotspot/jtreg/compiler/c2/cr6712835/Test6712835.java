@@ -21,6 +21,21 @@
 
 package compiler.c2.cr6712835;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6712835
@@ -28,6 +43,7 @@ package compiler.c2.cr6712835;
  *
  * @run main/othervm -Xcomp compiler.c2.cr6712835.Test6712835
  */
+
 
 /* Complexity upper bound: 349851 ops */
 
@@ -37,6 +53,7 @@ abstract class Tester_Class_0 {
     float var_3 = 1.8301116E38F;
     final String var_4 = "wck";
     final static short var_5 = 25624;
+
 
     public Tester_Class_0()
     {
@@ -108,6 +125,8 @@ abstract class Tester_Class_0 {
         var_2 = (var_1 ^= "sfltwylm".startsWith("ytmeds")) ? 1837260339 * 434565574 : (new double[(byte)var_26])[(byte)var_3];
     }
 
+
+
     public boolean equals(Object obj)
     {
         var_2 = 785819716 / 'i';
@@ -159,6 +178,7 @@ abstract class Tester_Class_0 {
         long var_11;
         return (var_2 = (byte)'B') < 550125954;
     }
+
 
     public static char func_0(final int arg_0, long[] arg_1, final boolean arg_2)
     {
@@ -277,10 +297,12 @@ abstract class Tester_Class_0 {
     }
 }
 
+
 final class Tester_Class_1 extends Tester_Class_0 {
     final boolean var_29 = false;
     static short var_30;
     Tester_Class_0 var_31;
+
 
     public Tester_Class_1()
     {
@@ -292,6 +314,9 @@ final class Tester_Class_1 extends Tester_Class_0 {
         ((Tester_Class_0)(new Object[var_43])[var_43]).var_1 = var_29;
         var_43 += 512311665;
     }
+
+
+
 
     final int func_0()
     {
@@ -415,10 +440,12 @@ final class Tester_Class_1 extends Tester_Class_0 {
     }
 }
 
+
 final class Tester_Class_2 extends Tester_Class_0 {
     static float var_44 = 2.7867988E38F;
     static byte var_45;
     static long var_46 = 4319798868443575296L;
+
 
     public Tester_Class_2()
     {
@@ -456,6 +483,9 @@ final class Tester_Class_2 extends Tester_Class_0 {
         var_2 = 1435782089;
         Tester_Class_0.var_2 = var_46;
     }
+
+
+
 
     protected final boolean func_0(final boolean arg_0, final boolean arg_1)
     {
@@ -510,6 +540,7 @@ final class Tester_Class_2 extends Tester_Class_0 {
     }
 }
 
+
 class Tester_Class_3 extends Tester_Class_0 {
     static boolean var_55 = true;
     short var_56;
@@ -521,6 +552,7 @@ class Tester_Class_3 extends Tester_Class_0 {
     Tester_Class_2[] var_62;
     static short var_63 = 19813;
     static double var_64 = (var_55 = true) ? (Tester_Class_1.var_2 = 'M') : Tester_Class_2.var_46;
+
 
     public Tester_Class_3()
     {
@@ -539,6 +571,9 @@ class Tester_Class_3 extends Tester_Class_0 {
         var_55 |= false;
         Tester_Class_2.var_46 = var_61;
     }
+
+
+
 
     public String toString()
     {
@@ -578,6 +613,7 @@ class Tester_Class_3 extends Tester_Class_0 {
     }
 }
 
+
 final class Tester_Class_4 {
     static long var_66;
     final long var_67 = 7113579489152300032L * 985636454;
@@ -585,6 +621,7 @@ final class Tester_Class_4 {
     Tester_Class_3 var_69;
     final long var_70 = Tester_Class_2.var_46 <<= Tester_Class_1.var_5;
     byte var_71 = Tester_Class_3.var_58;
+
 
     public Tester_Class_4()
     {
@@ -598,6 +635,9 @@ final class Tester_Class_4 {
         Tester_Class_3.var_64 += 355712574;
         ++Tester_Class_2.var_46;
     }
+
+
+
 
     private final static Tester_Class_1 func_0(boolean arg_0, double arg_1)
     {
@@ -654,6 +694,7 @@ final class Tester_Class_4 {
     }
 }
 
+
 final class Tester_Class_5 extends Tester_Class_0 {
     static boolean var_81;
     final int var_82 = 174395841;
@@ -661,6 +702,7 @@ final class Tester_Class_5 extends Tester_Class_0 {
     byte var_84;
     boolean var_85 = Tester_Class_3.var_55;
     static boolean var_86 = Tester_Class_3.var_55;
+
 
     public Tester_Class_5()
     {
@@ -695,6 +737,9 @@ final class Tester_Class_5 extends Tester_Class_0 {
         var_83 = Tester_Class_3.var_58;
     }
 
+
+
+
     public String toString()
     {
         String result =  "[\n";
@@ -725,6 +770,7 @@ final class Tester_Class_5 extends Tester_Class_0 {
     }
 }
 
+
 class Tester_Class_6 extends Tester_Class_0 {
     long var_90 = 8467263472031702016L;
     final static int var_91 = 1648594448 * ']';
@@ -736,6 +782,7 @@ class Tester_Class_6 extends Tester_Class_0 {
     final static double var_97 = 5.387227213380301E307;
     final static short var_98 = Tester_Class_3.var_63 &= var_91;
     byte var_99 = 44;
+
 
     public Tester_Class_6()
     {
@@ -782,6 +829,9 @@ class Tester_Class_6 extends Tester_Class_0 {
         var_99 <<= (Tester_Class_3.var_63 >>= Tester_Class_3.var_58);
         ++var_99;
     }
+
+
+
 
     final static byte func_0(final byte arg_0, final char arg_1, final Tester_Class_5[] arg_2)
     {
@@ -839,6 +889,7 @@ class Tester_Class_6 extends Tester_Class_0 {
     }
 }
 
+
 abstract class Tester_Class_7 {
     final static char var_108 = '_';
     static Tester_Class_3 var_109;
@@ -849,6 +900,7 @@ abstract class Tester_Class_7 {
     static Tester_Class_5 var_114;
     final short var_115 = Tester_Class_6.var_96;
     final static float var_116 = Tester_Class_3.var_59;
+
 
     public Tester_Class_7()
     {
@@ -881,6 +933,8 @@ abstract class Tester_Class_7 {
         ((new Tester_Class_5[var_122.var_99])[((new Tester_Class_3[Tester_Class_3.var_58])[var_122.var_99--]).var_61]).var_83 = 1708230145;
     }
 
+
+
     public boolean equals(Object obj)
     {
         (((Tester_Class_5.var_81 = (Tester_Class_5.var_81 = false)) ? (Tester_Class_3.var_55 &= false) : !Tester_Class_3.var_55 & ((Tester_Class_1)obj).var_29) ? (new Tester_Class_2[Tester_Class_3.var_58])[Tester_Class_3.var_58] : (Tester_Class_2)obj).equals((Tester_Class_5.var_86 |= Tester_Class_3.var_55) | (Tester_Class_3.var_55 = Tester_Class_3.var_55) ? obj : (Tester_Class_6)(Tester_Class_0)obj);
@@ -899,6 +953,7 @@ abstract class Tester_Class_7 {
         Object var_121;
         return (new boolean[Tester_Class_3.var_58])[((var_113 = (Tester_Class_4)obj).var_69 = (var_109 = (new Tester_Class_3[Tester_Class_3.var_58][Tester_Class_3.var_58])[Tester_Class_3.var_58][Tester_Class_3.var_58])).var_61];
     }
+
 
     public String toString()
     {
@@ -926,10 +981,12 @@ abstract class Tester_Class_7 {
     }
 }
 
+
 class Tester_Class_8 extends Tester_Class_7 {
     static char var_123;
     Tester_Class_4 var_124;
     static short var_125;
+
 
     public Tester_Class_8()
     {
@@ -970,6 +1027,9 @@ class Tester_Class_8 extends Tester_Class_7 {
         ((new Tester_Class_1[((new Tester_Class_4[Tester_Class_3.var_58])[Tester_Class_3.var_58]).var_71])[((Tester_Class_3)(var_112 = "fsmtm")).var_61]).var_31 = (Tester_Class_2)(new Tester_Class_0[Tester_Class_3.var_58])[Tester_Class_3.var_58];
     }
 
+
+
+
     public String toString()
     {
         String result =  "[\n";
@@ -1002,6 +1062,7 @@ class Tester_Class_8 extends Tester_Class_7 {
     }
 }
 
+
 final class Tester_Class_9 {
     final static String var_127 = "pxk";
     Tester_Class_2 var_128;
@@ -1011,6 +1072,7 @@ final class Tester_Class_9 {
     final static float var_132 = Tester_Class_3.var_59;
     static Tester_Class_0 var_133;
     boolean[] var_134;
+
 
     public Tester_Class_9()
     {
@@ -1029,6 +1091,9 @@ final class Tester_Class_9 {
         (Tester_Class_8.var_114 = (Tester_Class_8.var_114 = (new Tester_Class_5[Tester_Class_3.var_58])[Tester_Class_3.var_58])).var_83 = (((new Tester_Class_4[Tester_Class_3.var_58][Tester_Class_3.var_58])[Tester_Class_3.var_58][Tester_Class_3.var_58]).var_69 = (new Tester_Class_3[Tester_Class_3.var_58][Tester_Class_3.var_58])[Tester_Class_3.var_58][Tester_Class_3.var_58]).var_57++;
         Tester_Class_2.var_46++;
     }
+
+
+
 
     protected static short func_1()
     {
@@ -1065,6 +1130,7 @@ final class Tester_Class_9 {
     }
 }
 
+
 final class Tester_Class_10 extends Tester_Class_0 {
     final static byte var_138 = 78;
     Object var_139;
@@ -1076,6 +1142,7 @@ final class Tester_Class_10 extends Tester_Class_0 {
     final boolean var_145 = var_140;
     long var_146;
     float[] var_147;
+
 
     public Tester_Class_10()
     {
@@ -1108,6 +1175,9 @@ final class Tester_Class_10 extends Tester_Class_0 {
         Tester_Class_7.var_109 = (((new Tester_Class_4[Tester_Class_3.var_58])[Tester_Class_3.var_58]).var_69 = (var_143 = new Tester_Class_3()));
         Tester_Class_3.var_63--;
     }
+
+
+
 
     public String toString()
     {
@@ -1147,6 +1217,7 @@ final class Tester_Class_10 extends Tester_Class_0 {
     }
 }
 
+
 interface Tester_Interface_11 {
     public Tester_Class_4 func_0(final int arg_0, final byte arg_1);
     public Tester_Class_2 func_1(Tester_Class_5 arg_0, final Tester_Class_0 arg_1, final int arg_2);
@@ -1156,6 +1227,7 @@ public class Test6712835 {
     final boolean var_149 = false;
     Tester_Class_8 var_150;
     final long var_151 = 8058077687473630208L;
+
 
     protected final Tester_Class_1 func_0(final Object arg_0, Tester_Class_3 arg_1, final Tester_Class_4 arg_2, int arg_3)
     {
@@ -1396,6 +1468,7 @@ public class Test6712835 {
         public static String print(long arg)    { return String.valueOf(arg); }
         public static String print(float arg)   { return String.valueOf(arg); }
         public static String print(double arg)  { return String.valueOf(arg); }
+
 
         public static String print(Object arg)
         {

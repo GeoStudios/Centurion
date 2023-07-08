@@ -21,7 +21,21 @@
 
 package compiler.codegen;
 
+
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,8 @@ import sun.hotspot.WhiteBox;
  *      compiler.codegen.TestOopCmp
  * @author volker.simonis@gmail.com
  */
+
+
 
 public class TestOopCmp {
 

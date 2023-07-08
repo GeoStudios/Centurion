@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VtableBlob extends BufferBlob {
 

@@ -21,7 +21,21 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -420,5 +434,6 @@ class PackagePrivate {
             throw new RuntimeException("Needs to be 42");
         }
     }
+
 
 }

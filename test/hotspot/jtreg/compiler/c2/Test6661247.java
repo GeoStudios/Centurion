@@ -21,9 +21,23 @@
 
 package compiler.c2;
 
+
 import java.nio.LongBuffer;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import jdk.test.lib.Utils;
  * @library /test/lib
  * @run main compiler.c2.Test6661247
  */
+
+
 
 // This isn't a completely reliable test for 6661247 since the results
 // depend on what the local schedule looks like but it does reproduce

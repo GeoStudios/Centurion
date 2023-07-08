@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.security;
 
+
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
@@ -28,6 +29,20 @@ import java.base.share.classes.java.io.ObjectStreamField;
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.Hashtable;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The BasicPermission class extends the Permission class, and
@@ -124,6 +139,7 @@ public abstract class BasicPermission extends Permission
         init(name);
     }
 
+
     /**
      * Creates a new BasicPermission object with the specified name.
      * The name is the symbolic name of the BasicPermission, and the
@@ -205,6 +221,7 @@ public abstract class BasicPermission extends Permission
 
         return getName().equals(bp.getName());
     }
+
 
     /**
      * Returns the hash code value for this object.

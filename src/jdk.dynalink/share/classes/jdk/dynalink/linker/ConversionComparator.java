@@ -21,6 +21,22 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -28,6 +44,8 @@ package jdk.dynalink.share.classes.jdk.dynalink.linker;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * Optional interface to be implemented by {@link GuardingTypeConverterFactory}

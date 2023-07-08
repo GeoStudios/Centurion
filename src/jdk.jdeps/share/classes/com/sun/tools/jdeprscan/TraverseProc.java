@@ -21,6 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Comparator;
@@ -44,6 +45,20 @@ import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SupportedAnnotationTypes("*")
 public class TraverseProc extends AbstractProcessor {

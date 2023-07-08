@@ -21,10 +21,28 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * The standard SAX implementation of LocatorImpl is not serializable,
@@ -61,6 +79,7 @@ implements org.xml.sax.Locator, java.io.Serializable
     {
     }
 
+
     /**
      * Copy constructor.
      *
@@ -79,9 +98,11 @@ implements org.xml.sax.Locator, java.io.Serializable
         setColumnNumber(locator.getColumnNumber());
     }
 
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.Locator
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Return the saved public identifier.
@@ -96,6 +117,7 @@ implements org.xml.sax.Locator, java.io.Serializable
         return publicId;
     }
 
+
     /**
      * Return the saved system identifier.
      *
@@ -109,6 +131,7 @@ implements org.xml.sax.Locator, java.io.Serializable
         return systemId;
     }
 
+
     /**
      * Return the saved line number (1-based).
      *
@@ -120,6 +143,7 @@ implements org.xml.sax.Locator, java.io.Serializable
     {
         return lineNumber;
     }
+
 
     /**
      * Return the saved column number (1-based).
@@ -133,9 +157,11 @@ implements org.xml.sax.Locator, java.io.Serializable
         return columnNumber;
     }
 
+
     ////////////////////////////////////////////////////////////////////
     // Setters for the properties (not in org.xml.sax.Locator)
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set the public identifier for this locator.
@@ -149,6 +175,7 @@ implements org.xml.sax.Locator, java.io.Serializable
         this.publicId = publicId;
     }
 
+
     /**
      * Set the system identifier for this locator.
      *
@@ -161,6 +188,7 @@ implements org.xml.sax.Locator, java.io.Serializable
         this.systemId = systemId;
     }
 
+
     /**
      * Set the line number for this locator (1-based).
      *
@@ -172,6 +200,7 @@ implements org.xml.sax.Locator, java.io.Serializable
         this.lineNumber = lineNumber;
     }
 
+
     /**
      * Set the column number for this locator (1-based).
      *
@@ -182,6 +211,7 @@ implements org.xml.sax.Locator, java.io.Serializable
     {
         this.columnNumber = columnNumber;
     }
+
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.

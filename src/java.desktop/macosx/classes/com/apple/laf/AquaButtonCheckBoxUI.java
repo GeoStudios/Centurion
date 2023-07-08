@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaButtonCheckBoxUI extends AquaButtonLabeledUI {
     private static final RecyclableSingleton<AquaButtonCheckBoxUI> instance = new RecyclableSingletonFromDefaultConstructor<AquaButtonCheckBoxUI>(AquaButtonCheckBoxUI.class);

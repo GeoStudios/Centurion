@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import java.awt.Container;
 import java.awt.Insets;
 import javax.swing.*;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.Border;
 import javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of <code>LayoutStyle</code> that returns 6 for related

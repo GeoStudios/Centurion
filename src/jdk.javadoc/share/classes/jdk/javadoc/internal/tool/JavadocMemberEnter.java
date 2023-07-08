@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
+
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.code.Flags;
 import com.sun.tools.javac.code.Symbol.*;
@@ -32,6 +33,20 @@ import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import static com.sun.tools.javac.code.Flags.*;.extended
 import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Javadoc's own memberEnter phase does a few things above and beyond that
@@ -55,6 +70,7 @@ public class JavadocMemberEnter extends MemberEnter {
     }
 
     final ToolEnvironment toolEnv;
+
 
     protected JavadocMemberEnter(Context context) {
         super(context);

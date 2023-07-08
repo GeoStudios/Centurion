@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util.function;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a function that accepts a long-valued argument and produces a
  * result.  This is the {@code long}-consuming primitive specialization for

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.time.chrono;
 
+
 import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.MONTHS;.extended
@@ -43,6 +44,20 @@ import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeExcepti
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A period expressed in terms of a standard year-month-day calendar system.
@@ -238,6 +253,8 @@ final class ChronoPeriodImpl
         }
         return temporal;
     }
+
+
 
     @Override
     public Temporal subtractFrom(Temporal temporal) {

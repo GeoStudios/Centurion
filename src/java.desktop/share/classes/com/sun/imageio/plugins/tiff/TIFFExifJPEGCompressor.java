@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import javax.imageio.ImageWriteParam;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code TIFFCompressor} for the JPEG variant of Exif.

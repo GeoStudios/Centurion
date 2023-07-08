@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
+
 import java.desktop.share.classes.javax.swing.text.SimpleAttributeSet;
 import java.desktop.share.classes.javax.swing.text.html.HTMLEditorKit;
 import java.desktop.share.classes.javax.swing.text.html.HTML;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.javax.swing.text.ChangedCharSetException;
 import java.util.*;
 import java.io.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Parser for HTML Documents (actually, you can specify a DTD, but
@@ -170,6 +185,7 @@ public class DocumentParser extends javax.swing.text.html.parser.Parser {
         }
     }
 
+
     protected void handleComment(char[] text) {
         if (debugFlag) {
             debug("comment: ->" + new String(text) + "<-"
@@ -276,6 +292,7 @@ public class DocumentParser extends javax.swing.text.html.parser.Parser {
         /* PENDING: need to improve the error string. */
         callback.handleError(errorMsg, getCurrentPos());
     }
+
 
     /*
      * debug messages

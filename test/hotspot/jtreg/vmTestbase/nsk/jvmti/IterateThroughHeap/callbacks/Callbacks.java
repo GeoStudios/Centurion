@@ -21,9 +21,23 @@
 
 package nsk.jvmti.IterateThroughHeap.callbacks;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -67,6 +81,9 @@ import nsk.share.jvmti.*;
  *      nsk.jvmti.IterateThroughHeap.callbacks.Callbacks
  */
 
+
+
+
 public class Callbacks extends DebugeeClass {
 
     static {
@@ -100,6 +117,7 @@ public class Callbacks extends DebugeeClass {
     }
 
 }
+
 
 class Constants {
     public static final boolean BOOLEAN = false;

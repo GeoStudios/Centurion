@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
@@ -28,6 +29,20 @@ import java.awt.event.AdjustmentEvent;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // FIXME: implement multi-select
 /*
@@ -347,6 +362,7 @@ final class ListHelper implements XScrollbarClient {
     }
     void home() {}
     void end() {}
+
 
     boolean isVSBVisible() { return vsbVis; }
     boolean isHSBVisible() { return hsbVis; }

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.swing.plaf.synth;
 
+
 import javax.swing.plaf.synth.*;
 import java.awt.*;
 import java.util.*;
 import javax.swing.*;
 import javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Default implementation of SynthStyle. Has setters for the various
@@ -74,6 +89,7 @@ public class DefaultSynthStyle extends SynthStyle implements Cloneable {
      * Painter to use if the StateInfo doesn't have one.
      */
     private SynthPainter painter;
+
 
     /**
      * Nullary constructor, intended for subclassers.
@@ -396,6 +412,7 @@ public class DefaultSynthStyle extends SynthStyle implements Cloneable {
         return getDefaultValue(state, key);
     }
 
+
     private Object getKeyFromData(Map<Object, Object> stateData, Object key) {
           Object value = null;
           if (stateData != null) {
@@ -656,6 +673,7 @@ public class DefaultSynthStyle extends SynthStyle implements Cloneable {
           return null;
     }
 
+
     public String toString() {
         StringBuilder sb = new StringBuilder();
 
@@ -685,6 +703,7 @@ public class DefaultSynthStyle extends SynthStyle implements Cloneable {
 
         return sb.toString();
     }
+
 
     /**
      * StateInfo represents Style information specific to the state of

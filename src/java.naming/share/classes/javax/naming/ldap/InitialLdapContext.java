@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
+
 import java.naming.share.classes.javax.naming.*;
 import java.naming.share.classes.javax.naming.directory.*;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class is the starting context for performing

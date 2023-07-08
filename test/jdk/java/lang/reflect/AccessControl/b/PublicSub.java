@@ -21,11 +21,25 @@
 
 package b;
 
+
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A public class in b which is a subclass of public class in a.
@@ -57,6 +71,7 @@ public class PublicSub extends a.PublicSuper {
     PublicSub(Void _1, Void _2) {}
     protected PublicSub(Void _1) {}
     public PublicSub() {}
+
 
     // testing method
     public static void checkAccess(AccessibleObject accessibleObject, Object obj)

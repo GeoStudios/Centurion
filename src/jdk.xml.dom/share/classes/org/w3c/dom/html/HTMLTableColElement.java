@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  Regroups the <code>COL</code> and <code>COLGROUP</code> elements. See the
  * COL element definition in HTML 4.0.

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface can be implemented on a Graphics object to allow
  * the lightweight component code to permanently install a rectangular

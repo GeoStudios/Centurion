@@ -21,9 +21,23 @@
 
 package nsk.jdi.ExceptionRequest.notifyUncaught;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the notifyuncaught001 JDI test.
@@ -80,7 +94,10 @@ public class notifyuncaught001a {
 
         log1("debuggee started!");
 
+
             for (int i = 0; ; i++) {
+
+
 
                 if (instruction > maxInstr) {
                     logErr("ERROR: unexpected instruction: " + instruction);
@@ -137,6 +154,7 @@ public class notifyuncaught001a {
         }
     }
 }
+
 
 class TestClass10{
     void m10() {

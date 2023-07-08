@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -104,6 +119,7 @@ public class ErrorMessages extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "Template ''{0}'' already defined in this stylesheet."},
+
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -684,8 +700,10 @@ public class ErrorMessages extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "The value of param {0} must be a valid Java Object"},
 
+
         {ErrorMsg.COMPILE_STDIN_ERR,
         "The -i option must be used with the -o option."},
+
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -742,6 +760,8 @@ public class ErrorMessages extends ListResourceBundle {
         "   -n <iterations> runs the transformation <iterations> times and\n"+
         "                   displays profiling information\n"+
         "   -u <document_url> specifies XML input document as a URL\n"},
+
+
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -1006,6 +1026,7 @@ public class ErrorMessages extends ListResourceBundle {
          "byte code that was outlined is still referred to in the original " +
          "method."
         },
+
 
         /*
          * Note to translators:  This message describes an internal error in the

@@ -21,9 +21,23 @@
 
 package nsk.jdi.TypeComponent.isFinal;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class isfinal001a {
     public static void main (String argv[]) {

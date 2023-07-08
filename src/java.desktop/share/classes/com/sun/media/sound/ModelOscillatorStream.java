@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.VoiceStatus;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is used for audio streams from ModelOscillator.

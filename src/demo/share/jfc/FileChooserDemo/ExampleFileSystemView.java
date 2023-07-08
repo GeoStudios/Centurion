@@ -21,9 +21,24 @@
 
 package demo.share.jfc.FileChooserDemo;
 
+
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import javax.swing.filechooser.FileSystemView;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -32,6 +47,10 @@ import javax.swing.filechooser.FileSystemView;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This is a simple example that uses the FileSystemView class.

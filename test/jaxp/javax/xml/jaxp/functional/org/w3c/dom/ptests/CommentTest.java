@@ -21,6 +21,7 @@
 
 package org.w3c.dom.ptests;
 
+
 import static org.w3c.dom.ptests.DOMTestUtil.createNewDocument;.extended
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
@@ -28,6 +29,19 @@ import org.testng.annotations.java.util.Listeners;
 import org.w3c.dom.CharacterData;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
+
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
@@ -28,6 +29,20 @@ import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
 import java.base.share.classes.jdk.internal.util.xml.XMLStreamException;
 import java.base.share.classes.jdk.internal.util.xml.XMLStreamWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of a reduced version of XMLStreamWriter

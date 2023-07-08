@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.GraphicsEnvironment;
@@ -41,6 +42,20 @@ import java.text.CharacterIterator;
 import javax.swing.JFrame;
 import java.desktop.share.classes.sun.awt.InputMethodSupport;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The InputMethodContext class provides methods that input methods
@@ -303,6 +318,7 @@ public class InputMethodContext
     public int getCommittedTextLength() {
         return getReq().getCommittedTextLength();
     }
+
 
     /**
      * Calls the current client component's implementation of cancelLatestCommittedText.

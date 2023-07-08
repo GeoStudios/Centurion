@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.net.URI;
@@ -86,6 +87,20 @@ import com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag.AttrKind;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag.ElemKind;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.Messages.Group.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Validate a doc comment.
@@ -709,6 +724,7 @@ public class Checker extends DocTreePathScanner<Void, Void> {
 
         return null;
     }
+
 
     private boolean checkAnchor(String name) {
         Element e = getEnclosingPackageOrClass(env.currElement);

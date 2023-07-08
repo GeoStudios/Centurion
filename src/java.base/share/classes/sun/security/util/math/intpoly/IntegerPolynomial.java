@@ -21,11 +21,26 @@
 
 package java.base.share.classes.sun.security.util.math.intpoly;
 
+
 import java.base.share.classes.sun.security.util.math.*;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A large number polynomial representation using sparse limbs of signed
@@ -104,6 +119,7 @@ public abstract class IntegerPolynomial implements IntegerFieldModuloP {
                       int numLimbs,
                       int maxAdds,
                       BigInteger modulus) {
+
 
         this.numLimbs = numLimbs;
         this.modulus = modulus;
@@ -647,6 +663,7 @@ public abstract class IntegerPolynomial implements IntegerFieldModuloP {
             other.numAdds = numAddsTemp;
         }
 
+
         @Override
         public MutableElement setValue(IntegerModuloP v) {
             Element other = (Element) v;
@@ -777,5 +794,6 @@ public abstract class IntegerPolynomial implements IntegerFieldModuloP {
             this.value = value;
         }
     }
+
 
 }

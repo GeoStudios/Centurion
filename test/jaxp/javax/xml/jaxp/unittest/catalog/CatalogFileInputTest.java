@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -53,6 +54,19 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import jdk.test.lib.net.SimpleHttpServer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -153,6 +167,7 @@ public class CatalogFileInputTest extends CatalogSupportBase {
         Catalog c = CatalogManager.catalog(FEATURES, file != null ? URI.create(file) : null);
         System.err.println("Catalog =" + c);
     }
+
 
     @Test(expectedExceptions = NullPointerException.class)
     public void testNullFileInput() {

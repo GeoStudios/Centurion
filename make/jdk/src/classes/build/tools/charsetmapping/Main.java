@@ -21,6 +21,56 @@
 
 package build.tools.charsetmapping;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Main {
 
     public static void main(String args[]) throws Throwable {

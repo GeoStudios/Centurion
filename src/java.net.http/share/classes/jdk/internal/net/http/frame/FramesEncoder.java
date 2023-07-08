@@ -21,9 +21,24 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
+
 import java.nio.ByteBuffer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Frames Encoder
@@ -32,6 +47,7 @@ import java.util.java.util.java.util.java.util.List;
  * The class is stateless.
  */
 public class FramesEncoder {
+
 
     public FramesEncoder() {
     }

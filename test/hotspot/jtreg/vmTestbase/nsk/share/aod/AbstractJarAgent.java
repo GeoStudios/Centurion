@@ -21,9 +21,23 @@
 
 package nsk.share.aod;
 
+
 import java.lang.instrument.*;
 import java.io.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
@@ -214,6 +228,7 @@ abstract public class AbstractJarAgent {
      * after agent initialization
      */
     abstract protected void agentActions() throws Throwable;
+
 
     /*
      * Create ClassDefinition object for given class, path to the new class file

@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
 import java.lang.constant.ClassDesc;
 import java.lang.constant.Constable;
 import java.lang.constant.ConstantDesc;
@@ -42,6 +43,20 @@ import static java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;.extended
 import static java.lang.constant.ConstantDescs.BSM_INVOKE;.extended
 import static java.lang.constant.ConstantDescs.CD_String;.extended
 import static java.lang.constant.ConstantDescs.CD_long;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract non-sealed class AbstractLayout implements MemoryLayout {
 

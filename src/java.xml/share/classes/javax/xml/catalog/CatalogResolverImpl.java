@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -35,6 +36,20 @@ import org.w3c.dom.ls.LSInput;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements CatalogResolver.

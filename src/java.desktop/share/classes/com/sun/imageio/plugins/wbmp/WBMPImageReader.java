@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.wbmp;
 
+
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
@@ -39,6 +40,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.ReaderUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class is the Java Image IO plugin reader for WBMP images.
  *  It may subsample the image, clip the image,

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A "PropertyChange" event gets delivered whenever a bean changes a "bound"

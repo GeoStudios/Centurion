@@ -21,8 +21,23 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Huffman coding.

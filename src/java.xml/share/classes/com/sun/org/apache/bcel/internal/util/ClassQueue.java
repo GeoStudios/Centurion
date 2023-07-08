@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class implementing a (typesafe) queue of JavaClass
@@ -34,17 +49,21 @@ public class ClassQueue {
 
     private final LinkedList<JavaClass> vec = new LinkedList<>();
 
+
     public void enqueue( final JavaClass clazz ) {
         vec.addLast(clazz);
     }
+
 
     public JavaClass dequeue() {
         return vec.removeFirst();
     }
 
+
     public boolean empty() {
         return vec.isEmpty();
     }
+
 
     @Override
     public String toString() {

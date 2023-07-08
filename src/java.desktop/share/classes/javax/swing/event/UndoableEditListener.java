@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.desktop.share.classes.javax.swing.undo.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface implemented by a class interested in hearing about

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util;
 
+
 import java.base.share.classes.java.io.BufferedWriter;
 import java.base.share.classes.java.io.Closeable;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -58,6 +59,20 @@ import jdk.internal.math.DoubleConsts;
 import jdk.internal.math.FormattedFloatingDecimal;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interpreter for printf-style format strings.  This class provides support
@@ -2317,6 +2332,7 @@ public final class Formatter implements Closeable, Flushable {
     public Formatter(File file, Charset charset, Locale l) throws IOException {
         this(Objects.requireNonNull(charset, "charset"), l, file);
     }
+
 
     /**
      * Constructs a new formatter with the specified print stream.

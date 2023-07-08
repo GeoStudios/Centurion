@@ -21,12 +21,27 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
+
 import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
 import jdk.hotspot.agent.share.classes.com.sun.java.util.Vector;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            CommonUI
@@ -110,6 +125,7 @@ public class WizardDlg extends JDialog
         }
 
     }
+
 
     public WizardDlg(JFrame frame, String title, Vector panels, Vector images)
     {
@@ -321,5 +337,8 @@ public class WizardDlg extends JDialog
     private Vector panels;
     private final Vector images;
     private static WizardDlg wizardDlg;
+
+
+
 
 }

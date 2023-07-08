@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6910605
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:+DoEscapeAnalysis -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:InlineSmallCode=2000
  *      compiler.c2.Test6910605_2
  */
+
 
 /*
  * Added InlineSmallCode=2000 to guarantee inlining of StringBuilder::append() to allow scalar replace StringBuilder object.

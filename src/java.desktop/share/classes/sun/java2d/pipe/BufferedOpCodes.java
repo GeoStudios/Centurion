@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class BufferedOpCodes {
     // draw ops

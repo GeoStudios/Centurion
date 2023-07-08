@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Provides definitions of the attribute change notifications sent by MBeans.
  * <P>
@@ -53,6 +69,7 @@ public class AttributeChangeNotification extends javax.management.Notification {
      */
     public static final String ATTRIBUTE_CHANGE = "jmx.attribute.change";
 
+
     /**
      * @serial The MBean attribute name.
      */
@@ -74,6 +91,7 @@ public class AttributeChangeNotification extends javax.management.Notification {
      */
     @SuppressWarnings("serial") // Conditionally serializable
     private Object newValue = null;
+
 
     /**
      * Constructs an attribute change notification object.
@@ -98,6 +116,7 @@ public class AttributeChangeNotification extends javax.management.Notification {
         this.oldValue = oldValue;
         this.newValue = newValue;
     }
+
 
     /**
      * Gets the name of the attribute which has changed.

@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.org.xml.sax;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidClassException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Encapsulate a general SAX error or warning.
@@ -49,6 +64,7 @@ import java.io.ObjectStreamField;
  */
 public class SAXException extends Exception {
 
+
     /**
      * Create a new SAXException.
      */
@@ -56,6 +72,7 @@ public class SAXException extends Exception {
     {
         super();
     }
+
 
     /**
      * Create a new SAXException.
@@ -65,6 +82,7 @@ public class SAXException extends Exception {
     public SAXException (String message) {
         super(message);
     }
+
 
     /**
      * Create a new SAXException wrapping an existing exception.
@@ -80,6 +98,7 @@ public class SAXException extends Exception {
         super(e);
     }
 
+
     /**
      * Create a new SAXException from an existing exception.
      *
@@ -93,6 +112,7 @@ public class SAXException extends Exception {
     {
         super(message, e);
     }
+
 
     /**
      * Return a detail message for this exception.
@@ -148,6 +168,8 @@ public class SAXException extends Exception {
             return super.toString();
         }
     }
+
+
 
     //////////////////////////////////////////////////////////////////////
     // Internal state.

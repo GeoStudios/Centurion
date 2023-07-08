@@ -21,9 +21,23 @@
 
 package p;
 
+
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,7 +46,10 @@ import static org.testng.Assert.*;.extended
  * @summary Basic test for java.lang.Class::getPackageName
  */
 
+
+
 public class Basic {
+
 
     // -- member classes --
 

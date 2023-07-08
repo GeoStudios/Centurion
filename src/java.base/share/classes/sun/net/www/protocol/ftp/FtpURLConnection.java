@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.net.www.protocol.ftp;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -54,9 +55,27 @@ import java.base.share.classes.sun.net.ProgressMonitor;
 import java.base.share.classes.sun.net.www.ParseUtil;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * FTP stream opener.
  */
+
+
+
+
 
 /**
  * This class Opens an FTP input (or output) stream given a URL.
@@ -336,6 +355,7 @@ public class FtpURLConnection extends URLConnection {
         }
         connected = true;
     }
+
 
     /*
      * Decodes the path as per the RFC-1738 specifications.

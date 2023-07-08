@@ -21,9 +21,24 @@
 
 package java.smartcardio.share.classes.sun.security.smartcardio;
 
+
 import java.util.*;
 import javax.smartcardio.*;
 import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CardTerminal implementation.

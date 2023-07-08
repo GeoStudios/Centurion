@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TextAreaDocument extends the capabilities of the PlainDocument
@@ -34,6 +49,7 @@ import java.desktop.share.classes.javax.swing.text.*;
 class TextAreaDocument extends PlainDocument {
 
     String initialText;
+
 
     /**
      * Resets the model by removing all the data,

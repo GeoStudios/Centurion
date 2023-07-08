@@ -21,10 +21,25 @@
 
 package java.desktop.unix.classes.sun.awt;
 
+
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PlatformGraphicsInfo {
 

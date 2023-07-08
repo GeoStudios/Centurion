@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* This interface is needed for listening for StateChanged events (we are interested in iconify only )
  * fix for 6261352. We should detect if Window containing a Choice become iconified and hide pop-down menu with grab release.
  */

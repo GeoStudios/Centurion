@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
@@ -28,6 +29,20 @@ import javax.imageio.stream.ImageOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import org.w3c.dom.Node;
 import org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An Adobe APP14 (Application-Specific) marker segment.

@@ -21,9 +21,23 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine03;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,8 @@ import nsk.share.test.TestUtils;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.share.aod.DummyTargetApplication
  */
+
+
 
 /*
  * Test checks method VirtualMachine.equals(Object)

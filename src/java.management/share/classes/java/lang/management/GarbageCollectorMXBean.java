@@ -21,6 +21,22 @@
 
 package java.management.share.classes.java.lang.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The management interface for the garbage collection of
  * the Java virtual machine.  Garbage collection is the process
@@ -83,5 +99,6 @@ public interface GarbageCollectorMXBean extends MemoryManagerMXBean {
      * in milliseconds.
      */
     long getCollectionTime();
+
 
 }

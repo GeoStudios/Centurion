@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
+
 import static java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil.checkPackageAccess;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is utility class that provides {@code static} methods

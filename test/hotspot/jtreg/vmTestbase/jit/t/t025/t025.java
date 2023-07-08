@@ -21,8 +21,22 @@
 
 package jit.t.t025;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t025.t025
  */
+
+
 
 // opc_daload, opc_dastore, opc_faload, opc_fastore
 

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util;
 
+
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.PrintStream;
 import java.base.share.classes.java.io.PrintWriter;
@@ -47,6 +48,20 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.util.java.util.ArraysSupport;
 import jdk.internal.util.xml.PropertiesDefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Properties} class represents a persistent set of
@@ -217,6 +232,7 @@ public class Properties extends Hashtable<Object,Object> {
     public synchronized Object setProperty(String key, String value) {
         return put(key, value);
     }
+
 
     /**
      * Reads a property list (key and element pairs) from the input

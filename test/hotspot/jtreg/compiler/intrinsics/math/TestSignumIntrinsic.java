@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.math;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -37,6 +51,8 @@ import jdk.test.lib.Asserts;
  *      -XX:-UseSignumIntrinsic -XX:+UseCopySignIntrinsic
  *      compiler.intrinsics.math.TestSignumIntrinsic
  */
+
+
 
 public class TestSignumIntrinsic {
 

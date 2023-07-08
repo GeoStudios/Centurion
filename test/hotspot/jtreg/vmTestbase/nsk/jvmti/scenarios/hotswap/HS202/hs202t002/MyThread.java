@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS202.hs202t002;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyThread extends Thread {
     private int val = 100;
 

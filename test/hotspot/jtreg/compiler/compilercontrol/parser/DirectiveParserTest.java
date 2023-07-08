@@ -21,10 +21,24 @@
 
 package compiler.compilercontrol.parser;
 
+
 import compiler.compilercontrol.share.JSONFile;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import jdk.test.lib.Utils;
  *
  * @run driver compiler.compilercontrol.parser.DirectiveParserTest
  */
+
+
 
 public class DirectiveParserTest {
     private static final String ERROR_MSG = "VM should exit with error "

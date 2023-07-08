@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // A HeapVisitor is used for visiting all object in the heap
 
 public interface HeapVisitor {

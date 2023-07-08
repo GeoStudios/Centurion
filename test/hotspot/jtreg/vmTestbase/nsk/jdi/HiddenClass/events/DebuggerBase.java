@@ -21,6 +21,7 @@
 
 package nsk.jdi.HiddenClass.events;
 
+
 import com.sun.jdi.ClassType;
 import com.sun.jdi.ClassObjectReference;
 import com.sun.jdi.Field;
@@ -45,6 +46,19 @@ import nsk.share.jdi.ArgumentHandler;
 import nsk.share.jdi.Binder;
 import nsk.share.jdi.Debugee;
 import nsk.share.jpda.IOPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class is the test debugger base class
 public class DebuggerBase {

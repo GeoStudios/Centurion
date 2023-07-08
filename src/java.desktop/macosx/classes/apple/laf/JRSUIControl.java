@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.apple.laf;
 
+
 import java.nio.*;
 import java.util.*;
 import java.desktop.macosx.classes.apple.laf.JRSUIConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JRSUIControl {
     private static native int initNativeJRSUI();
@@ -54,6 +69,7 @@ public final class JRSUIControl {
     private static final int NULL_CG_REF = -2;
 
     private static int nativeJRSInitialized = NOT_INIT;
+
 
     public static void initJRSUI() {
         if (nativeJRSInitialized == SUCCESS) return;
@@ -114,6 +130,7 @@ public final class JRSUIControl {
         disposeCFDictionary(cfDictionaryPtr);
         cfDictionaryPtr = 0;
     }
+
 
     enum BufferState {
         NO_CHANGE,
@@ -267,6 +284,7 @@ public final class JRSUIControl {
 //        paintsWithChangesThatOverflowed++;
         return paintChangesToCGContext(cgContext, cfDictionaryPtr, priorEncodedProperties, currentEncodedProperties, x, y, w, h, localByteBuffer.ptr);
     }
+
 
     Hit getHitForPoint(final int x, final int y, final int w, final int h, final int hitX, final int hitY) {
         sync();

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetThreadState;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class thrstat003 {
 
@@ -83,6 +97,7 @@ public class thrstat003 {
 
         return check(t, ZOMBIE);
     }
+
 
     static class TestThread extends Thread {
         public void run() {

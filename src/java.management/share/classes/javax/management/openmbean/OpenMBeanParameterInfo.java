@@ -21,14 +21,31 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.util.Set;
 import java.lang.Comparable; // to be substituted for jdk1.1.x.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 //
 
+
 // jmx import
 //
+
 
 /**
  * <p>Describes a parameter used in one or more operations or
@@ -42,6 +59,7 @@ import java.lang.Comparable; // to be substituted for jdk1.1.x.extended
  *
  */
 public interface OpenMBeanParameterInfo {
+
 
     // Re-declares methods that are in class MBeanParameterInfo of JMX 1.0
     // (these will be removed when MBeanParameterInfo is made a parent interface of this interface)
@@ -61,6 +79,7 @@ public interface OpenMBeanParameterInfo {
      * @return the name.
      */
     String getName() ;
+
 
     // Now declares methods that are specific to open MBeans
     //
@@ -149,6 +168,7 @@ public interface OpenMBeanParameterInfo {
      * {@code false} otherwise.
      */
     boolean isValue(Object obj) ;
+
 
     /**
      * Compares the specified <var>obj</var> parameter with this {@code OpenMBeanParameterInfo} instance for equality.

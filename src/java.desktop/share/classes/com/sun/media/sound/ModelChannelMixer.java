@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.midi.MidiChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ModelChannelMixer is used to process channel voice mix output before going

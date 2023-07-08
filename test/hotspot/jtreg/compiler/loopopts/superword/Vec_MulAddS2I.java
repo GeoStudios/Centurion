@@ -21,8 +21,22 @@
 
 package compiler.loopopts.superword;
 
+
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -76,6 +90,7 @@ import jdk.test.lib.Utils;
  *      -XX:LoopMaxUnroll=16
  *      compiler.loopopts.superword.Vec_MulAddS2I
  */
+
 
 public class Vec_MulAddS2I {
         static final int NUM = 1024;

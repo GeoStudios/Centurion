@@ -21,6 +21,56 @@
 
 package build.tools.generatecharacter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This program generates the source code for the class java.lang.Character.
  * It also generates native C code that can perform the same operations.
@@ -145,6 +195,7 @@ public class GenerateCharacter {
     1 bit ID_Start property
     1 bit ID_Continue property
     */
+
 
     // bit masks identify each component of a 32-bit property field described
     // above.
@@ -1510,6 +1561,7 @@ OUTER:  for (int i = 0; i < n; i += m) {
     static int[] bytes;
     static boolean[] preshifted;
     static long[][] tables;
+
 
     /* Other global variables */
     static String commentStart;

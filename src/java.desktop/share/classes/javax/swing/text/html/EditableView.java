@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -31,6 +32,20 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EditableView sets the view it contains to be visible only when the

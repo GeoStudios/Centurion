@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6478991
@@ -31,6 +46,7 @@ package compiler.c1;
  *      -XX:CompileCommand=compileonly,compiler.c1.NullCheckTest::inlined
  *      compiler.c1.NullCheckTest
  */
+
 
 public class NullCheckTest {
     static class A {
@@ -44,6 +60,7 @@ public class NullCheckTest {
 
     static class B extends A {
     }
+
 
     private static void test(A a1, A a2) {
         // Inlined call must do a null check on a1.

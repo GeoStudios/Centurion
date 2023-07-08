@@ -21,9 +21,24 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
+
 import java.management.share.classes.sun.management.counter.*;
 import java.nio.LongBuffer;
 import java.nio.ReadOnlyBufferException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PerfLongCounter extends AbstractCounter
        implements LongCounter {

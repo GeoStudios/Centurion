@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An abstract adapter class for receiving internal frame events.
  * The methods in this class are empty. This class exists as

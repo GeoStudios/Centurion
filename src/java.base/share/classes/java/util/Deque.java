@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -31,6 +47,8 @@ package java.base.share.classes.java.util;
  * JCP JSR-166 Expert Group and released to the public domain, as explained
  * at http://creativecommons.org/publicdomain/zero/1.0/
  */
+
+
 
 /**
  * A linear collection that supports element insertion and removal at
@@ -541,6 +559,7 @@ public interface Deque<E> extends Queue<E> {
      * @throws NoSuchElementException if this deque is empty
      */
     E pop();
+
 
     // *** Collection methods ***
 

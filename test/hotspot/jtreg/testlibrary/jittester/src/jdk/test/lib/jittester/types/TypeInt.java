@@ -21,7 +21,21 @@
 
 package jdk.test.lib.jittester.types;
 
+
 import jdk.test.lib.jittester.BuiltInType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TypeInt extends BuiltInType {
 

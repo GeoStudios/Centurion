@@ -21,9 +21,24 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class WingDings extends Charset {
     public WingDings () {

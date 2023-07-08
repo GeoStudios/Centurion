@@ -21,10 +21,25 @@
 
 package java.sql.share.classes.javax.sql;
 
+
 import java.sql.*;
 import java.io.*;
 import java.math.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface that adds support to the JDBC API for the
@@ -1162,6 +1177,8 @@ public interface RowSet extends ResultSet {
    */
    void setNCharacterStream(int parameterIndex, Reader value) throws SQLException;
 
+
+
   /**
    * Sets the designated parameter in this {@code RowSet} object's command
    * with the given Java {@code Object}.  For integral values, the
@@ -1362,6 +1379,7 @@ public interface RowSet extends ResultSet {
    * @throws SQLException if a database access error occurs
    */
   void setObject(int parameterIndex, Object x) throws SQLException;
+
 
   /**
    * Sets the designated parameter in this {@code RowSet} object's command
@@ -2122,5 +2140,7 @@ public interface RowSet extends ResultSet {
      * @throws SQLFeatureNotSupportedException  if the JDBC driver does not support this method
      */
     void setURL(int parameterIndex, java.net.URL x) throws SQLException;
+
+
 
 }

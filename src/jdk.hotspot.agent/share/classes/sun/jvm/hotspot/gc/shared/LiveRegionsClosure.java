@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface LiveRegionsClosure {
   void doLiveRegions(LiveRegionsProvider lrp);
 }

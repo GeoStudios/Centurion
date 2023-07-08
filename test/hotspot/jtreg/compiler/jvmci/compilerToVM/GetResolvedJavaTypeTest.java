@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
@@ -30,6 +31,19 @@ import jdk.vm.ci.hotspot.PublicMetaspaceWrapperObject;
 import jdk.vm.ci.meta.ConstantPool;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -58,6 +72,9 @@ import java.lang.reflect.Field;
  *                   -XX:-UseCompressedOops -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetResolvedJavaTypeTest
  */
+
+
+
 
 public class GetResolvedJavaTypeTest {
     private static enum TestCase {

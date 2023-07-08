@@ -21,10 +21,24 @@
 
 package nsk.jvmti.AttachOnDemand.attach036;
 
+
 import com.sun.tools.attach.AgentInitializationException;
 import nsk.share.*;
 import nsk.share.aod.*;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -57,6 +71,8 @@ import nsk.share.test.TestUtils;
  *      -jdk ${test.jdk}
  *      -ja attach036Agent00.jar
  */
+
+
 
 /*
  * Negative test: checks that java agent fails to attach if main agent class

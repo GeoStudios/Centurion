@@ -21,6 +21,7 @@
 
 package nsk.jdi.ReferenceType.sourceDebugExtension;
 
+
 import com.sun.jdi.ReferenceType;
 import com.sun.jdi.ObjectCollectedException;
 import com.sun.jdi.AbsentInformationException;
@@ -28,6 +29,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that the <code>SourceDebugExtension class file

@@ -21,9 +21,26 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: XMLStructure.java,v 1.3 2005/05/10 15:47:42 mullan Exp $
  */
+
 
 /**
  * A representation of an XML structure from any namespace. The purpose of

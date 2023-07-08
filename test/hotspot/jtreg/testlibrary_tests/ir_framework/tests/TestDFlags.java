@@ -21,8 +21,22 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.Test;
 import compiler.lib.ir_framework.TestFramework;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,6 +65,7 @@ public class TestDFlags {
     public int c1() {
         return 34;
     }
+
 
     @Test
     public void c2() {

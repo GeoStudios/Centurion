@@ -21,11 +21,25 @@
 
 package nsk.aod.VirtualMachineDescriptor.VirtualMachineDescriptor01;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.spi.AttachProvider;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,6 +65,8 @@ import nsk.share.test.TestUtils;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.share.aod.DummyTargetApplication
  */
+
+
 
 /*
  * Basic sanity checks for class com.sun.tools.attach.VirtualMachineDescriptor

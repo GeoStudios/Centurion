@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.event;
 
+
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Container;
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A low-level event which indicates that a container's contents

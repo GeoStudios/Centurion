@@ -21,8 +21,22 @@
 
 package compiler.codecache.jmx;
 
+
 import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test UsageThresholdIncreasedTest
@@ -44,6 +58,9 @@ import java.lang.management.MemoryPoolMXBean;
  *     -XX:+SegmentedCodeCache
  *     compiler.codecache.jmx.UsageThresholdIncreasedTest
  */
+
+
+
 
 public class UsageThresholdIncreasedTest {
 

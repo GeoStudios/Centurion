@@ -21,11 +21,25 @@
 
 package nsk.jdi.ReferenceType.equals;
 
+
 import java.lang.reflect.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the equals002 JDI test.

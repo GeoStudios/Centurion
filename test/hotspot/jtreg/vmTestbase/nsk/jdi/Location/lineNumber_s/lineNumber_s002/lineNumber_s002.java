@@ -21,11 +21,25 @@
 
 package nsk.jdi.Location.lineNumber_s.lineNumber_s002;
 
+
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -68,6 +82,8 @@ import nsk.share.jdi.sde.*;
  *      -testClassPath ${test.class.path}
  *      -testWorkDir .
  */
+
+
 
 public class lineNumber_s002 extends SDEDebugger {
     public static void main(String argv[]) {

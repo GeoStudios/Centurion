@@ -21,7 +21,22 @@
 
 package jdk.attach.share.classes.com.sun.tools.attach;
 
+
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Exception type to signal that an attach operation failed in the target VM.

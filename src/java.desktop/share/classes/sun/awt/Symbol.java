@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Symbol extends Charset {
     public Symbol () {

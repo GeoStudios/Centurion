@@ -21,6 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a record component.
  *

@@ -21,7 +21,21 @@
 
 package jit.regression.b4446672;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.regression.b4446672.b4446672
  */
+
+
 
 public class b4446672 {
 

@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.connection;
 
+
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.serialization.BinaryParser;
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.serialization.Parser;
@@ -28,6 +29,20 @@ import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspo
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.io.java.io.java.io.java.io.IOException;
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.nio.channels.java.net.SocketChannel;
 import org.openide.util.Exceptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Client implements Runnable {
     private final boolean binary;

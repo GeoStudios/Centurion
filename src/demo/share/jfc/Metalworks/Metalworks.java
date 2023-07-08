@@ -21,12 +21,27 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import java.awt.Toolkit;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.plaf.metal.MetalLookAndFeel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -35,6 +50,10 @@ import javax.swing.plaf.metal.MetalLookAndFeel;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This application is a demo of the Metal Look & Feel

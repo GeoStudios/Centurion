@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.dead.dead02;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.dead.dead02;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead02.dead02
  */
+
 
 /* -- Test the elimination of dead assignment to static variables
 In the example below, the value assigned to i is never used, all dead stores to static global can be eliminated, and the last return statement in f() is unreachable; Both dead/unused stores and unreachable statement can be eliminated.
@@ -51,6 +67,7 @@ public class dead02 {
       throw new Error("Test dead02 Failed: f()=" + dce.f() + " != fopt()=" + dce.fopt());
     }
   }
+
 
   int f() {
 

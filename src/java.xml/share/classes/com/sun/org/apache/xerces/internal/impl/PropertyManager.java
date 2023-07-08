@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
 import java.xml.share.classes.com.sun.xml.internal.stream.StaxEntityResolverWrapper;
@@ -34,6 +35,20 @@ import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkXmlUtils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class manages different properties related to Stax specification and its implementation.
  * This class constructor also takes itself (PropertyManager object) as parameter and initializes the
@@ -42,6 +57,7 @@ import jdk.xml.internal.JdkXmlUtils;
  */
 
 public class PropertyManager {
+
 
     public static final String STAX_NOTATIONS = "javax.xml.stream.notations";
     public static final String STAX_ENTITIES = "javax.xml.stream.entities";
@@ -91,6 +107,7 @@ public class PropertyManager {
     private HashMap<String, Object> getProperties(){
         return supportedProps ;
     }
+
 
     /**
      * Important point:

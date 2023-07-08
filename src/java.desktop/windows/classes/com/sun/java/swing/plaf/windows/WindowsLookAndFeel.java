@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.Container;
@@ -83,6 +84,20 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 import static javax.swing.UIDefaults.LazyValue;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * <p>These classes are designed to be used while the
  * corresponding <code>LookAndFeel</code> class has been installed
@@ -97,6 +112,12 @@ import static javax.swing.UIDefaults.LazyValue;.extended
  * encouraged.
  *
  */
+
+
+
+
+
+
 
 /**
  * Implements the Windows95/98/NT/2000 Look and Feel.
@@ -337,6 +358,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
         Object treeExpandedIcon = WindowsTreeUI.ExpandedIcon.createExpandedIcon();
 
         Object treeCollapsedIcon = WindowsTreeUI.CollapsedIcon.createCollapsedIcon();
+
 
         // *** Text
         Object fieldInputMap = new UIDefaults.LazyInputMap(new Object[] {
@@ -583,6 +605,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
             IconFont    = new WindowsFontSizeProperty("win.icon.font.height", Font.DIALOG, Font.PLAIN, 12);
         }
 
+
         if (!(this instanceof WindowsClassicLookAndFeel) &&
                 (OSInfo.getOSType() == OSInfo.OSType.WINDOWS &&
                 OSInfo.getWindowsVersion().compareTo(OSInfo.WINDOWS_XP) >= 0)) {
@@ -598,6 +621,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
                 this.sizeName = new TriggerDesktopProperty("win.xpstyle.sizeName");
             }
         }
+
 
         Object[] defaults = {
             // *** Auditory Feedback
@@ -1014,6 +1038,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
             // margin is 2 all the way around, BasicBorders.RadioButtonBorder
             // is 2 all the way around too.
             "RadioButton.totalInsets", new Insets(4, 4, 4, 4),
+
 
             "RadioButtonMenuItem.font", MenuFont,
             "RadioButtonMenuItem.foreground", MenuTextColor,
@@ -1570,6 +1595,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
             "Viewport.background", ControlBackgroundColor,
             "Viewport.foreground", WindowTextColor,
 
+
         };
 
         table.putDefaults(defaults);
@@ -1645,6 +1671,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
                     oldValue);
         }
         table.putDefaults(menuDefaults);
+
 
         /* height can be even */
         for (int i = 0, j = 0; i < menuClasses.length; i++) {
@@ -1780,9 +1807,11 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
 
         LazyValue loweredBevelBorder = t -> BorderUIResource.getLoweredBevelBorderUIResource();
 
+
         LazyValue marginBorder = t -> new BasicBorders.MarginBorder();
 
         LazyValue menuBarBorder = t -> BasicBorders.getMenuBarBorder();
+
 
         Object popupMenuBorder = new XPBorderValue(Part.MENU,
             (LazyValue) t -> BasicBorders.getInternalFrameBorder());
@@ -1805,6 +1834,8 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
 
         // *** ToolTips
         LazyValue toolTipBorder = t -> BorderUIResource.getBlackLineBorderUIResource();
+
+
 
         LazyValue checkBoxIcon = t -> WindowsIconFactory.getCheckBoxIcon();
 
@@ -1891,6 +1922,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
             removeKeyEventPostProcessor(WindowsRootPaneUI.altProcessor);
         WindowsDesktopProperty.flushUnreferencedProperties();
     }
+
 
     // Toggle flag for drawing the mnemonic state
     private static boolean isMnemonicHidden = true;
@@ -2086,6 +2118,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
         }
     }
 
+
     /**
      * Gets an <code>Icon</code> from the native libraries if available.
      * A desktop property is used to trigger reloading the icon when needed.
@@ -2248,6 +2281,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
         }
     }
 
+
     /**
      * WindowsDesktopProperty for fonts that only gets sizes from the desktop,
      * font name and style are passed into the constructor
@@ -2277,6 +2311,7 @@ public class WindowsLookAndFeel extends BasicLookAndFeel
             return value;
         }
     }
+
 
     /**
      * A value wrapper that actively retrieves values from xp or falls back

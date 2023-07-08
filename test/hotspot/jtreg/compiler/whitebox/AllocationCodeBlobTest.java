@@ -21,6 +21,7 @@
 
 package compiler.whitebox;
 
+
 import jdk.test.lib.Asserts;
 import jdk.test.lib.InfiniteLoop;
 import sun.hotspot.WhiteBox;
@@ -28,6 +29,19 @@ import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryPoolMXBean;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test AllocationCodeBlobTest
@@ -47,6 +61,9 @@ import java.util.EnumSet;
  *                   -XX:+SegmentedCodeCache
  *                   compiler.whitebox.AllocationCodeBlobTest
  */
+
+
+
 
 public class AllocationCodeBlobTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

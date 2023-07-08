@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
+
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface describing an object capable of rendering a border

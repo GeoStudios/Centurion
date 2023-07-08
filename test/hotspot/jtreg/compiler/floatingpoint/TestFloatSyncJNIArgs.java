@@ -21,6 +21,21 @@
 
 package compiler.floatingpoint;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8207838
  * @summary Regression test for passing float args to a synchronized jni function.
@@ -28,6 +43,7 @@ package compiler.floatingpoint;
  *
  * @run main/othervm/native compiler.floatingpoint.TestFloatSyncJNIArgs
  */
+
 
 public class TestFloatSyncJNIArgs {
     static {

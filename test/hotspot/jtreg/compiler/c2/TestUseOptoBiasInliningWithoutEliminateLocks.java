@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -44,6 +58,8 @@ import sun.hotspot.WhiteBox;
  *                   -XX:-TieredCompilation
  *                   compiler.c2.TestUseOptoBiasInliningWithoutEliminateLocks
  */
+
+
 
 public class TestUseOptoBiasInliningWithoutEliminateLocks {
 

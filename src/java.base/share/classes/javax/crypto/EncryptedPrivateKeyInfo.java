@@ -21,6 +21,7 @@
 
 package java.base.share.classes.javax.crypto;
 
+
 import java.io.*;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.security.spec.*;
@@ -28,6 +29,20 @@ import sun.security.x509.AlgorithmId;
 import sun.security.util.DerValue;
 import sun.security.util.DerInputStream;
 import sun.security.util.DerOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the <code>EncryptedPrivateKeyInfo</code> type
@@ -186,6 +201,7 @@ public class EncryptedPrivateKeyInfo {
         // getEncoded() is called
         this.encoded = null;
     }
+
 
     /**
      * Returns the encryption algorithm.

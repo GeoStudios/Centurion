@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
+
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Namespace support for XML document handlers. This class doesn't
@@ -123,6 +138,7 @@ public class NamespaceSupport {
 
     } // reset(SymbolTable)
 
+
         /**
          * @see org.apache.xerces.xni.NamespaceContext#pushContext()
          */
@@ -139,6 +155,7 @@ public class NamespaceSupport {
         fContext[++fCurrentContext] = fNamespaceSize;
 
     } // pushContext()
+
 
         /**
          * @see org.apache.xerces.xni.NamespaceContext#popContext()
@@ -204,6 +221,7 @@ public class NamespaceSupport {
 
     } // getURI(String):String
 
+
         /**
          * @see org.apache.xerces.xni.NamespaceContext#getPrefix(String)
          */
@@ -223,6 +241,7 @@ public class NamespaceSupport {
         return null;
 
     } // getPrefix(String):String
+
 
         /**
          * @see org.apache.xerces.xni.NamespaceContext#getDeclaredPrefixCount()

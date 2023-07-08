@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -40,10 +41,27 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVa
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Convert code into HTML file.
@@ -60,6 +78,7 @@ final class CodeHTML {
     private final ConstantHTML constantHtml;
     private static boolean wide = false;
 
+
     CodeHTML(final String dir, final String class_name, final Method[] methods, final ConstantPool constant_pool,
             final ConstantHTML constant_html) throws IOException {
         this.className = class_name;
@@ -74,6 +93,7 @@ final class CodeHTML {
         file.println("</BODY></HTML>");
         file.close();
     }
+
 
     /**
      * Disassemble a stream of byte codes and return the
@@ -384,6 +404,7 @@ final class CodeHTML {
         return buf.toString();
     }
 
+
     /**
      * Find all target addresses in code, so that they can be marked
      * with &lt;A NAME = ...&gt;. Target addresses are kept in an BitSet object.
@@ -492,6 +513,7 @@ final class CodeHTML {
             }
         }
     }
+
 
     /**
      * Write a single method with the byte code associated with it.

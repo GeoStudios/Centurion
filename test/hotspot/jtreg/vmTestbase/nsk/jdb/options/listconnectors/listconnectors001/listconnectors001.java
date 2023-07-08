@@ -21,10 +21,24 @@
 
 package nsk.jdb.options.listconnectors.listconnectors001;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -67,6 +81,9 @@ import java.util.*;
  *      -jdb.option=-listconnectors
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class listconnectors001 extends JdbTest {
 

@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -30,6 +44,8 @@ import java.util.Arrayjava.util.java.util.java.util.List;
  *
  * @run main compiler.c2.Test6186134 100000
  */
+
+
 
 public class Test6186134 {
 

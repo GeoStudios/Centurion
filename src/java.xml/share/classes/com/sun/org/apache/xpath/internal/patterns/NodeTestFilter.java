@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * This interface should be implemented by Nodes and/or iterators,

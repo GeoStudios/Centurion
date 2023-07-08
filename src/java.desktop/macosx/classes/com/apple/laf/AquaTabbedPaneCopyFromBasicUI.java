@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -33,12 +34,31 @@ import javax.swing.plaf.basic.*;
 import javax.swing.text.View;
 import sun.swing.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Copy of javax.swing.plaf.basic.BasicTabbedPaneUI because the original
  * does not have enough private methods marked as protected.
  *
  * This copy is from 1.6.0_04 as of 2008-02-02.
  */
+
+
+
+
+
 
 public class AquaTabbedPaneCopyFromBasicUI extends TabbedPaneUI implements SwingConstants {
 // Instance variables initialized at installation

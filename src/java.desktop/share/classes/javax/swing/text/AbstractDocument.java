@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.font.TextAttribute;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
@@ -53,6 +54,20 @@ import java.desktop.share.classes.javax.swing.undo.UndoableEdit;
 import sun.font.BidiUtils;
 import sun.swing.SwingUtilities2;
 import sun.swing.text.UndoableEditLockSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the document interface to serve as a
@@ -541,6 +556,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         return getDocumentProperties().get(key);
     }
 
+
     /**
      * A convenience method for storing up a property value.  It is
      * equivalent to:
@@ -958,6 +974,7 @@ public abstract class AbstractDocument implements Document, Serializable {
      * @return the element */
     public abstract Element getParagraphElement(int pos);
 
+
     /**
      * Fetches the context for managing attributes.  This
      * method effectively establishes the strategy used
@@ -1029,6 +1046,7 @@ public abstract class AbstractDocument implements Document, Serializable {
             updateBidi( chng );
     }
 
+
     /**
      * Update the bidi element structure as a result of the given change
      * to the document.  The given change will be updated to reflect the
@@ -1059,10 +1077,12 @@ public abstract class AbstractDocument implements Document, Serializable {
         }
         //System.out.println("updateBidi: firstPStart = " + firstPStart + " lastPEnd = " + lastPEnd );
 
+
         // Calculate the bidi levels for the affected range of paragraphs.  The
         // levels array will contain a bidi level for each character in the
         // affected text.
         byte[] levels = calculateBidiLevels( firstPStart, lastPEnd );
+
 
         Vector<Element> newElements = new Vector<Element>();
 
@@ -1095,6 +1115,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         while((firstSpanEnd<levels.length) && (levels[firstSpanEnd]==levels[0]))
             firstSpanEnd++;
 
+
         // Calculate the last span of characters in the affected range with
         // the same bidi level.  If this level is the same as the level of the
         // next bidi element (the existing bidi element containing lastPEnd),
@@ -1124,6 +1145,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         while( (lastSpanStart>firstSpanEnd)
                && (levels[lastSpanStart-1]==levels[levels.length-1]) )
             lastSpanStart--;
+
 
         // If the first and last spans are contiguous and have the same level,
         // merge them and create a single new element for the entire span.
@@ -1157,6 +1179,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         if( newNextElem != null )
             newElements.addElement( newNextElem );
 
+
         // Calculate the set of existing bidi elements which must be
         // removed.
         int removedElemCount = 0;
@@ -1179,6 +1202,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         // Update the bidi element structure.
         bidiRoot.replace( removeFromIndex, removedElems.length, addedElems );
     }
+
 
     /**
      * Calculate the levels array for a range of paragraphs.
@@ -1947,6 +1971,7 @@ public abstract class AbstractDocument implements Document, Serializable {
             return attributes.containsAttribute(name, value);
         }
 
+
         /**
          * Checks whether the element contains all the attributes.
          *
@@ -2203,12 +2228,14 @@ public abstract class AbstractDocument implements Document, Serializable {
          */
         public abstract boolean getAllowsChildren();
 
+
         /**
          * Returns the children of the receiver as an
          * <code>Enumeration</code>.
          * @return the children of the receiver as an <code>Enumeration</code>
          */
         public abstract Enumeration<TreeNode> children();
+
 
         // --- serialization ---------------------------------------------
 
@@ -2454,6 +2481,7 @@ public abstract class AbstractDocument implements Document, Serializable {
             return false;
         }
 
+
         // ------ TreeNode ----------------------------------------------
 
         /**
@@ -2463,6 +2491,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         public boolean getAllowsChildren() {
             return true;
         }
+
 
         /**
          * Returns the children of the receiver as an
@@ -2615,6 +2644,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         public boolean getAllowsChildren() {
             return false;
         }
+
 
         /**
          * Returns the children of the receiver as an
@@ -2840,6 +2870,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         public boolean isSignificant() {
             return true;
         }
+
 
         /**
          * Provides a localized, human readable description of this edit
@@ -3184,6 +3215,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         private Element[] removed;
         private Element[] added;
     }
+
 
     private class DefaultFilterBypass extends DocumentFilter.FilterBypass {
         public Document getDocument() {

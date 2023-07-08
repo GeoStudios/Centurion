@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetLineNumberTable;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class linetab002 {
 

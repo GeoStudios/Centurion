@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.font;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* remember that the API requires a Font use a
  * consistent glyph id. for a code point, and this is a
  * problem if a particular strike uses native scaler sometimes
@@ -46,6 +62,7 @@ public class CompositeGlyphMapper extends CharToGlyphMapper {
     public static final int NBLOCKS = 216;
     public static final int BLOCKSZ = 256;
     public static final int MAXUNICODE = NBLOCKS*BLOCKSZ;
+
 
     CompositeFont font;
     CharToGlyphMapper[] slotMappers;

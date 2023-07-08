@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
 import java.beans.XMLDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;java&gt; element.

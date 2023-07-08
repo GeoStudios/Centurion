@@ -21,6 +21,7 @@
 
 package compiler.classUnloading.hiddenClass;
 
+
 import sun.hotspot.WhiteBox;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodHandles;
@@ -30,6 +31,19 @@ import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLConnection;
 import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -43,6 +57,9 @@ import compiler.whitebox.CompilerWhiteBoxTest;
  *      -XX:-BackgroundCompilation
  *      compiler.classUnloading.hiddenClass.TestHiddenClassUnloading
  */
+
+
+
 
 public class TestHiddenClassUnloading {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

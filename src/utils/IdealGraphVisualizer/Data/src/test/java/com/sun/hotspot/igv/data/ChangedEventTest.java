@@ -21,8 +21,23 @@
 
 package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
+
 import static org.junit.Assert.assertEquals;.extended
 import org.junit.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -86,5 +101,6 @@ public class ChangedEventTest {
         assertEquals(3, fireCount[0]);
 
     }
+
 
 }

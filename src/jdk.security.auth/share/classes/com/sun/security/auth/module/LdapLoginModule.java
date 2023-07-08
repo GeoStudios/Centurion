@@ -21,6 +21,7 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
+
 import java.net.java.net.SocketPermission;
 import java.security.Principal;
 import java.base.share.classes.java.util.Arrays;
@@ -39,6 +40,20 @@ import javax.security.auth.spi.*;
 import jdk.security.auth.share.classes.com.sun.security.auth.LdapPrincipal;
 import jdk.security.auth.share.classes.com.sun.security.auth.UserPrincipal;
 import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@link LoginModule} performs LDAP-based authentication.
@@ -949,6 +964,7 @@ public class LdapLoginModule implements LoginModule {
 
         return escapedUsername.toString();
     }
+
 
     /**
      * Replace the username token

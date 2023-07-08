@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import static catalog.CatalogTestUtils.CATALOG_URI;.extended
 import static catalog.CatalogTestUtils.RESOLVE_CONTINUE;.extended
 import static catalog.CatalogTestUtils.catalogUriResolver;.extended
@@ -32,6 +33,19 @@ import javax.xml.catalog.CatalogFeatures;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

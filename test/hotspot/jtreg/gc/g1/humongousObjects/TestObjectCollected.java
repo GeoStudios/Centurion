@@ -21,6 +21,7 @@
 
 package gc.g1.humongousObjects;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
@@ -28,6 +29,19 @@ import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestObjectCollected
@@ -45,6 +59,7 @@ import java.lang.ref.WeakReference;
  *                   -XX:InitiatingHeapOccupancyPercent=100 -XX:G1HeapRegionSize=1M -Xlog:gc=info:file=TestObjectCollected.gc.log
  *                    gc.g1.humongousObjects.TestObjectCollected
  */
+
 
 /**
  * Test checks that after different type of GCs weak/soft references to humongous object behave correspondingly to
@@ -120,6 +135,7 @@ public class TestObjectCollected {
         public abstract Reference<byte[]> create();
     }
 
+
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();
 
     /**
@@ -141,6 +157,7 @@ public class TestObjectCollected {
         boolean isRefNulled = (reference.get() == null);
         boolean isRegionHumongous = WHITE_BOX.g1BelongsToHumongousRegion(adr);
         boolean isRegionFree = WHITE_BOX.g1BelongsToFreeRegion(adr);
+
 
         Asserts.assertEquals(isRefNulled, false,
                 "We just allocated an object but reference.get() already returned null");

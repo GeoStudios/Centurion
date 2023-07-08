@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.classObject;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the classObject() method of ReferenceType interface for UNLOADED class
+
 
 class classobj002b {}

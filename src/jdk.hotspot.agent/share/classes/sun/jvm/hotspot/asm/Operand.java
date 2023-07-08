@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.asm;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Operand is used as RTL argument. An Operand is either

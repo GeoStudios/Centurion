@@ -21,11 +21,26 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The {@code MBeanNotificationInfo} class is used to describe the
@@ -119,6 +134,7 @@ public class MBeanNotificationInfo extends MBeanFeatureInfo implements Cloneable
                                        MBeanNotificationInfo.class);
     }
 
+
     /**
      * Returns a shallow clone of this instance.
      * The clone is obtained by simply calling {@code super.clone()},
@@ -134,6 +150,7 @@ public class MBeanNotificationInfo extends MBeanFeatureInfo implements Cloneable
              return null;
          }
      }
+
 
     /**
      * Returns the array of strings (in dot notation) containing the

@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.javax.naming;
 
+
 import java.util.Enumeration;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a compound name -- a name from

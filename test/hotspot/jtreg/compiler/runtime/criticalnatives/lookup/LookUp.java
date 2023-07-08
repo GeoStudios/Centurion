@@ -21,6 +21,21 @@
 
 package compiler.runtime.criticalnatives.lookup;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8167408
  * @requires (os.arch != "aarch64") & (os.arch != "arm") & (vm.flavor != "zero")

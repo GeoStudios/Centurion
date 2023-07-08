@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassType.newInstance;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
@@ -28,6 +29,19 @@ import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.Array;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test checks up the following assertion:
@@ -63,6 +77,7 @@ public class newinstance005 extends ValueConversionDebugger {
                                                     new TestedConstructorData("(J)V", "longValue", LONG),
                                                     new TestedConstructorData("(S)V", "shortValue", SHORT)
                                                   };
+
 
     private Field field;
 
@@ -141,6 +156,7 @@ public class newinstance005 extends ValueConversionDebugger {
 
         display("\nTEST BEGINS");
         display("===========");
+
 
         PrimitiveValue value = null;
         List<Value> params = new ArrayList<Value>();

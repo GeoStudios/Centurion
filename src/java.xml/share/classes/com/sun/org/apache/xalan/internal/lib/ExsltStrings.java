@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
+
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
 import jdk.xml.internal.JdkXmlUtils;
@@ -29,6 +30,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains EXSLT strings extension functions.
@@ -197,6 +212,7 @@ public class ExsltStrings extends ExsltBase
   public static NodeList split(String str, String pattern)
   {
 
+
     NodeSet resultSet = new NodeSet();
     resultSet.setShouldCacheNodes(true);
 
@@ -275,6 +291,7 @@ public class ExsltStrings extends ExsltBase
    */
   public static NodeList tokenize(String toTokenize, String delims)
   {
+
 
     NodeSet resultSet = new NodeSet();
 

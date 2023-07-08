@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.INFO;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.TRACE;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.WARN;.extended
@@ -54,7 +55,22 @@ import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SecureRecorderjava
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventLog;
 import jdk.jfr.share.classes.jdk.jfr.internal.instrument.JDKEvents;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class PlatformRecorder {
+
 
     private final ArrayList<PlatformRecording> recordings = new ArrayList<>();
     private static final List<SecureRecorderListener> changeListeners = new ArrayList<>();
@@ -86,6 +102,7 @@ public final class PlatformRecorder {
         SecuritySupport.registerShutdownHook(shutdownHook);
 
     }
+
 
     private static Timer createTimer() {
         try {
@@ -388,6 +405,8 @@ public final class PlatformRecorder {
         }
         MetadataRepository.getInstance().setSettings(list);
     }
+
+
 
     synchronized void rotateDisk() {
         RepositoryChunk newChunk = repository.newChunk();

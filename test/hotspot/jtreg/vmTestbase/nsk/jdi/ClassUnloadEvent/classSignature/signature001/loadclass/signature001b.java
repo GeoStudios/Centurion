@@ -21,6 +21,21 @@
 
 package nsk.jdi.ClassUnloadEvent.classSignature;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this interface will be loaded and then unloaded
 
 public interface signature001b {}

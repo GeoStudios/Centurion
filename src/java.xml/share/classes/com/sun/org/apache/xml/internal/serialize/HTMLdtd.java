@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -30,9 +31,28 @@ import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Aug 21, 2000:
 //   Fixed bug in isElement and made HTMLdtd public.
 //   Contributed by Eric SCHAEFFER" <eschaeffer@posterconseil.com>
+
+
+
+
+
 
 /**
  * Utility class for accessing information specific to HTML documents.
@@ -83,24 +103,29 @@ public final class HTMLdtd
      */
     private static Map<Integer, String> _byChar;
 
+
     /**
      * Table of entity name to value mapping. Entities are held as strings,
      * character references as <TT>Character</TT> objects.
      */
     private static Map<String, Integer> _byName;
 
+
     private static final Map<String, String[]> _boolAttrs;
+
 
     /**
      * Holds element definitions.
      */
     private static final Map<String, Integer> _elemDefs;
 
+
     /**
      * Locates the HTML entities file that is loaded upon initialization.
      * This file is a resource loaded with the default class loader.
      */
     private static final String     ENTITIES_RESOURCE = "HTMLEntities.res";
+
 
     /**
      * Only opening tag should be printed.
@@ -112,50 +137,60 @@ public final class HTMLdtd
      */
     private static final int ELEM_CONTENT = 0x0002;
 
+
     /**
      * Element preserve spaces.
      */
     private static final int PRESERVE     = 0x0004;
+
 
     /**
      * Optional closing tag.
      */
     private static final int OPT_CLOSING  = 0x0008;
 
+
     /**
      * Element is empty (also means only opening tag)
      */
     private static final int EMPTY        = 0x0010 | ONLY_OPENING;
+
 
     /**
      * Allowed to appear in head.
      */
     private static final int ALLOWED_HEAD = 0x0020;
 
+
     /**
      * When opened, closes P.
      */
     private static final int CLOSE_P      = 0x0040;
+
 
     /**
      * When opened, closes DD or DT.
      */
     private static final int CLOSE_DD_DT  = 0x0080;
 
+
     /**
      * When opened, closes itself.
      */
     private static final int CLOSE_SELF   = 0x0100;
+
 
     /**
      * When opened, closes another table section.
      */
     private static final int CLOSE_TABLE  = 0x0200;
 
+
     /**
      * When opened, closes TH or TD.
      */
     private static final int CLOSE_TH_TD  = 0x04000;
+
 
     /**
      * Returns true if element is declared to be empty. HTML elements are
@@ -168,6 +203,7 @@ public final class HTMLdtd
     {
         return isElement( tagName, EMPTY );
     }
+
 
     /**
      * Returns true if element is declared to have element content.
@@ -182,6 +218,7 @@ public final class HTMLdtd
         return isElement( tagName, ELEM_CONTENT );
     }
 
+
     /**
      * Returns true if element's textual contents preserves spaces.
      * This only applies to PRE and TEXTAREA, all other HTML elements
@@ -194,6 +231,7 @@ public final class HTMLdtd
     {
         return isElement( tagName, PRESERVE );
     }
+
 
     /**
      * Returns true if element's closing tag is optional and need not
@@ -208,6 +246,7 @@ public final class HTMLdtd
         return isElement( tagName, OPT_CLOSING );
     }
 
+
     /**
      * Returns true if element's closing tag is generally not printed.
      * For example, <tt>LI</tt> should not print the closing tag.
@@ -219,6 +258,7 @@ public final class HTMLdtd
     {
         return isElement( tagName, ONLY_OPENING );
     }
+
 
     /**
      * Returns true if the opening of one element (<tt>tagName</tt>) implies
@@ -255,6 +295,7 @@ public final class HTMLdtd
         return false;
     }
 
+
     /**
      * Returns true if the specified attribute it a URI and should be
      * escaped appropriately. In HTML URIs are escaped differently
@@ -268,6 +309,7 @@ public final class HTMLdtd
         // Stupid checks.
         return ( attrName.equalsIgnoreCase( "href" ) || attrName.equalsIgnoreCase( "src" ) );
     }
+
 
     /**
      * Returns true if the specified attribute is a boolean and should be
@@ -290,6 +332,7 @@ public final class HTMLdtd
         return false;
     }
 
+
     /**
      * Returns the value of an HTML character reference by its name. If the
      * reference is not found or was not defined as a character reference,
@@ -310,6 +353,7 @@ public final class HTMLdtd
             return -1;
     }
 
+
     /**
      * Returns the name of an HTML character reference based on its character
      * value. Only valid for entities defined from character references. If no
@@ -329,6 +373,7 @@ public final class HTMLdtd
         name = _byChar.get(value);
         return name;
     }
+
 
     /**
      * Initialize upon first access. Will load all the HTML character references
@@ -396,6 +441,7 @@ public final class HTMLdtd
         }
     }
 
+
     /**
      * Defines a new character reference. The reference's name and value are
      * supplied. Nothing happens if the character reference is already defined.
@@ -416,20 +462,24 @@ public final class HTMLdtd
         }
     }
 
+
     private static void defineElement( String name, int flags )
     {
         _elemDefs.put(name, flags);
     }
+
 
     private static void defineBoolean( String tagName, String attrName )
     {
         defineBoolean( tagName, new String[] { attrName } );
     }
 
+
     private static void defineBoolean( String tagName, String[] attrNames )
     {
         _boolAttrs.put( tagName, attrNames );
     }
+
 
     private static boolean isElement( String name, int flag )
     {
@@ -441,6 +491,7 @@ public final class HTMLdtd
         else
             return ( ( flags.intValue() & flag ) == flag );
     }
+
 
     static
     {
@@ -523,5 +574,7 @@ public final class HTMLdtd
 
         initialize();
     }
+
+
 
 }

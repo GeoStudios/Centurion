@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * F2I - Convert float to int
@@ -38,6 +55,7 @@ public class F2I extends ConversionInstruction {
     public F2I() {
         super(com.sun.org.apache.bcel.internal.Const.F2I);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

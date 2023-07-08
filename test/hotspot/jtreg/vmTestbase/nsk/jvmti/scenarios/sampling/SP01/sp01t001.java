@@ -21,9 +21,23 @@
 
 package nsk.jvmti.scenarios.sampling.SP01;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class sp01t001 extends DebugeeClass {
 
@@ -100,6 +114,7 @@ abstract class sp01t001Thread extends Thread {
 }
 
 /* =================================================================== */
+
 
 class sp01t001ThreadNotStarted extends sp01t001Thread {
     public void run() {

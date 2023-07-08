@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.*;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * For list types: ENTITIES, IDREFS, NMTOKENS.

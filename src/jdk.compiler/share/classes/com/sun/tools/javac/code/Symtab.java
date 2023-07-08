@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
@@ -62,6 +63,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class that defines all predefined constants and operators
  *  as well as special classes such as java.lang.Object, which need

@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.BinaryOperator;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.Literal;
@@ -31,6 +32,19 @@ import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.loops.LoopingCondition;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class LoopingConditionFactory extends Factory<LoopingCondition> {
     private final LocalVariable counter;

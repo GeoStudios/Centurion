@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
@@ -35,9 +36,27 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: AttributeSet.java,v 1.5 2005/09/28 13:48:04 pvedula Exp $
  */
+
+
+
+
 
 /**
  * @LastModified: Nov 2017

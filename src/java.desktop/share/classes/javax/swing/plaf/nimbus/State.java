@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.plaf.synth.SynthConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Represents a built in, or custom, state in Nimbus.</p>

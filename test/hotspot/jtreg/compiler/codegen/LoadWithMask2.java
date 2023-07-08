@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8031743
@@ -30,6 +45,7 @@ package compiler.codegen;
  *      -XX:CompileCommand=compileonly,compiler.codegen.LoadWithMask2::foo*
  *      compiler.codegen.LoadWithMask2
  */
+
 
 public class LoadWithMask2 {
     static int x;

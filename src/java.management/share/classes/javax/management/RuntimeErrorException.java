@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * When a <CODE>java.lang.Error</CODE> occurs in the agent it should be caught and
  * re-thrown as a <CODE>RuntimeErrorException</CODE>.

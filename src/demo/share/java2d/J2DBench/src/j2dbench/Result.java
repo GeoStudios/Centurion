@@ -21,11 +21,26 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench;
 
+
 import java.util.Vector;
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.io.PrintWriter;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,6 +49,10 @@ import java.util.HashMap;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 public class Result {
     public static final int RATE_UNKNOWN    = 0;

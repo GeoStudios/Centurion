@@ -21,7 +21,21 @@
 
 package jit.misctests.t5;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.misctests.t5.t5
  */
+
+
 
 public class t5
 {

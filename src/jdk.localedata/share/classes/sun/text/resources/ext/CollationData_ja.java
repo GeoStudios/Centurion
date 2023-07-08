@@ -21,10 +21,28 @@
 
 package jdk.localedata.share.classes.sun.text.resources.ext;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  */
+
+
+
 
 public class CollationData_ja extends ListResourceBundle {
 
@@ -458,6 +476,7 @@ public class CollationData_ja extends ListResourceBundle {
                 " <\u03c9" + // GREEK SMALL LETTER OMEGA,Ll
                 " ,\u03a9" + // GREEK CAPITAL LETTER OMEGA,Lu
 
+
                 " <\u0430" + // CYRILLIC SMALL LETTER A,Ll
                 " ,\u0410" + // CYRILLIC CAPITAL LETTER A,Lu
                 " <\u0431" + // CYRILLIC SMALL LETTER BE,Ll
@@ -524,6 +543,7 @@ public class CollationData_ja extends ListResourceBundle {
                 " ,\u042e" + // CYRILLIC CAPITAL LETTER YU,Lu
                 " <\u044f" + // CYRILLIC SMALL LETTER YA,Ll
                 " ,\u042f" + // CYRILLIC CAPITAL LETTER YA,Lu
+
 
                 " <\u2500" + // BOX DRAWINGS LIGHT HORIZONTAL,So
                 " <\u2502" + // BOX DRAWINGS LIGHT VERTICAL,So

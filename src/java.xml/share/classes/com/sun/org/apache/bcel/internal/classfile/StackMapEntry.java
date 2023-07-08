@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class represents a stack map entry recording the types of
@@ -47,6 +64,7 @@ public final class StackMapEntry implements Node, Cloneable
     private StackMapType[] typesOfLocals;
     private StackMapType[] typesOfStackItems;
     private ConstantPool constantPool;
+
 
     /**
      * Construct object from input stream.
@@ -138,6 +156,7 @@ public final class StackMapEntry implements Node, Cloneable
         this.constantPool = constantPool;
     }
 
+
     /**
      * Dump stack map entry
      *
@@ -178,6 +197,7 @@ public final class StackMapEntry implements Node, Cloneable
             throw new ClassFormatException ("Invalid Stack map table tag: " + frameType);
         }
     }
+
 
     /**
      * @return String representation.
@@ -229,6 +249,7 @@ public final class StackMapEntry implements Node, Cloneable
         return buf.toString();
     }
 
+
     /**
      * Calculate stack map entry size
      *
@@ -265,6 +286,7 @@ public final class StackMapEntry implements Node, Cloneable
         }
     }
 
+
     public void setFrameType( final int f ) {
         if (f >= Const.SAME_FRAME && f <= Const.SAME_FRAME_MAX) {
             byteCodeOffset = f - Const.SAME_FRAME;
@@ -282,9 +304,11 @@ public final class StackMapEntry implements Node, Cloneable
         frameType = f;
     }
 
+
     public int getFrameType() {
         return frameType;
     }
+
 
     public void setByteCodeOffset( final int new_offset ) {
         if (new_offset < 0 || new_offset > 32767) {
@@ -318,6 +342,7 @@ public final class StackMapEntry implements Node, Cloneable
         byteCodeOffset = new_offset;
     }
 
+
     /**
      * Update the distance (as an offset delta) from this StackMap
      * entry to the next.  Note that this might cause the the
@@ -329,9 +354,11 @@ public final class StackMapEntry implements Node, Cloneable
         setByteCodeOffset(byteCodeOffset + delta);
     }
 
+
     public int getByteCodeOffset() {
         return byteCodeOffset;
     }
+
 
     /**
      *
@@ -341,17 +368,21 @@ public final class StackMapEntry implements Node, Cloneable
     public void setNumberOfLocals( final int n ) { // TODO unused
     }
 
+
     public int getNumberOfLocals() {
         return typesOfLocals.length;
     }
+
 
     public void setTypesOfLocals( final StackMapType[] types ) {
         typesOfLocals = types != null ? types : new StackMapType[0];
     }
 
+
     public StackMapType[] getTypesOfLocals() {
         return typesOfLocals;
     }
+
 
     /**
      *
@@ -361,17 +392,21 @@ public final class StackMapEntry implements Node, Cloneable
     public void setNumberOfStackItems( final int n ) { // TODO unused
     }
 
+
     public int getNumberOfStackItems() {
         return typesOfStackItems.length;
     }
+
 
     public void setTypesOfStackItems( final StackMapType[] types ) {
         typesOfStackItems = types != null ? types : new StackMapType[0];
     }
 
+
     public StackMapType[] getTypesOfStackItems() {
         return typesOfStackItems;
     }
+
 
     /**
      * @return deep copy of this object
@@ -395,6 +430,7 @@ public final class StackMapEntry implements Node, Cloneable
         return e;
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -407,12 +443,14 @@ public final class StackMapEntry implements Node, Cloneable
         v.visitStackMapEntry(this);
     }
 
+
     /**
      * @return Constant pool used by this object.
      */
     public ConstantPool getConstantPool() {
         return constantPool;
     }
+
 
     /**
      * @param constantPool Constant pool to be used for this object.

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.beans.*;
 import java.desktop.share.classes.com.sun.java.io.File;
@@ -44,6 +45,20 @@ import java.desktop.share.classes.com.sun.security.action.GetPropertyAction;
 import java.desktop.share.classes.com.sun.swing.DefaultLayoutStyle;
 import java.desktop.share.classes.com.sun.swing.SwingAccessor;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -507,6 +522,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
         Object[] defaults = new Object[] {
             "ArrowButton.size", Integer.valueOf(13),
 
+
             "Button.defaultButtonFollowsFocus", Boolean.FALSE,
             "Button.focusInputMap", new UIDefaults.LazyInputMap(new Object[] {
                          "SPACE", "pressed",
@@ -516,6 +532,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
               }),
             "Button.font", new FontLazyValue(Region.BUTTON),
             "Button.margin", zeroInsets,
+
 
             "CheckBox.focusInputMap", new UIDefaults.LazyInputMap(new Object[]{
                          "SPACE", "pressed",
@@ -527,6 +544,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "CheckBox.font", new FontLazyValue(Region.CHECK_BOX),
             "CheckBox.margin", zeroInsets,
 
+
             "CheckBoxMenuItem.arrowIcon", null,
             "CheckBoxMenuItem.checkIcon", new GTKStyle.GTKLazyValue(
                               "com.sun.java.swing.plaf.gtk.GTKIconFactory",
@@ -536,6 +554,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "CheckBoxMenuItem.margin", zeroInsets,
             "CheckBoxMenuItem.alignAcceleratorText", Boolean.FALSE,
 
+
             "ColorChooser.showPreviewPanelText", Boolean.FALSE,
             "ColorChooser.panels", new UIDefaults.ActiveValue() {
                 public Object createValue(UIDefaults table) {
@@ -544,6 +563,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
                 }
             },
             "ColorChooser.font", new FontLazyValue(Region.COLOR_CHOOSER),
+
 
             "ComboBox.ancestorInputMap",
                new UIDefaults.LazyInputMap(new Object[] {
@@ -567,6 +587,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "ComboBox.font", new FontLazyValue(Region.COMBO_BOX),
             "ComboBox.isEnterSelectablePopup", Boolean.TRUE,
 
+
             "EditorPane.caretForeground", caretColor,
             "EditorPane.caretAspectRatio", defaultCaretAspectRatio,
             "EditorPane.caretBlinkRate", caretBlinkRate,
@@ -574,12 +595,14 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "EditorPane.focusInputMap", multilineInputMap,
             "EditorPane.font", new FontLazyValue(Region.EDITOR_PANE),
 
+
             "FileChooser.ancestorInputMap",
                new UIDefaults.LazyInputMap(new Object[] {
                      "ESCAPE", "cancelSelection",
                  "ctrl ENTER", "approveSelection"
                  }),
             "FileChooserUI", "com.sun.java.swing.plaf.gtk.GTKLookAndFeel",
+
 
             "FormattedTextField.caretForeground", caretColor,
             "FormattedTextField.caretAspectRatio", defaultCaretAspectRatio,
@@ -633,6 +656,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
               }),
             "FormattedTextField.font",
                 new FontLazyValue(Region.FORMATTED_TEXT_FIELD),
+
 
             "InternalFrameTitlePane.titlePaneLayout",
                                 new GTKStyle.GTKLazyValue("com.sun.java.swing.plaf.gtk.Metacity",
@@ -753,15 +777,18 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "Menu.alignAcceleratorText", Boolean.FALSE,
             "Menu.useMenuBarForTopLevelMenus", Boolean.TRUE,
 
+
                 "MenuBar.windowBindings", new Object[] {
                 "F10", "takeFocus" },
             "MenuBar.font", new FontLazyValue(Region.MENU_BAR),
+
 
             "MenuItem.arrowIcon", null,
             "MenuItem.checkIcon", null,
             "MenuItem.font", new FontLazyValue(Region.MENU_ITEM),
             "MenuItem.margin", zeroInsets,
             "MenuItem.alignAcceleratorText", Boolean.FALSE,
+
 
             "OptionPane.setButtonMargin", Boolean.FALSE,
             "OptionPane.sameSizeButtons", Boolean.TRUE,
@@ -782,6 +809,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "PasswordField.margin", zeroInsets,
             "PasswordField.focusInputMap", passwordInputMap,
             "PasswordField.font", new FontLazyValue(Region.PASSWORD_FIELD),
+
 
             "PopupMenu.consumeEventOnClose", Boolean.FALSE,
             "PopupMenu.selectedWindowInputMapBindings", new Object[] {
@@ -824,6 +852,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "RadioButton.font", new FontLazyValue(Region.RADIO_BUTTON),
             "RadioButton.margin", zeroInsets,
 
+
             "RadioButtonMenuItem.arrowIcon", null,
             "RadioButtonMenuItem.checkIcon", new GTKStyle.GTKLazyValue(
                               "com.sun.java.swing.plaf.gtk.GTKIconFactory",
@@ -831,6 +860,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "RadioButtonMenuItem.font", new FontLazyValue(Region.RADIO_BUTTON_MENU_ITEM),
             "RadioButtonMenuItem.margin", zeroInsets,
             "RadioButtonMenuItem.alignAcceleratorText", Boolean.FALSE,
+
 
             // These bindings are only enabled when there is a default
             // button set on the rootpane.
@@ -840,6 +870,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
                           "ctrl ENTER", "press",
                  "ctrl released ENTER", "release"
             },
+
 
             "ScrollBar.squareButtons", Boolean.FALSE,
             "ScrollBar.thumbHeight", Integer.valueOf(14),
@@ -871,7 +902,9 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
                      "KP_LEFT", "positiveUnitIncrement",
                     }),
 
+
             "Spinner.disableOnBoundaryValues", Boolean.TRUE,
+
 
             "ScrollPane.fillUpperCorner", Boolean.TRUE,
             "ScrollPane.fillLowerCorner", Boolean.TRUE,
@@ -899,8 +932,10 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
                     }),
             "ScrollPane.font", new FontLazyValue(Region.SCROLL_PANE),
 
+
             "Separator.insets", zeroInsets,
             "Separator.thickness", Integer.valueOf(2),
+
 
             "Slider.paintValue", Boolean.TRUE,
             "Slider.thumbWidth", Integer.valueOf(30),
@@ -957,10 +992,12 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "ctrl shift TAB", "focusOutBackward"
                     }),
 
+
             "SplitPane.size", Integer.valueOf(7),
             "SplitPane.oneTouchOffset", Integer.valueOf(2),
             "SplitPane.oneTouchButtonSize", Integer.valueOf(5),
             "SplitPane.supportsOneTouchButtons", Boolean.FALSE,
+
 
             "TabbedPane.focusInputMap",
               new UIDefaults.LazyInputMap(new Object[] {
@@ -1112,6 +1149,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "TextArea.focusInputMap", multilineInputMap,
             "TextArea.font", new FontLazyValue(Region.TEXT_AREA),
 
+
             "TextField.caretForeground", caretColor,
             "TextField.caretAspectRatio", defaultCaretAspectRatio,
             "TextField.caretBlinkRate", caretBlinkRate,
@@ -1119,12 +1157,14 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
             "TextField.focusInputMap", fieldInputMap,
             "TextField.font", new FontLazyValue(Region.TEXT_FIELD),
 
+
             "TextPane.caretForeground", caretColor,
             "TextPane.caretAspectRatio", defaultCaretAspectRatio,
             "TextPane.caretBlinkRate", caretBlinkRate,
             "TextPane.margin", editorMargin,
             "TextPane.focusInputMap", multilineInputMap,
             "TextPane.font", new FontLazyValue(Region.TEXT_PANE),
+
 
             "TitledBorder.titleColor", controlText,
             "TitledBorder.border", new UIDefaults.LazyValue() {
@@ -1140,6 +1180,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
                    }),
             "ToggleButton.font", new FontLazyValue(Region.TOGGLE_BUTTON),
             "ToggleButton.margin", zeroInsets,
+
 
             "ToolBar.separatorSize", new DimensionUIResource(10, 10),
             "ToolBar.handleIcon", new UIDefaults.ActiveValue() {
@@ -1621,6 +1662,7 @@ public class GTKLookAndFeel extends SynthLookAndFeel {
     public LayoutStyle getLayoutStyle() {
         return GnomeLayoutStyle.INSTANCE;
     }
+
 
     /**
      * Gnome layout style.  From:

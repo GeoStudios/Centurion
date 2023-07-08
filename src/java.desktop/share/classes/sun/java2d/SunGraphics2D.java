@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -94,6 +95,20 @@ import java.desktop.share.classes.sun.java2d.pipe.ValidatePipe;
 import static java.awt.geom.AffineTransform.TYPE_FLIP;.extended
 import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;.extended
 import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a the master Graphics2D superclass for all of the Sun
@@ -1283,6 +1298,7 @@ public final class SunGraphics2D
         }
         hints.put(hintKey, hintValue);
     }
+
 
     /**
      * Returns the preferences for the rendering algorithms.
@@ -2490,6 +2506,7 @@ public final class SunGraphics2D
         }
     }
 
+
     /**
      * Fills the interior of a Path using the settings of the current
      * graphics state. The rendering attributes applied include the
@@ -2874,6 +2891,8 @@ public final class SunGraphics2D
         RenderedImage rendering = img.createRendering(rc);
         drawRenderedImage(rendering,reverseTransform);
     }
+
+
 
     /*
      * Transform the bounding box of the BufferedImage

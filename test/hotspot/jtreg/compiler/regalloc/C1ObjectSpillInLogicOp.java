@@ -21,7 +21,21 @@
 
 package compiler.regalloc;
 
+
 import java.util.concurrent.atomic.AtomicReferenceArray;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -31,6 +45,8 @@ import java.util.concurrent.atomic.AtomicReferenceArray;
  *
  * @run main/othervm -XX:+UseG1GC compiler.regalloc.C1ObjectSpillInLogicOp
  */
+
+
 
 /*
  * G1 barriers use logical operators (xor) on T_OBJECT mixed with T_LONG or T_INT.

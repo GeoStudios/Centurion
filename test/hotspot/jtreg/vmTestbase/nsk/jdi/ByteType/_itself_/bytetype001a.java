@@ -21,9 +21,23 @@
 
 package nsk.jdi.ByteType._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the bytetype001 JDI test.
@@ -78,6 +92,7 @@ public class bytetype001a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
+
 
         label0:
             for (int i = 0; ; i++) {

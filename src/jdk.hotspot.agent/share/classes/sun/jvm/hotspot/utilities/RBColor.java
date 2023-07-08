@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Type-safe enum for the colors in a red-black tree. */
 
 public class RBColor {

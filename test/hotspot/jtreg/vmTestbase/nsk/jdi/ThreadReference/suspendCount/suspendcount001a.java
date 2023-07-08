@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.suspendCount;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the suspendcount001 JDI test.
@@ -72,6 +86,7 @@ public class suspendcount001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -140,6 +155,7 @@ public class suspendcount001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 class Threadsuspendcount001a extends Thread {
 

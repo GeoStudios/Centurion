@@ -21,11 +21,26 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.Win64.VARARGS_ATTRIBUTE_NAME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum TypeClass {
     STRUCT_REGISTER,

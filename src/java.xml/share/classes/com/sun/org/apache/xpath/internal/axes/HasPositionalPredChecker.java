@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
@@ -35,6 +36,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Mult;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Plus;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Quo;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Variable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("deprecation")
 public class HasPositionalPredChecker extends XPathVisitor
@@ -120,5 +135,6 @@ public class HasPositionalPredChecker extends XPathVisitor
     // Don't go have the caller go any further down the subtree.
     return false;
   }
+
 
 }

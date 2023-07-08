@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
 import java.util.Properties;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
@@ -34,6 +49,8 @@ import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 /*
  * $Id: Serializer.java,v 1.2.4.1 2005/09/15 08:15:22 suresh_emailid Exp $
  */
+
+
 
 /**
  * The Serializer interface is implemented by a serializer to enable users to:

@@ -21,9 +21,24 @@
 
 package java.management.share.classes.sun.management;
 
+
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for the garbage collector.

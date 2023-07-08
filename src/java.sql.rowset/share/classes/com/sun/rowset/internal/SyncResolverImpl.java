@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.*;
 import javax.sql.*;
 import java.util.*;
@@ -30,6 +31,20 @@ import javax.sql.rowset.spi.*;
 import java.sql.rowset.share.classes.com.sun.rowset.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * There will be two sets of data which will be maintained by the rowset at the
@@ -113,6 +128,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         } catch(SQLException sqle) {
         }
      }
+
 
     /**
      * Retrieves the conflict status of the current row of this
@@ -280,6 +296,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
                  throw new SQLException(resBundle.handleGetObject("syncrsimpl.valtores").toString());
              } //end if (crs.getObject ...) block
 
+
         } catch(SQLException sqle) {
            throw new SQLException(sqle.getMessage());
         }
@@ -378,6 +395,8 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
        }
        return crsRow;
     }
+
+
 
     /**
      * Sets <i>obj</i> as the value in column <i>columnName</i> in the current row of the
@@ -488,6 +507,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         return bool;
    } // end next() method
 
+
     /**
      * Moves the cursor to the previous conflict row in this {@code SyncResolver} object.
      *
@@ -521,6 +541,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     public void setCommand(String cmd) throws SQLException {
          throw new UnsupportedOperationException();
     }
+
 
     //---------------------------------------------------------------------
     // Reading and writing data
@@ -905,6 +926,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     // Advanced features
     //--------------------------------------------------------------------
 
+
     /**
      * Returns the {@code SyncProvider} implementation being used
      * with this {@code CachedRowSetImpl} implementation rowset.
@@ -930,9 +952,15 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         throw new UnsupportedOperationException();
     }
 
+
     //-----------------
     // methods inherited from RowSet
     //-----------------
+
+
+
+
+
 
     //---------------------------------------------------------------------
     // Reading and writing data
@@ -964,6 +992,8 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     public void execute() throws SQLException {
         throw new UnsupportedOperationException();
     }
+
+
 
     //-----------------------------------
     // Methods inherited from ResultSet
@@ -1069,6 +1099,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     protected void removeCurrentRow() {
         throw new UnsupportedOperationException();
     }
+
 
     /**
      * Retrieves the value of the designated column in the current row
@@ -1452,6 +1483,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
 
     }
 
+
     //======================================================================
     // Methods for accessing results by column name
     //======================================================================
@@ -1813,6 +1845,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         throw new UnsupportedOperationException();
     }
 
+
     //=====================================================================
     // Advanced features:
     //=====================================================================
@@ -1903,6 +1936,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     public ResultSetMetaData getMetaData() throws SQLException {
         throw new UnsupportedOperationException();
     }
+
 
     /**
      * Retrieves the value of the designated column in the current row
@@ -2444,6 +2478,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     protected boolean internalPrevious() throws SQLException {
         throw new UnsupportedOperationException();
     }
+
 
     //---------------------------------------------------------------------
     // Updates
@@ -3070,6 +3105,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     public void updateObject(int columnIndex, Object x) throws SQLException {
         throw new UnsupportedOperationException();
     }
+
 
     /**
      * Sets the designated nullable column in the current row or the
@@ -4187,6 +4223,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         throw new UnsupportedOperationException();
     }
 
+
     /**
      * Sets this {@code CachedRowSetImpl} object's
      * {@code keyCols} field with the given array of column
@@ -4419,6 +4456,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         throw new UnsupportedOperationException();
     }
 
+
     /**
      * Retrieves the value of the designated column in this
      * {@code CachedRowSetImpl} object as a {@code java.net.URL} object
@@ -4611,6 +4649,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
         throw new UnsupportedOperationException();
     }
 
+
     /**
      * Sets the designated parameter to the given {@code int}
      * object.  This forms the basis of the join for the
@@ -4771,6 +4810,7 @@ public class SyncResolverImpl extends CachedRowSetImpl implements SyncResolver {
     public int getPageSize() {
         throw new UnsupportedOperationException();
     }
+
 
     /**
      * Retrieves the data present in the page prior to the page from where it is

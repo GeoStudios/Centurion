@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LSHL - Arithmetic shift left long
@@ -36,6 +53,7 @@ public class LSHL extends ArithmeticInstruction {
     public LSHL() {
         super(com.sun.org.apache.bcel.internal.Const.LSHL);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

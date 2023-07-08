@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
+
 import java.awt.Composite;
 import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.java2d.loops.GraphicsPrimitive;
 import java.desktop.share.classes.sun.java2d.pipe.BufferedTextPipe;
 import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class OGLTextRenderer extends BufferedTextPipe {
 

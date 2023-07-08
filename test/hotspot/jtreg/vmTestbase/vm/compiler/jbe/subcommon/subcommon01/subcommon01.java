@@ -21,8 +21,22 @@
 
 package vm.compiler.jbe.subcommon.subcommon01;
 
+
 import java.io.PrintStream;
 import java.lang.Exception;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,10 +49,12 @@ import java.lang.Exception;
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon01.subcommon01
  */
 
+
 /* -- Common subexpression elimination testing
 Using both global and local common subexpressions in methods b5()
 and b6() below to test common subexpression.
  */
+
 
 public class subcommon01 {
   static final int LEN = 500;
@@ -147,6 +163,7 @@ class A {
       //    System.out.println("Finish b2");
   }
 
+
   void b3(double arr[]) {
       t4 = 4*(--j);
       try {
@@ -162,6 +179,7 @@ class A {
       //    System.out.println("Finish b3");
   }
 }
+
 
 class Preopt extends A {
   // Pre-optimized code

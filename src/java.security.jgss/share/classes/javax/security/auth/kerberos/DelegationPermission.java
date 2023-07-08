@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -30,6 +31,20 @@ import java.security.Permission;
 import java.security.PermissionCollection;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to restrict the usage of the Kerberos
@@ -97,6 +112,7 @@ public final class DelegationPermission extends BasicPermission
         super(principals, actions);
         init(principals);
     }
+
 
     /**
      * Initialize the DelegationPermission object.
@@ -237,6 +253,7 @@ public final class DelegationPermission extends BasicPermission
     }
 
 }
+
 
 final class KrbDelegationPermissionCollection extends PermissionCollection
     implements java.io.Serializable {

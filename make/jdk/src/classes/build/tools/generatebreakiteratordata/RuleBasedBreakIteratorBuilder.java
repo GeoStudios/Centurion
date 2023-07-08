@@ -21,6 +21,56 @@
 
 package build.tools.generatebreakiteratordata;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class has the job of constructing a RuleBasedBreakIterator from a
  * textual description. A Builder is constructed by GenerateBreakIteratorData,
@@ -1267,6 +1317,7 @@ class RuleBasedBreakIteratorBuilder {
             }
         }
     }
+
 
     /**
      * Update entries in the state table, and merge states when necessary to keep

@@ -21,7 +21,22 @@
 
 package jdk.attach.share.classes.com.sun.tools.attach;
 
+
 import jdk.attach.share.classes.com.sun.tools.attach.spi.AttachProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes a Java virtual machine.
@@ -189,5 +204,6 @@ public class VirtualMachineDescriptor {
         }
         return s;
     }
+
 
 }

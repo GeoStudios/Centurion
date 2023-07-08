@@ -21,10 +21,25 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import javax.swing.JInternalFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -33,6 +48,10 @@ import javax.swing.tree.DefaultMutableTreeNode;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This is a subclass of JInternalFrame which displays a tree.

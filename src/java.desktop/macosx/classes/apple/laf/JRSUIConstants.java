@@ -21,8 +21,23 @@
 
 package java.desktop.macosx.classes.apple.laf;
 
+
 import java.nio.ByteBuffer;
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JRSUIConstants {
 
@@ -114,6 +129,7 @@ public final class JRSUIConstants {
             return Double.toString(doubleValue);
         }
     }
+
 
     static class PropertyEncoding {
         final long mask;

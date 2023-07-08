@@ -21,6 +21,7 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
+
 import java.lang.ref.ReferenceQueue;
 import java.rmi.NoSuchObjectException;
 import java.rmi.Remote;
@@ -33,6 +34,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
 import java.rmi.share.classes.sun.rmi.runtime.NewThreadAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Object table shared by all implementors of the Transport interface.

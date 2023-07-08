@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * INVOKESTATIC - Invoke a class (static) method
@@ -49,9 +67,11 @@ public class INVOKESTATIC extends InvokeInstruction {
     INVOKESTATIC() {
     }
 
+
     public INVOKESTATIC(final int index) {
         super(Const.INVOKESTATIC, index);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -69,6 +89,7 @@ public class INVOKESTATIC extends InvokeInstruction {
             ExceptionConst.UNSATISFIED_LINK_ERROR,
             ExceptionConst.INCOMPATIBLE_CLASS_CHANGE_ERROR);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

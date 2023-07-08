@@ -21,9 +21,23 @@
 
 package nsk.share.jpda;
 
+
 import nsk.share.*;
 import java.io.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to control debugee VM process.
@@ -151,6 +165,7 @@ abstract public class DebugeeProcess extends FinalizableObject {
             throw new TestBug("IOPipe channel is not initialized");
         pipe.println(signal);
     }
+
 
     // --------------------------------------------------- //
 

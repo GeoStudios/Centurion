@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import java.awt.Component;
 import java.awt.Image;
 import java.awt.MediaTracker;
@@ -29,6 +30,20 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of all the demo images found in the images directory.
@@ -59,6 +74,7 @@ public class DemoImages extends Component {
             cache.put(name, getImage(name, demoImages));
         }
     }
+
 
     /*
      * Gets the named image using the toolkit of the specified component.

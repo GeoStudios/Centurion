@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code VolatileCallSite} is a {@link CallSite} whose target acts like a volatile variable.
  * An {@code invokedynamic} instruction linked to a {@code VolatileCallSite} sees updates

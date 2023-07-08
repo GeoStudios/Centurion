@@ -21,10 +21,25 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import static javax.swing.JLayeredPane.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used instead of JDialog in a JDesktopPane/JInternalFrame environment.
@@ -40,6 +55,7 @@ public class InternalDialog extends JInternalFrame {
         putClientProperty("JInternalFrame.frameType", "optionDialog");
 
         jConsole.getDesktopPane().add(this);
+
 
         getActionMap().put("cancel", new AbstractAction() {
             public void actionPerformed(ActionEvent evt) {
@@ -110,6 +126,7 @@ public class InternalDialog extends JInternalFrame {
             return (leftIcon.getIconWidth() + gap + textWidth +
                     gap + rightIcon.getIconWidth());
         }
+
 
         public int getIconHeight() {
             return leftIcon.getIconHeight();

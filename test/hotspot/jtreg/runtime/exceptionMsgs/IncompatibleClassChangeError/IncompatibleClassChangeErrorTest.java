@@ -21,9 +21,23 @@
 
 package test;
 
+
 import sun.hotspot.WhiteBox;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -40,6 +54,8 @@ import java.lang.reflect.Method;
  *                   -XX:CompileCommand=exclude,test.IncompatibleClassChangeErrorTest::test_iccInt
  *                   test.IncompatibleClassChangeErrorTest
  */
+
+
 
 // This test assembles an erroneous installation of classes.
 // First, compile the test by @compile. This results in a legal set
@@ -60,6 +76,7 @@ public class IncompatibleClassChangeErrorTest {
     private static String expectedErrorMessageCompiled =
         "Class test.ICC2_B does not implement the requested interface test.ICC2_iB";
         // old message: "vtable stub"
+
 
     private static boolean compile(Class<?> clazz, String name) {
         try {
@@ -258,10 +275,12 @@ public class IncompatibleClassChangeErrorTest {
     }
 }
 
+
 // Helper classes to test incompatible class change in interpreter.
 //
 // The test also contains .jasm files with implementations
 // of the classes that shall generate the errors.
+
 
 //   I0         // interface defining aFunctionOfMyInterface()
 //   |

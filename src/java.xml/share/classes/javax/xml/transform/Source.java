@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An object that implements this interface contains the information
  * needed to act as source input (XML source or transformation instructions).

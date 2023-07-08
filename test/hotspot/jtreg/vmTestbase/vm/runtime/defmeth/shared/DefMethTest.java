@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared;
 
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -49,6 +50,19 @@ import static java.lang.String.format;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.V17;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.V1_5;.extended
 import vm.runtime.defmeth.RedefineTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parent class for all default method tests.

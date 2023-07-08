@@ -21,9 +21,23 @@
 
 package nsk.jdi.Method.isStaticInitializer;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the isstinitializer001 JDI test.
@@ -69,6 +83,7 @@ public class isstinitializer001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -107,6 +122,7 @@ public class isstinitializer001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 class TestClass {
     static int x;

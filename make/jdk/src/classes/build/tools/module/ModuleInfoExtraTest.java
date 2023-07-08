@@ -21,6 +21,56 @@
 
 package build.tools.module;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Sanity test for GenModuleInfoSource tool
  */
@@ -74,6 +124,7 @@ public class ModuleInfoExtraTest {
     ModuleInfoExtraTest(String name, String... modules) {
         this.builder = new Builder(name).modules(modules);
     }
+
 
     void testModuleInfo() throws IOException {
         GenModuleInfoSource source = builder.sourceFile(moduleInfo).build();

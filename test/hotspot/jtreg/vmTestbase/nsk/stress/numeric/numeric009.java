@@ -21,9 +21,23 @@
 
 package nsk.stress.numeric.numeric009;
 
+
 import java.io.PrintStream;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -69,6 +83,8 @@ import jdk.test.lib.Utils;
  * @library /test/lib
  * @run main/othervm nsk.stress.numeric.numeric009.numeric009 200 2
  */
+
+
 
 /**
  * This test calculates the product <code>A<sup>.</sup>A</code> for a square

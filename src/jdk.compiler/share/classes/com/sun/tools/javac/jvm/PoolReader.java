@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
@@ -51,6 +52,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONST
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_String;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Utf8;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.internalize;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pool interface towards {@code ClassReader}. Exposes methods to decode and read javac entities

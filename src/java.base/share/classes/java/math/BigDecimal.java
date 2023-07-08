@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.math;
 
+
 import static java.base.share.classes.java.math.BigInteger.LONG_MASK;.extended
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Immutable, arbitrary-precision signed decimal numbers.  A {@code
@@ -1925,6 +1940,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
         return divrem[1];
     }
 
+
     /**
      * Returns a {@code BigDecimal} whose value is {@code (this %
      * divisor)}, with rounding according to the context settings.
@@ -2353,6 +2369,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
                 "Square of result out for bounds rounding " + rm;
                 return true;
 
+
             case HALF_DOWN:
             case HALF_EVEN:
             case HALF_UP:
@@ -2422,6 +2439,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
         int newScale = checkScale((long)scale * n);
         return new BigDecimal(this.inflated().pow(n), newScale);
     }
+
 
     /**
      * Returns a {@code BigDecimal} whose value is
@@ -2639,6 +2657,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
         return result;
     }
 
+
     /**
      * Returns a {@code BigInteger} whose value is the <i>unscaled
      * value</i> of this {@code BigDecimal}.  (Computes <code>(this *
@@ -2746,6 +2765,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
      */
     @Deprecated(since="9")
     public static final int ROUND_UNNECESSARY =  7;
+
 
     // Scaling/Rounding Operations
 
@@ -5435,6 +5455,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
     private static boolean unsignedLongCompareEq(long one, long two) {
         return (one+Long.MIN_VALUE) >= (two+Long.MIN_VALUE);
     }
+
 
     // Compare Normalize dividend & divisor so that both fall into [0.1, 0.999...]
     private static int compareMagnitudeNormalized(long xs, int xscale, long ys, int yscale) {

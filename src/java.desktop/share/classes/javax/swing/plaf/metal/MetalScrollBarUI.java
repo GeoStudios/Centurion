@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -36,6 +37,20 @@ import java.desktop.share.classes.javax.swing.plaf.basic.BasicScrollBarUI;
 import static sun.swing.SwingUtilities2.drawHLine;.extended
 import static sun.swing.SwingUtilities2.drawRect;.extended
 import static sun.swing.SwingUtilities2.drawVLine;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of ScrollBarUI for the Metal Look and Feel
@@ -120,6 +135,7 @@ public class MetalScrollBarUI extends BasicScrollBarUI
         thumbColor          = UIManager.getColor("ScrollBar.thumb");
         thumbShadow         = UIManager.getColor("ScrollBar.thumbShadow");
         thumbHighlightColor = UIManager.getColor("ScrollBar.thumbHighlight");
+
 
     }
 
@@ -425,6 +441,8 @@ public class MetalScrollBarUI extends BasicScrollBarUI
         thumbRect.setBounds(x, y, width, height);
         scrollbar.repaint(minX, minY, (maxX - minX)+1, (maxY - minY)+1);
     }
+
+
 
     class ScrollBarListener extends BasicScrollBarUI.PropertyChangeHandler
     {

@@ -21,7 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -31,6 +45,8 @@ import jdk.internal.misc.Unsafe;
  * @library /test/lib
  * @run main compiler.loopopts.superword.TestVectorizationWithInvariant
  */
+
+
 
 public class TestVectorizationWithInvariant {
 

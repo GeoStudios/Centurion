@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import jdk.compiler.share.classes.com.sun.source.tree.Tree.Kind;
 import javax.lang.model.type.TypeKind;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.NumericClasses.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An interface for type tag values, which distinguish between different
  *  sorts of types.

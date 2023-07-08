@@ -21,8 +21,23 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
+
 import java.util.Collection;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides analysis utilities for source code input.
@@ -232,6 +247,7 @@ public abstract class SourceCodeAnalysis {
          * still considered empty.
          */
         CONSIDERED_INCOMPLETE(false),
+
 
         /**
          * An empty input.

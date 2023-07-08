@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
@@ -33,6 +34,20 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicGraphicsUtils;
 import javax.swing.plaf.basic.BasicRadioButtonUI;
 import java.desktop.windows.classes.com.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.
@@ -101,6 +116,7 @@ public class WindowsRadioButtonUI extends BasicRadioButtonUI
     protected void paintText(Graphics g, AbstractButton b, Rectangle textRect, String text) {
         WindowsGraphicsUtils.paintText(g, b, textRect, text, getTextShiftOffset());
     }
+
 
     protected void paintFocus(Graphics g, Rectangle textRect, Dimension d){
         g.setColor(getFocusColor());

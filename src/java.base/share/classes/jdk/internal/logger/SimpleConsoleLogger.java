@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
+
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -38,6 +39,20 @@ import java.util.function.Supplier;
 import sun.security.action.GetPropertyAction;
 import sun.util.logging.PlatformLogger;
 import sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple console logger to emulate the behavior of JUL loggers when
@@ -513,6 +528,7 @@ public class SimpleConsoleLogger extends LoggerConfiguration
             }
             return format;
         }
+
 
         // Copied from java.util.logging.Formatter.formatMessage
         static String formatMessage(String format, Object... parameters) {

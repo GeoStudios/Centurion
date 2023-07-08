@@ -21,8 +21,22 @@
 
 package nsk.jdi.MethodExitEvent.returnValue.returnValue002;
 
+
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Debuggee class, handles command for starting test thread which creates instance

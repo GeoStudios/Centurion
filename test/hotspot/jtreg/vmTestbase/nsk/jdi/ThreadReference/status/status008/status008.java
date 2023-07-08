@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.status.status008;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,6 +31,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -78,6 +92,9 @@ import java.util.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 /**
  * The debugger application of the test.

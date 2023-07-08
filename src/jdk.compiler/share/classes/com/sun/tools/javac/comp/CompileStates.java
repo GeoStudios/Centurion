@@ -21,8 +21,23 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import java.util.HashMap;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Partial map to record which compiler phases have been executed
  *  for each compilation unit. Used for ATTR and FLOW phases.

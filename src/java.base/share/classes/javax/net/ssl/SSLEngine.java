@@ -21,10 +21,25 @@
 
 package java.base.share.classes.javax.net.ssl;
 
+
 import java.nio.ByteBuffer;
 import java.nio.ReadOnlyBufferException;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which enables secure communications using protocols such as
@@ -557,6 +572,7 @@ public abstract class SSLEngine {
         return wrap(srcs, 0, srcs.length, dst);
     }
 
+
     /**
      * Attempts to encode plaintext bytes from a subsequence of data
      * buffers into SSL/TLS/DTLS network data.  This <i>"gathering"</i>
@@ -794,6 +810,7 @@ public abstract class SSLEngine {
     public abstract SSLEngineResult unwrap(ByteBuffer src,
             ByteBuffer [] dsts, int offset, int length) throws SSLException;
 
+
     /**
      * Returns a delegated {@code Runnable} task for
      * this {@code SSLEngine}.
@@ -819,6 +836,7 @@ public abstract class SSLEngine {
      *          if none are available.
      */
     public abstract Runnable getDelegatedTask();
+
 
     /**
      * Signals that no more inbound network data will be sent
@@ -854,6 +872,7 @@ public abstract class SSLEngine {
      */
     public abstract void closeInbound() throws SSLException;
 
+
     /**
      * Returns whether {@link #unwrap(ByteBuffer, ByteBuffer)} will
      * accept any more inbound data messages.
@@ -864,6 +883,7 @@ public abstract class SSLEngine {
      * @see     #closeInbound()
      */
     public abstract boolean isInboundDone();
+
 
     /**
      * Signals that no more outbound application data will be sent
@@ -878,6 +898,7 @@ public abstract class SSLEngine {
      * @see     #isOutboundDone()
      */
     public abstract void closeOutbound();
+
 
     /**
      * Returns whether {@link #wrap(ByteBuffer, ByteBuffer)} will
@@ -895,6 +916,7 @@ public abstract class SSLEngine {
      * @see     #closeInbound()
      */
     public abstract boolean isOutboundDone();
+
 
     /**
      * Returns the names of the cipher suites which could be enabled for use
@@ -915,6 +937,7 @@ public abstract class SSLEngine {
      * @see     #setEnabledCipherSuites(String [])
      */
     public abstract String [] getSupportedCipherSuites();
+
 
     /**
      * Returns the names of the SSL cipher suites which are currently
@@ -940,6 +963,7 @@ public abstract class SSLEngine {
      * @see     #setEnabledCipherSuites(String [])
      */
     public abstract String [] getEnabledCipherSuites();
+
 
     /**
      * Sets the cipher suites enabled for use on this engine.
@@ -969,6 +993,7 @@ public abstract class SSLEngine {
      */
     public abstract void setEnabledCipherSuites(String[] suites);
 
+
     /**
      * Returns the names of the protocols which could be enabled for use
      * with this {@code SSLEngine}.
@@ -976,6 +1001,7 @@ public abstract class SSLEngine {
      * @return  an array of protocols supported
      */
     public abstract String [] getSupportedProtocols();
+
 
     /**
      * Returns the names of the protocol versions which are currently
@@ -990,6 +1016,7 @@ public abstract class SSLEngine {
      * @see     #setEnabledProtocols(String [])
      */
     public abstract String [] getEnabledProtocols();
+
 
     /**
      * Set the protocol versions enabled for use on this engine.
@@ -1006,6 +1033,7 @@ public abstract class SSLEngine {
      * @see     #getEnabledProtocols()
      */
     public abstract void setEnabledProtocols(String[] protocols);
+
 
     /**
      * Returns the {@code SSLSession} in use in this
@@ -1028,6 +1056,7 @@ public abstract class SSLEngine {
      * @see     SSLSession
      */
     public abstract SSLSession getSession();
+
 
     /**
      * Returns the {@code SSLSession} being constructed during a SSL/TLS/DTLS
@@ -1068,6 +1097,7 @@ public abstract class SSLEngine {
         throw new UnsupportedOperationException();
     }
 
+
     /**
      * Initiates handshaking (initial or renegotiation) on this SSLEngine.
      * <P>
@@ -1100,12 +1130,14 @@ public abstract class SSLEngine {
      */
     public abstract void beginHandshake() throws SSLException;
 
+
     /**
      * Returns the current handshake status for this {@code SSLEngine}.
      *
      * @return  the current {@code SSLEngineResult.HandshakeStatus}.
      */
     public abstract SSLEngineResult.HandshakeStatus getHandshakeStatus();
+
 
     /**
      * Configures the engine to use client (or server) mode when
@@ -1129,6 +1161,7 @@ public abstract class SSLEngine {
      */
     public abstract void setUseClientMode(boolean mode);
 
+
     /**
      * Returns true if the engine is set to use client mode when
      * handshaking.
@@ -1142,6 +1175,7 @@ public abstract class SSLEngine {
      * @see     #setUseClientMode(boolean)
      */
     public abstract boolean getUseClientMode();
+
 
     /**
      * Configures the engine to <i>require</i> client authentication.  This
@@ -1171,6 +1205,7 @@ public abstract class SSLEngine {
      */
     public abstract void setNeedClientAuth(boolean need);
 
+
     /**
      * Returns true if the engine will <i>require</i> client authentication.
      * This option is only useful to engines in the server mode.
@@ -1183,6 +1218,7 @@ public abstract class SSLEngine {
      * @see     #setUseClientMode(boolean)
      */
     public abstract boolean getNeedClientAuth();
+
 
     /**
      * Configures the engine to <i>request</i> client authentication.
@@ -1211,6 +1247,7 @@ public abstract class SSLEngine {
      */
     public abstract void setWantClientAuth(boolean want);
 
+
     /**
      * Returns true if the engine will <i>request</i> client authentication.
      * This option is only useful for engines in the server mode.
@@ -1224,6 +1261,7 @@ public abstract class SSLEngine {
      */
     public abstract boolean getWantClientAuth();
 
+
     /**
      * Controls whether new SSL sessions may be established by this engine.
      * If session creations are not allowed, and there are no
@@ -1236,6 +1274,7 @@ public abstract class SSLEngine {
      * @see     #getEnableSessionCreation()
      */
     public abstract void setEnableSessionCreation(boolean flag);
+
 
     /**
      * Returns true if new SSL sessions may be established by this engine.

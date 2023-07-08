@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer.XPointerHandler;
@@ -32,10 +33,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This parser configuration includes an <code>XPointerHandler</code> in the pipeline
@@ -145,7 +162,9 @@ public class XPointerParserConfiguration extends XML11Configuration {
         setProperty(XPOINTER_HANDLER, fXPointerHandler);
         setProperty(NAMESPACE_CONTEXT, new XIncludeNamespaceSupport());
 
+
     } // <init>(SymbolTable,XMLGrammarPool)}
+
 
         /** Configures the pipeline. */
     protected void configurePipeline() {
@@ -207,6 +226,7 @@ public class XPointerParserConfiguration extends XML11Configuration {
             fDTDHandler.setDTDSource(fXPointerHandler);
         }
 
+
                 // configure XML document pipeline: insert after DTDValidator and
                 // before XML Schema validator
                 XMLDocumentSource prev = null;
@@ -232,6 +252,7 @@ public class XPointerParserConfiguration extends XML11Configuration {
 
                 fXIncludeHandler.setDocumentHandler(fXPointerHandler);
                 fXPointerHandler.setDocumentSource(fXIncludeHandler);
+
 
         } // configureXML11Pipeline()
 

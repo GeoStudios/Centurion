@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface XKeySymConstants {
     long XK_VoidSymbol = 0xFFFFFF ; /* void symbol */
 
@@ -40,6 +56,8 @@ public interface XKeySymConstants {
     long XK_Sys_Req = 0xFF15 ;
     long XK_Escape = 0xFF1B ;
     long XK_Delete = 0xFFFF ; /* Delete, rubout */
+
+
 
     /* International & multi-key character composition */
 
@@ -87,6 +105,7 @@ public interface XKeySymConstants {
     long XK_Page_Down = 0xFF56 ;
     long XK_End = 0xFF57 ; /* EOL */
     long XK_Begin = 0xFF58 ; /* BOL */
+
 
     /* Misc Functions */
 
@@ -145,6 +164,8 @@ public interface XKeySymConstants {
     long XK_KP_7 = 0xFFB7 ;
     long XK_KP_8 = 0xFFB8 ;
     long XK_KP_9 = 0xFFB9 ;
+
+
 
     /*
      * Auxilliary Functions; note the duplicate definitions for left and right
@@ -343,6 +364,7 @@ public interface XKeySymConstants {
     long XK_Pointer_Accelerate = 0xFEFA ;
     long XK_Pointer_DfltBtnNext = 0xFEFB ;
     long XK_Pointer_DfltBtnPrev = 0xFEFC ;
+
 
     /*
      * 3270 Terminal Keys
@@ -671,6 +693,7 @@ public interface XKeySymConstants {
     long XK_gcircumflex = 0x2f8 ;
     long XK_ubreve = 0x2fd ;
     long XK_scircumflex = 0x2fe ;
+
 
     /*
      *   Latin 4
@@ -1387,6 +1410,7 @@ public interface XKeySymConstants {
      *   Byte 3 = e
      */
 
+
     long XK_Hangul = 0xff31 ; /* Hangul start/stop(toggle) */
     long XK_Hangul_Start = 0xff32 ; /* Hangul start */
     long XK_Hangul_End = 0xff33 ; /* Hangul end, English start */
@@ -1509,6 +1533,7 @@ public interface XKeySymConstants {
     /* Korean currency symbol */
     long XK_Korean_Won = 0xeff ;
 
+
     long XK_EcuSign = 0x20a0 ;
     long XK_ColonSign = 0x20a1 ;
     long XK_CruzeiroSign = 0x20a2 ;
@@ -1561,6 +1586,7 @@ public interface XKeySymConstants {
     long hpXK_longminus  = 0x100000F6;
     long hpXK_block  = 0x100000FC;
 
+
     long osfXK_Copy  = 0x1004FF02;
     long osfXK_Cut  = 0x1004FF03;
     long osfXK_Paste  = 0x1004FF04;
@@ -1598,6 +1624,9 @@ public interface XKeySymConstants {
     long osfXK_Delete = 0x1004FFFF;
     long osfXK_Prior = 0x1004FF55;
     long osfXK_Next = 0x1004FF56;
+
+
+
 
     long  SunXK_FA_Grave  = 0x1005FF00;
     long  SunXK_FA_Circum  = 0x1005FF01;

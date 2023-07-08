@@ -21,6 +21,22 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal.resources;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * ResourceLocator
  *     This empty class is the only class in this package. Otherwise the

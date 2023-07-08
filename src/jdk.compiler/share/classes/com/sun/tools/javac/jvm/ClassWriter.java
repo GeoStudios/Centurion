@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
 import java.io.*;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -52,6 +53,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKi
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
 import static javax.tools.StandardLocation.CLASS_OUTPUT;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class provides operations to map an internal symbol table graph
  *  rooted in a ClassSymbol into a classfile.
@@ -205,6 +220,7 @@ public class ClassWriter extends ClassFile {
     private boolean dumpFieldModifiers; // -XDdumpmodifiers=f
     private boolean dumpInnerClassModifiers; // -XDdumpmodifiers=i
     private boolean dumpMethodModifiers; // -XDdumpmodifiers=m
+
 
     /** Return flags as a string, separated by " ".
      */

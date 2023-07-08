@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.awt.IllegalComponentStateException;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
@@ -30,6 +31,20 @@ import java.beans.PropertyChangeSupport;
 import java.base.share.classes.java.util.Locale;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code AccessibleContext} represents the minimum information all accessible

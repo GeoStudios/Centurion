@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.net.ftp;
 
+
 import java.util.Date;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code FtpDirEntry} is a class agregating all the information that the FTP client

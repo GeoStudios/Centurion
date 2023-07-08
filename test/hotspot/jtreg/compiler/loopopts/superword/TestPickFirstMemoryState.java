@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.compiler2.enabled
@@ -32,6 +47,7 @@ package compiler.loopopts.superword;
  * @run main/othervm -XX:CompileCommand=dontinline,compiler.loopopts.superword.TestPickFirstMemoryState::*
  *                   compiler.loopopts.superword.TestPickFirstMemoryState
  */
+
 
 public class TestPickFirstMemoryState {
 

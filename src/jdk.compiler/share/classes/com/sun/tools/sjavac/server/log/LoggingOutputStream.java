@@ -21,11 +21,26 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server.log;
 
+
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import java.io.ByteArrayOutputStream;
 import java.io.FilterOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LoggingOutputStream extends FilterOutputStream {
 

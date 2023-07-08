@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DocumentScannerImpl;
@@ -71,6 +72,20 @@ import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the configuration used to parse XML 1.0 and XML 1.1 documents.
@@ -792,6 +807,7 @@ public class XML11Configuration extends ParserConfigurationSettings
                 return (XMLErrorHandler)fProperties.get(ERROR_HANDLER);
         } // getErrorHandler():XMLErrorHandler
 
+
     /**
      * If the application decides to terminate parsing before the xml document
      * is fully parsed, the application should call this method to free any
@@ -1011,6 +1027,7 @@ public class XML11Configuration extends ParserConfigurationSettings
 
         } // setProperty(String,Object)
 
+
         /** Returns the locale. */
         public Locale getLocale() {
                 return fLocale;
@@ -1041,6 +1058,7 @@ public class XML11Configuration extends ParserConfigurationSettings
 
         } // resetCommon()
 
+
         /**
          * reset all components before parsing and namespace context
          */
@@ -1053,6 +1071,7 @@ public class XML11Configuration extends ParserConfigurationSettings
                 }
 
         } // resetXML11()
+
 
     /**
      *  Configures the XML 1.1 pipeline.
@@ -1245,6 +1264,7 @@ public class XML11Configuration extends ParserConfigurationSettings
         }
     } // configurePipeline()
 
+
     // features and properties
 
     /**
@@ -1436,6 +1456,7 @@ public class XML11Configuration extends ParserConfigurationSettings
 
     } // checkProperty(String)
 
+
     /**
      * Adds a component to the parser configuration. This method will
      * also add all of the component's recognized features and properties
@@ -1567,6 +1588,7 @@ public class XML11Configuration extends ParserConfigurationSettings
             f11Initialized = true;
         }
     }
+
 
     /**
      * Reset the symbol table if it wasn't provided during construction,

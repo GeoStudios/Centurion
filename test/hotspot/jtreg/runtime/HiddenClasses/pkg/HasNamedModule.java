@@ -21,10 +21,24 @@
 
 package pkg;
 
+
 import java.lang.invoke.MethodType;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class is used by test HiddenGetModule.java.
 public class HasNamedModule {

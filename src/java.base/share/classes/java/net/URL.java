@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.io.File;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
@@ -44,6 +45,20 @@ import jdk.internal.misc.VM;
 import sun.net.util.IPAddressUtil;
 import sun.security.util.SecurityConstants;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code URL} represents a Uniform Resource
@@ -827,6 +842,7 @@ public final class URL implements java.io.Serializable {
         return hostAddress;
     }
 
+
     /**
      * Gets the query part of this {@code URL}.
      *
@@ -1577,6 +1593,7 @@ public final class URL implements java.io.Serializable {
         String file = tempState.getFile();
         String ref = tempState.getRef();
         int hashCode = tempState.getHashCode();
+
 
         // Construct authority part
         if (authority == null

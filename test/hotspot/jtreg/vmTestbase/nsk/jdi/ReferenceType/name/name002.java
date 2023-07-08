@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.name;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>name()</code>
@@ -47,6 +61,7 @@ public class name002 {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "name002b";
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

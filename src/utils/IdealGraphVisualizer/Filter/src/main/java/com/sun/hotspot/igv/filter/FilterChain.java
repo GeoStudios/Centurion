@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
+
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.ChangedEventProvider;
 import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
@@ -28,6 +29,20 @@ import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Arrayjava.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Collections;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -79,12 +94,14 @@ public class FilterChain implements ChangedEventProvider<FilterChain> {
             }
         }
 
+
         for (Filter f : filters) {
             if (!applied.contains(f)) {
                 f.apply(d);
             }
         }
     }
+
 
     public void addFilter(Filter filter) {
         assert filter != null;

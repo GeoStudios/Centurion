@@ -21,6 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Corresponds to <text>
 final class XmlText extends XmlInput {
 

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
 import java.awt.Color;
 import java.awt.Rectangle;
 import java.awt.AlphaComposite;
@@ -35,6 +36,20 @@ import java.desktop.share.classes.sun.awt.image.SurfaceManager;
 import java.desktop.share.classes.sun.awt.image.SurfaceManager.FlushableCacheData;
 import java.security.AccessController;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The proxy class encapsulates the logic for managing alternate

@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6357214
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main/othervm/timeout=60 -DshowAll=ffo -DeventID=444 compiler.c2.Test6357214
  */
+
 
 // The test hangs after few iterations before the fix. So it fails if timeout.
 public class Test6357214 {

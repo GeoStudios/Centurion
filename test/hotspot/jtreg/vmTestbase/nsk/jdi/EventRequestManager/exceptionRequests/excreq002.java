@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequestManager.exceptionRequests;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -97,6 +111,7 @@ public class excreq002 extends JDIBase {
         "nsk.jdi.EventRequestManager.exceptionRequests.excreq002a";
 
     //====================================================== test program
+
 
     private int runThis (String argv[], PrintStream out) {
 
@@ -184,6 +199,7 @@ public class excreq002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -256,6 +272,7 @@ public class excreq002 extends JDIBase {
                                           null, null, null, null, null };
         int listSize;
         int flag;
+
 
         log1("     TESTING BEGINS");
 

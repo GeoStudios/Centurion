@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LLOAD - Load long from local variable
@@ -41,9 +58,11 @@ public class LLOAD extends LoadInstruction {
         super(com.sun.org.apache.bcel.internal.Const.LLOAD, com.sun.org.apache.bcel.internal.Const.LLOAD_0);
     }
 
+
     public LLOAD(final int n) {
         super(com.sun.org.apache.bcel.internal.Const.LLOAD, com.sun.org.apache.bcel.internal.Const.LLOAD_0, n);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

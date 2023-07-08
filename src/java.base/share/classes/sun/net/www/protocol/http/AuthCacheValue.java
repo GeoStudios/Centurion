@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
+
 import java.io.Serializable;
 import java.net.PasswordAuthentication;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * AuthCacheValue: interface to minimize exposure to authentication cache

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.module;
 
+
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Exports;
 import java.lang.module.ModuleDescriptor.Opens;
@@ -31,6 +32,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This builder is optimized for reconstituting the {@code ModuleDescriptor}s

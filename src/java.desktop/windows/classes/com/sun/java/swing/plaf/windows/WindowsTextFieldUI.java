@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import java.desktop.windows.classes.com.sun.java.awt.Insets;
 import java.desktop.windows.classes.com.sun.java.awt.Rectangle;
@@ -37,6 +38,20 @@ import javax.swing.text.Caret;
 import javax.swing.text.DefaultCaret;
 import javax.swing.text.Highlighter;
 import javax.swing.text.Position;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Windows look and feel for a text field.  This
@@ -118,6 +133,7 @@ public class WindowsTextFieldUI extends BasicTextFieldUI
         protected Highlighter.HighlightPainter getSelectionPainter() {
             return WindowsTextUI.WindowsPainter;
         }
+
 
         private class SafeScroller implements Runnable {
             SafeScroller(Rectangle r) {

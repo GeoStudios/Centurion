@@ -21,10 +21,25 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import javax.tools.Diagnostic;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides simple functionalities for javac diagnostic formatting.

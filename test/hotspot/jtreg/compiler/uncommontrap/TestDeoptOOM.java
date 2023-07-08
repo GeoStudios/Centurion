@@ -21,6 +21,21 @@
 
 package compiler.uncommontrap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6898462 8198826
@@ -32,6 +47,7 @@ package compiler.uncommontrap;
  *      -XX:CompileCommand=exclude,compiler.uncommontrap.TestDeoptOOM::m9_1
  *      compiler.uncommontrap.TestDeoptOOM
  */
+
 
 public class TestDeoptOOM {
 

@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -33,6 +34,20 @@ import javax.swing.border.BevelBorder;
 import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.SoftBevelBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Illustration of how to use the clone feature of the demo.
@@ -83,6 +98,7 @@ public final class CloningFeature extends JPanel implements Runnable {
     @Override
     @SuppressWarnings("SleepWhileHoldingLock")
     public void run() {
+
 
         int index = demoInstVars.getTabbedPane().getSelectedIndex();
         if (index == 0) {

@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.io.Serializable;
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboBoxEditor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default editor for Metal editable combo boxes
@@ -114,6 +129,7 @@ public class MetalComboBoxEditor extends BasicComboBoxEditor {
             return insets;
         }
     }
+
 
     /**
      * A subclass of BasicComboBoxEditor that implements UIResource.

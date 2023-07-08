@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This runtime exception is thrown to indicate that the <i>open type</i> of an <i>open data</i> value
  * is not the one expected.

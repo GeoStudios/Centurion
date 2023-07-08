@@ -21,6 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import java.security.AccessController;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
@@ -32,6 +33,20 @@ import javax.management.MBeanException;
 import javax.management.MBeanInfo;
 import javax.management.ReflectionException;
 import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Per-MBean-interface behavior.  A single instance of this class can be shared

@@ -21,16 +21,35 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import static java.lang.invoke.MethodType.methodType;.extended
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8155106
  * @run testng/othervm -ea -esa test.java.lang.invoke.ArrayConstructorTest
  */
+
+
+
+
+
 
 public class ArrayConstructorTest {
 

@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
 
+
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.util.LookupHistory;
@@ -36,6 +37,20 @@ import org.openide.util.NbBundle;
 import org.openide.util.Utilities;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -56,9 +71,12 @@ final class ControlFlowTopComponent extends TopComponent implements LookupListen
         this.setLayout(new BorderLayout());
         this.associateLookup(scene.getLookup());
 
+
         JScrollPane panel = new JScrollPane(scene.createView());
         this.add(panel, BorderLayout.CENTER);
     }
+
+
 
     /** This method is called from within the constructor to
      * initialize the form.

@@ -21,16 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLSchemaDescription;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * All information specific to XML Schema grammars.

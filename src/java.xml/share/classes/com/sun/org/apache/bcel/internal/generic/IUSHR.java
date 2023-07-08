@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * IUSHR - Logical shift right int
@@ -36,6 +53,7 @@ public class IUSHR extends ArithmeticInstruction {
     public IUSHR() {
         super(com.sun.org.apache.bcel.internal.Const.IUSHR);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

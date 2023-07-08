@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
 import java.util.HashMap;
@@ -33,6 +34,20 @@ import javax.xml.validation.Schema;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the implementation specific class for the
@@ -173,6 +188,7 @@ public class SAXParserFactoryImpl extends SAXParserFactory {
     public void setXIncludeAware(boolean state) {
         putInFeatures(XINCLUDE_FEATURE, state);
     }
+
 
     public void setValidating(boolean validating) {
         putInFeatures(VALIDATION_FEATURE, validating);

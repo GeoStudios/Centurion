@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6795465
@@ -28,6 +43,7 @@ package compiler.c1;
  *
  * @run main compiler.c1.Test6795465
  */
+
 
 public class Test6795465 {
     static long var_1 = -1;

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.nio.cs;
 
+
 import jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.nio.Buffer;
@@ -32,6 +33,20 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.base.share.classes.java.util.Arrays;
 import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SingleByte
 {

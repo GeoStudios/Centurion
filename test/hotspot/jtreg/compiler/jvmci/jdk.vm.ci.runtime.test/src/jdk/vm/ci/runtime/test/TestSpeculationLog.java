@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.runtime.test;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
@@ -34,6 +35,19 @@ import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.meta.SpeculationLog;
 import jdk.vm.ci.meta.SpeculationLog.SpeculationReasonEncoding;
 import jdk.vm.ci.runtime.JVMCI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestSpeculationLog extends MethodUniverse {
 

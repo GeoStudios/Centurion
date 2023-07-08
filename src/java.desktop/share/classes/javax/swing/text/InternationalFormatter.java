@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.event.ActionEvent;
 import java.io.*;
 import java.text.*;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.util.*;
 import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>InternationalFormatter</code> extends <code>DefaultFormatter</code>,
@@ -156,6 +171,7 @@ public class InternationalFormatter extends DefaultFormatter {
      * incrementing/decrementing via the actions.
      */
     private transient boolean ignoreDocumentMutate;
+
 
     /**
      * Creates an <code>InternationalFormatter</code> with no
@@ -449,6 +465,7 @@ public class InternationalFormatter extends DefaultFormatter {
         }
         return null;
     }
+
 
     /**
      * Returns the start of the first run that contains the attribute
@@ -938,6 +955,7 @@ public class InternationalFormatter extends DefaultFormatter {
         updateMaskIfNecessary();
     }
 
+
     /**
      * Overriden to return an instance of <code>ExtendedReplaceHolder</code>.
      */
@@ -949,6 +967,7 @@ public class InternationalFormatter extends DefaultFormatter {
         }
         return super.getReplaceHolder(fb, offset, length, text, attrs);
     }
+
 
     /**
      * As InternationalFormatter replaces the complete text on every edit,
@@ -981,6 +1000,7 @@ public class InternationalFormatter extends DefaultFormatter {
             length = fb.getDocument().getLength();
         }
     }
+
 
     /**
      * IncrementAction is used to increment the value by a certain amount.

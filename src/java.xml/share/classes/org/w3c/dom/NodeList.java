@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The <code>NodeList</code> interface provides the abstraction of an ordered
  * collection of nodes, without defining or constraining how this collection

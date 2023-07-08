@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.util.Map;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -55,6 +56,20 @@ import java.awt.print.PrinterGraphics;
 import java.awt.print.PrinterJob;
 import java.text.AttributedCharacterIterator;
 import java.desktop.share.classes.sun.java2d.Spans;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PeekGraphics extends Graphics2D
                           implements PrinterGraphics,
@@ -387,6 +402,7 @@ public class PeekGraphics extends Graphics2D
         return mGraphics.getClipBounds();
     }
 
+
     /**
      * Intersects the current clip with the specified rectangle.
      * The resulting clipping area is the intersection of the current
@@ -404,6 +420,7 @@ public class PeekGraphics extends Graphics2D
     public void clipRect(int x, int y, int width, int height) {
         mGraphics.clipRect(x, y, width, height);
     }
+
 
     /**
      * Sets the current clip to the rectangle specified by the given
@@ -433,6 +450,7 @@ public class PeekGraphics extends Graphics2D
         return mGraphics.getClip();
     }
 
+
     /**
      * Sets the current clipping area to an arbitrary clip shape.
      * Not all objects which implement the {@code Shape}
@@ -448,6 +466,7 @@ public class PeekGraphics extends Graphics2D
     public void setClip(Shape clip) {
         mGraphics.setClip(clip);
     }
+
 
     /**
      * Copies an area of the component by a distance specified by
@@ -486,6 +505,8 @@ public class PeekGraphics extends Graphics2D
         addStrokeShape(new Line2D.Float(x1, y1, x2, y2));
         mPrintMetrics.draw(this);
     }
+
+
 
     /**
      * Fills the specified rectangle.
@@ -623,6 +644,7 @@ public class PeekGraphics extends Graphics2D
         mPrintMetrics.fill(this);
 
     }
+
 
     /**
      * Draws the outline of a circular or elliptical arc
@@ -801,6 +823,7 @@ public class PeekGraphics extends Graphics2D
 
     }
 
+
     /**
      * Draws the text given by the specified string, using this
      * graphics context's current font and color. The baseline of the
@@ -874,6 +897,7 @@ public class PeekGraphics extends Graphics2D
         layout.draw(this, x, y);
     }
 
+
     /**
      * Draws as much of the specified image as is currently available.
      * The image is drawn with its top-left corner at
@@ -915,6 +939,7 @@ public class PeekGraphics extends Graphics2D
 
         return mGraphics.drawImage(img, x, y, observer);
     }
+
 
     /**
      * Draws as much of the specified image as has already been scaled
@@ -1011,6 +1036,7 @@ public class PeekGraphics extends Graphics2D
 
         return mGraphics.drawImage(img, x, y, bgcolor, observer);
     }
+
 
     /**
      * Draws as much of the specified image as has already been scaled
@@ -1132,6 +1158,7 @@ public class PeekGraphics extends Graphics2D
 
     }
 
+
     /**
      * Draws as much of the specified area of the specified image as is
      * currently available, scaling it on the fly to fit inside the
@@ -1205,6 +1232,7 @@ public class PeekGraphics extends Graphics2D
 
     }
 
+
     /**
      * Draws an image, applying a transform from image space into user space
      * before drawing.
@@ -1233,6 +1261,7 @@ public class PeekGraphics extends Graphics2D
         mPrintMetrics.drawImage(this, img);
         mDrawingArea.addInfinite();
     }
+
 
     public void drawRenderableImage(RenderableImage img,
                                     AffineTransform xform) {
@@ -1304,6 +1333,7 @@ public class PeekGraphics extends Graphics2D
         mPrintMetrics.draw(this);
     }
 
+
     /**
      * Draws an image, applying a transform from image space into user space
      * before drawing.
@@ -1337,6 +1367,7 @@ public class PeekGraphics extends Graphics2D
 
         return mGraphics.drawImage(img, xform, obs);
 
+
 //      if (mDrawingArea[0] != null) {
 //          Rectangle2D.Double bbox = new Rectangle2D.Double();
 //          Point2D leftTop = new Point2D.Double(0, 0);
@@ -1351,6 +1382,7 @@ public class PeekGraphics extends Graphics2D
 
 //      }
     }
+
 
     /**
      * Draws a BufferedImage that is filtered with a BufferedImageOp.
@@ -1381,6 +1413,7 @@ public class PeekGraphics extends Graphics2D
         mPrintMetrics.drawImage(this, (RenderedImage) img);
         mDrawingArea.addInfinite();
     }
+
 
     /**
      * Draws a string of text.
@@ -1454,6 +1487,7 @@ public class PeekGraphics extends Graphics2D
 
     }
 
+
     /**
      * Checks to see if the outline of a Shape intersects the specified
      * Rectangle in device space.
@@ -1492,6 +1526,7 @@ public class PeekGraphics extends Graphics2D
     public void setComposite(Composite comp) {
         mGraphics.setComposite(comp);
     }
+
 
     /**
      * Sets the Paint in the current graphics state.
@@ -1726,6 +1761,8 @@ public class PeekGraphics extends Graphics2D
         */
         //mDrawingArea.addInfinite();
 
+
+
         AffineTransform matrix = getTransform();
 
         Shape transShape = matrix.createTransformedShape(rect);
@@ -1734,6 +1771,7 @@ public class PeekGraphics extends Graphics2D
 
         mDrawingArea.add((float) transRect.getMinY(),
                          (float) transRect.getMaxY());
+
 
     }
 
@@ -1778,6 +1816,7 @@ public class PeekGraphics extends Graphics2D
             }
         }
 
+
         return img.getWidth(this);
     }
 
@@ -1792,6 +1831,7 @@ public class PeekGraphics extends Graphics2D
             } catch (InterruptedException e) {
             }
         }
+
 
         return img.getHeight(this);
     }

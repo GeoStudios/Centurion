@@ -21,7 +21,22 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.desktop.windows.classes.sun.awt.PlatformFont;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WFontPeer extends PlatformFont {
 

@@ -21,10 +21,24 @@
 
 package nsk.jdb.fields.fields001;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is debuggee aplication */
 public class fields001a {
@@ -36,6 +50,7 @@ public class fields001a {
        fields001a _fields001a = new fields001a();
        System.exit(fields001.JCK_STATUS_BASE + _fields001a.runIt(args, System.out));
     }
+
 
     static void lastBreak () {}
 

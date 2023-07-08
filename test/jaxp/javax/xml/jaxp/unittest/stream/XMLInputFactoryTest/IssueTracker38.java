@@ -21,6 +21,7 @@
 
 package stream.XMLInputFactoryTest;
 
+
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
@@ -30,6 +31,19 @@ import javax.xml.transform.sax.SAXSource;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -86,5 +100,6 @@ public class IssueTracker38 {
         XMLInputFactory xIF = XMLInputFactory.newInstance();
         xIF.createXMLStreamReader(source);
     }
+
 
 }

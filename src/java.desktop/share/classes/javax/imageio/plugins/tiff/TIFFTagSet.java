@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
+
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
@@ -29,6 +30,20 @@ import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing a set of TIFF tags.  Each tag in the set must have

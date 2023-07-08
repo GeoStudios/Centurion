@@ -21,6 +21,21 @@
 
 package compiler.vectorization;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8155612
@@ -28,6 +43,7 @@ package compiler.vectorization;
  *
  * @run main/othervm -XX:-BackgroundCompilation compiler.vectorization.TestVectorUnalignedOffset
  */
+
 
 public class TestVectorUnalignedOffset {
 

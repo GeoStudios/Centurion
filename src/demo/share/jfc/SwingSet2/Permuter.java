@@ -21,7 +21,22 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that implements a cheesy pseudorandom permutation of the integers

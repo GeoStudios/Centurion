@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.events.EM02;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class em02t003a extends Thread {
 
     public void run() {

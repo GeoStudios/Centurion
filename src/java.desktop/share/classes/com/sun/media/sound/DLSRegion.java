@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to store region parts for instrument.

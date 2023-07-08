@@ -21,8 +21,23 @@
 
 package java.scripting.share.classes.javax.script;
 
+
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple implementation of ScriptContext.
@@ -59,6 +74,7 @@ public class SimpleScriptContext  implements ScriptContext {
      * @see java.io.InputStreamReader
      */
     protected Reader reader;
+
 
     /**
      * This is the engine scope bindings.
@@ -131,6 +147,7 @@ public class SimpleScriptContext  implements ScriptContext {
                 throw new IllegalArgumentException("Invalid scope value.");
         }
     }
+
 
     /**
      * Retrieves the value of the attribute with the given name in

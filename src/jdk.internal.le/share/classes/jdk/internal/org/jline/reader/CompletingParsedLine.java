@@ -21,6 +21,22 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An extension of {@link ParsedLine} that, being aware of the quoting and escaping rules
  * of the {@link org.jline.reader.Parser} that produced it, knows if and how a completion candidate

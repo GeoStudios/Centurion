@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFT6Compressor extends TIFFFaxCompressor {
 
@@ -151,6 +166,7 @@ public class TIFFT6Compressor extends TIFFFaxCompressor {
             throw new IIOException(
                              "Bits per sample must be 1 for T6 compression!");
         }
+
 
         if (metadata instanceof TIFFImageMetadata tim) {
 

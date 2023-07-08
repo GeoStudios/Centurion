@@ -21,6 +21,7 @@
 
 package java.management.share.classes.sun.management;
 
+
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.lang.management.MemoryUsage;
@@ -31,6 +32,20 @@ import javax.management.ObjectName;
 import javax.management.MBeanNotificationInfo;
 import javax.management.Notification;
 import javax.management.openmbean.CompositeData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for the memory subsystem.

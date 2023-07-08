@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.java_cup.internal.runtime.Symbol;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
@@ -56,6 +57,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021
@@ -471,6 +486,7 @@ public class Parser implements Constants, ContentHandler {
 
             JdkXmlUtils.setXMLReaderPropertyIfSupport(reader, XMLConstants.ACCESS_EXTERNAL_DTD,
                     _xsltc.getProperty(XMLConstants.ACCESS_EXTERNAL_DTD), true);
+
 
             boolean supportCatalog = true;
             boolean useCatalog = _xsltc.getFeature(JdkXmlFeatures.XmlFeature.USE_CATALOG);
@@ -1089,6 +1105,7 @@ public class Parser implements Constants, ContentHandler {
         }
     }
 
+
     /**
      * Parse an XPath expression:
      *  @param parent - XSL element where the expression occured
@@ -1268,6 +1285,7 @@ public class Parser implements Constants, ContentHandler {
      * SAX2: Receive notification of the end of a document.
      */
     public void endDocument() { }
+
 
     /**
      * SAX2: Begin the scope of a prefix-URI Namespace mapping.

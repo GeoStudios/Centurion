@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * I2B - Convert int to byte
@@ -38,6 +55,7 @@ public class I2B extends ConversionInstruction {
     public I2B() {
         super(com.sun.org.apache.bcel.internal.Const.I2B);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

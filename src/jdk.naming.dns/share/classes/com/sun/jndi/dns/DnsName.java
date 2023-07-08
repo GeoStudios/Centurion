@@ -21,10 +21,25 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Comparator;
 import java.util.Enumeration;
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code DnsName} implements compound names for DNS as specified by
@@ -93,6 +108,7 @@ import javax.naming.*;
  *
  */
 
+
 public final class DnsName implements Name {
 
     // If non-null, the domain name represented by this DnsName.
@@ -107,6 +123,7 @@ public final class DnsName implements Name {
     // packet.  Equal to the sum of the lengths of each label, plus the
     // number of non-root labels, plus 1.  Must remain less than 256.
     private short octets = 1;
+
 
     /**
      * Constructs a {@code DnsName} representing the empty domain name.
@@ -148,6 +165,7 @@ public final class DnsName implements Name {
             }
         }
     }
+
 
     public String toString() {
         if (domain == null) {
@@ -352,6 +370,7 @@ public final class DnsName implements Name {
         return this;
     }
 
+
     boolean hasRootLabel() {
         return (!isEmpty() &&
                 get(0).isEmpty());
@@ -394,6 +413,7 @@ public final class DnsName implements Name {
     String getKey(int i) {
         return keyForLabel(get(i));
     }
+
 
     /*
      * Parses a domain name, setting the values of instance vars accordingly.
@@ -559,6 +579,7 @@ public final class DnsName implements Name {
         }
         return sb.toString();
     }
+
 
     /**
      * Serializes only the domain name string, for compactness and to avoid

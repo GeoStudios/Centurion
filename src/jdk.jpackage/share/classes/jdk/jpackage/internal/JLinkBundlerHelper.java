@@ -21,6 +21,7 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
+
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -44,6 +45,20 @@ import java.util.spi.ToolProvider;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import jdk.jpackage.share.classes.jdk.internal.module.ModulePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class JLinkBundlerHelper {
 
@@ -188,6 +203,7 @@ final class JLinkBundlerHelper {
 
         args.add(0, "jlink");
         Log.verbose(args, List.of(jlinkOut), retVal, -1);
+
 
         if (retVal != 0) {
             throw new PackagerException("error.jlink.failed" , jlinkOut);

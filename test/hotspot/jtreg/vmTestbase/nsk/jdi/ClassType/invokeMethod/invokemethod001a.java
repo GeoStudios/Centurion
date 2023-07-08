@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.invokeMethod;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the invokemethod001 JDI test.
@@ -77,6 +91,7 @@ public class invokemethod001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -183,6 +198,7 @@ class Threadinvokemethod001a extends Thread {
 
     public static final int breakpointLineNumber1 = 3;
 
+
     void log(String str) {
         invokemethod001a.log2("thread2: " + str);
     }
@@ -217,6 +233,7 @@ class Threadinvokemethod001a extends Thread {
 
 }
 
+
 /*
 class MethodThread extends Thread {
 
@@ -238,6 +255,7 @@ class MethodThread extends Thread {
         invokemethod001a.log1("synchronized block exit");
         return;
     }
+
 
     public boolean blValue() {
         return true;

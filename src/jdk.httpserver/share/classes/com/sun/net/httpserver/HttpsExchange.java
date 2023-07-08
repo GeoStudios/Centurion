@@ -21,7 +21,22 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
+
 import javax.net.ssl.SSLSession;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a HTTPS request received and a response to be

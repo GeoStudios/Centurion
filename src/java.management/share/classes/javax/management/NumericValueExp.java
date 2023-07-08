@@ -21,12 +21,27 @@
 
 package java.management.share.classes.javax.management;
 
+
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents numbers that are arguments to relational constraints.
@@ -97,6 +112,7 @@ class NumericValueExp extends QueryEval implements ValueExp {
     }
     //
     // END Serialization compatibility stuff
+
 
     /**
      * Basic constructor.
@@ -219,6 +235,7 @@ class NumericValueExp extends QueryEval implements ValueExp {
         in.defaultReadObject();
       }
     }
+
 
     /**
      * Serializes a {@link NumericValueExp} to an {@link ObjectOutputStream}.

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.InputEvent;
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code MenuShortcut} class represents a keyboard accelerator

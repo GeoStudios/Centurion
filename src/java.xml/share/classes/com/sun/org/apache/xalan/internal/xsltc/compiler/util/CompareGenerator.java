@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ACONST_NULL;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
@@ -33,10 +34,26 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVari
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */

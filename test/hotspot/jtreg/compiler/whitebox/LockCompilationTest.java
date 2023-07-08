@@ -21,7 +21,21 @@
 
 package compiler.whitebox;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test LockCompilationTest
@@ -37,6 +51,8 @@ import jdk.test.lib.Asserts;
  *                   -XX:CompileCommand=compileonly,*SimpleTestCaseHelper::method
  *                   compiler.whitebox.LockCompilationTest
  */
+
+
 
 public class LockCompilationTest extends CompilerWhiteBoxTest {
 

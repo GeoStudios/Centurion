@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -62,6 +63,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKi
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.WILDCARD;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Type checking helper class for the attribution phase.
  *
@@ -289,6 +304,7 @@ public class Check {
         sunApiHandler.reportDeferredDiagnostic();
     }
 
+
     /** Report a failure to complete a class.
      *  @param pos        Position to be used for error reporting.
      *  @param ex         The failure to report.
@@ -428,6 +444,7 @@ public class Check {
 /* *************************************************************************
  * Class name generation
  **************************************************************************/
+
 
     private final Map<Pair<Name, Name>, Integer> localClassNameIndexes = new HashMap<>();
 
@@ -1323,6 +1340,7 @@ public class Check {
         }
     }
 
+
     /** Determine if this enum should be implicitly final.
      *
      *  If the enum has no specialized enum constants, it is final.
@@ -1902,6 +1920,7 @@ public class Check {
                 return (stimpl != m);
         }
 
+
     // used to check if there were any unchecked conversions
     Warner overrideWarner = new Warner();
 
@@ -2227,6 +2246,7 @@ public class Check {
                 types.hasSameArgs(s1.erasure(types), s2.erasure(types)));
     }
 
+
     /** Check that all abstract members of given class have definitions.
      *  @param pos          Position to be used for error reporting.
      *  @param c            The class.
@@ -2358,6 +2378,7 @@ public class Check {
     void checkNonCyclic(DiagnosticPosition pos, Type t) {
         checkNonCyclicInternal(pos, t);
     }
+
 
     void checkNonCyclic(DiagnosticPosition pos, TypeVar t) {
         checkNonCyclic1(pos, t, List.nil());
@@ -3218,6 +3239,7 @@ public class Check {
         return defaultTargets;
     }
     private Set<Name> defaultTargets;
+
 
     /** Checks that s is a subset of t, with respect to ElementType
      * semantics, specifically {ANNOTATION_TYPE} is a subset of {TYPE},

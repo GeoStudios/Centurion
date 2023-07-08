@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * AASTORE -  Store into reference array
@@ -38,6 +55,7 @@ public class AASTORE extends ArrayInstruction implements StackConsumer {
     public AASTORE() {
         super(com.sun.org.apache.bcel.internal.Const.AASTORE);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
@@ -32,6 +33,20 @@ import java.desktop.share.classes.javax.swing.plaf.ToolTipUI;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.text.View;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Standard tool tip L&amp;F.
@@ -247,6 +262,7 @@ public class BasicToolTipUI extends ToolTipUI
                                       "ToolTip.foreground");
         }
     }
+
 
     private static class PropertyChangeHandler implements
                                  PropertyChangeListener {

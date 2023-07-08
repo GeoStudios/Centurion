@@ -21,9 +21,23 @@
 
 package nsk.jvmti.GetObjectSize;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class objsize001 extends DebugeeClass {
 

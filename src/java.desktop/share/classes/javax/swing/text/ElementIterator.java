@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.util.Enumeration;
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code ElementIterator}, as the name suggests, iterates over the

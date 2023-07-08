@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
@@ -33,6 +34,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the basic node test class for both match patterns and location path
@@ -400,8 +415,10 @@ public class NodeTest extends Expression
     if (0 != (whatToShow & DTMFilter.SHOW_CDATA_SECTION))
       return DTM.CDATA_SECTION_NODE;
 
+
     return 0;
   }
+
 
   /**
    * Do a diagnostics dump of a whatToShow bit set.

@@ -21,7 +21,21 @@
 
 package compiler.types.correctness.scenarios;
 
+
 import compiler.types.correctness.hierarchies.TypeHierarchy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test scenario

@@ -21,6 +21,7 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine06;
 
+
 import com.sun.tools.attach.AgentInitializationException;
 import com.sun.tools.attach.VirtualMachine;
 import nsk.share.TestBug;
@@ -28,6 +29,19 @@ import nsk.share.aod.AODTestRunner;
 import nsk.share.aod.AgentInformation;
 import nsk.share.test.TestUtils;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -92,6 +106,9 @@ import java.util.java.util.java.util.java.util.List;
  *      -target nsk.share.aod.TargetApplicationWaitingAgents
  *      -ja VM06Agent00.jar,VM06Agent01.jar,VM06Agent02.jar,VM06Agent03.jar
  */
+
+
+
 
 /*
  * Test checks following methods:

@@ -21,12 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Set up error messages.
@@ -90,6 +108,7 @@ public class XMLErrorResources_fr extends ListResourceBundle
 
   /** Maximum total warnings and error messages.          */
   public static final int MAX_MESSAGES = MAX_CODE + MAX_WARNING + 1;
+
 
   /*
    * Message keys
@@ -438,6 +457,7 @@ public class XMLErrorResources_fr extends ListResourceBundle
 
     {ER_COULD_NOT_LOAD_METHOD_PROPERTY,
       "Impossible de charger le fichier de propri\u00E9t\u00E9s ''{0}'' pour la m\u00E9thode de sortie ''{1}'' (v\u00E9rifier CLASSPATH)" }
+
 
   };
 

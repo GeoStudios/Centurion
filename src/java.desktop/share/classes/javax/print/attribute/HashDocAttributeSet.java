@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
+
 import java.io.Serial;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code HashDocAttributeSet} provides an attribute set which inherits

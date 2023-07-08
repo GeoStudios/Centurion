@@ -21,7 +21,21 @@
 
 package compiler.vectorization;
 
+
 import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -34,6 +48,8 @@ import java.util.stream.IntStream;
  * @run main compiler.vectorization.TestForEachRem test3
  * @run main compiler.vectorization.TestForEachRem test4
  */
+
+
 
 public class TestForEachRem {
     static final int RANGE = 512;

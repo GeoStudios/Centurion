@@ -21,6 +21,22 @@
 
 package java.logging.share.classes.java.util.logging;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * {@code Handler} that buffers requests in a circular buffer in memory.
  * <p>

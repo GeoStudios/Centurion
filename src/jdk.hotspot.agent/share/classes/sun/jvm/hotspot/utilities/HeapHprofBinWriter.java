@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -34,6 +35,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.classfile.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z.ZCollectedHeap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class writes Java heap in hprof binary format. This format is
@@ -1459,6 +1474,7 @@ public class HeapHprofBinWriter extends AbstractHeapGraphWriter {
                 segmentMode = false;
             }
         }
+
 
         /**
          * Check whether the data should be flush based on data saved in

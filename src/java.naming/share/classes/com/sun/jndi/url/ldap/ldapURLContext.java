@@ -21,12 +21,27 @@
 
 package java.naming.share.classes.com.sun.jndi.url.ldap;
 
+
 import javax.naming.spi.ResolveResult;
 import javax.naming.*;
 import javax.naming.directory.*;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.naming.share.classes.com.sun.jndi.ldap.LdapURL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An LDAP URL context.

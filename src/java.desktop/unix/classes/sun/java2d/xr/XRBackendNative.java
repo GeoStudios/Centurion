@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import java.awt.geom.*;
 import java.util.*;
 import java.desktop.unix.classes.sun.font.*;
 import java.desktop.unix.classes.sun.java2d.pipe.*;
 import static java.desktop.unix.classes.sun.java2d.xr.XRUtils.XDoubleToFixed;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Native implementation of XRBackend.

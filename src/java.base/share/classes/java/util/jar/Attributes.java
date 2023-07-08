@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util.jar;
 
+
 import java.base.share.classes.java.io.DataOutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Collection;
@@ -33,6 +34,20 @@ import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.Stable;
 import sun.nio.cs.UTF_8;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Attributes class maps Manifest attribute names to associated string
@@ -82,6 +97,7 @@ public class Attributes implements Map<Object,Object>, Cloneable {
     public Attributes(Attributes attr) {
         map = new LinkedHashMap<>(attr);
     }
+
 
     /**
      * Returns the value of the specified attribute name, or null if the

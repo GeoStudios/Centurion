@@ -21,8 +21,22 @@
 
 package compiler.rtm.cli;
 
+
 import jdk.test.lib.process.ExitCode;
 import jdk.test.lib.cli.CommandLineOptionTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -36,6 +50,8 @@ import jdk.test.lib.cli.CommandLineOptionTest;
  * @requires vm.rtm.cpu & !(vm.flavor == "server" & !vm.emulatedClient)
  * @run driver compiler.rtm.cli.TestUseRTMLockingOptionOnUnsupportedVM
  */
+
+
 
 public class TestUseRTMLockingOptionOnUnsupportedVM {
     private static final String DEFAULT_VALUE = "false";

@@ -21,9 +21,23 @@
 
 package jit.t.t100;
 
+
 import java.lang.*;
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,12 +50,14 @@ import nsk.share.GoldChecker;
  * @run main/othervm jit.t.t100.t100
  */
 
+
 /*
    This test check it a JIT can still detect stack overflow. Method
    invocation overhead is expensive in Java and improving it is a
    nobel cause for a JIT. JITs just have to be careful that they
    don't loose some error handling ability in doing so.
 */
+
 
 public class t100 {
     public static final GoldChecker goldChecker = new GoldChecker( "t100" );

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,6 +32,20 @@ import java.io.Serializable;
 import java.security.AccessController;
 import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides default implementations for the JFC <code>Action</code>
@@ -62,6 +77,7 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
      * Specifies whether action is enabled; the default is true.
      */
     protected boolean enabled = true;
+
 
     /**
      * Contains the array of key bindings.
@@ -115,6 +131,8 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
     static boolean isSelected(Action a) {
         return Boolean.TRUE.equals(a.getValue(Action.SELECTED_KEY));
     }
+
+
 
     /**
      * Creates an {@code Action}.
@@ -231,6 +249,7 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
         }
     }
 
+
     /**
      * Returns an array of <code>Object</code>s which are keys for
      * which values have been set for this <code>AbstractAction</code>,
@@ -271,6 +290,7 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
         changeSupport.firePropertyChange(propertyName, oldValue, newValue);
     }
 
+
     /**
      * Adds a <code>PropertyChangeListener</code> to the listener list.
      * The listener is registered for all properties.
@@ -293,6 +313,7 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
         changeSupport.addPropertyChangeListener(listener);
     }
 
+
     /**
      * Removes a <code>PropertyChangeListener</code> from the listener list.
      * This removes a <code>PropertyChangeListener</code> that was registered
@@ -309,6 +330,7 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
         changeSupport.removePropertyChangeListener(listener);
     }
 
+
     /**
      * Returns an array of all the <code>PropertyChangeListener</code>s added
      * to this AbstractAction with addPropertyChangeListener().
@@ -322,6 +344,7 @@ public abstract class AbstractAction implements Action, Cloneable, Serializable
         }
         return changeSupport.getPropertyChangeListeners();
     }
+
 
     /**
      * Clones the abstract action. This gives the clone

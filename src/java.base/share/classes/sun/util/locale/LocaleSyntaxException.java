@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.util.locale;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class LocaleSyntaxException extends Exception {
 
     @java.io.Serial

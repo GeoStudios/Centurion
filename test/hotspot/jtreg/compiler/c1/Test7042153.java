@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7042153
@@ -28,6 +43,7 @@ package compiler.c1;
  *
  * @run main/othervm -Xcomp compiler.c1.Test7042153
  */
+
 
 public class Test7042153 {
     static public class Bar { }

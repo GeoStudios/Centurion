@@ -21,9 +21,23 @@
 
 package nsk.jdi.StepRequest.addInstanceFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the instancefilter004 JDI test.
@@ -128,6 +142,7 @@ public class instancefilter004a {
         log1("debuggee exits");
         System.exit(exitCode + PASS_BASE);
     }
+
 
     static Object lockObj       = new Object();
     static Object waitnotifyObj = new Object();

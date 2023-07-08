@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.org.xml.sax.InputSource;
 import java.xml.share.classes.org.xml.sax.SAXException;
 import java.xml.share.classes.org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends the SAX2 base handler class to support the
@@ -46,6 +61,7 @@ public class DefaultHandler2 extends DefaultHandler
 {
     /** Constructs a handler which ignores all parsing events. */
     public DefaultHandler2 () { }
+
 
     // SAX2 ext-1.0 LexicalHandler
 
@@ -76,6 +92,7 @@ public class DefaultHandler2 extends DefaultHandler
     public void comment (char[] ch, int start, int length)
     throws SAXException
         { }
+
 
     // SAX2 ext-1.0 DeclHandler
 

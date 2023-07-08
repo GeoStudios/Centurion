@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.javax.xml.transform.dom;
 
+
 import java.xml.share.classes.javax.xml.transform.SourceLocator;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates the position of a node in a source DOM, intended

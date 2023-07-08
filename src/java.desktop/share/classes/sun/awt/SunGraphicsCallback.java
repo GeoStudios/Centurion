@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.*;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class SunGraphicsCallback {
     public static final int HEAVYWEIGHTS = 0x1;

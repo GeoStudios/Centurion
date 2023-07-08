@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.UnmapperProxy;
 import jdk.incubator.foreign.share.classes.jdk.internal.misc.ExtendedMapMode;
@@ -35,6 +36,20 @@ import java.nio.file.OpenOption;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for a mapped memory segments. A mapped memory segment is a native memory segment, which
@@ -65,6 +80,7 @@ public class MappedMemorySegmentImpl extends NativeMemorySegmentImpl {
     }
 
     // mapped segment methods
+
 
     @Override
     public MappedMemorySegmentImpl asSlice(long offset, long newSize) {

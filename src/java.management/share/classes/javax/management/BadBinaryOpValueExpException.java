@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when an invalid expression is passed to a method for
  * constructing a query.  This exception is used internally by JMX
@@ -30,6 +46,7 @@ package java.management.share.classes.javax.management;
  */
 public class BadBinaryOpValueExpException extends Exception   {
 
+
     /* Serial version */
     private static final long serialVersionUID = 5068475589449021227L;
 
@@ -37,6 +54,7 @@ public class BadBinaryOpValueExpException extends Exception   {
      * @serial the {@link ValueExp} that originated this exception
      */
     private final ValueExp exp;
+
 
     /**
      * Constructs a <CODE>BadBinaryOpValueExpException</CODE> with the specified <CODE>ValueExp</CODE>.
@@ -46,6 +64,7 @@ public class BadBinaryOpValueExpException extends Exception   {
     public BadBinaryOpValueExpException(ValueExp exp) {
         this.exp = exp;
     }
+
 
     /**
      * Returns the <CODE>ValueExp</CODE> that originated the exception.

@@ -21,6 +21,56 @@
 
 package build.tools.symbolgenerator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**A tool to dump the content of the default javac's bootclasspath. This tool should not use any
  * features not available on the oldest supported target JDK, which is currently JDK 6.
  *

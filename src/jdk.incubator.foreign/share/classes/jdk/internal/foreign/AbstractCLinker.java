@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
@@ -31,6 +32,20 @@ import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract non-sealed class AbstractCLinker implements CLinker {
 

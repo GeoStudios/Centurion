@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * SimpleContentModel is a derivative of the abstract content model base
@@ -69,6 +87,7 @@ public class SimpleContentModel
     // Data
     //
 
+
     /**
      * The element decl pool indices of the first (and optional second)
      * child node. The operation code tells us whether the second child
@@ -93,6 +112,7 @@ public class SimpleContentModel
 
     /* this is the EquivClassComparator object */
     //private EquivClassComparator comparator = null;
+
 
     //
     // Constructors

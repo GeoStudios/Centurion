@@ -21,11 +21,25 @@
 
 package nsk.share.jdb;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.ArgumentHandler;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides launching of <code>jdb</code> and debuggee in local
@@ -235,6 +249,7 @@ public class Launcher extends DebugeeBinder {
                 } else {
                     throw new TestBug("Launcher: Undefined transport type for AttachingConnector");
                 }
+
 
             } else if (argumentHandler.isListeningConnector()) {
 

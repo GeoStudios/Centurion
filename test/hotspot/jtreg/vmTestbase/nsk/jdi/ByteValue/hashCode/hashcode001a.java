@@ -21,9 +21,23 @@
 
 package nsk.jdi.ByteValue.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the hashcode001a JDI test.

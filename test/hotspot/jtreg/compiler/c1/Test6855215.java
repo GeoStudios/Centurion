@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6855215
@@ -28,6 +43,7 @@ package compiler.c1;
  *
  * @run main/othervm -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:UseSSE=0 compiler.c1.Test6855215
  */
+
 
 public class Test6855215 {
     private double m;

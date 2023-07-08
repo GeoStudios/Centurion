@@ -21,8 +21,22 @@
 
 package nsk.jvmti.AttachOnDemand.attach034;
 
+
 import nsk.share.aod.AbstractJarAgent;
 import java.lang.instrument.Instrumentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AgentParent extends AbstractJarAgent {
 

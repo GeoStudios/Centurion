@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface HeapRegionClosure {
     void doHeapRegion(HeapRegion hr);
 }

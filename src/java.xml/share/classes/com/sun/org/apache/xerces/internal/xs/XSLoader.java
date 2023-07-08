@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * An interface that provides a method to load XML Schema documents. This

@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.sha.cli;
 
+
 import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForSupportedCPU;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -36,6 +50,8 @@ import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForSupportedCPU;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.intrinsics.sha.cli.TestUseMD5IntrinsicsOptionOnSupportedCPU
  */
+
+
 
 public class TestUseMD5IntrinsicsOptionOnSupportedCPU {
     public static void main(String args[]) throws Throwable {

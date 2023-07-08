@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.util.Pair;
 import jdk.test.lib.jittester.BinaryOperator;
 import jdk.test.lib.jittester.IRNode;
@@ -30,6 +31,19 @@ import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class BinaryOperatorFactory extends OperatorFactory<BinaryOperator> {
     protected final OperatorKind opKind;

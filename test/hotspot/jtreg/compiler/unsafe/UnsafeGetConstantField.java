@@ -21,6 +21,7 @@
 
 package compiler.unsafe;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
@@ -53,6 +54,19 @@ import static jdk.internal.org.objectweb.asm.Opcodes.NEW;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.PUTFIELD;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.PUTSTATIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -87,6 +101,10 @@ import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
  *                                 --add-reads=java.base=ALL-UNNAMED
  *                                 compiler.unsafe.UnsafeGetConstantField
  */
+
+
+
+
 
 public class UnsafeGetConstantField {
     static final Class<?> THIS_CLASS = UnsafeGetConstantField.class;

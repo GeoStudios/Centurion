@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ElementValue;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.EnumElementValue;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  */

@@ -21,9 +21,23 @@
 
 package nsk.share.gc.gp.misc;
 
+
 import nsk.share.gc.Memory;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GarbageProducer that produces object with two fields which

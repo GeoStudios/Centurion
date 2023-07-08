@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is intended to handle &lt;void&gt; element.
  * This element looks like &lt;object&gt; element,

@@ -21,12 +21,26 @@
 
 package nsk.jdi.CharValue.equals;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -180,6 +194,7 @@ public class equals001 {
             CharValue  cvchar_b   = (CharValue)  execClass.getValue(fcchar_b);
             ShortValue svchar_a_3 = (ShortValue) execClass.getValue(fschar_a_3);
 
+
             int i2;
 
             for (i2 = 0; ; i2++) {
@@ -201,6 +216,7 @@ public class equals001 {
                 case 2: if (cvchar_a_1.equals(svchar_a_3))
                             expresult = 1;
                         break;
+
 
                 default: expresult = 2;
                          break ;

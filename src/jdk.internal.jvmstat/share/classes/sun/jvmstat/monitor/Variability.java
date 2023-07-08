@@ -21,6 +21,22 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Provides a typesafe enumeration for the Variability attribute for
  * instrumentation objects.

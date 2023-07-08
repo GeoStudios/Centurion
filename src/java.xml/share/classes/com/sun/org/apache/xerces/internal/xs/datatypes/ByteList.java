@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSException;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The <code>ByteList</code> is an immutable ordered collection of

@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import javax.swing.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaMnemonicHandler {
     private static final RecyclableSingleton<AltProcessor> altProcessor = new RecyclableSingletonFromDefaultConstructor<AltProcessor>(AltProcessor.class);

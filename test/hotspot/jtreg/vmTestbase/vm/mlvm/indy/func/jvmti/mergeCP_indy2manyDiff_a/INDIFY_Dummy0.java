@@ -21,12 +21,26 @@
 
 package vm.mlvm.indy.func.jvmti.mergeCP_indy2manyDiff_a;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class INDIFY_Dummy0 {
 
@@ -46,6 +60,7 @@ public class INDIFY_Dummy0 {
         CallSite cs = new ConstantCallSite(l.findStatic(INDIFY_Dummy0.class, "target", mt));
         return cs;
     }
+
 
     public static Boolean target(Object o, String s, int i) {
         MlvmTest.getLog().display("Original target called! Object = " + o + "; string = " + s + "; int = " + i);

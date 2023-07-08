@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface SSLAuthentication
         extends SSLPossessionGenerator, SSLHandshakeBinding {
     // blank

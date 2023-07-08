@@ -21,6 +21,21 @@
 
 package compiler.onSpinWait;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestOnSpinWaitEnableDisable
  * @summary Test to ensure basic functioning of java.lang.Thread.onSpinWait
@@ -30,6 +45,7 @@ package compiler.onSpinWait;
  * @run main/othervm -XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_onSpinWait
  *                   compiler.onSpinWait.TestOnSpinWaitEnableDisable
  */
+
 
 public class TestOnSpinWaitEnableDisable {
     public static void main(String[] args) {

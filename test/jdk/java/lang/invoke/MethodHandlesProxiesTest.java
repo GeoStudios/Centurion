@@ -21,16 +21,34 @@
 
 package test.java.lang.invoke;
 
+
 import org.testng.annotations.Test;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandleProxies;
 import java.lang.invoke.MethodHandles;
 import static org.testng.Assert.assertEquals;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8206955 8269351
  * @run testng/othervm -ea -esa test.java.lang.invoke.MethodHandlesProxiesTest
  */
+
+
+
+
 
 public class MethodHandlesProxiesTest {
 

@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.events.EM01;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class em01t002a extends Thread {
     public static int toProvokePreparation;
 

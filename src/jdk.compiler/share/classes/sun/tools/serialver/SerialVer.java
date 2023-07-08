@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.sun.tools.serialver;
 
+
 import java.io.*;
 import java.io.ObjectStreamClass;
 import java.nio.file.Paths;
@@ -30,6 +31,20 @@ import java.util.MissingResourceException;
 import java.net.URLClassLoader;
 import java.net.URL;
 import java.net.MalformedURLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Supporting class for the serialver tool.
@@ -142,6 +157,7 @@ public class SerialVer {
             }
         }
 
+
         /*
          * Get user's CLASSPATH environment variable, if the -classpath option
          * is not defined, and make a loader that can read from that path.
@@ -197,6 +213,7 @@ public class SerialVer {
             System.exit(1);
         }
     }
+
 
     /**
      * Usage

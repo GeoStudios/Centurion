@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.*;
 import java.lang.reflect.*;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollbarClient {
 
@@ -65,6 +80,7 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
         // we call winCreate, or the parent of clip will be set to itself!
         clip = null;
 
+
         XWindow c = new XScrollPaneContentWindow(target,window);
         clip = c;
 
@@ -98,6 +114,7 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
 
         setViewportSize();
         clip.xSetVisible(true);
+
 
     }
 
@@ -382,6 +399,7 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
         }
     }
 
+
     /**
      * Paint the horizontal scrollbar to the screen
      *
@@ -412,7 +430,11 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
             ng.dispose();
         }
 
+
     }
+
+
+
 
     /**
      * Paint the vertical scrollbar to the screen
@@ -464,6 +486,7 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
         int x = mouseEvent.getX();
         int y = mouseEvent.getY();
 
+
         //        super.handleMouseEvent(mouseEvent);
 
         if ((modifiers & InputEvent.BUTTON1_MASK) == 0) {
@@ -493,6 +516,7 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
                     hsb.handleMouseEvent(id,modifiers,x,y);
                 }
                 break;
+
 
             case MouseEvent.MOUSE_DRAGGED:
                 if ((active == VERTICAL)) {

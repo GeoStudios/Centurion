@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents a bootstrap method attribute, i.e., the bootstrap
@@ -47,6 +65,7 @@ public class BootstrapMethod implements Cloneable {
 
     /** Array of references to the constant_pool table */
     private int[] bootstrapArguments;
+
 
     /**
      * Initialize from another object.

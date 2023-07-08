@@ -21,12 +21,30 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
+
 import java.text.Bidi;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Written by Simon Montagu, Matitiahu Allouche
  * (ported from C code written by Markus W. Scherer)
  */
+
+
+
 
 final class BidiLine {
 

@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
+
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Streaming validator that works on SAX stream.
@@ -319,6 +334,7 @@ public abstract class ValidatorHandler implements ContentHandler {
      *      Otherwise a non-null valid {@link TypeInfoProvider}.
      */
     public abstract TypeInfoProvider getTypeInfoProvider();
+
 
     /**
      * Look up the value of a feature flag.

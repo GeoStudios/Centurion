@@ -21,8 +21,23 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.metal.DefaultMetalTheme;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -31,6 +46,10 @@ import javax.swing.plaf.metal.DefaultMetalTheme;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This class describes a theme using "khaki" colors.

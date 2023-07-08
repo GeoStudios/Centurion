@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.isEnum;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -78,6 +92,7 @@ public class isenum001a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(isenum001.SIGNAL_READY);
+
 
         //pipe.println(isenum001.SIGNAL_GO);
         receiveSignal(isenum001.SIGNAL_QUIT);

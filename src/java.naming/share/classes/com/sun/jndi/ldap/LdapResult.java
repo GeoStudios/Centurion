@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.util.Vector;
 import javax.naming.directory.Attributes;
 import javax.naming.directory.BasicAttributes;
 import javax.naming.ldap.Control;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * %%% public for use by LdapSasl %%%
@@ -42,6 +57,7 @@ public final class LdapResult {
     public byte[] serverCreds = null;   // %%% public for use by LdapSasl
     String extensionId = null;          // string OID
     byte[] extensionValue = null;       // BER OCTET STRING
+
 
     // This function turns an LdapResult that came from a compare operation
     // into one that looks like it came from a search operation. This is

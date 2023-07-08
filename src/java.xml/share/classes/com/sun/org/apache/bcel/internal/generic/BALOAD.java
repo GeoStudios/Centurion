@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * BALOAD - Load byte or boolean from array
@@ -38,6 +55,7 @@ public class BALOAD extends ArrayInstruction implements StackProducer {
     public BALOAD() {
         super(com.sun.org.apache.bcel.internal.Const.BALOAD);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

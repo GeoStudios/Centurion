@@ -21,10 +21,24 @@
 
 package nsk.jdi.ReferenceType.methodsByName_ss;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the methbyname_ss002 JDI test.

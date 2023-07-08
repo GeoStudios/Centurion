@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.awt.geom.Point2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LayoutPath provides a mapping between locations relative to the

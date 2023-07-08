@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.filechooser;
 
+
 import java.io.File;
 import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>FileView</code> defines an abstract class that can be implemented

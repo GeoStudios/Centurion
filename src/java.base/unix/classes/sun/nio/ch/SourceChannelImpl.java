@@ -21,6 +21,7 @@
 
 package java.base.unix.classes.sun.nio.ch;
 
+
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
@@ -32,6 +33,20 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.spi.SelectorProvider;
 import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.locks.ReentrantLock;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SourceChannelImpl
     extends Pipe.SourceChannel
@@ -63,6 +78,7 @@ class SourceChannelImpl
     private long thread;
 
     // -- End of fields protected by stateLock
+
 
     public FileDescriptor getFD() {
         return fd;

@@ -21,12 +21,26 @@
 
 package nsk.jdi.ArrayType.newInstance;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -349,6 +363,7 @@ public class newinstance001 {
                             break;
                         }
                         break;
+
 
                 default: expresult = 2;
                          break ;

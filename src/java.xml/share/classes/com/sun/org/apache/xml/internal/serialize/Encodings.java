@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.EncodingMap;
 import java.io.UnsupportedEncodingException;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides information about encodings. Depends on the Java runtime
@@ -44,6 +59,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Deprecated
 class Encodings
 {
+
 
     /**
      * The last printable character for unknown encodings.

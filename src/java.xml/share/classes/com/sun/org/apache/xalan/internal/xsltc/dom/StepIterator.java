@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * A step iterator is used to evaluate expressions like "BOOK/TITLE".
@@ -63,6 +80,7 @@ public class StepIterator extends DTMAxisIteratorBase {
 // System.out.println("SI source = " + source + " this = " + this);
 // System.out.println("SI iterator = " + iterator + " this = " + this);
     }
+
 
     public void setRestartable(boolean isRestartable) {
         _isRestartable = isRestartable;

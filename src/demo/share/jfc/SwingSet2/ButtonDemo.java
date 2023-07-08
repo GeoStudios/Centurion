@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -35,6 +36,20 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JButton, JRadioButton, JToggleButton, JCheckBox Demos
@@ -122,6 +137,7 @@ public class ButtonDemo extends DemoModule implements ChangeListener {
         p2.add(Box.createRigidArea(HGAP10));
 
         buttons.add(p2.add(new JButton(getString("ButtonDemo.button3"))));
+
 
         // Image Buttons
         p1.add(Box.createRigidArea(VGAP30));
@@ -262,6 +278,7 @@ public class ButtonDemo extends DemoModule implements ChangeListener {
         currentControls = radiobuttons;
         radioButtonPanel.add(createControls());
     }
+
 
     public void addCheckBoxes() {
         tab.addTab(getString("ButtonDemo.checkboxes"), checkboxPanel);

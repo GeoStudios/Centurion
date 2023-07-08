@@ -21,7 +21,22 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
+
 import java.sql.rowset.share.classes.javax.sql.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The synchronization mechanism that provides reader/writer capabilities for
@@ -244,6 +259,7 @@ public abstract class SyncProvider {
      *           SyncProvider.GRADE_LOCK_WHEN_LOADED
      */
     public abstract int getProviderGrade();
+
 
     /**
      * Sets a lock on the underlying data source at the level indicated by

@@ -21,8 +21,22 @@
 
 package jit.misctests.putfield00802;
 
+
 import java.io.PrintStream;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.misctests.putfield00802.putfield00802
  */
+
+
 
 public class putfield00802 {
 

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class containing the TIFF tags used to reference the Exif and GPS IFDs.

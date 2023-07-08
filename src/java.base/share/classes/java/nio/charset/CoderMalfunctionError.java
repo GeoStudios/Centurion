@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.nio.charset;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Error thrown when the {@link CharsetDecoder#decodeLoop decodeLoop} method of
  * a {@link CharsetDecoder}, or the {@link CharsetEncoder#encodeLoop

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
+
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import javax.xml.namespace.QName;
 import javax.xml.transform.TransformerException;
@@ -33,6 +34,20 @@ import javax.xml.xpath.XPathVariableResolver;
 import jdk.xml.internal.JdkXmlFeatures;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XPathExpression interface encapsulates a (compiled) XPath expression.
@@ -103,6 +118,7 @@ public class XPathExpressionImpl extends XPathImplUtil implements XPathExpressio
             }
         }
     }
+
 
     @Override
     public String evaluate(Object item)

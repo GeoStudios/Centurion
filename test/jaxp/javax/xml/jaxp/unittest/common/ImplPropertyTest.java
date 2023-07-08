@@ -21,6 +21,7 @@
 
 package common;
 
+
 import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager.Limit;
 import java.util.EnumSet;
 import java.util.Set;
@@ -41,6 +42,19 @@ import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.XMLReader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8265248
@@ -55,6 +69,7 @@ public class ImplPropertyTest {
     private final DocumentBuilderFactory dbf = DocumentBuilderFactory.newDefaultInstance();
     private final XMLInputFactory xif = XMLInputFactory.newDefaultFactory();
     private final SchemaFactory sf = SchemaFactory.newDefaultInstance();
+
 
     private final XPathFactory xf = XPathFactory.newDefaultInstance();
 
@@ -329,6 +344,7 @@ public class ImplPropertyTest {
 
         Assert.fail("Failed setting features for : " + processor);
     }
+
 
     class TestCL extends ClassLoader {
         String name;

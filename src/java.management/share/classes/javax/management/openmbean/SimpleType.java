@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.io.InvalidObjectException;
 import java.io.ObjectStreamException;
 import java.math.BigDecimal;
@@ -30,11 +31,26 @@ import java.util.Map;
 import java.util.HashMap;
 import java.management.share.classes.javax.management.ObjectName;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // java import
 //
 
 // jmx import
 //
+
 
 /**
  * The <code>SimpleType</code> class is the <i>open type</i> class whose instances describe
@@ -161,8 +177,10 @@ public final class SimpleType<T> extends OpenType<T> {
         DOUBLE, STRING, BIGDECIMAL, BIGINTEGER, DATE, OBJECTNAME,
     };
 
+
     private transient Integer myHashCode = null;        // As this instance is immutable, these two values
     private transient String  myToString = null;        // need only be calculated once.
+
 
     /* *** Constructor *** */
 
@@ -170,6 +188,7 @@ public final class SimpleType<T> extends OpenType<T> {
         super(valueClass.getName(), valueClass.getName(), valueClass.getName(),
               false);
     }
+
 
     /* *** SimpleType specific information methods *** */
 
@@ -199,6 +218,7 @@ public final class SimpleType<T> extends OpenType<T> {
         //
         return this.getClassName().equals(obj.getClass().getName());
     }
+
 
     /* *** Methods overriden from class Object *** */
 

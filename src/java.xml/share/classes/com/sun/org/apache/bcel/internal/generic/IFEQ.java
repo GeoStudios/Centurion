@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * IFEQ - Branch if int comparison with zero succeeds
@@ -41,9 +58,11 @@ public class IFEQ extends IfInstruction {
     IFEQ() {
     }
 
+
     public IFEQ(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.IFEQ, target);
     }
+
 
     /**
      * @return negation of instruction, e.g. IFEQ.negate() == IFNE
@@ -52,6 +71,7 @@ public class IFEQ extends IfInstruction {
     public IfInstruction negate() {
         return new IFNE(super.getTarget());
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

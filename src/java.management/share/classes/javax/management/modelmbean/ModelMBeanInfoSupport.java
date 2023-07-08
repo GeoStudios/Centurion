@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
+
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -37,6 +38,20 @@ import java.management.share.classes.javax.management.MBeanInfo;
 import java.management.share.classes.javax.management.MBeanNotificationInfo;
 import java.management.share.classes.javax.management.MBeanOperationInfo;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the meta data for ModelMBeans.  Descriptors have been
@@ -349,6 +364,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         return(new ModelMBeanInfoSupport(this));
     }
 
+
     public Descriptor[] getDescriptors(String inDescriptorType)
     throws MBeanException, RuntimeOperationsException {
         if (MODELMBEAN_LOGGER.isLoggable(Level.TRACE)) {
@@ -457,6 +473,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         return retList;
     }
 
+
     public void setDescriptors(Descriptor[] inDescriptors)
     throws MBeanException, RuntimeOperationsException {
         if (MODELMBEAN_LOGGER.isLoggable(Level.TRACE)) {
@@ -481,6 +498,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
 
     }
 
+
     /**
      * Returns a Descriptor requested by name.
      *
@@ -503,6 +521,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         }
         return(getDescriptor(inDescriptorName, null));
     }
+
 
     public Descriptor getDescriptor(String inDescriptorName,
             String inDescriptorType)
@@ -563,6 +582,8 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
                 "Exception occurred trying to find the descriptors of the MBean");
 
     }
+
+
 
     public void setDescriptor(Descriptor inDescriptor,
             String inDescriptorType)
@@ -682,6 +703,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
 
     }
 
+
     public ModelMBeanAttributeInfo getAttribute(String inName)
     throws MBeanException, RuntimeOperationsException {
         ModelMBeanAttributeInfo retInfo = null;
@@ -719,6 +741,8 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
 
         return retInfo;
     }
+
+
 
     public ModelMBeanOperationInfo getOperation(String inName)
     throws MBeanException, RuntimeOperationsException {
@@ -790,6 +814,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         return retInfo;
     }
 
+
     public ModelMBeanNotificationInfo getNotification(String inName)
     throws MBeanException, RuntimeOperationsException {
         ModelMBeanNotificationInfo retInfo = null;
@@ -817,6 +842,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
 
         return retInfo;
     }
+
 
     /* We override MBeanInfo.getDescriptor() to return our descriptor. */
     /**
@@ -852,6 +878,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         }
         modelMBeanDescriptor = validDescriptor(inMBeanDescriptor);
     }
+
 
     /**
      * Clones the passed in Descriptor, sets default values, and checks for validity.
@@ -918,6 +945,9 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         return clone;
     }
 
+
+
+
     /**
      * Deserializes a {@link ModelMBeanInfoSupport} from an {@link ObjectInputStream}.
      */
@@ -959,6 +989,7 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
         }
     }
 
+
     /**
      * Serializes a {@link ModelMBeanInfoSupport} to an {@link ObjectOutputStream}.
      */
@@ -981,5 +1012,6 @@ public class ModelMBeanInfoSupport extends MBeanInfo implements ModelMBeanInfo {
             out.defaultWriteObject();
         }
     }
+
 
 }

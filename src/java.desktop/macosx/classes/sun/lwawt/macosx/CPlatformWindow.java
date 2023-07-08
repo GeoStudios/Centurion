@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.DefaultKeyboardFocusManager;
@@ -64,6 +65,20 @@ import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer.PeerType;
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
 import java.desktop.macosx.classes.sun.security.action.GetPropertyAction;
 import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPlatformWindow extends CFRetainedResource implements PlatformWindow {
     private native long nativeCreateNSWindow(long nsViewPtr,long ownerPtr, long styleBits, double x, double y, double w, double h);

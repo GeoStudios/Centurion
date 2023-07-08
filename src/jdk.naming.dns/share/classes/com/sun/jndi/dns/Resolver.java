@@ -21,7 +21,22 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Resolver class performs DNS client operations in support of DnsContext.
@@ -37,6 +52,7 @@ class Resolver {
     private DnsClient dnsClient;
     private final int timeout;                // initial timeout on UDP queries in ms
     private final int retries;                // number of UDP retries
+
 
     /*
      * Constructs a new Resolver given its servers and timeout parameters.
@@ -57,6 +73,7 @@ class Resolver {
         dnsClient.close();
         dnsClient = null;
     }
+
 
     /*
      * Queries resource records of a particular class and type for a

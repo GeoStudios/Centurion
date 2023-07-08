@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface for a list of XML attributes.
  *
@@ -73,9 +89,11 @@ package java.xml.share.classes.org.xml.sax;
 public interface Attributes
 {
 
+
     ////////////////////////////////////////////////////////////////////
     // Indexed access.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Return the number of attributes in the list.
@@ -92,6 +110,7 @@ public interface Attributes
      */
     int getLength ();
 
+
     /**
      * Look up an attribute's Namespace URI by index.
      *
@@ -102,6 +121,7 @@ public interface Attributes
      * @see #getLength
      */
     String getURI (int index);
+
 
     /**
      * Look up an attribute's local name by index.
@@ -114,6 +134,7 @@ public interface Attributes
      */
     String getLocalName (int index);
 
+
     /**
      * Look up an attribute's XML qualified (prefixed) name by index.
      *
@@ -124,6 +145,7 @@ public interface Attributes
      * @see #getLength
      */
     String getQName (int index);
+
 
     /**
      * Look up an attribute's type by index.
@@ -147,6 +169,7 @@ public interface Attributes
      */
     String getType (int index);
 
+
     /**
      * Look up an attribute's value by index.
      *
@@ -162,9 +185,12 @@ public interface Attributes
      */
     String getValue (int index);
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Name-based query.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Look up the index of an attribute by Namespace name.
@@ -177,6 +203,7 @@ public interface Attributes
      */
     int getIndex (String uri, String localName);
 
+
     /**
      * Look up the index of an attribute by XML qualified (prefixed) name.
      *
@@ -185,6 +212,7 @@ public interface Attributes
      *         appear in the list.
      */
     int getIndex (String qName);
+
 
     /**
      * Look up an attribute's type by Namespace name.
@@ -201,6 +229,7 @@ public interface Attributes
      */
     String getType (String uri, String localName);
 
+
     /**
      * Look up an attribute's type by XML qualified (prefixed) name.
      *
@@ -213,6 +242,7 @@ public interface Attributes
      *         are not available.
      */
     String getType (String qName);
+
 
     /**
      * Look up an attribute's value by Namespace name.
@@ -227,6 +257,7 @@ public interface Attributes
      *         attribute is not in the list.
      */
     String getValue (String uri, String localName);
+
 
     /**
      * Look up an attribute's value by XML qualified (prefixed) name.

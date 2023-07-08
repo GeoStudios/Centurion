@@ -21,7 +21,21 @@
 
 package jit.FloatingPoint.gen_math.ShortCircuitTest;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,7 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.gen_math.ShortCircuitTest.ShortCircuitTest
  */
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // A complete set of tests for the binary Java operators {&&, ||, &, |} to
@@ -51,6 +66,7 @@ import nsk.share.TestFailure;
 // would be inappropriate, since it contains the item under scrutiny, namely
 // short circuit evaluation of AND (&&).  Avoid it by slightly tedious
 // if-then-else statements, and similarly for the rest of the file.
+
 
 public class ShortCircuitTest {
     private static int f = 0, t = 0;

@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.base.share.classes.java.util.Arrays;  // JDK1.2.extended
 import java.io.OutputStream;
 import java.base.share.classes.java.util.Objects;
 import javax.naming.ldap.Control;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the identity of a 'simple' authenticated LDAP connection.

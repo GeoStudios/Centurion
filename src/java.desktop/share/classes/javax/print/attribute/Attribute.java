@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code Attribute} is the base interface implemented by any and

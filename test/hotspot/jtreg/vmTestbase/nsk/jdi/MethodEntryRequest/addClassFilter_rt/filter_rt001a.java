@@ -21,9 +21,23 @@
 
 package nsk.jdi.MethodEntryRequest.addClassFilter_rt;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter_rt001 JDI test.
@@ -85,6 +99,7 @@ public class filter_rt001a {
         label0:
         for (int i = 0; ; i++) {
 
+
             log1("methodForCommunication();");
             methodForCommunication();
             if (instruction == end)
@@ -142,6 +157,7 @@ public class filter_rt001a {
         }
     }
 }
+
 
 class filter_rt001aTestClass10{
     static void m10() {

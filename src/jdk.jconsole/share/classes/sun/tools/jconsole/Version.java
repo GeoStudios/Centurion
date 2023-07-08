@@ -21,8 +21,23 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.io.PrintStream;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Version {
     private static final String jconsole_version =

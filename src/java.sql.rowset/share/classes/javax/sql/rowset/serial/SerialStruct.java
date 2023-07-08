@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
+
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.io.*;
@@ -29,6 +30,20 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
 import java.util.Vector;
 import java.sql.rowset.share.classes.javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serialized mapping in the Java programming language of an SQL
@@ -54,6 +69,7 @@ import java.sql.rowset.share.classes.javax.sql.rowset.*;
  *
  */
 public class SerialStruct implements Struct, Serializable, Cloneable {
+
 
     /**
      * The SQL type name for the structured type that this
@@ -152,6 +168,7 @@ public class SerialStruct implements Struct, Serializable, Cloneable {
         }
     }
 
+
     /**
      * Retrieves the SQL type name for this <code>SerialStruct</code>
      * object. This is the name used in the SQL definition of the
@@ -204,6 +221,7 @@ public class SerialStruct implements Struct, Serializable, Cloneable {
         Object[] val = this.attribs;
         return (val == null) ? null : Arrays.copyOf(val, val.length);
     }
+
 
     /**
      * Maps attributes of an SQL structured type that are not

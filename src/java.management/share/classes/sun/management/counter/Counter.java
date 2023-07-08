@@ -21,6 +21,22 @@
 
 package java.management.share.classes.sun.management.counter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The base class for a performance counter.
  *

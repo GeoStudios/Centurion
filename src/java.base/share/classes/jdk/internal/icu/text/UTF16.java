@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
+
 import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Standalone utility class providing UTF16 character conversions and

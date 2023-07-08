@@ -21,9 +21,24 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Frame;
 import java.desktop.unix.classes.sun.awt.IconInfo;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XNETProtocol extends XProtocol implements XStateProtocol, XLayerProtocol
 {

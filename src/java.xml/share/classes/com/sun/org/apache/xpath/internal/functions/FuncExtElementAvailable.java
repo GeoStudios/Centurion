@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.templates.Constants;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.transformer.TransformerImpl;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
@@ -29,10 +30,25 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 // J2SE does not support Xalan interpretive
 /*

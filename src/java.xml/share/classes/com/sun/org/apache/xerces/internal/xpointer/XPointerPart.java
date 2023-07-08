@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * <p>

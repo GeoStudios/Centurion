@@ -21,12 +21,26 @@
 
 package gc.hashcode.HashCodeTestCC;
 
+
 import gc.hashcode.HCHelper;
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,11 +61,14 @@ import nsk.share.test.Stresser;
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.HashCodeTestCC.HashCodeTestCC
  */
 
+
+
 /**
  * Test that verifies external hash codes. This class tests the scenario
  * with double compaction.
  */
 public class HashCodeTestCC extends GCTestBase {
+
 
     /**
      * Test external hash codes when two compactions have been performed.

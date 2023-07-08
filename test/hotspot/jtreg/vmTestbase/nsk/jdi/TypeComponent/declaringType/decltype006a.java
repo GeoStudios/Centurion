@@ -21,9 +21,23 @@
 
 package nsk.jdi.TypeComponent.declaringType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class decltype006a {
     public static void main (String argv[]) {
@@ -383,6 +397,7 @@ interface decltype006aOverridenInter extends decltype006aMainInter {
     public       decltype006aInter[]   MEU1(decltype006aInter[] E);
     public       decltype006aInter[][] MEU2(decltype006aInter[][] E);
 }
+
 
 interface decltype006aMainInter {
     void        Mv();

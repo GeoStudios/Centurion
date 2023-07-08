@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.awt.Shape;
 import java.awt.BasicStroke;
 import java.awt.geom.AffineTransform;
@@ -34,6 +35,20 @@ import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.loops.FillParallelogram;
 import java.desktop.share.classes.sun.java2d.loops.DrawParallelogram;
 import java.desktop.share.classes.sun.awt.SunHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LoopPipe
     implements PixelDrawPipe,
@@ -158,6 +173,7 @@ public class LoopPipe
             sr.dispose();
         }
     }
+
 
     public void draw(SunGraphics2D sg2d, Shape s) {
         if (sg2d.strokeState == SunGraphics2D.STROKE_THIN) {

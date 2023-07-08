@@ -21,11 +21,25 @@
 
 package nsk.jdi.ClassType.setValue;
 
+
 import com.sun.jdi.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that the JDI method:<br>

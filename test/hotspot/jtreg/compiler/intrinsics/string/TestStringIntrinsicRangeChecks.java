@@ -21,9 +21,23 @@
 
 package compiler.intrinsics.string;
 
+
 import java.lang.Helper;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,7 @@ import java.lang.reflect.Method;
  * @build java.base/java.lang.Helper
  * @run main/othervm -Xbatch -XX:CompileThreshold=100 compiler.intrinsics.string.TestStringIntrinsicRangeChecks
  */
+
 
 public class TestStringIntrinsicRangeChecks {
     // Prepare test arrays

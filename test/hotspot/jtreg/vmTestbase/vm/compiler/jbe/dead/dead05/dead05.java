@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.dead.dead05;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.dead.dead05;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead05.dead05
  */
+
 
 /* -- Test the elimination of dead assignment to static class field
 In the example below, all the values assigned to i in struct except of the last one are never used,thus can be eliminated.

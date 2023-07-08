@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.naming.*;
 import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the LDAPv3 Response Control for entry-change

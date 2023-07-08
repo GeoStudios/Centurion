@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
+
 import java.desktop.share.classes.javax.swing.text.StyleConstants;
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
 import java.desktop.share.classes.javax.swing.text.MutableAttributeSet;
 import java.desktop.share.classes.javax.swing.text.TabStop;
 import java.util.*;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class RTFAttributes
 {
@@ -72,6 +87,7 @@ class RTFAttributes
         a.addElement(new AssertiveAttribute(PST, RTFReader.TabAlignmentKey,
                                             "tqdec", TabStop.ALIGN_DECIMAL));
 
+
         a.addElement(new AssertiveAttribute(PST, RTFReader.TabLeaderKey,
                                             "tldot", TabStop.LEAD_DOTS));
         a.addElement(new AssertiveAttribute(PST, RTFReader.TabLeaderKey,
@@ -93,6 +109,8 @@ class RTFAttributes
                                                "strike"));
         a.addElement(new BooleanAttribute(CHR, Constants.Deleted,
                                                "deleted"));
+
+
 
         a.addElement(new AssertiveAttribute(DOC, "saveformat", "defformat", "RTF"));
         a.addElement(new AssertiveAttribute(DOC, "landscape", "landscape"));
@@ -118,6 +136,7 @@ class RTFAttributes
                                             "widctlpar", True));
         a.addElement(new AssertiveAttribute(DOC, Constants.WidowControl,
                                             "widowctrl", True));
+
 
         RTFAttribute[] attrs = new RTFAttribute[a.size()];
         a.copyInto(attrs);
@@ -251,6 +270,7 @@ class RTFAttributes
         }
     }
 
+
     static class AssertiveAttribute
         extends GenericAttribute
         implements RTFAttribute
@@ -313,6 +333,7 @@ class RTFAttributes
             return ! force;
         }
     }
+
 
     static class NumericAttribute
         extends GenericAttribute

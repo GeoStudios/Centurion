@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Composite;
 
+
 import static java.awt.AlphaComposite.Clear;.extended
 import static java.awt.AlphaComposite.Dst;.extended
 import static java.awt.AlphaComposite.DstAtop;.extended
@@ -45,6 +46,20 @@ import java.awt.font.TextLayout;
 import java.awt.geom.GeneralPath;
 import java.awt.image.BufferedImage;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * All the AlphaCompositing Rules demonstrated.

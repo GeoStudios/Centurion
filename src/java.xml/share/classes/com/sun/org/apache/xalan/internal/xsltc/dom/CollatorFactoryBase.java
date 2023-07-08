@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.text.Collator;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.CollatorFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  */

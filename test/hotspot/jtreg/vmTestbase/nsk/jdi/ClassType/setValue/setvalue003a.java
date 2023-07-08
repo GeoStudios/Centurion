@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.setValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the setvalue003 JDI test.
@@ -86,6 +100,7 @@ public class setvalue003a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -124,6 +139,7 @@ public class setvalue003a {
     }
 }
 
+
 interface setvalue003aInterfaceForCheck {
 
     static final boolean s_iface_boolean = true;
@@ -135,6 +151,7 @@ interface setvalue003aInterfaceForCheck {
     static final long    s_iface_long    = 1000;
     static final Object  s_iface_object  = new Object();
 }
+
 
 class setvalue003aClassForCheck_2 implements setvalue003aInterfaceForCheck {
 }

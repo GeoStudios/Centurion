@@ -21,7 +21,22 @@
 
 package java.prefs.share.classes.java.util.prefs;
 
+
 import java.prefs.share.classes.java.io.NotSerializableException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown to indicate that an operation could not complete because

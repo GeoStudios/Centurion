@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.EntityState;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
@@ -33,6 +34,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLD
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This filter records which unparsed entities have been

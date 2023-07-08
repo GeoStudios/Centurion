@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -76,6 +77,19 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class:
@@ -271,6 +285,7 @@ public class CatalogSupportBase {
         xsl_doc = filepath + "/DocFunc.xsl";
         xml_doc2 = filepath + "/DocFunc2.xml";
     }
+
 
     /*
        Verifies the Catalog support on SAXParser.
@@ -720,6 +735,7 @@ public class CatalogSupportBase {
         }
 
     }
+
 
     /**
      * Extends MyHandler and overrides resolveEntity with a CatalogResolver

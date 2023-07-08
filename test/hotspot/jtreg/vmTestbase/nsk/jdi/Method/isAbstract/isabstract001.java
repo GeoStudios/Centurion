@@ -21,6 +21,7 @@
 
 package nsk.jdi.Method.isAbstract;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -28,12 +29,28 @@ import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 
 // Method  Interface Name       Method
 // isAbstract  Method Name              isAbstract
 // isabstract001  Test Name             isabstract001
 // ------------------------------------------------------
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>

@@ -21,7 +21,22 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
+
 import sun.security.krb5.JavaxSecurityAuthKerberosAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class JavaxSecurityAuthKerberosAccessImpl
         implements JavaxSecurityAuthKerberosAccess {

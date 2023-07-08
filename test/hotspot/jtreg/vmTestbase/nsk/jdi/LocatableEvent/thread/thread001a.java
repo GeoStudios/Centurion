@@ -21,9 +21,23 @@
 
 package nsk.jdi.LocatableEvent.thread;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the thread001 JDI test.
@@ -142,6 +156,7 @@ public class thread001a {
         System.exit(exitCode + PASS_BASE);
     }
 
+
     static Object waitnotifyObj = new Object();
     static Object lockingObject = new Object();
 
@@ -160,6 +175,7 @@ public class thread001a {
         }
         return PASSED;
     }
+
 
     public static void nullMethod() {
         throw new NullPointerException("test");
@@ -235,6 +251,7 @@ public class thread001a {
         }
 
     }
+
 
     public static void log3(String str) {
         log1(Thread.currentThread().getName() + " : " + str);

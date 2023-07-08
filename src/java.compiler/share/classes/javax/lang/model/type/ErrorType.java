@@ -21,6 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a class or interface type that cannot be properly modeled.
  * This may be the result of a processing error,

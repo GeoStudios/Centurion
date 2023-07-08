@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import sun.util.logging.PlatformLogger;
 import java.base.share.classes.java.io.FilePermission;
 import java.base.share.classes.java.nio.file.Files;
@@ -30,6 +31,20 @@ import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedAction;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class used by InnerClassLambdaMetafactory to log generated classes

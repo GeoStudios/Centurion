@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when an UndoableEdit is told to <code>undo()</code> and can't.
  * <p>

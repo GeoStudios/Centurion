@@ -21,6 +21,7 @@
 
 package nsk.jdi.BScenarios.singlethrd;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test is from the group of so-called Borland's scenarios and
@@ -71,6 +85,7 @@ public class tc04x001 {
     private EventRequestManager evm = null;
     private ExceptionRequest exReq = null;
     private volatile boolean exit = false;
+
 
     private static void display(String msg) {
         log.display(msg);

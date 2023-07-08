@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.*;
@@ -29,6 +30,20 @@ import java.awt.*;
 import java.awt.event.*;
 import java.beans.BeanProperty;
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>TreeCellEditor</code>. You need to supply an
@@ -109,6 +124,7 @@ public class DefaultTreeCellEditor implements ActionListener, TreeCellEditor,
      * font of renderer is to be used.
      */
     protected Font                         font;
+
 
     /**
      * Constructs a <code>DefaultTreeCellEditor</code>
@@ -206,6 +222,7 @@ public class DefaultTreeCellEditor implements ActionListener, TreeCellEditor,
         }
         editingComponent = realEditor.getTreeCellEditorComponent(tree, value,
                                         isSelected, expanded,leaf, row);
+
 
         // this is kept for backwards compatibility but isn't really needed
         // with the current BasicTreeUI implementation.
@@ -627,6 +644,7 @@ public class DefaultTreeCellEditor implements ActionListener, TreeCellEditor,
             return size;
         }
     }
+
 
     /**
      * Container responsible for placing the <code>editingComponent</code>.

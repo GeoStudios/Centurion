@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import java.net.URI;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a group entry.
@@ -493,6 +508,7 @@ class GroupEntry extends BaseEntry {
 
         return c;
     }
+
 
     /**
      * Verifies that the catalog file represented by the catalogId exists. If it

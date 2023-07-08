@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
@@ -30,11 +31,26 @@ import org.testng.*;
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for java.lang.invoke.MethodHandle.invoke
  * @compile InvokeGenericTest.java
  * @run testng/othervm test.java.lang.invoke.InvokeGenericTest
  */
+
+
 
 /**
  *
@@ -495,6 +511,7 @@ public class InvokeGenericTest {
         }
         //System.out.println(res);
     }
+
 
     @Test
     public void testBoxConversions() throws Throwable {

@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Objects implementing the <code>NamedNodeMap</code> interface are used to
  * represent collections of nodes that can be accessed by name. Note that

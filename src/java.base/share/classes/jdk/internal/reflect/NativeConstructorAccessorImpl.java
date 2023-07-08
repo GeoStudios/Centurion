@@ -21,9 +21,24 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
+
 import sun.reflect.misc.ReflectUtil;
 import java.lang.reflect.*;
 import java.base.share.classes.jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Used only for the first few invocations of a Constructor;
     afterward, switches to bytecode-based implementation */

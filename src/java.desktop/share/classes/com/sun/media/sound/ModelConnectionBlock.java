@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Connection blocks are used to connect source variable

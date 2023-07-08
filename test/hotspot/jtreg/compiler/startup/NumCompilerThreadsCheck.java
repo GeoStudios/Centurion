@@ -21,9 +21,23 @@
 
 package compiler.startup;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,8 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.startup.NumCompilerThreadsCheck
  */
+
+
 
 public class NumCompilerThreadsCheck {
 

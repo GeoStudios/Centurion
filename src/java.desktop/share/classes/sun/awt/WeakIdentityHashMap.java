@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // A weak key reference hash map that uses System.identityHashCode() and "=="
 // instead of hashCode() and equals(Object)
@@ -211,5 +226,6 @@ class WeakIdentityHashMap<K, V> implements Map<K, V> {
             return hash;
         }
     }
+
 
 }

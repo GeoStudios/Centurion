@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util.stream;
 
+
 import java.base.share.classes.java.util.AbstractMap;
 import java.base.share.classes.java.util.AbstractSet;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
@@ -53,6 +54,20 @@ import java.base.share.classes.java.util.function.ToDoubleFunction;
 import java.base.share.classes.java.util.function.ToIntFunction;
 import java.base.share.classes.java.util.function.ToLongFunction;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementations of {@link Collector} that implement various useful reduction
@@ -1561,6 +1576,7 @@ public final class Collectors {
                                     BinaryOperator<U> mergeFunction) {
         return toMap(keyMapper, valueMapper, mergeFunction, HashMap::new);
     }
+
 
     /**
      * Returns a {@code Collector} that accumulates the input elements into an

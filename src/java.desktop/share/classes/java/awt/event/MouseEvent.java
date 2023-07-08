@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.event;
 
+
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.IllegalComponentStateException;
@@ -31,6 +32,20 @@ import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An event which indicates that a mouse action occurred in a component.
@@ -624,6 +639,7 @@ public class MouseEvent extends InputEvent {
                       int x, int y, int clickCount, boolean popupTrigger) {
         this(source, id, when, modifiers, x, y, clickCount, popupTrigger, NOBUTTON);
      }
+
 
     /* if the button is an extra button and it is released or clicked then in Xsystem its state
        is not modified. Exclude this button number from ExtModifiers mask.*/

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
@@ -29,7 +30,23 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //import javax.imageio.IIOException;
+
+
 
 /**
  * An SOS (Start Of Scan) marker segment.

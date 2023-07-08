@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Namespace support for XML document handlers. This class doesn't
@@ -98,6 +113,7 @@ public class NamespaceSupport implements NamespaceContext {
         }
     } // <init>(NamespaceContext)
 
+
     //
     // Public methods
     //
@@ -111,6 +127,7 @@ public class NamespaceSupport implements NamespaceContext {
         fNamespaceSize = 0;
         fCurrentContext = 0;
 
+
         // bind "xml" prefix to the XML uri
         fNamespace[fNamespaceSize++] = XMLSymbols.PREFIX_XML;
         fNamespace[fNamespaceSize++] = NamespaceContext.XML_URI;
@@ -122,6 +139,7 @@ public class NamespaceSupport implements NamespaceContext {
         //++fCurrentContext;
 
     } // reset(SymbolTable)
+
 
     /**
      * @see com.sun.org.apache.xerces.internal.xni.NamespaceContext#pushContext()
@@ -139,6 +157,7 @@ public class NamespaceSupport implements NamespaceContext {
         fContext[++fCurrentContext] = fNamespaceSize;
         //System.out.println("calling push context, current context = " + fCurrentContext);
     } // pushContext()
+
 
     /**
      * @see com.sun.org.apache.xerces.internal.xni.NamespaceContext#popContext()
@@ -202,6 +221,7 @@ public class NamespaceSupport implements NamespaceContext {
         return null;
 
     } // getURI(String):String
+
 
     /**
      * @see com.sun.org.apache.xerces.internal.xni.NamespaceContext#getPrefix(String)
@@ -392,6 +412,7 @@ public class NamespaceSupport implements NamespaceContext {
         }
     }
 
+
     protected final class Prefixes implements Enumeration<String> {
         private final String[] prefixes;
         private int counter = 0;
@@ -431,6 +452,7 @@ public class NamespaceSupport implements NamespaceContext {
 
             return buf.toString();
         }
+
 
     }
 

@@ -21,6 +21,56 @@
 
 package build.tools.generatecacerts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Generate cacerts
  *    args[0]: Full path string to the directory that contains CA certs

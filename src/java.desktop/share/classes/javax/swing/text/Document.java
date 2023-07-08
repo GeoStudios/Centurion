@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -638,5 +653,6 @@ public interface Document {
      * there is one.
      */
     String TitleProperty = "title";
+
 
 }

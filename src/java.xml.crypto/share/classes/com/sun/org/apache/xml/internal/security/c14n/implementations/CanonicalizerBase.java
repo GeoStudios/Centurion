@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
@@ -48,10 +49,27 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Abstract base class for canonicalization algorithms.
@@ -191,6 +209,7 @@ public abstract class CanonicalizerBase extends CanonicalizerSpi {
         }
     }
 
+
     /**
      * Method canonicalizeSubTree, this function is a recursive one.
      *
@@ -301,6 +320,7 @@ public abstract class CanonicalizerBase extends CanonicalizerSpi {
             sibling = currentNode.getNextSibling();
         } while(true);
     }
+
 
     private void engineCanonicalizeXPathNodeSetInternal(Node doc, OutputStream writer)
         throws CanonicalizationException {

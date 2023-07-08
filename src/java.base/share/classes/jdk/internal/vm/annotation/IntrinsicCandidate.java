@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.vm.annotation;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code @IntrinsicCandidate} annotation is specific to the

@@ -21,6 +21,7 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
@@ -43,6 +44,20 @@ import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Attribu
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_HIDDEN;.extended
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.MASK;.extended
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder.PROP_DISABLE_ALTERNATE_CHARSET;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AttributedCharSequence implements CharSequence {
 

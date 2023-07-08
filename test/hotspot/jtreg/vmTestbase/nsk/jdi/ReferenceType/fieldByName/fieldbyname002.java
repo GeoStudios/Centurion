@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.fieldByName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>fieldByName()</code>
@@ -53,6 +67,7 @@ public class fieldbyname002 extends Log {
 
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

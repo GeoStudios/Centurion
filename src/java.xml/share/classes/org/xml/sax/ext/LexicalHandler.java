@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
+
 import java.xml.share.classes.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAX2 extension handler for lexical events.
@@ -92,6 +107,7 @@ public interface LexicalHandler
                           String systemId)
         throws SAXException;
 
+
     /**
      * Report the end of DTD declarations.
      *
@@ -104,6 +120,7 @@ public interface LexicalHandler
      */
     void endDTD ()
         throws SAXException;
+
 
     /**
      * Report the beginning of some internal and external XML entities.
@@ -157,6 +174,7 @@ public interface LexicalHandler
     void startEntity (String name)
         throws SAXException;
 
+
     /**
      * Report the end of an entity.
      *
@@ -166,6 +184,7 @@ public interface LexicalHandler
      */
     void endEntity (String name)
         throws SAXException;
+
 
     /**
      * Report the start of a CDATA section.
@@ -181,6 +200,7 @@ public interface LexicalHandler
     void startCDATA ()
         throws SAXException;
 
+
     /**
      * Report the end of a CDATA section.
      *
@@ -189,6 +209,7 @@ public interface LexicalHandler
      */
     void endCDATA ()
         throws SAXException;
+
 
     /**
      * Report an XML comment anywhere in the document.

@@ -21,9 +21,23 @@
 
 package compiler.runtime;
 
+
 import jdk.internal.misc.Unsafe;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,9 @@ import java.lang.reflect.Field;
  *                   -XX:MaxNewSize=32m -XX:-UseTLAB -XX:-UseAdaptiveSizePolicy
  *                   compiler.runtime.Test8010927
  */
+
+
+
 
 /**
  * The test creates uncommitted space between oldgen and young gen

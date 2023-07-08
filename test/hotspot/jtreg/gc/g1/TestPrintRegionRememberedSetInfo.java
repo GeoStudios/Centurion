@@ -21,11 +21,25 @@
 
 package gc.g1;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.lang.Thread;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestPrintRegionRememberedSetInfo
@@ -38,6 +52,7 @@ import java.base.share.classes.java.util.Arrays;
  * @run driver gc.g1.TestPrintRegionRememberedSetInfo
  * @author thomas.schatzl@oracle.com
  */
+
 
 class RunAndWaitForMarking {
     public static void main(String[] args) {

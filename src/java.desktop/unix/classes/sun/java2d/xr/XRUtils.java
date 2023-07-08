@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import java.awt.*;
 import java.awt.geom.Point2D;
 import java.awt.MultipleGradientPaint.*;
@@ -28,6 +29,20 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.*;
 import java.desktop.unix.classes.sun.java2d.loops.*;
 import static java.awt.AlphaComposite.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XRender constants and utility methods.
@@ -114,6 +129,7 @@ public class XRUtils {
         return null;
     }
 
+
     public static byte[] getFilterName(int filterType) {
         switch (filterType) {
         case FAST:
@@ -126,6 +142,7 @@ public class XRUtils {
 
         return null;
     }
+
 
     /**
      * Returns the XRender picture Format which is required to fullfill the
@@ -143,6 +160,7 @@ public class XRUtils {
 
         return -1;
     }
+
 
     public static SurfaceType getXRSurfaceTypeForTransparency(int transparency) {
         if (transparency == Transparency.OPAQUE) {
@@ -260,6 +278,7 @@ public class XRUtils {
     public static boolean isPointCoordInShortRange(Point2D p) {
         return isDoubleInShortRange(p.getX()) && isDoubleInShortRange(p.getY());
     }
+
 
     public static boolean isTransformQuadrantRotated(AffineTransform tr) {
         return ((tr.getType() & (AffineTransform.TYPE_GENERAL_ROTATION |

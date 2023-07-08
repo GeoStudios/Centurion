@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.metadata.IIOMetadata;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFT4Compressor extends TIFFFaxCompressor {
 

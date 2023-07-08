@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl;
@@ -30,6 +31,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XM
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModel;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Add a method that return an <code>XSModel</code> that represents components in

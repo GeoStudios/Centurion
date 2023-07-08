@@ -21,6 +21,56 @@
 
 package build.tools.taglet;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A base class for block tags to insert a link to an external copy of JLS or JVMS.
  * The tags can be used as follows:
@@ -164,6 +214,7 @@ public class JSpec implements Taglet  {
 
         return sb.toString();
     }
+
 
     private String expand(List<? extends DocTree> trees) {
         return (new SimpleDocTreeVisitor<StringBuilder, StringBuilder>() {

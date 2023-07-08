@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS203.hs203t004;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyThread extends Thread {
 
     public static volatile boolean stop = true;

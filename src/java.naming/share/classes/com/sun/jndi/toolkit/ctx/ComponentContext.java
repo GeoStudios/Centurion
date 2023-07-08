@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
 
+
 import javax.naming.*;
 import javax.naming.spi.ResolveResult;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Provides implementation of p_* operations using
@@ -122,6 +137,7 @@ public abstract class ComponentContext extends PartialCompositeContext {
         }
         return new HeadTail(head, tail);
     }
+
 
     /* Resolution method for supporting federation */
 
@@ -265,6 +281,7 @@ public abstract class ComponentContext extends PartialCompositeContext {
         throws NamingException {
             c_processJunction_nns(name, cont);
         }
+
 
     protected void c_rename_nns(Name oldname, Name newname, Continuation cont)
         throws NamingException {
@@ -476,8 +493,11 @@ public abstract class ComponentContext extends PartialCompositeContext {
         return true;
     }
 
+
+
 // ------ implementations of p_ Resolver and Context methods using
 // ------ corresponding c_ and c_*_nns methods
+
 
     /* implementation for Resolver method */
 

@@ -21,6 +21,7 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl.digest;
 
+
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -37,6 +38,20 @@ import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.UnsupportedCallbackException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the DIGEST-MD5
@@ -226,6 +241,7 @@ final class DigestMD5Client extends DigestMD5Base implements SaslClient {
                     null, REALM);
                 validateResponseValue(challengeVal[RESPONSE_AUTH]);
 
+
                 /* Initialize SecurityCtx implementation */
                 if (integrity && privacy) {
                     secCtx = new DigestPrivacy(true /* client */);
@@ -245,6 +261,7 @@ final class DigestMD5Client extends DigestMD5Base implements SaslClient {
             throw new SaslException("DIGEST-MD5: Client at illegal state");
         }
     }
+
 
    /**
     * Record information from the challengeVal array into variables/fields.
@@ -622,6 +639,7 @@ final class DigestMD5Client extends DigestMD5Base implements SaslClient {
         }
         return digestResp.toByteArray();
      }
+
 
     /**
      * From RFC 2831, Section 2.1.3: Step Three

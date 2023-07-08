@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.sun.font;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class CCompositeGlyphMapper extends CompositeGlyphMapper {
 
     private final CompositeFont font;

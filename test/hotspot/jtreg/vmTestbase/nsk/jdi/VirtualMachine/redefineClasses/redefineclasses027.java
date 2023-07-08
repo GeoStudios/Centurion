@@ -21,6 +21,7 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -30,6 +31,19 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test against the method <code>com.sun.jdi.VirtualMachine.redefineClasses()</code>
@@ -139,6 +153,7 @@ public class redefineclasses027 {
         clpEvent = waitClassPrepareEvent(clpr, waitTime);
         display(typePrompt(testedClass) + ":\t" + clpEvent.referenceType().name());
 
+
         display("\nTEST BEGINS");
         display("===========");
 
@@ -203,6 +218,7 @@ public class redefineclasses027 {
         } catch (IOException e) {
             throw new TestBug(UNEXPECTED_STRING + e);
         }
+
 
         // corrupting major and minor version numbers of class file structure
         display("actual version number:  \t"

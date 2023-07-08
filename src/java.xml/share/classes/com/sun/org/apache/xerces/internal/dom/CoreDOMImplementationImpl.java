@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDProcessor;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDValidator;
@@ -44,6 +45,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.ls.DOMImplementationLS;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSOutput;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The DOMImplementation class is description of a particular
@@ -157,6 +172,7 @@ public class CoreDOMImplementationImpl
                         || version.equals("1.0")));
         } // hasFeature(String,String):boolean
 
+
         /**
          * Introduced in DOM Level 2. <p>
          *
@@ -238,6 +254,7 @@ public class CoreDOMImplementationImpl
             }
         }
     }
+
 
         /**
          * Introduced in DOM Level 2. <p>

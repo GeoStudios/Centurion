@@ -21,12 +21,26 @@
 
 package nsk.jdi.ClassObjectReference.reflectedType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>reflectedType()</code>
@@ -45,8 +59,10 @@ public class reflectype001 extends Log {
         thisClassName = package_prefix + "reflectype001",
         debugeeName   = thisClassName + "a";
 
+
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
+
 
     /** Debugee's classes for check **/
     private final static String classes_for_check[][] = {
@@ -115,11 +131,13 @@ public class reflectype001 extends Log {
             out_stream = out;
         }
 
+
         Debugee debugee;
 
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
+
 
         if (argsHandler.verbose()) {
             debugee = binder.bindToDebugee(debugeeName + " -vbs");
@@ -132,6 +150,7 @@ public class reflectype001 extends Log {
         logHandler.display("==> nsk/jdi/ClassObjectReference/reflectedType/reflectype001 test LOG:");
         logHandler.display("==> test checks reflectedType() method of ClassObjectReference interface ");
         logHandler.display("    of the com.sun.jdi package for ArraType, ClassType, InterfaceType\n");
+
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> reflectype001: reflectype001a debugee launched");

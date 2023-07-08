@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.awt.Graphics2D;
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.awt.Polygon;        // remind - need a floating point version.extended
@@ -32,8 +33,25 @@ import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.awt.font.GlyphMetrics;
 import java.desktop.share.classes.java.awt.font.GlyphJustificationInfo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
+
+
+
 
 /**
  * A {@code GlyphVector} object is a collection of glyphs
@@ -272,6 +290,7 @@ public abstract class GlyphVector implements Cloneable {
                 int b = (int)Math.ceil(rect.getMaxY() + y);
                 return new Rectangle(l, t, r - l, b - t);
         }
+
 
     /**
      * Returns a {@code Shape} whose interior corresponds to the

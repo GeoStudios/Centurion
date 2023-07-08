@@ -21,10 +21,25 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.swing.*;
 import javax.swing.border.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 class OverviewTab extends Tab {
@@ -62,6 +77,7 @@ class OverviewTab extends Tab {
 
         // Note that panels are added on first update
     }
+
 
     public SwingWorker<?, ?> newSwingWorker() {
         return new SwingWorker<Object, Object>() {
@@ -102,6 +118,8 @@ class OverviewTab extends Tab {
             }
         };
     }
+
+
 
     private class AutoGridLayout extends GridLayout {
         public AutoGridLayout(int hGap, int vGap) {

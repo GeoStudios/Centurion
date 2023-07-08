@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.awt.IconInfo;
 import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
@@ -34,6 +35,20 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Point2D;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CWarningWindow extends CPlatformWindow
         implements SecurityWarningWindow, PlatformEventNotifier {
@@ -376,6 +391,7 @@ public final class CWarningWindow extends CPlatformWindow
         return new SunGraphics2D(sd, SystemColor.windowText, SystemColor.window,
                                  ownerWindow.getFont());
     }
+
 
     private void repaint() {
         final Graphics g = getGraphics();

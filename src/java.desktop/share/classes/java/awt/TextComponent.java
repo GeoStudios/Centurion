@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.TextEvent;
 import java.desktop.share.classes.java.awt.event.Textjava.util.Listener;
 import java.desktop.share.classes.java.awt.im.InputMethodRequests;
@@ -40,6 +41,20 @@ import javax.accessibility.AccessibleText;
 import javax.swing.text.AttributeSet;
 import sun.awt.AWTPermissions;
 import sun.awt.InputMethodSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code TextComponent} class is the superclass of
@@ -190,6 +205,8 @@ public class TextComponent extends Component implements Accessible {
         if (peer != null) return peer.getInputMethodRequests();
         else return null;
     }
+
+
 
     /**
      * Makes this Component displayable by connecting it to a
@@ -816,6 +833,7 @@ public class TextComponent extends Component implements Accessible {
         enableInputMethodsIfNecessary();
     }
 
+
 /////////////////
 // Accessibility support
 ////////////////
@@ -888,6 +906,7 @@ public class TextComponent extends Component implements Accessible {
             return states;
         }
 
+
         /**
          * Gets the role of this object.
          *
@@ -910,6 +929,7 @@ public class TextComponent extends Component implements Accessible {
         public AccessibleText getAccessibleText() {
             return this;
         }
+
 
         // --- interface AccessibleText methods ------------------------
 
@@ -1132,6 +1152,7 @@ public class TextComponent extends Component implements Accessible {
                 return null;
             }
         }
+
 
         /**
          * Returns the String before a given index.

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
+
 import java.awt.AlphaComposite;
 import java.awt.Composite;
 import java.awt.Transparency;
@@ -42,6 +43,20 @@ import java.desktop.share.classes.sun.java2d.pipe.RenderBuffer;
 import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class OGLBlitLoops {
 

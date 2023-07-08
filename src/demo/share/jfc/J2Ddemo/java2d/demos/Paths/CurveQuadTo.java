@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Paths;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.LIGHT_GRAY;.extended
 import static java.awt.Color.WHITE;.extended
@@ -28,6 +29,20 @@ import java.awt.Graphics2D;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Path2D;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Cubic & Quad curves implemented through GeneralPath.

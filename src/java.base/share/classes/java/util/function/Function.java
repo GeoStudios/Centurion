@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.util.function;
 
+
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a function that accepts one argument and produces a result.

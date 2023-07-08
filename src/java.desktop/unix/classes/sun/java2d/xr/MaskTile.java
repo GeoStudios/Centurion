@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a single tile, used to store the rectangles covering the area
  * of the mask where the tile is located.

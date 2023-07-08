@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marker type for an object containing information about where the object references are in machine
  * state (e.g., registers or stack locations). This is typically associated with an execution point

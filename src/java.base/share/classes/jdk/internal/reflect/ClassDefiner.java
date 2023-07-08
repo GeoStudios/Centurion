@@ -21,10 +21,25 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
+
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.share.classes.jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Utility class which assists in calling defineClass() by
     creating a new class loader which delegates to the one needed in
@@ -61,6 +76,7 @@ class ClassDefiner {
         return JLA.defineClass(newLoader, name, bytes, null, "__ClassDefiner__");
     }
 }
+
 
 // NOTE: this class's name and presence are known to the virtual
 // machine as of the fix for 4474172.

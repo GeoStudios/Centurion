@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
+
 import java.desktop.macosx.classes.sun.java2d.pipe.BufferedContext;
 import java.desktop.macosx.classes.sun.java2d.pipe.RenderBuffer;
 import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities;
 import java.lang.annotation.Native;
 import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note that the RenderQueue lock must be acquired before calling any of

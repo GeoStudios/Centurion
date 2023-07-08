@@ -21,6 +21,22 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Unix system and library calls.
  */
@@ -278,6 +294,7 @@ class UnixNativeDispatcher {
     private static native void stat0(long pathAddress, UnixFileAttributes attrs)
         throws UnixException;
 
+
     /**
      * stat(const char* path, struct stat* buf)
      *
@@ -292,6 +309,7 @@ class UnixNativeDispatcher {
         }
     }
     private static native int stat1(long pathAddress);
+
 
     /**
      * lstat(const char* path, struct stat* buf)
@@ -440,6 +458,7 @@ class UnixNativeDispatcher {
      */
     static native long fdopendir(int dfd) throws UnixException;
 
+
     /**
      * closedir(DIR* dirp)
      */
@@ -489,6 +508,7 @@ class UnixNativeDispatcher {
         }
     }
     private static native boolean exists0(long pathAddress);
+
 
     /**
      * struct passwd *getpwuid(uid_t uid);

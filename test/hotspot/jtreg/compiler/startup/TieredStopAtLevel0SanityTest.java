@@ -21,6 +21,21 @@
 
 package compiler.startup;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8154151
@@ -29,6 +44,7 @@ package compiler.startup;
  * @run main/othervm -Xcomp -XX:+UnlockDiagnosticVMOptions -XX:TieredStopAtLevel=0
  *                   compiler.startup.TieredStopAtLevel0SanityTest
  */
+
 
 public class TieredStopAtLevel0SanityTest {
     public static void main(String[] args) throws Exception {

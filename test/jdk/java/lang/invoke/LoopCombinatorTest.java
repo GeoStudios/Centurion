@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -29,6 +30,19 @@ import java.util.*;
 import static java.lang.invoke.MethodType.methodType;.extended
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8139885
@@ -43,6 +57,11 @@ import org.testng.annotations.*;
  * @bug 8167974
  * @run testng/othervm -ea -esa test.java.lang.invoke.LoopCombinatorTest
  */
+
+
+
+
+
 
 /**
  * Tests for the loop combinators introduced in JEP 274.

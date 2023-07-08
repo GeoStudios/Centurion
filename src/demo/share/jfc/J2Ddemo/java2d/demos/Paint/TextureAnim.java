@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Paint;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.LIGHT_GRAY;.extended
@@ -47,6 +48,20 @@ import javax.swing.JMenuItem;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
 import javax.swing.plaf.metal.MetalBorders.ButtonBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TexturePaint animation with controls for transformations.
@@ -216,6 +231,7 @@ public final class TextureAnim extends AnimatingControlsSurface {
         createDemoFrame(new TextureAnim());
     }
 
+
     static final class AnimVal {
 
         float curval;
@@ -286,6 +302,7 @@ public final class TextureAnim extends AnimatingControlsSurface {
             clip();
         }
     }  // End AnimVal class
+
 
     final class DemoControls extends CustomControls implements ActionListener {
 
@@ -407,6 +424,7 @@ public final class TextureAnim extends AnimatingControlsSurface {
             }
             thread = null;
         }
+
 
         class TexturedIcon implements Icon {
 

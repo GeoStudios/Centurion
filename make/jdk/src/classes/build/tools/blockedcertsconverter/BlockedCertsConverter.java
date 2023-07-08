@@ -21,6 +21,56 @@
 
 package build.tools.blockedcertsconverter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Converts blocked.certs.pem from System.in to blocked.certs in
  * System.out. The input must start with a #! line including the fingerprint

@@ -21,6 +21,21 @@
 
 package p2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Type {
     private static final Object obj = new Object();
 }

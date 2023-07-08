@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.InputEvent;
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.io.Serial;
@@ -33,6 +34,20 @@ import java.desktop.share.classes.java.util.Map;
 import java.desktop.share.classes.java.util.StringTokenizer;
 import sun.awt.AppContext;
 import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code AWTKeyStroke} represents a key action on the

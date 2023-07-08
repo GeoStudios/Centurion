@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Clipping;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
@@ -30,6 +31,20 @@ import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
 import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import static java.lang.Math.random;.extended
 import static java.awt.Color.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Animated clipping of an image & composited shapes.
@@ -150,6 +165,7 @@ public class ClipAnim extends AnimatingControlsSurface {
         createDemoFrame(new ClipAnim());
     }
 
+
     public class AnimVal {
 
         double ix = 5.0;
@@ -212,6 +228,7 @@ public class ClipAnim extends AnimatingControlsSurface {
             eh = (random() * h) / 2;
         }
     }
+
 
     static final class DemoControls extends CustomControls implements
             ActionListener {

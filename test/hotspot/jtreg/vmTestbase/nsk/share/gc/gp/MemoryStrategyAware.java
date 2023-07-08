@@ -21,6 +21,21 @@
 
 package nsk.share.gc.gp;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marker interface for getting MemoryStrategy.
  */

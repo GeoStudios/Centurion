@@ -21,13 +21,29 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.util.function.Function;
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //import java.util.logging.Level;
 //import java.util.logging.Logger;
+
 
 // TODO: document style specification
 

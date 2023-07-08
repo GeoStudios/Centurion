@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -61,6 +62,20 @@ import sun.swing.DefaultLookup;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
 import sun.swing.plaf.synth.SynthFileChooserUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SynthLookAndFeel provides the basis for creating a customized look and
@@ -193,6 +208,7 @@ public class SynthLookAndFeel extends BasicLookAndFeel {
     static void resetSelectedUI() {
         AppContext.getAppContext().remove(SELECTED_UI_KEY);
     }
+
 
     /**
      * Sets the SynthStyleFactory that the UI classes provided by
@@ -552,6 +568,7 @@ public class SynthLookAndFeel extends BasicLookAndFeel {
         }
         return null;
     }
+
 
     /**
      * Creates a SynthLookAndFeel.

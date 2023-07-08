@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class defines the API for iterating through the bands
  * of a region object.

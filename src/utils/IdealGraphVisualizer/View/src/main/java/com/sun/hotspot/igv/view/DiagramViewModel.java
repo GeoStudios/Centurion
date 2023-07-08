@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
+
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.*;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.difference.Difference;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.filter.CustomFilter;
@@ -31,6 +32,20 @@ import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.setting
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.RangeSliderModel;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.Color;
 import utils.IdealGraphVisualizer.View.src.main.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -292,6 +307,7 @@ public class DiagramViewModel extends RangeSliderModel implements ChangedListene
         }
         setHiddenNodes(newHiddenNodes);
     }
+
 
     public Set<Figure> getSelectedFigures() {
         Set<Figure> result = new HashSet<>();

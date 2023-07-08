@@ -21,8 +21,23 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteOrder;
 import java.util.function.IntUnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for managing all vectors of the same combination

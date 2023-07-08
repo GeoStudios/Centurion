@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.print;
 
+
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.AbstractMap;
@@ -30,6 +31,20 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code MimeType} encapsulates a Multipurpose Internet Mail Extensions

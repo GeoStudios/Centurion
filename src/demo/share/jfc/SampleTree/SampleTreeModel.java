@@ -21,11 +21,26 @@
 
 package demo.share.jfc.SampleTree;
 
+
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.Color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,6 +49,10 @@ import java.awt.Color;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * SampleTreeModel extends JTreeModel to extends valueForPathChanged.

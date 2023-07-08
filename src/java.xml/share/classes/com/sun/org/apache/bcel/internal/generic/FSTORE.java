@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * FSTORE - Store float into local variable
@@ -41,12 +58,14 @@ public class FSTORE extends StoreInstruction {
         super(com.sun.org.apache.bcel.internal.Const.FSTORE, com.sun.org.apache.bcel.internal.Const.FSTORE_0);
     }
 
+
     /** Store float into local variable
      * @param n index of local variable
      */
     public FSTORE(final int n) {
         super(com.sun.org.apache.bcel.internal.Const.FSTORE, com.sun.org.apache.bcel.internal.Const.FSTORE_0, n);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import java.desktop.windows.classes.com.sun.java.awt.Rectangle;
@@ -37,6 +38,20 @@ import javax.swing.text.JTextComponent;
 import javax.swing.text.LayeredHighlighter;
 import javax.swing.text.Position;
 import javax.swing.text.View;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows text rendering.

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Component;
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
@@ -41,6 +42,20 @@ import javax.swing.UIManager;
 import javax.swing.border.AbstractBorder;
 import javax.swing.plaf.UIResource;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Icons appropriate for the basic {@literal L & F}.
@@ -81,6 +96,7 @@ public class MotifBorders {
 
     }
 
+
     @SuppressWarnings("serial") // Superclass is not serializable across versions
     public static class FocusBorder extends AbstractBorder implements UIResource {
         private final Color focus;
@@ -106,6 +122,7 @@ public class MotifBorders {
             return insets;
         }
     }
+
 
     @SuppressWarnings("serial") // Superclass is not serializable across versions
     public static class ButtonBorder extends AbstractBorder implements UIResource {

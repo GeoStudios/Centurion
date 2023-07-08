@@ -21,8 +21,23 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
+
 import java.lang.invoke.MethodHandle;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -31,6 +46,8 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * Represents one component for a GuardedInvocation of a potentially multi-namespace operation of an

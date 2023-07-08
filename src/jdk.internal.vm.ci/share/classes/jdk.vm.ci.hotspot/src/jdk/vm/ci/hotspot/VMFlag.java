@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Describes a VM flag exposed via {@link HotSpotVMConfigAccess}.
  */

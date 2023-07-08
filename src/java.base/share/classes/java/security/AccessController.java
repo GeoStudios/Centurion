@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.security;
 
+
 import java.base.share.classes.java.lang.annotation.ElementType;
 import java.base.share.classes.java.lang.annotation.Retention;
 import java.base.share.classes.java.lang.annotation.RetentionPolicy;
@@ -34,6 +35,20 @@ import jdk.internal.reflect.Reflection;
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.ReservedStackAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> The AccessController class is used for access control operations
@@ -347,6 +362,7 @@ public final class AccessController {
                                              preserveCombiner(dc, Reflection.getCallerClass()));
     }
 
+
     /**
      * Performs the specified {@code PrivilegedAction} with privileges
      * enabled and restricted by the specified {@code AccessControlContext}.
@@ -388,6 +404,7 @@ public final class AccessController {
         context = checkContext(context, caller);
         return executePrivileged(action, context, caller);
     }
+
 
     /**
      * Performs the specified {@code PrivilegedAction} with privileges
@@ -448,6 +465,7 @@ public final class AccessController {
         return AccessController.doPrivileged(action, createWrapper(dc,
             caller, parent, context, perms));
     }
+
 
     /**
      * Performs the specified {@code PrivilegedAction} with privileges
@@ -799,6 +817,7 @@ public final class AccessController {
         return result;
     }
 
+
     /**
      * Wrap an exception.  The annotations are used in a best effort to
      * avoid StackOverflowError in the caller.  Inlining the callees as
@@ -873,6 +892,7 @@ public final class AccessController {
         DomainCombiner dc = (context == null) ? null : context.getCombiner();
         return AccessController.doPrivileged(action, createWrapper(dc, caller, parent, context, perms));
     }
+
 
     /**
      * Performs the specified {@code PrivilegedExceptionAction} with
@@ -956,6 +976,7 @@ public final class AccessController {
 
     @SuppressWarnings("removal")
     private static native AccessControlContext getStackAccessControlContext();
+
 
     /**
      * Returns the "inherited" AccessControl context. This is the context

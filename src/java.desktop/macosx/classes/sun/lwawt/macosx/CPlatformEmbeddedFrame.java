@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
@@ -31,6 +32,20 @@ import java.desktop.macosx.classes.sun.lwawt.macosx.CFLayer;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
 import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Provides a lightweight implementation of the EmbeddedFrame.

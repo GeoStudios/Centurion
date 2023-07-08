@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt.event;
 
+
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Container;
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An event which indicates a change to the {@code Component}

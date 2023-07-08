@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // A simple interface, to allow an unknown foreign call from a class
 // loaded with the bootstrap loader to a class loaded with Loader2.
 public interface A {

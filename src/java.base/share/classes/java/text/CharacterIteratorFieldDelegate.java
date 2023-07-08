@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.text;
 
+
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CharacterIteratorFieldDelegate combines the notifications from a Format
@@ -44,6 +59,7 @@ class CharacterIteratorFieldDelegate implements Format.FieldDelegate {
      * been encountered.
      */
     private int size;
+
 
     CharacterIteratorFieldDelegate() {
         attributedStrings = new ArrayList<>();

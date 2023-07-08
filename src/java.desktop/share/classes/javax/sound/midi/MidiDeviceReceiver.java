@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * {@code MidiDeviceReceiver} is a {@code Receiver} which represents a MIDI
  * input connector of a {@code MidiDevice} (see

@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.processing;
 
+
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -91,6 +92,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.
 import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate;
 import static jdk.compiler.share.classes.com.sun.tools.javac.comp.CompileStates.CompileState;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Objects of this class hold and manage the state needed to support
@@ -692,6 +707,7 @@ public class JavacProcessingEnvironment implements ProcessingEnvironment, Closea
                 processor.init(env);
 
                 checkSourceVersionCompatibility(source, log);
+
 
                 // Check for direct duplicates in the strings of
                 // supported annotation types. Do not check for
@@ -1343,6 +1359,7 @@ public class JavacProcessingEnvironment implements ProcessingEnvironment, Closea
         }
     }
 
+
     // TODO: internal catch clauses?; catch and rethrow an annotation
     // processing error
     public boolean doProcessing(List<JCCompilationUnit> roots,
@@ -1416,6 +1433,7 @@ public class JavacProcessingEnvironment implements ProcessingEnvironment, Closea
         roots = round.roots;
 
         errorStatus = errorStatus || (compiler.errorCount() > 0);
+
 
         if (newSourceFiles.size() > 0)
             roots = roots.appendList(compiler.parseFiles(newSourceFiles));
@@ -1680,6 +1698,7 @@ public class JavacProcessingEnvironment implements ProcessingEnvironment, Closea
                 super.visitAnnotation(node);
             }
         };
+
 
     private boolean moreToDo() {
         return filer.newFiles();

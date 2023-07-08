@@ -21,8 +21,22 @@
 
 package jit.t.t021;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t021.t021
  */
+
+
 
 // opc_fconst_0, opc_fconst_1, opc_fconst_2, opc_fload_<n>, opc_fload,
 // opc_fadd, opc_fsub, opc_fmul, opc_fdiv

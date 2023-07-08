@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.org.xml.sax;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface for associating a SAX event with a document location.
  *
@@ -56,6 +72,7 @@ package java.base.share.classes.jdk.internal.org.xml.sax;
  */
 public interface Locator {
 
+
     /**
      * Return the public identifier for the current document event.
      *
@@ -68,6 +85,7 @@ public interface Locator {
      * @see #getSystemId
      */
     String getPublicId ();
+
 
     /**
      * Return the system identifier for the current document event.
@@ -86,6 +104,7 @@ public interface Locator {
      * @see #getPublicId
      */
     String getSystemId ();
+
 
     /**
      * Return the line number where the current document event ends.
@@ -112,6 +131,7 @@ public interface Locator {
      * @see #getColumnNumber
      */
     int getLineNumber ();
+
 
     /**
      * Return the column number where the current document event ends.

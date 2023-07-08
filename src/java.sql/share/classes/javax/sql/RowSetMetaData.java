@@ -21,7 +21,22 @@
 
 package java.sql.share.classes.javax.sql;
 
+
 import java.sql.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that contains information about the columns in a

@@ -21,6 +21,56 @@
 
 package build.tools.projectcreator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class BuildConfig {
     @SuppressWarnings("rawtypes")
     Hashtable vars;
@@ -83,6 +133,7 @@ class BuildConfig {
         initDefaultLinkerFlags();
         //handleDB();
     }
+
 
     protected void initDefaultCompilerFlags(Vector<String> includes) {
         Vector compilerFlags = new Vector();
@@ -318,6 +369,7 @@ class BuildConfig {
             }
         }
     }
+
 
     Vector getDefines() {
         Vector rv = new Vector();
@@ -585,6 +637,7 @@ class TieredProductConfig extends ProductConfig {
         init(getIncludes(), getDefines());
     }
 }
+
 
 abstract class CompilerInterface {
     abstract Vector getBaseCompilerFlags(Vector defines, Vector includes, String outDir);

@@ -21,12 +21,27 @@
 
 package java.security.jgss.windows.classes.sun.security.krb5.internal.tools;
 
+
 import java.security.jgss.windows.classes.sun.security.krb5.*;
 import java.security.jgss.windows.classes.sun.security.krb5.internal.*;
 import java.security.jgss.windows.classes.sun.security.krb5.internal.ccache.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.time.Instant;
 import java.io.FileInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Maintains user-specific options or default settings when the user requests
@@ -216,6 +231,7 @@ class KinitOptions {
         }
         return null;
     }
+
 
     void printHelp() {
         System.out.println("Usage:\n\n1. Initial ticket request:\n" +

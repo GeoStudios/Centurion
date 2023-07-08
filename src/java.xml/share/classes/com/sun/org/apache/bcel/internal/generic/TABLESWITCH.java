@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * TABLESWITCH - Switch within given range of values, i.e., low..high
@@ -44,6 +62,7 @@ public class TABLESWITCH extends Select {
     TABLESWITCH() {
     }
 
+
     /**
      * @param match sorted array of match values, match[0] must be low value,
      * match[match_length - 1] high value
@@ -57,6 +76,7 @@ public class TABLESWITCH extends Select {
         super.setLength(_length);
         setFixed_length(_length);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -74,6 +94,7 @@ public class TABLESWITCH extends Select {
             out.writeInt(setIndices(i, getTargetOffset(super.getTarget(i))));
         }
     }
+
 
     /**
      * Read needed data (e.g. index) from file.
@@ -96,6 +117,7 @@ public class TABLESWITCH extends Select {
             super.setIndices(i, bytes.readInt());
         }
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

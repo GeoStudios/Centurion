@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import java.util.EnumSet;
 import java.util.Set;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
@@ -37,6 +38,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.exten
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVAR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Resolves field, method and constructor header, and constructs corresponding Symbols.
  *

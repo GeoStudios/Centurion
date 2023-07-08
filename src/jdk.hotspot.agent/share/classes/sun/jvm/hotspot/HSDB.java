@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
+
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -45,6 +46,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The top-level HotSpot Debugger. FIXME: make this an embeddable
     component! (Among other things, figure out what to do with the
@@ -160,6 +175,7 @@ public class HSDB implements ObjectHistogramPanel.Listener, SAListener {
     attachMenuItems = new java.util.ArrayList<>();
     detachMenuItems = new java.util.ArrayList<>();
 
+
     JMenuBar menuBar = new JMenuBar();
 
     //
@@ -257,6 +273,7 @@ public class HSDB implements ObjectHistogramPanel.Listener, SAListener {
 
     toolsMenu.add(item);
 
+
     item = createMenuItem("Compute Reverse Ptrs",
                           new ActionListener() {
                               public void actionPerformed(ActionEvent e) {
@@ -275,6 +292,7 @@ public class HSDB implements ObjectHistogramPanel.Listener, SAListener {
                             });
     item.setMnemonic(KeyEvent.VK_D);
     toolsMenu.add(item);
+
 
     item = createMenuItem("Find Pointer",
                           new ActionListener() {
@@ -404,6 +422,7 @@ public class HSDB implements ObjectHistogramPanel.Listener, SAListener {
     showDbgConsoleMenuItem.setEnabled(false);
 
     menuBar.add(windowsMenu);
+
 
     frame.setJMenuBar(menuBar);
 

@@ -21,7 +21,21 @@
 
 package jit.PrintThis;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,9 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.PrintThis.PrintThis
  */
+
+
+
 
 public class PrintThis {
   static PrintThis hc = new PrintThis();

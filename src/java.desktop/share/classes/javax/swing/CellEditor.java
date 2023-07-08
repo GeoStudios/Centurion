@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.util.EventObject;
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the methods any general editor should be able

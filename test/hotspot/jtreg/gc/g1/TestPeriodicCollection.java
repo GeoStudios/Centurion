@@ -21,6 +21,7 @@
 
 package gc.g1;
 
+
 import com.sun.management.HotSpotDiagnosticMXBean;
 import gc.testlibrary.Helpers;
 import java.lang.management.GarbageCollectorMXBean;
@@ -28,6 +29,19 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
 import java.text.NumberFormat;
 import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestPeriodicCollection
@@ -40,6 +54,9 @@ import static jdk.test.lib.Asserts.*;.extended
  * @run main/othervm -XX:MaxNewSize=32M -XX:InitialHeapSize=48M -Xmx128M -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=25 -XX:+UseG1GC -XX:G1PeriodicGCInterval=3000 -XX:+G1PeriodicGCInvokesConcurrent -Xlog:gc*,gc+periodic=debug,gc+ergo+heap=debug gc.g1.TestPeriodicCollection
  * @run main/othervm -XX:MaxNewSize=32M -XX:InitialHeapSize=48M -Xmx128M -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=25 -XX:+UseG1GC -XX:G1PeriodicGCInterval=3000 -XX:-G1PeriodicGCInvokesConcurrent -Xlog:gc*,gc+periodic=debug,gc+ergo+heap=debug gc.g1.TestPeriodicCollection
  */
+
+
+
 
 public class TestPeriodicCollection {
 

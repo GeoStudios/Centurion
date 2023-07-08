@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.serialization;
 
+
 import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.*;
 import utils.IdealGraphVisualizer.Data.src.test.java.io.*;
 import utils.IdealGraphVisualizer.Data.src.test.java.nio.channels.Channels;
@@ -30,6 +31,20 @@ import static org.junit.Assert.fail;.extended
 import org.junit.*;
 import org.openide.util.Exceptions;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -204,6 +219,7 @@ public class ParserTest {
 
         test(document);
     }
+
 
     /**
      * Test of parse method, of class Parser.

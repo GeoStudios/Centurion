@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.status.status004;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -120,6 +134,7 @@ public class status004a {
 class Lock {
     synchronized void foo () {}
 }
+
 
 class status004aThreadBlockedOnMethod extends Thread {
     status004aThreadBlockedOnMethod (String name) {

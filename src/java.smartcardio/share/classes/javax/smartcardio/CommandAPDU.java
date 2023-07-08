@@ -21,8 +21,23 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
 import java.base.share.classes.java.util.Arrays;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A command APDU following the structure defined in ISO/IEC 7816-4.

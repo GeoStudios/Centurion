@@ -21,12 +21,29 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: SignatureProperties.java,v 1.4 2005/05/10 16:03:46 mullan Exp $
  */
+
+
 
 /**
  * A representation of the XML <code>SignatureProperties</code> element as

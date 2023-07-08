@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.ActionEvent;
 import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
 import java.desktop.share.classes.java.awt.event.InputEvent;
@@ -37,6 +38,20 @@ import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleValue;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * All items in a menu must belong to the class
@@ -679,6 +694,7 @@ public class MenuItem extends MenuComponent implements Accessible {
         return super.paramString() + str;
     }
 
+
     /* Serialization support.
      */
 
@@ -756,6 +772,7 @@ public class MenuItem extends MenuComponent implements Accessible {
      * Initialize JNI field and method IDs
      */
     private static native void initIDs();
+
 
 /////////////////
 // Accessibility support

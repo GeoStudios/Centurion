@@ -21,6 +21,22 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Macro implements Binding {
 
     private final String sequence;

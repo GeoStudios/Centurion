@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.desktop.unix.classes.sun.awt.IconInfo;
 import jdk.internal.misc.Unsafe;
 import java.awt.Insets;
@@ -33,10 +34,27 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Ported from awt_wm.c, SCCS v1.11, author Valeriy Ushakov
  * Author: Denis Mikhalkin
  */
+
+
+
 
 /**
  * Class incapsulating knowledge about window managers in general
@@ -53,8 +71,10 @@ final class XWM
 
     private static final Unsafe unsafe = XlibWrapper.unsafe;
 
+
 /* Good old ICCCM */
     static XAtom XA_WM_STATE = new XAtom();
+
 
     XAtom XA_UTF8_STRING = XAtom.get("UTF8_STRING");    /* like STRING but encoding is UTF-8 */
 
@@ -137,6 +157,7 @@ final class XWM
         }
     }
 
+
     int WMID;
     static final Insets zeroInsets = new Insets(0, 0, 0, 0);
     static final Insets defaultInsets = new Insets(25, 5, 5, 5);
@@ -151,6 +172,7 @@ final class XWM
     int getID() {
         return WMID;
     }
+
 
     static Insets normalize(Insets insets) {
         if (insets.top > 64 || insets.top < 0) {
@@ -451,6 +473,7 @@ final class XWM
                                          false, XA_DT_SM_STATE_INFO);
             try {
                 status = getter2.execute(XErrorHandler.IgnoreBadWindowHandler.getInstance());
+
 
                 if (status != XConstants.Success || getter2.getData() == 0) {
                     log.finer("Getting of _DT_SM_STATE_INFO is not successfull");
@@ -812,11 +835,13 @@ final class XWM
         }
     }
 
+
 /*****************************************************************************\
  *
  * Size and decoration hints ...
  *
 \*****************************************************************************/
+
 
     /*
      * Remove size hints specified by the mask.
@@ -1114,6 +1139,7 @@ final class XWM
         }
     }
 
+
     /**
      * Check if state is supported.
      * Note that a compound state is always reported as not supported.
@@ -1153,6 +1179,7 @@ final class XWM
  *
 \*****************************************************************************/
 
+
     int getExtendedState(XWindowPeer window) {
         int state = 0;
         for (XStateProtocol proto : getProtocols(XStateProtocol.class)) {
@@ -1170,6 +1197,7 @@ final class XWM
  * Notice window state change when WM changes a property on the window ...
  *
 \*****************************************************************************/
+
 
     /*
      * Check if property change is a window state protocol message.
@@ -1262,6 +1290,7 @@ final class XWM
         }
         XToolkit.XSync();
     }
+
 
     /*
      * Work around for 4775545.

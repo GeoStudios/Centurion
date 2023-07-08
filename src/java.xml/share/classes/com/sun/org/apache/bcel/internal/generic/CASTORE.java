@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * CASTORE -  Store into char array
@@ -38,6 +55,7 @@ public class CASTORE extends ArrayInstruction implements StackConsumer {
     public CASTORE() {
         super(com.sun.org.apache.bcel.internal.Const.CASTORE);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

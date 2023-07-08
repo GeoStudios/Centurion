@@ -21,6 +21,7 @@
 
 package jit.graph;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.TestFailure;
 import java.io.BufferedReader;
@@ -34,7 +35,21 @@ import java.util.Random;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class Globals {
+
 
     public static int STATIC_LOOP = 0;
     public static int NUM_TEST_CLASSES = 7;
@@ -142,6 +157,7 @@ public final class Globals {
         }
     }
 
+
     // based off a static index, this function selects the method to be called
     public static MethodData returnNextStaticMethod(int Method_ID) {
         //int i = ID_BinSearch(0, MethodID_Array.length - 1, Method_ID);
@@ -182,6 +198,7 @@ public final class Globals {
         }
         return new MethodData(ClassArray[i], MethodName_Array[i], methodsClass, nextMethod, MethodID_Array[i]);
     }
+
 
     /* These two functions are used to verify that all function were called in the proper order */
 

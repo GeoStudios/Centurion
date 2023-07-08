@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.awt.Color;
 import java.awt.ContainerOrderFocusTraversalPolicy;
 import java.awt.GridBagConstraints;
@@ -34,6 +35,20 @@ import java.desktop.share.classes.javax.swing.JPanel;
 import java.desktop.share.classes.javax.swing.JRadioButton;
 import java.desktop.share.classes.javax.swing.border.EmptyBorder;
 import java.desktop.share.classes.javax.swing.JSpinner.DefaultEditor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class ColorPanel extends JPanel implements ActionListener {

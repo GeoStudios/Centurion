@@ -21,9 +21,24 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import javax.management.DynamicMBean;
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A dynamic MBean that wraps an underlying resource.  A version of this

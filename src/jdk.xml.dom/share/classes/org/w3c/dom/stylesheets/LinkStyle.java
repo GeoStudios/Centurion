@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.stylesheets;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  The <code>LinkStyle</code> interface provides a mechanism by which a style
  * sheet can be retrieved from the node responsible for linking it into a

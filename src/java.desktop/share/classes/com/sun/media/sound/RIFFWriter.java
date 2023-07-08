@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.RandomAccessFile;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Resource Interchange File Format (RIFF) stream encoder.

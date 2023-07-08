@@ -21,6 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
+
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.trace;.extended
 import static java.util.stream.Collectors.*;.extended
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency;
@@ -58,6 +59,20 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JdepsConfiguration implements AutoCloseable {
     // the token for "all modules on the module path"
@@ -533,6 +548,7 @@ public class JdepsConfiguration implements AutoCloseable {
                     .map(mref -> mref.descriptor().name())
                     .forEach(rootModules::add);
             }
+
 
             // build root set for module resolution
             Set<String> mods = new HashSet<>(rootModules);

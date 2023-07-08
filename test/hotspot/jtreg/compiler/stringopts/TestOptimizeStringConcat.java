@@ -21,6 +21,21 @@
 
 package compiler.stringopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8068909
@@ -30,6 +45,7 @@ package compiler.stringopts;
  *                   compiler.stringopts.TestOptimizeStringConcat
  * @author axel.siebenborn@sap.com
  */
+
 
 public class TestOptimizeStringConcat {
 

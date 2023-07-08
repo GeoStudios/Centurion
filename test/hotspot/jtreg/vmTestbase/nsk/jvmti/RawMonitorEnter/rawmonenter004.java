@@ -21,7 +21,21 @@
 
 package nsk.jvmti.RawMonitorEnter;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class rawmonenter004 {
 
@@ -47,6 +61,7 @@ public class rawmonenter004 {
         // produce JCK-like exit status.
         System.exit(run(args, System.out) + JCK_STATUS_BASE);
     }
+
 
     public static int run(String args[], PrintStream out) {
         int waitTime = 2;

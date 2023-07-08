@@ -21,6 +21,21 @@
 
 package compiler.c2.cr6663848;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6663848
@@ -40,6 +55,7 @@ final class Tester_Class_0 {
     String var_6;
     final long var_7 = 4161100809902398464L;
     static String var_8 = "a";
+
 
     public Tester_Class_0()
     {
@@ -96,6 +112,9 @@ final class Tester_Class_0 {
         var_3 = (var_3 = "dn");
         var_2 = false ? (var_1 = (byte)9.136750130102702E307) : var_7;
     }
+
+
+
 
     final short func_0(int arg_0, short arg_1, double[][] arg_2, double arg_3)
     {
@@ -201,6 +220,7 @@ final class Tester_Class_0 {
 
 }
 
+
 class Tester_Class_1 {
     Tester_Class_0[][] var_21;
     static long var_22 = 6671342492736446464L;
@@ -210,6 +230,7 @@ class Tester_Class_1 {
     static char var_26;
     static Object var_27;
     static int var_28 = Tester_Class_0.var_5 = false ? 'U' : (var_26 = (var_26 = 'R'));
+
 
     public Tester_Class_1()
     {
@@ -246,6 +267,8 @@ class Tester_Class_1 {
         var_23 %= var_25;
     }
 
+
+
     protected Object clone()
     {
         var_28 >>>= (new Tester_Class_0().var_1 = (byte)new Tester_Class_0().var_4);
@@ -274,10 +297,12 @@ class Tester_Class_1 {
         return 1.1357028E38F + (var_30 ? (Tester_Class_0)(var_27 = obj) : (Tester_Class_0)obj).var_7 == 3.860172628750592E306;
     }
 
+
 }
 
 public class Tester {
     final static long var_36 = (4.4957056E37F < Tester_Class_1.var_22 + 281107777128915968L ? (Tester_Class_1.var_26 = 't') : (char)Tester_Class_1.var_28) - (4654994097042818048L | (byte)(Tester_Class_0.var_2 = (short)(Tester_Class_1.var_26 = ']'))) ^ 349774342780012544L;
+
 
     static long func_0(final Tester_Class_1 arg_0, long arg_1)
     {

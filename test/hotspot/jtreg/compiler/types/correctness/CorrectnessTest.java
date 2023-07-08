@@ -21,6 +21,7 @@
 
 package compiler.types.correctness;
 
+
 import compiler.types.correctness.execution.Execution;
 import compiler.types.correctness.execution.MethodHandleDelegate;
 import compiler.types.correctness.execution.TypeConflict;
@@ -48,6 +49,19 @@ import java.lang.reflect.Method;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test CorrectnessTest
@@ -79,6 +93,9 @@ import java.util.function.BiFunction;
  *                   -XX:CompileCommand=dontinline,compiler.types.correctness.scenarios.Scenario::collectReturnType
  *                   compiler.types.correctness.CorrectnessTest ARGUMENTS
  */
+
+
+
 
 public class CorrectnessTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

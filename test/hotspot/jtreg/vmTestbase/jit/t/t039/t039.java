@@ -21,8 +21,22 @@
 
 package jit.t.t039;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t039.t039
  */
+
+
 
 // opc_lreturn, opc_monitorenter, opc_monitorexit
 

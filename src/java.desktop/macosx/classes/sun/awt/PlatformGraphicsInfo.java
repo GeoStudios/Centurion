@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.sun.awt;
 
+
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 public class PlatformGraphicsInfo {

@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
@@ -35,6 +36,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for operating on types.
@@ -292,6 +307,7 @@ public class JavacTypes implements javax.lang.model.util.Types {
             throw new IllegalArgumentException(sym + "@" + site);
         return types.memberType(site, sym);
     }
+
 
     private static final Set<TypeKind> EXEC_OR_PKG_OR_MOD =
         EnumSet.of(TypeKind.EXECUTABLE, TypeKind.PACKAGE, TypeKind.MODULE);

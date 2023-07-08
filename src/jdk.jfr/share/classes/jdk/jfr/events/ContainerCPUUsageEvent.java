@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.events;
 
+
 import jdk.jfr.share.classes.jdk.jfr.Category;
 import jdk.jfr.share.classes.jdk.jfr.DataAmount;
 import jdk.jfr.share.classes.jdk.jfr.Description;
@@ -32,6 +33,20 @@ import jdk.jfr.share.classes.jdk.jfr.StackTrace;
 import jdk.jfr.share.classes.jdk.jfr.Threshold;
 import jdk.jfr.share.classes.jdk.jfr.Timespan;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Name(Type.EVENT_NAME_PREFIX + "ContainerCPUUsage")
 @Label("CPU Usage")

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.awt.image.*;
 import java.desktop.share.classes.java.net.URL;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.java.net.URLConnection;
 import java.desktop.share.classes.java.io.File;
 import sun.util.logging.PlatformLogger;
 import sun.awt.image.SunWritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The splash screen can be displayed at application startup, before the
@@ -377,6 +392,7 @@ public final class SplashScreen {
             theInstance = null;
         }
     }
+
 
     /**
      * Determines whether the splash screen is visible. The splash screen may

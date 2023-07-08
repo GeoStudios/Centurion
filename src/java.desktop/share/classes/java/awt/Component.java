@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.applet.Applet;
 import java.desktop.share.classes.java.awt.dnd.DropTarget;
 import java.desktop.share.classes.java.awt.event.ActionEvent;
@@ -107,6 +108,20 @@ import sun.swing.SwingAccessor;
 import sun.util.logging.PlatformLogger;
 import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_DEFAULT;.extended
 import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_ON;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <em>component</em> is an object having a graphical representation
@@ -2067,6 +2082,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         }
     }
 
+
     /**
      * Returns the location of this component's top left corner.
      *
@@ -2434,6 +2450,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         setBounds(r.x, r.y, r.width, r.height);
     }
 
+
     /**
      * Returns the current x coordinate of the components origin.
      * This method is preferable to writing
@@ -2446,6 +2463,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
     public int getX() {
         return x;
     }
+
 
     /**
      * Returns the current y coordinate of the components origin.
@@ -2460,6 +2478,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         return y;
     }
 
+
     /**
      * Returns the current width of this component.
      * This method is preferable to writing
@@ -2472,6 +2491,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
     public int getWidth() {
         return width;
     }
+
 
     /**
      * Returns the current height of this component.
@@ -2573,6 +2593,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         }
     }
 
+
     /**
      * A lightweight component doesn't have a native toolkit peer.
      * Subclasses of {@code Component} and {@code Container},
@@ -2591,6 +2612,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
     public boolean isLightweight() {
         return peer instanceof LightweightPeer;
     }
+
 
     /**
      * Sets the preferred size of this component to a constant
@@ -2618,6 +2640,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         firePropertyChange("preferredSize", old, preferredSize);
     }
 
+
     /**
      * Returns true if the preferred size has been set to a
      * non-{@code null} value otherwise returns false.
@@ -2629,6 +2652,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         return prefSizeSet;
     }
 
+
     /**
      * Gets the preferred size of this component.
      * @return a dimension object indicating this component's preferred size
@@ -2638,6 +2662,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
     public Dimension getPreferredSize() {
         return preferredSize();
     }
+
 
     /**
      * Returns the component's preferred size.
@@ -4781,6 +4806,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         toolkit.notifyAWTEventListeners(e);
 
+
         /*
          * 3. If no one has consumed a key event, allow the
          *    KeyboardFocusManager to process it.
@@ -4812,6 +4838,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
                (e instanceof InputEvent) || (e instanceof FocusEvent)) {
                 InputContext inputContext = getInputContext();
 
+
                 if (inputContext != null) {
                     inputContext.dispatchEvent(e);
                     if (e.isConsumed()) {
@@ -4833,6 +4860,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
                 }
             }
         }
+
 
         /*
          * 5. Pre-process any special events before delivery
@@ -6162,6 +6190,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         return coalescingEnabled;
      }
 
+
     /**
      * Potentially coalesce an event being posted with an existing
      * event.  This method is called by {@code EventQueue.postEvent}
@@ -6895,6 +6924,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
                 getContainer().increaseComponentCount(this);
             }
 
+
             // Update stacking order
             updateZOrder();
 
@@ -7373,6 +7403,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
     public void requestFocus() {
         requestFocusHelper(false, true);
     }
+
 
     /**
      * Requests by the reason of {@code cause} that this Component get the input
@@ -8596,6 +8627,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         firePropertyChange(propertyName, Short.valueOf(oldValue), Short.valueOf(newValue));
     }
 
+
     /**
      * Reports a bound property change.
      *
@@ -8646,6 +8678,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         }
         firePropertyChange(propertyName, Double.valueOf(oldValue), Double.valueOf(newValue));
     }
+
 
     // Serialization support.
 
@@ -9162,6 +9195,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
             }
         } // inner class AccessibleAWTComponentHandler
 
+
         /**
          * Fire PropertyChange listener, if one is registered,
          * when focus events happen
@@ -9194,6 +9228,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
                 }
             }
         }  // inner class AccessibleAWTFocusHandler
+
 
         /**
          * Adds a {@code PropertyChangeListener} to the listener list.
@@ -9363,6 +9398,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         public AccessibleComponent getAccessibleComponent() {
             return this;
         }
+
 
         // AccessibleComponent methods
         //
@@ -9696,6 +9732,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
 
     } // inner class AccessibleAWTComponent
 
+
     /**
      * Gets the index of this object in its accessible parent.
      * If this object does not have an accessible parent, returns
@@ -9803,6 +9840,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         return false;
     }
 
+
     // ************************** MIXING CODE *******************************
 
     /**
@@ -9843,6 +9881,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
                 if (shape.isEmpty()) {
                     shape = Region.EMPTY_REGION;
                 }
+
 
                 // Note: the shape is not really copied/cloned. We create
                 // the Region object ourselves, so there's no any possibility

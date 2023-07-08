@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This is the superclass of all exceptions thrown by
   * operations in the Context and DirContext interfaces.
@@ -48,6 +64,7 @@ package java.naming.share.classes.javax.naming;
   * <i>cause</i> returned by the {@link Throwable#getCause()} method.
   *
   */
+
 
 public class NamingException extends Exception {
     /**

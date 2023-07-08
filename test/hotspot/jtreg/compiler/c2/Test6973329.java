@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6973329
@@ -30,6 +45,7 @@ package compiler.c2;
  *    -XX:CompileCommand=compileonly,compiler.c2.Test6973329::*
  *    compiler.c2.Test6973329
  */
+
 
 public class Test6973329 {
     static class A {

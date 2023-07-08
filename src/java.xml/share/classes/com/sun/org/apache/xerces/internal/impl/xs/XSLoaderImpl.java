@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSGrammarPool;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
@@ -39,10 +40,26 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * <p>An implementation of XSLoader which wraps XMLSchemaLoader.</p>

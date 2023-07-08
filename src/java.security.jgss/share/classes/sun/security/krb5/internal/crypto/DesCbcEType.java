@@ -21,9 +21,24 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.Confounder;
 import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class DesCbcEType extends EType {
     protected abstract byte[] calculateChecksum(byte[] data, int size)

@@ -21,6 +21,7 @@
 
 package gc.stress;
 
+
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.regex.Pattern;
@@ -28,6 +29,19 @@ import java.util.regex.Matcher;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestReclaimStringsLeaksMemory
@@ -42,6 +56,8 @@ import jdk.test.lib.process.ProcessTools;
  * @run driver gc.stress.TestReclaimStringsLeaksMemory -XX:+UseParallelGC
  * @run driver gc.stress.TestReclaimStringsLeaksMemory -XX:+UseG1GC
  */
+
+
 
 public class TestReclaimStringsLeaksMemory {
 

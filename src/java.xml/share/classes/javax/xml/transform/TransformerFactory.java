@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
+
 import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A TransformerFactory instance can be used to create
@@ -42,6 +57,8 @@ public abstract class TransformerFactory {
      * Default constructor is protected on purpose.
      */
     protected TransformerFactory() { }
+
+
 
     /**
      * Creates a new instance of the {@code TransformerFactory} builtin

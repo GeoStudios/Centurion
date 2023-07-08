@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.io.Serial;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.print.attribute.EnumSyntax;
 import javax.print.attribute.standard.Media;
 import javax.print.attribute.standard.MediaTray;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CustomMediaTray extends MediaTray {
     private static final ArrayList<String> customStringTable = new ArrayList<>();
@@ -42,6 +57,7 @@ public class CustomMediaTray extends MediaTray {
       return (customStringTable.size()-1);
     }
 
+
     public CustomMediaTray(String name, String choice) {
         super(nextValue(name));
         choiceName = choice;
@@ -54,6 +70,7 @@ public class CustomMediaTray extends MediaTray {
     @Serial
     private static final long serialVersionUID = 1019451298193987013L;
 
+
     /**
      * Returns the command string for this media tray.
      */
@@ -61,12 +78,14 @@ public class CustomMediaTray extends MediaTray {
         return choiceName;
     }
 
+
     /**
      * Returns the string table for super class MediaTray.
      */
     public Media[] getSuperEnumTable() {
       return (Media[])super.getEnumValueTable();
     }
+
 
     /**
      * Returns the string table for class CustomMediaTray.

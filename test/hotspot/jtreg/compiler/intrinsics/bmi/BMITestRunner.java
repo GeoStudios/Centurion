@@ -21,6 +21,7 @@
 
 package compiler.intrinsics.bmi;
 
+
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
@@ -32,6 +33,19 @@ import java.util.Collections;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test runner that invokes all methods implemented by particular Expr
@@ -168,6 +182,7 @@ public class BMITestRunner {
                     outputAnalyzer.getStderr().getBytes());
     }
 
+
     /**
      * Executor that invoke all methods implemented by particular
      * Expr instance.
@@ -185,6 +200,7 @@ public class BMITestRunner {
             int iterations = Integer.valueOf(args[1]);
             runTests(expr, iterations, Utils.getRandomInstance());
         }
+
 
         public static int[] getIntBitShifts() {
             //SIZE+1 shift is for zero.

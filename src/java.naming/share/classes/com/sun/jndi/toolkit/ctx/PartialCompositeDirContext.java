@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
 
+
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Inherit from AtomicContext so that subclasses of PartialCompositeDirContext
@@ -473,6 +488,7 @@ public abstract class PartialCompositeDirContext
 
         return (PartialCompositeDirContext)pctx;
     }
+
 
 //------ Compensation for inheriting from AtomicContext
 

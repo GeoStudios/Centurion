@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and declares this class as
@@ -46,6 +64,7 @@ public final class Synthetic extends Attribute {
 
     private byte[] bytes;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -53,6 +72,7 @@ public final class Synthetic extends Attribute {
     public Synthetic(final Synthetic c) {
         this(c.getNameIndex(), c.getLength(), c.getBytes(), c.getConstantPool());
     }
+
 
     /**
      * @param name_index Index in constant pool to CONSTANT_Utf8, which
@@ -66,6 +86,7 @@ public final class Synthetic extends Attribute {
         super(Const.ATTR_SYNTHETIC, name_index, length, constant_pool);
         this.bytes = bytes;
     }
+
 
     /**
      * Construct object from input stream.
@@ -86,6 +107,7 @@ public final class Synthetic extends Attribute {
         }
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -97,6 +119,7 @@ public final class Synthetic extends Attribute {
     public void accept( final Visitor v ) {
         v.visitSynthetic(this);
     }
+
 
     /**
      * Dump source file attribute to file stream in binary format.
@@ -112,6 +135,7 @@ public final class Synthetic extends Attribute {
         }
     }
 
+
     /**
      * @return data bytes.
      */
@@ -119,12 +143,14 @@ public final class Synthetic extends Attribute {
         return bytes;
     }
 
+
     /**
      * @param bytes
      */
     public void setBytes( final byte[] bytes ) {
         this.bytes = bytes;
     }
+
 
     /**
      * @return String representation.
@@ -137,6 +163,7 @@ public final class Synthetic extends Attribute {
         }
         return buf.toString();
     }
+
 
     /**
      * @return deep copy of this attribute

@@ -21,7 +21,21 @@
 
 package jit.deoptimization.test05;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.deoptimization.test05.test05
  */
+
+
 
 /*
  *
@@ -52,6 +68,7 @@ public class test05 {
                 }
         }
 }
+
 
 class A {
         protected int count;

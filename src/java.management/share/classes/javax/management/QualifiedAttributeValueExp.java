@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>Represents attributes used as arguments to relational constraints,
  * where the attribute must be in an MBean of a specified {@linkplain
@@ -32,6 +48,7 @@ package java.management.share.classes.javax.management;
  */
 class QualifiedAttributeValueExp extends AttributeValueExp   {
 
+
     /* Serial version */
     private static final long serialVersionUID = 8832517277410933254L;
 
@@ -39,6 +56,7 @@ class QualifiedAttributeValueExp extends AttributeValueExp   {
      * @serial The attribute class name
      */
     private String className;
+
 
     /**
      * Basic Constructor.
@@ -56,6 +74,7 @@ class QualifiedAttributeValueExp extends AttributeValueExp   {
         super(attr);
         this.className = className;
     }
+
 
     /**
      * Returns a string representation of the class name of the attribute.

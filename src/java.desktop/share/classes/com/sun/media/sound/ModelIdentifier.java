@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class stores the identity of source and destinations in connection
  * blocks, see ModelConnectionBlock.

@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t004;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
   This class is an immutable class.
 */

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -41,6 +42,20 @@ import java.desktop.share.classes.javax.swing.UIManager;
 import java.desktop.share.classes.javax.swing.border.EmptyBorder;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Displays an entry in a tree.
@@ -250,6 +265,7 @@ public class DefaultTreeCellRenderer extends JLabel implements TreeCellRenderer
         setName("Tree.cellRenderer");
     }
 
+
     /**
       * Returns the default icon, for the current laf, that is used to
       * represent non-leaf nodes that are expanded.
@@ -383,6 +399,7 @@ public class DefaultTreeCellRenderer extends JLabel implements TreeCellRenderer
     public void setBackgroundSelectionColor(Color newColor) {
         backgroundSelectionColor = newColor;
     }
+
 
     /**
       * Returns the color to use for the background if node is selected.

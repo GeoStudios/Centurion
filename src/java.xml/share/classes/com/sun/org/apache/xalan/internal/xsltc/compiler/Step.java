@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CHECKCAST;
@@ -43,6 +44,20 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Oct 2017
@@ -177,6 +192,7 @@ final class Step extends RelativeLocationPath {
     public boolean isAbbreviatedDot() {
         return _nodeType == NodeTest.ANODE && _axis == Axis.SELF;
     }
+
 
     /**
      * True if this step is the abbreviated step '..'
@@ -350,6 +366,7 @@ final class Step extends RelativeLocationPath {
             }
         }
     }
+
 
     /**
      * Translate a sequence of predicates. Each predicate is translated

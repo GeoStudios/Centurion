@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.getValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -128,6 +142,7 @@ public class getvalue004 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -176,6 +191,7 @@ public class getvalue004 {
                 break ;
             }
 
+
             log2("      getting ReferenceType and ClassType objects for debuggeeClass");
             ReferenceType debuggeeClass = (ReferenceType) classes.get(0);
 
@@ -189,6 +205,7 @@ public class getvalue004 {
             Value           val2    = null;
 
             ObjectReference objRef  = null;
+
 
             log2("......getting the mirror of tested getvalue004aTestClass obj : ObjectReference objRef");
 
@@ -207,6 +224,7 @@ public class getvalue004 {
             } catch ( IllegalArgumentException e ) {
                 log2("      IllegalArgumentException");
             }
+
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }

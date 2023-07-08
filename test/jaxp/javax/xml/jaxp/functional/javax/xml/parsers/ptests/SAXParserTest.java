@@ -21,6 +21,7 @@
 
 package javax.xml.parsers.ptests;
 
+
 import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.tryRunWithTmpPermission;.extended
 import java.io.File;
@@ -36,6 +37,19 @@ import org.xml.sax.HandlerBase;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class contains the test cases for SAXParser API

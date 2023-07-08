@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.FileDialog;
 import java.awt.peer.FileDialogPeer;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * FileDialogPeer for the GtkFileChooser.

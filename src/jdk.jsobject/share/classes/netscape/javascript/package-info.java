@@ -21,6 +21,22 @@
 
 package jdk.jsobject.share.classes.netscape.javascript;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -53,4 +69,5 @@ package jdk.jsobject.share.classes.netscape.javascript;
  * de facto standard mechanism for calling JavaScript from the Java runtime.
  * </p>
  */
+
 

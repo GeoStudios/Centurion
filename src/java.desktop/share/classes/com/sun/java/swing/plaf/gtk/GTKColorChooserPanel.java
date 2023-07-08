@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.event.*;
 import java.desktop.share.classes.com.sun.java.awt.image.*;
@@ -28,6 +29,20 @@ import javax.swing.*;
 import javax.swing.colorchooser.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A color chooser panel mimicking that of GTK's: a color wheel showing
@@ -60,6 +75,8 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
     private float hue;
     private float saturation;
     private float brightness;
+
+
 
     /**
      * Convenience method to transfer focus to the next child of component.
@@ -96,6 +113,7 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
         }
         component.requestFocus();
     }
+
 
     /**
      * Returns a user presentable description of this GTKColorChooserPane.
@@ -408,6 +426,7 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
         settingColor = false;
     }
 
+
     /**
      * Rests the color.
      *
@@ -495,6 +514,8 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
         }
     }
 
+
+
     /**
      * Flag indicating the angle, or hue, has changed and the triangle
      * needs to be recreated.
@@ -520,6 +541,7 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
      * Indicates the triangle has focus.
      */
     private static final int FLAGS_FOCUSED_TRIANGLE = 1 << 5;
+
 
     /**
      * Class responsible for rendering a color wheel and color triangle.
@@ -554,6 +576,7 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
          * Y location of selected color indicator.
          */
         private int circleY;
+
 
         public ColorTriangle() {
             enableEvents(AWTEvent.FOCUS_EVENT_MASK);
@@ -964,6 +987,7 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
             setSaturationAndBrightness(s, b, newCircleX, newCircleY);
         }
 
+
         /**
          * Sets the saturation and brightness.
          */
@@ -1212,6 +1236,7 @@ class GTKColorChooserPanel extends AbstractColorChooserPanel implements
             getGTKColorChooserPanel().setHue(hue, true);
         }
     }
+
 
     /**
      * Action class used for colors.

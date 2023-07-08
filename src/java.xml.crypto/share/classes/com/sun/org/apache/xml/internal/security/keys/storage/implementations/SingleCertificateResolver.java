@@ -21,16 +21,34 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations;
 
+
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverSpi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This {@link StorageResolverSpi} makes a single {@link X509Certificate}

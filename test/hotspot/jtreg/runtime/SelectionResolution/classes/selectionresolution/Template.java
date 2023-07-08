@@ -21,6 +21,7 @@
 
 package selectionresolution;
 
+
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.base.share.classes.java.util.Arrays;
@@ -29,6 +30,19 @@ import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Templates are sets of transformations that are applied to a
@@ -2085,6 +2099,7 @@ public class Template {
                          }
                      });
 
+
     /******************************
      * Ignored Abstract Templates *
      ******************************/
@@ -2108,6 +2123,8 @@ public class Template {
     /******************************
      *     Selection Templates    *
      ******************************/
+
+
 
     public static final Template TrivialObjectref =
         new Template("TrivialObjectref",
@@ -4940,6 +4957,7 @@ public class Template {
 
     private static class Placeholder extends ClassData {
         private final String placeholder;
+
 
         private Placeholder(final String placeholder,
                             final MethodData methoddata) {

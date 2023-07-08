@@ -21,10 +21,24 @@
 
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn005;
 
+
 import java.util.concurrent.locks.ReentrantLock;
 import nsk.share.Consts;
 import nsk.share.Log;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 class TestThread extends Thread {

@@ -21,11 +21,25 @@
 
 package compiler.codecache.stress;
 
+
 import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
 import java.lang.reflect.Method;
 import java.util.stream.IntStream;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test OverloadCompileQueueTest
@@ -49,6 +63,9 @@ import java.util.Random;
  *                   -XX:+SegmentedCodeCache
  *                   compiler.codecache.stress.OverloadCompileQueueTest
  */
+
+
+
 
 class LockUnlockThread extends Thread {
     private static final int MAX_SLEEP = 10000;

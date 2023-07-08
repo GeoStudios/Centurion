@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequest.disable;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -146,6 +160,7 @@ public class disable001 {
 
     static int  testExitCode = PASSED;
 
+
     //------------------------------------------------------ methods
 
     private int runThis (String argv[], PrintStream out) {
@@ -234,6 +249,7 @@ public class disable001 {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -296,6 +312,7 @@ public class disable001 {
 
     //------------------------------------------------------  testing section
 
+
         EventRequest  eventRequest1 = null;
 
         String        fieldName1    = "var101";
@@ -305,6 +322,7 @@ public class disable001 {
         String          threadName1 = "thread1";
 
         ReferenceType testClassReference = null;
+
 
         log1("     TESTING BEGINS");
 
@@ -324,6 +342,7 @@ public class disable001 {
             log1(":::::: case: # " + i);
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
+
 
             switch (i) {
 
@@ -396,6 +415,7 @@ public class disable001 {
                      log2(".....setting up BreakpointRequest");
                      eventRequest1 = eventRManager.createBreakpointRequest(location);
                      break;
+
 
               default:
                       throw new JDITestRuntimeException("** default case 2 **");
@@ -488,6 +508,7 @@ location = lineLocation;
         return breakpRequest;
     }
 
+
     private void getEventSet()
                  throws JDITestRuntimeException {
         try {
@@ -502,6 +523,7 @@ location = lineLocation;
             throw new JDITestRuntimeException("** EXCEPTION while waiting for event ** : " + e);
         }
     }
+
 
     private void breakpointForCommunication()
                  throws JDITestRuntimeException {

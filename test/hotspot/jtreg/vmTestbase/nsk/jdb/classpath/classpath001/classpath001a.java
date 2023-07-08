@@ -21,10 +21,24 @@
 
 package nsk.jdb.classpath.classpath001;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is debuggee aplication */
 public class classpath001a {

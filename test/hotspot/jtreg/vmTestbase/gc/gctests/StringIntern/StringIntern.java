@@ -21,8 +21,22 @@
 
 package gc.gctests.StringIntern;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm gc.gctests.StringIntern.StringIntern
  */
+
+
 
 /**
  * Test that strings returned by String.intern() can be collected.

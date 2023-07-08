@@ -21,6 +21,22 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface UpcallHandler {
     long entryPoint();
 }

@@ -21,9 +21,24 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
+
 import java.sql.*;
 import java.io.*;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serialized mapping in the Java programming language of an SQL
@@ -525,6 +540,7 @@ public class SerialClob implements Clob, Serializable, Cloneable {
              }
         }
     }
+
 
     /**
      * Returns a {@code Reader} object that contains a partial

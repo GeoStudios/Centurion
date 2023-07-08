@@ -21,10 +21,25 @@
 
 package java.management.share.classes.javax.management;
 
+
 import com.sun.jmx.mbeanserver.Util;
 import java.io.InvalidObjectException;
 import java.lang.reflect.Array;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An immutable descriptor.

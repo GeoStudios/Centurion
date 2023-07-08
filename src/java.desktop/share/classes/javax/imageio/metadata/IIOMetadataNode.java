@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio.metadata;
 
+
 import java.io.Serial;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -33,6 +34,20 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.TypeInfo;
 import org.w3c.dom.UserDataHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code IIODOMException} is thrown by the {@code IIOMetadataNode} in
@@ -193,6 +208,7 @@ class IIOAttr extends IIOMetadataNode implements Attr {
     public boolean isId() {
         return false;
     }
+
 
 }
 
@@ -722,6 +738,7 @@ public class IIOMetadataNode implements Element, NodeList {
 
     // Methods from Element
 
+
     /**
      * Equivalent to {@code getNodeName}.
      *
@@ -1128,5 +1145,6 @@ public class IIOMetadataNode implements Element, NodeList {
                                "Method not supported");
     }
     //End of dummy methods for DOM L3.
+
 
 }

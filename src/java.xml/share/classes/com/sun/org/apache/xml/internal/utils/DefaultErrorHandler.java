@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import javax.xml.transform.Errorjava.util.Listener;
@@ -32,10 +33,30 @@ import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
+
+
 
 /**
  * Implement SAX error handler for default reporting.
@@ -84,6 +105,7 @@ public class DefaultErrorHandler implements ErrorHandler, ErrorListener
     m_pw = new PrintWriter(System.err, true);
     m_throwExceptionOnError = throwExceptionOnError;
   }
+
 
   /**
    * Receive notification of a warning.

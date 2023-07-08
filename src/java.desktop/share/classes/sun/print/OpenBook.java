@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.awt.print.Pageable;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Book with an unknown number of pages where each

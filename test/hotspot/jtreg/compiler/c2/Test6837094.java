@@ -21,8 +21,22 @@
 
 package compiler.c2;
 
+
 import java.util.HashSet;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -35,6 +49,8 @@ import java.util.Set;
  *    -XX:CompileCommand=compileonly,compiler.c2.Test6837094$Factory$2::getArray
  *    compiler.c2.Test6837094
  */
+
+
 
 public class Test6837094 {
 

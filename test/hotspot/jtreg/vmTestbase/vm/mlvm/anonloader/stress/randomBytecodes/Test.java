@@ -21,8 +21,22 @@
 
 package vm.mlvm.anonloader.stress.randomBytecodes;
 
+
 import java.base.share.classes.java.util.Arrays;
 import vm.mlvm.anonloader.share.StressClassLoadingTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,8 @@ import vm.mlvm.anonloader.share.StressClassLoadingTest;
  *
  * @run main/othervm vm.mlvm.anonloader.stress.randomBytecodes.Test -stressIterationsFactor 100000
  */
+
+
 
 /**
  * The test does the following in a cycle:

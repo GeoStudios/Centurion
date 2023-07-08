@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.ElementPSVI;
@@ -34,6 +35,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNotationDe
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Element PSV infoset augmentations implementation.

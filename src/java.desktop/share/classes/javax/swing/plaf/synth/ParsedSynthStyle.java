@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Graphics;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import sun.swing.plaf.synth.DefaultSynthStyle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ParsedSynthStyle are the SynthStyle's that SynthParser creates.
@@ -69,6 +84,7 @@ class ParsedSynthStyle extends DefaultSynthStyle {
         }
         return merged;
     }
+
 
     public ParsedSynthStyle() {
     }
@@ -160,6 +176,7 @@ class ParsedSynthStyle extends DefaultSynthStyle {
         return text.toString();
     }
 
+
     static class StateInfo extends DefaultSynthStyle.StateInfo {
         private PainterInfo[] _painterInfo;
 
@@ -210,6 +227,7 @@ class ParsedSynthStyle extends DefaultSynthStyle {
             return text.toString();
         }
     }
+
 
     static class PainterInfo {
         private String _method;
@@ -1684,6 +1702,7 @@ class ParsedSynthStyle extends DefaultSynthStyle {
             getPainter(context, "scrollbarbackground", direction).
                 paintScrollBarBackground(context, g, x, y, w, h, direction);
         }
+
 
         public void paintScrollBarBorder(SynthContext context,
                      Graphics g, int x, int y, int w, int h) {

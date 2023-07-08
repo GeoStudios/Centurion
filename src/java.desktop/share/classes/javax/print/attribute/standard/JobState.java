@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
+
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.EnumSyntax;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code JobState} is a printing attribute class, an enumeration, that

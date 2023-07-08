@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -37,6 +38,20 @@ import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //$$fb this class is buggy. Should be replaced in future.
 
@@ -147,6 +162,7 @@ public final class AiffFileWriter extends SunFileWriter {
         return bytesWritten;
     }
 
+
     // -----------------------------------------------------------------------
 
     /**
@@ -194,6 +210,7 @@ public final class AiffFileWriter extends SunFileWriter {
             sampleSizeInBits=streamFormat.getSampleSizeInBits();
         }
 
+
         format = new AudioFormat( encoding,
                                   streamFormat.getSampleRate(),
                                   sampleSizeInBits,
@@ -201,6 +218,7 @@ public final class AiffFileWriter extends SunFileWriter {
                                   streamFormat.getFrameSize(),
                                   streamFormat.getFrameRate(),
                                   true);        // AIFF is big endian
+
 
         if( stream.getFrameLength()!=AudioSystem.NOT_SPECIFIED ) {
             if( convert8to16 ) {
@@ -289,6 +307,7 @@ public final class AiffFileWriter extends SunFileWriter {
             streamFormat = ((AudioInputStream)audioStream).getFormat();
             encoding = streamFormat.getEncoding();
 
+
             // $$jb: Note that AIFF samples are ALWAYS signed
             if( (AudioFormat.Encoding.PCM_UNSIGNED.equals(encoding)) ||
                 ( (AudioFormat.Encoding.PCM_SIGNED.equals(encoding)) && !streamFormat.isBigEndian() ) ) {
@@ -326,6 +345,7 @@ public final class AiffFileWriter extends SunFileWriter {
                                                                     (AudioInputStream)audioStream );
             }
         }
+
 
         // Now create an AIFF stream header...
         try (final ByteArrayOutputStream baos = new ByteArrayOutputStream();

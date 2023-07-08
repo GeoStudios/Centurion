@@ -21,6 +21,7 @@
 
 package gc.g1.humongousObjects;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
@@ -30,6 +31,19 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test gc.g1.humongousObjects.TestHumongousClassLoader
@@ -71,6 +85,7 @@ public class TestHumongousClassLoader {
     private static final String SAMPLE_CLASS_NAME_PREFIX = "SampleClassFiller";
     public static final String SIMPLE_CLASSLOADER_NAME = "SimpleClassLoader";
     public static final String HUMONGOUS_CLASSLOADER_NAME = "HumongousClassLoader";
+
 
     public static final String LOAD_CLASS_METHOD_PROTOTYPE =
             "    @Override\n"
@@ -160,6 +175,7 @@ public class TestHumongousClassLoader {
         // Sanity check
         Asserts.assertEquals(WB.g1IsHumongous(simpleClassLoader), false,
                 "Test Bug: simpleClassLoader is expected to be non-humongous but it's humongous");
+
 
         Class<?> humongousClassLoaderClass = simpleClassLoader.loadClass(HUMONGOUS_CLASSLOADER_NAME);
 

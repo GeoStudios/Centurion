@@ -21,6 +21,7 @@
 
 package compiler.codecache.jmx;
 
+
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.lang.management.ManagementFactory;
@@ -29,6 +30,19 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test MemoryPoolsPresenceTest
@@ -48,6 +62,9 @@ import java.util.Optional;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.MemoryPoolsPresenceTest
  */
+
+
+
 
 public class MemoryPoolsPresenceTest {
 

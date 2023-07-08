@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * I2S - Convert int to short
@@ -36,6 +53,7 @@ public class I2S extends ConversionInstruction {
     public I2S() {
         super(com.sun.org.apache.bcel.internal.Const.I2S);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

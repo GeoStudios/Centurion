@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Notations are how the Document Type Description (DTD) records hints
@@ -115,6 +132,7 @@ public class DeferredNotationImpl
         int extraDataIndex = ownerDocument.getNodeExtra(fNodeIndex);
         ownerDocument.getNodeType(extraDataIndex);
         baseURI = ownerDocument.getNodeName(extraDataIndex);
+
 
     } // synchronizeData()
 

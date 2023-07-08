@@ -21,12 +21,26 @@
 
 package gc.g1.unloading.keepref;
 
+
 import gc.g1.unloading.bytecode.BytecodeMutatorFactory;
 import gc.g1.unloading.bytecode.TemplateClassWithStaticField;
 import gc.g1.unloading.classloaders.DoItYourselfClassLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.concurrent.atomic.AtomicLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This holder prevents class from being collected by keeping link in static field of another class.

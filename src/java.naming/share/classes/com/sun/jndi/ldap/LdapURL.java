@@ -21,12 +21,27 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import java.net.MalformedURLException;
 import java.io.UnsupportedEncodingException;
 import java.util.StringTokenizer;
 import java.naming.share.classes.com.sun.jndi.toolkit.url.Uri;
 import java.naming.share.classes.com.sun.jndi.toolkit.url.UrlUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Extract components of an LDAP URL.

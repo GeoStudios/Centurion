@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.OutputStream;
@@ -42,6 +43,20 @@ import java.base.share.classes.java.security.AccessController;
 import sun.security.util.SecurityConstants;
 import sun.net.www.MessageHeader;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract class {@code URLConnection} is the superclass
@@ -1131,6 +1146,7 @@ public abstract class URLConnection {
         requests.add(key, value);
     }
 
+
     /**
      * Returns the value of the named general request property for this
      * connection.
@@ -1411,6 +1427,7 @@ public abstract class URLConnection {
         }
         return new String(nm);
     }
+
 
     /**
      * Returns a vertical bar separated list of package prefixes for potential
@@ -1807,6 +1824,7 @@ public abstract class URLConnection {
         }
         return 0;
     }
+
 
     /**
      * Skips through the specified number of bytes from the stream

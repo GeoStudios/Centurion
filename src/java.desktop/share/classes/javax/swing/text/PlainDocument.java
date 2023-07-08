@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A plain document that maintains no character attributes.  The

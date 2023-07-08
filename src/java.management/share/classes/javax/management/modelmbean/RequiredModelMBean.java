@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
+
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import java.io.FileOutputStream;
 import java.io.PrintStream;
@@ -70,7 +71,26 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* java imports */
+
+
+
+
+
 
 /**
  * This class is the implementation of a ModelMBean. An appropriate
@@ -121,6 +141,7 @@ public class RequiredModelMBean
     /* handle, name, or reference for instance on which the actual invoke
      * and operations will be executed */
     private Object managedResource = null;
+
 
     /* records the registering in MBeanServer */
     private boolean registered = false;
@@ -192,6 +213,7 @@ public class RequiredModelMBean
             MODELMBEAN_LOGGER.log(Level.TRACE, "Exit");
         }
     }
+
 
     /*************************************/
     /* initializers                      */
@@ -283,6 +305,7 @@ public class RequiredModelMBean
             MODELMBEAN_LOGGER.log(Level.TRACE, "Exit");
         }
     }
+
 
     /**
      * Sets the instance handle of the object against which to
@@ -644,6 +667,7 @@ public class RequiredModelMBean
         retStr.append("\nMBeanInfo for ModelMBean is:");
         retStr.append("\nCLASSNAME: \t").append(info.getClassName());
         retStr.append("\nDESCRIPTION: \t").append(info.getDescription());
+
 
         try {
             retStr.append("\nMBEAN DESCRIPTOR: \t").append(info.getMBeanDescriptor());
@@ -1248,6 +1272,7 @@ public class RequiredModelMBean
             opDescr.setField("value", result);
             opDescr.setField("lastUpdatedTimeStamp",
                     String.valueOf((new Date()).getTime()));
+
 
             modelMBeanInfo.setDescriptor(opDescr,
                                          "operation");
@@ -1974,6 +1999,8 @@ public class RequiredModelMBean
         return responseList;
     }
 
+
+
     private ModelMBeanInfo createDefaultModelMBeanInfo() {
         return(new ModelMBeanInfoSupport((this.getClass().getName()),
                    "Default ModelMBean", null, null, null, null));
@@ -1982,6 +2009,7 @@ public class RequiredModelMBean
     /*************************************/
     /* NotificationBroadcaster Interface */
     /*************************************/
+
 
     private synchronized void writeToLog(String logFileName,
                                          String logEntry) throws Exception {
@@ -2019,6 +2047,7 @@ public class RequiredModelMBean
             fos.close();
         }
     }
+
 
     /**
      * Registers an object which implements the NotificationListener
@@ -2089,6 +2118,7 @@ public class RequiredModelMBean
             throw new ListenerNotFoundException(
                   "No notification listeners registered");
 
+
         generalBroadcaster.removeNotificationListener(listener);
         if (MODELMBEAN_LOGGER.isLoggable(Level.TRACE)) {
             MODELMBEAN_LOGGER.log(Level.TRACE, "Exit");
@@ -2113,6 +2143,7 @@ public class RequiredModelMBean
             throw new ListenerNotFoundException(
                   "No notification listeners registered");
 
+
         generalBroadcaster.removeNotificationListener(listener,filter,
                                                       handback);
 
@@ -2134,6 +2165,7 @@ public class RequiredModelMBean
                                          "null"),
                 "Exception occurred trying to send a notification from a "+
                 "RequiredModelMBean");
+
 
         // log notification if specified in descriptor
         Descriptor ntfyDesc =
@@ -2185,6 +2217,7 @@ public class RequiredModelMBean
         }
 
     }
+
 
     public void sendNotification(String ntfyText)
         throws MBeanException, RuntimeOperationsException {
@@ -2326,6 +2359,7 @@ public class RequiredModelMBean
             // (bug 4744667)
             respInfo[inserted++] = makeGenericInfo();
 
+
         if (!hasAttributeChange)
             // We need to add description for ATTRIBUTE_CHANGE notification
             // (bug 4744667)
@@ -2344,6 +2378,7 @@ public class RequiredModelMBean
         return respInfo;
     }
 
+
     public void addAttributeChangeNotificationListener(NotificationListener
                                                        inlistener,
                                                        String
@@ -2358,6 +2393,7 @@ public class RequiredModelMBean
         if (inlistener == null)
             throw new IllegalArgumentException(
                   "Listener to be registered must not be null");
+
 
         if (attributeBroadcaster == null)
             attributeBroadcaster = new NotificationBroadcasterSupport();
@@ -2422,9 +2458,11 @@ public class RequiredModelMBean
                     RequiredModelMBean.class.getName(), "Entry");
         }
 
+
         if (attributeBroadcaster == null)
             throw new ListenerNotFoundException(
                   "No attribute change notification listeners registered");
+
 
         MBeanAttributeInfo[] attrInfo = modelMBeanInfo.getAttributes();
         boolean found = false;
@@ -2584,11 +2622,13 @@ public class RequiredModelMBean
                "Exception occurred trying to send " +
                "attribute change notification of a ModelMBean");
 
+
         if (!(inOldVal.getName().equals(inNewVal.getName())))
             throw new RuntimeOperationsException(new
                 IllegalArgumentException("Attribute names are not the same"),
                 "Exception occurred trying to send " +
                 "attribute change notification of a ModelMBean");
+
 
         Object newVal = inNewVal.getValue();
         Object oldVal = inOldVal.getValue();
@@ -2662,6 +2702,7 @@ public class RequiredModelMBean
 
         return c;
     }
+
 
     /*************************************/
     /* MBeanRegistration Interface       */

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a single tab stop (basically as tab stops

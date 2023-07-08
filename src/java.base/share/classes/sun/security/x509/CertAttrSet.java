@@ -21,10 +21,25 @@
 
 package java.base.share.classes.sun.security.x509;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.cert.CertificateException;
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the methods required of a certificate attribute.

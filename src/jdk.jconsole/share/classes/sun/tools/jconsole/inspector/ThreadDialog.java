@@ -21,8 +21,23 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import java.awt.*;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 //

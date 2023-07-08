@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.nio.channels;
 
+
 import java.base.share.classes.java.io.FileInputStream;
 import java.base.share.classes.java.io.FileOutputStream;
 import java.base.share.classes.java.io.InputStream;
@@ -39,6 +40,20 @@ import java.base.share.classes.java.util.concurrent.ExecutionException;
 import sun.nio.ch.ChannelInputStream;
 import sun.nio.cs.StreamDecoder;
 import sun.nio.cs.StreamEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for channels and streams.
@@ -316,6 +331,7 @@ public final class Channels {
         };
     }
 
+
     // -- Channels from streams --
 
     /**
@@ -395,6 +411,7 @@ public final class Channels {
         }
     }
 
+
     /**
      * Constructs a channel that writes bytes to the given stream.
      *
@@ -462,6 +479,7 @@ public final class Channels {
             out.close();
         }
     }
+
 
     // -- Character streams from channels --
 

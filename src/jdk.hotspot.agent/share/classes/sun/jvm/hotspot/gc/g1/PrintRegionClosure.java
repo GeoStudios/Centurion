@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
 
+
 import java.io.PrintStream;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1.HeapRegion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PrintRegionClosure implements HeapRegionClosure {
     private final PrintStream tty;

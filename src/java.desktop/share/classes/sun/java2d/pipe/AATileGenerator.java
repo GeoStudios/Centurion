@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The API for an object that generates alpha coverage tiles for a given
  * path.

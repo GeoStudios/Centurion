@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.dnd.DropTarget;
 import java.desktop.share.classes.java.awt.event.AWTEventjava.util.Listener;
 import java.desktop.share.classes.java.awt.event.ComponentEvent;
@@ -60,6 +61,20 @@ import sun.awt.dnd.SunDropTargetEvent;
 import sun.java2d.pipe.Region;
 import sun.security.action.GetBooleanAction;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generic Abstract Window Toolkit(AWT) container object is a component
@@ -143,6 +158,7 @@ public class Container extends Component {
      * @see #isFocusCycleRoot
      */
     private boolean focusCycleRoot = false;
+
 
     /**
      * Stores the value of focusTraversalPolicyProvider property.
@@ -1093,6 +1109,8 @@ public class Container extends Component {
             if (thisGC != null) {
                 comp.checkGD(thisGC.getDevice().getIDstring());
             }
+
+
 
             //index == -1 means add to the end.
             if (index == -1) {
@@ -4348,6 +4366,7 @@ public class Container extends Component {
 
     // ****************** END OF MIXING CODE ********************************
 }
+
 
 /**
  * Class to manage the dispatching of MouseEvents to the lightweight descendants

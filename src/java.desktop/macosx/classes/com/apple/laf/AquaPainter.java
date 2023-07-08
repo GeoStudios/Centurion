@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.image.*;
 import java.util.HashMap;
@@ -33,6 +34,20 @@ import sun.print.*;
 import java.desktop.macosx.classes.com.apple.laf.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIUtils.NineSliceMetricsProvider;
 import sun.awt.image.ImageCache;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class AquaPainter <T extends JRSUIState> {
     static <T extends JRSUIState> AquaPainter<T> create(final T state) {

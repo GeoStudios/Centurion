@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.print;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.CharArrayReader;
 import java.io.java.io.java.io.java.io.IOException;
@@ -29,6 +30,20 @@ import java.io.Reader;
 import java.io.StringReader;
 import java.desktop.share.classes.javax.print.attribute.AttributeSetUtilities;
 import java.desktop.share.classes.javax.print.attribute.DocAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is an implementation of interface {@code Doc} that can be used in

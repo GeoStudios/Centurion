@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Abstract base class for all adapters for fields of oops */
 

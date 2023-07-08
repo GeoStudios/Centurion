@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8238178
@@ -29,6 +44,7 @@ package compiler.c1;
  * @run main/othervm -Xbatch -XX:TieredStopAtLevel=1 -XX:CompileCommand=dontinline,compiler.c1.RangeCheckVerificationOfIR::throwException*
  *                   -XX:CompileCommand=dontinline,compiler.c1.RangeCheckVerificationOfIR::test* compiler.c1.RangeCheckVerificationOfIR
  */
+
 
 public class RangeCheckVerificationOfIR {
 

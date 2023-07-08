@@ -21,9 +21,23 @@
 
 package nsk.jdi.WatchpointRequest.addThreadFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the addthreadfilter008 JDI test.
@@ -126,6 +140,8 @@ public class addthreadfilter008a {
         log1("debuggee exits");
         System.exit(exitCode + PASS_BASE);
     }
+
+
 
     static Object waitnotifyObj = new Object();
 

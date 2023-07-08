@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.event.*;
@@ -34,6 +35,20 @@ import java.beans.PropertyVetoException;
 import static java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;.extended
 import static java.awt.RenderingHints.KEY_TEXT_LCD_CONTRAST;.extended
 import sun.swing.DefaultLookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class that manages a basic title bar
@@ -567,6 +582,7 @@ public class BasicInternalFrameTitlePane extends JComponent
         return getHandler();
     }
 
+
     private class Handler implements LayoutManager, PropertyChangeListener {
         //
         // PropertyChangeListener
@@ -610,6 +626,7 @@ public class BasicInternalFrameTitlePane extends JComponent
             revalidate();
             repaint();
         }
+
 
         //
         // LayoutManager
@@ -923,6 +940,7 @@ public class BasicInternalFrameTitlePane extends JComponent
         }
     } // end SizeAction
 
+
     /**
      * This class should be treated as a &quot;protected&quot; inner class.
      * Instantiate it only within subclasses of <code>Foo</code>.
@@ -955,6 +973,7 @@ public class BasicInternalFrameTitlePane extends JComponent
             return true;
         }
     } // end SystemMenuBar
+
 
     private class NoFocusButton extends JButton {
         private String uiKey;

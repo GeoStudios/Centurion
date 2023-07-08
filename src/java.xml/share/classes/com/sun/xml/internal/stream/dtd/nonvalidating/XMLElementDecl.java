@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -42,6 +57,7 @@ public class XMLElementDecl {
     /** TYPE_SIMPLE */
     public static final short TYPE_SIMPLE = 4;
 
+
     /** name */
     public final QName name = new QName();
 
@@ -50,6 +66,7 @@ public class XMLElementDecl {
 
     /** type */
     public short type = -1;
+
 
     /** simpleType */
     public final XMLSimpleType simpleType = new XMLSimpleType();

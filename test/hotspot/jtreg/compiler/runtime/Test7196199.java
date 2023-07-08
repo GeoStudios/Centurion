@@ -21,6 +21,21 @@
 
 package compiler.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7196199
@@ -32,6 +47,7 @@ package compiler.runtime;
  *      -XX:CompileCommand=exclude,compiler.runtime.Test7196199::test
  *      compiler.runtime.Test7196199
  */
+
 
 public class Test7196199 {
     private static final int ARRLEN = 97;

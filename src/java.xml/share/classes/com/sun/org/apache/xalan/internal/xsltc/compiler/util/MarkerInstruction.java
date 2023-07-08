@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instruction;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A special abstract dummy subclass of

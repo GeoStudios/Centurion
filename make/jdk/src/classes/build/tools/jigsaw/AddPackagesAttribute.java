@@ -21,6 +21,56 @@
 
 package build.tools.jigsaw;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Adds the Packages class file attribute to each module-info.class in an
  * exploded build.

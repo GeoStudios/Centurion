@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for branching instructions like GOTO, IFEQ, etc..
@@ -46,6 +61,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
     BranchInstruction() {
     }
 
+
     /** Common super constructor
      * @param opcode Instruction opcode
      * @param target instruction to branch to
@@ -54,6 +70,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         super(opcode, (short) 3);
         setTarget(target);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -68,6 +85,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         }
         out.writeShort(index); // May be negative, i.e., point backwards
     }
+
 
     /**
      * @param _target branch target
@@ -86,12 +104,14 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         return t - position;
     }
 
+
     /**
      * @return the offset to this instruction's target
      */
     protected int getTargetOffset() {
         return getTargetOffset(target);
     }
+
 
     /**
      * Called by InstructionList.setPositions when setting the position for every
@@ -107,6 +127,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         position += offset;
         return 0;
     }
+
 
     /**
      * Long output format:
@@ -147,6 +168,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         return s + " -> " + t;
     }
 
+
     /**
      * Read needed data (e.g. index) from file. Conversion to a InstructionHandle
      * is done in InstructionList(byte[]).
@@ -161,6 +183,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         index = bytes.readShort();
     }
 
+
     /**
      * @return target offset in byte code
      */
@@ -168,12 +191,14 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         return index;
     }
 
+
     /**
      * @return target of branch instruction
      */
     public InstructionHandle getTarget() {
         return target;
     }
+
 
     /**
      * Set branch target
@@ -183,6 +208,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         notifyTarget(this.target, target, this);
         this.target = target;
     }
+
 
     /**
      * Used by BranchInstruction, LocalVariableGen, CodeExceptionGen, LineNumberGen
@@ -197,6 +223,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         }
     }
 
+
     /**
      * @param old_ih old target
      * @param new_ih new target
@@ -209,6 +236,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
             throw new ClassGenException("Not targeting " + old_ih + ", but " + target);
         }
     }
+
 
     /**
      * @return true, if ih is target of this instruction
@@ -246,6 +274,7 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         position = -1;
     }
 
+
     /**
      * @return the position
      */
@@ -253,12 +282,14 @@ public abstract class BranchInstruction extends Instruction implements Instructi
         return position;
     }
 
+
     /**
      * @param position the position to set
      */
     protected void setPosition(final int position) {
         this.position = position;
     }
+
 
     /**
      * @param index the index to set

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.InvocationEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A stateless class which responds to native mouse moves, Component resizes,

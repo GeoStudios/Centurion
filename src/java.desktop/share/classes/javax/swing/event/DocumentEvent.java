@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.desktop.share.classes.javax.swing.undo.*;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for document change notifications.  This provides

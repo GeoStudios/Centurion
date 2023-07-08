@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.text;
 
+
 import jdk.internal.icu.text.BidiBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the Unicode Bidirectional Algorithm.

@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class wraps the real writer, it only purpose is to send
@@ -163,6 +180,7 @@ final class SerializerTraceWriter extends Writer implements WriterChain
         // from here on just for tracing purposes
         flushBuffer();
     }
+
 
     /**
      * Write a single character.  The character to be written is contained in

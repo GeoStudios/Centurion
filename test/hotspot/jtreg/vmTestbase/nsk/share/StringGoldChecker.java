@@ -21,6 +21,21 @@
 
 package nsk.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class StringGoldChecker extends AbstractGoldChecker {
 
     private final String goldenString;

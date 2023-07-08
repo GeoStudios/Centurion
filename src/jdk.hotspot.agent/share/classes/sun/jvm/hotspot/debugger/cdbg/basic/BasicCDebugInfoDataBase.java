@@ -21,11 +21,26 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.AddressOps;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BasicCDebugInfoDataBase implements CDebugInfoDataBase {
   private static final int INITIALIZED_STATE  = 0;

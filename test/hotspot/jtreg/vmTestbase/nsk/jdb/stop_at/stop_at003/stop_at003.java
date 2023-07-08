@@ -21,10 +21,24 @@
 
 package nsk.jdb.stop_at.stop_at003;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -64,6 +78,9 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 /*
  * Regression test for:

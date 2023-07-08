@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -29,6 +30,20 @@ import javax.swing.text.JTextComponent;
 import java.desktop.macosx.classes.com.apple.laf.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AquaBorder implements Border, UIResource {
     protected final AquaPainter<? extends JRSUIState> painter;

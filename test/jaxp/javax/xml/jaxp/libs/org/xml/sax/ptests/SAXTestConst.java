@@ -21,8 +21,22 @@
 
 package org.xml.sax.ptests;
 
+
 import static jaxp.library.JAXPTestUtilities.FILE_SEP;.extended
 import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the Base test class provide basic support for JAXP SAX functional
@@ -35,6 +49,7 @@ public class SAXTestConst {
      */
     public static final String XML_DIR = getPathByClassName(SAXTestConst.class,
             ".." + FILE_SEP + "xmlfiles");
+
 
     /**
      * Golden validation files directory.

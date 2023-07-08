@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.invokeMethod;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 
@@ -35,6 +49,7 @@ public class invokemethod004a {
     public final static String brkpMethodName = "main";
     public final static int brkpLineNumber = 48;
     public final static String testException = "java.lang.NullPointerException";
+
 
     public static void main (String argv[]) {
         ArgumentHandler argHandler = new ArgumentHandler(argv);

@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
+
 import java.xml.share.classes.org.xml.sax.Locator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAX2 extension to augment the entity information provided

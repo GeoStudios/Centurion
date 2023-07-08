@@ -21,8 +21,22 @@
 
 package nsk.jdi.Event.request;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the request001 JDI test.
@@ -88,6 +102,7 @@ public class request001a {
         log = argHandler.createDebugeeLog();
 
         log1("debuggee started!");
+
 
         label0:
             for (int i = 0; ; i++) {
@@ -169,6 +184,7 @@ public class request001a {
         }
         return PASSED;
     }
+
 
     public static void nullMethod() {
         throw new NullPointerException("test");
@@ -262,6 +278,7 @@ public class request001a {
             log3("  'run': exit   :: threadName == " + tName);
         }
     }
+
 
     public static void log3(String str) {
         log1(Thread.currentThread().getName() + " : " + str);

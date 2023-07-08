@@ -21,6 +21,7 @@
 
 package nsk.share.jdi;
 
+
 import jdk.test.lib.Platform;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -30,6 +31,19 @@ import com.sun.jdi.connect.Connector.Argument;
 import java.io.*;
 import java.net.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides debugger with connection to debugee VM
@@ -294,6 +308,7 @@ public class Binder extends DebugeeBinder {
 
         return debugee;
     }
+
 
     /**
      * Launch debugee locally via the default LaunchingConnector.
@@ -993,6 +1008,7 @@ public class Binder extends DebugeeBinder {
 
 }
 
+
 /**
  * Mirror of locally launched debugee.
  */
@@ -1058,6 +1074,7 @@ final class LocalLaunchedDebugee extends Debugee {
     }
 }
 
+
 /**
  * Mirror of remotely launched debugee.
  */
@@ -1122,6 +1139,7 @@ final class RemoteLaunchedDebugee extends Debugee {
     public void redirectStderr(Log log, String prefix) {
     }
 }
+
 
 /**
  * Mirror of manually launched debugee.

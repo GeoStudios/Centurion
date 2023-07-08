@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * FLOAD - Load float from local variable
@@ -41,12 +58,14 @@ public class FLOAD extends LoadInstruction {
         super(com.sun.org.apache.bcel.internal.Const.FLOAD, com.sun.org.apache.bcel.internal.Const.FLOAD_0);
     }
 
+
     /** Load float from local variable
      * @param n index of local variable
      */
     public FLOAD(final int n) {
         super(com.sun.org.apache.bcel.internal.Const.FLOAD, com.sun.org.apache.bcel.internal.Const.FLOAD_0, n);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

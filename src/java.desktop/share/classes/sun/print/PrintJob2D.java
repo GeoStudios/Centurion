@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.awt.Dimension;
 import java.awt.Frame;
 import java.awt.Graphics;
@@ -64,6 +65,20 @@ import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.PageRanges;
 import java.desktop.share.classes.sun.print.SunPageSelection;
 import java.desktop.share.classes.sun.print.SunMinMaxPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which initiates and executes a print job using
@@ -142,6 +157,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
         MediaSizeName.MONARCH_ENVELOPE, MediaSizeName.PERSONAL_ENVELOPE,
     };
 
+
     // widths and lengths in PostScript points (1/72 in.)
     private static final int[] WIDTHS = {
         /*iso-4a0*/ 4768, /*iso-2a0*/ 3370, /*iso-a0*/ 2384, /*iso-a1*/ 1684,
@@ -193,6 +209,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
         /*invite-envelope*/ 624, /*italy-envelope*/ 652,
         /*monarch-envelope*/ 540, /*personal-envelope*/ 468
     };
+
 
     private Frame frame;
     private String docTitle = "";
@@ -331,6 +348,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
         });
         this.jobAttributes.setToPage(last);
         this.jobAttributes.setFromPage(first);
+
 
         // Verify that the cross feed and feed resolutions are the same
         int[] res = this.pageAttributes.getPrinterResolution();
@@ -620,6 +638,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
         }
     }
 
+
     /* From JobAttributes we will copy job name and duplex printing
      * and destination.
      * The majority of the rest of the attributes are reflected
@@ -807,6 +826,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
             graphicsDrawn.append(currentGraphics);
             currentGraphics = graphicsToBeDrawn.pop();
         }
+
 
         if (currentGraphics != null) {
 
@@ -1001,6 +1021,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
         printerJobThread.start();
     }
 
+
     public void run() {
 
         try {
@@ -1086,6 +1107,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
 
     }
 
+
     private static int[] getSize(MediaType mType) {
         int []dim = new int[2];
         dim[0] = 612;
@@ -1132,6 +1154,7 @@ public class PrintJob2D extends PrintJob implements Printable, Runnable {
         }
         return media;
     }
+
 
     public static MediaType unMapMedia(MediaSizeName mSize) {
         MediaType media = null;

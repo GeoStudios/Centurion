@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Location path iterator that uses Walkers.
@@ -82,6 +97,7 @@ public class WalkingIterator extends LocPathIterator implements ExpressionOwner
 
     super(nscontext);
   }
+
 
   /**
    * Get the analysis bits for this walker, as defined in the WalkerFactory.
@@ -205,6 +221,7 @@ public class WalkingIterator extends LocPathIterator implements ExpressionOwner
     }
   }
 
+
   /**
    * Get the head of the walker list.
    *
@@ -227,6 +244,7 @@ public class WalkingIterator extends LocPathIterator implements ExpressionOwner
   {
     m_firstWalker = walker;
   }
+
 
   /**
    * Set the last used walker.
@@ -311,6 +329,7 @@ public class WalkingIterator extends LocPathIterator implements ExpressionOwner
                         }
                 }
   }
+
 
   /** The last used step walker in the walker list.
    *  @serial */

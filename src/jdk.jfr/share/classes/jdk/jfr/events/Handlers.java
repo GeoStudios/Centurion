@@ -21,8 +21,23 @@
 
 package jdk.jfr.share.classes.jdk.jfr.events;
 
+
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Handlers {
     public static final EventHandler SOCKET_READ = Utils.getHandler(SocketReadEvent.class);

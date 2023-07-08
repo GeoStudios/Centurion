@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMDOMException;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
@@ -46,9 +47,26 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
 import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: DTMNodeProxy.java,v
  */
+
+
+
 
 /**
  * <code>DTMNodeProxy</code> presents a DOM Node API front-end to the DTM model.
@@ -841,6 +859,8 @@ public class DTMNodeProxy
     }
   }
 
+
+
   /**
    *
    * @param importedNode
@@ -1526,6 +1546,7 @@ public class DTMNodeProxy
     throw new DTMDOMException(DOMException.NOT_SUPPORTED_ERR);
   }
 
+
   /** Inner class to support getDOMImplementation.
    */
   static class DTMNodeProxyImplementation implements DOMImplementation
@@ -1587,6 +1608,7 @@ public class DTMNodeProxy
     }
 
   }
+
 
 //RAMESH : Pending proper implementation of DOM Level 3
 
@@ -1797,6 +1819,7 @@ public class DTMNodeProxy
 
                 return null;
 
+
             }
 /*
         case Node.DOCUMENT_NODE : {
@@ -1828,6 +1851,7 @@ public class DTMNodeProxy
 
         }
     }
+
 
     /**
      *  DOM Level 3
@@ -1900,6 +1924,7 @@ public class DTMNodeProxy
         }
 */
         return false;
+
 
     }
 
@@ -2128,6 +2153,7 @@ public class DTMNodeProxy
         return n;
     }
 
+
     /**
      *  DOM Level 3
      *  Normalize document.
@@ -2144,6 +2170,7 @@ public class DTMNodeProxy
     public DOMConfiguration getDomConfig(){
        return null;
     }
+
 
     /** DOM Level 3 feature: documentURI */
     protected String fDocumentURI;
@@ -2297,6 +2324,7 @@ public class DTMNodeProxy
         //PENDING
     }
 
+
     /**
      * DOM Level 3: register the given attribute node as an ID attribute
      */
@@ -2326,6 +2354,7 @@ public class DTMNodeProxy
     public boolean isId() {
         return false; //PENDING
     }
+
 
     private String xmlEncoding;
     @Override

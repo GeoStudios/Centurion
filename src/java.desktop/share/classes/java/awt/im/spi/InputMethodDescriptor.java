@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.im.spi;
 
+
 import java.desktop.share.classes.java.awt.AWTException;
 import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines methods that provide sufficient information about an input method

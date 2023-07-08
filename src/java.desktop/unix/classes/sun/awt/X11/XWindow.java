@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.AWTEvent;
 import java.awt.AWTKeyStroke;
 import java.awt.Color;
@@ -56,6 +57,20 @@ import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XWindow extends XBaseWindow implements X11ComponentPeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XWindow");
@@ -309,6 +324,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
         else return 0;
     }
 
+
     static XWindow getParentXWindowObject(Component target) {
         if (target == null) return null;
         Component temp = target.getParent();
@@ -325,6 +341,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
             return (XWindow) peer;
         else return null;
     }
+
 
     boolean isParentOf(XWindow win) {
         if (!(target instanceof Container) || win == null || win.getTarget() == null) {
@@ -417,6 +434,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
         }
         XToolkit.postEvent(XToolkit.targetToAppContext(e.getSource()), pe);
     }
+
 
 /*
  * Post an event to the event queue.
@@ -708,6 +726,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
             }
             lastTime = when;
 
+
             /*
                Check for popup trigger !!
             */
@@ -845,6 +864,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
             postEventToEventQueue(mme);
         }
     }
+
 
     // REMIND: need to implement looking for disabled events
     private native boolean x11inputMethodLookupString(long event,
@@ -1169,6 +1189,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
                           unicodeFromPrimaryKeysym,
                           jkeyExtended);
 
+
         if (unicodeKey > 0 && !isDeadKey) {
                 if (keyEventLog.isLoggable(PlatformLogger.Level.FINE)) {
                     keyEventLog.fine("fire _TYPED on "+unicodeKey);
@@ -1182,6 +1203,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
                               java.awt.event.KeyEvent.VK_UNDEFINED);
 
         }
+
 
     }
 
@@ -1249,7 +1271,9 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
                           unicodeFromPrimaryKeysym,
                           jkeyExtended);
 
+
     }
+
 
     private boolean isDeadKey(long keysym){
         return XKeySymConstants.XK_dead_grave <= keysym && keysym <= XKeySymConstants.XK_dead_semivoiced_sound;
@@ -1447,6 +1471,7 @@ class XWindow extends XBaseWindow implements X11ComponentPeer {
             }
         }
     }
+
 
     static void setBData(KeyEvent e, byte[] data) {
         AWTAccessor.getAWTEventAccessor().setBData(e, data);

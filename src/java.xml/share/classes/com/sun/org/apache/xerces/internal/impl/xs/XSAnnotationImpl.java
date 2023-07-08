@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
@@ -36,10 +37,27 @@ import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This is an implementation of the XSAnnotation schema component.

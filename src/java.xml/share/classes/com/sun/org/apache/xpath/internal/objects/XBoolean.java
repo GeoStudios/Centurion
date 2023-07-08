@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class represents an XPath boolean object, and is capable of
  * converting the boolean to other types, such as a string.
@@ -72,6 +88,7 @@ public class XBoolean extends XObject
     m_val = b.booleanValue();
     setObject(b);
   }
+
 
   /**
    * Tell that this is a CLASS_BOOLEAN.

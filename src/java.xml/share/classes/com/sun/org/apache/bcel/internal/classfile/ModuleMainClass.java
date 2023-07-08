@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and indicates the main class of a module.
@@ -41,6 +59,7 @@ public final class ModuleMainClass extends Attribute {
 
     private int mainClassIndex;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -48,6 +67,7 @@ public final class ModuleMainClass extends Attribute {
     public ModuleMainClass(final ModuleMainClass c) {
         this(c.getNameIndex(), c.getLength(), c.getHostClassIndex(), c.getConstantPool());
     }
+
 
     /**
      * @param name_index Index in constant pool
@@ -60,6 +80,7 @@ public final class ModuleMainClass extends Attribute {
         super(Const.ATTR_NEST_MEMBERS, name_index, length, constantPool);
         this.mainClassIndex = mainClassIndex;
     }
+
 
     /**
      * Construct object from input stream.
@@ -74,6 +95,7 @@ public final class ModuleMainClass extends Attribute {
         mainClassIndex = input.readUnsignedShort();
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitly
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -85,6 +107,7 @@ public final class ModuleMainClass extends Attribute {
     public void accept( final Visitor v ) {
         v.visitModuleMainClass(this);
     }
+
 
     /**
      * Dump ModuleMainClass attribute to file stream in binary format.
@@ -98,6 +121,7 @@ public final class ModuleMainClass extends Attribute {
         file.writeShort(mainClassIndex);
     }
 
+
     /**
      * @return index into constant pool of host class name.
      */
@@ -105,12 +129,14 @@ public final class ModuleMainClass extends Attribute {
         return mainClassIndex;
     }
 
+
     /**
      * @param mainClassIndex the host class index
      */
     public void setHostClassIndex( final int mainClassIndex ) {
         this.mainClassIndex = mainClassIndex;
     }
+
 
     /**
      * @return String representation
@@ -123,6 +149,7 @@ public final class ModuleMainClass extends Attribute {
         buf.append(Utility.compactClassName(class_name, false));
         return buf.toString();
     }
+
 
     /**
      * @return deep copy of this attribute

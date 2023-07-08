@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.events.EventImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.events.MutationEventImpl;
 import java.io.java.io.java.io.java.io.IOException;
@@ -53,6 +54,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.traversal.DocumentTraversal;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.TreeWalker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Document interface represents the entire HTML or XML document.
@@ -109,6 +124,7 @@ public class DocumentImpl
 
     /** Bypass mutation events firing. */
     protected boolean mutationEvents = false;
+
 
     /**
      * @serialField iterators Vector Node iterators
@@ -750,6 +766,7 @@ public class DocumentImpl
             }
         }
 
+
         // Both AT_TARGET and BUBBLE use non-capturing listeners.
         if (lc.bubbles > 0) {
             // AT_TARGET PHASE: Event is dispatched to NON-CAPTURING listeners
@@ -853,6 +870,7 @@ public class DocumentImpl
         dispatchingEventToSubtree(n.getFirstChild(), e);
 
     } // dispatchEventToSubtree(NodeImpl,Node,Event) :void
+
 
     /**
      * Dispatches event to the target node's descendents recursively
@@ -1059,6 +1077,8 @@ public class DocumentImpl
         //events if appropriate will be initiated
         modifiedCharacterData(node, oldvalue, value, false);
     }
+
+
 
     /**
      * A method to be called when a node is about to be inserted in the tree.
@@ -1300,6 +1320,7 @@ public class DocumentImpl
         }
     }
 
+
     /**
      * A method to be called when an attribute node has been renamed
      */
@@ -1313,6 +1334,7 @@ public class DocumentImpl
     void renamedElement(Element oldEl, Element newEl) {
         // REVISIT: To be implemented!!!
     }
+
 
     /**
      * @serialData Serialized fields. Convert Maps to Hashtables and Lists

@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
+
 import java.naming.share.classes.javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This exception is thrown when the specification of

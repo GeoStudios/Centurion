@@ -21,6 +21,7 @@
 
 package compiler.compilercontrol.share.processors;
 
+
 import com.sun.management.HotSpotDiagnosticMXBean;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.method.MethodGenerator;
@@ -35,6 +36,19 @@ import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Process output to find compiled methods assemblies printed by print command

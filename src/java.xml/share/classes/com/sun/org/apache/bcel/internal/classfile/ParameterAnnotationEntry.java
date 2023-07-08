@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -28,10 +29,26 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * represents one parameter annotation in the parameter annotation table
@@ -40,6 +57,7 @@ import java.util.java.util.java.util.java.util.List;
 public class ParameterAnnotationEntry implements Node {
 
     private final AnnotationEntry[] annotationTable;
+
 
     /**
      * Construct object from input stream.
@@ -55,6 +73,7 @@ public class ParameterAnnotationEntry implements Node {
             annotationTable[i] = AnnotationEntry.read(input, constant_pool, false);
         }
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely

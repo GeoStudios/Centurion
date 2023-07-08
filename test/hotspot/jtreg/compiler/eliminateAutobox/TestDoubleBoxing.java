@@ -21,6 +21,21 @@
 
 package compiler.eliminateAutobox;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6934604
@@ -40,6 +55,7 @@ package compiler.eliminateAutobox;
  *                   compiler.eliminateAutobox.TestDoubleBoxing
  */
 
+
 public class TestDoubleBoxing {
 
   static final Double ibc = new Double(1.);
@@ -49,6 +65,7 @@ public class TestDoubleBoxing {
   static void   dummy()        { }
   static double foo(double i)  { return i; }
   static Double foob(double i) { return Double.valueOf(i); }
+
 
   static double simple(double i) {
     Double ib = new Double(i);
@@ -360,6 +377,7 @@ public class TestDoubleBoxing {
     return j1 + j2;
   }
 
+
   //===============================================
   // Safepointa and debug info for deoptimization
   static double simple_deop(double i) {
@@ -628,6 +646,7 @@ public class TestDoubleBoxing {
     return j1 + j2;
   }
 
+
   public static void main(String[] args) {
     final int ntests = 70;
 
@@ -669,6 +688,7 @@ public class TestDoubleBoxing {
     for (int i = 0; i < ntests; i++) {
       res[i] = 0.;
     }
+
 
     for (int i = 0; i < 12000; i++) {
       res[0] += simple(i);
