@@ -21,9 +21,23 @@
 
 package compiler.intrinsics.bigInteger;
 
+
 import java.math.BigInteger;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -46,6 +60,8 @@ import jdk.test.lib.Utils;
  *      -XX:CompileCommand=inline,java.math.BigInteger::mulAdd
  *      compiler.intrinsics.bigInteger.TestMulAdd
  */
+
+
 
 public class TestMulAdd {
 

@@ -21,6 +21,22 @@
 
 package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @SuppressWarnings("serial")
 class LastErrorException extends RuntimeException{
 

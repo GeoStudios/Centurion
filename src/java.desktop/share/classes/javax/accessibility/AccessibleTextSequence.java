@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class collects together key details of a span of text. It is used by
  * implementors of the class {@code AccessibleExtendedText} in order to return

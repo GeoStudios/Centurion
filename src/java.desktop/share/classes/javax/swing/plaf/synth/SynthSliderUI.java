@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.event.*;
 import java.awt.Graphics;
 import java.awt.Dimension;
@@ -35,6 +36,20 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicSliderUI;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

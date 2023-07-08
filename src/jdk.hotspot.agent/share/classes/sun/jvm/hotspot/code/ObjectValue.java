@@ -21,10 +21,25 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An ObjectValue describes an object eliminated by escape analysis. */
 

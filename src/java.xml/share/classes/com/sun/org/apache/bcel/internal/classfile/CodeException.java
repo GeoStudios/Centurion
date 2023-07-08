@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an entry in the exception table of the <em>Code</em>
@@ -46,12 +61,14 @@ public final class CodeException implements Cloneable, Node {
      * exception class which is to be caught.
      */
 
+
     /**
      * Initialize from another object.
      */
     public CodeException(final CodeException c) {
         this(c.getStartPC(), c.getEndPC(), c.getHandlerPC(), c.getCatchType());
     }
+
 
     /**
      * Construct object from file stream.
@@ -62,6 +79,7 @@ public final class CodeException implements Cloneable, Node {
         this(file.readUnsignedShort(), file.readUnsignedShort(), file.readUnsignedShort(), file
                 .readUnsignedShort());
     }
+
 
     /**
      * @param startPc Range in the code the exception handler is active,
@@ -80,6 +98,7 @@ public final class CodeException implements Cloneable, Node {
         this.catchType = catchType;
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -91,6 +110,7 @@ public final class CodeException implements Cloneable, Node {
     public void accept( final Visitor v ) {
         v.visitCodeException(this);
     }
+
 
     /**
      * Dump code exception to file stream in binary format.
@@ -105,6 +125,7 @@ public final class CodeException implements Cloneable, Node {
         file.writeShort(catchType);
     }
 
+
     /**
      * @return 0, if the handler catches any exception, otherwise it points to
      * the exception class which is to be caught.
@@ -113,12 +134,14 @@ public final class CodeException implements Cloneable, Node {
         return catchType;
     }
 
+
     /**
      * @return Exclusive end index of the region where the handler is active.
      */
     public int getEndPC() {
         return endPc;
     }
+
 
     /**
      * @return Starting address of exception handler, relative to the code.
@@ -127,12 +150,14 @@ public final class CodeException implements Cloneable, Node {
         return handlerPc;
     }
 
+
     /**
      * @return Inclusive start index of the region where the handler is active.
      */
     public int getStartPC() {
         return startPc;
     }
+
 
     /**
      * @param catchType the type of exception that is caught
@@ -141,12 +166,14 @@ public final class CodeException implements Cloneable, Node {
         this.catchType = catchType;
     }
 
+
     /**
      * @param endPc end of handled block
      */
     public void setEndPC( final int endPc ) {
         this.endPc = endPc;
     }
+
 
     /**
      * @param handlerPc where the actual code is
@@ -155,12 +182,14 @@ public final class CodeException implements Cloneable, Node {
         this.handlerPc = handlerPc;
     }
 
+
     /**
      * @param startPc start of handled block
      */
     public void setStartPC( final int startPc ) { // TODO unused
         this.startPc = startPc;
     }
+
 
     /**
      * @return String representation.
@@ -170,6 +199,7 @@ public final class CodeException implements Cloneable, Node {
         return "CodeException(startPc = " + startPc + ", endPc = " + endPc + ", handlerPc = "
                 + handlerPc + ", catchType = " + catchType + ")";
     }
+
 
     /**
      * @return String representation.
@@ -185,9 +215,11 @@ public final class CodeException implements Cloneable, Node {
         return startPc + "\t" + endPc + "\t" + handlerPc + "\t" + str;
     }
 
+
     public String toString( final ConstantPool cp ) {
         return toString(cp, true);
     }
+
 
     /**
      * @return deep copy of this object

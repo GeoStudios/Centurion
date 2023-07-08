@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SampleTree;
 
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -37,6 +38,20 @@ import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.border.*;
 import javax.swing.tree.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -44,6 +59,10 @@ import javax.swing.tree.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * A demo for illustrating how to do different things with JTree.
@@ -304,6 +323,7 @@ public final class SampleTree {
         return new DynamicTreeNode(new SampleData(null, Color.black, name));
     }
 
+
     /**
      * AddAction is used to add a new item after the selected item.
      */
@@ -349,6 +369,7 @@ public final class SampleTree {
             }
         }
     } // End of SampleTree.AddAction
+
 
     /**
      * InsertAction is used to insert a new item before the selected item.
@@ -397,6 +418,7 @@ public final class SampleTree {
         }
     } // End of SampleTree.InsertAction
 
+
     /**
      * ReloadAction is used to reload from the selected node.  If nothing
      * is selected, reload is not issued.
@@ -416,6 +438,7 @@ public final class SampleTree {
             }
         }
     } // End of SampleTree.ReloadAction
+
 
     /**
      * RemoveAction removes the selected node from the tree.  If
@@ -538,6 +561,7 @@ public final class SampleTree {
             return shallowestPath;
         }
 
+
         /**
          * An Comparator that bases the return value on the index of the
          * passed in objects in the TreeModel.
@@ -557,6 +581,7 @@ public final class SampleTree {
         }
     } // End of SampleTree.RemoveAction
 
+
     /**
      * ShowHandlesChangeListener implements the ChangeListener interface
      * to toggle the state of showing the handles in the tree.
@@ -568,6 +593,7 @@ public final class SampleTree {
         }
     } // End of class SampleTree.ShowHandlesChangeListener
 
+
     /**
      * ShowRootChangeListener implements the ChangeListener interface
      * to toggle the state of showing the root node in the tree.
@@ -578,6 +604,7 @@ public final class SampleTree {
             tree.setRootVisible(((JCheckBox) e.getSource()).isSelected());
         }
     } // End of class SampleTree.ShowRootChangeListener
+
 
     /**
      * TreeEditableChangeListener implements the ChangeListener interface

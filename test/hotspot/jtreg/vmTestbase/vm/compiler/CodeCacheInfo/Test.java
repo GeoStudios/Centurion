@@ -21,9 +21,23 @@
 
 package vm.compiler.CodeCacheInfo;
 
+
 import sun.hotspot.WhiteBox;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -45,6 +59,8 @@ import jdk.test.lib.process.ProcessTools;
  *      -XX:+WhiteBoxAPI
  *      vm.compiler.CodeCacheInfo.Test
  */
+
+
 
 public class Test {
     private static final String SEG_REGEXP;

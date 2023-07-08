@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -29,6 +30,20 @@ import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of TextLabel based on String.

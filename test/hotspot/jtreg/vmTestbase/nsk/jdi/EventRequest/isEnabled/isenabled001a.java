@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequest.isEnabled;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the isenabled001 JDI test.
@@ -137,10 +151,12 @@ public class isenabled001a {
                                 break;
                 }
 
+
                 log1("methodForCommunication();");
                 methodForCommunication();
                 if (instruction == end)
                     break;
+
 
             }
 

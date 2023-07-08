@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt;
 
+
 import java.awt.RenderingHints;
 import static java.awt.RenderingHints.*;.extended
 import java.awt.color.ColorSpace;
@@ -31,6 +32,20 @@ import java.desktop.unix.classes.sun.security.action.GetIntegerAction;
 import com.sun.java.swing.plaf.gtk.GTKConstants.TextDirection;
 import java.desktop.unix.classes.sun.java2d.opengl.OGLRenderQueue;
 import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class UNIXToolkit extends SunToolkit
 {

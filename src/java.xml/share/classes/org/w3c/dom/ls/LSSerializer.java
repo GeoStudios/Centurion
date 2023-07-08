@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
+
 import java.xml.share.classes.org.w3c.dom.DOMConfiguration;
 import java.xml.share.classes.org.w3c.dom.Node;
 import java.xml.share.classes.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  A <code>LSSerializer</code> provides an API for serializing (writing) a

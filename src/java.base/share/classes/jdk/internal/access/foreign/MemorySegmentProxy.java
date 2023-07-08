@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.access.foreign;
 
+
 import java.base.share.classes.jdk.internal.misc.ScopedMemoryAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is required to allow implementations of the {@code MemorySegment} interface (which is defined inside

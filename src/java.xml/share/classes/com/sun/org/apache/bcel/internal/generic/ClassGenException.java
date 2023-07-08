@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Thrown on internal errors. Extends RuntimeException so it hasn't to be declared
@@ -38,6 +55,7 @@ public class ClassGenException extends RuntimeException {
     public ClassGenException() {
         super();
     }
+
 
     public ClassGenException(final String s) {
         super(s);

@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequest.addCountFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -103,6 +117,7 @@ public class addcountfilter001 extends JDIBase {
 
     //====================================================== test program
 
+
     private int runThis (String argv[], PrintStream out) {
 
         argsHandler     = new ArgumentHandler(argv);
@@ -110,6 +125,7 @@ public class addcountfilter001 extends JDIBase {
         Binder binder   = new Binder(argsHandler, logHandler);
 
         waitTime        = argsHandler.getWaitTime() * 60000;
+
 
         try {
             log2("launching a debuggee :");
@@ -189,6 +205,7 @@ public class addcountfilter001 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -251,6 +268,7 @@ public class addcountfilter001 extends JDIBase {
 
     //------------------------------------------------------  testing section
 
+
         EventRequest  eventRequest1 = null;
 
         String        fieldName1    = "var101";
@@ -264,6 +282,7 @@ public class addcountfilter001 extends JDIBase {
         String propertyName   = "name";
         String propertyValue1 = "value1";
         String propertyValue2 = "value2";
+
 
         log1("     TESTING BEGINS");
 
@@ -283,6 +302,7 @@ public class addcountfilter001 extends JDIBase {
             log1(":::::: case: # " + i);
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
+
 
             switch (i) {
 
@@ -355,6 +375,7 @@ public class addcountfilter001 extends JDIBase {
                      log2(".....setting up BreakpointRequest");
                      eventRequest1 = eventRManager.createBreakpointRequest(breakpLocation);
                      break;
+
 
               default:
                       throw new JDITestRuntimeException("** default case 2 **");

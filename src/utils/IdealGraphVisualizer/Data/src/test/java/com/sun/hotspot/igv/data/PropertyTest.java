@@ -21,8 +21,23 @@
 
 package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
+
 import static org.junit.Assert.*;.extended
 import org.junit.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -62,6 +77,7 @@ public class PropertyTest {
             fail();
         } catch(IllegalArgumentException e) {
         }
+
 
         try {
             new Property("name", null);

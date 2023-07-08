@@ -21,10 +21,24 @@
 
 package gc.gctests.mallocWithGC2;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.TestFailure;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -56,6 +70,8 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm/native gc.gctests.mallocWithGC2.mallocWithGC2
  */
+
+
 
 public class mallocWithGC2 extends TestBase {
         static {
@@ -90,6 +106,7 @@ public class mallocWithGC2 extends TestBase {
                         }
                 }
         }
+
 
         private class cHeapEater extends Thread{
                 public void run() {

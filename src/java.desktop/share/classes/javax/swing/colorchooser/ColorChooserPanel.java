@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -33,6 +34,20 @@ import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.JFormattedTextField;
 import java.desktop.share.classes.javax.swing.JLabel;
 import java.desktop.share.classes.javax.swing.SwingConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class ColorChooserPanel extends AbstractColorChooserPanel implements PropertyChangeListener {

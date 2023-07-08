@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  The <code>EventListener</code> interface is the primary method for
  * handling events. Users implement the <code>EventListener</code> interface

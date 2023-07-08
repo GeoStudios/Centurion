@@ -21,6 +21,7 @@
 
 package java.logging.share.classes.sun.util.logging.internal;
 
+
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.ResourceBundle;
@@ -33,6 +34,20 @@ import jdk.internal.logger.DefaultLoggerFinder;
 import java.util.logging.LoggingPermission;
 import java.logging.share.classes.sun.util.logging.PlatformLogger;
 import java.logging.share.classes.sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@code LoggingProviderImpl} is the JDK internal implementation of the
@@ -92,6 +107,7 @@ public final class LoggingProviderImpl extends DefaultLoggerFinder {
             implements System.Logger, PlatformLogger.Bridge,
                        PlatformLogger.ConfigurableBridge {
 
+
         private static final java.util.logging.Level[] spi2JulLevelMapping = {
                 java.util.logging.Level.ALL,     // mapped from ALL
                 java.util.logging.Level.FINER,   // mapped from TRACE
@@ -115,6 +131,7 @@ public final class LoggingProviderImpl extends DefaultLoggerFinder {
         };
 
         private final java.util.logging.Logger julLogger;
+
 
         private JULWrapper(java.util.logging.Logger logger) {
             this.julLogger = logger;
@@ -211,6 +228,7 @@ public final class LoggingProviderImpl extends DefaultLoggerFinder {
         // -----------------------------------------------------------------
         // Generic methods taking a Level as parameter
         // -----------------------------------------------------------------
+
 
         @Override
         public boolean isLoggable(Level level) {
@@ -386,6 +404,7 @@ public final class LoggingProviderImpl extends DefaultLoggerFinder {
             return new JULWrapper(logger);
         }
 
+
     }
 
     /**
@@ -445,6 +464,7 @@ public final class LoggingProviderImpl extends DefaultLoggerFinder {
         if (logManagerAccess == null) LogManager.getLogManager();
         return logManagerAccess;
     }
+
 
     private static volatile LogManagerAccess logManagerAccess;
     public static void setLogManagerAccess(LogManagerAccess accesLoggers) {

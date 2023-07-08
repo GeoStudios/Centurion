@@ -21,9 +21,24 @@
 
 package java.base.share.classes.sun.invoke.util;
 
+
 import java.lang.invoke.MethodType;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility routines for dealing with bytecode-level signatures.

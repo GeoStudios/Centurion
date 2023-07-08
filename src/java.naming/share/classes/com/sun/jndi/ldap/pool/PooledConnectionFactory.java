@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
+
 import javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a factory that creates PooledConnection.

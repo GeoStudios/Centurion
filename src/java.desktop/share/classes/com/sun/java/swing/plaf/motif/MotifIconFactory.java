@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Component;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
@@ -31,6 +32,20 @@ import javax.swing.Icon;
 import javax.swing.JCheckBox;
 import javax.swing.UIManager;
 import javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Icon factory for the CDE/Motif Look and Feel
@@ -127,6 +142,7 @@ public class MotifIconFactory implements Serializable
                                 !isArmed  &&
                                 isSelected));
 
+
             if(flat) {
                 g.setColor(shadow);
                 g.drawRect(x+2,y,csize-1,csize-1);
@@ -182,8 +198,10 @@ public class MotifIconFactory implements Serializable
                                    boolean shade, boolean out, boolean check, boolean flat)
             {
 
+
                 Color oldColor = g.getColor();
                 g.translate(x, y);
+
 
                 //bottom
                 if(!flat) {
@@ -312,6 +330,7 @@ public class MotifIconFactory implements Serializable
         public int getIconWidth() { return 0; }
         public int getIconHeight() { return 0; }
     }  // end class MenuItemCheckIcon
+
 
     @SuppressWarnings("serial") // Same-version serialization only
     private static class MenuItemArrowIcon implements Icon, UIResource, Serializable

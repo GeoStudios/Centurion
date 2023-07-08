@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class MidiMessage implements Cloneable {
 
     /**

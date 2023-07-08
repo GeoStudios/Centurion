@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class collects together the span of text that share the same contiguous

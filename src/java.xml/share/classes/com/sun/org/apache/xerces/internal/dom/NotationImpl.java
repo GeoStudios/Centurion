@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Notation;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Notations are how the Document Type Description (DTD) records hints
@@ -180,6 +197,7 @@ public class NotationImpl
         systemId = id;
 
     } // setSystemId(String)
+
 
     /**
      * Returns the absolute base URI of this node or null if the implementation

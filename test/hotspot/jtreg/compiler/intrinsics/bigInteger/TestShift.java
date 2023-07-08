@@ -21,10 +21,24 @@
 
 package compiler.intrinsics.bigInteger;
 
+
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -51,6 +65,8 @@ import jdk.test.lib.Utils;
  *      compiler.intrinsics.bigInteger.TestShift
  *
  */
+
+
 
 public class TestShift {
 

@@ -21,6 +21,21 @@
 
 package compiler.whitebox;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test MakeMethodNotCompilableTest
  * @bug 8012322 8006683 8007288 8022832
@@ -37,6 +52,7 @@ package compiler.whitebox;
  *                   -XX:+WhiteBoxAPI -Xmixed -XX:-UseCounterDecay
  *                   compiler.whitebox.MakeMethodNotCompilableTest
  */
+
 
 public class MakeMethodNotCompilableTest extends CompilerWhiteBoxTest {
     private int bci;

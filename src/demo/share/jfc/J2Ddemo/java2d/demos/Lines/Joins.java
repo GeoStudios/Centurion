@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
@@ -48,6 +49,20 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicStroke join types and width sizes illustrated.  Control for
@@ -104,6 +119,7 @@ public class Joins extends ControlsSurface {
     public static void main(String[] s) {
         createDemoFrame(new Joins());
     }
+
 
     class DemoControls extends CustomControls implements ActionListener {
 
@@ -194,6 +210,7 @@ public class Joins extends ControlsSurface {
             }
             thread = null;
         }
+
 
         class JoinIcon implements Icon {
 

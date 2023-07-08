@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.Stable;
 import java.nio.ByteOrder;
@@ -28,6 +29,20 @@ import java.lang.reflect.Array;
 import java.base.share.classes.java.util.Arrays;
 import java.util.function.Function;
 import java.util.function.IntUnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class AbstractSpecies<E> extends jdk.internal.vm.vector.VectorSupport.VectorSpecies<E>
                                   implements VectorSpecies<E> {
@@ -476,6 +491,7 @@ abstract class AbstractSpecies<E> extends jdk.internal.vm.vector.VectorSupport.V
         }
         return this;
     }
+
 
     @Override
     @ForceInline

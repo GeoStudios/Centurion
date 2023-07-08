@@ -21,6 +21,21 @@
 
 package compiler.inlining;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8026735

@@ -21,6 +21,22 @@
 
 package java.base.share.classes.javax.net.ssl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Indicates that the client and server could not negotiate the
  * desired level of security.  The connection is no longer usable.

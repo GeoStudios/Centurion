@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import sun.awt.AWTAccessor;
 import java.desktop.share.classes.javax.swing.plaf.LayerUI;
 import java.desktop.share.classes.javax.swing.border.Border;
@@ -35,6 +36,20 @@ import java.io.Serial;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code JLayer} is a universal decorator for Swing components

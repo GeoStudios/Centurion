@@ -21,6 +21,7 @@
 
 package org.xml.sax.ptests;
 
+
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -40,6 +41,19 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLFilterImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ErrorHandler unit test. Set a ErrorHandle to XMLReader. Capture fatal error

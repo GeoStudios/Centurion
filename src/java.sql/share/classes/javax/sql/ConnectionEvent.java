@@ -21,7 +21,22 @@
 
 package java.sql.share.classes.javax.sql;
 
+
 import java.sql.SQLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>An {@code Event} object that provides information about the

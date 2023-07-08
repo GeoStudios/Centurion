@@ -21,8 +21,23 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Base class for elements that the user can interact with,
 // <selection>, <text> and <flag>

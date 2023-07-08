@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.util.*;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindowPropertyGetter {
     private static final Unsafe unsafe = XlibWrapper.unsafe;

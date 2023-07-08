@@ -21,9 +21,24 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.common;
 
+
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Flow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * FlowTube is an I/O abstraction that allows reading from and writing to a
@@ -92,6 +107,7 @@ public interface FlowTube extends
      * @return true if the flow is finished
      */
     boolean isFinished();
+
 
     /**
      * Returns {@code s} if {@code s} is a {@code TubeSubscriber}, otherwise

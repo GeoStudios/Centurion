@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7020614
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main/othervm/timeout=30 -Xbatch compiler.c2.Test7020614
  */
+
 
 public class Test7020614 {
 

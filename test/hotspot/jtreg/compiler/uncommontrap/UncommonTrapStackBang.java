@@ -21,6 +21,21 @@
 
 package compiler.uncommontrap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8026775
@@ -56,6 +71,7 @@ package compiler.uncommontrap;
  * which raises an exception on Windows when the stack bang in
  * StringBuilder is performed.
  */
+
 
 public class UncommonTrapStackBang extends Thread {
     class Foo { }

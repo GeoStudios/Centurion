@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.Dimension;
 import java.desktop.share.classes.java.awt.TextArea;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link TextArea}.

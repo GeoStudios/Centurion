@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.color.ColorSpace;
@@ -53,6 +54,20 @@ import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFImageReadParam;
 import javax.imageio.plugins.tiff.TIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageReader extends ImageReader {
 

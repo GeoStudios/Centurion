@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.awt.*;
 import java.beans.BeanProperty;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the abstract superclass for color choosers.  If you want to add
@@ -44,6 +59,7 @@ import java.desktop.share.classes.javax.swing.*;
  */
 @SuppressWarnings("serial") // Same-version serialization only
 public abstract class AbstractColorChooserPanel extends JPanel {
+
 
     /**
      * Identifies that the transparency of the color (alpha value) can be

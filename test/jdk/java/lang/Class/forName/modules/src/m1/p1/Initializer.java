@@ -21,6 +21,21 @@
 
 package p1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Initializer {
     private static boolean inited = false;
     static synchronized void init() {

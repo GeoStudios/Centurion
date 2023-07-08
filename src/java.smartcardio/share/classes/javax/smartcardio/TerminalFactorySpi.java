@@ -21,7 +21,22 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The TerminalFactorySpi class defines the service provider interface.

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics;
@@ -41,6 +42,20 @@ import java.desktop.share.classes.javax.swing.text.html.CSS.ColorValue;
 import java.desktop.share.classes.javax.swing.text.html.CSS.CssValue;
 import java.desktop.share.classes.javax.swing.text.html.CSS.LengthValue;
 import java.desktop.share.classes.javax.swing.text.html.CSS.Value;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CSS-style borders for HTML elements.
@@ -189,6 +204,7 @@ class CSSBorder extends AbstractBorder {
                          (int) (c.getBlue() * f + inc));
     }
 
+
     /* The javax.swing.border.Border methods.  */
 
     public Insets getBorderInsets(Component c, Insets insets) {
@@ -246,6 +262,7 @@ class CSSBorder extends AbstractBorder {
         }
         g2.dispose();
     }
+
 
     /* Border painters.  */
 

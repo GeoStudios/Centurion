@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
+
 import java.naming.share.classes.javax.naming.Binding;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class represents an item in the NamingEnumeration returned as a
@@ -149,6 +164,7 @@ public class SearchResult extends Binding {
         return attrs;
     }
 
+
     /**
      * Sets the attributes of this search result to <code>attrs</code>.
      * @param attrs The non-null attributes to use. Can be empty.
@@ -158,6 +174,7 @@ public class SearchResult extends Binding {
         this.attrs = attrs;
         // ??? check for null?
     }
+
 
     /**
       * Generates the string representation of this SearchResult.

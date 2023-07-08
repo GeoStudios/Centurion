@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -33,10 +34,27 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Convert methods and fields into HTML file.
@@ -49,6 +67,7 @@ final class MethodHTML {
     private final PrintWriter file; // file to write to
     private final ConstantHTML constantHtml;
     private final AttributeHTML attribute_html;
+
 
     MethodHTML(final String dir, final String class_name, final Method[] methods, final Field[] fields,
             final ConstantHTML constant_html, final AttributeHTML attribute_html) throws IOException {
@@ -72,6 +91,7 @@ final class MethodHTML {
         file.println("</TABLE></BODY></HTML>");
         file.close();
     }
+
 
     /**
      * Print field of class.
@@ -104,6 +124,7 @@ final class MethodHTML {
         }
         file.println("</TR>");
     }
+
 
     private void writeMethod( final Method method, final int method_number ) {
         // Get raw signature

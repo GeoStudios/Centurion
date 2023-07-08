@@ -21,7 +21,22 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
+
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * See JVMS, chapter 6.

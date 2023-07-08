@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** <p> A two-way unbounded-length message queue useful for
     communication between threads. Messages written on one side become
     readable on the other in first-in, first-out order. This is an

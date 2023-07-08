@@ -21,8 +21,22 @@
 
 package gc.gctests.FinalizeTest04;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.FinalizeTest04.FinalizeTest04
  */
+
+
 
 /**
  * Test that synchronization between GC and finalizer thread

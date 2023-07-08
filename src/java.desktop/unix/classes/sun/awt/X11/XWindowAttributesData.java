@@ -21,7 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.desktop.unix.classes.sun.awt.IconInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XWindowAttributesData {
     static int NORMAL           = 0;

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -29,6 +30,20 @@ import java.awt.Insets;
 import java.awt.Rectangle;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.SeparatorUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Basic L&amp;F implementation of SeparatorUI.  This implementation

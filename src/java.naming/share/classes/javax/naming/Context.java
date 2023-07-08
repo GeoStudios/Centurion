@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface represents a naming context, which

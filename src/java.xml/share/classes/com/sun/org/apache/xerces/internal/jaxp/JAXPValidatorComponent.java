@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.validation.TypeInfoProvider;
 import javax.xml.validation.ValidatorHandler;
@@ -59,10 +60,28 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * Runs events through a {@link javax.xml.validation.ValidatorHandler}
@@ -177,6 +196,7 @@ final class JAXPValidatorComponent
         });
     }
 
+
     public void startElement(QName element, XMLAttributes attributes, Augmentations augs) throws XNIException {
         fCurrentAttributes = attributes;
         fCurrentAug = augs;
@@ -193,6 +213,7 @@ final class JAXPValidatorComponent
         startElement(element,attributes,augs);
         endElement(element,augs);
     }
+
 
     public void characters(XMLString text, Augmentations augs) throws XNIException {
         // since a validator may change the contents,
@@ -282,6 +303,7 @@ final class JAXPValidatorComponent
             return aug;
         }
 
+
         /**
          * Gets the {@link Augmentations} that should be associated with
          * the current event.
@@ -365,6 +387,7 @@ final class JAXPValidatorComponent
         public ContentHandler getContentHandler() {
             return fContentHandler;
         }
+
 
         public void xmlDecl(String version, String encoding, String standalone, Augmentations augs) throws XNIException {
             this.fVersion = version;
@@ -491,6 +514,7 @@ final class JAXPValidatorComponent
 
     } // DraconianErrorHandler
 
+
     /**
      * Compares the given {@link Attributes} with {@link #fCurrentAttributes}
      * and update the latter accordingly.
@@ -538,6 +562,7 @@ final class JAXPValidatorComponent
     private String symbolize( String s ) {
         return fSymbolTable.addSymbol(s);
     }
+
 
     /**
      * {@link TypeInfoProvider} that returns no info.

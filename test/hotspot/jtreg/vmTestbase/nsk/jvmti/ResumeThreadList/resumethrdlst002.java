@@ -21,9 +21,23 @@
 
 package nsk.jvmti.ResumeThreadList;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class resumethrdlst002 extends DebugeeClass {
 

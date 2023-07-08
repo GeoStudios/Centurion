@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Set up error messages.
@@ -1041,6 +1056,7 @@ public class XSLTErrorResources_ko extends ListResourceBundle
     { ER_ERRORLISTENER,
      "ErrorListener"},
 
+
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
 //   an internal consistency problem in itself, and it provides this message
@@ -1049,6 +1065,7 @@ public class XSLTErrorResources_ko extends ListResourceBundle
 //   translated.
     { ER_ASSERT_NO_TEMPLATE_PARENT,
      "\uD504\uB85C\uADF8\uB798\uBA38 \uC624\uB958\uC785\uB2C8\uB2E4! \uD45C\uD604\uC2DD\uC5D0 ElemTemplateElement \uC0C1\uC704\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4!"},
+
 
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
@@ -1115,6 +1132,7 @@ public class XSLTErrorResources_ko extends ListResourceBundle
      { INVALID_NUMBER,
      "\uC798\uBABB\uB41C \uAC12: {1}\uC774(\uAC00) number \uC18D\uC131\uC5D0 \uC0AC\uC6A9\uB428: {0} "},
 
+
   // End of shared codes...
 
 // Note to translators:  A "match pattern" is a special form of XPath expression
@@ -1131,6 +1149,7 @@ public class XSLTErrorResources_ko extends ListResourceBundle
 // ER_DUPLICATE_GLOBAL_VAR - new error message for bugzilla #790
     { ER_DUPLICATE_GLOBAL_VAR,
      "\uC804\uC5ED \uBCC0\uC218 \uC120\uC5B8\uC774 \uC911\uBCF5\uB429\uB2C8\uB2E4."},
+
 
 // Note to translators:  The following message indicates that two definitions of
 // a variable were encountered.
@@ -1325,6 +1344,7 @@ public class XSLTErrorResources_ko extends ListResourceBundle
   { "column","\uC5F4 \uBC88\uD638"},
   { "xsldone", "XSLProcessor: \uC644\uB8CC"},
 
+
   // Note to translators:  The following messages provide usage information
   // for the Xalan Process command line.  "Process" is the name of a Java class,
   // and should not be translated.
@@ -1381,6 +1401,7 @@ public class XSLTErrorResources_ko extends ListResourceBundle
   { "optionSECUREPROCESSING", "   [-SECURE(\uBCF4\uC548 \uCC98\uB9AC \uAE30\uB2A5\uC744 true\uB85C \uC124\uC815)]"},
 
     // Following are the new options added in XSLTErrorResources.properties files after Jdk 1.4 (Xalan 2.2-D11)
+
 
   {  "optionMEDIA",  "   [-MEDIA mediaType(media \uC18D\uC131\uC744 \uC0AC\uC6A9\uD558\uC5EC \uBB38\uC11C\uC640 \uC5F0\uAD00\uB41C \uC2A4\uD0C0\uC77C\uC2DC\uD2B8 \uCC3E\uAE30)]"},
   {  "optionFLAVOR",  "   [-FLAVOR flavorName(\uBCC0\uD658\uC5D0 \uBA85\uC2DC\uC801\uC73C\uB85C s2s=SAX \uB610\uB294 d2d=DOM \uC0AC\uC6A9)] "}, // Added by sboag/scurcuru; experimental

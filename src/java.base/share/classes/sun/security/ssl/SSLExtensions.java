@@ -21,12 +21,27 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
 import java.util.*;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SSL/(D)TLS extensions in a handshake message.
@@ -182,6 +197,7 @@ final class SSLExtensions {
                 }
                 continue;
             }
+
 
             if (extension.onLoadConsumer == null) {
                 if (SSLLogger.isOn && SSLLogger.isOn("ssl,handshake")) {

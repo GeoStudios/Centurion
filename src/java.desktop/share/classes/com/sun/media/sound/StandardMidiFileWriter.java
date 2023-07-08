@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -41,6 +42,20 @@ import javax.sound.midi.ShortMessage;
 import javax.sound.midi.SysexMessage;
 import javax.sound.midi.Track;
 import javax.sound.midi.spi.MidiFileWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MIDI file writer.

@@ -21,6 +21,22 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.v1_0;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A typesafe enumeration for describing Java basic types.
  *

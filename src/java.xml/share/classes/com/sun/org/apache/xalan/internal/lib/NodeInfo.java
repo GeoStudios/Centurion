@@ -21,16 +21,35 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
+
 import javax.xml.transform.SourceLocator;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * <code>NodeInfo</code> defines a set of XSLT extension functions to be

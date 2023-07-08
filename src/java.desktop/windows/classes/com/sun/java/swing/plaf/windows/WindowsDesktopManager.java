@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import javax.swing.DefaultDesktopManager;
 import javax.swing.JInternalFrame;
 import javax.swing.JLayeredPane;
@@ -30,6 +31,20 @@ import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import java.desktop.windows.classes.com.sun.java.beans.PropertyVetoException;
 import java.desktop.windows.classes.com.sun.java.util.Vector;
 import java.desktop.windows.classes.com.sun.java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a DesktopManager which more closely follows

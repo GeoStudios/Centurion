@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
@@ -62,6 +63,20 @@ import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 import com.sun.beans.decoder.DocumentHandler;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SynthParser extends DefaultHandler {
     //
@@ -388,6 +403,8 @@ class SynthParser extends DefaultHandler {
                           nextInt(tokenizer, errorMsg),
                           nextInt(tokenizer, errorMsg));
     }
+
+
 
     //
     // The following methods are invoked from startElement/stopElement
@@ -1269,12 +1286,14 @@ class SynthParser extends DefaultHandler {
         }
     }
 
+
     public void fatalError(SAXParseException e) throws SAXException {
         if (isForwarding()) {
             getHandler().fatalError(e);
         }
         throw e;
     }
+
 
     /**
      * ImageIcon that lazily loads the image until needed.

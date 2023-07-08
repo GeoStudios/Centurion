@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.print;
 
+
 import java.util.*;
 import java.desktop.share.classes.javax.print.attribute.AttributeSet;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementations of this class provide lookup services for print services
@@ -459,6 +474,7 @@ public abstract class PrintServiceLookup {
      */
     private static ArrayList<MultiDocPrintService> getMultiDocServices(DocFlavor[] flavors,
                                                                        AttributeSet attributes) {
+
 
         ArrayList<MultiDocPrintService> listOfServices = new ArrayList<>();
         Iterator<PrintServiceLookup> psIterator = getAllLookupServices().iterator();

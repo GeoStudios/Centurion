@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d;
 
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -28,6 +29,20 @@ import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
 import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
 import java.desktop.windows.classes.sun.java2d.d3d.D3DScreenUpdateManager;
 import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class handles the creation of on-screen surfaces and

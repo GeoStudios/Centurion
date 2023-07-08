@@ -21,10 +21,25 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.BooleanType;
 import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
 import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BooleanTypeImpl extends PrimitiveTypeImpl implements BooleanType {
 

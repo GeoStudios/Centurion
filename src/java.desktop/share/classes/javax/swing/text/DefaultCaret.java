@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.Graphics;
 import java.awt.HeadlessException;
 import java.awt.Point;
@@ -60,6 +61,20 @@ import java.desktop.share.classes.javax.swing.event.Documentjava.util.Listener;
 import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import java.desktop.share.classes.javax.swing.plaf.TextUI;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A default implementation of Caret.  The caret is rendered as
@@ -388,6 +403,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
                 e.getOppositeComponent() instanceof JRootPane) &&
                 (ownsSelection || e.isTemporary()));
     }
+
 
     /**
      * Selects word based on the MouseEvent
@@ -766,6 +782,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
         if (flasher != null) {
             flasher.stop();
         }
+
 
     }
 
@@ -1278,6 +1295,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
         // the dot.
         repaint();
 
+
         // Make sure the caret is visible if this window has the focus.
         if (flasher != null && flasher.isRunning()) {
             visible = true;
@@ -1411,6 +1429,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
             handleSetDot(length, Position.Bias.Forward);
         }
     }
+
 
     /**
      * Saves the current caret position.  This is used when
@@ -1636,6 +1655,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
      */
     private transient boolean shouldHandleRelease;
 
+
     /**
      * holds last MouseEvent which caused the word selection
      */
@@ -1661,6 +1681,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
 
         Rectangle r;
     }
+
 
     class Handler implements PropertyChangeListener, DocumentListener, ActionListener, ClipboardOwner {
 
@@ -1923,6 +1944,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
             }
         }
 
+
         //
         // ClipboardOwner
         //
@@ -1939,6 +1961,7 @@ public class DefaultCaret extends Rectangle implements Caret, FocusListener, Mou
             }
         }
     }
+
 
     private class DefaultFilterBypass extends NavigationFilter.FilterBypass {
         public Caret getCaret() {

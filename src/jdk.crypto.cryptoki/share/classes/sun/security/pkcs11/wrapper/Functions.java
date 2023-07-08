@@ -21,9 +21,24 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
+
 import java.math.BigInteger;
 import java.util.*;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains only static methods. It is the place for all functions

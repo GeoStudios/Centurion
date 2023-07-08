@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import javax.swing.JTable;
 import javax.swing.JScrollPane;
 import javax.swing.JButton;
@@ -29,6 +30,20 @@ import java.awt.Component;
 import java.awt.Container;
 import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XDataViewer {
 

@@ -21,7 +21,21 @@
 
 package jit.exception;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,7 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.exception.exception
  */
 
+
 /*
    This JIT buster test checks to see if a JIT doing register allocation
    on a machine with a callees saves ABI for non-volatile registers can
@@ -45,6 +60,7 @@ import nsk.share.TestFailure;
    into registers, then restoring their correct values at the catch
    block gets a little bit tougher.
 */
+
 
 public class exception {
     public static void main(String[] args) {

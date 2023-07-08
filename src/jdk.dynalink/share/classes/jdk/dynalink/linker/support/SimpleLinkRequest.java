@@ -21,9 +21,24 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker.support;
 
+
 import java.base.share.classes.java.util.Objects;
 import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -32,6 +47,8 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * Default simple implementation of {@link LinkRequest}.

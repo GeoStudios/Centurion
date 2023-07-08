@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
@@ -36,6 +37,20 @@ import java.nio.file.Path;
 import java.base.share.classes.java.util.Objects;
 import java.util.Spliterator;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A memory segment models a contiguous region of memory. A memory segment is associated with both spatial

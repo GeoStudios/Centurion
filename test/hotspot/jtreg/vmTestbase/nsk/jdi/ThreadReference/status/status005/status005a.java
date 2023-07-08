@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.status.status005;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -122,6 +136,7 @@ public class status005a {
 class Lock {
     synchronized void foo () {}
 }
+
 
 class status005aThreadWaitingInfinitely extends Thread {
     status005aThreadWaitingInfinitely (String name) {

@@ -21,9 +21,23 @@
 
 package nsk.jvmti.scenarios.events.EM01;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class em01t002 extends DebugeeClass {
 
@@ -114,6 +128,7 @@ public class em01t002 extends DebugeeClass {
         currStatus = em01t002.checkStatus(Consts.TEST_PASSED);
         if (currStatus != Consts.TEST_PASSED)
             status = currStatus;
+
 
         logger.display("starting threads");
 

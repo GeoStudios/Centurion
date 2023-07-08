@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A customizer class provides a complete custom GUI for customizing
  * a target Java Bean.

@@ -21,6 +21,21 @@
 
 package nsk.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Pair<A, B> {
     final public A first;
     final public B second;

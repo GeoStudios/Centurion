@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.math.*;
 import java.awt.*;
 import java.awt.font.*;
@@ -33,6 +34,20 @@ import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.dummy.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A subclass of JPanel which displays a hex dump of memory along
     with annotations describing the significance of various

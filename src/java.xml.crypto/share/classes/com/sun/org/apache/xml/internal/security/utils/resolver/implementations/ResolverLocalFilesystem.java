@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations;
 
+
 import java.io.InputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -31,10 +32,27 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverSpi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * A simple ResourceResolver for requests into the local filesystem.

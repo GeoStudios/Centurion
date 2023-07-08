@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for fields and methods.
@@ -48,6 +63,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
     FieldOrMethod() {
     }
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -56,6 +72,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         this(c.getAccessFlags(), c.getNameIndex(), c.getSignatureIndex(),
                 c.getAttributes(), c.getConstantPool());
     }
+
 
     /**
      * Construct object from file stream.
@@ -90,6 +107,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         this.attributes_count = attributes_count; // init deprecated field
     }
 
+
     /**
      * @param access_flags Access rights of method
      * @param name_index Points to field name in constant pool
@@ -105,6 +123,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         this.constant_pool = constant_pool;
         setAttributes(attributes);
     }
+
 
     /**
      * Dump object to file stream on binary format.
@@ -124,12 +143,14 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         }
     }
 
+
     /**
      * @return Collection of object attributes.
      */
     public final Attribute[] getAttributes() {
         return attributes;
     }
+
 
     /**
      * @param attributes Collection of object attributes.
@@ -139,12 +160,14 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         this.attributes_count = attributes != null ? attributes.length : 0; // init deprecated field
     }
 
+
     /**
      * @return Constant pool used by this object.
      */
     public final ConstantPool getConstantPool() {
         return constant_pool;
     }
+
 
     /**
      * @param constant_pool Constant pool to be used for this object.
@@ -153,12 +176,14 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         this.constant_pool = constant_pool;
     }
 
+
     /**
      * @return Index in constant pool of object's name.
      */
     public final int getNameIndex() {
         return name_index;
     }
+
 
     /**
      * @param name_index Index in constant pool of object's name.
@@ -167,6 +192,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         this.name_index = name_index;
     }
 
+
     /**
      * @return Index in constant pool of field signature.
      */
@@ -174,12 +200,14 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         return signature_index;
     }
 
+
     /**
      * @param signature_index Index in constant pool of field signature.
      */
     public final void setSignatureIndex( final int signature_index ) {
         this.signature_index = signature_index;
     }
+
 
     /**
      * @return Name of object, i.e., method name or field name
@@ -190,6 +218,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         return c.getBytes();
     }
 
+
     /**
      * @return String representation of object's type signature (java style)
      */
@@ -198,6 +227,7 @@ public abstract class FieldOrMethod extends AccessFlags implements Cloneable, No
         c = (ConstantUtf8) constant_pool.getConstant(signature_index, Const.CONSTANT_Utf8);
         return c.getBytes();
     }
+
 
     /**
      * @return deep copy of this field

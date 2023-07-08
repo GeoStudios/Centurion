@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -36,10 +37,27 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constan
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Convert constant pool into HTML file.
@@ -55,6 +73,7 @@ final class ConstantHTML {
     private final String[] constantRef; // String to return for cp[i]
     private final Constant[] constants; // The constants in the cp
     private final Method[] methods;
+
 
     ConstantHTML(final String dir, final String class_name, final String class_package, final Method[] methods,
             final ConstantPool constant_pool) throws IOException {
@@ -83,9 +102,11 @@ final class ConstantHTML {
         file.close();
     }
 
+
     String referenceConstant( final int index ) {
         return constantRef[index];
     }
+
 
     private void writeConstant( final int index ) {
         final byte tag = constants[index].getTag();
@@ -223,6 +244,7 @@ final class ConstantHTML {
                 file.println("<P><TT>" + Class2HTML.toHTML(constantPool.constantToString(index, tag)) + "</TT>\n");
         } // switch
     }
+
 
     private int getMethodNumber( final String str ) {
         for (int i = 0; i < methods.length; i++) {

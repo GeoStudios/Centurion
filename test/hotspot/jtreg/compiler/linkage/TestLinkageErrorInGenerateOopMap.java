@@ -21,8 +21,22 @@
 
 package compiler.linkage;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import jdk.test.lib.process.ProcessTools;
  * @compile OSRWithBadOperandStack.jasm
  * @run driver compiler.linkage.TestLinkageErrorInGenerateOopMap
  */
+
+
 
 public class TestLinkageErrorInGenerateOopMap {
 

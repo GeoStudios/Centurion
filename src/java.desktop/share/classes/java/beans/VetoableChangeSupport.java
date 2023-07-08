@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.ObjectOutputStream;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.util.Map.Entry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a utility class that can be used by beans that support constrained

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Extends the multi-line plain text view to be suitable

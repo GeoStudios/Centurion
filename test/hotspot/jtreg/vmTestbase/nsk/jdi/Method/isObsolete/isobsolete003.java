@@ -21,6 +21,7 @@
 
 package nsk.jdi.Method.isObsolete;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,6 +31,19 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -130,6 +144,7 @@ public class isobsolete003 {
 
         return exitStatus;
     }
+
 
     private static void execTest() {
 

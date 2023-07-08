@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * An interface for handling errors. If the application is interested

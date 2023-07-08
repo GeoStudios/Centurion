@@ -21,8 +21,22 @@
 
 package gc.gctests.SoftReference.soft004;
 
+
 import nsk.share.gc.*;
 import java.lang.ref.SoftReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import java.lang.ref.SoftReference;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.SoftReference.soft004.soft004 -t 1
  */
+
+
 
 /**
  * Test that GC correctly clears soft references.

@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.awt;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.Rectangle;
 import java.awt.Transparency;
@@ -29,6 +30,20 @@ import java.awt.image.ColorModel;
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.lwawt.LWGraphicsConfig;
 import java.desktop.macosx.classes.sun.lwawt.macosx.CFRetainedResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class CGraphicsConfig extends GraphicsConfiguration
         implements LWGraphicsConfig {

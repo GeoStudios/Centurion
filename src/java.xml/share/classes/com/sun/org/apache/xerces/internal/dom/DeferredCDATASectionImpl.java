@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * XML provides the CDATA markup to allow a region of text in which

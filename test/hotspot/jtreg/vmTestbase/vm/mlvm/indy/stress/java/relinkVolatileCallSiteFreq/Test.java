@@ -21,11 +21,25 @@
 
 package vm.mlvm.indy.stress.java.relinkVolatileCallSiteFreq;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.VolatileCallSite;
 import vm.mlvm.indy.share.INDIFY_RelinkCallSiteFreqTest;
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,6 +56,9 @@ import vm.mlvm.share.MlvmTest;
  *
  * @run main/othervm vm.mlvm.indy.stress.java.relinkVolatileCallSiteFreq.Test
  */
+
+
+
 
 /**
  * The test creates a volatile call site and relinks it from one thread while calling the current

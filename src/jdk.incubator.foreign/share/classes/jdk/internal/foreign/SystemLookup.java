@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAccess;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
@@ -34,6 +35,20 @@ import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
 import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.C_POINTER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SystemLookup implements SymbolLookup {
 

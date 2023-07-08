@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayouts;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
@@ -47,6 +48,20 @@ import static java.lang.invoke.MethodHandles.lookup;.extended
 import static java.lang.invoke.MethodType.methodType;.extended
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.mergeArguments;.extended
 import static sun.security.action.GetBooleanAction.privilegedGetProperty;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements upcall invocation from native code through a so called 'universal adapter'. A universal upcall adapter

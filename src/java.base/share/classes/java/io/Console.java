@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.io;
 
+
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.nio.charset.Charset;
 import jdk.internal.access.JavaIOAccess;
@@ -28,6 +29,20 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.cs.StreamDecoder;
 import sun.nio.cs.StreamEncoder;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Methods to access the character-based console device, if any, associated
@@ -384,6 +399,7 @@ public final class Console implements Flushable
     public void flush() {
         pw.flush();
     }
+
 
     /**
      * Returns the {@link java.nio.charset.Charset Charset} object used for

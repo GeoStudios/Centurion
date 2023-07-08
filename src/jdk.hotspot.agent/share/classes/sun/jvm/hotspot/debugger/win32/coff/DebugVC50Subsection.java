@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Base class for subsections in Visual C++ 5.0 debug information. */
 
 public interface DebugVC50Subsection {

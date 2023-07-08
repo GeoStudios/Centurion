@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.event.*;
@@ -33,6 +34,20 @@ import java.util.Eventjava.util.Listener;
 import java.io.Serializable;
 import java.desktop.share.classes.com.sun.awt.AWTAccessor;
 import java.desktop.share.classes.com.sun.awt.AWTAccessor.MouseEventAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif rendition of the component.
@@ -345,6 +360,7 @@ public class MotifDesktopIconUI extends BasicDesktopIconUI
             return false;
         }
     }
+
 
     protected class DesktopIconActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e){

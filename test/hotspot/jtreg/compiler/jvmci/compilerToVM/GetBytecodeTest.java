@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.TestCase;
 import jdk.internal.org.objectweb.asm.Opcodes;
@@ -29,6 +30,19 @@ import jdk.vm.ci.hotspot.CompilerToVMHelper;
 import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -49,6 +63,9 @@ import java.lang.reflect.Modifier;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetBytecodeTest
  */
+
+
+
 
 public class GetBytecodeTest {
 

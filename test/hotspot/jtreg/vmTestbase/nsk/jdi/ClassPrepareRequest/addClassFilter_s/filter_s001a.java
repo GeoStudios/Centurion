@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassPrepareRequest.addClassFilter_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter_s001 JDI test.

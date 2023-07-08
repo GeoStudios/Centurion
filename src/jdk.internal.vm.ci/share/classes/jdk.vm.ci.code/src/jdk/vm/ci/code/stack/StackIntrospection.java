@@ -21,7 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.stack;
 
+
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ResolvedJavaMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface StackIntrospection {
 

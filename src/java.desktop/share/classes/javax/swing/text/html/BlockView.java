@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.util.Enumeration;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A view implementation to display a block (as a box)
@@ -260,6 +275,7 @@ public class BlockView extends BoxView  {
             }
         }
     }
+
 
     /**
      * Renders using the given rendering surface and area on that

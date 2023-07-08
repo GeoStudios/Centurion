@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A sort key and its associated sort parameters.
  * This class implements a sort key which is used by the LDAPv3

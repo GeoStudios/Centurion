@@ -21,10 +21,25 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
+
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.util.*;
 import java.security.jgss.share.classes.sun.security.jgss.spnego.SpNegoCredElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GSSCredentialImpl implements GSSCredential {
 

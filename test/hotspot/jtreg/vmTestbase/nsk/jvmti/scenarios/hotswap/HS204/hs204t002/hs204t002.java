@@ -21,7 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t002;
 
+
 import nsk.share.jvmti.RedefineAgent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -48,6 +62,7 @@ import nsk.share.jvmti.RedefineAgent;
  *      -agentlib:hs204t002=pathToNewByteCode=./bin,-waittime=5,package=nsk,samples=100,mode=compiled
  *      nsk.jvmti.scenarios.hotswap.HS204.hs204t002.hs204t002
  */
+
 
 public class hs204t002 extends RedefineAgent {
 

@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8155241
@@ -29,6 +44,7 @@ package compiler.arraycopy;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -Xcomp -XX:-ReduceBulkZeroing
  *                   compiler.arraycopy.TestReduceBulkZeroingDisabled
  */
+
 
 public class TestReduceBulkZeroingDisabled {
 

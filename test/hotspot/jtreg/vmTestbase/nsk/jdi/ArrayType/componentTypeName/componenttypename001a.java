@@ -21,9 +21,23 @@
 
 package nsk.jdi.ArrayType.componentTypeName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the componenttypename001 JDI test.
@@ -78,6 +92,7 @@ public class componenttypename001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {

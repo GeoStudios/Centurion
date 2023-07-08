@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.sampled.Clip;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for Clip objects that close themselves automatically.

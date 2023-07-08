@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
+
 import java.awt.*;
 import java.lang.reflect.*;
 import sun.awt.AWTAccessor;
 import sun.lwawt.macosx.*;
 import sun.lwawt.macosx.CImage.Creator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class _AppDockIconHandler {
     private static native void nativeSetDockMenu(final long cmenu);

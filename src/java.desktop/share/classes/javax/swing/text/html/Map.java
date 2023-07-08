@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.Polygon;
 import java.io.Serializable;
 import java.util.StringTokenizer;
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Map is used to represent a map element that is part of an HTML document.
@@ -223,6 +238,7 @@ class Map implements Serializable {
         return retValue;
     }
 
+
     /**
      * Defines the interface used for to check if a point is inside a
      * region.
@@ -236,6 +252,7 @@ class Map implements Serializable {
          */
         boolean contains(int x, int y, int width, int height);
     }
+
 
     /**
      * Used to test for containment in a rectangular region.
@@ -313,6 +330,7 @@ class Map implements Serializable {
                     (y >= y0 && y <= y1));
         }
     }
+
 
     /**
      * Used to test for containment in a polygon region.
@@ -403,6 +421,7 @@ class Map implements Serializable {
         }
     }
 
+
     /**
      * Used to test for containment in a circular region.
      */
@@ -471,6 +490,7 @@ class Map implements Serializable {
                      (y - this.y) * (y - this.y)) <= radiusSquared);
         }
     }
+
 
     /**
      * An implementation that will return true if the x, y location is

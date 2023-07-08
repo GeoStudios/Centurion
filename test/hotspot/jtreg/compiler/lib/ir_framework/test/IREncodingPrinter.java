@@ -21,6 +21,7 @@
 
 package compiler.lib.ir_framework.test;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.shared.*;
 import sun.hotspot.WhiteBox;
@@ -30,6 +31,19 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Prints an encoding to the dedicated test framework socket whether @IR rules of @Test methods should be applied or not.
@@ -283,4 +297,5 @@ public class IREncodingPrinter {
         TestFrameworkSocket.write(output.toString(), "IR rule application encoding");
     }
 }
+
 

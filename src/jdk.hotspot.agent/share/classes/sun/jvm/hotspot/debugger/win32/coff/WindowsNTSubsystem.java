@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface WindowsNTSubsystem {
   /** Unknown subsystem. */
   short IMAGE_SUBSYSTEM_UNKNOWN = (short) 0;

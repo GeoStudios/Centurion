@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.awt.*;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A panel containing a progress bar and a label */
 

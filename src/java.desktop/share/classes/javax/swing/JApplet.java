@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.applet.Applet;
 import java.awt.AWTEvent;
 import java.awt.BorderLayout;
@@ -34,6 +35,20 @@ import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extended version of <code>java.applet.Applet</code> that adds support for
@@ -251,6 +266,7 @@ public class JApplet extends Applet implements Accessible,
         return getRootPane().getJMenuBar();
     }
 
+
     /**
      * Returns whether calls to <code>add</code> and
      * <code>setLayout</code> are forwarded to the <code>contentPane</code>.
@@ -266,6 +282,7 @@ public class JApplet extends Applet implements Accessible,
     protected boolean isRootPaneCheckingEnabled() {
         return rootPaneCheckingEnabled;
     }
+
 
     /**
      * Sets whether calls to <code>add</code> and
@@ -285,6 +302,7 @@ public class JApplet extends Applet implements Accessible,
     protected void setRootPaneCheckingEnabled(boolean enabled) {
         rootPaneCheckingEnabled = enabled;
     }
+
 
     /**
      * Adds the specified child <code>Component</code>.
@@ -335,6 +353,7 @@ public class JApplet extends Applet implements Accessible,
         }
     }
 
+
     /**
      * Sets the <code>LayoutManager</code>.
      * Overridden to conditionally forward the call to the
@@ -355,6 +374,7 @@ public class JApplet extends Applet implements Accessible,
         }
     }
 
+
     /**
      * Returns the rootPane object for this applet.
      *
@@ -366,6 +386,7 @@ public class JApplet extends Applet implements Accessible,
     public JRootPane getRootPane() {
         return rootPane;
     }
+
 
     /**
      * Sets the rootPane property.  This method is called by the constructor.
@@ -389,6 +410,7 @@ public class JApplet extends Applet implements Accessible,
             }
         }
     }
+
 
     /**
      * Returns the contentPane object for this applet.
@@ -515,6 +537,8 @@ public class JApplet extends Applet implements Accessible,
         ",rootPane=" + rootPaneString +
         ",rootPaneCheckingEnabled=" + rootPaneCheckingEnabledString;
     }
+
+
 
 /////////////////
 // Accessibility support

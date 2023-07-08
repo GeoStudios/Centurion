@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
@@ -28,6 +29,20 @@ import java.awt.image.BufferedImageOp;
 import java.awt.image.ImageObserver;
 import java.awt.geom.AffineTransform;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the set of calls that pipeline objects
@@ -77,5 +92,6 @@ public interface DrawImagePipe {
 
     void transformImage(SunGraphics2D sg, BufferedImage img,
                                BufferedImageOp op, int x, int y);
+
 
 }

@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** ReversePtrs hashtable. */
 

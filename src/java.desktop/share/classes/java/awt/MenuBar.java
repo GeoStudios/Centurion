@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.awt.peer.MenuBarPeer;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -34,6 +35,20 @@ import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code MenuBar} class encapsulates the platform's
@@ -458,6 +473,7 @@ public class MenuBar extends MenuComponent implements MenuContainer, Accessible 
      * Initialize JNI field and method IDs
      */
     private static native void initIDs();
+
 
 /////////////////
 // Accessibility support

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
@@ -42,6 +43,20 @@ import sun.awt.AWTAccessor;
 import sun.swing.SwingUtilities2;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The basic L&amp;F for a hierarchical data structure.
@@ -122,6 +137,7 @@ public class BasicTreeUI extends TreeUI
     // always in terms of left-to-right. They get mapped to right-to-left
     // by the various methods of this class.
     protected AbstractLayoutCache  treeState;
+
 
     /** Used for minimizing the drawing of vertical lines. */
     protected Hashtable<TreePath,Boolean> drawingCache;
@@ -217,6 +233,7 @@ public class BasicTreeUI extends TreeUI
     public static ComponentUI createUI(JComponent x) {
         return new BasicTreeUI();
     }
+
 
     static void loadActionMap(LazyActionMap map) {
         map.put(new Actions(Actions.SELECT_PREVIOUS));
@@ -2350,6 +2367,7 @@ public class BasicTreeUI extends TreeUI
         return new Dimension(0, 0);
     }
 
+
     /**
      * Messages to stop the editing session. If the UI the receiver
      * is providing the look and feel for returns true from
@@ -2903,6 +2921,7 @@ public class BasicTreeUI extends TreeUI
         }
     } // BasicTreeUI.TreeExpansionHandler
 
+
     /**
      * Updates the preferred size when scrolling (if necessary).
      */
@@ -2985,6 +3004,7 @@ public class BasicTreeUI extends TreeUI
         }
     } // End of BasicTreeUI.ComponentHandler
 
+
     /**
      * Forwards all TreeModel events to the TreeState.
      */
@@ -3017,6 +3037,7 @@ public class BasicTreeUI extends TreeUI
         }
     } // End of BasicTreeUI.TreeModelHandler
 
+
     /**
      * Listens for changes in the selection model and updates the display
      * accordingly.
@@ -3041,6 +3062,7 @@ public class BasicTreeUI extends TreeUI
             getHandler().valueChanged(event);
         }
     }// End of BasicTreeUI.TreeSelectionHandler
+
 
     /**
      * Listener responsible for getting cell editing events and updating
@@ -3068,6 +3090,7 @@ public class BasicTreeUI extends TreeUI
             getHandler().editingCanceled(e);
         }
     } // BasicTreeUI.CellEditorHandler
+
 
     /**
      * This is used to get multiple key down events to appropriately generate
@@ -3117,6 +3140,7 @@ public class BasicTreeUI extends TreeUI
         }
     } // End of BasicTreeUI.KeyHandler
 
+
     /**
      * Repaints the lead selection row when focus is lost/gained.
      */
@@ -3147,6 +3171,7 @@ public class BasicTreeUI extends TreeUI
             getHandler().focusLost(e);
         }
     } // End of class BasicTreeUI.FocusHandler
+
 
     /**
      * Class responsible for getting size of node, method is forwarded
@@ -3229,6 +3254,7 @@ public class BasicTreeUI extends TreeUI
 
     } // End of class BasicTreeUI.NodeDimensionsHandler
 
+
     /**
      * TreeMouseListener is responsible for updating the selection
      * based on mouse events.
@@ -3269,6 +3295,7 @@ public class BasicTreeUI extends TreeUI
         }
     } // End of BasicTreeUI.MouseHandler
 
+
     /**
      * PropertyChangeListener for the tree. Updates the appropriate
      * variable, or TreeState, based on what changes.
@@ -3291,6 +3318,7 @@ public class BasicTreeUI extends TreeUI
         }
     } // End of BasicTreeUI.PropertyChangeHandler
 
+
     /**
      * Listener on the TreeSelectionModel, resets the row selection if
      * any of the properties of the model change.
@@ -3312,6 +3340,7 @@ public class BasicTreeUI extends TreeUI
             getHandler().propertyChange(event);
         }
     } // End of BasicTreeUI.SelectionModelPropertyChangeHandler
+
 
     /**
      * <code>TreeTraverseAction</code> is the action used for left/right keys.
@@ -3354,6 +3383,7 @@ public class BasicTreeUI extends TreeUI
                                              tree.isEnabled()); }
     } // BasicTreeUI.TreeTraverseAction
 
+
     /** TreePageAction handles page up and page down events.
       */
     @SuppressWarnings("serial") // Superclass is not serializable across versions
@@ -3393,6 +3423,7 @@ public class BasicTreeUI extends TreeUI
                                              tree.isEnabled()); }
 
     } // BasicTreeUI.TreePageAction
+
 
     /** TreeIncrementAction is used to handle up/down actions.  Selection
       * is moved up or down based on direction.
@@ -3481,6 +3512,7 @@ public class BasicTreeUI extends TreeUI
 
     } // End of class BasicTreeUI.TreeHomeAction
 
+
     /**
       * For the first selected row expandedness will be toggled.
       */
@@ -3505,6 +3537,7 @@ public class BasicTreeUI extends TreeUI
 
     } // End of class BasicTreeUI.TreeToggleAction
 
+
     /**
      * ActionListener that invokes cancelEditing when action performed.
      */
@@ -3528,6 +3561,7 @@ public class BasicTreeUI extends TreeUI
                                              tree.isEnabled() &&
                                              isEditing(tree)); }
     } // End of class BasicTreeUI.TreeCancelEditingAction
+
 
     /**
       * MouseInputHandler handles passing all mouse events,
@@ -3726,6 +3760,7 @@ public class BasicTreeUI extends TreeUI
 
     }
 
+
     private class Handler implements CellEditorListener, FocusListener,
                   KeyListener, MouseListener, MouseMotionListener,
                   PropertyChangeListener, TreeExpansionListener,
@@ -3829,6 +3864,7 @@ public class BasicTreeUI extends TreeUI
 
             return inputMap != null && inputMap.get(key) != null;
         }
+
 
         //
         // PropertyChangeListener
@@ -4163,6 +4199,7 @@ public class BasicTreeUI extends TreeUI
             completeEditing(false, false, false);
         }
 
+
         //
         // TreeSelectionListener
         //
@@ -4240,6 +4277,7 @@ public class BasicTreeUI extends TreeUI
                     tree.repaint(0, nodeBounds.y, nWidth, nodeBounds.height);
             }
         }
+
 
         //
         // TreeExpansionListener
@@ -4374,6 +4412,8 @@ public class BasicTreeUI extends TreeUI
             }
         }
     }
+
+
 
     private static class Actions extends UIAction {
         private static final String SELECT_PREVIOUS = "selectPrevious";

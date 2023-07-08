@@ -21,6 +21,21 @@
 
 package MyPackage;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI Heap Monitor sampling interval average.
@@ -67,6 +82,7 @@ public class HeapMonitorStatIntervalTest {
 
     return success;
   }
+
 
   private static void testInterval(int interval) {
     // Test the interval twice, it can happen that the test is "unlucky" and the interval just goes above

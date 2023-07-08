@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.sun.java2d.opengl;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ColorModel;
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class CGLSurfaceData extends OGLSurfaceData {
 

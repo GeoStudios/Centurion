@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions;
 
+
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.settings.Settings;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.ExportCookie;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.event.InputEvent;
@@ -32,6 +33,20 @@ import javax.swing.KeyStroke;
 import javax.swing.filechooser.FileFilter;
 import org.openide.util.*;
 import org.openide.util.actions.CallableSystemAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -72,6 +87,7 @@ public final class ExportAction extends CallableSystemAction implements LookupLi
             }
         });
         fc.setCurrentDirectory(new File(Settings.get().get(Settings.DIRECTORY, Settings.DIRECTORY_DEFAULT)));
+
 
         if (fc.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
             File file = fc.getSelectedFile();

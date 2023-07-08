@@ -21,10 +21,24 @@
 
 package vm.share.options;
 
+
 import java.lang.reflect.Array;
 import java.util.HashMap;
 import java.util.Map;
 import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class used to parse arguments of various primitive types.
@@ -121,6 +135,7 @@ public class PrimitiveParser
          return v.getClass();
     }
 
+
     //"kind of state" machine stuff
 
     private static Map<Class<?>, PParser<?>> parsers;
@@ -157,6 +172,7 @@ public class PrimitiveParser
                 return param;
             }
         });
+
 
         parsers.put(Character.class, new PParser<Character>()
         {
@@ -217,6 +233,7 @@ public class PrimitiveParser
             }
         });
     }
+
 
 /* Discussion
  * 1. It was proposed to use instead of the convertPrimitive the following

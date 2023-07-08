@@ -21,12 +21,26 @@
 
 package nsk.jdi.ThreadGroupReference.threads;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -144,6 +158,7 @@ public class threads001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -190,6 +205,7 @@ public class threads001 {
             ThreadGroupReference group1 = null;
             ThreadGroupReference group2 = null;
 
+
             String parentName = "mainParent";
             String group2Name = "threadGroup2Obj";
 
@@ -212,6 +228,8 @@ public class threads001 {
                     break label0;
                 }
 
+
+
                 log2("      getting a ThreadGroupReference object for main tested group");
                 group1 = (ThreadGroupReference)
                        mainthreadClass.getValue(mainthreadClass.fieldByName(parentName));
@@ -219,6 +237,7 @@ public class threads001 {
                 log2("      getting a ThreadGroupReference object for subgroup");
                 group2 = (ThreadGroupReference)
                          mainthreadClass.getValue(mainthreadClass.fieldByName(group2Name));
+
 
                 List threads = null;
 

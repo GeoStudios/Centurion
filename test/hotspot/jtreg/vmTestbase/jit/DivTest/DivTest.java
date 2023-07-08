@@ -21,10 +21,25 @@
 
 package jit.DivTest;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // DivTest.java
 // bug-12
+
 
 /*
  * @test
@@ -36,6 +51,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.DivTest.DivTest
  */
+
+
 
 public class DivTest{
   static int n;

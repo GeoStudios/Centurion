@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt;
 
+
 import java.awt.image.ComponentColorModel;
 import java.awt.image.PixelInterleavedSampleModel;
 import java.awt.image.WritableRaster;
@@ -29,6 +30,20 @@ import java.awt.image.DataBuffer;
 import java.awt.image.SampleModel;
 import java.awt.color.ColorSpace;
 import java.awt.Transparency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class creates a standard ComponentColorModel with the slight

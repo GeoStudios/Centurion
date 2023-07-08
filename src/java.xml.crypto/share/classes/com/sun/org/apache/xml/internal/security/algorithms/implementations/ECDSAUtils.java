@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.interfaces.ECPublicKey;
@@ -29,10 +30,26 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 public final class ECDSAUtils {
 

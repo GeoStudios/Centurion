@@ -21,6 +21,21 @@
 
 package compiler.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6865265
@@ -30,6 +45,7 @@ package compiler.runtime;
  * @run main/othervm -XX:CompileThreshold=100 -Xbatch -Xss512k
  *      compiler.runtime.StackOverflowBug
  */
+
 
 public class StackOverflowBug {
 

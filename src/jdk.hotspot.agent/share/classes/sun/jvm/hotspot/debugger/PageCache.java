@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class implements an LRU page-level cache of configurable page
     size and number of pages. It is configured with a PageFetcher
@@ -29,6 +44,7 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
     multiple pages when one or more of those pages is not in the
     cache. It is generic enough to be sharable among debugger
     implementations. */
+
 
 public class PageCache {
   /** The pageSize must be a power of two and implicitly specifies the
@@ -137,6 +153,7 @@ public class PageCache {
   public synchronized void enable() {
     enabled = true;
   }
+
 
   //--------------------------------------------------------------------------------
   // Internals only below this point

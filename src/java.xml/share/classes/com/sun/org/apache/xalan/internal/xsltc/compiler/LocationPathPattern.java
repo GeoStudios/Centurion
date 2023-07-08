@@ -21,16 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */

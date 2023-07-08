@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface is for enumerating lists returned by

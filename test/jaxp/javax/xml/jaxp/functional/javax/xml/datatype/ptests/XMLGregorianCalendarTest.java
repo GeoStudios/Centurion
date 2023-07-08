@@ -21,6 +21,7 @@
 
 package javax.xml.datatype.ptests;
 
+
 import static java.util.Calendar.HOUR;.extended
 import static java.util.Calendar.MINUTE;.extended
 import static java.util.Calendar.YEAR;.extended
@@ -39,6 +40,19 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -268,12 +282,14 @@ public class XMLGregorianCalendarTest {
 
         assertTrue((year == 2001 && minute == 17), " expecting year == 2001, minute == 17" + ", result is year == " + year + ", minute == " + minute);
 
+
         calendar = time_16_17_18.toGregorianCalendar(null, null, date_2001_02_03);
 
         year = calendar.get(YEAR);
         minute = calendar.get(MINUTE);
 
         assertTrue((year == 2001 && minute == 17), " expecting year == 2001, minute == 17" + ", result is year == " + year + ", minute == " + minute);
+
 
         date_2001_02_03.setMinute(3);
         date_2001_02_03.setYear(null);
@@ -287,6 +303,7 @@ public class XMLGregorianCalendarTest {
         int hour = calendar.get(HOUR);
 
         assertTrue((year == 2003 && hour == 2 && minute == 3), " expecting year == 2003, hour == 2, minute == 3" + ", result is year == " + year + ", hour == " + hour + ", minute == " + minute);
+
 
     }
 

@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
 import java.net.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaNetUriAccess {
     /**

@@ -21,9 +21,24 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import java.awt.Color;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JTabbedPane;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface provides access to instance variables of 'J2Ddemo' object, which

@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.allClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the allclasses002a JDI test.
@@ -37,6 +51,7 @@ public class allclasses002a {
     static final int PASSED = 0;
     static final int FAILED = 2;
     static final int PASS_BASE = 95;
+
 
      //--------------------------------------------------   log procedures
 
@@ -97,6 +112,7 @@ public class allclasses002a {
 
     //-------------------------------------------------    standard end section
 
+
                 default:
                         pipe.println("checkend");
                         break ;
@@ -112,6 +128,7 @@ public class allclasses002a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 interface allclasses002aInterfaceForCheck {
 

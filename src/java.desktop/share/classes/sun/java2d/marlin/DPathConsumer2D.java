@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface DPathConsumer2D {
     /**
      * @see java.awt.geom.Path2D.Float#moveTo

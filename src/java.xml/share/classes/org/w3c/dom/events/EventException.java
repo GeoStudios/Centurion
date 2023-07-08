@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  Event operations may throw an <code>EventException</code> as specified in
  * their method descriptions.

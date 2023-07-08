@@ -21,8 +21,22 @@
 
 package jit.t.t011;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t011.t011
  */
+
+
 
 public class t011
 {

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LSUB - Substract longs
@@ -37,6 +54,7 @@ public class LSUB extends ArithmeticInstruction {
     public LSUB() {
         super(com.sun.org.apache.bcel.internal.Const.LSUB);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,8 +21,22 @@
 
 package jit.overflow;
 
+
 import java.lang.*;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,12 +49,15 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.overflow.overflow
  */
 
+
 /*
    This test checks if a JIT can still detect stack overflow. Method
    invocation overhead is expensive in Java and improving it is a
    nobel cause for a JIT. JITs just have to be careful that they
    don't loose some error handling ability in doing so.
 */
+
+
 
 public class overflow {
     public static void main(String[] args) {

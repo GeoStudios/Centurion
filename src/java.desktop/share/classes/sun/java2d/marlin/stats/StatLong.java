@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.marlin.stats;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Statistics as long values
  */

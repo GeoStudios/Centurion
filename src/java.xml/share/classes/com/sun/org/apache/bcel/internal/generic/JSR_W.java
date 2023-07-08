@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * JSR_W - Jump to subroutine
@@ -43,10 +61,12 @@ public class JSR_W extends JsrInstruction {
     JSR_W() {
     }
 
+
     public JSR_W(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.JSR_W, target);
         super.setLength(5);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -59,6 +79,7 @@ public class JSR_W extends JsrInstruction {
         out.writeInt(super.getIndex());
     }
 
+
     /**
      * Read needed data (e.g. index) from file.
      */
@@ -67,6 +88,7 @@ public class JSR_W extends JsrInstruction {
         super.setIndex(bytes.readInt());
         super.setLength(5);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

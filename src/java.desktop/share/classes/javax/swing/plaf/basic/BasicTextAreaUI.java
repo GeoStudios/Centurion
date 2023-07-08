@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.beans.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the look and feel for a plain text editor.  In this
@@ -102,6 +117,7 @@ public class BasicTextAreaUI extends BasicTextUI {
             updateFocusTraversalKeys();
         }
     }
+
 
     /**
      * The method is overridden to take into account caret width.
@@ -212,6 +228,7 @@ public class BasicTextAreaUI extends BasicTextUI {
         super.getBaselineResizeBehavior(c);
         return Component.BaselineResizeBehavior.CONSTANT_ASCENT;
     }
+
 
     /**
      * Paragraph for representing plain-text lines that support

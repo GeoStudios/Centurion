@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Allows forward references in bytecode streams emitted by
     ClassFileAssembler. Assumes that the start of the method body is

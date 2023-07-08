@@ -21,6 +21,7 @@
 
 package gc.g1.humongousObjects;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
@@ -29,6 +30,19 @@ import java.lang.management.ManagementFactory;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestHeapCounters
@@ -140,6 +154,7 @@ public class TestHeapCounters {
 
         long gcCountBefore = gcBeans.stream().mapToLong(GarbageCollectorMXBean::getCollectionCount).sum();
 
+
         System.out.println("Starting allocations - no GC should happen until we finish them");
 
         for (int allocationSize : allocationSizes) {
@@ -167,6 +182,7 @@ public class TestHeapCounters {
         }
 
         System.out.println("Finished allocations - no GC should have happened before this line");
+
 
         allocations.stream().forEach(allocation -> {
             long usedMemoryBefore = memoryCounter.getUsedMemory();

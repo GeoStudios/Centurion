@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -47,6 +65,7 @@ public final class ConstantInvokeDynamic extends ConstantCP {
         this(c.getBootstrapMethodAttrIndex(), c.getNameAndTypeIndex());
     }
 
+
     /**
      * Initialize instance from file data.
      *
@@ -57,9 +76,11 @@ public final class ConstantInvokeDynamic extends ConstantCP {
         this(file.readShort(), file.readShort());
     }
 
+
     public ConstantInvokeDynamic(final int bootstrap_method_attr_index, final int name_and_type_index) {
         super(Const.CONSTANT_InvokeDynamic, bootstrap_method_attr_index, name_and_type_index);
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitly

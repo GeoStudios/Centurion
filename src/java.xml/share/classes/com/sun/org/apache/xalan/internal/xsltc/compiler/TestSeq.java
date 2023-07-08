@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO_W;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
@@ -30,9 +31,26 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: TestSeq.java,v 1.2.4.1 2005/09/12 11:31:38 pvedula Exp $
  */
+
+
+
 
 /**
  * A test sequence is a sequence of patterns that

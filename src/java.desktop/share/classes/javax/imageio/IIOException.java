@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.imageio;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An exception class used for signaling run-time failure of reading

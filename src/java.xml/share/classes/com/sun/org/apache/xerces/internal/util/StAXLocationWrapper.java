@@ -21,13 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import javax.xml.stream.Location;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * <p>A light wrapper around a StAX location. This is useful

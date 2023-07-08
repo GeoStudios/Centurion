@@ -21,6 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <P>The class that defines the constants that are used to identify generic
  * SQL types, called JDBC types.
@@ -79,6 +95,7 @@ public class Types {
  */
         public static final int REAL            =   7;
 
+
 /**
  * <P>The constant in the Java programming language, sometimes referred
  * to as a type code, that identifies the generic SQL type
@@ -121,6 +138,7 @@ public class Types {
  */
         public static final int LONGVARCHAR     =  -1;
 
+
 /**
  * <P>The constant in the Java programming language, sometimes referred
  * to as a type code, that identifies the generic SQL type
@@ -141,6 +159,7 @@ public class Types {
  * {@code TIMESTAMP}.
  */
         public static final int TIMESTAMP       =  93;
+
 
 /**
  * <P>The constant in the Java programming language, sometimes referred
@@ -177,6 +196,8 @@ public class Types {
      * the methods {@code getObject} and {@code setObject}.
      */
         public static final int OTHER           = 1111;
+
+
 
     /**
      * The constant in the Java programming language, sometimes referred to

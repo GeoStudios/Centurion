@@ -21,6 +21,7 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
+
 import utils.LogCompilation.src.main.java.io.FileReader;
 import utils.LogCompilation.src.main.java.io.PrintStream;
 import utils.LogCompilation.src.main.java.io.Reader;
@@ -39,9 +40,28 @@ import org.xml.sax.InputSource;
 import org.xml.sax.Locator;
 import org.xml.sax.helpers.DefaultHandler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A SAX based parser of LogCompilation output from HotSpot.  It takes a complete
  */
+
+
+
+
+
 
 /**
  * A SAX parser for HotSpot compilation logs. The bulk of the parsing and event

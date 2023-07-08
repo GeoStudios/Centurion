@@ -21,7 +21,22 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import javax.swing.plaf.basic.BasicScrollPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

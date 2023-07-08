@@ -21,6 +21,21 @@
 
 package compiler.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6859338
@@ -31,6 +46,7 @@ package compiler.runtime;
  *      -XX:-InlineObjectHash -Xbatch -XX:-ProfileInterpreter
  *      compiler.runtime.Test6859338
  */
+
 
 public class Test6859338 {
     static Object[] o = new Object[] { new Object(), null };

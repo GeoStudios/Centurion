@@ -21,6 +21,21 @@
 
 package compiler.escapeAnalysis;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6775880
@@ -30,6 +45,7 @@ package compiler.escapeAnalysis;
  *    -XX:CompileCommand=exclude,java.lang.AbstractStringBuilder::append
  *    compiler.escapeAnalysis.Test6775880
  */
+
 
 public class Test6775880 {
 
@@ -64,4 +80,5 @@ public class Test6775880 {
         System.out.println("After s=" + t.s);
     }
 }
+
 

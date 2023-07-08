@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
+
 import java.awt.LinearGradientPaint;
 import java.awt.MultipleGradientPaint;
 import java.awt.MultipleGradientPaint.ColorSpaceType;
@@ -34,6 +35,20 @@ import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
 import java.desktop.windows.classes.sun.java2d.SurfaceData;
 import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
 import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class D3DPaints {
 

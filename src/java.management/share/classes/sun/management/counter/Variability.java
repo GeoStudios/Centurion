@@ -21,6 +21,22 @@
 
 package java.management.share.classes.sun.management.counter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Provides a typesafe enumeration for the Variability attribute for
  * instrumentation objects.

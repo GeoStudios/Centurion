@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.desktop.share.classes.javax.swing.Painter;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.UIDefaults;
@@ -42,6 +43,20 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A SynthStyle implementation used by Nimbus. Each Region that has been
@@ -693,6 +708,7 @@ public final class NimbusStyle extends SynthStyle {
     private static Painter<Object> paintFilter(@SuppressWarnings("rawtypes") Painter painter) {
         return (Painter<Object>) painter;
     }
+
 
     /**
      * Gets the appropriate background Painter, if there is one, for the state

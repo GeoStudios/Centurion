@@ -21,6 +21,21 @@
 
 package compiler.controldependency;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8228772
@@ -33,6 +48,7 @@ package compiler.controldependency;
  *                   -XX:+UnlockDiagnosticVMOptions -XX:+IgnoreUnrecognizedVMOptions -XX:DominatorSearchLimit=0
  *                   compiler.controldependency.TestAntiDependentMembar
  */
+
 
 public class TestAntiDependentMembar {
 

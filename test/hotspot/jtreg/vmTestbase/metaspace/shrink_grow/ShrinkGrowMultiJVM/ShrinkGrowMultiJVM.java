@@ -21,6 +21,7 @@
 
 package metaspace.shrink_grow.ShrinkGrowMultiJVM;
 
+
 import jdk.test.lib.Utils;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -28,6 +29,19 @@ import java.io.OutputStream;
 import java.nio.file.Paths;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,6 +54,9 @@ import java.util.java.util.java.util.java.util.List;
  * @build metaspace.shrink_grow.ShrinkGrowMultiJVM.ShrinkGrowMultiJVM
  * @run driver metaspace.shrink_grow.ShrinkGrowMultiJVM.ShrinkGrowMultiJVM
  */
+
+
+
 
 /**
  * This test starts several JVMs and run ShrinkGrow metaspace test.

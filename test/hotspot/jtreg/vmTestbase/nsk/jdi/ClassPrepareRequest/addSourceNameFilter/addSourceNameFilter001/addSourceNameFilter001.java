@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter001;
 
+
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -29,6 +30,19 @@ import nsk.share.TestBug;
 import nsk.share.jdi.*;
 import nsk.share.jpda.AbstractDebuggeeTest;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -68,6 +82,8 @@ import java.util.*;
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  *      -testClassPath ${test.class.path}
  */
+
+
 
 public class addSourceNameFilter001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * This interface is meant to be implemented by a client of the DTM, and allows

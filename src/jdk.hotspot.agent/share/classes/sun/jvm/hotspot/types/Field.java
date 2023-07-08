@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This is the basic interface which describes a field in a C/C++
     data structure or a Java object. </P>

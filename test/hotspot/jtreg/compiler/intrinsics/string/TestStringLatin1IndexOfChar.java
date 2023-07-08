@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.string;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,6 +56,8 @@ import jdk.test.lib.Asserts;
  * @run main/othervm -Xbatch -XX:Tier4InvocationThreshold=200 -XX:CompileThreshold=100 -XX:+IgnoreUnrecognizedVMOptions -XX:UseAVX=2 compiler.intrinsics.string.TestStringLatin1IndexOfChar
  * @run main/othervm -Xbatch -XX:Tier4InvocationThreshold=200 -XX:CompileThreshold=100 -XX:+IgnoreUnrecognizedVMOptions -XX:UseAVX=3 compiler.intrinsics.string.TestStringLatin1IndexOfChar
  */
+
+
 
 public class TestStringLatin1IndexOfChar{
     private final static int MAX_LENGTH = 2048;//future proof for AVX-512 instructions

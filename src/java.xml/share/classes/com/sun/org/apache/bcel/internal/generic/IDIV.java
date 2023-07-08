@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * IDIV - Divide ints
@@ -37,6 +52,7 @@ public class IDIV extends ArithmeticInstruction implements ExceptionThrower {
         super(com.sun.org.apache.bcel.internal.Const.IDIV);
     }
 
+
     /** @return exceptions this instruction may cause
      */
     @Override
@@ -45,6 +61,7 @@ public class IDIV extends ArithmeticInstruction implements ExceptionThrower {
             ExceptionConst.ARITHMETIC_EXCEPTION
         };
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

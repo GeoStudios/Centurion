@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.event.ActionEvent;
 import java.awt.KeyboardFocusManager;
 import java.awt.Component;
@@ -32,6 +33,20 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic implementation of RootPaneUI, there is one shared between all
@@ -63,6 +78,7 @@ public class BasicRootPaneUI extends RootPaneUI implements
         installListeners((JRootPane)c);
         installKeyboardActions((JRootPane)c);
     }
+
 
     public void uninstallUI(JComponent c) {
         uninstallDefaults((JRootPane)c);
@@ -211,6 +227,7 @@ public class BasicRootPaneUI extends RootPaneUI implements
             }
         }
     }
+
 
     static class Actions extends UIAction {
         public static final String PRESS = "press";

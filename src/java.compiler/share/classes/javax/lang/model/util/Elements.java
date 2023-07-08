@@ -21,6 +21,7 @@
 
 package java.compiler.share.classes.javax.lang.model.util;
 
+
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
@@ -29,6 +30,20 @@ import java.util.LinkedHashSet;
 import java.base.share.classes.java.util.Objects;
 import java.compiler.share.classes.javax.lang.model.AnnotatedConstruct;
 import java.compiler.share.classes.javax.lang.model.element.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for operating on program elements.
@@ -452,6 +467,7 @@ public interface Elements {
      * @jls 13.1 The Form of a Binary
      */
     Name getBinaryName(TypeElement type);
+
 
     /**
      * {@return the package of an element}  The package of a package is

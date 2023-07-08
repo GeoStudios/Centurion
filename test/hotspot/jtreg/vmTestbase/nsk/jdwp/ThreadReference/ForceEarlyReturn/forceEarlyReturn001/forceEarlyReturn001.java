@@ -21,6 +21,7 @@
 
 package nsk.jdwp.ThreadReference.ForceEarlyReturn.forceEarlyReturn001;
 
+
 import nsk.share.Consts;
 import nsk.share.jdwp.CommandPacket;
 import nsk.share.jdwp.JDWP;
@@ -29,6 +30,19 @@ import nsk.share.jdwp.ReplyPacket;
 import nsk.share.jdwp.TestDebuggerType1;
 import nsk.share.jpda.ForceEarlyReturnTestThread;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -92,6 +106,9 @@ import java.io.PrintStream;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class forceEarlyReturn001 extends TestDebuggerType1 {
     // data needed to create JDWP command,

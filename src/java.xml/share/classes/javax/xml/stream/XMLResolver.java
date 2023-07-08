@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface is used to resolve resources during an XML parse.  If an application wishes to
  * perform custom entity resolution it must register an instance of this interface with

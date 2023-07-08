@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This exception is thrown when a malformed link was encountered while
   * resolving or constructing a link.
@@ -43,6 +59,7 @@ public class MalformedLinkException extends LinkException {
     public MalformedLinkException(String explanation) {
         super(explanation);
     }
+
 
     /**
       * Constructs a new instance of Malformed LinkException.

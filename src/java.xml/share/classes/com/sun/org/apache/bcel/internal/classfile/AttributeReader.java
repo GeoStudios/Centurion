@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Unknown (non-standard) attributes may be read via user-defined factory

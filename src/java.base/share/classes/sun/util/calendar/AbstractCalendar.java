@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.util.calendar;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.util.TimeZone;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>AbstractCalendar</code> class provides a framework for
@@ -360,6 +375,7 @@ public abstract class AbstractCalendar extends CalendarSystem {
         t = date.getMillis();
         return t >= 0 && t < 1000;
     }
+
 
     int normalizeTime(CalendarDate date) {
         long fraction = getTimeOfDay(date);

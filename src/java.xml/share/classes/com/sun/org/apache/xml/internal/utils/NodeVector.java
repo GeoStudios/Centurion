@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.io.Serializable;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * A very simple table that stores a list of Nodes.

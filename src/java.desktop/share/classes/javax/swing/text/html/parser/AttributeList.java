@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
+
 import java.util.Vector;
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines the attributes of an SGML element

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.PasswordAuthentication;
@@ -31,6 +32,20 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Function;
 import java.base.share.classes.sun.net.www.HeaderParser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * AuthenticationInfo: Encapsulate the information needed to
@@ -345,6 +360,7 @@ public abstract class AuthenticationInfo extends AuthCacheValue implements Clone
         return requestAuthentication(key, AuthenticationInfo::getCachedServerAuth);
     }
 
+
     /**
      * Return the AuthenticationInfo object from the cache if it's path is
      * a substring of the supplied URLs path.
@@ -392,6 +408,7 @@ public abstract class AuthenticationInfo extends AuthCacheValue implements Clone
         if (!serializeAuth) return getCachedProxyAuth(key);
         return requestAuthentication(key, AuthenticationInfo::getCachedProxyAuth);
     }
+
 
     /**
      * Add this authentication to the cache

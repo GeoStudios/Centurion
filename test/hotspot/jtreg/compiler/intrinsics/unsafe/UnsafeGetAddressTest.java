@@ -21,8 +21,22 @@
 
 package compiler.intrinsics.unsafe;
 
+
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,9 @@ import java.lang.reflect.Field;
  *
  * @run main compiler.intrinsics.unsafe.UnsafeGetAddressTest
  */
+
+
+
 
 public class UnsafeGetAddressTest {
     private static Unsafe unsafe;

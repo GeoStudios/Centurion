@@ -21,14 +21,29 @@
 
 package gc.stress.gcold;
 
+
 import java.text.*;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class TreeNode {
     public TreeNode left, right;
     public int val;                // will always be the height of the tree
 }
+
 
 /* Args:
    live-data-size: in megabytes (approximate, will be rounded down).

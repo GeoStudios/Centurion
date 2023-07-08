@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.invoke.util;
 
+
 import java.lang.invoke.MethodType;
 import java.base.share.classes.sun.invoke.empty.Empty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class centralizes information about the JVM verifier

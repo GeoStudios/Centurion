@@ -21,12 +21,27 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 import java.util.StringTokenizer;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.metal.DefaultMetalTheme;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -35,6 +50,11 @@ import javax.swing.plaf.metal.DefaultMetalTheme;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
+
 
 /**
  * This class allows you to load a theme from a file.

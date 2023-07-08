@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.shell;
 
+
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.image.AbstractMultiResolutionImage;
@@ -39,6 +40,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.Callable;
 import javax.swing.SwingConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // NOTE: This class supersedes Win32ShellFolder, which was removed from
 //       distribution after version 1.4.2.
@@ -321,6 +336,7 @@ final class Win32ShellFolder2 extends ShellFolder {
         sun.java2d.Disposer.addObjectRecord(disposerReferent, disposer);
     }
 
+
     /**
      * Create a system shell folder
      */
@@ -331,6 +347,7 @@ final class Win32ShellFolder2 extends ShellFolder {
         this.disposer.relativePIDL = relativePIDL;
         sun.java2d.Disposer.addObjectRecord(disposerReferent, disposer);
     }
+
 
     /**
      * Creates a shell folder with a parent and relative PIDL
@@ -402,12 +419,14 @@ final class Win32ShellFolder2 extends ShellFolder {
         });
     }
 
+
     /**
      * Finalizer to clean up any COM objects or PIDLs used by this object.
      */
     protected void dispose() {
         disposer.dispose();
     }
+
 
     // Given a (possibly multi-level) relative PIDL (with respect to
     // the desktop, at least in all of the usage cases in this code),
@@ -804,6 +823,7 @@ final class Win32ShellFolder2 extends ShellFolder {
         }
     }
 
+
     /**
      * Look for (possibly special) child folder by it's path
      *
@@ -855,6 +875,7 @@ final class Win32ShellFolder2 extends ShellFolder {
     public boolean isHidden() {
         return hasAttribute(ATTRIB_HIDDEN);
     }
+
 
     // Return the link location of a shell folder
     // NOTE: this method uses COM and must be called on the 'COM thread'. See ComInvoker for the details
@@ -966,6 +987,8 @@ final class Win32ShellFolder2 extends ShellFolder {
         return getExecutableType(getAbsolutePath());
     }
 
+
+
     // Icons
 
     private static final Map<Integer, Image> smallSystemImages = new HashMap<>();
@@ -1027,6 +1050,7 @@ final class Win32ShellFolder2 extends ShellFolder {
         }
         return null;
     }
+
 
     /**
      * @return The icon image used to display this shell folder
@@ -1298,6 +1322,7 @@ final class Win32ShellFolder2 extends ShellFolder {
 
     // NOTE: this method uses COM and must be called on the 'COM thread'. See ComInvoker for the details
     private static native int compareIDsByColumn(long pParentIShellFolder, long pidl1, long pidl2, int columnIdx);
+
 
     public void sortChildren(final List<? extends File> files) {
         // To avoid loads of synchronizations with Invoker and improve performance we

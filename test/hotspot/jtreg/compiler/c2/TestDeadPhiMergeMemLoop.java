@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8249605
@@ -32,6 +47,7 @@ package compiler.c2;
  *                   -XX:CompileCommand=dontinline,compiler.c2.TestDeadPhiMergeMemLoop::dontInline
  *                   compiler.c2.TestDeadPhiMergeMemLoop
  */
+
 
 public class TestDeadPhiMergeMemLoop {
 

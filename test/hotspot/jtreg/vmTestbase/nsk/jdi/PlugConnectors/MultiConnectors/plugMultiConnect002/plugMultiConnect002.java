@@ -21,6 +21,7 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect002;
 
+
 import nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect002.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -28,6 +29,19 @@ import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -97,6 +111,10 @@ import java.io.*;
  *      -transport.address=dynamic
  */
 
+
+
+
+
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>
  * on base of classes which implement the Connector interfaces         <BR>
@@ -158,6 +176,7 @@ public class plugMultiConnect002 {
     static final String infoLogPrefix     = "-->                      ";
     static final String emptyString = "";
 
+
     static ArgumentHandler  argsHandler;
     static Log logHandler;
 
@@ -188,6 +207,7 @@ public class plugMultiConnect002 {
         }
         return result;
     }
+
 
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;
@@ -435,6 +455,7 @@ public class plugMultiConnect002 {
             logOnError(errorLogPrefix + "Connector name = '" + invalidPlugConnector.name() + "'");
             checkResult = STATUS_FAILED;
         }
+
 
         // check that invalid pluggable connector is NOT contained in allConnectors() List too
         List allConnectorsList = virtualMachineManager.allConnectors();

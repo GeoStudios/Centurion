@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
 import java.lang.ref.Reference;
@@ -33,6 +34,20 @@ import java.desktop.share.classes.sun.java2d.pipe.BufferedContext;
 import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.share.classes.sun.java2d.pipe.hw.AccelGraphicsConfig;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 
@@ -64,6 +79,7 @@ public final class StrikeCache {
     static ReferenceQueue<Object> refQueue = Disposer.getQueue();
 
     static ArrayList<GlyphDisposedListener> disposeListeners = new ArrayList<GlyphDisposedListener>(1);
+
 
     /* Reference objects may have their referents cleared when GC chooses.
      * During application client start-up there is typically at least one
@@ -185,6 +201,7 @@ public final class StrikeCache {
             }
         });
     }
+
 
     static void refStrike(FontStrike strike) {
         int index = recentStrikeIndex;

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.Graphics;
 import java.awt.Point;
 import java.desktop.share.classes.javax.swing.Action;
 import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A place within a document view that represents where

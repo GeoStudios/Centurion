@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
 import java.io.*;
 import java.lang.ref.WeakReference;
 import java.base.share.classes.java.security.*;
@@ -30,6 +31,20 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.base.share.classes.sun.security.action.*;
 import java.base.share.classes.sun.security.util.FilePaths;
 import java.base.share.classes.sun.security.validator.TrustStoreUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Collection of static utility methods to manage the default trusted KeyStores
@@ -186,6 +201,7 @@ final class TrustStoreManager {
 
             return false;
         }
+
 
         // Please be careful if computing security-sensitive attributes'
         // hash code.  For example the storePassword should not be computed.

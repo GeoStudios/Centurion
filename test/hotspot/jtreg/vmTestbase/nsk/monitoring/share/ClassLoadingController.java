@@ -21,11 +21,25 @@
 
 package nsk.monitoring.share;
 
+
 import java.util.*;
 import nsk.share.log.Log;
 import nsk.share.ClassUnloader;
 import nsk.share.CustomClassLoader;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>ClassLoadingController</code> class allows to operate class
@@ -141,6 +155,7 @@ public class ClassLoadingController extends StateControllerBase {
                         + Integer.toHexString(
                                         unloader.getClassLoader().hashCode()
                                         );
+
 
                 for (int i = 1; i <= classCount; i++) {
                         newClassName = CLASSNAME_PATTERN + int2Str(i);

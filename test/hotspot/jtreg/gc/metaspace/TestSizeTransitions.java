@@ -21,11 +21,25 @@
 
 package gc.metaspace;
 
+
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test TestSizeTransitionsSerial
  * @requires vm.gc.Serial

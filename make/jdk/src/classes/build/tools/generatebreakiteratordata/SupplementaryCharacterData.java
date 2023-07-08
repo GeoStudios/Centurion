@@ -21,6 +21,56 @@
 
 package build.tools.generatebreakiteratordata;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class SupplementaryCharacterData {
 
     /**
@@ -64,6 +114,7 @@ final class SupplementaryCharacterData {
      * Mask for supplementary code points(0x010000-0x10FFFF)
      */
     private static final int CODEPOINT_MASK = 0x1FFFFF;
+
 
     public SupplementaryCharacterData(byte value) {
         defaultValue = value;

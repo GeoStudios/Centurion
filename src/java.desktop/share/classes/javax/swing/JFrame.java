@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.AWTEvent;
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -38,6 +39,20 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleState;
 import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extended version of <code>java.awt.Frame</code> that adds support for
@@ -152,6 +167,7 @@ public class JFrame  extends Frame implements WindowConstants,
      * @see javax.swing.RootPaneContainer
      */
     protected boolean rootPaneCheckingEnabled = false;
+
 
     /**
      * Constructs a new frame that is initially invisible.
@@ -386,6 +402,7 @@ public class JFrame  extends Frame implements WindowConstants,
         }
     }
 
+
    /**
     * Returns the operation that occurs when the user
     * initiates a "close" on this frame.
@@ -493,6 +510,7 @@ public class JFrame  extends Frame implements WindowConstants,
         return rootPaneCheckingEnabled;
     }
 
+
     /**
      * Sets whether calls to <code>add</code> and
      * <code>setLayout</code> are forwarded to the <code>contentPane</code>.
@@ -511,6 +529,7 @@ public class JFrame  extends Frame implements WindowConstants,
     protected void setRootPaneCheckingEnabled(boolean enabled) {
         rootPaneCheckingEnabled = enabled;
     }
+
 
     /**
      * Adds the specified child <code>Component</code>.
@@ -561,6 +580,7 @@ public class JFrame  extends Frame implements WindowConstants,
         }
     }
 
+
     /**
      * Sets the <code>LayoutManager</code>.
      * Overridden to conditionally forward the call to the
@@ -581,6 +601,7 @@ public class JFrame  extends Frame implements WindowConstants,
         }
     }
 
+
     /**
      * Returns the <code>rootPane</code> object for this frame.
      * @return the <code>rootPane</code> property
@@ -593,6 +614,7 @@ public class JFrame  extends Frame implements WindowConstants,
     public JRootPane getRootPane() {
         return rootPane;
     }
+
 
     /**
      * Sets the <code>rootPane</code> property.
@@ -775,6 +797,7 @@ public class JFrame  extends Frame implements WindowConstants,
         }
     }
 
+
     /**
      * Returns true if newly created <code>JFrame</code>s should have their
      * Window decorations provided by the current look and feel. This is only
@@ -822,6 +845,8 @@ public class JFrame  extends Frame implements WindowConstants,
         ",rootPane=" + rootPaneString +
         ",rootPaneCheckingEnabled=" + rootPaneCheckingEnabledString;
     }
+
+
 
 /////////////////
 // Accessibility support

@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface COFFLineNumber {
   /** <P> Union of two fields: Symbol Table Index and RVA. Whether
       Symbol Table Index or RVA is used depends on the value of

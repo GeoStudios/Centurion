@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.security.tools.keytool;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p> This class represents the <code>ResourceBundle</code>
  * for the keytool.
@@ -464,6 +480,7 @@ public class Resources_fr extends java.util.ListResourceBundle {
         {"backup.keystore.warning", "Le fichier de cl\u00E9s d'origine \"%1$s\" est sauvegard\u00E9 en tant que \"%3$s\"..."},
         {"importing.keystore.status", "Import du fichier de cl\u00E9s %1$s vers %2$s..."},
     };
+
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

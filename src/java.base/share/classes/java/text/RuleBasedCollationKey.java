@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A RuleBasedCollationKey is a concrete implementation of CollationKey class.
  * The RuleBasedCollationKey class is used by the RuleBasedCollator class.

@@ -21,8 +21,23 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
+
 import java.util.HashMap;
 import jdk.jpackage.share.classes.jdk.jpackage.internal.Arguments.CLIOptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ValidOptions
@@ -51,6 +66,7 @@ class ValidOptions {
     }
 
     private static final HashMap<String, USE> options = new HashMap<>();
+
 
     // initializing list of mandatory arguments
     static {

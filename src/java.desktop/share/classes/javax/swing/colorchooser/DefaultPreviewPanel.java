@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.*;
@@ -32,6 +33,20 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.io.Serializable;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard preview panel for the color chooser.
@@ -53,6 +68,7 @@ class DefaultPreviewPanel extends JPanel {
     private final int squareSize = 25;
     private final int squareGap = 5;
     private final int innerGap = 5;
+
 
     private final int textGap = 5;
     private final Font font = new Font(Font.DIALOG, Font.PLAIN, 12);
@@ -142,6 +158,7 @@ class DefaultPreviewPanel extends JPanel {
                      textXOffset+(textGap/2),
                      height+ascent+textGap+2);
 
+
         g.setColor(Color.white);
 
         g.fillRect(textXOffset,
@@ -203,6 +220,8 @@ class DefaultPreviewPanel extends JPanel {
                    squareSize - (innerGap*2),
                    squareSize - (innerGap*2));
         g.translate(-(squareSize+squareGap), -(squareSize+squareGap));
+
+
 
         g.translate((squareSize+squareGap)*2, 0);
         g.setColor(Color.white);

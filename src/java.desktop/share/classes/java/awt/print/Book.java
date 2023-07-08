@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.print;
 
+
 import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Book} class provides a representation of a document in

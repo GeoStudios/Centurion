@@ -21,15 +21,31 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect002.connectors;
 
+
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * A Simple ListeningConnector throwing RuntimeException during instantiating used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect002 test
  */
+
+
 
 public class PlugListenConnector002_03 extends PlugConnectors implements ListeningConnector {
 
@@ -89,6 +105,7 @@ public class PlugListenConnector002_03 extends PlugConnectors implements Listeni
 
         return plugListenConnectorDefaultArguments;
     }  // end of prepareConnectorDefaultArguments() method
+
 
     public PlugListenConnector002_03() {
 

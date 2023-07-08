@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Label;
@@ -33,6 +34,20 @@ import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.MethodNode;
 import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
 import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
 import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class responsible for finding the call to inline and inlining it.

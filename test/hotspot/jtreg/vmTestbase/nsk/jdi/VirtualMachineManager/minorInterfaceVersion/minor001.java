@@ -21,6 +21,7 @@
 
 package nsk.jdi.VirtualMachineManager.minorInterfaceVersion;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -28,12 +29,28 @@ import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 
 // VirtualMachineManager  Interface Name        VirtualMachineManager
 // minorInterfaceVersion  Method Name           minorInterfaceVersion
 // minor001  Test Name          minor001
 // ------------------------------------------------------
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>

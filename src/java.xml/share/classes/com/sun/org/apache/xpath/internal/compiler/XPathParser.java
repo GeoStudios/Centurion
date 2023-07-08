@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
+
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
@@ -30,6 +31,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XString;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tokenizes and parses XPath expressions. This should really be named
@@ -117,6 +132,7 @@ public class XPathParser
 
     m_ops.setOp(0,OpCodes.OP_XPATH);
     m_ops.setOp(OpMap.MAPINDEX_LENGTH,2);
+
 
         // Patch for Christine's gripe. She wants her errorHandler to return from
         // a fatal error and continue trying to parse, rather than throwing an exception.
@@ -2153,6 +2169,7 @@ public class XPathParser
 
         relativePathStatus = RELATIVE_PATH_PERMITTED;
       }
+
 
       // Tell how long the step is without the predicate
       m_ops.setOp(m_ops.getOp(OpMap.MAPINDEX_LENGTH) - 2, 4);

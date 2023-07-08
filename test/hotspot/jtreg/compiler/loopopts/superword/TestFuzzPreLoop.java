@@ -21,12 +21,28 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8134739 8010500
  * @summary SEGV in SuperWord::get_pre_loop_end
  * @run main/othervm compiler.loopopts.superword.TestFuzzPreLoop
  */
+
 
 public class TestFuzzPreLoop {
     static Object sink;

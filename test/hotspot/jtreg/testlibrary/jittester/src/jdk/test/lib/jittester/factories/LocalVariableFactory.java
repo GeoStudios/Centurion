@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.LocalVariable;
 import jdk.test.lib.jittester.ProductionFailedException;
@@ -29,6 +30,19 @@ import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class LocalVariableFactory extends Factory<LocalVariable> {
     private final Type type;

@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
@@ -36,10 +37,27 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Class XMLSignatureInputDebugger
@@ -184,6 +202,7 @@ public class XMLSignatureInputDebugger {
 
         int currentNodeType = currentNode.getNodeType();
         switch (currentNodeType) {
+
 
         case Node.ENTITY_NODE:
         case Node.NOTATION_NODE:

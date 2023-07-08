@@ -21,12 +21,27 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
 import javax.swing.plaf.metal.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class describes a higher-contrast Metal Theme.
@@ -65,6 +80,7 @@ public class ContrastTheme extends DefaultMetalTheme {
     public ColorUIResource getAcceleratorForeground() { return getBlack(); }
     public ColorUIResource getAcceleratorSelectedForeground() { return getWhite(); }
 
+
     public void addCustomEntriesToTable(UIDefaults table) {
 
         Border blackLineBorder = new BorderUIResource(new LineBorder( getBlack() ));
@@ -81,6 +97,7 @@ public class ContrastTheme extends DefaultMetalTheme {
         table.put( "TextArea.border", textBorder);
         table.put( "TextPane.border", textBorder);
         table.put( "EditorPane.border", textBorder);
+
 
     }
 

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLScanner.NameType;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UCSReader;
@@ -46,6 +47,20 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the entity scanner methods.
@@ -153,6 +168,7 @@ public class XMLEntityScanner implements XMLLocator  {
     public XMLEntityScanner() {
     } // <init>()
 
+
     /**  private constructor, this class can only be instantiated within this class. Instance of this class should
      *    be obtained using getEntityScanner() or getEntityScanner(ScannedEntity scannedEntity)
      *    @see getEntityScanner()
@@ -162,6 +178,7 @@ public class XMLEntityScanner implements XMLLocator  {
         fEntityManager = entityManager ;
         reset(propertyManager);
     } // <init>()
+
 
     // set buffer size:
     public final void setBufferSize(int size) {
@@ -212,6 +229,7 @@ public class XMLEntityScanner implements XMLLocator  {
         resetCommon();
     } // reset(XMLComponentManager)
 
+
     public final void reset(SymbolTable symbolTable, XMLEntityManager entityManager,
             XMLErrorReporter reporter) {
         fCurrentEntity = null;
@@ -259,6 +277,7 @@ public class XMLEntityScanner implements XMLLocator  {
         xmlVersionSetExplicitly = true;
         fCurrentEntity.xmlVersion = xmlVersion;
     } // setXMLVersion(String)
+
 
     /** set the instance of current scanned entity.
      *   @param ScannedEntity
@@ -309,6 +328,7 @@ public class XMLEntityScanner implements XMLLocator  {
         //no-op
     }
 
+
     public final int getColumnNumber(){
         //if the entity is closed, we should return -1
         //xxx at first place why such call should be there...
@@ -321,6 +341,7 @@ public class XMLEntityScanner implements XMLLocator  {
     public void setColumnNumber(int col) {
         // no-op
     }
+
 
     public final int getCharacterOffset(){
         return fCurrentEntity != null ? fCurrentEntity.fTotalCountTillLastLoad + fCurrentEntity.position : -1 ;
@@ -1723,6 +1744,7 @@ public class XMLEntityScanner implements XMLLocator  {
 
     } // skipSpaces():boolean
 
+
     /**
      * @param length This function checks that following number of characters are available.
      * to the underlying buffer.
@@ -2316,5 +2338,6 @@ public class XMLEntityScanner implements XMLLocator  {
         return false;
 
     } // skipDeclSpaces():boolean
+
 
 } // class XMLEntityScanner

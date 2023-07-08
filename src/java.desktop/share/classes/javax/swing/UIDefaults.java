@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
@@ -50,6 +51,20 @@ import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A table of defaults for Swing components.  Applications can set/get
@@ -108,6 +123,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         super(initialCapacity, loadFactor);
         resourceCache = new HashMap<Locale, Map<String, Object>>();
     }
+
 
     /**
      * Creates a defaults table initialized with the specified
@@ -231,6 +247,7 @@ public class UIDefaults extends Hashtable<Object,Object>
 
         return value;
     }
+
 
     /**
      * Returns the value for key associated with the given locale.
@@ -370,6 +387,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return oldValue;
     }
 
+
     /**
      * Puts all of the key/value pairs in the database and
      * unconditionally generates one <code>PropertyChangeEvent</code>.
@@ -394,6 +412,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         firePropertyChange("UIDefaults", null, null);
     }
 
+
     /**
      * If the value of <code>key</code> is a <code>Font</code> return it,
      * otherwise return <code>null</code>.
@@ -406,6 +425,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key);
         return (value instanceof Font) ? (Font)value : null;
     }
+
 
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
@@ -435,6 +455,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return (value instanceof Color) ? (Color)value : null;
     }
 
+
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
      * is a <code>Color</code> return it, otherwise return <code>null</code>.
@@ -450,6 +471,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return (value instanceof Color) ? (Color)value : null;
     }
 
+
     /**
      * If the value of <code>key</code> is an <code>Icon</code> return it,
      * otherwise return <code>null</code>.
@@ -462,6 +484,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key);
         return (value instanceof Icon) ? (Icon)value : null;
     }
+
 
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
@@ -478,6 +501,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return (value instanceof Icon) ? (Icon)value : null;
     }
 
+
     /**
      * If the value of <code>key</code> is a <code>Border</code> return it,
      * otherwise return <code>null</code>.
@@ -490,6 +514,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key);
         return (value instanceof Border) ? (Border)value : null;
     }
+
 
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
@@ -505,6 +530,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key,l);
         return (value instanceof Border) ? (Border)value : null;
     }
+
 
     /**
      * If the value of <code>key</code> is a <code>String</code> return it,
@@ -546,6 +572,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return (value instanceof Integer) ? ((Integer)value).intValue() : 0;
     }
 
+
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
      * is an <code>Integer</code> return its integer value, otherwise return 0.
@@ -560,6 +587,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return (value instanceof Integer) ? ((Integer)value).intValue() : 0;
     }
 
+
     /**
      * If the value of <code>key</code> is boolean, return the
      * boolean value, otherwise return false.
@@ -572,6 +600,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key);
         return value instanceof Boolean && ((Boolean) value).booleanValue();
     }
+
 
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
@@ -588,6 +617,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return value instanceof Boolean && ((Boolean) value).booleanValue();
     }
 
+
     /**
      * If the value of <code>key</code> is an <code>Insets</code> return it,
      * otherwise return <code>null</code>.
@@ -600,6 +630,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key);
         return (value instanceof Insets) ? (Insets)value : null;
     }
+
 
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
@@ -616,6 +647,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return (value instanceof Insets) ? (Insets)value : null;
     }
 
+
     /**
      * If the value of <code>key</code> is a <code>Dimension</code> return it,
      * otherwise return <code>null</code>.
@@ -628,6 +660,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key);
         return (value instanceof Dimension) ? (Dimension)value : null;
     }
+
 
     /**
      * If the value of <code>key</code> for the given <code>Locale</code>
@@ -643,6 +676,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         Object value = get(key,l);
         return (value instanceof Dimension) ? (Dimension)value : null;
     }
+
 
     /**
      * The value of <code>get(uidClassID)</code> must be the
@@ -696,6 +730,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         return null;
     }
 
+
     /**
      * Returns the L&amp;F class that renders this component.
      *
@@ -706,6 +741,7 @@ public class UIDefaults extends Hashtable<Object,Object>
     public Class<? extends ComponentUI> getUIClass(String uiClassID) {
         return getUIClass(uiClassID, null);
     }
+
 
     /**
      * If <code>getUI()</code> fails for any reason,
@@ -796,6 +832,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         changeSupport.addPropertyChangeListener(listener);
     }
 
+
     /**
      * Removes a <code>PropertyChangeListener</code> from the listener list.
      * This removes a <code>PropertyChangeListener</code> that was registered
@@ -810,6 +847,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         }
     }
 
+
     /**
      * Returns an array of all the <code>PropertyChangeListener</code>s added
      * to this UIDefaults with addPropertyChangeListener().
@@ -823,6 +861,7 @@ public class UIDefaults extends Hashtable<Object,Object>
         }
         return changeSupport.getPropertyChangeListeners();
     }
+
 
     /**
      * Support for reporting bound property changes.  If oldValue and
@@ -841,6 +880,7 @@ public class UIDefaults extends Hashtable<Object,Object>
             changeSupport.firePropertyChange(propertyName, oldValue, newValue);
         }
     }
+
 
     /**
      * Adds a resource bundle to the list of resource bundles that are
@@ -972,6 +1012,7 @@ public class UIDefaults extends Hashtable<Object,Object>
          */
         Object createValue(UIDefaults table);
     }
+
 
     /**
      * This class enables one to store an entry in the defaults
@@ -1184,6 +1225,7 @@ public class UIDefaults extends Hashtable<Object,Object>
             return s;
         }
     }
+
 
     /**
      * <code>LazyInputMap</code> will create a <code>InputMap</code>

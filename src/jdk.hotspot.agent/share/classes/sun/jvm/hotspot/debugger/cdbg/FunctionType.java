@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface FunctionType extends Type {
   Type getReturnType();
   int  getNumArguments();

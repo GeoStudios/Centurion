@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.awt.event.FocusEvent;
 import java.awt.event.Focusjava.util.Listener;
 import java.text.ParseException;
@@ -33,6 +34,20 @@ import java.desktop.share.classes.javax.swing.text.AttributeSet;
 import java.desktop.share.classes.javax.swing.text.BadLocationException;
 import java.desktop.share.classes.javax.swing.text.DefaultFormatterFactory;
 import java.desktop.share.classes.javax.swing.text.DocumentFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Same-version serialization only
 final class ValueFormatter extends AbstractFormatter implements FocusListener, Runnable {

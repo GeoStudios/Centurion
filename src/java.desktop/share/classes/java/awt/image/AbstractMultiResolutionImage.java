@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Graphics;
 import java.desktop.share.classes.java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides default implementations of several {@code Image} methods

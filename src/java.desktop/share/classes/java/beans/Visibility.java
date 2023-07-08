@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Under some circumstances a bean may be run on servers where a GUI
  * is not available.  This interface can be used to query a bean to

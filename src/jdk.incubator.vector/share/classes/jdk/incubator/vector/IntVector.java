@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
@@ -36,6 +37,20 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -1560,6 +1575,8 @@ public abstract class IntVector extends AbstractVector<Integer> {
         return lanewise(OR, e);
     }
 
+
+
     /// UNARY METHODS
 
     /**
@@ -1612,6 +1629,7 @@ public abstract class IntVector extends AbstractVector<Integer> {
     public final IntVector not() {
         return lanewise(NOT);
     }
+
 
     /// COMPARISONS
 
@@ -1856,6 +1874,8 @@ public abstract class IntVector extends AbstractVector<Integer> {
     VectorMask<Integer> compare(Comparison op, long e, VectorMask<Integer> m) {
         return compare(op, broadcast(e), m);
     }
+
+
 
     /**
      * {@inheritDoc} <!--workaround-->
@@ -2313,6 +2333,7 @@ public abstract class IntVector extends AbstractVector<Integer> {
     IntVector bitwiseBlend(Vector<Integer> bits, int mask) {
         return lanewise(BITWISE_BLEND, bits, mask);
     }
+
 
     // Type specific horizontal reductions
 
@@ -2849,6 +2870,8 @@ public abstract class IntVector extends AbstractVector<Integer> {
         }
     }
 
+
+
     /**
      * Loads a vector from a {@linkplain ByteBuffer byte buffer}
      * starting at an offset into the byte buffer.
@@ -3119,6 +3142,8 @@ public abstract class IntVector extends AbstractVector<Integer> {
         }
     }
 
+
+
     /**
      * {@inheritDoc} <!--workaround-->
      */
@@ -3224,6 +3249,8 @@ public abstract class IntVector extends AbstractVector<Integer> {
             (arr, off, s) -> s.ldOp(arr, off,
                                     (arr_, off_, i) -> arr_[off_ + i]));
     }
+
+
 
     @Override
     abstract
@@ -3357,6 +3384,8 @@ public abstract class IntVector extends AbstractVector<Integer> {
     static long arrayAddress(int[] a, int index) {
         return ARRAY_BASE + (((long)index) << ARRAY_SHIFT);
     }
+
+
 
     @ForceInline
     static long byteArrayAddress(byte[] a, int index) {

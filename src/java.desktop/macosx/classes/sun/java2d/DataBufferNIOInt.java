@@ -21,8 +21,23 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
+
 import java.awt.image.DataBuffer;
 import java.nio.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class DataBufferNIOInt extends DataBuffer {
 

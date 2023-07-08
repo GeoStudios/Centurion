@@ -21,12 +21,26 @@
 
 package nsk.jdi.BreakpointRequest.addThreadFilter;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -105,6 +119,7 @@ public class threadfilter002 extends JDIBase {
 
     private String testedClassName =
       "nsk.jdi.BreakpointRequest.addThreadFilter.threadfilter002aTestClass";
+
 
     //------------------------------------------------------ methods
 
@@ -193,6 +208,7 @@ public class threadfilter002 extends JDIBase {
 
         return testExitCode;
     }
+
 
    /*
     * Return value: 0 - normal end of the test

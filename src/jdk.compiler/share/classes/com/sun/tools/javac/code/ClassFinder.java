@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.util.EnumSet;
@@ -60,6 +61,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
 import jdk.compiler.share.classes.com.sun.tools.javac.main.DelegatingJavaFileManager;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies.CompletionCause;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class provides operations to locate class definitions
@@ -216,6 +231,7 @@ public class ClassFinder {
         cachedCompletionFailure = new CompletionFailure(null, () -> null, dcfh);
         cachedCompletionFailure.setStackTrace(new StackTraceElement[0]);
     }
+
 
 /************************************************************************
  * Temporary ct.sym replacement
@@ -404,6 +420,7 @@ public class ClassFinder {
             }
         }
         private final CompletionFailure cachedCompletionFailure;
+
 
     /** Load a toplevel class with given fully qualified name
      *  The class is entered into `classes' only if load was successful.

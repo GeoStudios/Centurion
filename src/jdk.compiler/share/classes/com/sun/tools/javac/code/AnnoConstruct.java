@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Inherited;
 import java.lang.annotation.Repeatable;
@@ -32,6 +33,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common super type for annotated constructs such as Types and Symbols.
@@ -46,9 +61,11 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
  */
 public abstract class AnnoConstruct implements AnnotatedConstruct {
 
+
     // Override to enforce a narrower return type.
     @Override @DefinedBy(Api.LANGUAGE_MODEL)
     public abstract List<? extends Attribute.Compound> getAnnotationMirrors();
+
 
     // This method is part of the javax.lang.model API, do not use this in javac code.
     protected <A extends Annotation> Attribute.Compound getAttribute(Class<A> annoType) {
@@ -62,10 +79,12 @@ public abstract class AnnoConstruct implements AnnotatedConstruct {
         return null;
     }
 
+
     @SuppressWarnings("unchecked")
     protected <A extends Annotation> A[] getInheritedAnnotations(Class<A> annoType) {
         return (A[]) java.lang.reflect.Array.newInstance(annoType, 0);  // annoType is the Class for A
     }
+
 
     // This method is part of the javax.lang.model API, do not use this in javac code.
     @DefinedBy(Api.LANGUAGE_MODEL)

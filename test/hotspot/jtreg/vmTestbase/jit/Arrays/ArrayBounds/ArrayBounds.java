@@ -21,7 +21,21 @@
 
 package jit.Arrays.ArrayBounds;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,7 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.Arrays.ArrayBounds.ArrayBounds
  */
+
 
 /*
 SCCS ID : @(#)ArrayBounds.java  1.2 02/07/16
@@ -92,6 +107,8 @@ SCCS ID : @(#)ArrayBounds.java  1.2 02/07/16
         "a[k]" during the loop, then we might miss a necessary array
         bounds exception.
 */
+
+
 
 public class ArrayBounds {
   private static int global;

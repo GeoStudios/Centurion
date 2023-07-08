@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Component;
@@ -114,6 +115,20 @@ import sun.swing.SwingUtilities2.Section;
 import static sun.swing.SwingUtilities2.Section.LEADING;.extended
 import static sun.swing.SwingUtilities2.Section.MIDDLE;.extended
 import static sun.swing.SwingUtilities2.Section.TRAILING;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>JTable</code> is used to display and edit regular two-dimensional tables
@@ -299,6 +314,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
     /** During all resize operations, proportionately resize all columns. */
     public static final int     AUTO_RESIZE_ALL_COLUMNS = 4;
 
+
     /**
      * Printing modes, used in printing <code>JTable</code>s.
      *
@@ -321,6 +337,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
          */
         FIT_WIDTH
     }
+
 
 //
 // Instance Variables
@@ -3251,6 +3268,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
         adjustSizes(target, r, inverse);
     }
 
+
     // Distribute delta over columns, as indicated by the autoresize mode.
     private void accommodateDelta(int resizingColumnIndex, int delta) {
         int columnCount = getColumnCount();
@@ -3306,6 +3324,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
     private interface Resizable3 extends Resizable2 {
         int  getMidPointAt(int i);
     }
+
 
     private void adjustSizes(long target, final Resizable3 r, boolean inverse) {
         int N = r.getElementCount();
@@ -3679,6 +3698,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
         return uiClassID;
     }
 
+
 //
 // Managing models
 //
@@ -3840,6 +3860,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
         }
     }
 
+
     /**
      * SortManager provides support for managing the selection and variable
      * row heights when sorting is enabled. This information is encapsulated
@@ -3861,6 +3882,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
 
         // Heights of the rows in terms of the model.
         private SizeSequence modelRowSizes;
+
 
         SortManager(RowSorter<? extends TableModel> sorter) {
             this.sorter = sorter;
@@ -4068,6 +4090,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
             syncingSelection = false;
         }
     }
+
 
     /**
      * ModelChange is used when sorting to restore state, it corresponds
@@ -5402,6 +5425,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
         public void setValue(Object value) { setIcon((value instanceof Icon) ? (Icon)value : null); }
     }
 
+
     static class BooleanRenderer extends JCheckBox implements TableCellRenderer, UIResource
     {
         private static final Border noFocusBorder = new EmptyBorder(1, 1, 1, 1);
@@ -5779,6 +5803,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
         }
         return editor;
     }
+
 
     /**
      * Prepares the editor by querying the data model for the value and
@@ -6516,6 +6541,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
         return new TablePrintable(this, printMode, headerFormat, footerFormat);
     }
 
+
     /**
      * A <code>Printable</code> implementation that wraps another
      * <code>Printable</code>, making it safe for printing on another thread.
@@ -6761,6 +6787,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
                 }
             }
         }
+
 
     // Listeners to echo changes to the AccessiblePropertyChange mechanism
 
@@ -7061,6 +7088,9 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
                 previousFocusedCol = focusedCol;
             }
         }
+
+
+
 
     // AccessibleContext support
 
@@ -7599,6 +7629,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
              */
             public Accessible getAccessibleCaption() { return null; }
 
+
             /**
              * Sets the caption for the table.
              *
@@ -7645,6 +7676,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
              * @return the Accessible at the specified row and column
              */
             public Accessible getAccessibleAt(int row, int column) {
+
 
                 // TIGER - 4715503
                 TableColumn aColumn = headerModel.getColumn(column);
@@ -7792,6 +7824,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
              */
             public int [] getSelectedAccessibleColumns() { return new int[0]; }
         }
+
 
         /**
          * Sets the column headers as an <code>AccessibleTable</code>.
@@ -8340,6 +8373,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
             public AccessibleValue getAccessibleValue() {
                 return getCurrentAccessibleContext().getAccessibleValue();
             }
+
 
         // AccessibleComponent methods
 
@@ -9141,6 +9175,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
             public AccessibleValue getAccessibleValue() {
                 return getCurrentAccessibleContext().getAccessibleValue();
             }
+
 
             // AccessibleComponent methods ==========
 

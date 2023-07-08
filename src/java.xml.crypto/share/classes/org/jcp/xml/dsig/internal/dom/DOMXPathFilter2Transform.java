@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import java.security.InvalidAlgorithmParameterException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -38,10 +39,28 @@ import java.xml.crypto.share.classes.org.w3c.dom.Attr;
 import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.org.w3c.dom.NamedNodeMap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * DOM-based implementation of XPath Filter 2.0 Transform.

@@ -21,9 +21,23 @@
 
 package selectionresolution;
 
+
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_INTERFACE;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Interface extends ClassConstruct {
 
@@ -34,6 +48,7 @@ class Interface extends ClassConstruct {
     public Interface(String name, int index) {
         this(name, V1_8, index, (String)null);
     }
+
 
     public Interface(String name, int access, int index, String... extending) {
         this(name, V1_8, access, index, extending);

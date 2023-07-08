@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * This is used to represent names of nodes that may not be named, like a

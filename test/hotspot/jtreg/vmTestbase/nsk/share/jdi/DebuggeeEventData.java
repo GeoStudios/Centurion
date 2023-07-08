@@ -21,6 +21,21 @@
 
 package nsk.share.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Classes included in this class represent JDI events on debuggee VM's side
  * All this classes contain information about JDI event which should be generated during test execution

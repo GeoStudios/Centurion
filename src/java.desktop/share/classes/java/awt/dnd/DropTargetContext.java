@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
+
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.datatransfer.DataFlavor;
 import java.desktop.share.classes.java.awt.datatransfer.Transferable;
@@ -33,6 +34,20 @@ import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.DropTargetContextAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code DropTargetContext} is created
@@ -306,6 +321,7 @@ public class DropTargetContext implements Serializable {
     }
 
 /****************************************************************************/
+
 
     /**
      * {@code TransferableProxy} is a helper inner class that implements

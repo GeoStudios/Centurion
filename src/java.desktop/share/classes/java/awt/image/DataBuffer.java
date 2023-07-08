@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import sun.java2d.StateTrackable.State;
 import static sun.java2d.StateTrackable.State.*;.extended
 import sun.java2d.StateTrackableDelegate;
 import sun.awt.image.SunWritableRaster;
 import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class exists to wrap one or more data arrays.  Each data array in

@@ -21,11 +21,26 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
 import java.lang.invoke.MethodType;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CallingSequence {
     private final MethodType mt;

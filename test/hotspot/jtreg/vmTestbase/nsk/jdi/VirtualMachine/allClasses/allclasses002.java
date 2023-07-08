@@ -21,12 +21,26 @@
 
 package nsk.jdi.VirtualMachine.allClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -104,6 +118,7 @@ public class allclasses002 {
     static final int returnCode3 = 3;
     static final int returnCode4 = 4;
 
+
     //------------------------------------------------------ methods
 
     private int runThis (String argv[], PrintStream out) {
@@ -121,6 +136,7 @@ public class allclasses002 {
         }
 
         waitTime = argsHandler.getWaitTime();
+
 
         IOPipe pipe     = new IOPipe(debuggee);
 
@@ -155,6 +171,7 @@ public class allclasses002 {
                 break ;
             }
 
+
             log1("new check: #" + i);
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
@@ -169,6 +186,7 @@ public class allclasses002 {
                               "int[][][][]",
                               "long[][][][]",
                               "short[][][][]" };
+
 
             log2("        check for loaded " + namePrefix + name[0] + " type");
             if (refTypeYes(namePrefix + name[0]) == 0) {

@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents a chunk of Java byte code contained in a
@@ -56,6 +74,7 @@ public final class Code extends Attribute {
     private CodeException[] exceptionTable; // Table of handled exceptions
     private Attribute[] attributes; // or LocalVariable
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -64,6 +83,7 @@ public final class Code extends Attribute {
         this(c.getNameIndex(), c.getLength(), c.getMaxStack(), c.getMaxLocals(), c.getCode(), c
                 .getExceptionTable(), c.getAttributes(), c.getConstantPool());
     }
+
 
     /**
      * @param name_index Index pointing to the name <em>Code</em>
@@ -102,6 +122,7 @@ public final class Code extends Attribute {
         super.setLength(length);
     }
 
+
     /**
      * @param name_index Index pointing to the name <em>Code</em>
      * @param length Content length in bytes
@@ -123,6 +144,7 @@ public final class Code extends Attribute {
         super.setLength(calculateLength()); // Adjust length
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -134,6 +156,7 @@ public final class Code extends Attribute {
     public void accept( final Visitor v ) {
         v.visitCode(this);
     }
+
 
     /**
      * Dump code attribute to file stream in binary format.
@@ -158,6 +181,7 @@ public final class Code extends Attribute {
         }
     }
 
+
     /**
      * @return Collection of code attributes.
      * @see Attribute
@@ -165,6 +189,7 @@ public final class Code extends Attribute {
     public Attribute[] getAttributes() {
         return attributes;
     }
+
 
     /**
      * @return LineNumberTable of Code, if it has one
@@ -178,6 +203,7 @@ public final class Code extends Attribute {
         return null;
     }
 
+
     /**
      * @return LocalVariableTable of Code, if it has one
      */
@@ -190,12 +216,14 @@ public final class Code extends Attribute {
         return null;
     }
 
+
     /**
      * @return Actual byte code of the method.
      */
     public byte[] getCode() {
         return code;
     }
+
 
     /**
      * @return Table of handled exceptions.
@@ -205,6 +233,7 @@ public final class Code extends Attribute {
         return exceptionTable;
     }
 
+
     /**
      * @return Number of local variables.
      */
@@ -212,12 +241,14 @@ public final class Code extends Attribute {
         return maxLocals;
     }
 
+
     /**
      * @return Maximum size of stack used by this method.
      */
     public int getMaxStack() {
         return maxStack;
     }
+
 
     /**
      * @return the internal length of this code attribute (minus the first 6 bytes)
@@ -230,6 +261,7 @@ public final class Code extends Attribute {
                 + 8 * (exceptionTable == null ? 0 : exceptionTable.length) /* exception table */
                 + 2 /* attributes count */;
     }
+
 
     /**
      * @return the full size of this code attribute, minus its first 6 bytes,
@@ -245,6 +277,7 @@ public final class Code extends Attribute {
         return len + getInternalLength();
     }
 
+
     /**
      * @param attributes the attributes to set for this Code
      */
@@ -252,6 +285,7 @@ public final class Code extends Attribute {
         this.attributes = attributes != null ? attributes : new Attribute[0];
         super.setLength(calculateLength()); // Adjust length
     }
+
 
     /**
      * @param code byte code
@@ -261,6 +295,7 @@ public final class Code extends Attribute {
         super.setLength(calculateLength()); // Adjust length
     }
 
+
     /**
      * @param exceptionTable exception table
      */
@@ -269,6 +304,7 @@ public final class Code extends Attribute {
         super.setLength(calculateLength()); // Adjust length
     }
 
+
     /**
      * @param maxLocals maximum number of local variables
      */
@@ -276,12 +312,14 @@ public final class Code extends Attribute {
         this.maxLocals = maxLocals;
     }
 
+
     /**
      * @param maxStack maximum stack size
      */
     public void setMaxStack( final int maxStack ) {
         this.maxStack = maxStack;
     }
+
 
     /**
      * @return String representation of code chunk.
@@ -307,6 +345,7 @@ public final class Code extends Attribute {
         return buf.toString();
     }
 
+
     /**
      * @return String representation of code chunk.
      */
@@ -314,6 +353,7 @@ public final class Code extends Attribute {
     public String toString() {
         return toString(true);
     }
+
 
     /**
      * @return deep copy of this attribute

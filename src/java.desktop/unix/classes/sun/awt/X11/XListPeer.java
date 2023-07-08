@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.*;
@@ -29,7 +30,24 @@ import java.util.Vector;
 import java.awt.image.*;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Very much based on XListPeer from javaos
+
+
+
 
 // TODO: some input actions should do nothing if Shift or Control are down
 
@@ -187,6 +205,7 @@ class XListPeer extends XComponentPeer implements ListPeer, XScrollbarClient {
         multipleSelections = l.isMultipleMode();
     }
 
+
     /**
      * add Vertical Scrollbar
      */
@@ -194,6 +213,7 @@ class XListPeer extends XComponentPeer implements ListPeer, XScrollbarClient {
         vsb = new XVerticalScrollbar(this);
         vsb.setValues(0, 0, 0, 0, 1, 1);
     }
+
 
     /**
      * add Horizontal scrollbar
@@ -240,6 +260,7 @@ class XListPeer extends XComponentPeer implements ListPeer, XScrollbarClient {
         fontAscent = fm.getAscent();
         fontLeading = fm.getLeading();
     }
+
 
     /**
      * return the length of the largest item in the list
@@ -1933,6 +1954,7 @@ class XListPeer extends XComponentPeer implements ListPeer, XScrollbarClient {
             int h = height - (hsbVis ? (SCROLLBAR_AREA-2) : 0);
             paintScrollBar(vsb, g, width - SCROLLBAR_WIDTH, 0, SCROLLBAR_WIDTH - 2, h, paintAll);
         }
+
 
         private Rectangle prevFocusRect;
         private void paintFocus(Graphics g, int options) {

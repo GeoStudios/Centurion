@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.security;
 
+
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.io.ByteArrayOutputStream;
 import java.base.share.classes.java.io.PrintStream;
@@ -29,6 +30,20 @@ import sun.security.jca.GetInstance;
 import sun.security.util.Debug;
 import sun.security.util.MessageDigestSpi2;
 import java.base.share.classes.javax.crypto.SecretKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This MessageDigest class provides applications the functionality of a
@@ -549,6 +564,7 @@ public abstract class MessageDigest extends MessageDigestSpi {
             throw new CloneNotSupportedException();
         }
     }
+
 
     /*
      * The following class allows providers to extend from MessageDigestSpi

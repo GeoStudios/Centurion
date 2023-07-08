@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.IntVector;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * <code>DTMAxisNodeList</code> gives us an implementation of the DOM's
@@ -92,6 +110,7 @@ public class DTMAxisIterNodeList extends DTMNodeListBase {
     public DTMAxisIterator getDTMAxisIterator() {
         return m_iter;
     }
+
 
     //================================================================
     // org.w3c.dom.NodeList API follows

@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import javax.xml.namespace.NamespaceContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Writing a wrapper to re-use most of the namespace functionality

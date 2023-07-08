@@ -21,10 +21,25 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**Methods that directly implement a method declared in a public, supported API should be marked
  * with this annotation.

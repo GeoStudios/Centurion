@@ -21,9 +21,23 @@
 
 package nsk.jdi.StepRequest.addClassExclusionFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter001 JDI test.
@@ -80,6 +94,7 @@ public class filter001a {
 
         log1("debuggee started!");
 
+
         for (int i = 0; ; i++) {
 
             if (instruction > maxInstr) {
@@ -105,6 +120,7 @@ public class filter001a {
                 } catch ( InterruptedException e ) {
                 }
                 break;
+
 
             case 1:
                 thread2 = new Thread2filter001a("thread2");
@@ -174,6 +190,7 @@ class Thread1filter001a extends Thread {
         throw new NullPointerException("m11");
         }
     }
+
 
     String tName = null;
 

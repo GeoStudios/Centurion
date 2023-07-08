@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface _OpenAppHandler {
     void handleOpenApp();
 }

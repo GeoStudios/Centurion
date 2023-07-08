@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.javax.xml.datatype;
 
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Immutable representation of a time span as defined in
@@ -953,6 +968,7 @@ public abstract class Duration {
         }
         return buf.toString();
     }
+
 
     /**
      * Calls the {@link Calendar#getTimeInMillis} method.

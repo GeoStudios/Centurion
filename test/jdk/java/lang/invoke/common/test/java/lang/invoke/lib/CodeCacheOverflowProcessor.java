@@ -21,7 +21,21 @@
 
 package test.java.lang.invoke.lib;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class used to catch and process VirtualMachineError with message "Out

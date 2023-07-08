@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.canGetOwnedMonitorInfo;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the cangetinfo001 JDI test.
@@ -76,6 +90,7 @@ public class cangetinfo001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -96,6 +111,7 @@ public class cangetinfo001a {
                          thread2 = new
                               Threadcangetinfo001a("Thread2");
                          log1("       thread2 is created");
+
 
                      label: {
                          synchronized (Threadcangetinfo001a.lockingObject) {
@@ -148,6 +164,7 @@ public class cangetinfo001a {
     }
 }
 
+
 class Threadcangetinfo001a extends Thread {
 
     public Threadcangetinfo001a(String threadName) {
@@ -159,6 +176,7 @@ class Threadcangetinfo001a extends Thread {
 
     public static Object waitnotifyObj = new Object();
     public static Object lockingObject = new Object();
+
 
     private int i1 = 0, i2 = 10;
 
@@ -178,6 +196,7 @@ class Threadcangetinfo001a extends Thread {
         log("method 'run' exit");
         return;
     }
+
 
     void log(String str) {
         cangetinfo001a.log2("thread2/4: " + str);

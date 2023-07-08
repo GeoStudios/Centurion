@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.io.*;
 import java.util.*;
 import java.awt.*;
@@ -33,6 +34,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Lists objects along with their types */
 
@@ -273,6 +288,7 @@ public class ObjectListPanel extends SAPanel {
           dataModel.fireTableStructureChanged();
         }
       };
+
 
     if (VM.getVM().getRevPtrs() != null) {
       cutoverButtonRunnable.run();

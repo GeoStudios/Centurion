@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This class represents a modification item.
   * It consists of a modification code and an attribute on which to operate.

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DREM - Remainder of doubles
@@ -39,6 +56,7 @@ public class DREM extends ArithmeticInstruction {
     public DREM() {
         super(com.sun.org.apache.bcel.internal.Const.DREM);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

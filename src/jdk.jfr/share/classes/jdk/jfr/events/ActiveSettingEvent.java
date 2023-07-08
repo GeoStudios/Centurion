@@ -21,11 +21,26 @@
 
 package jdk.jfr.share.classes.jdk.jfr.events;
 
+
 import jdk.jfr.share.classes.jdk.jfr.Category;
 import jdk.jfr.share.classes.jdk.jfr.Label;
 import jdk.jfr.share.classes.jdk.jfr.Name;
 import jdk.jfr.share.classes.jdk.jfr.StackTrace;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Name(Type.EVENT_NAME_PREFIX + "ActiveSetting")
 @Label("Recording Setting")

@@ -21,11 +21,25 @@
 
 package nsk.stress.strace;
 
+
 import nsk.share.ArgumentParser;
 import nsk.share.Failure;
 import nsk.share.Log;
 import java.io.PrintStream;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,6 +65,9 @@ import java.util.Map;
  * @run main/othervm nsk.stress.strace.strace010
  */
 
+
+
+
 /**
  * The test runs <code>THRD_COUNT</code> instances of <code>strace010Thread</code>,
  * that recursively invoke a pure java method. After arriving at defined depth
@@ -71,6 +88,7 @@ public class strace010 {
             "nsk.stress.strace.strace010Thread.run",
             "nsk.stress.strace.strace010Thread.recursiveMethod"
     };
+
 
     static PrintStream out;
     static long waitTime = 2;

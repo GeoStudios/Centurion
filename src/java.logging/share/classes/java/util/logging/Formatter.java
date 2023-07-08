@@ -21,6 +21,22 @@
 
 package java.logging.share.classes.java.util.logging;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A Formatter provides support for formatting LogRecords.
  * <p>
@@ -55,6 +71,7 @@ public abstract class Formatter {
      */
     public abstract String format(LogRecord record);
 
+
     /**
      * Return the header string for a set of formatted records.
      * <p>
@@ -80,6 +97,7 @@ public abstract class Formatter {
     public String getTail(Handler h) {
         return "";
     }
+
 
     /**
      * Localize and format the message string from a log record.  This

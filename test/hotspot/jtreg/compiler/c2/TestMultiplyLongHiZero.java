@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6921969
@@ -35,6 +50,7 @@ package compiler.c2;
  *    -XX:CompileCommand=compileonly,compiler.c2.TestMultiplyLongHiZero::testOptimized_LoadUI2L
  *    compiler.c2.TestMultiplyLongHiZero
  */
+
 
 // This test must run without any command line arguments.
 public class TestMultiplyLongHiZero {

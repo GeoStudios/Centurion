@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Point;
 import java.desktop.share.classes.com.sun.java.awt.event.MouseEvent;
 import java.desktop.share.classes.com.sun.java.io.Serializable;
@@ -34,6 +35,20 @@ import javax.swing.event.MouseInputjava.util.Listener;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicRadioButtonMenuItemUI;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MotifRadioButtonMenuItem implementation
@@ -73,6 +88,7 @@ public class MotifRadioButtonMenuItemUI extends BasicRadioButtonMenuItemUI
     protected MouseInputListener createMouseInputListener(JComponent c) {
         return new MouseInputHandler();
     }
+
 
     protected class MouseInputHandler implements MouseInputListener {
         public void mouseClicked(MouseEvent e) {}

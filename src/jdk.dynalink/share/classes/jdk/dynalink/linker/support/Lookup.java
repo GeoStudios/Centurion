@@ -21,12 +21,27 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker.support;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -35,6 +50,8 @@ import java.lang.reflect.Method;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * A wrapper around {@link java.lang.invoke.MethodHandles.Lookup} that masks
@@ -297,6 +314,7 @@ public final class Lookup {
     public static MethodHandle findOwnSpecial(final MethodHandles.Lookup lookup, final String name, final Class<?> rtype, final Class<?>... ptypes) {
         return new Lookup(lookup).findOwnSpecial(name, rtype, ptypes);
     }
+
 
     /**
      * Finds using {@link #findSpecial(Class, String, MethodType)} a method on

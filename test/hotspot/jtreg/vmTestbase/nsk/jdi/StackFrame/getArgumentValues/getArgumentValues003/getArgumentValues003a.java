@@ -21,8 +21,22 @@
 
 package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues003;
 
+
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Debuggee class, handles command to start and stop test thread
 public class getArgumentValues003a extends AbstractJDIDebuggee {

@@ -21,8 +21,22 @@
 
 package nsk.stress.except;
 
+
 import java.io.PrintStream;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -62,6 +76,8 @@ import java.util.Random;
  *
  * @run main/othervm -Xms50M -Xmx200M nsk.stress.except.except012
  */
+
+
 
 /**
  * This checks if various exceptions are thrown (and caught) correctly

@@ -21,11 +21,25 @@
 
 package nsk.jdi.ArrayReference.getValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getvalue002 {
     final static int MIN_INDEX = -50;

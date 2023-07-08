@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Fonts;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.GREEN;.extended
@@ -38,6 +39,20 @@ import java.awt.geom.AffineTransform;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedString;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Rendering text as an outline shape.

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.image.ImageConsumer;
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ImageFilter class for scaling images using a simple area averaging

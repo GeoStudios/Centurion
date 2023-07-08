@@ -21,8 +21,22 @@
 
 package nsk.share.gc.lock.jvmti;
 
+
 import nsk.share.gc.lock.Lockers;
 import nsk.share.gc.lock.Locker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JVMTIAllocLockers implements Lockers {
         public Locker createLocker(Object obj) {

@@ -21,6 +21,21 @@
 
 package compiler.memoryinitialization;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8086053
@@ -30,6 +45,7 @@ package compiler.memoryinitialization;
  * @run main/othervm -Xcomp -XX:-UseTLAB -XX:+ZeroTLAB compiler.memoryinitialization.ZeroTLABTest
  * @run main/othervm -Xcomp -XX:-UseTLAB -XX:-ZeroTLAB compiler.memoryinitialization.ZeroTLABTest
  */
+
 
 public class ZeroTLABTest {
     public static void main(String args[]) {

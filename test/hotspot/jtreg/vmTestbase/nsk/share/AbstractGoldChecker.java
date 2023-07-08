@@ -21,7 +21,21 @@
 
 package nsk.share;
 
+
 import java.io.UnsupportedEncodingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractGoldChecker {
 

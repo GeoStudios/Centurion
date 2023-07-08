@@ -21,6 +21,22 @@
 
 package gc;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * test TestMemoryInitialization
  * bug 4668531

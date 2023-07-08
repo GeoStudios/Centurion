@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
@@ -33,6 +48,9 @@ import java.io.Writer;
 /*
  * $Id: WriterToUTF8Buffered.java,v 1.2.4.1 2005/09/15 08:15:31 suresh_emailid Exp $
  */
+
+
+
 
 /**
  * This class writes unicode characters to a byte stream (java.io.OutputStream)
@@ -172,6 +190,7 @@ final class WriterToUTF8Buffered extends Writer implements WriterChain
 
   }
 
+
   /**
    * Write a portion of an array of characters.
    *
@@ -247,12 +266,15 @@ final class WriterToUTF8Buffered extends Writer implements WriterChain
                 }
             }
 
+
             int len_chunk = (end_chunk - start_chunk);
             this.write(chars,start_chunk, len_chunk);
         }
         return;
       }
     }
+
+
 
     final int n = length+start;
     final byte[] buf_loc = m_outputBytes; // local reference for faster access
@@ -378,6 +400,7 @@ final class WriterToUTF8Buffered extends Writer implements WriterChain
          return;
       }
     }
+
 
     s.getChars(0, length , m_inputChars, 0);
     final char[] chars = m_inputChars;

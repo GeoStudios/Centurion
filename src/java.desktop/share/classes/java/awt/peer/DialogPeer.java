@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link Dialog}. This adds a couple of dialog specific

@@ -21,6 +21,7 @@
 
 package p;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -41,6 +42,19 @@ import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 import static org.testng.Assert.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Basic test of package-info in named module and duplicate
@@ -54,6 +68,11 @@ import static org.testng.Assert.*;.extended
  * @compile package-info.java PackageInfoTest.java
  * @run testng p.PackageInfoTest
  */
+
+
+
+
+
 
 public class PackageInfoTest {
     @DataProvider(name = "jdkClasses")

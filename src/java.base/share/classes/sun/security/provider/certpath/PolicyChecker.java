@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
@@ -41,6 +42,20 @@ import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extend
 import java.base.share.classes.sun.security.x509.PolicyInformation;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
 import java.base.share.classes.sun.security.x509.InhibitAnyPolicyExtension;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PolicyChecker is a <code>PKIXCertPathChecker</code> that checks policy
@@ -549,6 +564,7 @@ class PolicyChecker extends PKIXCertPathChecker {
                 rootNode = rewriteLeafNodes(certIndex, initPolicies, rootNode);
             }
         }
+
 
         if (finalCert) {
             // PKIX: Section 6.1.5: Steps (a) and (b)

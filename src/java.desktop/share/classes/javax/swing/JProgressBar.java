@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Graphics;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
@@ -40,6 +41,20 @@ import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
 import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import java.desktop.share.classes.javax.swing.plaf.ProgressBarUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A component that visually displays the progress of some task.  As the task
@@ -229,6 +244,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
      */
     private boolean indeterminate;
 
+
    /**
      * Creates a horizontal progress bar
      * that displays a border but no progress string.
@@ -269,6 +285,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         this(orient, defaultMinimum, defaultMaximum);
     }
 
+
     /**
      * Creates a horizontal progress bar
      * with the specified minimum and maximum.
@@ -294,6 +311,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
     {
         this(defaultOrientation, min, max);
     }
+
 
     /**
      * Creates a progress bar using the specified orientation,
@@ -333,6 +351,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         setIndeterminate(false);     // see setIndeterminate
     }
 
+
     /**
      * Creates a horizontal progress bar
      * that uses the specified model
@@ -359,6 +378,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         setIndeterminate(false);             // see setIndeterminate
     }
 
+
     /**
      * Returns {@code SwingConstants.VERTICAL} or
      * {@code SwingConstants.HORIZONTAL}, depending on the orientation
@@ -371,6 +391,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
     public int getOrientation() {
         return orientation;
     }
+
 
    /**
      * Sets the progress bar's orientation to <code>newOrientation</code>,
@@ -412,6 +433,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         }
     }
 
+
     /**
      * Returns the value of the <code>stringPainted</code> property.
      *
@@ -422,6 +444,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
     public boolean isStringPainted() {
         return paintString;
     }
+
 
     /**
      * Sets the value of the <code>stringPainted</code> property,
@@ -449,6 +472,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
             repaint();
         }
     }
+
 
     /**
      * Returns a {@code String} representation of the current progress.
@@ -560,6 +584,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         }
     }
 
+
     /**
      * Returns the look-and-feel object that renders this component.
      *
@@ -581,6 +606,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         super.setUI(ui);
     }
 
+
     /**
      * Resets the UI property to a value from the current look and feel.
      *
@@ -589,6 +615,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
     public void updateUI() {
         setUI((ProgressBarUI)UIManager.getUI(this));
     }
+
 
     /**
      * Returns the name of the look-and-feel class that renders this component.
@@ -602,6 +629,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /* We pass each Change event to the listeners with the
      * the progress bar as the event source.
@@ -754,6 +782,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         }
     }
 
+
     /* All of the model methods are implemented by delegation. */
 
     /**
@@ -904,6 +933,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
         return indeterminate;
     }
 
+
     /**
      * See readObject() and writeObject() in JComponent for more
      * information about serialization in Swing.
@@ -919,6 +949,7 @@ public class JProgressBar extends JComponent implements SwingConstants, Accessib
             }
         }
     }
+
 
     /**
      * Returns a string representation of this <code>JProgressBar</code>.

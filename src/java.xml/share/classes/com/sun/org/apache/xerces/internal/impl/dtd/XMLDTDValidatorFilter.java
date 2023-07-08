@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Defines a DTD Validator filter to allow
@@ -52,5 +69,6 @@ public interface XMLDTDValidatorFilter
      * @return true if validator must validate the document
      */
     boolean validate();
+
 
 } // interface XMLDTDValidatorFilter

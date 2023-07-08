@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.desktop.share.classes.javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.Insets;
 import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A special painter implementation for tool bar separators in Nimbus.

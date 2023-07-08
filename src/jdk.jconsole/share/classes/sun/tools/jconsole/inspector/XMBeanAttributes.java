@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import java.awt.Component;
 import java.awt.EventQueue;
 import java.awt.Dimension;
@@ -60,6 +61,20 @@ import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
 import jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*IMPORTANT :
   There is a deadlock issue there if we don't synchronize well loadAttributes,
@@ -271,6 +286,7 @@ public class XMBeanAttributes extends XTable {
             return null;
         }
     }
+
 
     public String getValueName(int row) {
         int index = convertRowToIndex(row);
@@ -659,6 +675,7 @@ public class XMBeanAttributes extends XTable {
         if (isEditing()) stopCellEditing();
         super.sortRequested(column);
     }
+
 
     @Override
     public synchronized void emptyTable() {

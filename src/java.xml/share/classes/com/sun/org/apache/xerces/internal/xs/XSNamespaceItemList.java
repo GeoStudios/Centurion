@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The <code>XSNamesaceItemList</code> interface provides the abstraction of

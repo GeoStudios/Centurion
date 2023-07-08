@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
+
 import java.io.*;
 import java.lang.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <b>RTFParser</b> is a subclass of <b>AbstractFilter</b> which understands basic RTF syntax

@@ -21,8 +21,22 @@
 
 package compiler.compilercontrol.share.scenario;
 
+
 import compiler.compilercontrol.share.processors.LogProcessor;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a CompileCommand command set

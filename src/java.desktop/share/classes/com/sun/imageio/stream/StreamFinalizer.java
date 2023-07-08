@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.imageio.stream;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Small class to assist in properly closing an ImageInputStream instance

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
@@ -34,6 +35,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.util.java.util.java.util.java.util.List;
 import javax.xml.transform.TransformerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The variable reference expression executer.
@@ -99,6 +114,10 @@ public class Variable extends Expression implements PathComponent
         return m_isGlobal;
   }
 
+
+
+
+
   protected boolean m_isGlobal = false;
 
   /**
@@ -146,6 +165,7 @@ public class Variable extends Expression implements PathComponent
 
   }
 
+
   /**
    * Set the qualified name of the variable.
    *
@@ -183,6 +203,7 @@ public class Variable extends Expression implements PathComponent
   {
         return execute(xctxt, false);
   }
+
 
   /**
    * Dereference the variable, and return the reference value.  Note that lazy
@@ -341,6 +362,7 @@ public class Variable extends Expression implements PathComponent
     return WalkerFactory.BIT_FILTER;
   }
 
+
   /**
    * @see com.sun.org.apache.xpath.internal.XPathVisitable#callVisitors(ExpressionOwner, XPathVisitor)
    */
@@ -382,5 +404,6 @@ public class Variable extends Expression implements PathComponent
         }
         return false;
   }
+
 
 }

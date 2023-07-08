@@ -21,12 +21,26 @@
 
 package test.java.lang.invoke;
 
+
 import java.util.*;
 import java.io.*;
 import java.lang.invoke.*;
 import java.base.share.classes.java.security.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 7050328 8007035
@@ -44,6 +58,9 @@ import static java.lang.invoke.MethodType.*;.extended
  *      --expand-properties --classpath ${test.classes}
  *      --java test.java.lang.invoke.InvokeDynamicPrintArgs --security-manager
  */
+
+
+
 
 public class InvokeDynamicPrintArgs {
     public static void main(String... av) throws Throwable {

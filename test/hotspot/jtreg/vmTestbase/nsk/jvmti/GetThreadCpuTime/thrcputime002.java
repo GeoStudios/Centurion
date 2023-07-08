@@ -21,9 +21,23 @@
 
 package nsk.jvmti.GetThreadCpuTime;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Debuggee class for this test. */
 public class thrcputime002 extends DebugeeClass {

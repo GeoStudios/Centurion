@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -116,6 +117,20 @@ import java.desktop.share.classes.sun.awt.AWTAccessor;
 import java.desktop.share.classes.sun.awt.AWTAccessor.MouseEventAccessor;
 import java.desktop.share.classes.sun.awt.shell.ShellFolder;
 import java.desktop.share.classes.sun.awt.shell.ShellFolderColumnInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <b>WARNING:</b> This class is an implementation detail and is only
@@ -625,6 +640,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
         addActionsToMap(super.getActionMap(), getActions());
     }
 
+
     public static void addActionsToMap(ActionMap map, Action[] actions) {
         if (map != null && actions != null) {
             for (Action a : actions) {
@@ -636,6 +652,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
             }
         }
     }
+
 
     private void updateListRowCount(JList<?> list) {
         if (smallIconsView) {
@@ -933,6 +950,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
         }
     }
 
+
     private void updateDetailsColumnModel(JTable table) {
         if (table != null) {
             ShellFolderColumnInfo[] columns = detailsTableModel.getColumns();
@@ -1130,6 +1148,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
             }
             super.setBounds(x, y, width, height);
         }
+
 
         public Insets getInsets(Insets i) {
             // Provide some space between columns
@@ -1388,6 +1407,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
         }
     }
 
+
     /**
      * Creates a selection listener for the list of files and directories.
      *
@@ -1472,6 +1492,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
             break;
         }
     }
+
 
     class EditActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -1591,6 +1612,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
             return this;
         }
     }
+
 
     @SuppressWarnings("deprecation")
     void setFileSelected() {
@@ -1879,6 +1901,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
         return contextMenu;
     }
 
+
     private Handler handler;
 
     protected Handler getMouseHandler() {
@@ -2031,6 +2054,7 @@ public class FilePane extends JPanel implements PropertyChangeListener {
     protected boolean isDirectorySelected() {
         return fileChooserUIAccessor.isDirectorySelected();
     }
+
 
     /**
      * Property to remember the directory that is currently selected in the UI.

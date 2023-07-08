@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.awt.Graphics;
@@ -28,6 +29,20 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Polygon;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Icons appropriate for the basic L &amp; F.
@@ -192,6 +207,7 @@ public class BasicIconFactory implements Serializable
         }
     } // end class RadioButtonIcon
 
+
     private static class CheckBoxMenuItemIcon implements Icon, UIResource, Serializable
     {
         public void paintIcon(Component c, Graphics g, int x, int y) {
@@ -213,6 +229,7 @@ public class BasicIconFactory implements Serializable
 
     } // End class CheckBoxMenuItemIcon
 
+
     private static class RadioButtonMenuItemIcon implements Icon, UIResource, Serializable
     {
         public void paintIcon(Component c, Graphics g, int x, int y) {
@@ -226,6 +243,7 @@ public class BasicIconFactory implements Serializable
         public int getIconHeight() { return 6; }
 
     } // End class RadioButtonMenuItemIcon
+
 
     private static class MenuItemCheckIcon implements Icon, UIResource, Serializable{
         public void paintIcon(Component c, Graphics g, int x, int y) {

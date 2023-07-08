@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SynthBorder is a border that delegates to a Painter. The Insets

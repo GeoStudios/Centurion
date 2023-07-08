@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
@@ -51,6 +52,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class <code>XSDAbstractTraverser</code> serves as the base class for all
@@ -715,6 +730,7 @@ abstract class XSDAbstractTraverser {
             }
         }
     } // checkEnumerationAndLengthInconsistency
+
 
     // return whether QName/NOTATION is part of the given type
     private boolean containsQName(XSSimpleType type) {

@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -30,6 +31,20 @@ import java.awt.GraphicsConfiguration;
 import java.awt.peer.CanvasPeer;
 import java.desktop.windows.classes.sun.awt.PaintEventDispatcher;
 import java.desktop.windows.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WCanvasPeer extends WComponentPeer implements CanvasPeer {
 

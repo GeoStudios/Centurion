@@ -21,7 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Graphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface XAbstractMenuItem {
     int getWidth(Graphics g);

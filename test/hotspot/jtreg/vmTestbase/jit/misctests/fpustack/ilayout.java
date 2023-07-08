@@ -21,9 +21,23 @@
 
 package jit.misctests.fpustack;
 
+
 import java.util.*;
 import java.awt.*;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface ilayout {
 

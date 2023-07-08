@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
+
 import java.xml.share.classes.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAX2 extension handler for DTD declaration events.
@@ -72,6 +87,7 @@ public interface DeclHandler
     void elementDecl (String name, String model)
         throws SAXException;
 
+
     /**
      * Report an attribute type declaration.
      *
@@ -104,6 +120,7 @@ public interface DeclHandler
                                String value)
         throws SAXException;
 
+
     /**
      * Report an internal entity declaration.
      *
@@ -120,6 +137,7 @@ public interface DeclHandler
      */
     void internalEntityDecl (String name, String value)
         throws SAXException;
+
 
     /**
      * Report a parsed external entity declaration.

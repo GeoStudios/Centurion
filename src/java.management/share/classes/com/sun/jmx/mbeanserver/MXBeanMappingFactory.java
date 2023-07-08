@@ -21,10 +21,25 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import javax.management.openmbean.*;
 import java.management.share.classes.com.sun.jmx.mbeanserver.MXBeanMapping;
 import java.management.share.classes.com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory;
 import java.lang.reflect.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Defines how types are mapped for a given MXBean or set of MXBeans.

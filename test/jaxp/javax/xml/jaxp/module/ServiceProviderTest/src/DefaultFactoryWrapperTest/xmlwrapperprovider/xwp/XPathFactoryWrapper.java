@@ -21,11 +21,25 @@
 
 package xwp;
 
+
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPathFactoryConfigurationException;
 import javax.xml.xpath.XPathFunctionResolver;
 import javax.xml.xpath.XPathVariableResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XPathFactoryWrapper extends XPathFactory {
     private XPathFactory defaultImpl = XPathFactory.newDefaultInstance();

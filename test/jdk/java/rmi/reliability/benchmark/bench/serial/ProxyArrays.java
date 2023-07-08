@@ -21,6 +21,7 @@
 
 package bench.serial;
 
+
 import bench.Benchmark;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -30,9 +31,24 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *
  */
+
+
 
 /**
  * Benchmark for testing speed of proxy array reads/writes.

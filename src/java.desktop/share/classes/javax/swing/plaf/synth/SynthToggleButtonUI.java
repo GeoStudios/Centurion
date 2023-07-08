@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Graphics;
 import java.desktop.share.classes.javax.swing.AbstractButton;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

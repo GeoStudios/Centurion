@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.ComponentOrientation;
 import java.beans.*;
 import java.io.File;
@@ -29,6 +30,20 @@ import javax.swing.*;
 import javax.swing.event.java.util.ListDataEvent;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.table.AbstractTableModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NavServices-like implementation of a file Table

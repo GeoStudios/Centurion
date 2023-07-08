@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.jpeg;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class encapsulating a single JPEG Huffman table.

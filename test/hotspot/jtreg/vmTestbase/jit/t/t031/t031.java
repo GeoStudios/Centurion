@@ -21,8 +21,22 @@
 
 package jit.t.t031;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,9 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t031.t031
  */
+
+
+
 
 // opc_fcmpg, opc_fcmpl
 

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
@@ -38,6 +39,20 @@ import sun.swing.DefaultLayoutStyle;
 import static java.desktop.share.classes.javax.swing.UIDefaults.LazyValue;.extended
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java Look and Feel, otherwise known as Metal.
@@ -77,6 +92,7 @@ public class MetalLookAndFeel extends BasicLookAndFeel
 {
 
     private static boolean METAL_LOOK_AND_FEEL_INITED = false;
+
 
     /**
      * True if checked for windows yet.
@@ -761,6 +777,7 @@ public class MetalLookAndFeel extends BasicLookAndFeel
                           "KP_DOWN", "decrement",
               }),
 
+
             // Buttons
             "Button.defaultButtonFollowsFocus", Boolean.FALSE,
             "Button.disabledText", inactiveControlTextColor,
@@ -812,6 +829,7 @@ public class MetalLookAndFeel extends BasicLookAndFeel
                    "released SPACE", "released"
                 }),
 
+
             // File View
             "FileView.directoryIcon",(LazyValue) t -> MetalIconFactory.getTreeFolderIcon(),
             "FileView.fileIcon",(LazyValue) t -> MetalIconFactory.getTreeLeafIcon(),
@@ -834,6 +852,7 @@ public class MetalLookAndFeel extends BasicLookAndFeel
                      "F5", "refresh",
                      "BACK_SPACE", "Go Up"
                  }),
+
 
             // ToolTip
             "ToolTip.font", systemTextValue,
@@ -2120,6 +2139,7 @@ public class MetalLookAndFeel extends BasicLookAndFeel
      */
     public static ColorUIResource getAcceleratorSelectedForeground() { return getCurrentTheme().getAcceleratorSelectedForeground(); }
 
+
     /**
      * Returns a {@code LayoutStyle} implementing the Java look and feel
      * design guidelines as specified at
@@ -2131,6 +2151,7 @@ public class MetalLookAndFeel extends BasicLookAndFeel
     public LayoutStyle getLayoutStyle() {
         return MetalLayoutStyle.INSTANCE;
     }
+
 
     /**
      * FontActiveValue redirects to the appropriate metal theme method.

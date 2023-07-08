@@ -21,11 +21,26 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
+
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
 import java.util.Vector;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1 KRBSafeBody type.
@@ -73,6 +88,7 @@ public class KRBSafeBody {
         sAddress = new_sAddress;
         rAddress = new_rAddress;
     }
+
 
     /**
      * Constructs a KRBSafeBody object.
@@ -161,5 +177,7 @@ public class KRBSafeBody {
             return new KRBSafeBody(subDer);
         }
     }
+
+
 
 }

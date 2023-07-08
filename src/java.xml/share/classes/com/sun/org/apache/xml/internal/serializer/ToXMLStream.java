@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.Result;
@@ -29,6 +30,20 @@ import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class converts SAX or SAX-like calls to a
@@ -48,6 +63,7 @@ public final class ToXMLStream extends ToStream
      * remembers if we need to write out "]]>" to close the CDATA
      */
     boolean m_cdataTagOpen = false;
+
 
     /**
      * Map that tells which XML characters should have special treatment, and it
@@ -87,6 +103,7 @@ public final class ToXMLStream extends ToStream
     {
 
         m_writer = xmlListener.m_writer;
+
 
         // m_outputStream = xmlListener.m_outputStream;
         String encoding = xmlListener.getEncoding();
@@ -341,6 +358,7 @@ public final class ToXMLStream extends ToStream
                 if (m_elemContext.m_currentElemDepth <= 0 && m_isStandalone)
                     writer.write(m_lineSep, 0, m_lineSepLen);
 
+
                 /*
                  * Don't write out any indentation whitespace now,
                  * because there may be non-whitespace text after this.
@@ -468,6 +486,7 @@ public final class ToXMLStream extends ToStream
         {
             boolean was_added = addAttributeAlways(uri, localName, rawName, type, value, xslAttribute);
 
+
             /*
              * We don't run this block of code if:
              * 1. The attribute value was only replaced (was_added is false).
@@ -517,6 +536,7 @@ public final class ToXMLStream extends ToStream
                 // Prepare to issue the warning message
                 Transformer tran = super.getTransformer();
                 ErrorListener errHandler = tran.getErrorListener();
+
 
                 // Issue the warning message
                 if (null != errHandler && m_sourceLocator != null)

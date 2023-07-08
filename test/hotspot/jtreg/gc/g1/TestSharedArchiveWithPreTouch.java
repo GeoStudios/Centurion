@@ -21,12 +21,26 @@
 
 package gc.g1;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,8 @@ import jdk.test.lib.process.OutputAnalyzer;
  *          java.management
  * @run driver gc.g1.TestSharedArchiveWithPreTouch
  */
+
+
 
 public class TestSharedArchiveWithPreTouch {
     public static void main(String[] args) throws Exception {

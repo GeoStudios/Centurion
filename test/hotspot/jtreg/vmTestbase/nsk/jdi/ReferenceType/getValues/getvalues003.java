@@ -21,6 +21,7 @@
 
 package nsk.jdi.ReferenceType.getValues;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -29,6 +30,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that the JDI method
@@ -145,6 +159,7 @@ public class getvalues003 {
                 ArrayList<Field> flds = new ArrayList<Field>();
                 int appIx = 0;
                 int obtIx = 0;
+
 
                 for (int i=0; i<FLD_NUM; i++) {
                     // get reference type ##

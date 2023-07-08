@@ -21,6 +21,7 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.WrongMethodTypeException;
@@ -28,6 +29,19 @@ import java.base.share.classes.java.util.Arrays;
 import nsk.share.test.TestUtils;
 import vm.mlvm.meth.share.Argument;
 import vm.mlvm.meth.share.Arguments;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MHDropTF extends MHInsertOrDropTF {
 

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class redefclass021 {
 
@@ -75,6 +89,7 @@ public class redefclass021 {
         return check(redefclass021a.class, bytes);
     }
 }
+
 
 class redefclass021a {
     int intValue;

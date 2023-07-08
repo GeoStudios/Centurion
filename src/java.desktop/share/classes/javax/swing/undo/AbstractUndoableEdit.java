@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
+
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.UIManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract implementation of <code>UndoableEdit</code>,

@@ -21,9 +21,23 @@
 
 package nsk.jdi.Method.locationsOfLine_ssi;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the locationsofline_ssi001 JDI test.
@@ -71,6 +85,7 @@ public class locationsofline_ssi001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -122,6 +137,8 @@ class TestClass {
     public short   sh () { return 0;     }
 
     public void vd () { return ; }
+
+
 
    public void primitiveargsmethod ( boolean bl,  byte bt ) {
        boolean bl1 = bl;

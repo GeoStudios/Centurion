@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.print;
 
+
 import java.net.URI;
 import java.net.URL;
 import java.io.BufferedInputStream;
@@ -77,6 +78,20 @@ import java.awt.print.Pageable;
 import java.awt.print.Paper;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UnixPrintJob implements CancelablePrintJob {
     private static final String debugPrefix = "UnixPrintJob>> ";
@@ -163,6 +178,7 @@ public class UnixPrintJob implements CancelablePrintJob {
             }
         }
     }
+
 
     /* Closes any stream already retrieved for the data.
      * We want to avoid unnecessarily asking the Doc to create a stream only

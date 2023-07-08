@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6795362
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6795362::sub
  *      compiler.c2.Test6795362
  */
+
 
 public class Test6795362 {
     public static void main(String[] args)

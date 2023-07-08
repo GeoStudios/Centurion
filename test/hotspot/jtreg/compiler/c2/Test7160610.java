@@ -21,8 +21,22 @@
 
 package compiler.c2;
 
+
 import jdk.test.lib.Utils;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,9 @@ import java.util.Random;
  * @library /test/lib
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:-OptimizeFill compiler.c2.Test7160610
  */
+
+
+
 
 public class Test7160610 {
   private static final byte[] BYTE_ARRAY = new byte[7];

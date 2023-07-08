@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.applet.Applet;
 import java.awt.AWTKeyStroke;
 import java.awt.Component;
@@ -43,6 +44,20 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.io.Serial;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generic container used for embedding Java components, usually applets.
@@ -88,6 +103,7 @@ public abstract class EmbeddedFrame extends Frame
     protected EmbeddedFrame(boolean supportsXEmbed) {
         this(0, supportsXEmbed);
     }
+
 
     protected EmbeddedFrame() {
         this((long)0);

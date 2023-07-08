@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.Button;
@@ -107,6 +108,20 @@ import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_VBGR;.extended
 import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_VRGB;.extended
 import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_ON;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class SunToolkit extends Toolkit
     implements ComponentFactory, InputMethodSupport, KeyboardFocusManagerPeerProvider {
 
@@ -144,6 +159,7 @@ public abstract class SunToolkit extends Toolkit
      * fit into int type range, use our own MAX_BUTTONS_SUPPORT value.
      */
     protected static int numberOfButtons = 0;
+
 
     /* XFree standard mention 24 buttons as maximum:
      * http://www.xfree86.org/current/mouse.4.html
@@ -678,6 +694,7 @@ public abstract class SunToolkit extends Toolkit
         return AccessController.doPrivileged(new GetBooleanAction("sun.awt.erasebackgroundonresize"));
     }
 
+
     @SuppressWarnings("deprecation")
     static final SoftCache fileImgCache = new SoftCache();
 
@@ -754,6 +771,7 @@ public abstract class SunToolkit extends Toolkit
             return image;
         }
     }
+
 
     @Override
     public Image createImage(String filename) {
@@ -1804,6 +1822,7 @@ public abstract class SunToolkit extends Toolkit
         }
     }
 
+
     public abstract boolean isDesktopSupported();
     public abstract boolean isTaskbarSupported();
 
@@ -2043,6 +2062,7 @@ public abstract class SunToolkit extends Toolkit
     }
 
 } // class SunToolkit
+
 
 /*
  * PostEventQueue is a Thread that runs in the same AppContext as the

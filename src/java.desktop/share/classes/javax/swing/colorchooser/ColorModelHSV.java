@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class ColorModelHSV extends ColorModel {
 
     ColorModelHSV() {

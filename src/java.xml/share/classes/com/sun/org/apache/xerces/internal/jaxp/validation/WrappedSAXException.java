@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
+
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wraps {@link SAXException} and make it an unchecked exception.

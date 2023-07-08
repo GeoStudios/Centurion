@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.lang.ref.Reference;
 import java.desktop.share.classes.java.lang.reflect.Method;
 import java.desktop.share.classes.java.lang.reflect.Constructor;
 import java.desktop.share.classes.java.util.Map.Entry;
 import com.sun.beans.introspect.PropertyInfo;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A PropertyDescriptor describes one property that a Java Bean
@@ -412,6 +427,7 @@ public class PropertyDescriptor extends FeatureDescriptor {
         this.constrained = constrained;
     }
 
+
     /**
      * Normally PropertyEditors will be found using the PropertyEditorManager.
      * However if for some reason you want to associate a particular
@@ -479,6 +495,7 @@ public class PropertyDescriptor extends FeatureDescriptor {
         }
         return (PropertyEditor)editor;
     }
+
 
     /**
      * Compares this {@code PropertyDescriptor} against the specified object.
@@ -615,6 +632,7 @@ public class PropertyDescriptor extends FeatureDescriptor {
             setPropertyEditorClass(x.getPropertyEditorClass());
         }
 
+
         bound = x.bound | y.bound;
         constrained = x.constrained | y.constrained;
     }
@@ -688,6 +706,7 @@ public class PropertyDescriptor extends FeatureDescriptor {
         }
         return propertyType;
     }
+
 
     /**
      * Returns a hash code value for the object.

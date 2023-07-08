@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
+
 import java.math.BigInteger;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.Map;
@@ -32,10 +33,27 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This is the base class to all Objects which have a direct 1:1 mapping to an
@@ -115,6 +133,7 @@ public abstract class ElementProxy {
      */
     public abstract String getBaseLocalName();
 
+
     protected Element createElementForFamilyLocal(
         String namespace, String localName
     ) {
@@ -135,6 +154,7 @@ public abstract class ElementProxy {
         }
         return result;
     }
+
 
     /**
      * This method creates an Element in a given namespace with a given localname.

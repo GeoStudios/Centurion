@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Class {@code AccessibleExtendedTable} provides extended information about a
  * user-interface component that presents data in a two-dimensional table

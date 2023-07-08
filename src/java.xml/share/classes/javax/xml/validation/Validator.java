@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.javax.xml.transform.Result;
 import java.xml.share.classes.javax.xml.transform.Source;
@@ -29,6 +30,20 @@ import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A processor that checks an XML document against {@link Schema}.
@@ -343,6 +358,8 @@ public abstract class Validator {
      * @see #setErrorHandler(ErrorHandler)
      */
     public abstract LSResourceResolver getResourceResolver();
+
+
 
     /**
      * Look up the value of a feature flag.

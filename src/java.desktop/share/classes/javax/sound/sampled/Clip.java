@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Clip} interface represents a special kind of data line whose audio

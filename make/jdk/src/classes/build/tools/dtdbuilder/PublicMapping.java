@@ -21,6 +21,56 @@
 
 package build.tools.dtdbuilder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A class for mapping public identifiers to locations.
  * Note: I'm not sure if there is a more natural mapping

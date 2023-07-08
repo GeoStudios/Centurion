@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
@@ -29,6 +30,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class makes an select statement act like an result tree fragment.
@@ -104,6 +119,7 @@ public class XRTreeFragSelectWrapper extends XRTreeFrag implements Cloneable
 
         throw new RuntimeException(XSLMessages.createXPATHMessage(XPATHErrorResources.ER_NUM_NOT_SUPPORTED_XRTREEFRAGSELECTWRAPPER, null)); //"num() not supported by XRTreeFragSelectWrapper!");
   }
+
 
   /**
    * Cast result object to an XMLString.

@@ -21,6 +21,22 @@
 
 package java.instrument.share.classes.java.lang.instrument;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class serves as a parameter block to the <code>Instrumentation.redefineClasses</code> method.
  * Serves to bind the <code>Class</code> that needs redefining together with the new class file bytes.

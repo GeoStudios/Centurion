@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XSEmptyCM is a derivative of the abstract content model base class that
@@ -66,6 +81,7 @@ public class XSEmptyCM  implements XSCMValidator {
         return (new int[] {STATE_START});
     }
 
+
     /**
      * The method corresponds to one transaction in the content model.
      *
@@ -85,6 +101,7 @@ public class XSEmptyCM  implements XSCMValidator {
         currentState[0] = XSCMValidator.FIRST_ERROR;
         return null;
     }
+
 
     /**
      * The method indicates the end of list of children

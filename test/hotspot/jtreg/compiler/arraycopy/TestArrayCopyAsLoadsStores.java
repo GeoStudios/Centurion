@@ -21,7 +21,21 @@
 
 package compiler.arraycopy;
 
+
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,6 +53,8 @@ import java.base.share.classes.java.util.Arrays;
  *                   -XX:+IgnoreUnrecognizedVMOptions -XX:+StressArrayCopyMacroNode
  *                   compiler.arraycopy.TestArrayCopyAsLoadsStores
  */
+
+
 
 public class TestArrayCopyAsLoadsStores extends TestArrayCopyUtils {
 

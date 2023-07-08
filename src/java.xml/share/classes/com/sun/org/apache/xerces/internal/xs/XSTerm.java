@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Describes a term that can be one of a model group, a wildcard, or an

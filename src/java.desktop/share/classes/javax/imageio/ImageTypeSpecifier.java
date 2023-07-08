@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio;
 
+
 import java.awt.Point;
 import java.awt.Transparency;
 import java.awt.image.BandedSampleModel;
@@ -39,6 +40,20 @@ import java.awt.image.RenderedImage;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class that allows the format of an image (in particular, its
@@ -602,6 +617,7 @@ public class ImageTypeSpecifier {
                 int numBands = hasAlpha ? 2 : 1;
                 int transparency =
                     hasAlpha ? Transparency.TRANSLUCENT : Transparency.OPAQUE;
+
 
                 int[] nBits = new int[numBands];
                 nBits[0] = bits;

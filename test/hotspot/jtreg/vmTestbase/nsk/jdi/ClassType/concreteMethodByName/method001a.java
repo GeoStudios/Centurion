@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.concreteMethodByName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the method001 JDI test.
@@ -72,6 +86,7 @@ public class method001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -142,6 +157,7 @@ class Class1ForCheck {
     long[]   i_prim_array;
     Object[] i_ref_array;
 
+
     public boolean blValue() {
         return true;
     }
@@ -170,9 +186,11 @@ class Class1ForCheck {
         return ;
     }
 
+
     public int[] inArray() {
         return s_int_array;
     }
+
 
     static Class2ForCheck classObj = null;
 
@@ -181,6 +199,7 @@ class Class1ForCheck {
         return classObj;
     }
 
+
     static IfaceForCheck ifaceObj = null;
 
     public IfaceForCheck ifaceMethod() {
@@ -188,6 +207,7 @@ class Class1ForCheck {
         return ifaceObj;
     }
 }
+
 
 interface IfaceForCheck {
     static int ival = 1;

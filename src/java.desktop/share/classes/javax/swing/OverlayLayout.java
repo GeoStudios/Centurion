@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.beans.ConstructorProperties;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A layout manager to arrange components over the top

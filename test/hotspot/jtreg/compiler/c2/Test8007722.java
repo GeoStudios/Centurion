@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import java.util.concurrent.atomic.AtomicReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -31,6 +45,8 @@ import java.util.concurrent.atomic.AtomicReference;
  * @run main/othervm -XX:-UseOnStackReplacement -XX:-BackgroundCompilation
  *      compiler.c2.Test8007722
  */
+
+
 
 public class Test8007722 {
 

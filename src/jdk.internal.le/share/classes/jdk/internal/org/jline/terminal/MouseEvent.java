@@ -21,7 +21,22 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal;
 
+
 import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MouseEvent {
 

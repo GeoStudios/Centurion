@@ -21,10 +21,25 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.*;
 import java.io.*;
 import java.lang.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class that keeps track of a row's values. A <code>Row</code> object
@@ -131,6 +146,7 @@ static final long serialVersionUID = 5047859032611314762L;
         origVals[idx - 1] = val;
     }
 
+
 /**
  *
  * This method is called internally by the <code>CachedRowSet.updateXXX</code>
@@ -189,6 +205,7 @@ static final long serialVersionUID = 5047859032611314762L;
         deleted = true;
     }
 
+
 /**
  * Retrieves the value of this <code>Row</code> object's <code>deleted</code> field,
  * which will be <code>true</code> if one or more of its columns has been
@@ -210,6 +227,7 @@ static final long serialVersionUID = 5047859032611314762L;
         deleted = false;
     }
 
+
 /**
  * Sets the value of this <code>Row</code> object's <code>inserted</code> field
  * to <code>true</code>.
@@ -219,6 +237,7 @@ static final long serialVersionUID = 5047859032611314762L;
     public void setInserted() {
         inserted = true;
     }
+
 
 /**
  * Retrieves the value of this <code>Row</code> object's <code>inserted</code> field,
@@ -231,6 +250,7 @@ static final long serialVersionUID = 5047859032611314762L;
     public boolean getInserted() {
         return(inserted);
     }
+
 
 /**
  * Sets the <code>inserted</code> field for this <code>Row</code> object to

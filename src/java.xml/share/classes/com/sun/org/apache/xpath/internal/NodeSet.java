@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.DOM2Helper;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.ContextNodejava.util.java.util.java.util.List;
@@ -30,6 +31,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The NodeSet class can act as either a NodeVector,
@@ -712,6 +727,7 @@ public class NodeSet
     return addNodeInDocOrder(node, true, support);
   }  // end addNodeInDocOrder(Vector v, Object obj)
 
+
   /** If this node is being used as an iterator, the next index that nextNode()
    *  will return.  */
   transient protected int m_next = 0;
@@ -804,6 +820,7 @@ public class NodeSet
     m_cacheNodes = b;
     m_mutable = true;
   }
+
 
   transient private int m_last = 0;
 

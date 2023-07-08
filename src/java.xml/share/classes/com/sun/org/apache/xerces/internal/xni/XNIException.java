@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * This exception is the base exception of all XNI exceptions. It

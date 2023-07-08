@@ -21,8 +21,23 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
+
 import java.awt.*;
 import java.beans.SimpleBeanInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used by JavaBeans tools and should not be used directly by applications.

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.XPathException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
@@ -30,10 +31,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttribut
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Shortjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Schema identity constraint selector.
@@ -251,6 +268,7 @@ public class Selector {
         public int getInitialDepth() {
             return fInitialDepth;
         } // getInitialDepth():  int
+
 
     } // class Matcher
 

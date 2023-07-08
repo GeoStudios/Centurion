@@ -21,7 +21,21 @@
 
 package jdk.test.lib.jittester;
 
+
 import jdk.test.lib.jittester.types.TypeKlass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Symbol {
 
@@ -80,6 +94,7 @@ public class Symbol {
         return name.hashCode();
     }
 
+
     public boolean isStatic() {
         return (flags & STATIC) > 0;
     }
@@ -107,6 +122,7 @@ public class Symbol {
     public Symbol deepCopy() {
         return new Symbol(this);
     }
+
 
     public TypeKlass getOwner() {
         return owner;

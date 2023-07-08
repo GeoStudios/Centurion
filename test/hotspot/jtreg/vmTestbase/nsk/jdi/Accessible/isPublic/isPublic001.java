@@ -21,12 +21,26 @@
 
 package nsk.jdi.Accessible.isPublic;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>isPublic()</code>
@@ -45,8 +59,10 @@ public class isPublic001 extends Log {
         thisClassName = package_prefix + "isPublic001",
         debugeeName   = thisClassName + "a";
 
+
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
+
 
     /** Debugee's classes for check **/
     private final static String classes_for_check[][] = {
@@ -119,11 +135,14 @@ public class isPublic001 extends Log {
             out_stream = out;
         }
 
+
+
         Debugee debugee;
 
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
+
 
         if (argsHandler.verbose()) {
             debugee = binder.bindToDebugee(debugeeName + " -vbs");
@@ -136,6 +155,7 @@ public class isPublic001 extends Log {
         logHandler.display("==> nsk/jdi/Accessible/isPublic/isPublic001 test LOG:");
         logHandler.display("==> test checks the isPublic() method of Accessible interface");
         logHandler.display("    of the com.sun.jdi package for ArrayType, ClassType, InterfaceType\n");
+
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> isPublic001: isPublic001a debugee launched");

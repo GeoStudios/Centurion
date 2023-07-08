@@ -21,8 +21,23 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
+
 import java.io.PrintWriter;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class PrettyPrinter {
     private final PrintWriter out;

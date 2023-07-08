@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Map;
@@ -29,6 +30,20 @@ import java.util.concurrent.ConcurrentHashMap;
 import javax.lang.model.element.Modifier;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Access flags and other modifiers for Java classes and members.
  *
@@ -384,6 +399,7 @@ public class Flags {
      */
     public static final long NON_SEALED = 1L<<63; // ClassSymbols
 
+
     /** Modifier masks.
      */
     public static final int
@@ -453,6 +469,7 @@ public class Flags {
     public static boolean isConstant(Symbol.VarSymbol symbol) {
         return symbol.getConstValue() != null;
     }
+
 
     public enum Flag {
         PUBLIC(Flags.PUBLIC),

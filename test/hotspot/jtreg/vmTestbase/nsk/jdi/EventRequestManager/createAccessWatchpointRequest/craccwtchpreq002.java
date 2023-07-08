@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequestManager.createAccessWatchpointRequest;
 
+
 import com.sun.jdi.VirtualMachine;
 import com.sun.jdi.Field;
 import com.sun.jdi.request.AccessWatchpointRequest;
@@ -30,6 +31,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that the JDI method

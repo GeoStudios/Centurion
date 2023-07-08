@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is used by the query-building mechanism to represent binary
  * relations.
@@ -42,6 +58,7 @@ class MatchQueryExp extends QueryEval implements QueryExp {
      */
     private String pattern;
 
+
     /**
      * Basic Constructor.
      */
@@ -56,6 +73,7 @@ class MatchQueryExp extends QueryEval implements QueryExp {
         exp     = a;
         pattern = s.getValue();
     }
+
 
     /**
      * Returns the attribute of the query.

@@ -21,8 +21,23 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
+
 import java.datatransfer.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.datatransfer.share.classes.java.io.StringReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Transferable} which implements the capability required to transfer a

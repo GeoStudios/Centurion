@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
@@ -32,10 +33,28 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * <p>The NodeSetDTM class can act as either a NodeVector,
@@ -178,6 +197,7 @@ public class NodeSetDTM extends NodeVector
     }
   }
 
+
   /**
    * Create a NodeSetDTM which contains the given Node.
    *
@@ -209,6 +229,7 @@ public class NodeSetDTM extends NodeVector
   {
     // no-op
   }
+
 
   /**
    * @return The root node of the Iterator, as specified when it was created.
@@ -450,6 +471,7 @@ public class NodeSetDTM extends NodeVector
   {
     // no action for right now.
   }
+
 
   /**
    * Tells if this NodeSetDTM is "fresh", in other words, if
@@ -1243,5 +1265,6 @@ public class NodeSetDTM extends NodeVector
   {
     return -1;
   }
+
 
 }

@@ -21,7 +21,22 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
 import java.nio.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A logical channel connection to a Smart Card. It is used to exchange APDUs

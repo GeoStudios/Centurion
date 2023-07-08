@@ -21,10 +21,24 @@
 
 package transform;
 
+
 import java.util.PropertyPermission;
 import jaxp.library.JAXPTestUtilities;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,10 @@ import org.testng.annotations.Test;
  * @run testng/othervm transform.CLITest
  * @summary Test internal transform CLI.
  */
+
+
+
+
 
 @Listeners({ jaxp.library.FilePolicy.class })
 public class CLITest {

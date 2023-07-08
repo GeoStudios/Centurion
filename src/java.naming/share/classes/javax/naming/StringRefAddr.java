@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class represents the string form of the address of
  * a communications end-point.

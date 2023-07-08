@@ -21,10 +21,25 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.NativeMemorySegmentImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UpcallStubs {
 

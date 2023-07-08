@@ -21,10 +21,25 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
+
 import java.sql.SQLException;
 import java.io.Writer;
 import java.sql.rowset.share.classes.javax.sql.RowSetWriter;
 import java.sql.rowset.share.classes.javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A specialized interface that facilitates an extension of the
@@ -64,5 +79,7 @@ public interface XmlWriter extends RowSetWriter {
    */
   void writeXML(WebRowSet caller, java.io.Writer writer)
     throws SQLException;
+
+
 
 }

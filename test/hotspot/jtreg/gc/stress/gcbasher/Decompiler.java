@@ -21,6 +21,21 @@
 
 package gc.stress.gcbasher;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Decompiler {
     private ByteCursor cursor;
     private ClassInfo ci;

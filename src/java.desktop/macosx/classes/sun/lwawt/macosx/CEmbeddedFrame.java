@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.AWTKeyStroke;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.awt.EmbeddedFrame;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 public class CEmbeddedFrame extends EmbeddedFrame {

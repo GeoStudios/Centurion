@@ -21,12 +21,29 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n;
 
+
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 public class InvalidCanonicalizerException extends XMLSecurityException {
 

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.AWTError;
 import java.awt.AWTException;
 import java.awt.Button;
@@ -145,6 +146,20 @@ import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import static java.desktop.unix.classes.sun.awt.X11.XlibUtil.scaleDown;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class XToolkit extends UNIXToolkit implements Runnable {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XToolkit");
     private static final PlatformLogger eventLog = PlatformLogger.getLogger("sun.awt.X11.event.XToolkit");
@@ -255,6 +270,7 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
         awt_output_flush();
     }
 
+
     private native void nativeLoadSystemColors(int[] systemColors);
 
     static UIDefaults getUIDefaults() {
@@ -269,6 +285,8 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
         nativeLoadSystemColors(systemColors);
         MotifColorUtilities.loadSystemColors(systemColors);
     }
+
+
 
     static void initUIDefaults() {
         try {
@@ -387,6 +405,7 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
     }
 
     static native String getEnv(String key);
+
 
     static String getAWTAppClassName() {
         return awtAppClassName;
@@ -1200,6 +1219,7 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
                                                java.lang.Math.max(1,preferredWidth), java.lang.Math.max(1,preferredHeight));
     }
 
+
     @Override
     public int getMaximumCursorColors() {
         return 2;  // Black and white.
@@ -1681,6 +1701,8 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
 
     }
 
+
+
     static int altMask;
     static int metaMask;
     static int numLockMask;
@@ -1852,6 +1874,7 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
         }
     }
 
+
     private static SortedMap<Long, java.util.List<Runnable>> timeoutTasks;
 
     /**
@@ -1933,6 +1956,7 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
                 timeoutTasks.put(time, tasks);
             }
             tasks.add(task);
+
 
             if (timeoutTasks.get(timeoutTasks.firstKey()) == tasks && tasks.size() == 1) {
                 // Added task became first task - poll won't know
@@ -2167,6 +2191,7 @@ public final class XToolkit extends UNIXToolkit implements Runnable {
     static final int IS_NONSUN_KEYBOARD = 2;
     static final int    IS_KANA_KEYBOARD = 1;
     static final int IS_NONKANA_KEYBOARD = 2;
+
 
     static int     awt_IsXsunKPBehavior = 0;
     static boolean awt_UseXKB         = false;

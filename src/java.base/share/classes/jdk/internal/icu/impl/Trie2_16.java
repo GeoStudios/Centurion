@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -44,6 +59,7 @@ public final class Trie2_16 extends Trie2 {
      */
     Trie2_16() {
     }
+
 
     /**
      * Create a Trie2 from its serialized form.  Inverse of utrie2_serialize().
@@ -116,6 +132,7 @@ public final class Trie2_16 extends Trie2 {
         // Fall through.  The code point is outside of the legal range of 0..0x10ffff.
         return errorValue;
     }
+
 
     /**
      * Get a Trie2 value for a UTF-16 code unit.

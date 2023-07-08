@@ -21,8 +21,23 @@
 
 package java.desktop.windows.classes.sun.java2d.windows;
 
+
 import java.desktop.windows.classes.sun.awt.windows.WToolkit;
 import java.desktop.windows.classes.sun.java2d.opengl.WGLGraphicsConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindowsFlags {
 

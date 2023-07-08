@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.isVerified;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>isVerified()</code>
@@ -48,6 +62,7 @@ public class isverified002 {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "isverified002b";
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

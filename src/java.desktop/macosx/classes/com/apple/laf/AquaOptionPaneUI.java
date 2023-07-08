@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicOptionPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaOptionPaneUI extends BasicOptionPaneUI {
     private static final int kOKCancelButtonWidth = 79;

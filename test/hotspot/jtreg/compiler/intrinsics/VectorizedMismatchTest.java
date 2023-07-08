@@ -21,8 +21,22 @@
 
 package compiler.intrinsics;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.internal.util.java.util.ArraysSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,6 +54,7 @@ import jdk.internal.util.java.util.ArraysSupport;
  *                    -XX:+UnlockDiagnosticVMOptions -XX:UseAVX=3 -XX:AVX3Threshold=0
  *                     compiler.intrinsics.VectorizedMismatchTest
  */
+
 
 public class VectorizedMismatchTest {
     private boolean[] boolean_a = new boolean[128];

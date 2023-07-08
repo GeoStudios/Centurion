@@ -21,7 +21,21 @@
 
 package jit.FloatingPoint.gen_math.Loops02;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,7 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.FloatingPoint.gen_math.Loops02.Loops02
  */
 
+
 // Test working with  loops and random functions.
 
 public class Loops02
@@ -44,6 +59,7 @@ public class Loops02
 
    public static void main (String args[])
    {
+
 
         double x;
         double r1, r2, r3;
@@ -70,6 +86,7 @@ public class Loops02
 
   }
 
+
    public void Echeck(double er, double ER)
    {
 
@@ -83,5 +100,9 @@ public class Loops02
         }
 
    }
+
+
+
+
 
 }

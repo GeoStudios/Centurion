@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface AuxSectionDefinitionsRecord extends AuxSymbolRecord {
   /** Size of section data; same as Size of Raw Data in the section
       header. */

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
 import java.awt.Frame;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements a simple input method window that provides the minimal

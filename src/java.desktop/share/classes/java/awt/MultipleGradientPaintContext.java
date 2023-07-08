@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.MultipleGradientPaint.CycleMethod;
 import java.desktop.share.classes.java.awt.MultipleGradientPaint.ColorSpaceType;
 import java.desktop.share.classes.java.awt.color.ColorSpace;
@@ -37,6 +38,20 @@ import java.desktop.share.classes.java.awt.image.WritableRaster;
 import java.desktop.share.classes.java.lang.ref.SoftReference;
 import java.desktop.share.classes.java.lang.ref.WeakReference;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the superclass for all PaintContexts which use a multiple color
@@ -648,6 +663,7 @@ abstract class MultipleGradientPaintContext implements PaintContext {
 
     protected abstract void fillRaster(int[] pixels, int off, int adjust,
                                        int x, int y, int w, int h);
+
 
     /**
      * Took this cacheRaster code from GradientPaint. It appears to recycle

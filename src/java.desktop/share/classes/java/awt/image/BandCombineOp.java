@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.color.ICC_Profile;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.awt.RenderingHints;
 import sun.awt.image.ImagingLib;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs an arbitrary linear combination of the bands
@@ -218,6 +233,7 @@ public class BandCombineOp implements  RasterOp {
     public final Rectangle2D getBounds2D (Raster src) {
         return src.getBounds();
     }
+
 
     /**
      * Creates a zeroed destination {@code Raster} with the correct size

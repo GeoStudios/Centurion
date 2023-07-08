@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Class provides unused XIDs, used for creating server-side objects
  * created by the java backend.

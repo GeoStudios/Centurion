@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Window;
 import java.awt.Component;
 import java.awt.peer.ComponentPeer;
@@ -28,6 +29,20 @@ import java.desktop.windows.classes.sun.awt.AWTAccessor;
 import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
 import java.desktop.windows.classes.sun.awt.KeyboardFocusManagerPeerImpl;
 import java.awt.event.FocusEvent.Cause;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WKeyboardFocusManagerPeer extends KeyboardFocusManagerPeerImpl {
     static native void setNativeFocusOwner(ComponentPeer peer);

@@ -21,6 +21,7 @@
 
 package compiler.intrinsics.base64;
 
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.nio.ByteBuffer;
@@ -38,6 +39,19 @@ import sun.hotspot.code.Compiler;
 import jtreg.SkippedException;
 import jdk.test.lib.Utils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @author Eric Wang <yiming.wang@oracle.com>
@@ -50,6 +64,9 @@ import jdk.test.lib.Utils;
  *       -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *      compiler.intrinsics.base64.TestBase64
  */
+
+
+
 
 public class TestBase64 {
     static boolean checkOutput = Boolean.getBoolean("checkOutput");

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetLocalVariable;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getlocal001 {
 

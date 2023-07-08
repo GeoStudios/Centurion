@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This exception is thrown to indicate that the result being returned
   * or returned so far is partial, and that the operation cannot

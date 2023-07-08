@@ -21,7 +21,21 @@
 
 package compiler.compilercontrol.share.scenario;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JcmdCommand extends CompileCommand {
     public final Scenario.JcmdType jcmdType;
@@ -44,6 +58,7 @@ public class JcmdCommand extends CompileCommand {
         super(command, methodDescriptor, compiler, type, argument);
         this.jcmdType = jcmdType;
     }
+
 
     /**
      * Enchances parent's class method with the the JCMDtype printing:

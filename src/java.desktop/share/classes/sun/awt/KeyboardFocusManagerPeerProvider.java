@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.peer.KeyboardFocusManagerPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@link KeyboardFocusManagerPeerProvider} is required to be implemented by

@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.*;
@@ -39,6 +40,20 @@ import com.sun.java.swing.action.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This panel contains a JTable which displays the list of Java
  * threads as their native thread identifiers combined with their
@@ -51,6 +66,7 @@ public class JavaThreadsPanel extends SAPanel implements ActionListener {
     private final JTable     threadTable;
     private final java.util.List<CachedThread> cachedThreads = new ArrayList<>();
     private static AddressField crashThread;
+
 
     static {
         VM.registerVMInitializedObserver(
@@ -396,6 +412,8 @@ public class JavaThreadsPanel extends SAPanel implements ActionListener {
         DelegateAction action = manager.getDelegateAction(actionName);
         action.addActionListener(this);
     }
+
+
 
     private void fireShowThreadOopInspector() {
         int i = threadTable.getSelectedRow();

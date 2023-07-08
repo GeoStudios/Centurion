@@ -21,7 +21,21 @@
 
 package compiler.blackhole;
 
+
 import java.lang.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BlackholeTarget {
     public void call_for_null_check() {}

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -37,6 +38,20 @@ import java.desktop.share.classes.javax.swing.JSeparator;
 import java.desktop.share.classes.javax.swing.JToolBar;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicToolBarUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -333,6 +348,7 @@ public class SynthToolBarUI extends BasicToolBarUI
             updateStyle((JToolBar)e.getSource());
         }
     }
+
 
     class SynthToolBarLayoutManager implements LayoutManager {
         public void addLayoutComponent(String name, Component comp) {}

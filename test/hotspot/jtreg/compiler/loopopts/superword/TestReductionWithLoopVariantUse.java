@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080976
@@ -28,6 +43,7 @@ package compiler.loopopts.superword;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *      compiler.loopopts.superword.TestReductionWithLoopVariantUse
  */
+
 
 public class TestReductionWithLoopVariantUse {
     static int m(int[] array) {

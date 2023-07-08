@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.multi;
 
+
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.plaf.FileChooserUI;
 import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
@@ -33,6 +34,20 @@ import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Dimension;
 import java.desktop.share.classes.javax.accessibility.Accessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A multiplexing UI used to combine <code>FileChooserUI</code>s.

@@ -21,7 +21,22 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
+
 import java.rmi.share.classes.java.rmi.Remote;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>Skeleton</code> interface is used solely by the RMI

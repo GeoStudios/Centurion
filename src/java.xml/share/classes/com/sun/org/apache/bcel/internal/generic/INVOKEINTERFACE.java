@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
@@ -28,10 +29,27 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * INVOKEINTERFACE - Invoke interface method
@@ -45,12 +63,14 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
 
     private int nargs; // Number of arguments on stack (number of stack slots), called "count" in vmspec2
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     INVOKEINTERFACE() {
     }
+
 
     public INVOKEINTERFACE(final int index, final int nargs) {
         super(Const.INVOKEINTERFACE, index);
@@ -60,6 +80,7 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
         }
         this.nargs = nargs;
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -73,6 +94,7 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
         out.writeByte(0);
     }
 
+
     /**
      * The <B>count</B> argument according to the Java Language Specification,
      * Second Edition.
@@ -80,6 +102,7 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
     public int getCount() {
         return nargs;
     }
+
 
     /**
      * Read needed data (i.e., index) from file.
@@ -92,6 +115,7 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
         bytes.readByte(); // Skip 0 byte
     }
 
+
     /**
      * @return mnemonic for instruction with symbolic references resolved
      */
@@ -100,10 +124,12 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
         return super.toString(cp) + " " + nargs;
     }
 
+
     @Override
     public int consumeStack( final ConstantPoolGen cpg ) { // nargs is given in byte-code
         return nargs; // nargs includes this reference
     }
+
 
     @Override
     public Class<?>[] getExceptions() {
@@ -113,6 +139,7 @@ public final class INVOKEINTERFACE extends InvokeInstruction {
             ExceptionConst.ILLEGAL_ACCESS_ERROR,
             ExceptionConst.INCOMPATIBLE_CLASS_CHANGE_ERROR);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * Specifies the method that a listener of a {@code NamingEvent}
   * with event type of {@code OBJECT_CHANGED} must implement.

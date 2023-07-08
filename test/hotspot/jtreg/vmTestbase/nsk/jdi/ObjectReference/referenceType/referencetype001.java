@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.referenceType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -132,6 +146,7 @@ public class referencetype001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -173,8 +188,10 @@ public class referencetype001 {
 
             String threadName = "testedThread";
 
+
             List            allThreads   = null;
             ListIterator    listIterator = null;
+
 
             label0: {
 
@@ -207,6 +224,7 @@ public class referencetype001 {
                 if (expresult != returnCode0)
                        break label1;
 
+
                 log2("......ReferenceType testedClass = thread2.referenceType();");
                 testedClass = thread2.referenceType();
 
@@ -230,6 +248,7 @@ public class referencetype001 {
                     expresult = returnCode1;
                 }
 
+
                 log2(".......check up on equality ReferenceType thread2.referenceType() to testedClass");
                 ReferenceType testedClass1 = thread2.referenceType();
                 if (!testedClass1.equals(testedClass)) {
@@ -239,6 +258,7 @@ public class referencetype001 {
                     log3("ERROR: returned ReferenceType : " + testedClass1);
                     expresult = returnCode1;
                 }
+
 
                 log2("       forcing the main thread to leave synchronized block");
                 pipe.println("continue");

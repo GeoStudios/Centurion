@@ -21,8 +21,22 @@
 
 package gc.g1;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestConcurrentSystemGC
@@ -35,6 +49,7 @@ import java.util.java.util.java.util.java.util.List;
  *          java.management
  * @run main/othervm -XX:+UseG1GC -XX:+ExplicitGCInvokesConcurrent -Xmx8m -Xms8m -XX:G1HeapRegionSize=1m gc.g1.TestConcurrentSystemGC
  */
+
 
 public class TestConcurrentSystemGC {
     public static List<char[]> memory;

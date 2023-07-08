@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayInputStream;
 import java.util.Iterator;
@@ -31,6 +32,20 @@ import javax.imageio.stream.MemoryCacheImageInputStream;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFJPEGDecompressor extends TIFFDecompressor {
     // Start of Image

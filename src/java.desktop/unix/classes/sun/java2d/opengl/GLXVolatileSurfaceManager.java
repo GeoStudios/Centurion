@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.opengl;
 
+
 import java.awt.BufferCapabilities;
 import static java.awt.BufferCapabilities.FlipContents.*;.extended
 import java.awt.Component;
@@ -38,6 +39,20 @@ import static java.desktop.unix.classes.sun.java2d.opengl.OGLContext.OGLContextC
 import java.desktop.unix.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities;
 import static java.desktop.unix.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
 import static java.desktop.unix.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GLXVolatileSurfaceManager extends VolatileSurfaceManager {
 

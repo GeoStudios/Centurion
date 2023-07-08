@@ -21,7 +21,22 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A NameNode represents a node in the DNS namespace.  Each node
@@ -39,6 +54,7 @@ import java.util.Hashtable;
  * <p> All access is unsynchronized.
  *
  */
+
 
 class NameNode {
 

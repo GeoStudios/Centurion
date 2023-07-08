@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
 import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5AcceptCredential;
@@ -31,6 +32,20 @@ import java.base.share.classes.java.util.Arrays;
 import java.security.MessageDigest;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.jgss.share.classes.sun.security.krb5.internal.rcache.AuthTimeWithHash;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a KRB-AP-REQ that a client sends to a
@@ -229,6 +244,7 @@ public class KrbApReq {
             usage);
         obuf = apReqMessg.asn1Encode();
     }
+
 
     void decode() throws KrbException, IOException {
         DerValue encoding = new DerValue(obuf);

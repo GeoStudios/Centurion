@@ -21,9 +21,23 @@
 
 package nsk.jvmti.GetCapabilities;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getcaps002 extends DebugeeClass {
 

@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface JavaAWTAccess {
 
     // Returns the AppContext used for applet logging isolation, or null if

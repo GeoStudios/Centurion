@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.Dimension;
 import java.awt.FontMetrics;
 import java.awt.Insets;
@@ -37,6 +38,20 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.Documentjava.util.Listener;
 import javax.swing.text.Document;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link TextComponentPeer}. Provides useful

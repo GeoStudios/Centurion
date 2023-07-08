@@ -21,13 +21,29 @@
 
 package common;
 
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @summary Check getEnclosingClass and other methods
  * @author Peter von der Ah\u00e9
  */
+
+
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestMe {

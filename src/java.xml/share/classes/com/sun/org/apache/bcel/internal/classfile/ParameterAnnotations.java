@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * base class for parameter annotations
@@ -57,6 +74,7 @@ public abstract class ParameterAnnotations extends Attribute {
         }
     }
 
+
     /**
      * @param parameterAnnotationType the subclass type of the parameter annotation
      * @param nameIndex Index pointing to the name <em>Code</em>
@@ -70,6 +88,7 @@ public abstract class ParameterAnnotations extends Attribute {
         this.parameterAnnotationTable = parameterAnnotationTable;
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -82,6 +101,7 @@ public abstract class ParameterAnnotations extends Attribute {
         v.visitParameterAnnotation(this);
     }
 
+
     /**
      * @param parameterAnnotationTable the entries to set in this parameter annotation
      */
@@ -89,12 +109,14 @@ public abstract class ParameterAnnotations extends Attribute {
         this.parameterAnnotationTable = parameterAnnotationTable;
     }
 
+
     /**
      * @return the parameter annotation entry table
      */
     public final ParameterAnnotationEntry[] getParameterAnnotationTable() {
         return parameterAnnotationTable;
     }
+
 
     /**
      * returns the array of parameter annotation entries in this parameter annotation

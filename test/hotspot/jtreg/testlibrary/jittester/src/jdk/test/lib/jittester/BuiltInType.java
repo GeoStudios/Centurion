@@ -21,6 +21,21 @@
 
 package jdk.test.lib.jittester;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class BuiltInType extends Type {
 
     private static class BuiltInTypeCapacityHelper {

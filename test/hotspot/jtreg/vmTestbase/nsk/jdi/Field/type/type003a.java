@@ -21,10 +21,24 @@
 
 package nsk.jdi.Field.type;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class type003a {
     public static void main (String argv[]) {

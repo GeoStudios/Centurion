@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ImagingOpException} is thrown if one of the

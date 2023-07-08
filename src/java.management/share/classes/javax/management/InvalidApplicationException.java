@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when an attempt is made to apply either of the following: A
  * subquery expression to an MBean or a qualified attribute expression
@@ -31,6 +47,7 @@ package java.management.share.classes.javax.management;
  */
 public class InvalidApplicationException extends Exception   {
 
+
     /* Serial version */
     private static final long serialVersionUID = -3048022274675537269L;
 
@@ -39,6 +56,7 @@ public class InvalidApplicationException extends Exception   {
      */
     @SuppressWarnings("serial") // Not statically typed as Serializable
     private final Object val;
+
 
     /**
      * Constructs an <CODE>InvalidApplicationException</CODE> with the specified <CODE>Object</CODE>.

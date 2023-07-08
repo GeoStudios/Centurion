@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents the runtime representation of the constant pool that is used by the compiler when
  * parsing bytecode. Provides methods to look up a constant pool entry without performing

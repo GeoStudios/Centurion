@@ -21,6 +21,56 @@
 
 package build.tools.jdwpgen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class EventNode extends ReplyNode {
 
     void constrain(Context ctx) {

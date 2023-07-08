@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
@@ -35,6 +36,20 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constan
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Template class for building up a field.  The only extraordinary thing
@@ -57,12 +72,14 @@ public class FieldGen extends FieldGenOrMethodGen {
                     && Objects.equals(THIS.getSignature(), THAT.getSignature());
         }
 
+
         @Override
         public int hashCode( final Object o ) {
             final FieldGen THIS = (FieldGen) o;
             return THIS.getSignature().hashCode() ^ THIS.getName().hashCode();
         }
     };
+
 
     /**
      * Declare a field. If it is static (isStatic() == true) and has a
@@ -80,6 +97,7 @@ public class FieldGen extends FieldGenOrMethodGen {
         setName(name);
         setConstantPool(cp);
     }
+
 
     /**
      * Instantiate from existing field.
@@ -104,11 +122,13 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     private void setValue( final int index ) {
         final ConstantPool cp = super.getConstantPool().getConstantPool();
         final Constant c = cp.getConstant(index);
         value = ((ConstantObject) c).getConstantValue(cp);
     }
+
 
     /**
      * Set (optional) initial value of field, otherwise it will be set to null/0/false
@@ -121,12 +141,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     public void setInitValue( final long l ) {
         checkType(Type.LONG);
         if (l != 0L) {
             value = Long.valueOf(l);
         }
     }
+
 
     public void setInitValue( final int i ) {
         checkType(Type.INT);
@@ -135,12 +157,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     public void setInitValue( final short s ) {
         checkType(Type.SHORT);
         if (s != 0) {
             value = Integer.valueOf(s);
         }
     }
+
 
     public void setInitValue( final char c ) {
         checkType(Type.CHAR);
@@ -149,12 +173,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     public void setInitValue( final byte b ) {
         checkType(Type.BYTE);
         if (b != 0) {
             value = Integer.valueOf(b);
         }
     }
+
 
     public void setInitValue( final boolean b ) {
         checkType(Type.BOOLEAN);
@@ -163,12 +189,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     public void setInitValue( final float f ) {
         checkType(Type.FLOAT);
         if (f != 0.0) {
             value = f;
         }
     }
+
 
     public void setInitValue( final double d ) {
         checkType(Type.DOUBLE);
@@ -177,11 +205,13 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     /** Remove any initial value.
      */
     public void cancelInitValue() {
         value = null;
     }
+
 
     private void checkType( final Type atype ) {
         final Type superType = super.getType();
@@ -195,6 +225,7 @@ public class FieldGen extends FieldGenOrMethodGen {
             throw new ClassGenException("Types are not compatible: " + superType + " vs. " + atype);
         }
     }
+
 
     /**
      * Get field object after having set up all necessary values.
@@ -221,6 +252,7 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
       }
 
+
     private int addConstant() {
         switch (super.getType().getType()) { // sic
             case Const.T_INT:
@@ -242,12 +274,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     @Override
     public String getSignature() {
         return super.getType().getSignature();
     }
 
     private List<FieldObserver> observers;
+
 
     /** Add observer for this object.
      */
@@ -258,6 +292,7 @@ public class FieldGen extends FieldGenOrMethodGen {
         observers.add(o);
     }
 
+
     /** Remove observer for this object.
      */
     public void removeObserver( final FieldObserver o ) {
@@ -265,6 +300,7 @@ public class FieldGen extends FieldGenOrMethodGen {
             observers.remove(o);
         }
     }
+
 
     /** Call notify() method on all observers. This method is not called
      * automatically whenever the state has changed, but has to be
@@ -278,12 +314,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         }
     }
 
+
     public String getInitValue() {
         if (value != null) {
             return value.toString();
         }
         return null;
     }
+
 
     /**
      * Return string representation close to declaration format,
@@ -309,6 +347,7 @@ public class FieldGen extends FieldGenOrMethodGen {
         return buf.toString();
     }
 
+
     /** @return deep copy of this field
      */
     public FieldGen copy( final ConstantPoolGen cp ) {
@@ -317,6 +356,7 @@ public class FieldGen extends FieldGenOrMethodGen {
         return fg;
     }
 
+
     /**
      * @return Comparison strategy object
      */
@@ -324,12 +364,14 @@ public class FieldGen extends FieldGenOrMethodGen {
         return bcelComparator;
     }
 
+
     /**
      * @param comparator Comparison strategy object
      */
     public static void setComparator( final BCELComparator comparator ) {
         bcelComparator = comparator;
     }
+
 
     /**
      * Return value as defined by given BCELComparator strategy.
@@ -342,6 +384,7 @@ public class FieldGen extends FieldGenOrMethodGen {
     public boolean equals( final Object obj ) {
         return bcelComparator.equals(this, obj);
     }
+
 
     /**
      * Return value as defined by given BCELComparator strategy.

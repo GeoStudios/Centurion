@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,8 @@ import java.io.PrintStream;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6832293::run
  *      compiler.c2.Test6832293
  */
+
+
 
 public class Test6832293 {
     static interface SomeInterface {

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.validator;
 
+
 import java.util.*;
 import java.base.share.classes.java.security.*;
 import java.security.cert.*;
@@ -29,6 +30,20 @@ import java.base.share.classes.sun.security.action.GetBooleanAction;
 import java.base.share.classes.sun.security.provider.certpath.AlgorithmChecker;
 import java.base.share.classes.sun.security.provider.certpath.PKIXExtendedParameters;
 import java.base.share.classes.sun.security.util.SecurityProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Validator implementation built on the PKIX CertPath API. This
@@ -200,6 +215,7 @@ public final class PKIXValidator extends Validator {
             throw new CertificateException
                 ("null or zero-length certificate chain");
         }
+
 
         // Use PKIXExtendedParameters for timestamp and variant additions
         PKIXBuilderParameters pkixParameters = null;

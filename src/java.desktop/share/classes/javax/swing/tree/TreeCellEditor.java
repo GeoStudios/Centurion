@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
+
 import java.awt.Component;
 import java.desktop.share.classes.javax.swing.CellEditor;
 import java.desktop.share.classes.javax.swing.JTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Adds to CellEditor the extensions necessary to configure an editor

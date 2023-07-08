@@ -21,7 +21,21 @@
 
 package vm.runtime.defmeth.shared.data;
 
+
 import vm.runtime.defmeth.shared.data.method.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ClazzImpl implements Clazz {
 

@@ -21,6 +21,7 @@
 
 package nsk.jdi.BreakpointEvent._itself_;
 
+
 import com.sun.jdi.AbsentInformationException;
 import com.sun.jdi.ClassNotPreparedException;
 import com.sun.jdi.ObjectCollectedException;
@@ -38,6 +39,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks up on the JDI interface

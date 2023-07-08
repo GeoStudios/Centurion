@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.midi.MidiDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MIDI input device provider.

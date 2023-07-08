@@ -21,6 +21,21 @@
 
 package compiler.intrinsics.object;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8011646
@@ -31,6 +46,7 @@ package compiler.intrinsics.object;
  *      -XX:CompileCommand=compileonly,compiler.intrinsics.object.TestHashCode::m1
  *      compiler.intrinsics.object.TestHashCode
  */
+
 
 public class TestHashCode {
     static class A {

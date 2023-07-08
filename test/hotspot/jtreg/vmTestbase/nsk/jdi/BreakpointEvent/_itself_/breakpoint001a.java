@@ -21,9 +21,23 @@
 
 package nsk.jdi.BreakpointEvent._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

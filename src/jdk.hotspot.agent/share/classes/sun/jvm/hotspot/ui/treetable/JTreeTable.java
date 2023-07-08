@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.treetable;
 
+
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -29,6 +30,20 @@ import javax.swing.tree.*;
 import javax.swing.table.*;
 import java.awt.event.*;
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This example shows how to create a simple JTreeTable component,
@@ -336,6 +351,7 @@ public class JTreeTable extends JTable {
         }
     }
 
+
     /**
      * An editor that can be used to edit the tree column. This extends
      * DefaultCellEditor and uses a JTextField (actually, TreeTableTextField)
@@ -456,6 +472,7 @@ public class JTreeTable extends JTable {
         }
     }
 
+
     /**
      * Component used by TreeTableCellEditor. The only thing this does
      * is to override the <code>reshape</code> method, and to ALWAYS
@@ -469,6 +486,7 @@ public class JTreeTable extends JTable {
             super.setBounds(newX, y, w - (newX - x), h);
         }
     }
+
 
     /**
      * ListToTreeSelectionModelWrapper extends DefaultTreeSelectionModel

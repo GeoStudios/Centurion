@@ -21,6 +21,22 @@
 
 package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //OpenJDK changes:
 //-references to JNA types commented out
 //-replacement types provided where needed (IntByReference, LastErrorException, Pointer)

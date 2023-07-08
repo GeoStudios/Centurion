@@ -21,7 +21,22 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface Connection {
     /**

@@ -21,6 +21,22 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Authenticator represents an implementation of an HTTP authentication
  * mechanism. Sub-classes provide implementations of specific mechanisms

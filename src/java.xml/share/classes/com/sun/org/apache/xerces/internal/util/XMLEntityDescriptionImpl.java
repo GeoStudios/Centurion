@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityDescription;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * <p>This class is an implementation of the XMLEntityDescription

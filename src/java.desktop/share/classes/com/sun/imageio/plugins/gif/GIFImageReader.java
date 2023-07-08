@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
+
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -45,6 +46,20 @@ import java.awt.image.IndexColorModel;
 import java.awt.image.MultiPixelPackedSampleModel;
 import java.awt.image.PixelInterleavedSampleModel;
 import java.awt.image.SampleModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GIFImageReader extends ImageReader {
 

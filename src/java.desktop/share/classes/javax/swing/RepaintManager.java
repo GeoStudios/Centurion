@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.VolatileImage;
@@ -45,6 +46,20 @@ import sun.java2d.pipe.Region;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
 import sun.swing.SwingUtilities2.Repaintjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages repaint requests, allowing the number
@@ -294,6 +309,7 @@ public class RepaintManager
         return currentManager((Component)c);
     }
 
+
     /**
      * Set the RepaintManager that should be used for the calling
      * thread. <b>aRepaintManager</b> will become the current RepaintManager
@@ -389,6 +405,7 @@ public class RepaintManager
         scheduleProcessingRunnable(SunToolkit.targetToAppContext(invalidComponent));
     }
 
+
     /**
      * Remove a component from the list of invalid components.
      *
@@ -408,6 +425,7 @@ public class RepaintManager
             }
         }
     }
+
 
     /**
      * Add a component in the list of components that should be refreshed.
@@ -713,6 +731,7 @@ public class RepaintManager
                 r.height == Integer.MAX_VALUE;
     }
 
+
     /**
      * Validate all of the components that have been marked invalid.
      * @see #addInvalidComponent
@@ -743,6 +762,7 @@ public class RepaintManager
                 }, stack, acc);
         }
     }
+
 
     /**
      * This is invoked to process paint requests.  It's needed
@@ -901,6 +921,7 @@ public class RepaintManager
         tmpDirtyComponents.clear();
     }
 
+
     /**
      * Removes any components from roots that are children of
      * root.
@@ -1003,6 +1024,7 @@ public class RepaintManager
             roots.add(rootDirtyComponent);
     }
 
+
     /**
      * Returns a string that displays and identifies this
      * object's properties.
@@ -1015,6 +1037,7 @@ public class RepaintManager
             sb.append(dirtyComponents);
         return sb.toString();
     }
+
 
     /**
      * Return the offscreen buffer that should be used as a double buffer with
@@ -1146,6 +1169,7 @@ public class RepaintManager
         }
         return result;
     }
+
 
     /**
      * Set the maximum double buffer size.
@@ -1492,6 +1516,7 @@ public class RepaintManager
         }
     }
 
+
     /**
      * PaintManager is used to handle all double buffered painting for
      * Swing.  Subclasses should call back into the JComponent method
@@ -1794,6 +1819,7 @@ public class RepaintManager
         public boolean needsReset = false;
     }
 
+
     /**
      * Listener installed to detect display changes. When display changes,
      * schedules a callback to notify all RepaintManagers of the display
@@ -1828,11 +1854,13 @@ public class RepaintManager
         }
     }
 
+
     private static final class DisplayChangedRunnable implements Runnable {
         public void run() {
             RepaintManager.currentManager((JComponent)null).displayChanged();
         }
     }
+
 
     /**
      * Runnable used to process all repaint/revalidate requests.

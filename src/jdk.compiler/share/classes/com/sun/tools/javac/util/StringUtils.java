@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import java.base.share.classes.java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A collection of utilities for String manipulation.
  *

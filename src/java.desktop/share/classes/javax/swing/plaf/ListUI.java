@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
+
 import java.desktop.share.classes.javax.swing.Jjava.util.java.util.java.util.List;
 import java.awt.Point;
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code JList} pluggable look and feel delegate.
@@ -51,6 +66,7 @@ public abstract class ListUI extends ComponentUI
      */
     public abstract int locationToIndex(JList<?> list, Point location);
 
+
     /**
      * Returns the origin in the given {@code JList}, of the specified item,
      * in the list's coordinate system.
@@ -61,6 +77,7 @@ public abstract class ListUI extends ComponentUI
      * @return the origin of the cell, or {@code null}
      */
     public abstract Point indexToLocation(JList<?> list, int index);
+
 
     /**
      * Returns the bounding rectangle, in the given list's coordinate system,

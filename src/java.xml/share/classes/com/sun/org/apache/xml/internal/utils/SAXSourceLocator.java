@@ -21,16 +21,35 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.io.Serializable;
 import javax.xml.transform.SourceLocator;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * Class SAXSourceLocator extends org.xml.sax.helpers.LocatorImpl
@@ -81,6 +100,7 @@ public class SAXSourceLocator extends LocatorImpl
     this.setPublicId(locator.getPublicId());
     this.setSystemId(locator.getSystemId());
   }
+
 
   /**
    * Constructor SAXSourceLocator

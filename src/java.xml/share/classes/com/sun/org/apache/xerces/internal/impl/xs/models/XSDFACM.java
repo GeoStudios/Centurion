@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
@@ -36,6 +37,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DFAContentModel is the implementation of XSCMValidator that does
@@ -1035,6 +1050,7 @@ public class XSDFACM
         }
 
     }
+
 
     /**
      * -1 is used to represent bad transitions in the transition table

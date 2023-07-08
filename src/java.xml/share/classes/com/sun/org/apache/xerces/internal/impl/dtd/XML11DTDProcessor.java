@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl;
@@ -31,10 +32,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class extends XMLDTDProcessor by giving it

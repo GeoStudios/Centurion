@@ -21,6 +21,21 @@
 
 package compiler.jvmci.common.testcases;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class SingleImplementer implements SingleImplementerInterface {
     public static final long initTime = System.currentTimeMillis();
 

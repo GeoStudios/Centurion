@@ -21,10 +21,25 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import javax.naming.CommunicationException;
 import javax.naming.InvalidNameException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The ResourceRecord class represents a DNS resource record.
@@ -32,6 +47,7 @@ import java.nio.charset.StandardCharsets;
  * RFC 1035.
  *
  */
+
 
 public class ResourceRecord {
 
@@ -101,6 +117,7 @@ public class ResourceRecord {
     int rdlen = 0;              // number of octets of rdata
     Object rdata = null;        // rdata -- most are String, unknown are byte[]
 
+
     /*
      * Constructs a new ResourceRecord.  The encoded data of the DNS
      * message is contained in msg; data for this RR begins at msg[offset].
@@ -158,6 +175,7 @@ public class ResourceRecord {
     public Object getRdata() {
         return rdata;
     }
+
 
     public static String getTypeName(int rrtype) {
         return valueToName(rrtype, rrTypeNames);
@@ -228,6 +246,7 @@ public class ResourceRecord {
             return 1;
         }
     }
+
 
     /*
      * Decodes the binary format of the RR.

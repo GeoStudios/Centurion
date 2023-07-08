@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Super class for JSR - Jump to subroutine
@@ -37,6 +54,7 @@ public abstract class JsrInstruction extends BranchInstruction implements Uncond
         super(opcode, target);
     }
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
@@ -44,12 +62,14 @@ public abstract class JsrInstruction extends BranchInstruction implements Uncond
     JsrInstruction() {
     }
 
+
     /** @return return address type
      */
     @Override
     public Type getType( final ConstantPoolGen cp ) {
         return new ReturnaddressType(physicalSuccessor());
     }
+
 
     /**
      * Returns an InstructionHandle to the physical successor

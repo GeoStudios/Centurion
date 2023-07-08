@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventQueue.remove_l;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
@@ -28,6 +29,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test check up this method for the following values:

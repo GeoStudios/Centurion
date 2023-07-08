@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface SSLPossessionGenerator {
     SSLPossession createPossession(HandshakeContext handshakeContext);
 }

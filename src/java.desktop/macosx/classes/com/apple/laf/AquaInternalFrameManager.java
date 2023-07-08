@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.beans.PropertyVetoException;
 import java.util.Vector;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Based on AquaInternalFrameManager

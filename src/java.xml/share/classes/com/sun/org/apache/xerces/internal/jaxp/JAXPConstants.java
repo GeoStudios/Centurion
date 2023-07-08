@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * This interface holds JAXP constant property/attribute names and values.

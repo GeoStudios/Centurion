@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is utility class that provides basic functionality
  * to find an auxiliary class for a JavaBean specified by its type.

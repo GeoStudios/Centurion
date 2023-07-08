@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.EmptyBorder;
 import java.desktop.share.classes.javax.swing.filechooser.*;
@@ -39,6 +40,20 @@ import java.security.PrivilegedAction;
 import java.desktop.share.classes.javax.accessibility.*;
 import sun.awt.shell.ShellFolder;
 import sun.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Metal L&amp;F implementation of a FileChooser.
@@ -276,6 +291,7 @@ public class MetalFileChooserUI extends BasicFileChooserUI {
         File homeDir = fsv.getHomeDirectory();
         String toolTipText = homeFolderToolTipText;
 
+
         JButton b = new JButton(homeFolderIcon);
         b.setToolTipText(toolTipText);
         b.putClientProperty(AccessibleContext.ACCESSIBLE_NAME_PROPERTY,
@@ -399,6 +415,7 @@ public class MetalFileChooserUI extends BasicFileChooserUI {
         } else {
             setFileName(fileNameString(fc.getSelectedFile()));
         }
+
 
         // Filetype label and combobox
         JPanel filesOfTypePanel = new JPanel();
@@ -1270,6 +1287,7 @@ public class MetalFileChooserUI extends BasicFileChooserUI {
         return approveButton;
     }
 
+
     /**
      * <code>ButtonAreaLayout</code> behaves in a similar manner to
      * <code>FlowLayout</code>. It lays out all components from left to
@@ -1360,6 +1378,7 @@ public class MetalFileChooserUI extends BasicFileChooserUI {
             super();
             setAlignmentX(JComponent.LEFT_ALIGNMENT);
         }
+
 
         AlignedLabel(String text) {
             super(text);

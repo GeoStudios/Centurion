@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.action;
 
+
 import javax.swing.KeyStroke;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Referenced classes of package com.sun.java.swing.action:
 //            StateChangeAction, ActionManager

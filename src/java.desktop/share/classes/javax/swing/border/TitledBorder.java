@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -39,6 +40,20 @@ import java.desktop.share.classes.javax.swing.JLabel;
 import java.desktop.share.classes.javax.swing.UIManager;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicHTML;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which implements an arbitrary border
@@ -474,6 +489,7 @@ public class TitledBorder extends AbstractBorder
     public Color getTitleColor() {
         return titleColor == null ? UIManager.getColor("TitledBorder.titleColor") : titleColor;
     }
+
 
     // REMIND(aim): remove all or some of these set methods?
 

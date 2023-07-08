@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.stream.ImageOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Came from GIFEncoder initially.

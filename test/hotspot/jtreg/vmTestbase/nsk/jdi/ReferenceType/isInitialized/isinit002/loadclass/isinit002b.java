@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.isInitialized;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the isInitialized() method of ReferenceType interface for UNLOADED class
+
 
 class isinit002b {}

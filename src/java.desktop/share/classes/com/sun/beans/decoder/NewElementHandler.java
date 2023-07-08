@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
 import java.desktop.share.classes.com.sun.beans.finder.ConstructorFinder;
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;new&gt; element.

@@ -21,12 +21,27 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.beans.*;
 import java.lang.reflect.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.basic.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a temporary workaround for bug 4834918:
@@ -182,6 +197,7 @@ public class MaximizableInternalFrame extends JInternalFrame {
         super.setTitle(title);
     }
 
+
     private class FixedMenuBarLayout extends BoxLayout {
         public FixedMenuBarLayout(Container target, int axis) {
             super(target, axis);
@@ -198,6 +214,7 @@ public class MaximizableInternalFrame extends JInternalFrame {
             }
         }
     }
+
 
     // The rest of this class is messy and should not be relied upon. It
     // uses reflection to access private, undocumented, and unsupported
@@ -246,6 +263,7 @@ public class MaximizableInternalFrame extends JInternalFrame {
             }
         }
     }
+
 
     // A wrapper class for the title pane button icons.
     // This code should really go in the WindowsIconsFactory class.
@@ -309,6 +327,7 @@ public class MaximizableInternalFrame extends JInternalFrame {
             return windowsIcon.getIconHeight();
         }
     }
+
 
     // Use reflection to invoke protected methods in BasicInternalFrameTitlePane
     private Method setButtonIcons;

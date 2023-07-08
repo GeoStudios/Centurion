@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * This class defines the constants which are the names of the four default

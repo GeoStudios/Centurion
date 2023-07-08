@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
@@ -29,6 +30,20 @@ import java.awt.FontMetrics;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.event.Focusjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AccessibleComponent} interface should be supported by any object

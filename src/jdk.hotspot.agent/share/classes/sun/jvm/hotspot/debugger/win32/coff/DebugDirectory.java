@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface DebugDirectory {
   /** Number of entries in the directory */
   int getNumEntries();

@@ -21,11 +21,26 @@
 
 package java.management.share.classes.javax.management.remote;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.security.Principal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The identity of a remote client of the JMX Remote API.</p>

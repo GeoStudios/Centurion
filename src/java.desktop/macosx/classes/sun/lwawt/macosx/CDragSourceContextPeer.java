@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.dnd.*;
@@ -36,6 +37,20 @@ import java.desktop.macosx.classes.sun.awt.dnd.*;
 import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CDragSourceContextPeer extends SunDragSourceContextPeer {
 
@@ -259,6 +274,7 @@ public final class CDragSourceContextPeer extends SunDragSourceContextPeer {
             this.setDefaultDragImage();
     }
 
+
     private void setDefaultDragImage(JTree component) {
         Rectangle selectedOutline = null;
 
@@ -315,6 +331,7 @@ public final class CDragSourceContextPeer extends SunDragSourceContextPeer {
             this.setDefaultDragImage();
         }
     }
+
 
     private void setDefaultDragImage() {
         DragGestureEvent trigger = this.getTrigger();
@@ -376,6 +393,7 @@ public final class CDragSourceContextPeer extends SunDragSourceContextPeer {
         g2.dispose();
 
         fDragImage = dragImage;
+
 
         Point dragOrigin = trigger.getDragOrigin();
         Point dragImageOffset = new Point(outline.x - dragOrigin.x, outline.y - dragOrigin.y);

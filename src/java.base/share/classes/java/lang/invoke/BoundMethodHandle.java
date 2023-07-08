@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import jdk.internal.vm.annotation.Stable;
 import sun.invoke.util.ValueConversions;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
@@ -34,6 +35,20 @@ import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.uncaughtException;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The flavor of method handle which emulates an invoke instruction

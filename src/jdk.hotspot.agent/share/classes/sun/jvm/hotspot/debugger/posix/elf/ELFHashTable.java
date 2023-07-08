@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface ELFHashTable {
     /**
      * Returns the ELFSymbol that has the specified name or null if no symbol

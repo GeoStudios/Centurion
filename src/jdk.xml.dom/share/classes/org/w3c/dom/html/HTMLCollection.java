@@ -21,7 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
 import jdk.xml.dom.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  An <code>HTMLCollection</code> is a list of nodes. An individual node may

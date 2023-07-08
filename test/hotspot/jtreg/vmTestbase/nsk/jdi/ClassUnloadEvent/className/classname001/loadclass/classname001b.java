@@ -21,6 +21,22 @@
 
 package nsk.jdi.ClassUnloadEvent.className;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // This class will be loaded and then unloaded
+
 
 class classname001b {}

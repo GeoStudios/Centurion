@@ -21,13 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DOM Revalidation handler adds additional functionality to XMLDocumentHandler
@@ -44,5 +60,6 @@ public interface RevalidationHandler extends XMLDocumentFilter {
      * @return True if data is whitespace only
      */
     boolean characterData(String data, Augmentations augs);
+
 
 } // interface DOMRevalidationHandler

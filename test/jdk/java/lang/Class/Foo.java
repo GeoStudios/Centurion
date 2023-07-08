@@ -21,6 +21,21 @@
 
 package foo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Loaded by a custom class loader in GetPackageTest
 public class Foo {
 }

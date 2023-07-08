@@ -21,6 +21,21 @@
 
 package compiler.vectorization;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8199421
@@ -30,6 +45,7 @@ package compiler.vectorization;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+UsePopCountInstruction
  *      -XX:MaxVectorSize=8 compiler.vectorization.TestPopCountVector
  */
+
 
 public class TestPopCountVector {
     private int[] input;

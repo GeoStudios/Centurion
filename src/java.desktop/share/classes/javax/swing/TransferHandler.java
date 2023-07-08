@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.datatransfer.*;
@@ -43,6 +44,20 @@ import java.security.AccessControlContext;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaSecurityAccess;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to handle the transfer of a <code>Transferable</code>
@@ -565,6 +580,7 @@ public class TransferHandler implements Serializable {
         }
     }
 
+
     /**
      * Returns an {@code Action} that performs cut operations to the
      * clipboard. When performed, this action operates on the {@code JComponent}
@@ -601,6 +617,7 @@ public class TransferHandler implements Serializable {
         return pasteAction;
     }
 
+
     /**
      * Constructs a transfer handler that can transfer a Java Bean property
      * from one component to another via the clipboard or a drag and drop
@@ -620,6 +637,7 @@ public class TransferHandler implements Serializable {
     protected TransferHandler() {
         this(null);
     }
+
 
     /**
      * image for the {@code startDrag} method
@@ -1077,6 +1095,7 @@ public class TransferHandler implements Serializable {
         }
         return null;
     }
+
 
     private final String propertyName;
     private static SwingDragGestureRecognizer recognizer = null;

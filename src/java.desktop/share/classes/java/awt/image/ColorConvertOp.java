@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Graphics2D;
 import java.desktop.share.classes.java.awt.Point;
 import java.desktop.share.classes.java.awt.RenderingHints;
@@ -32,6 +33,20 @@ import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import sun.java2d.cmm.CMSManager;
 import sun.java2d.cmm.ColorTransform;
 import sun.java2d.cmm.PCMM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs a pixel-by-pixel color conversion of the data in
@@ -113,6 +128,7 @@ public class ColorConvertOp implements BufferedImageOp, RasterOp {
         this.hints  = hints;
     }
 
+
     /**
      * Constructs a new ColorConvertOp from two ColorSpace objects.
      * The RenderingHints argument may be null.
@@ -153,6 +169,7 @@ public class ColorConvertOp implements BufferedImageOp, RasterOp {
         this.hints  = hints;
     }
 
+
      /**
      * Constructs a new ColorConvertOp from an array of ICC_Profiles.
      * The RenderingHints argument may be null.
@@ -190,6 +207,7 @@ public class ColorConvertOp implements BufferedImageOp, RasterOp {
         System.arraycopy(profiles, 0, profileList, 0, profiles.length);
         this.hints  = hints;
     }
+
 
     /**
      * Returns the array of ICC_Profiles used to construct this ColorConvertOp.
@@ -542,6 +560,7 @@ public class ColorConvertOp implements BufferedImageOp, RasterOp {
             thisRasterTransform.colorConvert(src, dest);
         }
 
+
         return dest;
     }
 
@@ -635,6 +654,7 @@ public class ColorConvertOp implements BufferedImageOp, RasterOp {
         return image;
     }
 
+
     /**
      * Creates a zeroed destination Raster with the correct size and number of
      * bands, given this source.
@@ -693,6 +713,7 @@ public class ColorConvertOp implements BufferedImageOp, RasterOp {
 
         return dstPt;
     }
+
 
     /**
      * Returns the RenderingIntent from the specified ICC Profile.

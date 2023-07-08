@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
@@ -31,6 +32,20 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.io.Serializable;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard column-handler for a <code>JTable</code>.

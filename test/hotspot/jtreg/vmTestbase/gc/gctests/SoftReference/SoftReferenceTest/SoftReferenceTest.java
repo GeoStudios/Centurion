@@ -21,6 +21,7 @@
 
 package gc.gctests.SoftReference.SoftReferenceTest;
 
+
 import java.lang.ref.SoftReference;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Random;
@@ -29,6 +30,19 @@ import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,8 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm gc.gctests.SoftReference.SoftReferenceTest.SoftReferenceTest -stressTime 600
  */
+
+
 
 /**
  * Tests for the SoftReference handling in JRockit.
@@ -77,6 +93,7 @@ public final class SoftReferenceTest extends GCTestBase {
         minSize = 2048;
         maxSize = 32768;
         keepEveryXthObject = 4;
+
 
         Random rndGenerator = new Random(seed);
         long multiplier = maxSize - minSize;
@@ -136,6 +153,7 @@ public final class SoftReferenceTest extends GCTestBase {
             arrSoftRefs = null;
             arrObjects = null;
         }
+
 
     }
 

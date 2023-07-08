@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
+
 import java.lang.annotation.Native;
 import java.desktop.windows.classes.sun.java2d.pipe.BufferedContext;
 import java.desktop.windows.classes.sun.java2d.pipe.RenderBuffer;
@@ -28,6 +29,20 @@ import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities;
 import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.INVALIDATE_CONTEXT;.extended
 import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note that the RenderQueue lock must be acquired before calling any of

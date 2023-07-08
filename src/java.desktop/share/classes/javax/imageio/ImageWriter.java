@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio;
 
+
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -37,6 +38,20 @@ import java.desktop.share.classes.javax.imageio.event.IIOWriteProgressjava.util.
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
 import java.desktop.share.classes.javax.imageio.stream.ImageOutputStream;
 import java.desktop.share.classes.javax.imageio.spi.ImageWriterSpi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract superclass for encoding and writing images.  This class

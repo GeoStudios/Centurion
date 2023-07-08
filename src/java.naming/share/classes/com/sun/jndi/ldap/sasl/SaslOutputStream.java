@@ -21,12 +21,27 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.sasl;
 
+
 import javax.security.sasl.Sasl;
 import javax.security.sasl.SaslClient;
 import javax.security.sasl.SaslException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.FilterOutputStream;
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SaslOutputStream extends FilterOutputStream {
     private static final boolean debug = false;

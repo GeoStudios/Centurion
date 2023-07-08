@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.x11;
 
+
 import java.awt.Composite;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
@@ -54,6 +55,20 @@ import java.desktop.unix.classes.sun.java2d.pipe.PixelToShapeConverter;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
 import java.desktop.unix.classes.sun.java2d.pipe.TextPipe;
 import java.desktop.unix.classes.sun.java2d.pipe.ValidatePipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class X11SurfaceData extends XSurfaceData {
     X11ComponentPeer peer;
@@ -187,6 +202,7 @@ public abstract class X11SurfaceData extends XSurfaceData {
         SurfaceType.Custom.deriveSubType(DESC_BYTE_GRAY_X11_BM);
     public static final SurfaceType Index8GrayX11_BM =
         SurfaceType.Custom.deriveSubType(DESC_INDEX8_GRAY_X11_BM);
+
 
     private static Boolean accelerationEnabled = null;
 

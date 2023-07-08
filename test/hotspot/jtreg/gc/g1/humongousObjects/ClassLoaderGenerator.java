@@ -21,10 +21,24 @@
 
 package gc.g1.humongousObjects;
 
+
 import gc.testlibrary.Helpers;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generates non-humongous and humongous class loaders.
@@ -59,6 +73,7 @@ public class ClassLoaderGenerator {
                 finalSimpleClassLoaderPrototype, TestHumongousClassLoader.CONSTUCTOR_PROTOTYPE, regionSize / 4,
                 wrkDir, TestHumongousClassLoader.SIMPLE_CLASSLOADER_NAME + "Base");
 
+
         // Preparations for generating humongous classloader
 
         // Generating condition for loadClass method of generated class loader
@@ -82,6 +97,7 @@ public class ClassLoaderGenerator {
                 .replace("${ClassHeader}", TestHumongousClassLoader.CLASS_HEADER)
                 .replace("${ConstructorClause}", TestHumongousClassLoader.CONSTUCTOR_PROTOTYPE);
 
+
         // Generating humongous classloader with specified name, base class, final class prototype and
         // constructor prototype for filler classes
         // Generated class instance should be humongous since we specify size of (regionSize * 3 / 4)
@@ -89,6 +105,7 @@ public class ClassLoaderGenerator {
                 finalHumongousClassLoaderPrototype, TestHumongousClassLoader.CONSTUCTOR_PROTOTYPE,
                 regionSize * 3 / 4,
                 wrkDir, TestHumongousClassLoader.HUMONGOUS_CLASSLOADER_NAME + "Base");
+
 
     }
 }

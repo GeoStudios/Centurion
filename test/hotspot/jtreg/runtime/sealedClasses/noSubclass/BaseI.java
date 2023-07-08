@@ -21,4 +21,19 @@
 
 package noSubclass;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public sealed interface BaseI permits ImplII, ImplIIntermediateI, ImplIIndirectI, ImplIC, ImplIIntermediateC, ImplIIndirectC {}

@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequestManager._bounds_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>requests001a</code> is deugee's part of the test.

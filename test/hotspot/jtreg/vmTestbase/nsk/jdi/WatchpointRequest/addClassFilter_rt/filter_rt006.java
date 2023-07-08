@@ -21,6 +21,7 @@
 
 package nsk.jdi.WatchpointRequest.addClassFilter_rt;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type
@@ -144,6 +158,7 @@ public class filter_rt006 extends TestDebuggerType1 {
                 eventRequest2 = setting21ModificationWatchpointRequest (null,
                                        testClassReference20, fieldName2,
                                        EventRequest.SUSPEND_ALL, property2);
+
 
                 ((ModificationWatchpointRequest) eventRequest1).addClassFilter(testClassReference11);
                 ((ModificationWatchpointRequest) eventRequest1).addClassFilter(testClassReference11);

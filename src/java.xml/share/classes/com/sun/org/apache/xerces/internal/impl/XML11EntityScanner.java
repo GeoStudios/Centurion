@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLScanner.NameType;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
@@ -30,6 +31,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecuri
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the entity scanner methods in
@@ -1296,6 +1311,7 @@ public class XML11EntityScanner
         if (fCurrentEntity.position == fCurrentEntity.count) {
             load(0, true, true);
         }
+
 
         //we are doing this check only in skipSpace() because it is called by
         //fMiscDispatcher and we want the parser to exit gracefully when document

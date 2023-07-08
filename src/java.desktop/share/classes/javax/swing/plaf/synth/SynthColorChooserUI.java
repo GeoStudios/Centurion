@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.colorchooser.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.javax.swing.plaf.basic.BasicColorChooserUI;
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

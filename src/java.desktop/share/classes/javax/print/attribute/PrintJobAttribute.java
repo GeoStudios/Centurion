@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * {@code PrintJobAttribute} is a tagging interface which a printing attribute
  * class implements to indicate the attribute describes the status of a Print

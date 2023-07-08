@@ -21,6 +21,22 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An <code>ServerNotActiveException</code> is an <code>Exception</code>
  * thrown during a call to <code>RemoteServer.getClientHost</code> if

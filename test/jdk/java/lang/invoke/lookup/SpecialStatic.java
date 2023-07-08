@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke.lookup;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -29,6 +30,19 @@ import org.testng.annotations.*;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static org.testng.Assert.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8032400
  * @summary JSR292: invokeSpecial: InternalError attempting to lookup a method
@@ -36,6 +50,7 @@ import static org.testng.Assert.*;.extended
  * @compile -XDignore.symbol.file SpecialStatic.java
  * @run testng test.java.lang.invoke.lookup.SpecialStatic
  */
+
 
 /**
  * Test case:

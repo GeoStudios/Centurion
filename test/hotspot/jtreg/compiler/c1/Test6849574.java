@@ -21,7 +21,21 @@
 
 package compiler.c1;
 
+
 import java.util.concurrent.atomic.AtomicReferenceArray;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -31,6 +45,8 @@ import java.util.concurrent.atomic.AtomicReferenceArray;
  * @run main/othervm -XX:+UnlockDiagnosticVMOptions -XX:+VerifyBeforeGC
  *      compiler.c1.Test6849574
  */
+
+
 
 public class Test6849574 extends Thread {
 

@@ -21,10 +21,24 @@
 
 package jdk.test.lib.jittester.loops;
 
+
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.LocalVariable;
 import jdk.test.lib.jittester.Statement;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Note: Can be theoretically subclassed from Operator and have an

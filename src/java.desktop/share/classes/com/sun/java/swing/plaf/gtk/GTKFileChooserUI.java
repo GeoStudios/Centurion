@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
 import java.desktop.share.classes.com.sun.java.awt.AWTKeyStroke;
 import java.desktop.share.classes.com.sun.java.awt.BorderLayout;
 import java.desktop.share.classes.com.sun.java.awt.Component;
@@ -93,6 +94,20 @@ import java.desktop.share.classes.com.sun.awt.shell.ShellFolder;
 import java.desktop.share.classes.com.sun.swing.FilePane;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 import java.desktop.share.classes.com.sun.swing.plaf.synth.SynthFileChooserUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GTK FileChooserUI.
@@ -289,6 +304,7 @@ class GTKFileChooserUI extends SynthFileChooserUI {
         }
     }
 
+
     private void updateDefaultButton() {
         JFileChooser filechooser = getFileChooser();
         JRootPane root = SwingUtilities.getRootPane(filechooser);
@@ -404,6 +420,8 @@ class GTKFileChooserUI extends SynthFileChooserUI {
         super.doAncestorChanged(e);
     }
 
+
+
     // ********************************************
     // ************ Create Listeners **************
     // ********************************************
@@ -461,6 +479,8 @@ class GTKFileChooserUI extends SynthFileChooserUI {
         return new DoubleClickListener(list);
     }
 
+
+
     @SuppressWarnings("deprecation")
     protected class SelectionListener implements ListSelectionListener {
         public void valueChanged(ListSelectionEvent e) {
@@ -515,6 +535,7 @@ class GTKFileChooserUI extends SynthFileChooserUI {
             }
         }
     }
+
 
     //
     // ComponentUI Interface Implementation methods
@@ -582,6 +603,7 @@ class GTKFileChooserUI extends SynthFileChooserUI {
 
         fc.add(topButtonPanel, BorderLayout.NORTH);
 
+
         JPanel interior = new JPanel();
         interior.setBorder(new EmptyBorder(0, 10, 10, 10));
         interior.setName("GTKFileChooser.interiorPanel");
@@ -613,6 +635,7 @@ class GTKFileChooserUI extends SynthFileChooserUI {
         directoryComboBox.setMaximumRowCount(8);
         comboBoxPanel.add(directoryComboBox);
         interior.add(comboBoxPanel);
+
 
         // CENTER: left, right, accessory
         JPanel centerPanel = new JPanel(new BorderLayout());
@@ -1054,6 +1077,7 @@ class GTKFileChooserUI extends SynthFileChooserUI {
             fireContentsChanged();
         }
     }
+
 
     @SuppressWarnings("serial") // Superclass is not serializable across versions
     protected class FileCellRenderer extends DefaultListCellRenderer  {

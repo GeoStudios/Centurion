@@ -21,9 +21,23 @@
 
 package serialver;
 
+
 import java.io.File;
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,6 +53,9 @@ import jdk.test.lib.process.ProcessTools;
  * @run main serialver.ClasspathTest
  * @summary Test the use of the -classpath switch in the serialver application.
  */
+
+
+
 
 public class ClasspathTest implements java.io.Serializable {
     private static final long serialVersionUID = 1L;

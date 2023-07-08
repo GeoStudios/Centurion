@@ -21,7 +21,22 @@
 
 package java.desktop.macosx.classes.sun.print;
 
+
 import java.awt.print.PrinterJob;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PlatformPrinterJobProxy {
 
@@ -29,4 +44,5 @@ public class PlatformPrinterJobProxy {
        return new sun.lwawt.macosx.CPrinterJob();
    }
 }
+
 

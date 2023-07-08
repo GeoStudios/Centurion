@@ -21,11 +21,27 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class8 extends Class9 {
     int var_1 = 1731200429;
     long var_2 = 8420857753000168448L;
     final double var_3 = 1.7922227805230007E307;
     byte var_4;
+
 
     public Class8()
     {

@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -32,6 +33,20 @@ import javax.management.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 public abstract class XOperations extends JPanel implements ActionListener {

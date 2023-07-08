@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
@@ -36,6 +37,20 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -760,6 +775,7 @@ public abstract class FloatVector extends AbstractVector<Float> {
         return blend(lanewise(op, e), m);
     }
 
+
     // Ternary lanewise support
 
     // Ternary operators come in eight variations:
@@ -1410,6 +1426,7 @@ public abstract class FloatVector extends AbstractVector<Float> {
         return lanewise(MAX, e);
     }
 
+
     // common FP operator: pow
     /**
      * Raises this vector to the power of a second input vector.
@@ -1495,6 +1512,7 @@ public abstract class FloatVector extends AbstractVector<Float> {
     FloatVector abs() {
         return lanewise(ABS);
     }
+
 
     // sqrt
     /**
@@ -1778,6 +1796,8 @@ public abstract class FloatVector extends AbstractVector<Float> {
     VectorMask<Float> compare(Comparison op, long e, VectorMask<Float> m) {
         return compare(op, broadcast(e), m);
     }
+
+
 
     /**
      * {@inheritDoc} <!--workaround-->
@@ -2127,6 +2147,7 @@ public abstract class FloatVector extends AbstractVector<Float> {
     }
 
     /// Ternary operations
+
 
     /**
      * Multiplies this vector by a second input vector, and sums
@@ -2744,6 +2765,8 @@ public abstract class FloatVector extends AbstractVector<Float> {
         }
     }
 
+
+
     /**
      * Loads a vector from a {@linkplain ByteBuffer byte buffer}
      * starting at an offset into the byte buffer.
@@ -3014,6 +3037,8 @@ public abstract class FloatVector extends AbstractVector<Float> {
         }
     }
 
+
+
     /**
      * {@inheritDoc} <!--workaround-->
      */
@@ -3119,6 +3144,8 @@ public abstract class FloatVector extends AbstractVector<Float> {
             (arr, off, s) -> s.ldOp(arr, off,
                                     (arr_, off_, i) -> arr_[off_ + i]));
     }
+
+
 
     @Override
     abstract
@@ -3252,6 +3279,8 @@ public abstract class FloatVector extends AbstractVector<Float> {
     static long arrayAddress(float[] a, int index) {
         return ARRAY_BASE + (((long)index) << ARRAY_SHIFT);
     }
+
+
 
     @ForceInline
     static long byteArrayAddress(byte[] a, int index) {

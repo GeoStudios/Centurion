@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.jimage;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -40,6 +41,20 @@ import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.
@@ -94,6 +109,7 @@ public final class ImageReader implements AutoCloseable {
         ensureOpen();
         return reader.getRootDirectory();
     }
+
 
     public Node findNode(String name) throws IOException {
         ensureOpen();

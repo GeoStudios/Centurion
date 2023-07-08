@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming.ldap.spi;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The result of a DNS lookup for an LDAP URL.

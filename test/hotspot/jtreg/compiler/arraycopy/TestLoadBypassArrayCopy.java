@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8086046
@@ -31,6 +46,7 @@ package compiler.arraycopy;
  *                   -XX:-TieredCompilation
  *                   compiler.arraycopy.TestLoadBypassArrayCopy
  */
+
 
 public class TestLoadBypassArrayCopy {
 

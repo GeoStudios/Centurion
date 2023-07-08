@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  This element is used for single-line text input. See the  ISINDEX element
  * definition in HTML 4.0. This element is deprecated in HTML 4.0.

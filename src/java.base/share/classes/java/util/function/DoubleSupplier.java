@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util.function;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a supplier of {@code double}-valued results.  This is the
  * {@code double}-producing primitive specialization of {@link Supplier}.

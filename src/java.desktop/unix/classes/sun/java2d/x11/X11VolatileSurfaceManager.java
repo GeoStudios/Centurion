@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.x11;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.ImageCapabilities;
 import java.awt.Transparency;
@@ -29,6 +30,20 @@ import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
 import java.desktop.unix.classes.sun.awt.image.VolatileSurfaceManager;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * X11 platform implementation of the VolatileSurfaceManager class.

@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
+
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VFrame {
   protected Frame       fr;

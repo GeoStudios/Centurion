@@ -21,13 +21,29 @@
 
 package java.management.share.classes.javax.management.loading;
 
+
 import java.net.URL;
 import java.net.MalformedURLException;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // java import
+
 
 /**
  * This class represents the contents of the <CODE>MLET</CODE> tag.
@@ -36,6 +52,7 @@ import java.util.Map;
  *
  */
 public class MLetContent {
+
 
     /**
      * A map of the attributes of the <CODE>MLET</CODE> tag
@@ -63,6 +80,7 @@ public class MLetContent {
      * The base URL.
      */
     private URL baseURL;
+
 
     /**
      * Creates an <CODE>MLet</CODE> instance initialized with attributes read
@@ -184,6 +202,7 @@ public class MLetContent {
     public String getName() {
         return getParameter("name");
     }
+
 
     /**
      * Gets the value of the <CODE>VERSION</CODE>

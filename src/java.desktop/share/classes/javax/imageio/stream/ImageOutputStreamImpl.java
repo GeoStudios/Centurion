@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.UTFDataFormatException;
 import java.nio.ByteOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract class implementing the {@code ImageOutputStream} interface.

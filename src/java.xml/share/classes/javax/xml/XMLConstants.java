@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>Utility class to contain basic XML values as constants.
  *
@@ -180,6 +196,7 @@ public final class XMLConstants {
          * </ul>
          */
         public static final String FEATURE_SECURE_PROCESSING = "http://javax.xml.XMLConstants/feature/secure-processing";
+
 
         /**
          * Property: accessExternalDTD
@@ -366,6 +383,7 @@ public final class XMLConstants {
          *
          */
         public static final String ACCESS_EXTERNAL_STYLESHEET = "http://javax.xml.XMLConstants/property/accessExternalStylesheet";
+
 
         /**
          * Feature: useCatalog

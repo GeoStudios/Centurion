@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * The interface that a DTD datatype must implement. The implementation of this

@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thread that wakes up periodically and closes expired, unused connections.
  *

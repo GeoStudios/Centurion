@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.methodsByName_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>methodsByName(String name)</code>
@@ -46,6 +60,7 @@ public class methbyname_s003 extends Log {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "methbyname_s003b";
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

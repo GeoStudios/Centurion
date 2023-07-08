@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.desktop.share.classes.sun.awt.SunHints;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A delegate pipe of SG2D for drawing text with

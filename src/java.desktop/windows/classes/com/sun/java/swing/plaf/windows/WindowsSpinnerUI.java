@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.*;
 import java.desktop.windows.classes.com.sun.java.awt.event.*;
 import javax.swing.plaf.basic.*;
@@ -29,6 +30,20 @@ import javax.swing.*;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindowsSpinnerUI extends BasicSpinnerUI {
     public static ComponentUI createUI(JComponent c) {

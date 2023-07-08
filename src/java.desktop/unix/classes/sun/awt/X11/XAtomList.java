@@ -21,7 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class to ease the work with the lists of atoms.
@@ -105,6 +120,7 @@ class XAtomList {
     public void remove(XAtom atom) {
         atoms.remove(atom);
     }
+
 
     /**
      * Returns size of the list

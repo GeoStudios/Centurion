@@ -21,6 +21,56 @@
 
 package build.tools.cldrconverter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Converts locale data from "Locale Data Markup Language" format to
  * JRE resource bundle format. LDML is the format used by the Common
@@ -31,6 +81,7 @@ public class CLDRConverter {
     static final String LDML_DTD_SYSTEM_ID = "http://www.unicode.org/cldr/dtd/2.0/ldml.dtd";
     static final String SPPL_LDML_DTD_SYSTEM_ID = "http://www.unicode.org/cldr/dtd/2.0/ldmlSupplemental.dtd";
     static final String BCP47_LDML_DTD_SYSTEM_ID = "http://www.unicode.org/cldr/dtd/2.0/ldmlBCP47.dtd";
+
 
     private static String CLDR_BASE;
     static String LOCAL_LDML_DTD;

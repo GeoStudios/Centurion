@@ -21,14 +21,30 @@
 
 package nsk.jvmti.unit.heap;
 
+
 import nsk.share.jvmti.unit.*;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Unit tests for JVMTI IterateOverReachableObjects and
  * IterateOverObjectsReachableFromObject functions.
  *
  */
+
+
 
 public class HeapWalkTests {
 
@@ -104,6 +120,7 @@ public class HeapWalkTests {
             throw new RuntimeException("stack local not tagged correctly");
         }
     }
+
 
     // used by test3
     static class Foo {

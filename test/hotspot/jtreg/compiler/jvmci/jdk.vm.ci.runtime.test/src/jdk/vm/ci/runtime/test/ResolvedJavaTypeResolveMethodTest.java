@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.runtime.test;
 
+
 import jdk.vm.ci.meta.MetaAccessProvider;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaType;
@@ -30,6 +31,19 @@ import static org.junit.Assert.assertEquals;.extended
 import static org.junit.Assert.assertNull;.extended
 import static org.junit.Assert.assertNotNull;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -37,6 +51,9 @@ import static org.junit.Assert.assertNotNull;.extended
  *          jdk.internal.vm.ci/jdk.vm.ci.runtime
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.ResolvedJavaTypeResolveMethodTest
  */
+
+
+
 
 public class ResolvedJavaTypeResolveMethodTest {
     public final MetaAccessProvider metaAccess;

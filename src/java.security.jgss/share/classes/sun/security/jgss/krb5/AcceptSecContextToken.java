@@ -21,11 +21,26 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
+
 import org.ietf.jgss.*;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
 import java.security.jgss.share.classes.sun.security.krb5.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class AcceptSecContextToken extends InitialToken {
 

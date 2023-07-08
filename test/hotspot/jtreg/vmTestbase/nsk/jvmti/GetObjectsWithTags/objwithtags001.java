@@ -21,9 +21,23 @@
 
 package nsk.jvmti.GetObjectsWithTags;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class objwithtags001 extends DebugeeClass {
 

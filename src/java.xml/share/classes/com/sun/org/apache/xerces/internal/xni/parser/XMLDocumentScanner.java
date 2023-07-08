@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This interface defines a generic document scanner. This interface

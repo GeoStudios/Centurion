@@ -21,12 +21,26 @@
 
 package nsk.jdi.EventRequestManager._bounds_;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks up the                                       <br>

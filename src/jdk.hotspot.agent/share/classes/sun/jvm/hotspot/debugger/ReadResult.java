@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The only reason for this is to not throw UnmappedAddressException
     across readBytesFromProcess() calls; we can't decompose the

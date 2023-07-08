@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.im;
 
+
 import java.desktop.share.classes.java.awt.font.TextAttribute;
 import java.desktop.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * An InputMethodHighlight is used to describe the highlight
@@ -73,6 +88,7 @@ public class InputMethodHighlight {
      */
     public static final int CONVERTED_TEXT = 1;
 
+
     /**
      * Constant for the default highlight for unselected raw text.
      */
@@ -96,6 +112,7 @@ public class InputMethodHighlight {
      */
     public static final InputMethodHighlight SELECTED_CONVERTED_TEXT_HIGHLIGHT =
         new InputMethodHighlight(true, CONVERTED_TEXT);
+
 
     /**
      * Constructs an input method highlight record.

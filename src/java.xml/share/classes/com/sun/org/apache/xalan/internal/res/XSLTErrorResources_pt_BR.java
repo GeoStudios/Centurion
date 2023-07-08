@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Set up error messages.
@@ -1041,6 +1056,7 @@ public class XSLTErrorResources_pt_BR extends ListResourceBundle
     { ER_ERRORLISTENER,
      "ErrorListener"},
 
+
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
 //   an internal consistency problem in itself, and it provides this message
@@ -1049,6 +1065,7 @@ public class XSLTErrorResources_pt_BR extends ListResourceBundle
 //   translated.
     { ER_ASSERT_NO_TEMPLATE_PARENT,
      "Erro do programador! A express\u00E3o n\u00E3o tem ElemTemplateElement pai!"},
+
 
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
@@ -1115,6 +1132,7 @@ public class XSLTErrorResources_pt_BR extends ListResourceBundle
      { INVALID_NUMBER,
      "Valor inv\u00E1lido: {1} usado para o atributo do n\u00FAmero: {0} "},
 
+
   // End of shared codes...
 
 // Note to translators:  A "match pattern" is a special form of XPath expression
@@ -1131,6 +1149,7 @@ public class XSLTErrorResources_pt_BR extends ListResourceBundle
 // ER_DUPLICATE_GLOBAL_VAR - new error message for bugzilla #790
     { ER_DUPLICATE_GLOBAL_VAR,
      "Declara\u00E7\u00E3o de vari\u00E1vel global duplicada."},
+
 
 // Note to translators:  The following message indicates that two definitions of
 // a variable were encountered.
@@ -1325,6 +1344,7 @@ public class XSLTErrorResources_pt_BR extends ListResourceBundle
   { "column","N\u00B0 da Coluna"},
   { "xsldone", "XSLProcessor: conclu\u00EDdo"},
 
+
   // Note to translators:  The following messages provide usage information
   // for the Xalan Process command line.  "Process" is the name of a Java class,
   // and should not be translated.
@@ -1381,6 +1401,7 @@ public class XSLTErrorResources_pt_BR extends ListResourceBundle
   { "optionSECUREPROCESSING", "   [-SECURE (define o recurso de processamento seguro como verdadeiro.)]"},
 
     // Following are the new options added in XSLTErrorResources.properties files after Jdk 1.4 (Xalan 2.2-D11)
+
 
   {  "optionMEDIA",  "   [-MEDIA mediaType (use o atributo de m\u00EDdia para localizar a folha de estilos associada a um documento.)]"},
   {  "optionFLAVOR",  "   [-FLAVOR flavorName (Use explicitamente s2s=SAX ou d2d=DOM para fazer a transforma\u00E7\u00E3o.)] "}, // Added by sboag/scurcuru; experimental

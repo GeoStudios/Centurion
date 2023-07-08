@@ -21,11 +21,25 @@
 
 package compiler.classUnloading.methodUnloading;
 
+
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLClassLoader;
 import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test MethodUnloadingTest
@@ -43,6 +57,9 @@ import compiler.whitebox.CompilerWhiteBoxTest;
  *                   -XX:CompileCommand=compileonly,compiler.classUnloading.methodUnloading.TestMethodUnloading::doWork
  *                   compiler.classUnloading.methodUnloading.TestMethodUnloading
  */
+
+
+
 
 public class TestMethodUnloading {
     private static final String workerClassName = "compiler.classUnloading.methodUnloading.WorkerClass";

@@ -21,12 +21,27 @@
 
 package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
 
+
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.*;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.event.MouseAdapter;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.event.MouseEvent;
 import javax.swing.JCheckBox;
 import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.java.util.ListCellRenderer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

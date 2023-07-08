@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.AlphaComposite;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -41,6 +42,20 @@ import java.desktop.unix.classes.sun.awt.IconInfo;
 import java.desktop.unix.classes.sun.awt.image.ImageRepresentation;
 import java.desktop.unix.classes.sun.awt.image.ToolkitImage;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XIconWindow extends XBaseWindow {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XIconWindow");

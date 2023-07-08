@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequestManager.createClassPrepareRequest;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -103,6 +117,7 @@ public class cpreg001 extends JDIBase {
         Binder binder   = new Binder(argsHandler, logHandler);
 
         waitTime        = argsHandler.getWaitTime() * 60000;
+
 
         try {
             log2("launching a debuggee :");
@@ -182,6 +197,7 @@ public class cpreg001 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -245,6 +261,7 @@ public class cpreg001 extends JDIBase {
     //------------------------------------------------------  testing section
 
         ClassPrepareRequest cpRequest1 = null;
+
 
         log1("     TESTING BEGINS");
 

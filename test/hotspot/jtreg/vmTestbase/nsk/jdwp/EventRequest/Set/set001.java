@@ -21,10 +21,24 @@
 
 package nsk.jdwp.EventRequest.Set;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: EventRequest.Set.
@@ -470,6 +484,7 @@ public class set001 {
 
         log.display("  ... event packet parsed");
     }
+
 
     /**
      * Disconnect debuggee and wait for it exited.

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code AccessibleRelationSet} determines a component's relation set.

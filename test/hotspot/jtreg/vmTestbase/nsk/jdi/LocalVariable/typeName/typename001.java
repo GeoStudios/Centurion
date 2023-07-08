@@ -21,12 +21,26 @@
 
 package nsk.jdi.LocalVariable.typeName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -178,6 +192,7 @@ public class typename001 {
 
             Method testMethod = (Method) methods.get(0);
 
+
             String names[] = { "bl1", "bt1", "ch1", "db1",
                                "fl1", "in1", "ln1", "sh1" };
 
@@ -267,6 +282,7 @@ public class typename001 {
                             log3("ERROR: !lVarTypeName.equals('short')");
                         }
                         break;
+
 
                 default: expresult = 2;
                          break ;

@@ -21,7 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.UnsafeAccess.UNSAFE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages a set of {@code jobject} and {@code jmetadata} handles whose lifetimes are

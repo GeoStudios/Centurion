@@ -21,12 +21,64 @@
 
 package build.tools.classlist;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This application is meant to be run to create a classlist file representing
  * common use.
  *
  * The classlist is produced by adding -XX:DumpLoadedClassList=classlist
  */
+
+
 
 /**
  * This class is used to generate a classlist during build. Intent

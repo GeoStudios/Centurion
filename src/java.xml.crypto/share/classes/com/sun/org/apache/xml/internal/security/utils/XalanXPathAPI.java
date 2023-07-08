@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -39,10 +40,28 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * An implementation of XPathAPI using Xalan. This supports the "here()" function defined in the digital
@@ -66,6 +85,7 @@ class XalanXPathAPI implements XPathAPI {
     static {
         fixupFunctionTable();
     }
+
 
     /**
      *  Use an XPath string to select a nodelist.

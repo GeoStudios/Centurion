@@ -21,6 +21,7 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -200,6 +214,7 @@ public class redefineclasses001 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -250,11 +265,13 @@ public class redefineclasses001 extends JDIBase {
 
         log2("      received: ClassPrepareEvent for debuggeeClass");
 
+
         if ( !vm.canRedefineClasses() ) {
             log2("......vm.canRedefineClasses() == false : test is cancelled");
             vm.resume();
             return;
         }
+
 
         String bPointMethod = "methodForCommunication";
         String lineForComm  = "lineForComm";
@@ -278,6 +295,7 @@ public class redefineclasses001 extends JDIBase {
         BreakpointRequest bpRequest2 = null;
         BreakpointRequest bpRequest3 = null;
         ReferenceType     bpClass    = null;
+
 
         for (int i = 0; ; i++) {
 
@@ -379,6 +397,7 @@ public class redefineclasses001 extends JDIBase {
         throw new JDITestRuntimeException("** UNEXPECTED breakpoint **");
     }
 
+
     private Map<? extends com.sun.jdi.ReferenceType,byte[]> mapClassToBytes()
                 throws JDITestRuntimeException {
 
@@ -394,6 +413,7 @@ public class redefineclasses001 extends JDIBase {
         }
         String testDir = args[0];
         log2("...... testDir = " + testDir);
+
 
         String filePrefix = File.separator + "nsk"
                           + File.separator + "jdi"

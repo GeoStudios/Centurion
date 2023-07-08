@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8134321
@@ -29,6 +44,7 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.arraycopy.TestEliminatedArrayCopyPhi
  */
+
 
 public class TestEliminatedArrayCopyPhi {
 

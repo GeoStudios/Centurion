@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8229855 8238812
@@ -35,6 +50,7 @@ package compiler.c2;
  *                   -Xbatch -XX:+UnlockDiagnosticVMOptions -XX:-TieredCompilation -XX:+StressIGVN
  *                   compiler.c2.TestJumpTable
  */
+
 
 public class TestJumpTable {
 

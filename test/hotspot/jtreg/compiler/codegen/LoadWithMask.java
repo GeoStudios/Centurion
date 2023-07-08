@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8032207
@@ -30,6 +45,7 @@ package compiler.codegen;
  *      -XX:CompileCommand=compileonly,compiler.codegen.LoadWithMask::foo
  *      compiler.codegen.LoadWithMask
  */
+
 
 public class LoadWithMask {
     static int x[] = new int[1];

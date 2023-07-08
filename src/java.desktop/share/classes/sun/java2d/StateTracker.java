@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface is used to track changes to the complex data of an
  * object that implements the StateTrackable interface.

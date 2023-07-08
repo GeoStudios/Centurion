@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This interface has extensions to the standard SAX LexicalHandler interface.

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.print;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code DocFlavor} encapsulates an object that specifies the format in
@@ -661,6 +676,7 @@ public class DocFlavor implements Serializable, Cloneable {
         public static final BYTE_ARRAY TEXT_PLAIN_US_ASCII =
             new BYTE_ARRAY ("text/plain; charset=us-ascii");
 
+
         /**
          * Doc flavor with MIME type = {@code "text/html"}, encoded in the host
          * platform encoding. See {@link DocFlavor#hostEncoding hostEncoding}.
@@ -705,6 +721,7 @@ public class DocFlavor implements Serializable, Cloneable {
          */
         public static final BYTE_ARRAY TEXT_HTML_US_ASCII =
             new BYTE_ARRAY ("text/html; charset=us-ascii");
+
 
         /**
          * Doc flavor with MIME type = {@code "application/pdf"}, print data

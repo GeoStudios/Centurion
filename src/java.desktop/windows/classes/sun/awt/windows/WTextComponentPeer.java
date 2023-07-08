@@ -21,9 +21,24 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.TextEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract
 class WTextComponentPeer extends WComponentPeer implements TextComponentPeer {

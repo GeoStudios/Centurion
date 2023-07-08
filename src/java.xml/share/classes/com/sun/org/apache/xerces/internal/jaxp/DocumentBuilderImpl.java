@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
@@ -54,6 +55,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021
@@ -106,6 +121,7 @@ public class DocumentBuilderImpl extends DocumentBuilder
 
     /** Property identifier: access to external schema */
     public static final String ACCESS_EXTERNAL_SCHEMA = XMLConstants.ACCESS_EXTERNAL_SCHEMA;
+
 
     private final DOMParser domParser;
     private final Schema grammar;

@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
@@ -36,6 +37,20 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -1561,6 +1576,8 @@ public abstract class ByteVector extends AbstractVector<Byte> {
         return lanewise(OR, e);
     }
 
+
+
     /// UNARY METHODS
 
     /**
@@ -1613,6 +1630,7 @@ public abstract class ByteVector extends AbstractVector<Byte> {
     public final ByteVector not() {
         return lanewise(NOT);
     }
+
 
     /// COMPARISONS
 
@@ -1857,6 +1875,8 @@ public abstract class ByteVector extends AbstractVector<Byte> {
     VectorMask<Byte> compare(Comparison op, long e, VectorMask<Byte> m) {
         return compare(op, broadcast(e), m);
     }
+
+
 
     /**
      * {@inheritDoc} <!--workaround-->
@@ -2316,6 +2336,7 @@ public abstract class ByteVector extends AbstractVector<Byte> {
     ByteVector bitwiseBlend(Vector<Byte> bits, byte mask) {
         return lanewise(BITWISE_BLEND, bits, mask);
     }
+
 
     // Type specific horizontal reductions
 
@@ -2835,6 +2856,7 @@ public abstract class ByteVector extends AbstractVector<Byte> {
         return vsp.vOp(m, n -> a[offset + indexMap[mapOffset + n]]);
     }
 
+
     /**
      * Loads a vector from an array of type {@code boolean[]}
      * starting at an offset.
@@ -3235,6 +3257,7 @@ public abstract class ByteVector extends AbstractVector<Byte> {
              });
     }
 
+
     /**
      * Stores this vector into an array of type {@code boolean[]}
      * starting at an offset.
@@ -3508,6 +3531,7 @@ public abstract class ByteVector extends AbstractVector<Byte> {
                                     (arr_, off_, i) -> arr_[off_ + i]));
     }
 
+
     /*package-private*/
     abstract
     ByteVector fromBooleanArray0(boolean[] a, int offset);
@@ -3650,6 +3674,7 @@ public abstract class ByteVector extends AbstractVector<Byte> {
     static long arrayAddress(byte[] a, int index) {
         return ARRAY_BASE + (((long)index) << ARRAY_SHIFT);
     }
+
 
     static final int ARRAY_BOOLEAN_SHIFT =
             31 - Integer.numberOfLeadingZeros(Unsafe.ARRAY_BOOLEAN_INDEX_SCALE);

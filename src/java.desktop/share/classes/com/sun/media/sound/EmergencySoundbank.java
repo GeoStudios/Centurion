@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.util.Random;
 import javax.sound.midi.Patch;
 import javax.sound.sampled.AudioFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Emergency Soundbank generator.
@@ -232,6 +247,7 @@ public final class EmergencySoundbank {
         drums[80] = side_stick;
         drums[81] = side_stick;
 
+
         SF2Instrument drum_instrument = new SF2Instrument(sf2);
         drum_instrument.setName("Standard Kit");
         drum_instrument.setPatch(new ModelPatch(0, 0, true));
@@ -245,6 +261,7 @@ public final class EmergencySoundbank {
                 drum_instrument.getRegions().add(region);
             }
         }
+
 
         /*
          *  melodic instruments
@@ -350,6 +367,7 @@ public final class EmergencySoundbank {
         region.putInteger(SF2Region.GENERATOR_RELEASEVOLENV, 2000);
         newInstrument(sf2, "Synth Strings", new Patch(0, 50), string2);
         newInstrument(sf2, "Synth Strings", new Patch(0, 51), string2);
+
 
         newInstrument(sf2, "Choir", new Patch(0, 52), choir);
         newInstrument(sf2, "Choir", new Patch(0, 53), choir);
@@ -603,8 +621,10 @@ public final class EmergencySoundbank {
             complexGaussianDist(data, base * (i + 1), w, aa[i]);
         }
 
+
         SF2Sample sample = newSimpleFFTSample_dist(sf2, "Distorted Guitar",
                 data, base, 10000.0);
+
 
         SF2Layer layer = newLayer(sf2, "Distorted Guitar", sample);
         SF2Region region = layer.getRegions().get(0);
@@ -704,11 +724,13 @@ public final class EmergencySoundbank {
         //aa[2] *= 0.1;
         aa[4] *= 2;
 
+
         aa[12] *= 0.9;
         aa[13] *= 0.7;
         for (int i = 14; i < 30; i++) {
             aa[i] *= 0.5;
         }
+
 
         for (int i = 0; i < 30; i++) {
             //double detune = 1 + (random.nextDouble()*2 - 1)*0.0001;
@@ -761,11 +783,13 @@ public final class EmergencySoundbank {
         //aa[2] *= 0.1;
         aa[4] *= 2;
 
+
         aa[12] *= 0.9;
         aa[13] *= 0.7;
         for (int i = 14; i < 30; i++) {
             aa[i] *= 0.5;
         }
+
 
         for (int i = 0; i < 30; i++) {
             //double detune = 1 + (random.nextDouble()*2 - 1)*0.0001;
@@ -876,6 +900,7 @@ public final class EmergencySoundbank {
         aa[2] *= 0.1;
         aa[7] *= 5;
 
+
         for (int i = 0; i < 30; i++) {
             //double detune = 1 + (random.nextDouble()*2 - 1)*0.0001;
             double w = 0.2;
@@ -927,6 +952,8 @@ public final class EmergencySoundbank {
             complexGaussianDist(data, base * (i + 1) * detune, w, a);
             a *= a_step;
         }
+
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "EPiano", data, base);
         SF2Layer layer = newLayer(sf2, "EPiano", sample);
@@ -1006,6 +1033,7 @@ public final class EmergencySoundbank {
             complexGaussianDist(data, base * (i + 1), w, aa[i]);
         }
 
+
         SF2Sample sample = newSimpleFFTSample(sf2, "Bass", data, base);
         SF2Layer layer = newLayer(sf2, "Bass", sample);
         SF2Region region = layer.getRegions().get(0);
@@ -1049,6 +1077,7 @@ public final class EmergencySoundbank {
             double w = start_w + (end_w - start_w) * (i / 40.0);
             complexGaussianDist(data, base * (i + 1), w, aa[i]);
         }
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "Bass", data, base);
         SF2Layer layer = newLayer(sf2, "Bass", sample);
@@ -1094,6 +1123,7 @@ public final class EmergencySoundbank {
             double w = start_w + (end_w - start_w) * (i / 40.0);
             complexGaussianDist(data, base * (i + 1), w, aa[i]);
         }
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "Bass2", data, base);
         SF2Layer layer = newLayer(sf2, "Bass2", sample);
@@ -1173,6 +1203,7 @@ public final class EmergencySoundbank {
             a *= a_step;
         }
         complexGaussianDist(data, base * 4, 300, 1);
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "Och Strings", data, base);
         SF2Layer layer = newLayer(sf2, "Och Strings", sample);
@@ -1333,6 +1364,7 @@ public final class EmergencySoundbank {
         aa[55] = 0;
         aa[57] = 0;
 
+
         aa[10] *= 0.1;
         aa[11] *= 0.1;
         aa[12] *= 0.1;
@@ -1387,6 +1419,7 @@ public final class EmergencySoundbank {
         complexGaussianDist(data, base * 16, 0.08, 0.5);
         complexGaussianDist(data, base * 17, 0.08, 0.2);
 
+
         complexGaussianDist(data, base * 1, 10, 8);
         complexGaussianDist(data, base * 2, 10, 8);
         complexGaussianDist(data, base * 3, 10, 8);
@@ -1438,6 +1471,7 @@ public final class EmergencySoundbank {
 
         complexGaussianDist(data, base * 2, 100, 1);
 
+
         SF2Sample sample = newSimpleFFTSample(sf2, "Horn", data, base);
         SF2Layer layer = newLayer(sf2, "Horn", sample);
         SF2Region region = layer.getRegions().get(0);
@@ -1481,6 +1515,7 @@ public final class EmergencySoundbank {
         }
 
         complexGaussianDist(data, base * 5, 300, 3);
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "Trumpet", data, base);
         SF2Layer layer = newLayer(sf2, "Trumpet", sample);
@@ -1527,6 +1562,7 @@ public final class EmergencySoundbank {
 
         complexGaussianDist(data, base * 6, 300, 2);
 
+
         SF2Sample sample = newSimpleFFTSample(sf2, "Brass Section", data, base);
         SF2Layer layer = newLayer(sf2, "Brass Section", sample);
         SF2Region region = layer.getRegions().get(0);
@@ -1568,6 +1604,7 @@ public final class EmergencySoundbank {
         }
 
         complexGaussianDist(data, base * 6, 300, 2);
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "Trombone", data, base);
         SF2Layer layer = newLayer(sf2, "Trombone", sample);
@@ -1632,6 +1669,7 @@ public final class EmergencySoundbank {
 
         complexGaussianDist(data, base * 5, 100, 80);
 
+
         complexGaussianDist(data, base * 1, 0.01, 0.53);
         complexGaussianDist(data, base * 2, 0.01, 0.51);
         complexGaussianDist(data, base * 3, 0.01, 0.48);
@@ -1652,6 +1690,7 @@ public final class EmergencySoundbank {
         complexGaussianDist(data, base * 18, 0.01, 0.10);
         complexGaussianDist(data, base * 19, 0.01, 0.5);
         complexGaussianDist(data, base * 20, 0.01, 0.1);
+
 
         SF2Sample sample = newSimpleFFTSample(sf2, "Oboe", data, base);
         SF2Layer layer = newLayer(sf2, "Oboe", sample);
@@ -1696,6 +1735,7 @@ public final class EmergencySoundbank {
         complexGaussianDist(data, base * 19, 0.01, 0.5);
         complexGaussianDist(data, base * 20, 0.01, 0.1);
 
+
         SF2Sample sample = newSimpleFFTSample(sf2, "Flute", data, base);
         SF2Layer layer = newLayer(sf2, "Flute", sample);
         SF2Region region = layer.getRegions().get(0);
@@ -1737,6 +1777,7 @@ public final class EmergencySoundbank {
         complexGaussianDist(data, base * 15, 0.08, 0.9);
         complexGaussianDist(data, base * 16, 0.08, 0.5);
         complexGaussianDist(data, base * 17, 0.08, 0.2);
+
 
         complexGaussianDist(data, base * 1, 10, 8);
         complexGaussianDist(data, base * 2, 10, 8);

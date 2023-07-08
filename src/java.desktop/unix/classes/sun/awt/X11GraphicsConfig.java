@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt;
 
+
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Component;
@@ -50,6 +51,20 @@ import java.desktop.unix.classes.sun.java2d.loops.RenderLoops;
 import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
 import java.desktop.unix.classes.sun.java2d.x11.X11SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsConfiguration object for a
@@ -141,6 +156,7 @@ public class X11GraphicsConfig extends GraphicsConfiguration
     public int getVisual () {
         return visual;
     }
+
 
     /**
      * Returns the depth associated with this configuration.

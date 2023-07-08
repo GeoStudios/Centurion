@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
+
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XMLStreamWriter interface specifies how to write XML.  The XMLStreamWriter  does
@@ -468,6 +483,7 @@ public interface XMLStreamWriter {
    */
   void setPrefix(String prefix, String uri)
     throws XMLStreamException;
+
 
   /**
    * Binds a URI to the default namespace

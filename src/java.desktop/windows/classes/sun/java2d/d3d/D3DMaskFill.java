@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
+
 import java.awt.Composite;
 import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
 import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
@@ -31,6 +32,20 @@ import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
 import java.desktop.windows.classes.sun.java2d.pipe.BufferedMaskFill;
 import static java.desktop.windows.classes.sun.java2d.loops.CompositeType.*;.extended
 import static java.desktop.windows.classes.sun.java2d.loops.SurfaceType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class D3DMaskFill extends BufferedMaskFill {
 

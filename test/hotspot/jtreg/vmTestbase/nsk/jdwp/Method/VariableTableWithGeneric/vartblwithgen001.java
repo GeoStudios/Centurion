@@ -21,10 +21,24 @@
 
 package nsk.jdwp.Method.VariableTableWithGeneric;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: Method.VariableTableWithGeneric.
@@ -66,6 +80,7 @@ public class vartblwithgen001 {
     // tested types signature conatants
     static final String OBJECT_CLASS_SIGNATURE = "Ljava/lang/Object;";
     static final String STRING_CLASS_SIGNATURE = "Ljava/lang/String;";
+
 
     // tested method name constant
     static final String TESTED_METHOD_NAME = "testedMethod";

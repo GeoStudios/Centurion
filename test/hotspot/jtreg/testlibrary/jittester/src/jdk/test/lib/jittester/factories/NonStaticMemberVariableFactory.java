@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.NonStaticMemberVariable;
@@ -31,6 +32,19 @@ import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class NonStaticMemberVariableFactory extends Factory<NonStaticMemberVariable> {
     private final Type type;

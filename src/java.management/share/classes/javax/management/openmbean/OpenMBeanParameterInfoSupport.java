@@ -21,12 +21,27 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.util.Set;
 import java.management.share.classes.javax.management.Descriptor;
 import java.management.share.classes.javax.management.DescriptorRead;  // for Javadoc.extended
 import java.management.share.classes.javax.management.ImmutableDescriptor;
 import java.management.share.classes.javax.management.MBeanParameterInfo;
 import static java.management.share.classes.javax.management.openmbean.OpenMBeanAttributeInfoSupport.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 //
@@ -80,10 +95,12 @@ public class OpenMBeanParameterInfoSupport
     @SuppressWarnings("serial") // Conditionally serializable
     private Comparable<?> maxValue        = null;
 
+
     // As this instance is immutable, these two values need only
     // be calculated once.
     private transient Integer myHashCode = null;        // As this instance is immutable, these two values
     private transient String  myToString = null;        // need only be calculated once.
+
 
     /**
      * Constructs an {@code OpenMBeanParameterInfoSupport} instance,
@@ -140,6 +157,7 @@ public class OpenMBeanParameterInfoSupport
                                          OpenType<?> openType,
                                          Descriptor descriptor) {
 
+
         // Construct parent's state
         //
         super(name,
@@ -164,6 +182,7 @@ public class OpenMBeanParameterInfoSupport
             throw new IllegalArgumentException(e.getMessage(), e);
         }
     }
+
 
     /**
      * Constructs an {@code OpenMBeanParameterInfoSupport} instance,
@@ -258,6 +277,7 @@ public class OpenMBeanParameterInfoSupport
         this(name, description, openType,
              defaultValue, legalValues, null, null);
     }
+
 
     /**
      * Constructs an {@code OpenMBeanParameterInfoSupport} instance,
@@ -482,6 +502,7 @@ public class OpenMBeanParameterInfoSupport
         return (maxValue != null);
     }
 
+
     /**
      * Tests whether {@code obj} is a valid value for the parameter
      * described by this {@code OpenMBeanParameterInfo} instance.
@@ -499,7 +520,9 @@ public class OpenMBeanParameterInfoSupport
         // also below in toString and hashCode
     }
 
+
     /* ***  Commodity methods from java.lang.Object  *** */
+
 
     /**
      * <p>Compares the specified {@code obj} parameter with this {@code

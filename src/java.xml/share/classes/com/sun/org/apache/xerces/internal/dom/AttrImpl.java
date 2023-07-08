@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Attribute represents an XML-style attribute of an
@@ -217,6 +232,7 @@ public class AttrImpl
         // isID true?
         return isIdAttribute();
     }
+
 
     //
     // Node methods
@@ -477,6 +493,7 @@ public class AttrImpl
         return value.toString();
 
     } // getValue():String
+
 
     /**
      * The "specified" flag is true if and only if this attribute's
@@ -1088,6 +1105,7 @@ public class AttrImpl
         return false;
     }
 
+
     //
     // Public methods
     //
@@ -1228,5 +1246,6 @@ public class AttrImpl
         needsSyncChildren(false);
 
     } // readObject(ObjectInputStream)
+
 
 } // class AttrImpl

@@ -21,6 +21,7 @@
 
 package util;
 
+
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -29,6 +30,19 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BOMInputStream {
         public static InputStream createStream(String charset, InputStream input) {
@@ -65,6 +79,7 @@ public class BOMInputStream {
                         {}
                 }
         }
+
 
         private final static Map<String, byte[]> bom = new HashMap();
         private final static byte[][] bomBytes = {{(byte)0xEF, (byte)0xBB, (byte)0xBF},

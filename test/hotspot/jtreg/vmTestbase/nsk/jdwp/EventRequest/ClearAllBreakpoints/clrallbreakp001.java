@@ -21,10 +21,24 @@
 
 package nsk.jdwp.EventRequest.ClearAllBreakpoints;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: EventRequest.ClearAllBreakpoints.
@@ -212,6 +226,7 @@ public class clrallbreakp001 {
                                                         JDWP.SuspendPolicy.ALL);
         log.display("  ... got requestID: " + eventRequestID);
     }
+
 
     /**
      * Test JDWP command.
@@ -434,6 +449,7 @@ public class clrallbreakp001 {
 
         log.display("  ... event packet parsed");
     }
+
 
     /**
      * Disconnect debuggee and wait for it exited.

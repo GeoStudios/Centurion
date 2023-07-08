@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.util.BitSet;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends DefaultListModel, and also implements
@@ -39,6 +54,7 @@ import java.io.Serializable;
  */
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionModel, Serializable {
+
 
     private static final int MIN = -1;
     private static final int MAX = Integer.MAX_VALUE;
@@ -111,6 +127,7 @@ class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionMod
         fireValueChanged(getMinSelectionIndex(), getMaxSelectionIndex(), isAdjusting);
     }
 
+
     /**
      * Notify ListSelectionListeners that the value of the selection,
      * in the closed interval firstIndex,lastIndex, has changed.
@@ -154,6 +171,7 @@ class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionMod
         lastChangedIndex = MIN;
         fireValueChanged(oldFirstChangedIndex, oldLastChangedIndex);
     }
+
 
     // Update first and last change indices
     private void markAsDirty(int r) {
@@ -359,6 +377,7 @@ class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionMod
         changeSelection(clearMin, clearMax, setMin, setMax);
     }
 
+
     public void removeSelectionInterval(int index0, int index1)
     {
         if (index0 == -1 || index1 == -1) {
@@ -414,6 +433,7 @@ class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionMod
         }
     }
 
+
     /**
      * Remove the indices in the interval index0,index1 (inclusive) from
      * the selection model.  This is typically called to sync the selection
@@ -434,12 +454,14 @@ class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionMod
         }
     }
 
+
     public void setValueIsAdjusting(boolean isAdjusting) {
         if (isAdjusting != this.isAdjusting) {
             this.isAdjusting = isAdjusting;
             this.fireValueChanged(isAdjusting);
         }
     }
+
 
     public String toString() {
         String s =  ((getValueIsAdjusting()) ? "~" : "=") + value.toString();
@@ -527,6 +549,7 @@ class OptionListModel<E> extends DefaultListModel<E> implements ListSelectionMod
         this.anchorIndex = anchorIndex;
         this.leadIndex = leadIndex;
     }
+
 
     /**
      * This method is responsible for storing the state

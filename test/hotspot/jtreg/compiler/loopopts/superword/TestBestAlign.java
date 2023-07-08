@@ -21,6 +21,21 @@
 
 package compiler.loopopts.superword;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8141624
@@ -28,6 +43,7 @@ package compiler.loopopts.superword;
  * @run main/othervm compiler.loopopts.superword.TestBestAlign
  * @author gunter.haug@sap.com
  */
+
 
 public class TestBestAlign {
 

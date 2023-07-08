@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.superclass;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -78,6 +92,7 @@ public class superclass002a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(superclass002.SIGNAL_READY);
+
 
         //pipe.println(superclass002.SIGNAL_GO);
         receiveSignal(superclass002.SIGNAL_QUIT);

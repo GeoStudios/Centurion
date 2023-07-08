@@ -21,6 +21,21 @@
 
 package gc.stringdedup;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStringDeduplicationFullGC
  * @summary Test string deduplication during full GC

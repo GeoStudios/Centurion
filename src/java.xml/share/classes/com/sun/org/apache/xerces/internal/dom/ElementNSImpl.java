@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
@@ -30,10 +31,28 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceCo
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * ElementNSImpl inherits from ElementImpl and adds namespace support.
@@ -194,6 +213,8 @@ public class ElementNSImpl
     //
     // Node methods
     //
+
+
 
     //
     //DOM2: Namespace methods.

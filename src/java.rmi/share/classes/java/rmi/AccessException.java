@@ -21,6 +21,22 @@
 
 package java.rmi.share.classes.java.rmi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An <code>AccessException</code> is thrown by certain methods of the
  * <code>java.rmi.Naming</code> class (specifically <code>bind</code>,

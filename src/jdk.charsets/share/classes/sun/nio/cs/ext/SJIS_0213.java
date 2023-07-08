@@ -21,6 +21,7 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -32,6 +33,20 @@ import java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Arrays;
 import jdk.charsets.share.classes.sun.nio.cs.CharsetMapping;
 import jdk.charsets.share.classes.sun.nio.cs.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  5 types of entry in SJIS_X_0213/Unicode mapping table

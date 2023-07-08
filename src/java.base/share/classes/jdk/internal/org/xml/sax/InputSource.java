@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.org.xml.sax;
 
+
 import java.io.Reader;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A single input source for an XML entity.
@@ -85,6 +100,7 @@ public class InputSource {
     {
     }
 
+
     /**
      * Create a new input source with a system identifier.
      *
@@ -107,6 +123,7 @@ public class InputSource {
         setSystemId(systemId);
     }
 
+
     /**
      * Create a new input source with a byte stream.
      *
@@ -127,6 +144,7 @@ public class InputSource {
         setByteStream(byteStream);
     }
 
+
     /**
      * Create a new input source with a character stream.
      *
@@ -146,6 +164,7 @@ public class InputSource {
         setCharacterStream(characterStream);
     }
 
+
     /**
      * Set the public identifier for this input source.
      *
@@ -163,6 +182,7 @@ public class InputSource {
         this.publicId = publicId;
     }
 
+
     /**
      * Get the public identifier for this input source.
      *
@@ -173,6 +193,7 @@ public class InputSource {
     {
         return publicId;
     }
+
 
     /**
      * Set the system identifier for this input source.
@@ -202,6 +223,7 @@ public class InputSource {
         this.systemId = systemId;
     }
 
+
     /**
      * Get the system identifier for this input source.
      *
@@ -218,6 +240,7 @@ public class InputSource {
     {
         return systemId;
     }
+
 
     /**
      * Set the byte stream for this input source.
@@ -241,6 +264,7 @@ public class InputSource {
         this.byteStream = byteStream;
     }
 
+
     /**
      * Get the byte stream for this input source.
      *
@@ -255,6 +279,7 @@ public class InputSource {
     {
         return byteStream;
     }
+
 
     /**
      * Set the character encoding, if known.
@@ -276,6 +301,7 @@ public class InputSource {
         this.encoding = encoding;
     }
 
+
     /**
      * Get the character encoding for a byte stream or URI.
      * This value will be ignored when the application provides a
@@ -290,6 +316,7 @@ public class InputSource {
     {
         return encoding;
     }
+
 
     /**
      * Set the character stream for this input source.
@@ -308,6 +335,7 @@ public class InputSource {
         this.characterStream = characterStream;
     }
 
+
     /**
      * Get the character stream for this input source.
      *
@@ -318,6 +346,8 @@ public class InputSource {
     {
         return characterStream;
     }
+
+
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.

@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.sourceName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>sourceName()</code>

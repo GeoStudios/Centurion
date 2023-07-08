@@ -21,11 +21,26 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.jdk.internal.icu.text.UTF16;
 import java.base.share.classes.jdk.internal.icu.text.UnicodeSet;
 import java.base.share.classes.jdk.internal.icu.text.UnicodeSet.SpanCondition;
 import java.base.share.classes.jdk.internal.icu.util.OutputInt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Implement span() etc. for a set with strings.

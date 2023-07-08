@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,6 +31,20 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A package-private PropertyChangeListener which listens for
@@ -141,6 +156,7 @@ abstract class ActionPropertyChangeListener<T extends JComponent>
             setTarget(target);
         }
     }
+
 
     private static class OwnedWeakReference<U extends JComponent> extends
                               WeakReference<U> {

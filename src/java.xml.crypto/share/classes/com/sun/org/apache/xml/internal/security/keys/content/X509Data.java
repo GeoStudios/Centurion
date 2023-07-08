@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
 
+
 import java.math.BigInteger;
 import java.security.cert.X509Certificate;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
@@ -37,10 +38,27 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 public class X509Data extends SignatureElementProxy implements KeyInfoContent {
 

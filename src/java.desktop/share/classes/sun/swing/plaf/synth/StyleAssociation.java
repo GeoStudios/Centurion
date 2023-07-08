@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.swing.plaf.synth;
 
+
 import javax.swing.plaf.synth.*;
 import java.util.*;
 import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <b>WARNING:</b> This class is an implementation detail and is only
@@ -54,6 +69,7 @@ public class StyleAssociation {
      */
     private final int _id;
 
+
     /**
      * Returns a StyleAssociation that can be used to determine if
      * a particular string matches the returned association.
@@ -73,6 +89,7 @@ public class StyleAssociation {
         throws PatternSyntaxException {
         return new StyleAssociation(text, style, id);
     }
+
 
     private StyleAssociation(String text, SynthStyle style, int id)
                  throws PatternSyntaxException {

@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@code Paint} interface defines how color patterns

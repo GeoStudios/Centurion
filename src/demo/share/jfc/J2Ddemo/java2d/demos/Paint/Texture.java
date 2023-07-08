@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Paint;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.GREEN;.extended
@@ -39,6 +40,20 @@ import java.awt.geom.AffineTransform;
 import java.awt.geom.GeneralPath;
 import java.awt.image.BufferedImage;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TexturePaint of gradient, buffered image and shapes.

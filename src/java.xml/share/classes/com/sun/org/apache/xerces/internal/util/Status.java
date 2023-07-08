@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public enum Status {
     SET((short)-3, false),
     UNKNOWN((short)-2, false),

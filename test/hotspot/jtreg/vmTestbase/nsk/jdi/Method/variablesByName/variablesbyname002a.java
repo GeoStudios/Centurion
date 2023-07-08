@@ -21,9 +21,23 @@
 
 package nsk.jdi.Method.variablesByName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the variablesbyname002 JDI test.
@@ -72,6 +86,7 @@ public class variablesbyname002a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -109,6 +124,7 @@ public class variablesbyname002a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 class variablesbyname002aTestClass {
 

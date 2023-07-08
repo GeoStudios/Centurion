@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
 import java.net.HttpCookie;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaNetHttpCookieAccess {
     /*

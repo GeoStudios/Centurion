@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.io.PrintStream;
 import java.util.Vector;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A view that arranges its children into a box shape by tiling
@@ -1056,6 +1071,7 @@ public class BoxView extends CompositeView {
         if (r.preferred > 0) {
             r.alignment = (float)totalAscent.preferred / r.preferred;
         }
+
 
         if (r.alignment == 0.0f) {
             // if the preferred alignment is 0 then the minimum and maximum spans are simply

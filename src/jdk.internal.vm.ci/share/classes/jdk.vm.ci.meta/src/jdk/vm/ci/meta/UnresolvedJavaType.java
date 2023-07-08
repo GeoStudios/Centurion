@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Implementation of {@link JavaType} for unresolved HotSpot classes.
  */

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An icon that is passed a {@code SynthContext}. Subclasses need only implement

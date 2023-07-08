@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LCMP - Compare longs:
@@ -38,12 +55,14 @@ public class LCMP extends Instruction implements TypedInstruction, StackProducer
         super(com.sun.org.apache.bcel.internal.Const.LCMP, (short) 1);
     }
 
+
     /** @return Type.LONG
      */
     @Override
     public Type getType( final ConstantPoolGen cp ) {
         return Type.LONG;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

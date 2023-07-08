@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A specialization of Field which represents a field containing a
     Java float value (in either a C/C++ data structure or a Java

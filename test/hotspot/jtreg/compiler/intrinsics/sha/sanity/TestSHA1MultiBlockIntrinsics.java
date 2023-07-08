@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.sha.sanity;
 
+
 import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -64,6 +78,7 @@ import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
  *                   compiler.testlibrary.intrinsics.Verifier positive.log positive_def.log
  *                   negative.log
  */
+
 
 public class TestSHA1MultiBlockIntrinsics {
     public static void main(String args[]) throws Exception {

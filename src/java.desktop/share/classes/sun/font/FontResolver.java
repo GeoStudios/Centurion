@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.GraphicsEnvironment;
 import java.awt.font.TextAttribute;
 import java.text.AttributedCharacterIterator;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class maps an individual character to a Font family which can

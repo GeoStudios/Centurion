@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequestManager.breakpointRequests;
 
+
 import com.sun.jdi.AbsentInformationException;
 import com.sun.jdi.ClassNotPreparedException;
 import com.sun.jdi.ObjectCollectedException;
@@ -38,7 +39,22 @@ import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //import com.sun.jdi.InvalidLineNumberException;
+
+
 
 /**
  * The test checks that the JDI method

@@ -21,9 +21,24 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.lang.reflect.Modifier;
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
 import jdk.jfr.share.classes.jdk.jfr.internal.instrument.JDKEvents;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * All upcalls from the JVM should go through this class.

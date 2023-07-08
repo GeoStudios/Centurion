@@ -21,11 +21,25 @@
 
 package vm.mlvm.meth.stress.jdi.breakpointInCompiledCode;
 
+
 import vm.mlvm.share.jdi.ArgumentHandler;
 import vm.mlvm.share.jdi.BreakpointInfo;
 import vm.mlvm.share.jdi.JDIBreakpointTest;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -59,6 +73,9 @@ import java.util.java.util.java.util.java.util.List;
  *      -debuggee.iterations 2000
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class Test extends JDIBreakpointTest {
     // invokeMH:S100,invokePlain:S100,mhTarget,plainTarget,stop

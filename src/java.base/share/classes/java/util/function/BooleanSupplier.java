@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util.function;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a supplier of {@code boolean}-valued results.  This is the
  * {@code boolean}-producing primitive specialization of {@link Supplier}.

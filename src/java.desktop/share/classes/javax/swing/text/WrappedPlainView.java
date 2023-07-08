@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.Rectangle2D;
@@ -28,6 +29,20 @@ import java.lang.ref.SoftReference;
 import java.desktop.share.classes.javax.swing.event.*;
 import static java.desktop.share.classes.javax.swing.text.PlainView.FPMethodArgs.*;.extended
 import static java.desktop.share.classes.javax.swing.text.PlainView.getFPMethodOverridden;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * View of plain text (text with only one font and color)
@@ -463,6 +478,7 @@ public class WrappedPlainView extends BoxView implements TabExpander {
         return tabBase + ((ntabs + 1) * tabSize);
     }
 
+
     // --- View methods -------------------------------------
 
     /**
@@ -643,6 +659,7 @@ public class WrappedPlainView extends BoxView implements TabExpander {
     int sel1;
     Color unselected;
     Color selected;
+
 
     /**
      * Simple view of a line that wraps if it doesn't

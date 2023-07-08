@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
+
 import java.lang.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
@@ -29,6 +30,20 @@ import java.awt.Color;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Takes a sequence of RTF tokens and text and appends the text
@@ -170,6 +185,7 @@ public void handleBinaryBlob(byte[] data)
 
     /* someday, someone will want to do something with blobs */
 }
+
 
 /**
  * Handles any pure text (containing no control characters) in the input
@@ -704,6 +720,7 @@ class FonttblDestination implements Destination
         else
             fontName = text;
 
+
         /* TODO: do something with the font family. */
 
         if (nextFontNumber == -1
@@ -1152,6 +1169,7 @@ abstract class AttributeTrackingDestination implements Destination
                     return true;
             }
         }
+
 
         if (keyword.equals("plain")) {
             resetCharacterAttributes();

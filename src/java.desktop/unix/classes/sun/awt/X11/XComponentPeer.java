@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -64,6 +65,20 @@ import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
 import java.desktop.unix.classes.sun.java2d.BackBufferCapsProvider;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XComponentPeer extends XWindow implements ComponentPeer, DropTargetPeer,
     BackBufferCapsProvider
@@ -115,6 +130,7 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
     XComponentPeer(Component target) {
         super(target);
     }
+
 
     void preInit(XCreateWindowParams params) {
         super.preInit(params);
@@ -335,6 +351,8 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
      * END OF FOCUS STUFF
      *************************************************/
 
+
+
     public void setVisible(boolean b) {
         xSetVisible(b);
     }
@@ -487,6 +505,7 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
     /* This method is intended to be over-ridden by peers to perform user interaction */
     void handleJavaMouseWheelEvent(MouseWheelEvent e) {
     }
+
 
     /* This method is intended to be over-ridden by peers to perform user interaction */
     void handleJavaInputMethodEvent(InputMethodEvent e) {
@@ -779,6 +798,7 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
         saturation = hsb[1];
         backb = hsb[2];
 
+
 /*      Calculate Highlight Brightness  */
 
         highb = backb + 0.2f;
@@ -801,6 +821,7 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
         }
         c[HIGHLIGHT_COLOR] = Color.getHSBColor(hue,saturation,highb);
         c[SHADOW_COLOR] = Color.getHSBColor(hue,saturation,shadowb);
+
 
 /*
   c[SHADOW_COLOR] = c[BACKGROUND_COLOR].darker();
@@ -832,6 +853,7 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
             // for foreground and background; then multiply the foreground
             // by the average lightness
 
+
             Color tc = c[BACKGROUND_COLOR];
             int bg = tc.getRed() * 30 + tc.getGreen() * 59 + tc.getBlue() * 11;
 
@@ -852,6 +874,7 @@ public class XComponentPeer extends XWindow implements ComponentPeer, DropTarget
             c[FOREGROUND_COLOR] = newForeground;
 
         }
+
 
         return c;
     }

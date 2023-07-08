@@ -21,10 +21,25 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
+
 import javax.management.NotificationFilter;
 import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectName;
 import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An identified listener.  A listener has an Integer id that is
@@ -71,14 +86,17 @@ public class ClientListenerInfo {
         return delegationSubject;
     }
 
+
     public boolean sameAs(ObjectName name) {
         return (getObjectName().equals(name));
     }
+
 
     public boolean sameAs(ObjectName name, NotificationListener listener) {
         return ( getObjectName().equals(name) &&
                  getListener() == listener);
     }
+
 
     public boolean sameAs(ObjectName name, NotificationListener listener, NotificationFilter filter, Object handback) {
         return ( getObjectName().equals(name) &&

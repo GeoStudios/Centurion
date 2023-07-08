@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is used to store information  to describe soundbanks, instruments
  * and samples. It is stored inside a "INFO" List Chunk inside DLS files.

@@ -21,6 +21,7 @@
 
 package xwp;
 
+
 import java.util.Iterator;
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
@@ -38,6 +39,19 @@ import javax.xml.stream.events.Namespace;
 import javax.xml.stream.events.ProcessingInstruction;
 import javax.xml.stream.events.StartDocument;
 import javax.xml.stream.events.StartElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XMLEventFactoryWrapper extends XMLEventFactory {
     private XMLEventFactory defaultImpl = XMLEventFactory.newDefaultFactory();

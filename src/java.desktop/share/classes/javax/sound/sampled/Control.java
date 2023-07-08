@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * {@link Line Lines} often have a set of controls, such as gain and pan, that
  * affect the audio signal passing through the line. Java Sound's {@code Line}

@@ -21,6 +21,22 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.processing;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Error thrown for problems encountered during annotation processing.
  *

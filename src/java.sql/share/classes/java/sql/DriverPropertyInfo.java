@@ -21,6 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>Driver properties for making a connection. The
  * {@code DriverPropertyInfo} class is of interest only to advanced programmers

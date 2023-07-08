@@ -21,7 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -30,6 +45,10 @@ import jdk.jdi.share.classes.com.sun.jdi.event.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 interface EventNotifier {
     void vmStartEvent(VMStartEvent e);

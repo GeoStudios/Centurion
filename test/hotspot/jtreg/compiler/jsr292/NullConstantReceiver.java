@@ -21,9 +21,23 @@
 
 package compiler.jsr292;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -33,6 +47,8 @@ import java.lang.invoke.MethodType;
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::run compiler.jsr292.NullConstantReceiver
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,*::run compiler.jsr292.NullConstantReceiver
  */
+
+
 
 public class NullConstantReceiver {
     static final MethodHandle target;

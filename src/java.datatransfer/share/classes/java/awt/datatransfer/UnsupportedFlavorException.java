@@ -21,7 +21,22 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
+
 import java.datatransfer.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signals that the requested data is not supported in this flavor.

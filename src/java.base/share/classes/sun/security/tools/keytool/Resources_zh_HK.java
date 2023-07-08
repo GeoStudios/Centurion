@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.security.tools.keytool;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class represents the <code>ResourceBundle</code>
  * for the keytool.
@@ -411,6 +427,7 @@ public class Resources_zh_HK extends java.util.ListResourceBundle {
         {"Unknown.extension.type.", "\u4E0D\u660E\u7684\u64F4\u5145\u5957\u4EF6\u985E\u578B: "},
         {"command.{0}.is.ambiguous.", "\u547D\u4EE4 {0} \u4E0D\u660E\u78BA:"}
     };
+
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

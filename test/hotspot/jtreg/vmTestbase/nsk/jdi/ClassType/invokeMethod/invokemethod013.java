@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassType.invokeMethod;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -29,6 +30,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that debuggee method invocation will be

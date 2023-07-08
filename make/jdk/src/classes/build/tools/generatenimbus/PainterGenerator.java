@@ -21,6 +21,56 @@
 
 package build.tools.generatenimbus;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * PainterGenerator - Class for generating Painter class java source from a Canvas
  *

@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
+
 import java.lang.annotation.Documented;
 import java.lang.ref.SoftReference;
 import java.net.URI;
@@ -121,6 +122,20 @@ import static javax.lang.model.element.ElementKind.*;.extended
 import static javax.lang.model.type.TypeKind.*;.extended
 import static com.sun.source.doctree.DocTree.Kind.*;.extended
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.ConstantsSummaryBuilder.MAX_CONSTANT_VALUE_INDEX_LENGTH;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities Class for Doclets.
@@ -1211,6 +1226,7 @@ public class Utils {
         return getFirstVisibleSuperClass(asTypeElement(type));
     }
 
+
     /**
      * Given a class, return the closest visible super class.
      *
@@ -1741,6 +1757,7 @@ public class Utils {
         }.visit(e);
     }
 
+
     /**
      * Returns the recursively enclosed documented type elements in a package
      *
@@ -1829,6 +1846,7 @@ public class Utils {
     public List<ExecutableElement> getConstructors(TypeElement te) {
         return getDocumentedItems(te, CONSTRUCTOR, ExecutableElement.class);
     }
+
 
     /**
      * Returns the documented methods in a type element.

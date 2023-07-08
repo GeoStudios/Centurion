@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
@@ -32,6 +33,20 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Bare minimum XPath parser.
@@ -352,6 +367,7 @@ public class XPath {
         }
     }
 
+
     //
     // Classes
     //
@@ -508,6 +524,7 @@ public class XPath {
 
         /** Type: self. */
         public static final short SELF = 3;
+
 
         /** Type: descendant. */
         public static final short DESCENDANT = 4;

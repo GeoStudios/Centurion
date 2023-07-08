@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
@@ -45,6 +46,20 @@ import java.util.Map;
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class <code>XSAttributeCheck</code> is used to check the validity of attributes
@@ -591,6 +606,7 @@ public class XSAttributeChecker {
         // system = anyURI
         attrList.put(SchemaSymbols.ATT_SYSTEM, allAttrs[ATT_SYSTEM_N]);
         fEleAttrsMapG.put(SchemaSymbols.ELT_NOTATION, attrList);
+
 
         // for element "complexType" - local
         attrList = Container.getContainer(2);

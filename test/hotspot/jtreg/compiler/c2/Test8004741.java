@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -45,6 +59,8 @@ import sun.hotspot.WhiteBox;
  *    -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *    compiler.c2.Test8004741
  */
+
+
 
 public class Test8004741 extends Thread {
 

@@ -21,9 +21,23 @@
 
 package nsk.jvmti.AttachOnDemand.attach001;
 
+
 import nsk.share.Failure;
 import nsk.share.aod.*;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -61,6 +75,8 @@ import nsk.share.test.TestUtils;
  *      -ja SimpleAgent00.jar
  *      -na simpleAgent00
  */
+
+
 
 /*
  * Test tries to attach agents to the same VM where target application is running

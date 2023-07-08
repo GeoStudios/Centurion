@@ -21,8 +21,23 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.*;
 import java.desktop.windows.classes.sun.awt.GlobalCursorManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WGlobalCursorManager extends GlobalCursorManager {
     private static WGlobalCursorManager manager;

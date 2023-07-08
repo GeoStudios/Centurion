@@ -21,9 +21,23 @@
 
 package compiler.codecache;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import java.lang.invoke.MethodType;
  * @run main/othervm -Xcomp -XX:-TieredCompilation -XX:+StressCodeBuffers compiler.codecache.TestStressCodeBuffers
  * @run main/othervm -Xcomp -XX:+StressCodeBuffers compiler.codecache.TestStressCodeBuffers
  */
+
+
 
 public class TestStressCodeBuffers {
 

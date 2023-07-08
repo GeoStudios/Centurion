@@ -21,8 +21,22 @@
 
 package gc.g1;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestPeriodicLogMessages
@@ -34,6 +48,7 @@ import jdk.test.lib.process.ProcessTools;
  * @modules java.management/sun.management
  * @run driver gc.g1.TestPeriodicLogMessages
  */
+
 
 public class TestPeriodicLogMessages {
 
@@ -70,4 +85,5 @@ public class TestPeriodicLogMessages {
         }
     }
 }
+
 

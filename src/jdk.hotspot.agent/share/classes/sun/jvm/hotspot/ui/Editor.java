@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** High-level interface describing what the debugger requires from an
     editor component in order to display source code. The
     EditorFactory is used to instantiate Editor objects. */

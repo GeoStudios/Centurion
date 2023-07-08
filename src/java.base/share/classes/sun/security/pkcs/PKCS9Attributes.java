@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.pkcs;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.Hashtable;
@@ -29,6 +30,20 @@ import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.DerInputStream;
 import java.base.share.classes.sun.security.util.DerOutputStream;
 import java.base.share.classes.sun.security.util.ObjectIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A set of attributes of class PKCS9Attribute.
@@ -165,6 +180,7 @@ public class PKCS9Attributes {
         permittedAttributes = null;
     }
 
+
     /**
      * Decode this set of PKCS9 attributes from the contents of its
      * DER encoding. Ignores unsupported attributes when directed.
@@ -265,6 +281,7 @@ public class PKCS9Attributes {
         return attributes.get(PKCS9Attribute.getOID(name));
     }
 
+
     /**
      * Get an array of all attributes in this set, in order of OID.
      */
@@ -309,6 +326,7 @@ public class PKCS9Attributes {
 
         return getAttributeValue(oid);
     }
+
 
     /**
      * Returns the PKCS9 block in a printable string form.

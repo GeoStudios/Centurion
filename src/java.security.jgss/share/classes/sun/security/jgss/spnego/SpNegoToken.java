@@ -21,11 +21,26 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spnego;
 
+
 import java.io.*;
 import java.util.*;
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.security.jgss.share.classes.sun.security.jgss.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Astract class for SPNEGO tokens.

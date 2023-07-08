@@ -21,7 +21,22 @@
 
 package java.management.share.classes.java.lang.management;
 
+
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A platform managed object is a {@linkplain javax.management.MXBean JMX MXBean}

@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.dead.dead08;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.dead.dead08;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead08.dead08
  */
+
 
 /* -- Test the elimination of dead assignment to class fields within an IF statement
 

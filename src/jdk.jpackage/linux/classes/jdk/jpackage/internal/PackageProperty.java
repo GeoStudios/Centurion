@@ -21,7 +21,22 @@
 
 package jdk.jpackage.linux.classes.jdk.jpackage.internal;
 
+
 import java.text.MessageFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class PackageProperty {
     /**

@@ -21,11 +21,26 @@
 
 package java.management.share.classes.javax.management;
 
+
 import com.sun.jmx.mbeanserver.Introspector;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes a management operation exposed by an MBean.  Instances of
@@ -84,6 +99,7 @@ public class MBeanOperationInfo extends MBeanFeatureInfo implements Cloneable {
 
     /** @see MBeanInfo#arrayGettersSafe */
     private final transient boolean arrayGettersSafe;
+
 
     /**
      * Constructs an {@code MBeanOperationInfo} object.  The

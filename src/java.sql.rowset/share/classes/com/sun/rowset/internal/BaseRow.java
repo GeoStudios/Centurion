@@ -21,9 +21,24 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.*;
 import java.io.*;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract base class from which the classes <code>Row</code>

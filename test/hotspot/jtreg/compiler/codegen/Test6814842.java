@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6814842
@@ -30,6 +45,7 @@ package compiler.codegen;
  *      -XX:CompileCommand=compileonly,compiler.codegen.Test6814842::load*
  *      compiler.codegen.Test6814842
  */
+
 
 public class Test6814842 {
     static final short[] sa = new short[] { (short) 0xF1F2 };

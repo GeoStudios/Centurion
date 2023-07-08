@@ -21,9 +21,24 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
+
 import java.io.*;
 import java.net.*;
 import java.security.jgss.share.classes.sun.security.util.IOUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class NetClient implements AutoCloseable {
     public static NetClient getInstance(String protocol, String hostname, int port,

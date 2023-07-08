@@ -21,10 +21,25 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
+
 import java.sql.*;
 import java.io.*;
 import java.lang.reflect.*;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serialized mapping in the Java programming language of an SQL
@@ -107,6 +122,7 @@ public class SerialBlob implements Blob, Serializable, Cloneable {
         }
         origLen = len;
     }
+
 
     /**
      * Constructs a <code>SerialBlob</code> object that is a serialized
@@ -433,6 +449,7 @@ public class SerialBlob implements Blob, Serializable, Cloneable {
         }
     }
 
+
     /**
      * Returns an
      * <code>InputStream</code> object that contains a partial
@@ -463,6 +480,7 @@ public class SerialBlob implements Blob, Serializable, Cloneable {
         }
         return new ByteArrayInputStream(buf, (int) pos - 1, (int) length);
     }
+
 
     /**
      * This method frees the {@code SerialBlob} object and releases the

@@ -21,6 +21,7 @@
 
 package gc.g1;
 
+
 import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -28,6 +29,19 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 import com.sun.management.HotSpotDiagnosticMXBean;
 import java.lang.management.ManagementFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestGreyReclaimedHumongousObjects.java
@@ -84,6 +98,7 @@ import java.lang.management.ManagementFactory;
 // Even relatively small perturbations may change that.  The key
 // factors seem to be keeping the heap mostly full of live objects but
 // having them become dead fairly quickly.
+
 
 public class TestGreyReclaimedHumongousObjects {
 

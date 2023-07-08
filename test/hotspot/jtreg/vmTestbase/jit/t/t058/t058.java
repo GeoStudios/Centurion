@@ -21,8 +21,22 @@
 
 package jit.t.t058;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t058.t058
  */
+
+
 
 interface l
 {
@@ -135,6 +151,7 @@ public class t058
         t058.goldChecker.println((int) ko.s);
         t058.goldChecker.println((int) ko.c);
         t058.goldChecker.println((int) ko.b);
+
 
         t058.goldChecker.println();
         t058.goldChecker.println("Here come the static variables of k:");

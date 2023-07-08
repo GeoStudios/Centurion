@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
@@ -33,10 +34,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This is configuration uses a scanner that integrates both scanning of the document
@@ -76,6 +93,7 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLD
  */
 public class IntegratedParserConfiguration
 extends StandardParserConfiguration {
+
 
     //
     // REVISIT: should this configuration depend on the others
@@ -151,6 +169,7 @@ extends StandardParserConfiguration {
         addComponent(fNonNSDTDValidator);
 
     } // <init>(SymbolTable,XMLGrammarPool)
+
 
     /** Configures the pipeline. */
         protected void configurePipeline() {
@@ -235,12 +254,15 @@ extends StandardParserConfiguration {
                 }
         } // configurePipeline()
 
+
+
     /** Create a document scanner: this scanner performs namespace binding
       */
     protected XMLDocumentScanner createDocumentScanner() {
         fNamespaceScanner = new XMLNSDocumentScannerImpl();
         return fNamespaceScanner;
     } // createDocumentScanner():XMLDocumentScanner
+
 
     /** Create a DTD validator: this validator performs namespace binding.
       */

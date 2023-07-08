@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.XPathException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Shortjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
@@ -31,10 +32,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSComplexTyp
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Schema identity constraint field.
@@ -50,6 +67,7 @@ public class Field {
 
     /** Field XPath. */
     protected final Field.XPath fXPath;
+
 
     /** Identity constraint. */
     protected final IdentityConstraint fIdentityConstraint;

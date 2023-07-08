@@ -21,9 +21,23 @@
 
 package nsk.jdi.Location.lineNumber_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 
@@ -77,6 +91,7 @@ public class linenumber_s001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {

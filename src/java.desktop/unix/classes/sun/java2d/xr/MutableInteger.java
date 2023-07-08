@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Simple MutableInteger implementation to be used as a reuseable HashMap key.
  *

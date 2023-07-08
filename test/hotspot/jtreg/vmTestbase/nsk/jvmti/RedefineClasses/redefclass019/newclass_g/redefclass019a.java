@@ -21,7 +21,23 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    THIS TEST IS LINE NUMBER SENSITIVE
+
 
 class redefclass019a extends Thread {
 

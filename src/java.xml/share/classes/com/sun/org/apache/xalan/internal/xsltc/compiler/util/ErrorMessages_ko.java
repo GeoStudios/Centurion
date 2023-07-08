@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -104,6 +119,7 @@ public class ErrorMessages_ko extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "\uC774 \uC2A4\uD0C0\uC77C\uC2DC\uD2B8\uC5D0\uB294 ''{0}'' \uD15C\uD50C\uB9AC\uD2B8\uAC00 \uC774\uBBF8 \uC815\uC758\uB418\uC5C8\uC2B5\uB2C8\uB2E4."},
+
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -680,8 +696,10 @@ public class ErrorMessages_ko extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "{0} \uB9E4\uAC1C\uBCC0\uC218\uC758 \uAC12\uC740 \uC801\uD569\uD55C Java \uAC1D\uCCB4\uC5EC\uC57C \uD569\uB2C8\uB2E4."},
 
+
         {ErrorMsg.COMPILE_STDIN_ERR,
         "-i \uC635\uC158\uC740 -o \uC635\uC158\uACFC \uD568\uAED8 \uC0AC\uC6A9\uD574\uC57C \uD569\uB2C8\uB2E4."},
+
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -706,6 +724,8 @@ public class ErrorMessages_ko extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "\uC0AC\uC6A9\uBC95 \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <jarfile>]\n      [-x] [-n <iterations>] {-u <document_url> | <document>}\n      <class> [<param1>=<value1> ...]\n\n   translet <class>\uB97C \uC0AC\uC6A9\uD558\uC5EC <document>\uB85C \uC9C0\uC815\uB41C XML \uBB38\uC11C\uB97C \n   \uBCC0\uD658\uD569\uB2C8\uB2E4. translet <class>\uB294 \n   \uC0AC\uC6A9\uC790\uC758 CLASSPATH \uB610\uB294 \uC120\uD0DD\uC801\uC73C\uB85C \uC9C0\uC815\uB41C <jarfile>\uC5D0 \uC788\uC2B5\uB2C8\uB2E4.\n\uC635\uC158\n   -j <jarfile>    translet\uC744 \uB85C\uB4DC\uD574 \uC62C jarfile\uC744 \uC9C0\uC815\uD569\uB2C8\uB2E4.\n   -x              \uCD94\uAC00 \uB514\uBC84\uAE45 \uBA54\uC2DC\uC9C0 \uCD9C\uB825\uC744 \uC124\uC815\uD569\uB2C8\uB2E4.\n   -n <iterations> \uBCC0\uD658\uC744 <iterations>\uD68C \uC2E4\uD589\uD558\uACE0\n                   \uD504\uB85C\uD30C\uC77C \uC791\uC131 \uC815\uBCF4\uB97C \uD45C\uC2DC\uD569\uB2C8\uB2E4.\n   -u <document_url> XML \uC785\uB825 \uBB38\uC11C\uB97C URL\uB85C \uC9C0\uC815\uD569\uB2C8\uB2E4.\n"},
+
+
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -963,6 +983,7 @@ public class ErrorMessages_ko extends ListResourceBundle {
         {ErrorMsg.OUTLINE_ERR_DELETED_TARGET,
          "\uB0B4\uBD80 XSLTC \uC624\uB958: outlined \uCC98\uB9AC\uB41C \uBC14\uC774\uD2B8 \uCF54\uB4DC \uBE14\uB85D\uC5D0 \uC18D\uD55C \uBA85\uB839\uC774 \uC5EC\uC804\uD788 \uC6D0\uB798 \uBA54\uC18C\uB4DC\uC5D0\uC11C \uCC38\uC870\uB429\uB2C8\uB2E4."
         },
+
 
         /*
          * Note to translators:  This message describes an internal error in the

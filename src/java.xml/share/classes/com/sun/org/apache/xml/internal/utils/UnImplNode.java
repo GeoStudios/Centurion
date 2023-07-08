@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
@@ -42,6 +43,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
 import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
@@ -49,6 +64,10 @@ import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
 /*
  * $Id: UnImplNode.java,v
  */
+
+
+
+
 
 /**
  * <meta name="usage" content="internal"/>
@@ -1276,6 +1295,8 @@ public class UnImplNode implements Node, Element, NodeList, Document
     error(XMLErrorResources.ER_FUNCTION_NOT_SUPPORTED);
   }
 
+
+
 //RAMESH : Pending proper implementation of DOM Level 3
 
     public Object setUserData(String key,
@@ -1478,6 +1499,7 @@ public class UnImplNode implements Node, Element, NodeList, Document
 
                 return null;
 
+
             }
 /*
         case Node.DOCUMENT_NODE : {
@@ -1509,6 +1531,7 @@ public class UnImplNode implements Node, Element, NodeList, Document
 
         }
     }
+
 
     /**
      *  DOM Level 3: Experimental
@@ -1580,6 +1603,7 @@ public class UnImplNode implements Node, Element, NodeList, Document
         }
 */
         return false;
+
 
     }
 
@@ -1801,6 +1825,7 @@ public class UnImplNode implements Node, Element, NodeList, Document
         return n;
     }
 
+
     /**
      *  DOM Level 3 WD - Experimental
      *  Normalize document.
@@ -1815,6 +1840,7 @@ public class UnImplNode implements Node, Element, NodeList, Document
     public DOMConfiguration getDomConfig(){
        return null;
     }
+
 
     /**Experimental DOM Level 3 feature: documentURI */
     protected String fDocumentURI;
@@ -1947,6 +1973,9 @@ public class UnImplNode implements Node, Element, NodeList, Document
         return false;
     }
 
+
+
+
      /**
      * NON-DOM: set the type of this attribute to be ID type.
      *
@@ -1962,6 +1991,7 @@ public class UnImplNode implements Node, Element, NodeList, Document
     public void setIdAttribute(String name, boolean makeId) {
         //PENDING
     }
+
 
     /**
      * DOM Level 3: register the given attribute node as an ID attribute
@@ -2014,5 +2044,6 @@ public class UnImplNode implements Node, Element, NodeList, Document
     public void setXmlVersion(String xmlVersion) throws DOMException {
         this.xmlVersion = xmlVersion;
     }
+
 
 }

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Rectangle;
@@ -33,6 +34,20 @@ import java.lang.ref.WeakReference;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.text.AttributedString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A composition area handler handles events and input method requests for
@@ -154,6 +169,7 @@ class CompositionAreaHandler implements InputMethodListener,
 
         return false;
     }
+
 
     /**
      * Shows or hides the composition Area
@@ -323,6 +339,7 @@ class CompositionAreaHandler implements InputMethodListener,
         // we don't have access to the client component's text.
         return 0;
     }
+
 
     public AttributedCharacterIterator cancelLatestCommittedText(Attribute[] attributes) {
         InputMethodRequests req = getClientInputMethodRequests();

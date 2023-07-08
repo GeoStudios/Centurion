@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventSet.resume;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -181,6 +195,7 @@ public class resume012 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -228,6 +243,7 @@ public class resume012 extends JDIBase {
             return;
         }
 
+
         eventRManager = vm.eventRequestManager();
 
         ClassPrepareRequest cpRequest = eventRManager.createClassPrepareRequest();
@@ -270,6 +286,8 @@ public class resume012 extends JDIBase {
         final int SUSPEND_THREAD = EventRequest.SUSPEND_EVENT_THREAD;
         final int SUSPEND_ALL    = EventRequest.SUSPEND_ALL;
 
+
+
         breakpointForCommunication();
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
@@ -284,6 +302,7 @@ public class resume012 extends JDIBase {
         log1("    TESTING ENDS");
         return;
     }
+
 
     // ============================== test's additional methods
 

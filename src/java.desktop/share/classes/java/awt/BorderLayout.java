@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A border layout lays out a container, arranging and resizing
@@ -523,6 +538,7 @@ public class BorderLayout implements LayoutManager2,
         }
     }
 
+
     /**
      * Returns the component that corresponds to the given constraint location
      * based on the target {@code Container}'s component orientation.
@@ -572,6 +588,7 @@ public class BorderLayout implements LayoutManager2,
 
         return result;
     }
+
 
     /**
      * Gets the constraints for the specified component

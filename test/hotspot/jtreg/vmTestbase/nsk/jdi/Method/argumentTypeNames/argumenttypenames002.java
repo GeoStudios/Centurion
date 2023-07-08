@@ -21,12 +21,26 @@
 
 package nsk.jdi.Method.argumentTypeNames;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -200,6 +214,7 @@ public class argumenttypenames002 {
                         }
                         break;
 
+
                 case 1:                 // class arg
 
                         methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
@@ -227,6 +242,7 @@ public class argumenttypenames002 {
                             break;
                         }
                         break;
+
 
                 default: expresult = 2;
                          break ;

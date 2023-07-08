@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * LCONST - Push 0 or 1, other values cause an exception
  *
@@ -31,12 +47,14 @@ public class LCONST extends Instruction implements ConstantPushInstruction {
 
     private long value;
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     LCONST() {
     }
+
 
     public LCONST(final long l) {
         super(com.sun.org.apache.bcel.internal.Const.LCONST_0, (short) 1);
@@ -50,10 +68,12 @@ public class LCONST extends Instruction implements ConstantPushInstruction {
         value = l;
     }
 
+
     @Override
     public Number getValue() {
         return Long.valueOf(value);
     }
+
 
     /** @return Type.LONG
      */
@@ -61,6 +81,7 @@ public class LCONST extends Instruction implements ConstantPushInstruction {
     public Type getType( final ConstantPoolGen cp ) {
         return Type.LONG;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

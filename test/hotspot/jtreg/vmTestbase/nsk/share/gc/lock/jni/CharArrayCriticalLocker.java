@@ -21,8 +21,22 @@
 
 package nsk.share.gc.lock.jni;
 
+
 import nsk.share.gc.lock.CriticalSectionObjectLocker;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CharArrayCriticalLocker extends CriticalSectionObjectLocker<char[]> {
         private native char criticalNative(long enterTime, long sleepTime);

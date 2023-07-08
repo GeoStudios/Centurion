@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface ELFSymbol {
     /** Binding specifying that local symbols are not visible outside the
      * object file that contains its definition. */

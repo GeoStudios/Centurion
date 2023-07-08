@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,6 +35,20 @@ import java.desktop.share.classes.javax.accessibility.AccessibleTextSequence;
 import java.desktop.share.classes.javax.swing.text.BadLocationException;
 import java.desktop.share.classes.javax.swing.text.Document;
 import java.desktop.share.classes.javax.swing.text.Segment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JPasswordField</code> is a lightweight component that allows
@@ -160,6 +175,7 @@ public class JPasswordField extends JTextField {
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * {@inheritDoc}
@@ -361,6 +377,7 @@ public class JPasswordField extends JTextField {
 
     private boolean echoCharSet = false;
 
+
     /**
      * Returns a string representation of this <code>JPasswordField</code>.
      * This method is intended to be used only for debugging purposes, and the
@@ -374,6 +391,7 @@ public class JPasswordField extends JTextField {
         return super.paramString() +
         ",echoChar=" + echoChar;
     }
+
 
     /**
      * This method is a hack to get around the fact that we cannot
@@ -396,6 +414,7 @@ public class JPasswordField extends JTextField {
 /////////////////
 // Accessibility support
 ////////////////
+
 
     /**
      * Returns the <code>AccessibleContext</code> associated with this
@@ -574,6 +593,7 @@ public class JPasswordField extends JTextField {
             String str = super.getTextRange(startIndex, endIndex);
             return getEchoString(str);
         }
+
 
         /**
          * Returns the <code>AccessibleTextSequence</code> at a given

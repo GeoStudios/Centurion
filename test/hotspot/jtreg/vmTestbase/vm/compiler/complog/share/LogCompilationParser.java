@@ -21,8 +21,22 @@
 
 package vm.compiler.complog.share;
 
+
 import java.io.File;
 import nsk.share.log.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Super-class for all compilation log parsers.

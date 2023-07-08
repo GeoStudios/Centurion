@@ -21,6 +21,7 @@
 
 package org.w3c.dom.ptests;
 
+
 import static javax.xml.XMLConstants.XMLNS_ATTRIBUTE_NS_URI;.extended
 import static javax.xml.XMLConstants.XML_NS_URI;.extended
 import static org.testng.Assert.assertEquals;.extended
@@ -38,6 +39,19 @@ import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

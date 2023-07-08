@@ -21,7 +21,22 @@
 
 package java.base.share.classes.sun.security.util;
 
+
 import java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Compare two byte arrays in lexicographical order.
@@ -57,5 +72,6 @@ public class ByteArrayLexOrder implements Comparator<byte[]> {
         // longer is "bigger"
         return bytes1.length - bytes2.length;
     }
+
 
 }

@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.types;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
@@ -33,6 +34,19 @@ import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.visitors.Visitor;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TypeArray extends TypeKlass {
 

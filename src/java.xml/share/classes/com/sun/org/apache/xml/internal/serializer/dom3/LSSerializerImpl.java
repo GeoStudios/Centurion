@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -56,6 +57,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSOutput;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializer;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implemenatation of DOM Level 3 org.w3c.ls.LSSerializer and
@@ -196,6 +211,7 @@ final public class LSSerializerImpl implements DOMConfiguration, LSSerializer {
             JdkConstants.SP_IS_STANDALONE,
             DOMConstants.DOM_ERROR_HANDLER
     };
+
 
     /**
      * Constructor:  Creates a LSSerializerImpl object.  The underlying
@@ -765,6 +781,7 @@ final public class LSSerializerImpl implements DOMConfiguration, LSSerializer {
     }
     // ************************************************************************
 
+
     // ************************************************************************
     // DOMConfiguraiton implementation
     // ************************************************************************
@@ -1305,6 +1322,7 @@ final public class LSSerializerImpl implements DOMConfiguration, LSSerializer {
         return true;
     }
     // ************************************************************************
+
 
     // ************************************************************************
     // Implementaion methods

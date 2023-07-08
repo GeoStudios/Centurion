@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides an implementation for Augmentations interface.
@@ -61,6 +76,7 @@ public class AugmentationsImpl implements Augmentations{
         return oldValue;
     }
 
+
     /**
      * Get information identified by a key from the Augmentations structure
      *
@@ -72,6 +88,7 @@ public class AugmentationsImpl implements Augmentations{
     public Object getItem(String key){
         return fAugmentationsContainer.getItem(key);
     }
+
 
     /**
      * Remove additional info from the Augmentations structure
@@ -146,6 +163,7 @@ public class AugmentationsImpl implements Augmentations{
 
             return null;
         }
+
 
         public Object removeItem(Object key) {
             for (int i = 0; i < fNumEntries*2; i = i + 2) {

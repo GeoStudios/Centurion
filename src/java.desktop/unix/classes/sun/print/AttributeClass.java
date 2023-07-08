@@ -21,9 +21,24 @@
 
 package java.desktop.unix.classes.sun.print;
 
+
 import java.nio.charset.StandardCharsets;
 import java.base.share.classes.java.util.Objects;
 import java.io.ByteArrayInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AttributeClass {
     private final String myName;
@@ -51,6 +66,7 @@ public class AttributeClass {
     public static final int TAG_NATURALLANGUAGE = 0x48;
     public static final int TAG_MIME_MEDIATYPE = 0x49;
     public static final int TAG_MEMBER_ATTRNAME = 0x4A;
+
 
     public static final AttributeClass ATTRIBUTES_CHARSET =
         new AttributeClass("attributes-charset",
@@ -187,6 +203,7 @@ public class AttributeClass {
         return strVal;
     }
 
+
     /**
      * Returns array of String values.
      */
@@ -216,6 +233,7 @@ public class AttributeClass {
         }
         return null;
     }
+
 
     /**
      * Returns single byte value.

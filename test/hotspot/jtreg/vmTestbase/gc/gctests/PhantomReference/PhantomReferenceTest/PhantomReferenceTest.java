@@ -21,6 +21,7 @@
 
 package gc.gctests.PhantomReference.PhantomReferenceTest;
 
+
 import gc.gctests.PhantomReference.PRHelper;
 import gc.gctests.PhantomReference.PhantomHelper;
 import java.lang.ref.ReferenceQueue;
@@ -32,6 +33,19 @@ import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -53,6 +67,8 @@ import nsk.share.test.Stresser;
  *      gc.gctests.PhantomReference.PhantomReferenceTest.PhantomReferenceTest
  */
 
+
+
 /**
  * Tests for the PhantomReference handling in JRockit.
  */
@@ -70,6 +86,7 @@ public class PhantomReferenceTest extends GCTestBase {
         int nrOfObjs;
         int sleepTime;
         long maxWaitTime;
+
 
         seed = runParams.getSeed();
         minSize = 2048;

@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.util.xml;
 
+
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic XMLStreamWriter for writing simple XML files such as those

@@ -21,6 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.remote.security;
 
+
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.CodeSource;
@@ -28,6 +29,20 @@ import java.security.Permissions;
 import java.security.ProtectionDomain;
 import javax.security.auth.Subject;
 import javax.security.auth.SubjectDomainCombiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This class represents an extension to the {@link SubjectDomainCombiner}

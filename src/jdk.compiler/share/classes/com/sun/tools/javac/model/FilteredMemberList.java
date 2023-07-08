@@ -21,12 +21,27 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
+
 import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility to construct a view of a symbol's members,

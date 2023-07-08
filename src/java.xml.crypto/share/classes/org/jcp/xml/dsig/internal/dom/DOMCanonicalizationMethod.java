@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import java.io.OutputStream;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.Provider;
@@ -32,10 +33,28 @@ import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import javax.xml.crypto.*;
 import javax.xml.crypto.dsig.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * DOM-based abstract implementation of CanonicalizationMethod.
@@ -141,5 +160,6 @@ public class DOMCanonicalizationMethod extends DOMTransform
     private static boolean isC14Nalg(String alg) {
         return alg != null && C14N_ALGORITHMS.contains(alg);
     }
+
 
 }

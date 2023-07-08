@@ -21,8 +21,22 @@
 
 package nsk.share.gc.gp.misc;
 
+
 import nsk.share.gc.gp.DerivedProducer;
 import nsk.share.gc.gp.GarbageProducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Garbage producer that also calls {@link java.lang.System#identityHashCode(java.lang.Object)} on produced object.

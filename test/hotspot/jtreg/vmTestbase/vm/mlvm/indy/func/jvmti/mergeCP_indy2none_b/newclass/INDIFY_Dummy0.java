@@ -21,8 +21,22 @@
 
 package vm.mlvm.indy.func.jvmti.mergeCP_indy2none_b;
 
+
 import vm.mlvm.share.MlvmTest;
 import java.lang.invoke.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class INDIFY_Dummy0 {
     private static MethodType MT_bootstrap() {

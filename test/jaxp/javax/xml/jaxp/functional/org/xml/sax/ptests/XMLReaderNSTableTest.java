@@ -21,6 +21,7 @@
 
 package org.xml.sax.ptests;
 
+
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -33,6 +34,19 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class contains the testcases to test XMLReader with regard to
   * Namespace Table defined at

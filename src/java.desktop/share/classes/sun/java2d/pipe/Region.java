@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
@@ -28,6 +29,20 @@ import java.awt.geom.Rectangle2D;
 import java.awt.geom.RectangularShape;
 import java.desktop.share.classes.sun.java2d.loops.TransformHelper;
 import static java.lang.Double.isNaN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a definition of a two dimensional region which
@@ -459,6 +474,7 @@ public final class Region {
         }
         return ret;
     }
+
 
     /**
      * Returns a Region object that represents the same list of

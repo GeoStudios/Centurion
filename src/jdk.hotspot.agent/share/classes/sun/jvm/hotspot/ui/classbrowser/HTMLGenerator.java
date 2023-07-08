@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.asm.*;
@@ -33,6 +34,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HTMLGenerator implements /* imports */ ClassConstants {
     static class Formatter {
@@ -991,6 +1006,7 @@ public class HTMLGenerator implements /* imports */ ClassConstants {
              buf.endTag("p");
          }
 
+
          buf.h3("Code");
          HTMLDisassembler visitor = new HTMLDisassembler(buf, null);
          Disassembler.decode(visitor, null, addr, addr.addOffsetTo(size));
@@ -1230,6 +1246,7 @@ public class HTMLGenerator implements /* imports */ ClassConstants {
       buf.endTag("table");
       return buf.toString();
    }
+
 
    protected String genOopMapInfo(NMethod nmethod, PCDesc pcDesc) {
       ImmutableOopMapSet mapSet = nmethod.getOopMaps();
@@ -1738,6 +1755,7 @@ public class HTMLGenerator implements /* imports */ ClassConstants {
    public String genHTMLForKlassHierarchy(InstanceKlass klass) {
       Formatter buf = new Formatter(genHTML);
       buf.genHTMLPrologue(genKlassHierarchyTitle(klass));
+
 
       buf.beginTag("pre");
       buf.append(genKlassLink(klass));

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.LinearGradientPaint;
@@ -42,6 +43,20 @@ import java.desktop.share.classes.sun.java2d.loops.CompositeType;
 import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BufferedPaints {
 

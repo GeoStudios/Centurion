@@ -21,9 +21,23 @@
 
 package compiler.c2;
 
+
 import java.awt.geom.Line2D;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -35,6 +49,8 @@ import jdk.test.lib.Utils;
  * @library /test/lib
  * @run main/othervm -Xbatch compiler.c2.Test7047069
  */
+
+
 
 public class Test7047069 {
     static boolean verbose;

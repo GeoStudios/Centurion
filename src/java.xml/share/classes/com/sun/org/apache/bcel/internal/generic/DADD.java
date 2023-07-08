@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DADD - Add doubles
@@ -39,6 +56,7 @@ public class DADD extends ArithmeticInstruction {
     public DADD() {
         super(com.sun.org.apache.bcel.internal.Const.DADD);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

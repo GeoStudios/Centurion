@@ -21,11 +21,25 @@
 
 package nsk.monitoring.MemoryPoolMBean.setCollectionUsageThreshold;
 
+
 import java.io.*;
 import java.util.*;
 import java.lang.management.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class setthreshold001 {
     private static class TestParameters {
@@ -73,6 +87,7 @@ public class setthreshold001 {
             } else {
                 log.display("  does not support usage thresholds");
                 testcase4(log, pool);
+
 
             }
         } // for i

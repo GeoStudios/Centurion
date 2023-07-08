@@ -21,10 +21,24 @@
 
 package nsk.jdwp.ReferenceType.MethodsWithGeneric;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class methwithgeneric001t {
     public static void main(String args[]) {

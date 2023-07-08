@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code MidiChannel} object represents a single MIDI channel. Generally,
  * each {@code MidiChannel} method processes a like-named MIDI "channel voice"

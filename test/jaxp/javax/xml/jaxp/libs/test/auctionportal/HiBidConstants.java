@@ -21,7 +21,21 @@
 
 package test.auctionportal;
 
+
 import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the Base test class provide basic support for Auction portal test.

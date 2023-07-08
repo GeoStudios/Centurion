@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Specifies the action that should be taken by the runtime in case a certain deoptimization is
  * triggered.

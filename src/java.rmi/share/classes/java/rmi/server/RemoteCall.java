@@ -21,11 +21,26 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
+
 import java.rmi.share.classes.java.rmi.*;
 import java.rmi.share.classes.java.io.ObjectOutput;
 import java.rmi.share.classes.java.io.ObjectInput;
 import java.rmi.share.classes.java.io.StreamCorruptedException;
 import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>RemoteCall</code> is an abstraction used solely by the RMI runtime
@@ -71,6 +86,7 @@ public interface RemoteCall {
      */
     @Deprecated
     ObjectInput getInputStream()  throws IOException;
+
 
     /**
      * Release the input stream. This would allow some transports to release

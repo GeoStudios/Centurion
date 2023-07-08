@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
 import sun.awt.SunToolkit;
 import java.awt.*;
 import java.util.*;
 import java.util.java.util.java.util.java.util.List;
 import javax.swing.*;
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class GestureHandler {
     private static final String CLIENT_PROPERTY = "com.apple.eawt.event.internalGestureHandler";
@@ -58,6 +73,7 @@ final class GestureHandler {
         if (!(value instanceof GestureHandler)) return;
         ((GestureHandler)value).removeListener(listener);
     }
+
 
     // called from native - finds the deepest component with an installed GestureHandler,
     // creates a single event, and dispatches it to a recursive notifier
@@ -92,6 +108,7 @@ final class GestureHandler {
             }
         });
     }
+
 
     final List<GesturePhaseListener> phasers = new LinkedList<GesturePhaseListener>();
     final List<RotationListener> rotaters = new LinkedList<RotationListener>();

@@ -21,6 +21,21 @@
 
 package compiler.c2.cr6663854;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6663854
@@ -45,6 +60,7 @@ final class Test6663854_Class_0 {
     static long var_9;
     char var_10;
 
+
     public Test6663854_Class_0()
     {
         var_7 = (var_9 = (var_4 = (var_4 = (byte)~ -var_1)));
@@ -67,6 +83,8 @@ final class Test6663854_Class_0 {
         ((new Test6663854_Class_0[(byte)+ (var_5 = (var_4 = (byte)'Q'))])[var_4 = (byte)396008820]).var_8++;
         var_5 = (var_8 ^= var_6 >>> - (var_4 = (byte)var_6)) >= 360526660 ? var_8 : var_8;
     }
+
+
 
     protected Object clone()
     {
@@ -116,6 +134,7 @@ final class Test6663854_Class_0 {
         var_13--;
         return true | !false;
     }
+
 
     protected char[] func_0()
     {
@@ -181,13 +200,16 @@ final class Test6663854_Class_0 {
     }
 }
 
+
 interface Test6663854_Interface_1 {
     public boolean func_0();
     public String func_1(final String arg_0, final long arg_1, byte arg_2, char[][] arg_3);
 }
 
+
 interface Test6663854_Interface_2 extends Test6663854_Interface_1 {
 }
+
 
 final class Test6663854_Class_3 implements Test6663854_Interface_2, Test6663854_Interface_1 {
     Object var_18;
@@ -198,6 +220,7 @@ final class Test6663854_Class_3 implements Test6663854_Interface_2, Test6663854_
     final static byte var_23 = 110;
     static boolean var_24 = false;
 
+
     public Test6663854_Class_3()
     {
         Test6663854_Class_0.var_5 = new Test6663854_Class_0().var_6;
@@ -206,6 +229,7 @@ final class Test6663854_Class_3 implements Test6663854_Interface_2, Test6663854_
         char var_37;
         var_19 = var_23;
     }
+
 
     public boolean func_0()
     {
@@ -275,6 +299,7 @@ final class Test6663854_Class_3 implements Test6663854_Interface_2, Test6663854_
         return arg_0;
     }
 
+
     protected Object clone()
     {
         ((Test6663854_Class_0)(var_18 = new short[var_23])).var_7 = 'M';
@@ -340,6 +365,7 @@ final class Test6663854_Class_3 implements Test6663854_Interface_2, Test6663854_
         return var_24;
     }
 
+
     public String toString()
     {
         String result =  "[\n";
@@ -362,6 +388,7 @@ final class Test6663854_Class_3 implements Test6663854_Interface_2, Test6663854_
     }
 }
 
+
 final class Test6663854_Class_4 implements Test6663854_Interface_1, Test6663854_Interface_2 {
     long var_38 = (Test6663854_Class_3.var_24 |= Test6663854_Class_3.var_23 < (short)+3417996718812544000L) ? ~543562136204028928L : 1593726438;
     char var_39;
@@ -371,6 +398,7 @@ final class Test6663854_Class_4 implements Test6663854_Interface_1, Test6663854_
     byte var_43;
     static Test6663854_Interface_1[] var_44;
     final char var_45 = 4.321821176880639E307 < var_42 ? 'o' : 'v';
+
 
     public Test6663854_Class_4()
     {
@@ -408,6 +436,7 @@ final class Test6663854_Class_4 implements Test6663854_Interface_1, Test6663854_
         final short var_64 = (short)'C';
         ((var_41 = new Test6663854_Class_3()).var_22 = new Test6663854_Class_0()).var_8 /= ((var_41 = new Test6663854_Class_3()).var_22 = new Test6663854_Class_0()).var_6;
     }
+
 
     public boolean func_0()
     {
@@ -486,6 +515,9 @@ final class Test6663854_Class_4 implements Test6663854_Interface_1, Test6663854_
         ((new String[Test6663854_Class_3.var_23])[var_53 ? arg_2 : arg_2]).length();
         return arg_0 + "qj";
     }
+
+
+
 
     final String func_0(byte arg_0, Test6663854_Class_0 arg_1, final Test6663854_Class_0 arg_2, final Object arg_3)
     {
@@ -596,10 +628,12 @@ final class Test6663854_Class_4 implements Test6663854_Interface_1, Test6663854_
     }
 }
 
+
 class Test6663854_Class_5 implements Test6663854_Interface_1 {
     final static char var_65 = 'S';
     static Test6663854_Interface_2 var_66;
     static Test6663854_Class_3 var_67;
+
 
     public Test6663854_Class_5()
     {
@@ -612,6 +646,7 @@ class Test6663854_Class_5 implements Test6663854_Interface_1 {
         ((new Test6663854_Class_3[Test6663854_Class_3.var_23][Test6663854_Class_0.var_4 = Test6663854_Class_3.var_23])[Test6663854_Class_0.var_4 = Test6663854_Class_3.var_23][Test6663854_Class_3.var_23]).var_18 = (new Object[Test6663854_Class_3.var_23][Test6663854_Class_0.var_4 = Test6663854_Class_3.var_23])[Test6663854_Class_3.var_23][Test6663854_Class_3.var_23];
         var_66 = (Test6663854_Class_4.var_40 = (Test6663854_Class_3.var_24 = (Test6663854_Class_3.var_24 = Test6663854_Class_3.var_24)) || false ? new Test6663854_Class_3() : new Test6663854_Class_3());
     }
+
 
     public boolean func_0()
     {
@@ -671,6 +706,9 @@ class Test6663854_Class_5 implements Test6663854_Interface_1 {
         return ((Test6663854_Class_3.var_24 = new Test6663854_Class_0().var_6 >= (short)3.4944631475014644E307) ? Test6663854_Class_3.var_24 : (Test6663854_Class_3.var_24 ? (Test6663854_Class_3.var_24 = false) : !Test6663854_Class_3.var_24)) ? "y" : arg_0;
     }
 
+
+
+
     private final static float func_0(boolean arg_0)
     {
         {
@@ -725,6 +763,7 @@ class Test6663854_Class_5 implements Test6663854_Interface_1 {
     }
 }
 
+
 class Test6663854_Class_6 implements Test6663854_Interface_1, Test6663854_Interface_2 {
     static long var_77;
     final byte var_78 = Test6663854_Class_0.var_4 = Test6663854_Class_3.var_23;
@@ -732,6 +771,7 @@ class Test6663854_Class_6 implements Test6663854_Interface_1, Test6663854_Interf
     static Test6663854_Class_4 var_80;
     static long var_81 = 1365276905537306624L;
     static Test6663854_Class_3 var_82;
+
 
     public Test6663854_Class_6()
     {
@@ -777,6 +817,7 @@ class Test6663854_Class_6 implements Test6663854_Interface_1, Test6663854_Interf
         var_86 = var_86;
     }
 
+
     public boolean func_0()
     {
         Test6663854_Class_4.var_40 = (Test6663854_Class_5.var_67 = (new Test6663854_Class_3[var_78])[Test6663854_Class_3.var_23]);
@@ -793,6 +834,8 @@ class Test6663854_Class_6 implements Test6663854_Interface_1, Test6663854_Interf
         var_81++;
         return arg_0;
     }
+
+
 
     public String toString()
     {
@@ -814,10 +857,12 @@ class Test6663854_Class_6 implements Test6663854_Interface_1, Test6663854_Interf
     }
 }
 
+
 final class Test6663854_Class_7 extends Test6663854_Class_5 implements Test6663854_Interface_2 {
     final float var_87 = 1.1671899E38F;
     static char var_88 = var_65;
     float var_89 = 2.166908E37F;
+
 
     public Test6663854_Class_7()
     {
@@ -854,6 +899,9 @@ final class Test6663854_Class_7 extends Test6663854_Class_5 implements Test66638
         --Test6663854_Class_6.var_81;
         ((new Test6663854_Class_4[Test6663854_Class_3.var_23][Test6663854_Class_3.var_23])[Test6663854_Class_3.var_23][Test6663854_Class_3.var_23]).var_41 = new Test6663854_Class_3();
     }
+
+
+
 
     public final Test6663854_Class_4 func_0(int arg_0)
     {
@@ -924,6 +972,7 @@ final class Test6663854_Class_7 extends Test6663854_Class_5 implements Test66638
     }
 }
 
+
 final class Test6663854_Class_8 implements Test6663854_Interface_1 {
     long var_93 = ++Test6663854_Class_6.var_81;
     short var_94 = (short)'H';
@@ -932,6 +981,7 @@ final class Test6663854_Class_8 implements Test6663854_Interface_1 {
     final static float var_97 = 2.43397E38F;
     final static long var_98 = 7461452158234510336L;
     static Test6663854_Class_7[] var_99;
+
 
     public Test6663854_Class_8()
     {
@@ -949,6 +999,7 @@ final class Test6663854_Class_8 implements Test6663854_Interface_1 {
         final boolean[] var_104 = new boolean[Test6663854_Class_0.var_4 = Test6663854_Class_3.var_23];
         Test6663854_Class_3.var_24 &= false & (Test6663854_Class_3.var_24 = Test6663854_Class_3.var_24);
     }
+
 
     public boolean func_0()
     {
@@ -986,6 +1037,8 @@ final class Test6663854_Class_8 implements Test6663854_Interface_1 {
         --Test6663854_Class_7.var_88;
         return arg_0;
     }
+
+
 
     private Test6663854_Class_0 func_0(Test6663854_Class_0 arg_0)
     {
@@ -1043,6 +1096,7 @@ public class Test6663854 {
     static short var_105 = 19709;
     static int var_106 = (((Test6663854_Class_3.var_24 = (Test6663854_Class_3.var_24 = false)) | true) & (false || !false) ? ! (Test6663854_Class_3.var_24 |= Test6663854_Class_3.var_24) : Test6663854_Class_3.var_24 | false) ? (short)5430142769559462912L : Test6663854_Class_3.var_23 << Test6663854_Class_3.var_23;
     boolean var_107 = false;
+
 
     private static long func_0(final boolean arg_0)
     {
@@ -1354,6 +1408,7 @@ public class Test6663854 {
         public static String print(long arg)    { return String.valueOf(arg); }
         public static String print(float arg)   { return String.valueOf(arg); }
         public static String print(double arg)  { return String.valueOf(arg); }
+
 
         public static String print(Object arg)
         {

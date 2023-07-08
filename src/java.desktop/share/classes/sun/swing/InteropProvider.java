@@ -21,5 +21,21 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface InteropProvider {
 }

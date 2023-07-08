@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -30,6 +31,20 @@ import java.util.TimeZone;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains EXSLT dates and times extension functions.
@@ -154,6 +169,7 @@ public class ExsltDatetime
       else
         return (leader + dateOut + zone);
     }
+
 
     /**
      * See above.
@@ -369,6 +385,7 @@ public class ExsltDatetime
       return cal.get(Calendar.DAY_OF_YEAR);
    }
 
+
     /**
      * The date:day-in-month function returns the day of a date as a number.
      * If no argument is given, then the current local date/time, as returned
@@ -437,6 +454,7 @@ public class ExsltDatetime
        Calendar cal = Calendar.getInstance();
       return cal.get(Calendar.DAY_OF_WEEK_IN_MONTH);
    }
+
 
     /**
      * The date:day-in-week function returns the day of the week given in a
@@ -860,6 +878,7 @@ public class ExsltDatetime
       }
       return null;
     }
+
 
     /**
      * Parse the input string and return the corresponding calendar field

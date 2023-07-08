@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -42,12 +60,14 @@ public final class ConstantMethodHandle extends Constant {
     private int referenceKind;
     private int referenceIndex;
 
+
     /**
      * Initialize from another object.
      */
     public ConstantMethodHandle(final ConstantMethodHandle c) {
         this(c.getReferenceKind(), c.getReferenceIndex());
     }
+
 
     /**
      * Initialize instance from file data.
@@ -59,11 +79,13 @@ public final class ConstantMethodHandle extends Constant {
         this(file.readUnsignedByte(), file.readUnsignedShort());
     }
 
+
     public ConstantMethodHandle(final int reference_kind, final int reference_index) {
         super(Const.CONSTANT_MethodHandle);
         this.referenceKind = reference_kind;
         this.referenceIndex = reference_index;
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitly
@@ -76,6 +98,7 @@ public final class ConstantMethodHandle extends Constant {
     public void accept( final Visitor v ) {
         v.visitConstantMethodHandle(this);
     }
+
 
     /**
      * Dump method kind and index to file stream in binary format.
@@ -90,21 +113,26 @@ public final class ConstantMethodHandle extends Constant {
         file.writeShort(referenceIndex);
     }
 
+
     public int getReferenceKind() {
         return referenceKind;
     }
+
 
     public void setReferenceKind(final int reference_kind) {
         this.referenceKind = reference_kind;
     }
 
+
     public int getReferenceIndex() {
         return referenceIndex;
     }
 
+
     public void setReferenceIndex(final int reference_index) {
         this.referenceIndex = reference_index;
     }
+
 
     /**
      * @return String representation

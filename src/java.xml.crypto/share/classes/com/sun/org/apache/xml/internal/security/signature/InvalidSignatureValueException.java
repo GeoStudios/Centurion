@@ -21,10 +21,27 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Raised if testing the signature value over <i>DigestValue</i> fails because of invalid signature.

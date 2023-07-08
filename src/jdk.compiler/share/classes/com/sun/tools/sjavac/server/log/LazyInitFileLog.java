@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server.log;
 
+
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import java.io.FileWriter;
 import java.io.java.io.java.io.java.io.IOException;
@@ -28,6 +29,20 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LazyInitFileLog extends Log {
 

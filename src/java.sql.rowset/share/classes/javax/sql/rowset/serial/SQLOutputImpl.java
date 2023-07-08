@@ -21,12 +21,27 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
+
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.Map;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The output stream for writing the attributes of a
@@ -575,6 +590,7 @@ public class SQLOutputImpl implements SQLOutput {
         }
     }
 
+
   /**
    * Writes the next attribute to the stream as a <code>String</code>
    * in the Java programming language. The driver converts this to a
@@ -605,6 +621,7 @@ public class SQLOutputImpl implements SQLOutput {
            attribs.add(x);
    }
 
+
   /**
    * Writes an SQL <code>ROWID</code> value to the stream.
    *
@@ -617,6 +634,7 @@ public class SQLOutputImpl implements SQLOutput {
    public void writeRowId(RowId x) throws SQLException {
         attribs.add(x);
    }
+
 
   /**
    * Writes an SQL <code>XML</code> value to the stream.

@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A BER decoder. Contains methods to parse a BER buffer.
@@ -137,6 +152,7 @@ public final class BerDecoder extends Ber {
         }
         return buf[offset++] & 0xff;
     }
+
 
     /**
      * Returns the next byte in this BER buffer without consuming it.

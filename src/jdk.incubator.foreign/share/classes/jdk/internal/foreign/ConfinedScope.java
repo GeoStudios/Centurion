@@ -21,10 +21,25 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
 import jdk.incubator.foreign.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A confined scope, which features an owner thread. The liveness check features an additional

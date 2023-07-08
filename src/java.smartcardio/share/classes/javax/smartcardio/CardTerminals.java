@@ -21,7 +21,22 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The set of terminals supported by a TerminalFactory.

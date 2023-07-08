@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.cmm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class CMMServiceProvider {
     public final PCMM getColorManagementModule() {
         if (CMSManager.canCreateModule()) {

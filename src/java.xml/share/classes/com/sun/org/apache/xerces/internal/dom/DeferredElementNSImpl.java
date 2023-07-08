@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
@@ -35,6 +50,10 @@ import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
  * DeferredElementImpl.java at the same time.
  *
  */
+
+
+
+
 
 /**
  * DeferredElementNSImpl is to ElementNSImpl, what DeferredElementImpl is to

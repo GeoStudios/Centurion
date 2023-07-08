@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.frames;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -167,6 +181,7 @@ public class frames001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -206,6 +221,7 @@ public class frames001 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -217,6 +233,7 @@ public class frames001 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             String bpLine3 = "breakpointLineNumber3";
+
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -381,6 +398,7 @@ public class frames001 {
                         break label1;
                     }
 
+
                     switch (i3) {
 
                       case 0:
@@ -525,6 +543,7 @@ public class frames001 {
         return testExitCode;
     }
 
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -580,6 +599,7 @@ public class frames001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
@@ -83,6 +84,20 @@ import java.lang.reflect.Method;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.standard.JobSheets;
 import javax.print.attribute.standard.Media;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //REMIND: Remove use of this class when IPPPrintService is moved to share directory.
 
@@ -744,6 +759,7 @@ public class PSPrinterJob extends RasterPrinterJob {
         }
     }
 
+
     /**
      * Invoked if the application cancelled the printjob.
      */
@@ -1190,6 +1206,7 @@ public class PSPrinterJob extends RasterPrinterJob {
          return psFont;
      }
 
+
     private static String escapeParens(String str) {
         if (str.indexOf('(') == -1 && str.indexOf(')') == -1 ) {
             return str;
@@ -1422,6 +1439,7 @@ public class PSPrinterJob extends RasterPrinterJob {
         mPenY = mStartPathY;
     }
 
+
     /**
      * Generate PostScript to move the current pen
      * position to {@code (x, y)}.
@@ -1471,6 +1489,7 @@ public class PSPrinterJob extends RasterPrinterJob {
                           + " " + trunc(control2x) + " " + trunc(control2y)
                           + " " + trunc(endX) + " " + trunc(endY)
                           + CURVETO_STR);
+
 
         mPenX = endX;
         mPenY = endY;
@@ -1709,6 +1728,7 @@ public class PSPrinterJob extends RasterPrinterJob {
                && (!getGState().canSetClip(mLastClip)
                    || !getGState().mTransform.equals(mLastTransform))) {
 
+
             grestore();
         }
 
@@ -1810,6 +1830,7 @@ public class PSPrinterJob extends RasterPrinterJob {
 
             return mClip == null || mClip.equals(clip);
         }
+
 
         void emitPSClip(Shape clip) {
             if (clip != null
@@ -1931,6 +1952,7 @@ public class PSPrinterJob extends RasterPrinterJob {
                     closeSubpath();
                     break;
                 }
+
 
                 pathIter.next();
             }

@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a table of line numbers for debugging
@@ -41,6 +56,7 @@ public final class LineNumberTable extends Attribute {
     private static final int MAX_LINE_LENGTH = 72;
     private LineNumber[] lineNumberTable; // Table of line/numbers pairs
 
+
     /*
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -48,6 +64,7 @@ public final class LineNumberTable extends Attribute {
     public LineNumberTable(final LineNumberTable c) {
         this(c.getNameIndex(), c.getLength(), c.getLineNumberTable(), c.getConstantPool());
     }
+
 
     /*
      * @param name_index Index of name
@@ -202,6 +219,7 @@ public final class LineNumberTable extends Attribute {
         c.setConstantPool(_constant_pool);
         return c;
     }
+
 
     public int getTableLength() {
         return lineNumberTable == null ? 0 : lineNumberTable.length;

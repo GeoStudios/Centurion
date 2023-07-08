@@ -21,9 +21,23 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MHVarargsCollectSpreadTF extends MHCollectSpreadBaseTF {
 

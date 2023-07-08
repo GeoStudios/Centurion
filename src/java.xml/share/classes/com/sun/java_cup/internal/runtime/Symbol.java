@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.java_cup.internal.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Defines the Symbol class, which is used to represent all terminals
  * and nonterminals while parsing.  The lexer should pass CUP Symbols

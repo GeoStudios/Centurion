@@ -21,6 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
+
 import java.io.EOFException;
 import java.io.FileNotFoundException;
 import java.io.FilterInputStream;
@@ -62,6 +63,20 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  "Main" class for javap, normally accessed from the command line
@@ -501,6 +516,7 @@ public class JavapTask implements DisassemblerTool.DisassemblerTask, Messages {
             if (diagnosticListener == null)
               diagnosticListener = getDiagnosticListenerForWriter(log);
         }
+
 
         if (fileManager == null)
             fileManager = getDefaultFileManager(diagnosticListener, log);

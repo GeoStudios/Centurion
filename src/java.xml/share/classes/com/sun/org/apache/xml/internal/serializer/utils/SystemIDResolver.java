@@ -21,14 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
+
 import java.io.File;
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.URI.MalformedURIException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * This class is used to resolve relative URIs and SystemID
@@ -268,6 +287,7 @@ public final class SystemIDResolver
       return getAbsoluteURIFromRelative(systemId);
 
   }
+
 
   /**
    * Take a SystemID string and try to turn it into a good absolute URI.

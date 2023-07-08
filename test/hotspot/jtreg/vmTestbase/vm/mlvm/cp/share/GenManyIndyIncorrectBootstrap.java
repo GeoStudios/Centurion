@@ -21,6 +21,7 @@
 
 package vm.mlvm.cp.share;
 
+
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.ClassWriterExt;
 import jdk.internal.org.objectweb.asm.Handle;
@@ -30,6 +31,19 @@ import jdk.internal.org.objectweb.asm.Type;
 import jdk.internal.org.objectweb.asm.Label;
 import vm.mlvm.share.ClassfileGenerator;
 import vm.mlvm.share.Env;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GenManyIndyIncorrectBootstrap extends GenFullCP {
 

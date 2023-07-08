@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * FALOAD - Load float from array
@@ -38,6 +55,7 @@ public class FALOAD extends ArrayInstruction implements StackProducer {
     public FALOAD() {
         super(com.sun.org.apache.bcel.internal.Const.FALOAD);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
+
 import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class designed to produce preconfigured "accessory" objects to

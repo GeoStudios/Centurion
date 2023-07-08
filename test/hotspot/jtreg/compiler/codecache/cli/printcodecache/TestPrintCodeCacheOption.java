@@ -21,10 +21,24 @@
 
 package compiler.codecache.cli.printcodecache;
 
+
 import compiler.codecache.cli.common.CodeCacheCLITestBase;
 import compiler.codecache.cli.common.CodeCacheCLITestCase;
 import sun.hotspot.code.BlobType;
 import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -38,6 +52,9 @@ import java.util.EnumSet;
  *
  * @run driver/timeout=240 compiler.codecache.cli.printcodecache.TestPrintCodeCacheOption
  */
+
+
+
 
 public class TestPrintCodeCacheOption extends CodeCacheCLITestBase {
     private static final CodeCacheCLITestCase DISABLED_PRINT_CODE_CACHE

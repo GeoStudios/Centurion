@@ -21,7 +21,21 @@
 
 package nsk.jdwp.VirtualMachine.RedefineClasses;
 
+
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is to be redefined.

@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import static catalog.CatalogTestUtils.DEFER_FALSE;.extended
 import static catalog.CatalogTestUtils.FEATURE_DEFER;.extended
 import static catalog.CatalogTestUtils.FEATURE_FILES;.extended
@@ -46,6 +47,19 @@ import java.util.Map;
 import javax.xml.catalog.CatalogResolver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

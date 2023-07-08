@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import java.desktop.share.classes.javax.swing.border.Border;
@@ -37,6 +38,20 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.base.share.classes.java.util.Locale;
 import java.security.AccessController;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the basic look and feel for a <code>JOptionPane</code>.
@@ -110,6 +125,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
 
     private Handler handler;
 
+
     static {
         newline = System.lineSeparator();
         if (newline == null) {
@@ -126,6 +142,8 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         map.put(new Actions(Actions.CLOSE));
         BasicLookAndFeel.installAudioActionMap(map);
     }
+
+
 
     /**
      * Creates a new {@code BasicOptionPaneUI} instance.
@@ -963,6 +981,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         }
     }
 
+
     /**
      * If inputComponent is non-null, the focus is requested on that,
      * otherwise request focus on the default value
@@ -990,6 +1009,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
     public boolean containsCustomComponents(JOptionPane op) {
         return hasCustomComponents;
     }
+
 
     /**
      * <code>ButtonAreaLayout</code> behaves in a similar manner to
@@ -1240,6 +1260,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         public void removeLayoutComponent(Component c) { }
     }
 
+
     /**
      * This class should be treated as a &quot;protected&quot; inner class.
      * Instantiate it only within subclasses of {@code BasicOptionPaneUI}.
@@ -1344,6 +1365,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         }
     }
 
+
     private class Handler implements ActionListener, MouseListener,
                                      PropertyChangeListener {
         //
@@ -1352,6 +1374,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         public void actionPerformed(ActionEvent e) {
             optionPane.setInputValue(((JTextField)e.getSource()).getText());
         }
+
 
         //
         // MouseListener
@@ -1460,6 +1483,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         }
     }
 
+
     //
     // Classes used when optionPane.getWantsInput returns true.
     //
@@ -1508,6 +1532,8 @@ public class BasicOptionPaneUI extends OptionPaneUI {
         }
     }
 
+
+
     /**
      * Registered in the ActionMap. Sets the value of the option pane
      * to <code>JOptionPane.CLOSED_OPTION</code>.
@@ -1527,6 +1553,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
             }
         }
     }
+
 
     /**
      * This class is used to create the default buttons. This indirection is

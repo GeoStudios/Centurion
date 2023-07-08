@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XWINProtocol extends XProtocol implements XStateProtocol, XLayerProtocol {
     static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XWINProtocol");

@@ -21,7 +21,21 @@
 
 package jit.deoptimization.test08;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.deoptimization.test08.test08
  */
+
+
 
 /*
  *      Simple recursion that should causes hotspot to deoptimize

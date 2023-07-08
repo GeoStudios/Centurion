@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8256934
@@ -29,6 +44,7 @@ package compiler.loopopts;
  * @run main/othervm -Xcomp -XX:-TieredCompilation -XX:CompileCommand=compileonly,compiler.loopopts.TestPartialPeelingSinkNodes::test
  *                   compiler.loopopts.TestPartialPeelingSinkNodes
  */
+
 
 public class TestPartialPeelingSinkNodes {
     static int i5 = 168, iFld = 2, x, y;

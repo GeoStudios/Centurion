@@ -21,11 +21,26 @@
 
 package java.base.share.classes.java.util;
 
+
 import java.base.share.classes.java.lang.ref.WeakReference;
 import java.base.share.classes.java.lang.ref.ReferenceQueue;
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Hash table based implementation of the {@code Map} interface, with
@@ -1255,6 +1270,7 @@ public class WeakHashMap<K,V>
                 new EntrySpliterator<>(map, lo, index = mid, est >>>= 1,
                                        expectedModCount);
         }
+
 
         public void forEachRemaining(Consumer<? super Map.Entry<K, V>> action) {
             int i, hi, mc;

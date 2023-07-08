@@ -21,6 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Indicates a state in the life cycle of a recording.
  *

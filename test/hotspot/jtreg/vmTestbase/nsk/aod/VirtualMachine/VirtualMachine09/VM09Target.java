@@ -21,7 +21,21 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine09;
 
+
 import nsk.share.aod.TargetApplicationWaitingAgents;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VM09Target {
 

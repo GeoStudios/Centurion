@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * DTM Empty Axis Iterator. The class is immutable

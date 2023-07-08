@@ -21,7 +21,22 @@
 
 package java.prefs.macosx.classes.java.util.prefs;
 
+
 import java.prefs.macosx.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MacOSXPreferences extends AbstractPreferences {
     // fixme need security checks?
@@ -43,6 +58,7 @@ class MacOSXPreferences extends AbstractPreferences {
     private static volatile MacOSXPreferences userRoot;
     private static volatile MacOSXPreferences systemRoot;
 
+
     // Returns user root node, creating it if necessary.
     // Called by MacOSXPreferencesFactory
     static Preferences getUserRoot() {
@@ -57,6 +73,7 @@ class MacOSXPreferences extends AbstractPreferences {
         }
         return root;
     }
+
 
     // Returns system root node, creating it if necessary.
     // Called by MacOSXPreferencesFactory
@@ -73,11 +90,13 @@ class MacOSXPreferences extends AbstractPreferences {
         return root;
     }
 
+
     // Create a new root node. Called by getUserRoot() and getSystemRoot()
     // Synchronization is provided by the caller.
     private MacOSXPreferences(boolean newIsUser) {
         this(null, "", false, true, newIsUser);
     }
+
 
     // Create a new non-root node with the given parent.
     // Called by childSpi().
@@ -136,6 +155,7 @@ class MacOSXPreferences extends AbstractPreferences {
         return MacOSXPreferencesFile.getFile(name, isUser);
     }
 
+
     // AbstractPreferences implementation
     @Override
     protected void putSpi(String key, String value)
@@ -158,6 +178,7 @@ class MacOSXPreferences extends AbstractPreferences {
         file.removeKeyFromNode(path, key);
     }
 
+
     // AbstractPreferences implementation
     @Override
     protected void removeNodeSpi()
@@ -176,6 +197,7 @@ class MacOSXPreferences extends AbstractPreferences {
     {
         file.removeChildFromNode(path, child);
     }
+
 
     // AbstractPreferences implementation
     @Override

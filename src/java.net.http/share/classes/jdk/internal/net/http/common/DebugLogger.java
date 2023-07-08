@@ -21,10 +21,25 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.common;
 
+
 import java.io.PrintStream;
 import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code System.Logger} that forwards all messages to an underlying
@@ -221,6 +236,7 @@ final class DebugLogger implements Logger {
         sb.append(res);
         return sb;
     }
+
 
     private StringBuilder getFormat(StringBuilder sb, String format, Object[] params) {
         if (format == null || params == null || params.length == 0) {

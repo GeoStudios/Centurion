@@ -21,6 +21,7 @@
 
 package nsk.jdb.hidden_class.hc001;
 
+
 import java.io.File;
 import java.io.PrintStream;
 import java.lang.invoke.MethodHandles;
@@ -28,6 +29,19 @@ import java.lang.invoke.MethodHandles.Lookup;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import nsk.share.jdb.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Interface for tested hidden class to implement. */
 interface HCInterf {

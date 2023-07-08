@@ -21,8 +21,22 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,6 +58,8 @@ import jdk.vm.ci.hotspot.CompilerToVMHelper;
  *                   -Dcompiler.jvmci.compilerToVM.CollectCountersTest.expected=11
  *                   compiler.jvmci.compilerToVM.CollectCountersTest
  */
+
+
 
 public class CollectCountersTest {
     private static final int EXPECTED = Integer.getInteger(

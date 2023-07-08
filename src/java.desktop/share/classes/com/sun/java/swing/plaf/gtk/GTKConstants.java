@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  */
 public interface GTKConstants {

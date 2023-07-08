@@ -21,9 +21,23 @@
 
 package nsk.monitoring.share.server;
 
+
 import java.util.*;
 import javax.management.MBeanServer;
 import java.lang.management.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ServerRuntimeMXBean extends ServerMXBean implements RuntimeMXBean {
         private static final String BOOT_CLASSPATH= "BootClassPath";

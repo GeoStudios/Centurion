@@ -21,9 +21,23 @@
 
 package nsk.jdi.ObjectReference.invokeMethod;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a debuggee class.

@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import javax.xml.stream.events.EntityReference;
 import java.io.Writer;
 import javax.xml.stream.events.EntityDeclaration;
 import javax.xml.stream.events.XMLEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implements EntityReference event.
  *
@@ -70,5 +85,6 @@ implements EntityReference {
     protected void init() {
         setEventType(XMLEvent.ENTITY_REFERENCE);
     }
+
 
 }

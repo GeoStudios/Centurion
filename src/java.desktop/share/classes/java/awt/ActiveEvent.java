@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An interface for events that know how to dispatch themselves.
  * By implementing this interface an event can be placed upon the event

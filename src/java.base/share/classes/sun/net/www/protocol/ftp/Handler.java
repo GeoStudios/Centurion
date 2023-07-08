@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.net.www.protocol.ftp;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.net.Proxy;
@@ -30,9 +31,26 @@ import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.sun.net.ftp.FtpClient;
 import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *      FTP stream opener
  */
+
+
+
 
 /** open an ftp connection given a URL */
 public class Handler extends java.net.URLStreamHandler {

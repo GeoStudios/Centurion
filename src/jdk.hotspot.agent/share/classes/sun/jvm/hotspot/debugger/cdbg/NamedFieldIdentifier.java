@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Named fields in compound types */
 
 public interface NamedFieldIdentifier extends FieldIdentifier {

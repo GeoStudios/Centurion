@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DUP - Duplicate top operand stack word
@@ -36,6 +53,7 @@ public class DUP extends StackInstruction implements PushInstruction {
     public DUP() {
         super(com.sun.org.apache.bcel.internal.Const.DUP);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

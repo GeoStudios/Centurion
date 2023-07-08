@@ -21,6 +21,22 @@
 
 package java.prefs.macosx.classes.java.util.prefs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class MacOSXPreferencesFactory implements PreferencesFactory {
     @Override
     public Preferences userRoot() {

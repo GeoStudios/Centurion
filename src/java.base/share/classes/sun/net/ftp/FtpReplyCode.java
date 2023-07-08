@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.net.ftp;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class describes a FTP protocol reply code and associates a meaning
  * to the numerical value according to the various RFCs (RFC 959 in

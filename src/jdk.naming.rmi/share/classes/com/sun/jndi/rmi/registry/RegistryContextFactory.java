@@ -21,11 +21,26 @@
 
 package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
+
 import java.util.Enumeration;
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.spi.*;
 import jdk.naming.rmi.share.classes.com.sun.jndi.url.rmi.rmiURLContextFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RegistryContextFactory takes an RMI registry reference, and
@@ -43,6 +58,7 @@ import jdk.naming.rmi.share.classes.com.sun.jndi.url.rmi.rmiURLContextFactory;
  * same logical resource.  The order of the addresses is not significant.
  *
  */
+
 
 public class RegistryContextFactory
         implements ObjectFactory, InitialContextFactory

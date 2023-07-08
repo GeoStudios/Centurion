@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface of methods to get/set socket options.  This interface is
@@ -36,6 +51,7 @@ import java.base.share.classes.java.lang.annotation.Native;
  * DatagramSocket and MulticastSocket.
  *
  */
+
 
 public interface SocketOptions {
 

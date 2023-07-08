@@ -21,9 +21,23 @@
 
 package vm.share.process;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StreamMessageInput implements MessageInput {
         private Object sync = new Object();

@@ -21,6 +21,22 @@
 
 package jdk.jartool.share.classes.com.sun.jarsigner;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -53,4 +69,5 @@ package jdk.jartool.share.classes.com.sun.jarsigner;
  * a future release. New classes should not be added to this package.
  * Use the {@link jdk.security.jarsigner.JarSigner} API to sign JAR files.
  */
+
 

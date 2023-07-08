@@ -21,11 +21,25 @@
 
 package gc.g1;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.WhiteBox;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,6 +53,8 @@ import java.base.share.classes.java.util.Arrays;
  * @summary Humongous objects may have references from the code cache
  * @run driver gc.g1.TestHumongousCodeCacheRoots
  */
+
+
 
 class TestHumongousCodeCacheRootsHelper {
 

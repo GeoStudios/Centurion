@@ -21,6 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The <i>nesting kind</i> of a type element.
  * Type elements come in four varieties:

@@ -21,6 +21,56 @@
 
 package build.tools.generatenimbus;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class UIComponent extends UIRegion {
     private String componentName;
 

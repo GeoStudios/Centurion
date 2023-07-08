@@ -21,6 +21,7 @@
 
 package gc.stress.gclocker;
 
+
 import java.lang.management.MemoryPoolMXBean;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
@@ -30,8 +31,22 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Stress the GC locker by calling GetPrimitiveArrayCritical while
 // concurrently filling up old gen.
+
 
 final class ThreadUtils {
     public static void sleep(long durationMS) {

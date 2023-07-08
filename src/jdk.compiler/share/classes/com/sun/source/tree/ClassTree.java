@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
+
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A tree node for a class, interface, enum, record, or annotation

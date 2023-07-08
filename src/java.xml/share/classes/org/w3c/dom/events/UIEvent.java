@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
+
 import java.xml.share.classes.org.w3c.dom.views.AbstractView;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>UIEvent</code> interface provides specific contextual information

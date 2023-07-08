@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and represents a reference
@@ -42,6 +60,7 @@ public final class PMGClass extends Attribute {
     private int pmgClassIndex;
     private int pmgIndex;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -50,6 +69,7 @@ public final class PMGClass extends Attribute {
         this(pgmClass.getNameIndex(), pgmClass.getLength(), pgmClass.getPMGIndex(), pgmClass.getPMGClassIndex(),
             pgmClass.getConstantPool());
     }
+
 
     /**
      * Construct object from input stream.
@@ -63,6 +83,7 @@ public final class PMGClass extends Attribute {
             throws IOException {
         this(name_index, length, input.readUnsignedShort(), input.readUnsignedShort(), constant_pool);
     }
+
 
     /**
      * @param name_index Index in constant pool to CONSTANT_Utf8
@@ -78,6 +99,7 @@ public final class PMGClass extends Attribute {
         this.pmgClassIndex = pmgClassIndex;
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -89,6 +111,7 @@ public final class PMGClass extends Attribute {
     public void accept( final Visitor v ) {
         println("Visiting non-standard PMGClass object");
     }
+
 
     /**
      * Dump source file attribute to file stream in binary format.
@@ -103,12 +126,14 @@ public final class PMGClass extends Attribute {
         file.writeShort(pmgClassIndex);
     }
 
+
     /**
      * @return Index in constant pool of source file name.
      */
     public int getPMGClassIndex() {
         return pmgClassIndex;
     }
+
 
     /**
      * @param pmgClassIndex
@@ -117,6 +142,7 @@ public final class PMGClass extends Attribute {
         this.pmgClassIndex = pmgClassIndex;
     }
 
+
     /**
      * @return Index in constant pool of source file name.
      */
@@ -124,12 +150,14 @@ public final class PMGClass extends Attribute {
         return pmgIndex;
     }
 
+
     /**
      * @param pmgIndex
      */
     public void setPMGIndex( final int pmgIndex ) {
         this.pmgIndex = pmgIndex;
     }
+
 
     /**
      * @return PMG name.
@@ -140,6 +168,7 @@ public final class PMGClass extends Attribute {
         return c.getBytes();
     }
 
+
     /**
      * @return PMG class name.
      */
@@ -149,6 +178,7 @@ public final class PMGClass extends Attribute {
         return c.getBytes();
     }
 
+
     /**
      * @return String representation
      */
@@ -156,6 +186,7 @@ public final class PMGClass extends Attribute {
     public String toString() {
         return "PMGClass(" + getPMGName() + ", " + getPMGClassName() + ")";
     }
+
 
     /**
      * @return deep copy of this attribute

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.SetFieldModificationWatch;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class setfmodw005 {
     final static int JCK_STATUS_BASE = 95;

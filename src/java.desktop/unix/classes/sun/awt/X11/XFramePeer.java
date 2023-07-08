@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -33,6 +34,20 @@ import java.awt.Rectangle;
 import java.awt.peer.FramePeer;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XFramePeer extends XDecoratedPeer implements FramePeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XFramePeer");
@@ -397,6 +412,9 @@ class XFramePeer extends XDecoratedPeer implements FramePeer {
         return (state & (Frame.MAXIMIZED_VERT  | Frame.MAXIMIZED_HORIZ)) != 0;
     }
 
+
+
+
     static final int CROSSHAIR_INSET = 5;
 
     static final int BUTTON_Y = CROSSHAIR_INSET + 1;
@@ -430,6 +448,7 @@ class XFramePeer extends XDecoratedPeer implements FramePeer {
 
     static final int HORIZ_RESIZE_INSET = CROSSHAIR_INSET + BUTTON_H;
     static final int VERT_RESIZE_INSET = CROSSHAIR_INSET + BUTTON_W;
+
 
     /*
      * Print the native component by rendering the Motif look ourselves.

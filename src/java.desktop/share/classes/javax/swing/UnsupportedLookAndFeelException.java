@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An exception that indicates the requested look &amp; feel
  * management classes are not present on the user's system.

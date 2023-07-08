@@ -21,6 +21,7 @@
 
 package jdk.attach.share.classes.sun.tools.attach;
 
+
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachPermission;
 import com.sun.tools.attach.AttachNotSupportedException;
@@ -33,6 +34,20 @@ import jdk.attach.share.classes.sun.jvmstat.monitor.MonitoredHost;
 import jdk.attach.share.classes.sun.jvmstat.monitor.MonitoredVm;
 import jdk.attach.share.classes.sun.jvmstat.monitor.MonitoredVmUtil;
 import jdk.attach.share.classes.sun.jvmstat.monitor.VmIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Platform specific provider implementations extend this
@@ -148,6 +163,7 @@ public abstract class HotSpotAttachProvider extends AttachProvider {
         throw new AttachNotSupportedException(
                   "The VM does not support the attach mechanism");
     }
+
 
     /**
      * A virtual machine descriptor to describe a HotSpot virtual machine.

@@ -21,9 +21,24 @@
 
 package java.base.share.classes.sun.invoke.util;
 
+
 import java.lang.reflect.Modifier;
 import static java.lang.reflect.Modifier.*;.extended
 import jdk.internal.reflect.Reflection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class centralizes information about the JVM's linkage access control.

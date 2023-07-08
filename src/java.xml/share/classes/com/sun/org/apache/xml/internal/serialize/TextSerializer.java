@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
@@ -28,10 +29,31 @@ import java.xml.share.classes.com.sun.org.xml.sax.Attributejava.util.java.util.j
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Sep 14, 2000:
 //  Fixed serializer to report IO exception directly, instead at
 //  the end of document processing.
 //  Reported by Patrick Higgins <phiggins@transzap.com>
+
+
+
+
+
+
+
 
 /**
  * Implements a text serializer supporting both DOM and SAX
@@ -64,6 +86,7 @@ public class TextSerializer
     extends BaseMarkupSerializer
 {
 
+
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -74,14 +97,17 @@ public class TextSerializer
         super( new OutputFormat( Method.TEXT, null, false ) );
     }
 
+
     public void setOutputFormat( OutputFormat format )
     {
         super.setOutputFormat( format != null ? format : new OutputFormat( Method.TEXT, null, false ) );
     }
 
+
     //-----------------------------------------//
     // SAX content handler serializing methods //
     //-----------------------------------------//
+
 
     public void startElement( String namespaceURI, String localName,
                               String rawName, Attributes attrs )
@@ -90,6 +116,7 @@ public class TextSerializer
         startElement( rawName == null ? localName : rawName, null );
     }
 
+
     public void endElement( String namespaceURI, String localName,
                             String rawName )
         throws SAXException
@@ -97,9 +124,11 @@ public class TextSerializer
         endElement( rawName == null ? localName : rawName );
     }
 
+
     //------------------------------------------//
     // SAX document handler serializing methods //
     //------------------------------000---------//
+
 
     public void startElement( String tagName, AttributeList attrs )
         throws SAXException
@@ -136,6 +165,7 @@ public class TextSerializer
         }
     }
 
+
     public void endElement( String tagName )
         throws SAXException
     {
@@ -145,6 +175,7 @@ public class TextSerializer
             throw new SAXException( except );
         }
     }
+
 
     public void endElementIO( String tagName )
         throws IOException
@@ -164,17 +195,21 @@ public class TextSerializer
             _printer.flush();
     }
 
+
     public void processingInstructionIO( String target, String code ) throws IOException
     {
     }
+
 
     public void comment( String text )
     {
     }
 
+
     public void comment( char[] chars, int start, int length )
     {
     }
+
 
     public void characters( char[] chars, int start, int length )
         throws SAXException
@@ -190,6 +225,7 @@ public class TextSerializer
         }
     }
 
+
     protected void characters( String text, boolean unescaped )
         throws IOException
     {
@@ -200,9 +236,11 @@ public class TextSerializer
         printText( text, true, true );
     }
 
+
     //------------------------------------------//
     // Generic node serializing methods methods //
     //------------------------------------------//
+
 
     /**
      * Called to serialize the document's DOCTYPE by the root element.
@@ -224,6 +262,7 @@ public class TextSerializer
         // Always serialize these, even if not te first root element.
         serializePreRoot();
     }
+
 
     /**
      * Called to serialize a DOM element. Equivalent to calling {@link
@@ -278,6 +317,7 @@ public class TextSerializer
             }
         }
     }
+
 
     /**
      * Serialize the DOM node. This method is unique to the Text serializer.
@@ -344,6 +384,7 @@ public class TextSerializer
         }
     }
 
+
     protected ElementState content()
     {
         ElementState state;
@@ -362,9 +403,11 @@ public class TextSerializer
         return state;
     }
 
+
     protected String getEntityRef( int ch )
     {
         return null;
     }
+
 
 }

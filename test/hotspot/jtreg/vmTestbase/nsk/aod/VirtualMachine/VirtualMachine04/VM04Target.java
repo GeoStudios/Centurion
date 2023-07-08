@@ -21,8 +21,22 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine04;
 
+
 import nsk.share.TestBug;
 import nsk.share.aod.DummyTargetApplication;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This target application during initialization sets special system property,

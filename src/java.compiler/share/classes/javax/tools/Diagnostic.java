@@ -21,7 +21,22 @@
 
 package java.compiler.share.classes.javax.tools;
 
+
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for diagnostics from tools.  A diagnostic usually reports

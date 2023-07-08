@@ -21,9 +21,23 @@
 
 package nsk.share.jdi;
 
+
 import java.util.*;
 import nsk.share.TestBug;
 import nsk.share.locks.MonitorLockingThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class generates MonitorWaitEvent and MonitorWaitedEvent
@@ -212,6 +226,7 @@ class MonitorEnterExecutor extends EventActionsExecutor {
 
     // native method uses this class
     private static final Class<?> jniError = nsk.share.TestJNIError.class;
+
 
     static final String nativeLibararyName = "MonitorEnterExecutor";
 

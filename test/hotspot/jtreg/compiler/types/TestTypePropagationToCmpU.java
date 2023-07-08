@@ -21,6 +21,21 @@
 
 package compiler.types;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080156 8060036
@@ -28,6 +43,7 @@ package compiler.types;
  *
  * @run main compiler.types.TestTypePropagationToCmpU
  */
+
 
 public class TestTypePropagationToCmpU {
     public static void main(String[] args) {

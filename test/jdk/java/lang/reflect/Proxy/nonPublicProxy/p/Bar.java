@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface Bar {
     default String m() { return "bar"; }
 }

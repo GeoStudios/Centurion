@@ -21,11 +21,25 @@
 
 package nsk.jdi.ArrayReference.setValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class setvalue002 {
     final static int MIN_INDEX = -50;

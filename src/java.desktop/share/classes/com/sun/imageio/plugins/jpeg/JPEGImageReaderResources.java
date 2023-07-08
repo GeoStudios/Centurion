@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGImageReaderResources extends ListResourceBundle {
 

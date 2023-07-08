@@ -21,10 +21,24 @@
 
 package nsk.monitoring.GarbageCollectorMXBean.getCollectionTime;
 
+
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getcollectiontime001 {
 

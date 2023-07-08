@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.lang.String;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code TextHitInfo} class represents a character position in a

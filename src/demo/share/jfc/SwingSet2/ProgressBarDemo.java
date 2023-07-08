@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -35,6 +36,20 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JProgressBar Demo
@@ -137,6 +152,7 @@ public class ProgressBarDemo extends DemoModule {
         return b;
     }
 
+
     int textLocation = 0;
 
     String text = getString("ProgressBarDemo.text");
@@ -156,6 +172,7 @@ public class ProgressBarDemo extends DemoModule {
             }
         };
     }
+
 
     class MyTextArea extends JTextArea {
         public MyTextArea() {

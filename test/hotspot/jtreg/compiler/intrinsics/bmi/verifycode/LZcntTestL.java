@@ -21,8 +21,22 @@
 
 package compiler.intrinsics.bmi.verifycode;
 
+
 import compiler.intrinsics.bmi.TestLzcntL;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,9 @@ import java.lang.reflect.Method;
  *      -XX:+IgnoreUnrecognizedVMOptions -XX:+UseCountLeadingZerosInstruction
  *      compiler.intrinsics.bmi.verifycode.LZcntTestL
  */
+
+
+
 
 public class LZcntTestL extends LZcntTestI {
 

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.Point;
 import sun.awt.image.ByteInterleavedRaster;
@@ -30,6 +31,20 @@ import sun.awt.image.ByteBandedRaster;
 import sun.awt.image.ShortBandedRaster;
 import sun.awt.image.BytePackedRaster;
 import sun.awt.image.SunWritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing a rectangular array of pixels.  A Raster
@@ -998,6 +1013,7 @@ public class Raster {
         }
     }
 
+
     /**
      *  Creates a Raster with the specified SampleModel and DataBuffer.
      *  The upper left corner of the Raster is given by the location argument.
@@ -1308,6 +1324,7 @@ public class Raster {
        numDataElements = sampleModel.getNumDataElements();
        this.parent = parent;
     }
+
 
     /**
      * Returns the parent Raster (if any) of this Raster or null.
@@ -1813,6 +1830,7 @@ public class Raster {
                                      y - sampleModelTranslateY,
                                      w, h, dArray, dataBuffer);
     }
+
 
     /**
      * Returns the sample in a specified band for the pixel located

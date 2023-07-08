@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.module;
 
+
 import java.io.Closeable;
 import java.io.File;
 import java.io.IOError;
@@ -52,6 +53,20 @@ import java.base.share.classes.jdk.internal.loader.Resource;
 import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides support for patching modules, mostly the boot layer.
@@ -405,6 +420,7 @@ public final class ModulePatcher {
         }
     }
 
+
     /**
      * A resource finder that find resources in a patch location.
      */
@@ -412,6 +428,7 @@ public final class ModulePatcher {
         Resource find(String name) throws IOException;
         Stream<String> list() throws IOException;
     }
+
 
     /**
      * A ResourceFinder that finds resources in a JAR file.
@@ -476,6 +493,7 @@ public final class ModulePatcher {
             return jf.stream().map(JarEntry::getName);
         }
     }
+
 
     /**
      * A ResourceFinder that finds resources on the file system.
@@ -545,6 +563,7 @@ public final class ModulePatcher {
                         .filter(s -> !s.isEmpty());
         }
     }
+
 
     /**
      * Derives a package name from the file path of an entry in an exploded patch

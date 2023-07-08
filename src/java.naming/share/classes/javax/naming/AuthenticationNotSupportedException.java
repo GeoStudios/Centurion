@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This exception is thrown when
   * the particular flavor of authentication requested is not supported.

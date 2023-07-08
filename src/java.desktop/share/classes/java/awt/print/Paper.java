@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.print;
 
+
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Paper} class describes the physical characteristics of

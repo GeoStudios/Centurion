@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.security.x509;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * CertException indicates one of a variety of certificate problems.
  *
@@ -79,6 +95,7 @@ public class CertException extends SecurityException {
     // Private data members
     private final int         verfCode;
     private String      moreData;
+
 
     /**
      * Constructs a certificate exception using an error code

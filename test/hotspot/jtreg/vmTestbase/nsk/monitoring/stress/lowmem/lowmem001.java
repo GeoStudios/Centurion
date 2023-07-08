@@ -21,6 +21,7 @@
 
 package nsk.monitoring.stress.lowmem;
 
+
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.lang.management.ManagementFactory;
@@ -38,6 +39,19 @@ import nsk.share.gc.gp.array.ByteArrayProducer;
 import nsk.share.gc.gp.classload.GeneratedClassProducer;
 import nsk.monitoring.share.*;
 import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class lowmem001 extends ThreadedGCTest {
 
@@ -136,6 +150,7 @@ public class lowmem001 extends ThreadedGCTest {
         final long chunkSize = 512;
         List storage;
         GarbageProducer gp = new ByteArrayProducer();
+
 
         @Override
         public void run() {

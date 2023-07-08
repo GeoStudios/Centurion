@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Classes implementing this interface have public getWindow method,
  * returning handle to the native window.

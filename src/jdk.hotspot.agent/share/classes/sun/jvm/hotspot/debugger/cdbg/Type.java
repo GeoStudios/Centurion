@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Models a C or C++ type. Symbols have an associated Type. */
 

@@ -21,6 +21,7 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.report;
 
+
 import java.io.*;
 import java.util.*;
 import java.text.DecimalFormat;
@@ -28,6 +29,20 @@ import java.text.SimpleDateFormat;
 import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultHolder;
 import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultSetHolder;
 import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.SingleResultSetHolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -37,11 +52,16 @@ import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.SingleResultSe
  * this sample code.
  */
 
+
 /**
  * HTMLSeriesReporter.java
  *
  * Show series data in graphical form.
  */
+
+
+
+
 
 public class HTMLSeriesReporter {
 

@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This interface <code>XSSimpleType</code> represents the simple type

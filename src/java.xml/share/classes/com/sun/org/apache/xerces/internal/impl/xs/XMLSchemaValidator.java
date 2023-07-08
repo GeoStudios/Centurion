@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
@@ -83,6 +84,20 @@ import java.util.*;
 import javax.xml.XMLConstants;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XML Schema validator. The validator implements a document
@@ -543,6 +558,7 @@ public class XMLSchemaValidator
     protected final XSDDescription fXSDDescription = new XSDDescription();
     protected final Map<String, XMLSchemaLoader.LocationArray> fLocationPairs = new HashMap<>();
 
+
     // handlers
 
     /** Document handler. */
@@ -998,6 +1014,10 @@ public class XMLSchemaValidator
     // DOMRevalidationHandler methods
     //
 
+
+
+
+
     public boolean characterData(String data, Augmentations augs) {
 
         fSawText = fSawText || data.length() > 0;
@@ -1373,6 +1393,7 @@ public class XMLSchemaValidator
      *                      SAXNotSupportedException.
      */
     public void reset(XMLComponentManager componentManager) throws XMLConfigurationException {
+
 
         fIdConstraint = false;
         //reset XSDDescription

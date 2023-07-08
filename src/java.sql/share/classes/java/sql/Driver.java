@@ -21,7 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
 import java.sql.share.classes.java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface that every driver class must implement.
@@ -100,6 +115,7 @@ public interface Driver {
      */
     boolean acceptsURL(String url) throws SQLException;
 
+
     /**
      * Gets information about the possible properties for this driver.
      * <P>
@@ -122,6 +138,7 @@ public interface Driver {
     DriverPropertyInfo[] getPropertyInfo(String url, java.util.Properties info)
                          throws SQLException;
 
+
     /**
      * Retrieves the driver's major version number. Initially this should be 1.
      *
@@ -134,6 +151,7 @@ public interface Driver {
      * @return this driver's minor version number
      */
     int getMinorVersion();
+
 
     /**
      * Reports whether this driver is a genuine JDBC

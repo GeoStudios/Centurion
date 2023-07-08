@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.reflect;
 
+
 import java.base.share.classes.java.lang.annotation.Annotation;
 import java.base.share.classes.java.lang.invoke.MethodHandle;
 import java.base.share.classes.java.lang.ref.WeakReference;
@@ -32,6 +33,20 @@ import jdk.internal.reflect.Reflection;
 import jdk.internal.reflect.ReflectionFactory;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AccessibleObject} class is the base class for {@code Field},
@@ -275,6 +290,7 @@ public class AccessibleObject implements AnnotatedElement {
             return false;
         }
     }
+
 
    /**
     * If the given AccessibleObject is a {@code Constructor}, {@code Method}

@@ -21,8 +21,22 @@
 
 package test.auctionportal;
 
+
 import org.w3c.dom.DOMErrorHandler;
 import org.w3c.dom.DOMError;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Error handler for recording DOM processing error.

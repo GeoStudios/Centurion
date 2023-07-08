@@ -21,6 +21,7 @@
 
 package nsk.jdi.IntegerArgument.max;
 
+
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -32,6 +33,19 @@ import com.sun.jdi.VirtualMachineManager;
 import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.Connector.IntegerArgument;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type <BR>
@@ -49,6 +63,7 @@ import com.sun.jdi.connect.Connector.IntegerArgument;
  * Otherwise, the test is passed and produces   <BR>
  * the return value 95 and no message.          <BR>
  */
+
 
 public class max001 {
 
@@ -69,6 +84,7 @@ public class max001 {
         String sErr2 =  "ERROR\n" +
                         "Method tested: " +
                         "jdi.Connector.IntegerArgument.max\n" ;
+
 
         VirtualMachineManager vmm = Bootstrap.virtualMachineManager();
 

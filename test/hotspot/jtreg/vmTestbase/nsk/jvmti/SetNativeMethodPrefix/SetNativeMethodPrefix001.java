@@ -21,8 +21,22 @@
 
 package nsk.jvmti.SetNativeMethodPrefix;
 
+
 import java.io.*;
 import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ============================================================================== */
 /* Quote from JVMTI specification v.1.1.102:
@@ -78,6 +92,7 @@ import nsk.share.Consts;
  *     native methods can be wrapped selectively.
  */
 /* ============================================================================== */
+
 
 /* ======================================================= */
 // Auxiliary classes for explicit method resolution
@@ -311,6 +326,7 @@ public class SetNativeMethodPrefix001 {
 
         out.println("\nExplicit resolution; SetMultiplePrefixes is used");
         if (!checkExplicitResolution(false)) { return false; }
+
 
         return true;
     }

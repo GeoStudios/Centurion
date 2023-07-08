@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.classesByName;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the classesbyname001 JDI test.
@@ -36,6 +50,7 @@ public class classesbyname001a {
     static final int PASSED = 0;
     static final int FAILED = 2;
     static final int PASS_BASE = 95;
+
 
      //--------------------------------------------------   log procedures
 
@@ -71,6 +86,7 @@ public class classesbyname001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -117,11 +133,14 @@ public class classesbyname001a {
                                 pipe.println("checkready");
                                 break ;
 
+
                 // not a fully qualified name
 
                 case 7:
                                 pipe.println("checkready");
                                 break ;
+
+
 
     //-------------------------------------------------    standard end section
 
@@ -141,6 +160,7 @@ public class classesbyname001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 class Class1ForCheck {
 

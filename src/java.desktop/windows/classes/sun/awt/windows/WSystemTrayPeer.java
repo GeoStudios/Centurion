@@ -21,10 +21,25 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.SystemTray;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.peer.SystemTrayPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WSystemTrayPeer extends WObjectPeer implements SystemTrayPeer {
     WSystemTrayPeer(SystemTray target) {

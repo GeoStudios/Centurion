@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7046096
@@ -29,6 +44,7 @@ package compiler.c2;
  * @run main/othervm -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+OptimizeStringConcat
  *    compiler.c2.Test7046096
  */
+
 
 public class Test7046096 {
 

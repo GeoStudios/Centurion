@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import java.awt.AWTEvent;
 import java.awt.Color;
 import java.awt.Component;
@@ -105,6 +106,20 @@ import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_OFF;.extended
 import static java.awt.geom.AffineTransform.TYPE_FLIP;.extended
 import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;.extended
 import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of utility methods for Swing.
@@ -320,6 +335,7 @@ public class SwingUtilities2 {
         return getFontMetrics(c, g, g.getFont());
     }
 
+
     /**
      * Returns the FontMetrics for the specified Font.
      * This method is used when a Graphics is available, typically when
@@ -348,6 +364,7 @@ public class SwingUtilities2 {
         }
         return Toolkit.getDefaultToolkit().getFontMetrics(font);
     }
+
 
     /**
      * Returns the width of the passed in String.
@@ -392,6 +409,7 @@ public class SwingUtilities2 {
         }
     }
 
+
     /**
      * Clips the passed in String to the space provided.
      *
@@ -413,6 +431,7 @@ public class SwingUtilities2 {
         }
         return string;
     }
+
 
     /**
      * Clips the passed in String to the space provided.  NOTE: this assumes
@@ -464,6 +483,7 @@ public class SwingUtilities2 {
         }
         return string + clipString;
     }
+
 
     /**
      * Draws the string at the specified location.
@@ -690,6 +710,7 @@ public class SwingUtilities2 {
         }
     }
 
+
     /**
      * A variation of locationToIndex() which only returns an index if the
      * Point is within the actual bounds of a list item (not just in the cell)
@@ -710,6 +731,7 @@ public class SwingUtilities2 {
         return index;
     }
 
+
     /**
      * Returns true if the given point is within the actual bounds of the
      * JList item at index (not just inside the cell).
@@ -729,6 +751,7 @@ public class SwingUtilities2 {
 
         return cellBounds.contains(point);
     }
+
 
     /**
      * Returns true if the given point is outside the preferredSize of the
@@ -1225,6 +1248,7 @@ public class SwingUtilities2 {
         return FontDesignMetrics.getMetrics(font, frc);
     }
 
+
     /* Get any FontRenderContext associated with a JComponent
      * - may return null
      */
@@ -1382,6 +1406,7 @@ public class SwingUtilities2 {
         private Font font;
         private FontRenderContext frc;
 
+
         public LSBCacheEntry(FontRenderContext frc, Font font) {
             lsbCache = new byte[MAX_CHAR_INDEX - MIN_CHAR_INDEX];
             reset(frc, font);
@@ -1420,6 +1445,7 @@ public class SwingUtilities2 {
                 lsbCache[index] = lsb;
             }
             return lsb;
+
 
         }
 

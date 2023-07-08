@@ -21,12 +21,27 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JPanel;
 import javax.swing.border.EtchedBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A convenience class for demos that use Custom Controls.  This class
@@ -37,11 +52,13 @@ import javax.swing.border.EtchedBorder;
 @SuppressWarnings("serial")
 public abstract class CustomControls extends JPanel implements Runnable {
 
+
     protected Thread thread;
     protected boolean doNotifier;
     private CCNotifierThread ccnt;
     private String name = "foo.bar Demo";
     private static final Color blue = new Color(204, 204, 255);
+
 
     public CustomControls() {
         setBorder(new EtchedBorder());
@@ -87,10 +104,12 @@ public abstract class CustomControls extends JPanel implements Runnable {
         thread = null;
     }
 
+
     // Custom Controls override the run method
     @Override
     public void run() {
     }
+
 
     /**
      * Notifier that the custom control thread is running.

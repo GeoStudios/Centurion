@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class may be used, e.g., to generate typed
@@ -51,17 +66,20 @@ public class InstructionFactory {
         this.cp = cp;
     }
 
+
     /** Initialize with ClassGen object
      */
     public InstructionFactory(final ClassGen cg) {
         this(cg, cg.getConstantPool());
     }
 
+
     /** Initialize just with ConstantPoolGen object
      */
     public InstructionFactory(final ConstantPoolGen cp) {
         this(null, cp);
     }
+
 
     /** Create an invoke instruction. (Except for invokedynamic.)
      *
@@ -164,6 +182,7 @@ public class InstructionFactory {
         return il;
     }
 
+
     /** Uses PUSH to push a constant value onto the stack.
      * @param value must be of type Number, Boolean, Character or String
      */
@@ -190,6 +209,7 @@ public class InstructionFactory {
         final String class_name;
         final String name;
 
+
         MethodObject(final String c, final String n, final Type r, final Type[] a) {
             class_name = c;
             name = n;
@@ -197,6 +217,7 @@ public class InstructionFactory {
             arg_types = a;
         }
     }
+
 
     private InvokeInstruction createInvoke( final MethodObject m, final short kind ) {
         return createInvoke(m.class_name, m.name, m.result_type, m.arg_types, kind);
@@ -239,10 +260,12 @@ public class InstructionFactory {
             })
     };
 
+
     private static boolean isString( final Type type ) {
         return (type instanceof ObjectType) &&
               ((ObjectType) type).getClassName().equals("java.lang.String");
     }
+
 
     public Instruction createAppend( final Type type ) {
         final byte t = type.getType();
@@ -266,6 +289,7 @@ public class InstructionFactory {
                 throw new IllegalArgumentException("No append for this type? " + type);
         }
     }
+
 
     /** Create a field instruction.
      *
@@ -294,11 +318,13 @@ public class InstructionFactory {
         }
     }
 
+
     /** Create reference to `this'
      */
     public static Instruction createThis() {
         return new ALOAD(0);
     }
+
 
     /** Create typed return
      */
@@ -325,6 +351,7 @@ public class InstructionFactory {
                 throw new IllegalArgumentException("Invalid type: " + type);
         }
     }
+
 
     private static ArithmeticInstruction createBinaryIntOp( final char first, final String op ) {
         switch (first) {
@@ -353,6 +380,7 @@ public class InstructionFactory {
         }
     }
 
+
     private static ArithmeticInstruction createBinaryLongOp( final char first, final String op ) {
         switch (first) {
             case '-':
@@ -380,6 +408,7 @@ public class InstructionFactory {
         }
     }
 
+
     private static ArithmeticInstruction createBinaryFloatOp( final char op ) {
         switch (op) {
             case '-':
@@ -397,6 +426,7 @@ public class InstructionFactory {
         }
     }
 
+
     private static ArithmeticInstruction createBinaryDoubleOp( final char op ) {
         switch (op) {
             case '-':
@@ -413,6 +443,7 @@ public class InstructionFactory {
                 throw new IllegalArgumentException("Invalid operand " + op);
         }
     }
+
 
     /**
      * Create binary operation for simple basic types, such as int and float.
@@ -438,12 +469,14 @@ public class InstructionFactory {
         }
     }
 
+
     /**
      * @param size size of operand, either 1 (int, e.g.) or 2 (double)
      */
     public static StackInstruction createPop( final int size ) {
         return (size == 2) ? InstructionConst.POP2 : InstructionConst.POP;
     }
+
 
     /**
      * @param size size of operand, either 1 (int, e.g.) or 2 (double)
@@ -452,6 +485,7 @@ public class InstructionFactory {
         return (size == 2) ? InstructionConst.DUP2 : InstructionConst.DUP;
     }
 
+
     /**
      * @param size size of operand, either 1 (int, e.g.) or 2 (double)
      */
@@ -459,12 +493,14 @@ public class InstructionFactory {
         return (size == 2) ? InstructionConst.DUP2_X2 : InstructionConst.DUP_X2;
     }
 
+
     /**
      * @param size size of operand, either 1 (int, e.g.) or 2 (double)
      */
     public static StackInstruction createDup_1( final int size ) {
         return (size == 2) ? InstructionConst.DUP2_X1 : InstructionConst.DUP_X1;
     }
+
 
     /**
      * @param index index of local variable
@@ -491,6 +527,7 @@ public class InstructionFactory {
         }
     }
 
+
     /**
      * @param index index of local variable
      */
@@ -515,6 +552,7 @@ public class InstructionFactory {
                 throw new IllegalArgumentException("Invalid type " + type);
         }
     }
+
 
     /**
      * @param type type of elements of array, i.e., array.getElementType()
@@ -543,6 +581,7 @@ public class InstructionFactory {
                 throw new IllegalArgumentException("Invalid type " + type);
         }
     }
+
 
     /**
      * @param type type of elements of array, i.e., array.getElementType()
@@ -604,21 +643,26 @@ public class InstructionFactory {
         }
     }
 
+
     public GETFIELD createGetField( final String class_name, final String name, final Type t ) {
         return new GETFIELD(cp.addFieldref(class_name, name, t.getSignature()));
     }
+
 
     public GETSTATIC createGetStatic( final String class_name, final String name, final Type t ) {
         return new GETSTATIC(cp.addFieldref(class_name, name, t.getSignature()));
     }
 
+
     public PUTFIELD createPutField( final String class_name, final String name, final Type t ) {
         return new PUTFIELD(cp.addFieldref(class_name, name, t.getSignature()));
     }
 
+
     public PUTSTATIC createPutStatic( final String class_name, final String name, final Type t ) {
         return new PUTSTATIC(cp.addFieldref(class_name, name, t.getSignature()));
     }
+
 
     public CHECKCAST createCheckCast( final ReferenceType t ) {
         if (t instanceof ArrayType) {
@@ -627,6 +671,7 @@ public class InstructionFactory {
         return new CHECKCAST(cp.addClass((ObjectType) t));
     }
 
+
     public INSTANCEOF createInstanceOf( final ReferenceType t ) {
         if (t instanceof ArrayType) {
             return new INSTANCEOF(cp.addArrayClass((ArrayType) t));
@@ -634,9 +679,11 @@ public class InstructionFactory {
         return new INSTANCEOF(cp.addClass((ObjectType) t));
     }
 
+
     public NEW createNew( final ObjectType t ) {
         return new NEW(cp.addClass(t));
     }
+
 
     public NEW createNew( final String s ) {
         return createNew(ObjectType.getInstance(s));
@@ -746,17 +793,21 @@ public class InstructionFactory {
         }
     }
 
+
     public void setClassGen( final ClassGen c ) {
         cg = c;
     }
+
 
     public ClassGen getClassGen() {
         return cg;
     }
 
+
     public void setConstantPool( final ConstantPoolGen c ) {
         cp = c;
     }
+
 
     public ConstantPoolGen getConstantPool() {
         return cp;

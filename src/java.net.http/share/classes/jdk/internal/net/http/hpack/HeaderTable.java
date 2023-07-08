@@ -21,11 +21,26 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
+
 import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Adds reverse lookup to SimpleHeaderTable. Separated from SimpleHeaderTable

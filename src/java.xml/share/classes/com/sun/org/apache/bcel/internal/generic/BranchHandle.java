@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * BranchHandle is returned by specialized InstructionList.append() whenever a
@@ -42,6 +59,7 @@ public final class BranchHandle extends InstructionHandle {
     // See BCEL-273
     private BranchInstruction bi; // An alias in fact, but saves lots of casts
 
+
     private BranchHandle(final BranchInstruction i) {
         super(i);
         bi = i;
@@ -53,6 +71,7 @@ public final class BranchHandle extends InstructionHandle {
         return new BranchHandle(i);
     }
 
+
     /* Override InstructionHandle methods: delegate to branch instruction.
      * Through this overriding all access to the private i_position field should
      * be prevented.
@@ -62,12 +81,14 @@ public final class BranchHandle extends InstructionHandle {
         return bi.getPosition();
     }
 
+
     @Override
     void setPosition( final int pos ) {
         // Original code: i_position = bi.position = pos;
         bi.setPosition(pos);
         super.setPosition(pos);
     }
+
 
     @Override
     protected int updatePosition( final int offset, final int max_offset ) {
@@ -76,12 +97,14 @@ public final class BranchHandle extends InstructionHandle {
         return x;
     }
 
+
     /**
      * Pass new target to instruction.
      */
     public void setTarget( final InstructionHandle ih ) {
         bi.setTarget(ih);
     }
+
 
     /**
      * Update target of instruction.
@@ -90,12 +113,14 @@ public final class BranchHandle extends InstructionHandle {
         bi.updateTarget(old_ih, new_ih);
     }
 
+
     /**
      * @return target of instruction.
      */
     public InstructionHandle getTarget() {
         return bi.getTarget();
     }
+
 
     /**
      * Set new contents. Old instruction is disposed and may not be used anymore.

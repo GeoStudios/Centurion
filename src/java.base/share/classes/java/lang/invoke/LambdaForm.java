@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import jdk.internal.perf.PerfCounter;
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.Hidden;
@@ -36,6 +37,20 @@ import java.base.share.classes.java.util.HashMap;
 import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The symbolic, non-executable form of a method handle's invocation semantics.

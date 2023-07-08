@@ -21,6 +21,7 @@
 
 package failureAtomicity;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -48,6 +49,19 @@ import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
 import jdk.test.lib.util.FileUtils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8071474
@@ -59,6 +73,8 @@ import jdk.test.lib.util.FileUtils;
  * @compile FailureAtomicity.java SerialRef.java
  * @run main failureAtomicity.FailureAtomicity
  */
+
+
 
 @SuppressWarnings("unchecked")
 public class FailureAtomicity {

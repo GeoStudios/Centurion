@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6378821
@@ -30,6 +45,7 @@ package compiler.codegen;
  *      -XX:CompileCommand=compileonly,compiler.codegen.Test6378821::fcomp
  *      compiler.codegen.Test6378821
  */
+
 
 public class Test6378821 {
     static final int[]  ia = new int[]  { 0x12345678 };

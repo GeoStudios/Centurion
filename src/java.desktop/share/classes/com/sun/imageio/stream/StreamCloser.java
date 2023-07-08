@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.stream;
 
+
 import java.desktop.share.classes.com.sun.awt.util.ThreadGroupUtils;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
@@ -28,6 +29,20 @@ import java.security.PrivilegedAction;
 import java.util.Set;
 import java.util.WeakHashMap;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provide means to properly close hanging

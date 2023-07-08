@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -35,6 +36,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *This class wraps another SerializationHandler. The wrapped object will either
@@ -808,6 +823,8 @@ public final class ToUnknownStream extends SerializerBase
     {
         m_handler.skippedEntity(name);
     }
+
+
 
     /**
      * Pass the call on to the underlying handler

@@ -21,7 +21,22 @@
 
 package jdk.localedata.share.classes.sun.text.resources.ext;
 
+
 import jdk.localedata.share.classes.sun.util.resources.Paralleljava.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FormatData_id_ID extends ParallelListResourceBundle {
     protected final Object[][] getContents() {

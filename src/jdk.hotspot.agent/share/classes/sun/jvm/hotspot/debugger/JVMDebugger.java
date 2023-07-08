@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** An extension of the Debugger interface which can be configured
     with Java type sizes to allow the sizes of primitive Java types to
     be read from the remote JVM. */

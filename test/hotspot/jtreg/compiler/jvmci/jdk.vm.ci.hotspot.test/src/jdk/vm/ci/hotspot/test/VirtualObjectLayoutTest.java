@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.hotspot.test;
 
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import jdk.vm.ci.code.VirtualObject;
@@ -30,6 +31,19 @@ import jdk.vm.ci.hotspot.HotSpotCompiledCode;
 import jdk.vm.ci.meta.JavaKind;
 import jdk.vm.ci.meta.JavaValue;
 import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -45,6 +59,9 @@ import jdk.vm.ci.meta.ResolvedJavaType;
  *      -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler
  *      jdk.vm.ci.hotspot.test.VirtualObjectLayoutTest
  */
+
+
+
 
 public class VirtualObjectLayoutTest extends VirtualObjectTestBase {
 

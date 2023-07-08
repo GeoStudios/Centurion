@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.Panel;
 import java.awt.peer.PanelPeer;
 import javax.swing.JPanel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link PanelPeer}. Delegates most of the work

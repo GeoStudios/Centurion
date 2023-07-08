@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and represents a reference
@@ -43,6 +61,7 @@ public final class SourceFile extends Attribute {
 
     private int sourceFileIndex;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -50,6 +69,7 @@ public final class SourceFile extends Attribute {
     public SourceFile(final SourceFile c) {
         this(c.getNameIndex(), c.getLength(), c.getSourceFileIndex(), c.getConstantPool());
     }
+
 
     /**
      * Construct object from input stream.
@@ -63,6 +83,7 @@ public final class SourceFile extends Attribute {
             throws IOException {
         this(name_index, length, input.readUnsignedShort(), constant_pool);
     }
+
 
     /**
      * @param name_index Index in constant pool to CONSTANT_Utf8, which
@@ -82,6 +103,7 @@ public final class SourceFile extends Attribute {
         this.sourceFileIndex = sourceFileIndex;
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -93,6 +115,7 @@ public final class SourceFile extends Attribute {
     public void accept( final Visitor v ) {
         v.visitSourceFile(this);
     }
+
 
     /**
      * Dump source file attribute to file stream in binary format.
@@ -106,6 +129,7 @@ public final class SourceFile extends Attribute {
         file.writeShort(sourceFileIndex);
     }
 
+
     /**
      * @return Index in constant pool of source file name.
      */
@@ -113,12 +137,14 @@ public final class SourceFile extends Attribute {
         return sourceFileIndex;
     }
 
+
     /**
      * @param sourceFileIndex
      */
     public void setSourceFileIndex( final int sourceFileIndex ) {
         this.sourceFileIndex = sourceFileIndex;
     }
+
 
     /**
      * @return Source file name.
@@ -129,6 +155,7 @@ public final class SourceFile extends Attribute {
         return c.getBytes();
     }
 
+
     /**
      * @return String representation
      */
@@ -136,6 +163,7 @@ public final class SourceFile extends Attribute {
     public String toString() {
         return "SourceFile: " + getSourceFileName();
     }
+
 
     /**
      * @return deep copy of this attribute

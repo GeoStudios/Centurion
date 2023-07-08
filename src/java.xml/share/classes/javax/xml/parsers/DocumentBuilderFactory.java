@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.javax.xml.parsers;
 
+
 import com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl;
 import java.xml.share.classes.javax.xml.validation.Schema;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines a factory API that enables applications to obtain a
@@ -222,6 +237,7 @@ public abstract class DocumentBuilderFactory {
 
     public abstract DocumentBuilder newDocumentBuilder()
         throws ParserConfigurationException;
+
 
     /**
      * Specifies that the parser produced by this code will
@@ -505,6 +521,7 @@ public abstract class DocumentBuilderFactory {
     public abstract boolean getFeature(String name)
             throws ParserConfigurationException;
 
+
     /**
      * Gets the {@link Schema} object specified through
      * the {@link #setSchema(Schema schema)} method.
@@ -594,6 +611,8 @@ public abstract class DocumentBuilderFactory {
             + "\""
             );
     }
+
+
 
     /**
      * Set state of XInclude processing.

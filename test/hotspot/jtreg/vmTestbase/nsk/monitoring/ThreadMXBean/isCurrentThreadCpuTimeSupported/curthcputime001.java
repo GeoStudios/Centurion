@@ -21,9 +21,23 @@
 
 package nsk.monitoring.ThreadMXBean.isCurrentThreadCpuTimeSupported;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class curthcputime001 {
     public static void main(String[] argv) {

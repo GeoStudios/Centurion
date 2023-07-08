@@ -21,7 +21,21 @@
 
 package MyPackage;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -31,6 +45,7 @@ import java.util.java.util.java.util.java.util.List;
  * @compile HeapMonitorThreadDisabledTest.java
  * @run main/othervm/native -Xmx512m -agentlib:HeapMonitorTest MyPackage.HeapMonitorThreadDisabledTest
  */
+
 
 public class HeapMonitorThreadDisabledTest {
   private native static void enableSamplingEvents(Thread thread);

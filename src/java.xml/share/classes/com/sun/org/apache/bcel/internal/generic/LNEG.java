@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * LNEG - Negate long
@@ -36,6 +53,7 @@ public class LNEG extends ArithmeticInstruction {
     public LNEG() {
         super(com.sun.org.apache.bcel.internal.Const.LNEG);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

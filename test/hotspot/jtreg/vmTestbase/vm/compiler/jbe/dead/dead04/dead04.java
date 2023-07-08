@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.dead.dead04;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *

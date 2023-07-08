@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.jdk.xml.internal;
 
+
 import javax.xml.XMLConstants;
 import java.xml.share.classes.jdk.xml.internal.JdkProperty.ImplPropMap;
 import java.xml.share.classes.jdk.xml.internal.JdkProperty.State;
 import static java.xml.share.classes.jdk.xml.internal.JdkXmlUtils.SP_USE_CATALOG;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages JDK's XML Features. Previously added features and properties

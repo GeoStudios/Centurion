@@ -21,6 +21,21 @@
 
 package nsk.jvmti.ClassFileLoadHook;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Redefined tested class with new methods implementation. */
 public class classfloadhk008r {
     static long staticField = 0;

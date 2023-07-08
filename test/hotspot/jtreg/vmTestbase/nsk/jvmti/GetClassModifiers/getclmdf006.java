@@ -21,8 +21,22 @@
 
 package nsk.jvmti.GetClassModifiers;
 
+
 import java.io.PrintStream;
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getclmdf006 {
 

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The PersistenceDelegate class takes the responsibility
  * for expressing the state of an instance of a given class

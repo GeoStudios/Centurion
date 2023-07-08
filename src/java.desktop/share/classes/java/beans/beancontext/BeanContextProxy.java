@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>
  * This interface is implemented by a JavaBean that does

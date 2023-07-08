@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import java.awt.event.MouseEvent;
 import java.awt.event.Mousejava.util.Listener;
 import java.util.Vector;
@@ -32,7 +33,22 @@ import javax.swing.table.JTableHeader;
 import javax.swing.table.TableColumnModel;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Imports for picking up mouse events from the JTable.
+
 
 @SuppressWarnings("serial")
 public class TableSorter extends DefaultTableModel implements MouseListener {

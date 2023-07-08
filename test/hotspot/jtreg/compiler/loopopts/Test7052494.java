@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7052494
@@ -28,6 +43,7 @@ package compiler.loopopts;
  *
  * @run main/othervm -Xbatch compiler.loopopts.Test7052494
  */
+
 
 public class Test7052494 {
 

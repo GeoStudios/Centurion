@@ -21,10 +21,24 @@
 
 package nsk.stress.strace;
 
+
 import nsk.share.ArgumentParser;
 import nsk.share.Failure;
 import nsk.share.Log;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -112,6 +126,9 @@ import java.io.PrintStream;
  * @run main/othervm/native nsk.stress.strace.strace005
  */
 
+
+
+
 /**
  * The test checks up <code>java.lang.Thread.getStackTrace()</code> method for many threads,
  * that recursively invoke pure java and native methods by turns in running mode
@@ -139,6 +156,7 @@ public class strace005 {
             "nsk.stress.strace.strace005Thread.recursiveMethod1",
             "nsk.stress.strace.strace005Thread.recursiveMethod2"
     };
+
 
     static volatile boolean isLocked = false;
     static PrintStream out;

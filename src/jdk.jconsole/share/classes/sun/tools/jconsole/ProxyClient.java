@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import com.sun.management.HotSpotDiagnosticMXBean;
 import com.sun.tools.jconsole.JConsoleContext;
 import java.beans.PropertyChangejava.util.Listener;
@@ -41,6 +42,20 @@ import javax.rmi.ssl.SslRMIClientjava.net.SocketFactory;
 import javax.swing.event.SwingPropertyChangeSupport;
 import jdk.jconsole.share.classes.sun.rmi.server.UnicastRef2;
 import jdk.jconsole.share.classes.sun.rmi.transport.LiveRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ProxyClient implements JConsoleContext {
 
@@ -763,6 +778,7 @@ public class ProxyClient implements JConsoleContext {
         }
         return runtimeMBean;
     }
+
 
     public synchronized ThreadMXBean getThreadMXBean() throws IOException {
         if (hasPlatformMXBeans && threadMBean == null) {

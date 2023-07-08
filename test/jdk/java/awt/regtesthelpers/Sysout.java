@@ -21,7 +21,21 @@
 
 package test.java.awt.regtesthelpers;
 
+
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
    This class creates a dialog (with the instructions) and is the interface
@@ -35,6 +49,7 @@ import java.awt.*;
    as standalone.
    @build TestDialog
  */
+
 
 public final class Sysout
 {
@@ -67,10 +82,12 @@ public final class Sysout
         createDialogWithInstructions(defInstr);
     }
 
+
     public static void printInstructions( String[] instructions )
     {
         dialog.printInstructions( instructions );
     }
+
 
     public static void println( String messageIn )
     {

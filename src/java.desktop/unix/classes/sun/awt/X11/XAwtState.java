@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Component;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a placeholder for all internal static objects that represent
@@ -31,6 +46,8 @@ import java.lang.ref.WeakReference;
  * All attributes should be private static with accessors to simpify change
  * tracking.
  */
+
+
 
 class XAwtState {
     /**

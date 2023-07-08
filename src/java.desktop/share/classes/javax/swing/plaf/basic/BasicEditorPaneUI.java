@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -31,6 +32,20 @@ import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.text.html.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.border.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the look and feel for a JEditorPane.
@@ -188,6 +203,7 @@ public class BasicEditorPaneUI extends BasicTextUI {
                     modelChanged();
                 }
             }
+
 
         }
     }

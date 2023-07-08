@@ -21,11 +21,26 @@
 
 package java.desktop.macosx.classes.apple.laf;
 
+
 import java.security.AccessController;
 import java.desktop.macosx.classes.apple.laf.JRSUIConstants.Hit;
 import java.desktop.macosx.classes.apple.laf.JRSUIConstants.ScrollBarPart;
 import com.apple.laf.AquaImageFactory.NineSliceMetrics;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JRSUIUtils {
 

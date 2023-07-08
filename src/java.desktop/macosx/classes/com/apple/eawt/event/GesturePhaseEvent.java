@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Event indicating the user has started or stopped a continuous gesture.
  *

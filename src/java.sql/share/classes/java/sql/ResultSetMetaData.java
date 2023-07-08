@@ -21,6 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An object that can be used to get information about the types
  * and properties of the columns in a {@code ResultSet} object.

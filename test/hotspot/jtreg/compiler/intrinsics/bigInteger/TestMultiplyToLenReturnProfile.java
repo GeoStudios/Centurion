@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.bigInteger;
 
+
 import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,8 @@ import java.math.BigInteger;
  *      -XX:TypeProfileLevel=222
  *      compiler.intrinsics.bigInteger.TestMultiplyToLenReturnProfile
  */
+
+
 
 public class TestMultiplyToLenReturnProfile {
 

@@ -21,11 +21,26 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
+
 import java.util.HashMap;
 import javax.security.auth.login.AppConfigurationEntry;
 import javax.security.auth.login.Configuration;
 import org.ietf.jgss.Oid;
 import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Configuration implementation especially designed for JGSS.
@@ -47,6 +62,7 @@ public class LoginConfigImpl extends Configuration {
         //HTTP_USE_GLOBAL_CREDS = "true".equalsIgnoreCase(prop); // default false
         HTTP_USE_GLOBAL_CREDS = !"false".equalsIgnoreCase(prop); // default true
     }
+
 
     /**
      * A new instance of LoginConfigImpl must be created for each login request

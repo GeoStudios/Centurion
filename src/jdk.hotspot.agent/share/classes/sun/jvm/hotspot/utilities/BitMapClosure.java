@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface BitMapClosure {
   /** Called when specified bit in map is set */
   void doBit(int offset);

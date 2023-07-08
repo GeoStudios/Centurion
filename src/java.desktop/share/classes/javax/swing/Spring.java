@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  An instance of the <code>Spring</code> class holds three properties that
@@ -540,6 +555,7 @@ public abstract class Spring {
          return new StaticSpring(min, pref, max);
      }
 
+
     /**
      * Returns {@code -s}: a spring running in the opposite direction to {@code s}.
      *
@@ -675,6 +691,7 @@ public abstract class Spring {
         checkArg(c);
         return new HeightSpring(c);
     }
+
 
     /**
      * If <code>s</code> is null, this throws an NullPointerException.

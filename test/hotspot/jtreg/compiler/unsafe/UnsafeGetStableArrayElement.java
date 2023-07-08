@@ -21,6 +21,7 @@
 
 package compiler.unsafe;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.internal.vm.annotation.Stable;
 import jdk.test.lib.Platform;
@@ -29,6 +30,19 @@ import static jdk.internal.misc.Unsafe.*;.extended
 import static jdk.test.lib.Asserts.assertEQ;.extended
 import static jdk.test.lib.Asserts.assertNE;.extended
 import sun.hotspot.code.Compiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -48,6 +62,11 @@ import sun.hotspot.code.Compiler;
  *                   -XX:CompileCommand=dontinline,*Test::test*
  *                   compiler.unsafe.UnsafeGetStableArrayElement
  */
+
+
+
+
+
 
 public class UnsafeGetStableArrayElement {
     @Stable static final boolean[] STABLE_BOOLEAN_ARRAY = new boolean[16];

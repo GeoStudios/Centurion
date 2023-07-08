@@ -21,7 +21,21 @@
 
 package jit.t.t044;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.t.t044.t044
  */
+
+
 
 // Call interferes with one lazy load but not the other.
 

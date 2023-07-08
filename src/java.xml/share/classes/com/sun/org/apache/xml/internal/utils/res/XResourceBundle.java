@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils.res;
 
+
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.java.util.ListResourceBundle;
@@ -28,10 +29,26 @@ import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * The default (english) resource bundle.
@@ -55,6 +72,7 @@ public class XResourceBundle extends ListResourceBundle {
             "multiplier", LANG_MULTIPLIER_CHAR =
             "multiplierChar", LANG_NUMBERGROUPS = "numberGroups", LANG_NUM_TABLES =
             "tables", LANG_ALPHABET = "alphabet", LANG_TRAD_ALPHABET = "tradAlphabet";
+
 
     /**
      * Get the association list.

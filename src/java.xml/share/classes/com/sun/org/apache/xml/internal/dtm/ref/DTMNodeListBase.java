@@ -21,12 +21,28 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * <code>DTMNodeList</code> gives us an implementation of the DOM's

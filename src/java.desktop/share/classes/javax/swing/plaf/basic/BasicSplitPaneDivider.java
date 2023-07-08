@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.border.Border;
 import java.beans.*;
 import sun.swing.DefaultLookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Divider used by BasicSplitPaneUI. Subclassers may wish to override
@@ -127,6 +142,7 @@ public class BasicSplitPaneDivider extends Container
      */
     private final boolean centerOneTouchButtons;
 
+
     /**
      * Creates an instance of {@code BasicSplitPaneDivider}. Registers this
      * instance for mouse events and mouse dragged events.
@@ -192,6 +208,7 @@ public class BasicSplitPaneDivider extends Container
         }
     }
 
+
     /**
      * Returns the {@code SplitPaneUI} the receiver is currently in.
      *
@@ -200,6 +217,7 @@ public class BasicSplitPaneDivider extends Container
     public BasicSplitPaneUI getBasicSplitPaneUI() {
         return splitPaneUI;
     }
+
 
     /**
      * Sets the size of the divider to {@code newSize}. That is
@@ -212,6 +230,7 @@ public class BasicSplitPaneDivider extends Container
         dividerSize = newSize;
     }
 
+
     /**
      * Returns the size of the divider, that is the width if the splitpane
      * is HORIZONTAL_SPLIT, or the height of VERTICAL_SPLIT.
@@ -221,6 +240,7 @@ public class BasicSplitPaneDivider extends Container
     public int getDividerSize() {
         return dividerSize;
     }
+
 
     /**
      * Sets the border of this component.
@@ -315,6 +335,7 @@ public class BasicSplitPaneDivider extends Container
         return getPreferredSize();
     }
 
+
     /**
      * Property change event, presumably from the JSplitPane, will message
      * updateOrientation if necessary.
@@ -335,6 +356,7 @@ public class BasicSplitPaneDivider extends Container
         }
     }
 
+
     /**
      * Paints the divider.
      */
@@ -350,6 +372,7 @@ public class BasicSplitPaneDivider extends Container
           border.paintBorder(this, g, 0, 0, size.width, size.height);
       }
     }
+
 
     /**
      * Messaged when the oneTouchExpandable value of the JSplitPane the
@@ -372,6 +395,7 @@ public class BasicSplitPaneDivider extends Container
             if (leftButton != null)
                 leftButton.addActionListener(new OneTouchActionHandler(true));
 
+
             /* Create the right button and add an action listener to
                expand/collapse it. */
             rightButton = createRightOneTouchButton();
@@ -386,6 +410,7 @@ public class BasicSplitPaneDivider extends Container
         }
         revalidateSplitPane();
     }
+
 
     /**
      * Creates and return an instance of {@code JButton} that can be used to
@@ -445,6 +470,7 @@ public class BasicSplitPaneDivider extends Container
         return b;
     }
 
+
     /**
      * Creates and return an instance of {@code JButton} that can be used to
      * collapse the right component in the split pane.
@@ -501,6 +527,7 @@ public class BasicSplitPaneDivider extends Container
         return b;
     }
 
+
     /**
      * Message to prepare for dragging. This messages the BasicSplitPaneUI
      * with startDragging.
@@ -508,6 +535,7 @@ public class BasicSplitPaneDivider extends Container
     protected void prepareForDragging() {
         splitPaneUI.startDragging();
     }
+
 
     /**
      * Messages the BasicSplitPaneUI with dragDividerTo that this instance
@@ -519,6 +547,7 @@ public class BasicSplitPaneDivider extends Container
         splitPaneUI.dragDividerTo(location);
     }
 
+
     /**
      * Messages the BasicSplitPaneUI with finishDraggingTo that this instance
      * is contained in.
@@ -528,6 +557,7 @@ public class BasicSplitPaneDivider extends Container
     protected void finishDraggingTo(int location) {
         splitPaneUI.finishDraggingTo(location);
     }
+
 
     /**
      * MouseHandler is responsible for converting mouse events
@@ -585,6 +615,7 @@ public class BasicSplitPaneDivider extends Container
             }
         }
 
+
         /**
          * If dragger is not null it is messaged with completeDrag.
          */
@@ -610,6 +641,7 @@ public class BasicSplitPaneDivider extends Container
                 e.consume();
             }
         }
+
 
         //
         // MouseMotionListener
@@ -640,6 +672,7 @@ public class BasicSplitPaneDivider extends Container
             }
         }
 
+
         /**
          *  Resets the cursor based on the orientation.
          */
@@ -668,6 +701,7 @@ public class BasicSplitPaneDivider extends Container
             }
         }
     }
+
 
     /**
      * Handles the events during a dragging session for a
@@ -753,6 +787,7 @@ public class BasicSplitPaneDivider extends Container
             }
         }
 
+
         /**
          * Returns {@code true} if the dragging session is valid.
          *
@@ -761,6 +796,7 @@ public class BasicSplitPaneDivider extends Container
         protected boolean isValid() {
             return (maxX > 0);
         }
+
 
         /**
          * Returns the new position to put the divider at based on
@@ -776,6 +812,7 @@ public class BasicSplitPaneDivider extends Container
             newX = Math.min(maxX, Math.max(minX, newX - offset));
             return newX;
         }
+
 
         /**
          * Returns the x argument, since this is used for horizontal
@@ -803,6 +840,7 @@ public class BasicSplitPaneDivider extends Container
             dragDividerTo(getNeededLocation(newX, newY));
         }
 
+
         /**
          * Messages dragDividerTo with the new location for the mouse
          * event.
@@ -824,6 +862,7 @@ public class BasicSplitPaneDivider extends Container
             finishDraggingTo(getNeededLocation(x, y));
         }
 
+
         /**
          * Messages finishDraggingTo with the new location for the mouse
          * event.
@@ -834,6 +873,7 @@ public class BasicSplitPaneDivider extends Container
             finishDraggingTo(positionForMouseEvent(e));
         }
     } // End of BasicSplitPaneDivider.DragController
+
 
     /**
      * Handles the events during a dragging session for a
@@ -898,6 +938,7 @@ public class BasicSplitPaneDivider extends Container
             }
         }
 
+
         /**
          * Returns the y argument, since this is used for vertical
          * splits.
@@ -909,6 +950,7 @@ public class BasicSplitPaneDivider extends Container
             return newY;
         }
 
+
         /**
          * Returns the new position to put the divider at based on
          * the passed in MouseEvent.
@@ -917,10 +959,12 @@ public class BasicSplitPaneDivider extends Container
             int newY = (e.getSource() == BasicSplitPaneDivider.this) ?
                         (e.getY() + getLocation().y) : e.getY();
 
+
             newY = Math.min(maxX, Math.max(minX, newY - offset));
             return newY;
         }
     } // End of BasicSplitPaneDividier.VerticalDragController
+
 
     /**
      * Used to layout a <code>BasicSplitPaneDivider</code>.
@@ -994,6 +1038,7 @@ public class BasicSplitPaneDivider extends Container
             }
         }
 
+
         public Dimension minimumLayoutSize(Container c) {
             // NOTE: This isn't really used, refer to
             // BasicSplitPaneDivider.getPreferredSize for the reason.
@@ -1034,14 +1079,17 @@ public class BasicSplitPaneDivider extends Container
             return new Dimension(width, height);
         }
 
+
         public Dimension preferredLayoutSize(Container c) {
             return minimumLayoutSize(c);
         }
+
 
         public void removeLayoutComponent(Component c) {}
 
         public void addLayoutComponent(String string, Component c) {}
     } // End of class BasicSplitPaneDivider.DividerLayout
+
 
     /**
      * Listeners installed on the one touch expandable buttons.

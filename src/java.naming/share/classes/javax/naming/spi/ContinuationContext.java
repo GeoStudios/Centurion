@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
+
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class is for dealing with federations/continuations.
@@ -110,6 +125,7 @@ class ContinuationContext implements Context, Resolver {
         Context ctx = getTargetContext();
         return ctx.list(name);
     }
+
 
     public NamingEnumeration<Binding> listBindings(Name name)
         throws NamingException

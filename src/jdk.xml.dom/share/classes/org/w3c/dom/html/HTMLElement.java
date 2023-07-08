@@ -21,7 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
 import jdk.xml.dom.share.classes.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  All HTML element interfaces derive from this class. Elements that only

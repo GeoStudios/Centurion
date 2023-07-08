@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.ObjectVector;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the data structure basics of the XPath
@@ -158,6 +173,7 @@ public class OpMap
     m_opMap.setElementAt(0,n);
     m_opMap.setElementAt(0,n+1);
     m_opMap.setElementAt(0,n+2);
+
 
     n = m_tokenQueue.size();
     m_tokenQueue.setToSize(n + 4);
@@ -318,8 +334,10 @@ public class OpMap
 
     java.lang.String fmsg = com.sun.org.apache.xalan.internal.res.XSLMessages.createXPATHMessage(msg, args);
 
+
     throw new javax.xml.transform.TransformerException(fmsg);
   }
+
 
   /**
    * Go to the first child of a given operation.

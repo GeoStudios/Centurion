@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMLocator;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * <code>DOMLocatorImpl</code> is an implementaion that describes a location (e.g.
@@ -115,6 +133,7 @@ public class DOMLocatorImpl implements DOMLocator {
         fUtf16Offset = utf16Offset;
    } // DOMLocatorImpl (int lineNumber, int columnNumber, int offset, Node errorNode, String uri )
 
+
   /**
    * The line number where the error occured, or -1 if there is no line
    * number available.
@@ -131,6 +150,7 @@ public class DOMLocatorImpl implements DOMLocator {
         return fColumnNumber;
   }
 
+
   /**
    * The URI where the error occured, or null if there is no URI available.
    */
@@ -138,9 +158,11 @@ public class DOMLocatorImpl implements DOMLocator {
         return fUri;
   }
 
+
   public Node getRelatedNode(){
     return fRelatedNode;
   }
+
 
   /**
    * The byte offset into the input source this locator is pointing to or -1

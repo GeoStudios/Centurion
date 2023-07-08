@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyVetoException;
@@ -28,6 +29,20 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicDesktopPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaInternalFramePaneUI extends BasicDesktopPaneUI implements MouseListener {
 

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.unit.events.redefineCFLH;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JvmtiTest {
     static final int PASSED = 0;

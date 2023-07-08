@@ -21,10 +21,24 @@
 
 package compiler.codecache.stress;
 
+
 import sun.hotspot.code.BlobType;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test RandomAllocationTest
@@ -47,6 +61,9 @@ import jdk.test.lib.Utils;
  *                   -XX:+SegmentedCodeCache
  *                   compiler.codecache.stress.RandomAllocationTest
  */
+
+
+
 
 public class RandomAllocationTest implements Runnable {
     private static final long CODE_CACHE_SIZE

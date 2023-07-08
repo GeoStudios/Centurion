@@ -21,8 +21,23 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaConstant;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a field in a HotSpot type.

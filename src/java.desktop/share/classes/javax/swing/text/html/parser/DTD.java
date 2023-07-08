@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
+
 import sun.awt.AppContext;
 import java.io.PrintStream;
 import java.io.File;
@@ -37,6 +38,20 @@ import java.util.StringTokenizer;
 import java.util.Enumeration;
 import java.util.Properties;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The representation of an SGML DTD.  DTD describes a document
@@ -463,6 +478,7 @@ class DTD implements DTDConstants {
             names[i] = in.readUTF();
         }
 
+
         //
         // Read the entities
         //
@@ -526,6 +542,7 @@ class DTD implements DTDConstants {
         }
         return result;
     }
+
 
     private AttributeList readAttributeList(DataInputStream in, String[] names)
                 throws IOException  {

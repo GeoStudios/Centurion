@@ -21,8 +21,23 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.expr;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -31,6 +46,10 @@ import java.util.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 abstract class LValue {
 
@@ -223,6 +242,7 @@ abstract class LValue {
         primitiveTypeNames.add("double");
     }
 
+
     static final int SAME = 0;
     static final int ASSIGNABLE = 1;
     static final int DIFFERENT = 2;
@@ -269,6 +289,7 @@ abstract class LValue {
         }
         return result;
     }
+
 
     // These is...AssignableTo methods are based on similar code in the JDI
     // implementations of ClassType, ArrayType, and InterfaceType
@@ -812,6 +833,7 @@ abstract class LValue {
                                      className);
         }
         ReferenceType refType = classes.get(0);
+
 
         if (!(refType instanceof ClassType classType)) {
             throw new ParseException("Cannot create instance of interface " +

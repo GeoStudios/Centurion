@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.math;
 
+
 import static java.base.share.classes.java.math.BigDecimal.INFLATED;.extended
 import static java.base.share.classes.java.math.BigInteger.LONG_MASK;.extended
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class used to represent multiprecision integers that makes efficient
@@ -38,6 +53,7 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
  *
  * @see     BigInteger
  */
+
 
 class MutableBigInteger {
     /**
@@ -1522,6 +1538,7 @@ class MutableBigInteger {
         quotient.intLen = limit;
         int[] q = quotient.value;
 
+
         // Must insert leading 0 in rem if its length did not change
         if (rem.intLen == nlen) {
             rem.offset = 0;
@@ -1636,6 +1653,7 @@ class MutableBigInteger {
                 }
             }
 
+
             // D4 Multiply and subtract
             int borrow;
             rem.value[limit - 1 + rem.offset] = 0;
@@ -1655,6 +1673,7 @@ class MutableBigInteger {
             // Store the quotient digit
             q[(limit - 1)] = qhat;
         }
+
 
         if (needRemainder) {
             // D8 Unnormalize

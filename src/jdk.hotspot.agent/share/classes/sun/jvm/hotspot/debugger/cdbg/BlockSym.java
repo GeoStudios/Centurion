@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A BlockSym models a lexical scope in a block-structured
     language. It is (currently) the bottommost scope type. */

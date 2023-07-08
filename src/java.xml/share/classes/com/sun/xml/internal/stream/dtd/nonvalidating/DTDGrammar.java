@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
@@ -36,6 +37,20 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A DTD grammar. This class implements the XNI handler interfaces
  * for DTD information so that it can build the approprate validation
@@ -44,6 +59,7 @@ import java.util.Map;
  *
  */
 public class DTDGrammar {
+
 
     /** Top level scope (-1). */
     public static final int TOP_LEVEL_SCOPE = -1;
@@ -107,6 +123,7 @@ public class DTDGrammar {
      */
     private short[][] fElementDeclType = new short[INITIAL_CHUNK_COUNT][];
 
+
     /** First attribute declaration of an element declaration. */
     private int[][] fElementDeclFirstAttributeDeclIndex = new int[INITIAL_CHUNK_COUNT][];
 
@@ -148,6 +165,7 @@ public class DTDGrammar {
 
     /** Simple type. */
     private final XMLSimpleType fSimpleType = new XMLSimpleType();
+
 
     /** table of XMLElementDecl   */
     Map<String, XMLElementDecl> fElementDeclTab = new HashMap<>();
@@ -241,10 +259,12 @@ public class DTDGrammar {
             }
         }
 
+
         //add(or set) this elementDecl to the local cache
         this.fElementDeclTab.put(name, elementDecl );
 
         fElementDecl = elementDecl;
+
 
         if ( DEBUG ) {
             System.out.println(  "name = " + fElementDecl.name.localpart );
@@ -560,6 +580,7 @@ public class DTDGrammar {
 
     } // getAttributeDecl
 
+
     /**
      * Returns whether the given attribute is of type CDATA or not
      *
@@ -573,6 +594,8 @@ public class DTDGrammar {
         return !getAttributeDecl(elDeclIdx, fAttributeDecl)
                 || fAttributeDecl.simpleType.type == XMLSimpleType.TYPE_CDATA;
     }
+
+
 
     public void printElements(  ) {
         int elementDeclIndex = 0;
@@ -601,6 +624,7 @@ public class DTDGrammar {
         System.out.println(" ]");
     }
 
+
     protected int createElementDecl() {
         int chunk = fElementDeclCount >> CHUNK_SHIFT;
         int index = fElementDeclCount & CHUNK_MASK;
@@ -621,8 +645,11 @@ public class DTDGrammar {
 
         int     scope       = elementDecl.scope;
 
+
         fElementDeclName[chunk][index].setValues(elementDecl.name);
         fElementDeclType[chunk][index]                  = elementDecl.type;
+
+
 
         if (elementDecl.simpleType.list) {
             fElementDeclType[chunk][index] |= LIST_FLAG;
@@ -630,6 +657,9 @@ public class DTDGrammar {
 
         fElementIndexMap.put(elementDecl.name.rawname, elementDeclIndex);
     }
+
+
+
 
     protected void setFirstAttributeDeclIndex(int elementDeclIndex, int newFirstAttrIndex){
 
@@ -642,6 +672,7 @@ public class DTDGrammar {
 
         fElementDeclFirstAttributeDeclIndex[chunk][index] = newFirstAttrIndex;
     }
+
 
     protected int createAttributeDecl() {
         int chunk = fAttributeDeclCount >> CHUNK_SHIFT;
@@ -657,6 +688,7 @@ public class DTDGrammar {
         fAttributeDeclNextAttributeDeclIndex[chunk][index]  = -1;
         return fAttributeDeclCount++;
     }
+
 
     protected void setAttributeDecl(int elementDeclIndex, int attributeDeclIndex,
     XMLAttributeDecl attributeDecl) {
@@ -701,6 +733,7 @@ public class DTDGrammar {
     public void notationDecl(String name, XMLResourceIdentifier identifier,
     Augmentations augs) throws XNIException {
 
+
         XMLNotationDecl  notationDecl = new XMLNotationDecl();
         notationDecl.setValues(name,identifier.getPublicId(),identifier.getLiteralSystemId(),
         identifier.getBaseSystemId());
@@ -724,6 +757,8 @@ public class DTDGrammar {
         }
 
     } // printAttribute(int)
+
+
 
     private void ensureElementDeclCapacity(int chunk) {
         if (chunk >= fElementDeclName.length) {
@@ -766,6 +801,7 @@ public class DTDGrammar {
         fAttributeDeclNonNormalizedDefaultValue[chunk] = new String[CHUNK_SIZE];
         fAttributeDeclNextAttributeDeclIndex[chunk] = new int[CHUNK_SIZE];
     }
+
 
     // resize chunks
 

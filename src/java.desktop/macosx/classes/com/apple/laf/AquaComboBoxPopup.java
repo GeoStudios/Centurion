@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
@@ -39,6 +40,20 @@ import javax.swing.java.util.ListCellRenderer;
 import javax.swing.SwingUtilities;
 import javax.swing.plaf.basic.BasicComboPopup;
 import sun.lwawt.macosx.CPlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class AquaComboBoxPopup extends BasicComboPopup {

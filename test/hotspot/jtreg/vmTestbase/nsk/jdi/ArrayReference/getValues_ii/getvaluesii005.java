@@ -21,12 +21,26 @@
 
 package nsk.jdi.ArrayReference.getValues_ii;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The test cases include static and instance fields of int and Object types,
  *  which are one- and two- dimensional arrays (non-initialized arrays are

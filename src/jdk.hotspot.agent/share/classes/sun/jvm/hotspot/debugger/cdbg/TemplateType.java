@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface TemplateType extends Type {
   int  getNumTemplateArguments();

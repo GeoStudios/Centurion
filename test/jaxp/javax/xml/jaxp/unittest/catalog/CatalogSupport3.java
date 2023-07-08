@@ -21,6 +21,7 @@
 
 package catalog;
 
+
 import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
@@ -45,6 +46,19 @@ import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -242,6 +256,7 @@ public class CatalogSupport3 extends CatalogSupportBase {
             {true, false, xml_catalog, xsd_include_company, null}
         };
     }
+
 
     /*
        DataProvider: for testing Schema Validator

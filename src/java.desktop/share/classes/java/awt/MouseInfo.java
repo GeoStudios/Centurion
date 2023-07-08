@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import sun.awt.AWTPermissions;
 import sun.awt.ComponentFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code MouseInfo}  provides methods for getting information about the mouse,

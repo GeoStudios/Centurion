@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaxCryptoSpecAccess {
     void clearSecretKeySpec(SecretKeySpec keySpec);

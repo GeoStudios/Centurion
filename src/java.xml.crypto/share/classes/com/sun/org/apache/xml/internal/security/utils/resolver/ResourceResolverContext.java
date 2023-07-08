@@ -21,14 +21,32 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver;
 
+
 import java.util.Collections;
 import java.util.Map;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 public class ResourceResolverContext {
 

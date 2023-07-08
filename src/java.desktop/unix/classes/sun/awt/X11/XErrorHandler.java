@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class XErrorHandler {
 
     /*

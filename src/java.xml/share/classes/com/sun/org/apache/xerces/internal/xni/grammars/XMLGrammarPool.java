@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * <p> This interface specifies how the parser and the application

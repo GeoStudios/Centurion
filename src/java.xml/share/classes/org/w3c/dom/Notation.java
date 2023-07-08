@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface represents a notation declared in the DTD. A notation either
  * declares, by name, the format of an unparsed entity (see <a href='http://www.w3.org/TR/2004/REC-xml-20040204#Notations'>section 4.7</a> of the XML 1.0 specification [<a href='http://www.w3.org/TR/2004/REC-xml-20040204'>XML 1.0</a>]), or is

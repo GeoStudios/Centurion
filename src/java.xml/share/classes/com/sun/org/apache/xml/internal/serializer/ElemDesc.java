@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.StringToIntTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class has a series of flags (bit values) that describe an HTML element

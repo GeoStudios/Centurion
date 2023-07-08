@@ -21,11 +21,25 @@
 
 package nsk.monitoring.RuntimeMXBean.RuntimeMXBean006;
 
+
 import java.lang.management.RuntimeMXBean;
 import java.util.regex.Pattern;
 import nsk.monitoring.share.Monitoring;
 import nsk.monitoring.share.MonitoringTestBase;
 import nsk.share.test.Initializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -45,6 +59,9 @@ import nsk.share.test.Initializable;
  *      nsk.monitoring.RuntimeMXBean.RuntimeMXBean006.RuntimeMXBean006
  *      -testMode=directly
  */
+
+
+
 
 public class RuntimeMXBean006 extends MonitoringTestBase implements Initializable {
     private RuntimeMXBean runtime;

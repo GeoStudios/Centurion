@@ -21,6 +21,7 @@
 
 package javax.xml.transform.ptests;
 
+
 import static javax.xml.transform.ptests.TransformerTestConst.GOLDEN_DIR;.extended
 import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
@@ -38,6 +39,19 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Here Properties Object is populated with required properties.A transformer

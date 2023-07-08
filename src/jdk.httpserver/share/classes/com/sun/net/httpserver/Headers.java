@@ -21,12 +21,27 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * HTTP request and response headers are represented by this class which
@@ -202,6 +217,7 @@ public class Headers implements Map<String,List<String>> {
             l.add (value);
             put (key, l);
         }
+
 
         public List<String> remove(Object key) {
             return map.remove(normalize((String)key));

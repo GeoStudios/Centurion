@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.popFrames;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the popframes003 JDI test.
@@ -80,6 +94,7 @@ public class popframes003a {
 
         int exitCode = PASSED;
 
+
         label0:
             {
                  thread2 =  new Thread2popframes003a("thread2");
@@ -125,6 +140,7 @@ public class popframes003a {
 
         System.exit(exitCode + PASS_BASE);
     }
+
 
     static int testVar1 = 0;
     static int testVar2 = 0;

@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassObjectReference.reflectedType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the reflectype001 JDI test.

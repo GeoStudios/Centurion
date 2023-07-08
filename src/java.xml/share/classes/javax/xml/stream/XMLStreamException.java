@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The base exception for unexpected processing errors.  This Exception
  * class is used to report well-formedness errors as well as unexpected
@@ -106,6 +122,7 @@ public class XMLStreamException extends Exception {
           "Message: "+msg);
     this.location = location;
   }
+
 
   /**
    * Gets the nested exception.

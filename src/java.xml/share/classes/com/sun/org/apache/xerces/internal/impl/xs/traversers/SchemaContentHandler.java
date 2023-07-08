@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXLocatorWrapper;
@@ -41,10 +42,26 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * <p>SchemaContentHandler converts SAX events into XNI

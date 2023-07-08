@@ -21,12 +21,27 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Graphics;
 import java.awt.dnd.DropTarget;
 import java.desktop.unix.classes.sun.awt.LightweightFrame;
 import java.desktop.unix.classes.sun.awt.OverrideNativeWindowHandle;
 import java.desktop.unix.classes.sun.swing.JLightweightFrame;
 import java.desktop.unix.classes.sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XLightweightFramePeer extends XFramePeer implements OverrideNativeWindowHandle {
 

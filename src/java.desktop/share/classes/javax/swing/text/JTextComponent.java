@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import com.sun.beans.util.Cache;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -59,6 +60,20 @@ import sun.swing.PrintingStatus;
 import sun.swing.SwingUtilities2;
 import sun.swing.text.TextComponentPrintable;
 import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JTextComponent</code> is the base class for swing text
@@ -755,6 +770,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             });
     }
 
+
     /**
      * Calculates a drop location in this component, representing where a
      * drop at the given point should insert data.
@@ -935,6 +951,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
     public final DropLocation getDropLocation() {
         return dropLocation;
     }
+
 
     /**
      * Updates the <code>InputMap</code>s in response to a
@@ -1967,6 +1984,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         return getPreferredSize();
     }
 
+
     /**
      * Components that display logical rows or columns should compute
      * the scroll increment that will completely expose one new row
@@ -1998,6 +2016,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         }
     }
 
+
     /**
      * Components that display logical rows or columns should compute
      * the scroll increment that will completely expose one block
@@ -2026,6 +2045,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             throw new IllegalArgumentException("Invalid orientation: " + orientation);
         }
     }
+
 
     /**
      * Returns true if a viewport should always force the width of this
@@ -2073,6 +2093,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         }
         return false;
     }
+
 
 //////////////////
 // Printing Support
@@ -2414,6 +2435,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         return true;
     }
 
+
     /**
      * Returns a {@code Printable} to use for printing the content of this
      * {@code JTextComponent}. The returned {@code Printable} prints
@@ -2477,9 +2499,11 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
                    this, headerFormat, footerFormat);
     }
 
+
 /////////////////
 // Accessibility support
 ////////////////
+
 
     /**
      * Gets the <code>AccessibleContext</code> associated with this
@@ -2680,6 +2704,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             return states;
         }
 
+
         /**
          * Gets the role of this object.
          *
@@ -2702,6 +2727,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         public AccessibleText getAccessibleText() {
             return this;
         }
+
 
         // --- interface AccessibleText methods ------------------------
 
@@ -2858,6 +2884,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             return e.getAttributes();
         }
 
+
         /**
          * Returns the start offset within the selected text.
          * If there is no selection, but there is
@@ -2904,6 +2931,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             public int modelOffset;
         }
 
+
         // TIGER - 4170173
         /**
          * Returns the String at a given index. Whitespace
@@ -2918,6 +2946,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             return getAtIndex(part, index, 0);
         }
 
+
         /**
          * Returns the String after a given index. Whitespace
          * between words is treated as a word.
@@ -2930,6 +2959,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             return getAtIndex(part, index, 1);
         }
 
+
         /**
          * Returns the String before a given index. Whitespace
          * between words is treated a word.
@@ -2941,6 +2971,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         public String getBeforeIndex(int part, int index) {
             return getAtIndex(part, index, -1);
         }
+
 
         /**
          * Gets the word, sentence, or character at <code>index</code>.
@@ -2963,12 +2994,14 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
                     }
                     break;
 
+
                 case AccessibleText.WORD:
                 case AccessibleText.SENTENCE:
                     IndexedSegment seg = getSegmentAt(part, index);
                     if (seg != null) {
                         if (direction != 0) {
                             int next;
+
 
                             if (direction < 0) {
                                 next = seg.modelOffset - 1;
@@ -2990,6 +3023,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
                     }
                     break;
 
+
                 default:
                     break;
                 }
@@ -3001,6 +3035,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             }
             return null;
         }
+
 
         /*
          * Returns the paragraph element for the specified index.
@@ -3034,6 +3069,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
                                   throws BadLocationException {
             Element para = getParagraphElement(index);
 
+
             if (para != null) {
                 IndexedSegment segment = new IndexedSegment();
                 try {
@@ -3047,6 +3083,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             }
             return null;
         }
+
 
         /**
          * Returns the Segment at <code>index</code> representing either
@@ -3248,6 +3285,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         }
 
         // ----- end AccessibleEditableText methods
+
 
         // ----- begin AccessibleExtendedText methods
 
@@ -3485,6 +3523,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             return null;
         }
 
+
         /**
          * Starting at text position <code>index</code>, and going in
          * <code>direction</code>, return the edge of run that shares the
@@ -3667,6 +3706,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
 
         // ----- end AccessibleExtendedText methods
 
+
         // --- interface AccessibleAction methods ------------------------
 
         public AccessibleAction getAccessibleAction() {
@@ -3723,7 +3763,9 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
 
         // ----- end AccessibleAction methods
 
+
     }
+
 
     // --- serialization ---------------------------------------------
 
@@ -3947,6 +3989,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         ",selectedTextColor=" + selectedTextColorString +
         ",selectionColor=" + selectionColorString;
     }
+
 
     /**
      * A Simple TransferHandler that exports the data as a String, and
@@ -4228,6 +4271,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
         Action defaultAction;
     }
 
+
     /**
      * KeymapWrapper wraps a Keymap inside an InputMap. For KeymapWrapper
      * to be useful it must be used with a KeymapActionMap.
@@ -4293,6 +4337,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             return retValue;
         }
     }
+
 
     /**
      * Wraps a Keymap inside an ActionMap. This is used with
@@ -4533,6 +4578,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
             checkedInputOverride = true;
         }
     }
+
 
     //
     // Default implementation of the InputMethodRequests interface.

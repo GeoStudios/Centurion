@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a constant (boxed) value, such as an integer, floating point number, or object
  * reference, within the compiler and across the compiler/runtime interface. Exports a set of

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface EventFilter {
 
     /**

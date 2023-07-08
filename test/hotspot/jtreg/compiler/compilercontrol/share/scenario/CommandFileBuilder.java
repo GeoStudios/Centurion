@@ -21,11 +21,25 @@
 
 package compiler.compilercontrol.share.scenario;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Creates CompileCommandFile from the given array of commands

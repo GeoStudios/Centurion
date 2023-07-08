@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.applet.Applet;
 import java.desktop.share.classes.java.beans.beancontext.BeanContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is designed to work in collusion with java.beans.Beans.instantiate.

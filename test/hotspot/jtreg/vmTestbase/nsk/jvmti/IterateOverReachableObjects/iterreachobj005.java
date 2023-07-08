@@ -21,9 +21,23 @@
 
 package nsk.jvmti.IterateOverReachableObjects;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class iterreachobj005 extends DebugeeClass {
 

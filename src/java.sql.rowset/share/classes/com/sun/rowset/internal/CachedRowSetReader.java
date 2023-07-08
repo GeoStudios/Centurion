@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.*;
 import javax.sql.*;
 import javax.naming.*;
@@ -29,6 +30,20 @@ import java.lang.reflect.*;
 import java.sql.rowset.share.classes.com.sun.rowset.*;
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The facility called by the <code>RIOptimisticProvider</code> object
@@ -85,6 +100,7 @@ public class CachedRowSetReader implements RowSetReader, Serializable {
             throw new RuntimeException(ioe);
         }
     }
+
 
     /**
      * Reads data from a data source and populates the given

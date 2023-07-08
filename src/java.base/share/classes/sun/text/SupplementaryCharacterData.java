@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * SupplementaryCharacterData is an SMI-private class which was written for
  * RuleBasedBreakIterator and BreakDictionary.
@@ -46,6 +62,7 @@ public final class SupplementaryCharacterData implements Cloneable {
      * <code>0x23</code>. And, <code>getValue(0x10003)</code> returns the value.
      */
     private final int[] dataTable;
+
 
     /**
      * Creates a new SupplementaryCharacterData object with the given table.

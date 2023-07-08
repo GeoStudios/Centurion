@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared;
 
+
 import jdk.internal.org.objectweb.asm.Handle;
 import jdk.internal.org.objectweb.asm.Type;
 import nsk.share.TestFailure;
@@ -40,6 +41,19 @@ import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constructs class file from {@code Clazz} instance.
@@ -598,9 +612,11 @@ public class ClassFileGenerator implements Visitor {
         Label lblThrowable = new Label();
         mv.visitTryCatchBlock(lblBegin, lblExpected, lblThrowable, "java/lang/Throwable");
 
+
         mv.visitLabel(lblBegin);
 
         generateCall(t.getCall(), invocationType);
+
 
         if (Util.isNonVoid(t.getCall().returnType())) {
             mv.visitInsn(POP);

@@ -21,6 +21,7 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -36,6 +37,20 @@ import jdk.dynalink.share.classes.jdk.dynalink.SecureLookupSupplier;
 import jdk.dynalink.share.classes.jdk.dynalink.internal.AccessControlContextFactory;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -43,6 +58,8 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * A dynamic method bound to exactly one Java method or constructor that is caller sensitive. Since the target method is

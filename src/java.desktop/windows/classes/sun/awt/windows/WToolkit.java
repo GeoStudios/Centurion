@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.Button;
@@ -138,6 +139,20 @@ import java.desktop.windows.classes.sun.java2d.d3d.D3DRenderQueue;
 import java.desktop.windows.classes.sun.java2d.opengl.OGLRenderQueue;
 import java.desktop.windows.classes.sun.print.PrintJob2D;
 import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class WToolkit extends SunToolkit implements Runnable {
 
@@ -675,6 +690,7 @@ public final class WToolkit extends SunToolkit implements Runnable {
     }
 
     private native Insets getScreenInsets(int screen);
+
 
     @Override
     public FontMetrics getFontMetrics(Font font) {

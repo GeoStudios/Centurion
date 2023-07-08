@@ -21,6 +21,22 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Exception thrown when an application tries to establish a connection with a
  * terminal that has no card present.

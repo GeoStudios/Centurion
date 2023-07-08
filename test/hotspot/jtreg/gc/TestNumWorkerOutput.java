@@ -21,11 +21,25 @@
 
 package gc;
 
+
 import sun.hotspot.WhiteBox;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestNumWorkerOutputG1
@@ -38,6 +52,9 @@ import jdk.test.lib.process.ProcessTools;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.TestNumWorkerOutput UseG1GC
  */
+
+
+
 
 public class TestNumWorkerOutput {
 

@@ -21,7 +21,21 @@
 
 package nsk.stress.except;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -61,6 +75,8 @@ import java.io.PrintStream;
  *
  * @run main/othervm -Xms50M -Xmx200M nsk.stress.except.except006
  */
+
+
 
 /**
  * This checks if various exceptions are thrown (and caught) correctly
@@ -223,6 +239,7 @@ public class except006 {
             if (WARN_ON)
                 log[messages++] = "Warning: pool[] is full; so, checks would not be enough hard...";
         }
+
 
         // Check InstantiationException (negative):
         try {

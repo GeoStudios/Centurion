@@ -21,9 +21,23 @@
 
 package compiler.floatingpoint;
 
+
 import compiler.whitebox.CompilerWhiteBoxTest;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -39,6 +53,9 @@ import java.lang.reflect.Method;
  *                   -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.floatingpoint.TestPow2
  */
+
+
+
 
 public class TestPow2 {
 

@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8253644
@@ -43,6 +58,7 @@ public class TestUnswitchCloneSkeletonPredicates {
     static int iFld2 = 0 ;
     static int iArrFld[] = new int[50];
     static float fArrFld[] = new float[50];
+
 
     // Only triggers with -XX:-PartialPeelLoop
     /*

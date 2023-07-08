@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.lang.module.ModuleDescriptor;
 import java.base.share.classes.java.lang.module.ModuleDescriptor.Exports;
 import java.base.share.classes.java.lang.module.ModuleDescriptor.Opens;
@@ -45,6 +46,20 @@ import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import jdk.internal.module.ModuleLoaderMap;
 import jdk.internal.reflect.CallerSensitive;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The security manager is a class that allows
@@ -1238,6 +1253,7 @@ public class SecurityManager {
                 .flatMap(Set::stream)
                 .forEach(pn -> nonExportedPkgs.put(pn, Boolean.TRUE));
     }
+
 
     /**
      * Called by java.security.Security

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.ImageTypeSpecifier;
@@ -29,6 +30,20 @@ import java.awt.color.ColorSpace;
 import java.awt.image.ColorModel;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGImageMetadataFormat extends JPEGMetadataFormat {
 
@@ -345,6 +360,7 @@ public class JPEGImageMetadataFormat extends JPEGMetadataFormat {
         return (isInSubtree(elementName, "app0JFIF"))
                 && JPEG.isJFIFcompliant(imageType, true);
     }
+
 
     public static synchronized IIOMetadataFormat getInstance() {
         if (theInstance == null) {

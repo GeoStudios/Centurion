@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class ZForwardingTableCursor {
     long _value;
 }

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
@@ -34,6 +35,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Objects of this class hold all information pecular to a

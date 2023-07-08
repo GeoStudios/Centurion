@@ -21,7 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * A simple horizontal scroll bar. The scrollbar is made horizontal

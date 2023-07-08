@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.bmi;
 
+
 import sun.hotspot.cpuinfo.CPUInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,8 @@ import sun.hotspot.cpuinfo.CPUInfo;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.intrinsics.bmi.TestAndnL
  */
+
+
 
 public class TestAndnL {
 
@@ -84,6 +100,7 @@ public class TestAndnL {
                 return 0;
             }
         }
+
 
     }
 

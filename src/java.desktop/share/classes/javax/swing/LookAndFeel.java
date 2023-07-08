@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Font;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -37,6 +38,20 @@ import sun.swing.SwingUtilities2;
 import sun.swing.DefaultLayoutStyle;
 import sun.swing.ImageIconUIResource;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code LookAndFeel}, as the name implies, encapsulates a look and
@@ -175,6 +190,7 @@ public abstract class LookAndFeel
         }
     }
 
+
     /**
      * Convenience method for setting a component's foreground,
      * background and font properties with values from the
@@ -204,6 +220,7 @@ public abstract class LookAndFeel
         installColors(c, defaultBgName, defaultFgName);
     }
 
+
     /**
      * Convenience method for setting a component's border property with
      * a value from the defaults. The border is only set if the border is
@@ -220,6 +237,7 @@ public abstract class LookAndFeel
             c.setBorder(UIManager.getBorder(defaultBorderName));
         }
     }
+
 
     /**
      * Convenience method for uninstalling a border. If the border of
@@ -376,6 +394,7 @@ public abstract class LookAndFeel
         loadKeyBindings(retMap, keys);
         return retMap;
     }
+
 
     /**
      * Populates an {@code InputMap} with the specified bindings.
@@ -578,6 +597,7 @@ public abstract class LookAndFeel
      */
     public abstract String getName();
 
+
     /**
      * Return a string that identifies this look and feel.  This string
      * will be used by applications/services that want to recognize
@@ -591,6 +611,7 @@ public abstract class LookAndFeel
      */
     public abstract String getID();
 
+
     /**
      * Return a one line description of this look and feel implementation,
      * e.g. "The CDE/Motif Look and Feel".   This string is intended for
@@ -599,6 +620,7 @@ public abstract class LookAndFeel
      * @return short description for the look and feel
      */
     public abstract String getDescription();
+
 
     /**
      * Returns {@code true} if the <code>LookAndFeel</code> returned
@@ -631,6 +653,7 @@ public abstract class LookAndFeel
      */
     public abstract boolean isNativeLookAndFeel();
 
+
     /**
      * Return {@code true} if the underlying platform supports and or permits
      * this look and feel.  This method returns {@code false} if the look
@@ -642,6 +665,7 @@ public abstract class LookAndFeel
      * @see UIManager#setLookAndFeel
      */
     public abstract boolean isSupportedLookAndFeel();
+
 
     /**
      * Initializes the look and feel. While this method is public,
@@ -660,6 +684,7 @@ public abstract class LookAndFeel
      */
     public void initialize() {
     }
+
 
     /**
      * Uninitializes the look and feel. While this method is public,

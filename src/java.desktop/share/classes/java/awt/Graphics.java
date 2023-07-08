@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.io.*;
 import java.desktop.share.classes.java.lang.*;
 import java.desktop.share.classes.java.util.*;
 import java.desktop.share.classes.java.awt.image.ImageObserver;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Graphics} class is the abstract base class for
@@ -261,6 +276,7 @@ public abstract class Graphics {
      * @see       java.awt.Graphics#getFontMetrics()
      */
     public abstract FontMetrics getFontMetrics(Font f);
+
 
     /**
      * Returns the bounding rectangle of the current clipping area.

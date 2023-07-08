@@ -21,12 +21,26 @@
 
 package test.sql;
 
+
 import java.sql.SQLException;
 import java.sql.SQLFeatureNotSupportedException;
 import java.sql.SQLNonTransientException;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SQLFeatureNotSupportedExceptionTests extends BaseTest {
 

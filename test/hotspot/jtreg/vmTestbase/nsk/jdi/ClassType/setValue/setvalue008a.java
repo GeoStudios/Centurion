@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.setValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -71,6 +85,7 @@ public class setvalue008a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(setvalue008.SIGNAL_READY);
+
 
         //pipe.println(setvalue008.SIGNAL_GO);
         receiveSignal(setvalue008.SIGNAL_QUIT);

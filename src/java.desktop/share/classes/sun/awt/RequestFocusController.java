@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.Component;
 import java.awt.event.FocusEvent.Cause;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface RequestFocusController
 {

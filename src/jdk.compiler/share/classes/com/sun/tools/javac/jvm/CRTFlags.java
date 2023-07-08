@@ -21,6 +21,22 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** The CharacterRangeTable flags indicating type of an entry.
  *
  *  <p><b>This is NOT part of any supported API.

@@ -21,10 +21,25 @@
 
 package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
 
+
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import org.openide.nodes.AbstractNode;
 import org.openide.nodes.Children;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

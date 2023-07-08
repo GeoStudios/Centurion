@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.jdk.xml.internal;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class holds constants shared across XML components. Historically, there
  * had been a component boundary within which some constants were duplicated for

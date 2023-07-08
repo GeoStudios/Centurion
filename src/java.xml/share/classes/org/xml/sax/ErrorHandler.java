@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Basic interface for SAX error handlers.
  *
@@ -53,6 +69,7 @@ package java.xml.share.classes.org.xml.sax;
  */
 public interface ErrorHandler {
 
+
     /**
      * Receive notification of a warning.
      *
@@ -76,6 +93,7 @@ public interface ErrorHandler {
      */
     void warning (SAXParseException exception)
         throws SAXException;
+
 
     /**
      * Receive notification of a recoverable error.
@@ -104,6 +122,7 @@ public interface ErrorHandler {
      */
     void error (SAXParseException exception)
         throws SAXException;
+
 
     /**
      * Receive notification of a non-recoverable, fatal error.

@@ -21,10 +21,25 @@
 
 package java.management.share.classes.javax.management.relation;
 
+
 import com.sun.jmx.mbeanserver.Util;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RoleUnresolvedList represents a list of RoleUnresolved objects,

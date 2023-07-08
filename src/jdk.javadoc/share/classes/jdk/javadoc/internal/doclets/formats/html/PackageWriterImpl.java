@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
@@ -48,6 +49,20 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Comme
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to generate file for each package contents in the right-hand
@@ -80,6 +95,7 @@ public class PackageWriterImpl extends HtmlDocletWriter
     // Maximum number of subpackages and sibling packages to list in related packages table
     private final static int MAX_SUBPACKAGES = 20;
     private final static int MAX_SIBLING_PACKAGES = 5;
+
 
     /**
      * Constructor to construct PackageWriter object and to generate
@@ -233,6 +249,7 @@ public class PackageWriterImpl extends HtmlDocletWriter
         addPackageSummary(relatedPackages, contents.relatedPackages, tableHeader,
                 summaryContentTree, showModules);
     }
+
 
     /**
      * Add all types to the content tree.

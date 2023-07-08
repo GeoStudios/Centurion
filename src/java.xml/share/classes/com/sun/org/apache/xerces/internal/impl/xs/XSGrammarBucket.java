@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class used to hold the internal schema grammar set for the current instance

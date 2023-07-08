@@ -21,6 +21,7 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.HashMap;
@@ -30,6 +31,19 @@ import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ObjectGraph {
 
@@ -73,6 +87,7 @@ public class ObjectGraph {
         }
         vertex[i] = neighbour;
     }
+
 
     /**
      * Builds object graph using description from list of parsed nodes. Graph uses Object[] as nodes, first n elements

@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.RED;.extended
@@ -43,6 +44,20 @@ import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
 import javax.imageio.stream.ImageOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Render a filled star & duke into a BufferedImage, save the BufferedImage
@@ -93,6 +108,7 @@ public class JPEGFlip extends Surface {
         g2.setFont(new Font("Dialog", Font.PLAIN, 10));
         g2.setColor(BLACK);
         g2.drawString("BufferedImage", 4, 12);
+
 
         BufferedImage bi1 = null;
         ImageOutputStream ios = null;

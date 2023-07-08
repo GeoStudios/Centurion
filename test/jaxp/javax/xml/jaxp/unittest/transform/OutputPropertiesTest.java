@@ -21,6 +21,7 @@
 
 package transform;
 
+
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.Properties;
@@ -36,6 +37,19 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -63,6 +77,7 @@ public class OutputPropertiesTest {
             {"abc<mix>mix</mix>xyz", mix}
         };
     }
+
 
     /**
      * bug 8223291

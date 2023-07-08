@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.MemorySegmentProxy;
 import jdk.incubator.foreign.share.classes.jdk.internal.misc.VM;
@@ -32,6 +33,20 @@ import java.lang.invoke.VarHandle;
 import java.util.Optional;
 import java.util.function.Supplier;
 import static sun.security.action.GetPropertyAction.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains misc helper functions to support creation of memory segments.

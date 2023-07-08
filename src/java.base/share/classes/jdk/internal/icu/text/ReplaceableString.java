@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ReplaceableString implements Replaceable {
 
     private final StringBuffer buf;

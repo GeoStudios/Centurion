@@ -21,8 +21,23 @@
 
 package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph.services;
 
+
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt;
 
+
 import java.awt.AWTError;
 import java.awt.GraphicsDevice;
 import java.lang.ref.WeakReference;
@@ -39,6 +40,20 @@ import java.desktop.unix.classes.sun.java2d.SunGraphicsEnvironment;
 import java.desktop.unix.classes.sun.java2d.SurfaceManagerFactory;
 import java.desktop.unix.classes.sun.java2d.UnixSurfaceManagerFactory;
 import java.desktop.unix.classes.sun.java2d.xr.XRSurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the
@@ -127,6 +142,7 @@ public final class X11GraphicsEnvironment extends SunGraphicsEnvironment {
         SurfaceManagerFactory.setInstance(new UnixSurfaceManagerFactory());
 
     }
+
 
     private static boolean glxAvailable;
     private static boolean glxVerbose;
@@ -346,6 +362,8 @@ public final class X11GraphicsEnvironment extends SunGraphicsEnvironment {
             }});
         return result.booleanValue();
     }
+
+
 
     /**
      * Returns face name for default font, or null if

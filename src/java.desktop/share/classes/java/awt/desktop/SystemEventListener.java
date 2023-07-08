@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
+
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common interface for all event listener sub-types. Implementors may implement

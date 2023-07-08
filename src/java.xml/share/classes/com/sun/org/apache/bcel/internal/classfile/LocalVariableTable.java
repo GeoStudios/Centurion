@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents colection of local variables in a
@@ -42,6 +60,7 @@ public class LocalVariableTable extends Attribute {
 
     private LocalVariable[] localVariableTable; // variables
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -49,6 +68,7 @@ public class LocalVariableTable extends Attribute {
     public LocalVariableTable(final LocalVariableTable c) {
         this(c.getNameIndex(), c.getLength(), c.getLocalVariableTable(), c.getConstantPool());
     }
+
 
     /**
      * @param nameIndex Index in constant pool to `LocalVariableTable'
@@ -61,6 +81,7 @@ public class LocalVariableTable extends Attribute {
         super(Const.ATTR_LOCAL_VARIABLE_TABLE, nameIndex, length, constantPool);
         this.localVariableTable = localVariableTable;
     }
+
 
     /**
      * Construct object from input stream.
@@ -80,6 +101,7 @@ public class LocalVariableTable extends Attribute {
         }
     }
 
+
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -91,6 +113,7 @@ public class LocalVariableTable extends Attribute {
     public void accept( final Visitor v ) {
         v.visitLocalVariableTable(this);
     }
+
 
     /**
      * Dump local variable table attribute to file stream in binary format.
@@ -107,12 +130,14 @@ public class LocalVariableTable extends Attribute {
         }
     }
 
+
     /**
      * @return Array of local variables of method.
      */
     public final LocalVariable[] getLocalVariableTable() {
         return localVariableTable;
     }
+
 
     /**
      *
@@ -132,6 +157,7 @@ public class LocalVariableTable extends Attribute {
         }
         return null;
     }
+
 
     /**
      *
@@ -153,9 +179,11 @@ public class LocalVariableTable extends Attribute {
         return null;
     }
 
+
     public final void setLocalVariableTable( final LocalVariable[] local_variable_table ) {
         this.localVariableTable = local_variable_table;
     }
+
 
     /**
      * @return String representation.
@@ -172,6 +200,7 @@ public class LocalVariableTable extends Attribute {
         return buf.toString();
     }
 
+
     /**
      * @return deep copy of this attribute
      */
@@ -185,6 +214,7 @@ public class LocalVariableTable extends Attribute {
         c.setConstantPool(_constant_pool);
         return c;
     }
+
 
     public final int getTableLength() {
         return localVariableTable == null ? 0 : localVariableTable.length;

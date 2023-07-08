@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6985295
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main/othervm -Xbatch compiler.c2.Test6985295
  */
+
 
 public class Test6985295 {
 

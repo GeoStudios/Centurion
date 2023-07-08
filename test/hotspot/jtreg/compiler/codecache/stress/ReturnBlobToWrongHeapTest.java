@@ -21,8 +21,22 @@
 
 package compiler.codecache.stress;
 
+
 import sun.hotspot.code.BlobType;
 import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test ReturnBlobToWrongHeapTest
@@ -42,6 +56,9 @@ import java.util.Arrayjava.util.java.util.java.util.List;
  *                   -XX:CodeCacheMinBlockLength=1
  *                   compiler.codecache.stress.ReturnBlobToWrongHeapTest
  */
+
+
+
 
 public class ReturnBlobToWrongHeapTest {
     private static final long largeBlobSize = Helper.WHITE_BOX.getUintxVMFlag("ReservedCodeCacheSize") >> 6;

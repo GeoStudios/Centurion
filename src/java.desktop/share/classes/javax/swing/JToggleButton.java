@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.EventQueue;
@@ -40,6 +41,20 @@ import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.accessibility.AccessibleState;
 import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of a two-state button.
@@ -202,6 +217,7 @@ public class JToggleButton extends AbstractButton implements Accessible {
         return uiClassID;
     }
 
+
     /**
      * Overriden to return true, JToggleButton supports
      * the selected state.
@@ -332,6 +348,7 @@ public class JToggleButton extends AbstractButton implements Accessible {
 //              }
         }
 
+
         /**
          * Sets the selected state of the button.
          * @param b true selects the toggle button,
@@ -406,6 +423,7 @@ public class JToggleButton extends AbstractButton implements Accessible {
         }
     }
 
+
     /**
      * See readObject() and writeObject() in JComponent for more
      * information about serialization in Swing.
@@ -422,6 +440,7 @@ public class JToggleButton extends AbstractButton implements Accessible {
         }
     }
 
+
     /**
      * Returns a string representation of this JToggleButton. This method
      * is intended to be used only for debugging purposes, and the
@@ -434,6 +453,7 @@ public class JToggleButton extends AbstractButton implements Accessible {
     protected String paramString() {
         return super.paramString();
     }
+
 
 /////////////////
 // Accessibility support

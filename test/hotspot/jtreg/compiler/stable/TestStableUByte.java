@@ -21,8 +21,22 @@
 
 package compiler.stable;
 
+
 import jdk.internal.vm.annotation.Stable;
 import java.lang.reflect.InvocationTargetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestStableUByte
@@ -58,6 +72,9 @@ import java.lang.reflect.InvocationTargetException;
  *                                 -XX:CompileOnly=::get,::get1
  *                                 compiler.stable.TestStableUByte
  */
+
+
+
 
 public class TestStableUByte {
     static final boolean isStableEnabled = StableConfiguration.isStableEnabled;

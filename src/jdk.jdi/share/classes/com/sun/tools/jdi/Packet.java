@@ -21,7 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Packet {
     public final static short NoFlags = 0x0;

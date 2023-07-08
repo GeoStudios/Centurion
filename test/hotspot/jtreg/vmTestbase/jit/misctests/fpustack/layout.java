@@ -21,10 +21,24 @@
 
 package jit.misctests.fpustack;
 
+
 import java.util.*;
 import java.awt.*;
 import java.applet.Applet;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class layout implements ilayout {
     public  void formatNodes( Node[] nodes, Dimension d, FontMetrics fm )   {

@@ -21,12 +21,27 @@
 
 package java.base.share.classes.sun.security.provider;
 
+
 import java.security.MessageDigestSpi;
 import java.security.DigestException;
 import java.base.share.classes.java.security.ProviderException;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common base message digest implementation for the Sun provider.

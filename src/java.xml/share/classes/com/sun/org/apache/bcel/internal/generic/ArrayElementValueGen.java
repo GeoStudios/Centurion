@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -28,10 +29,27 @@ import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ArrayElementValue;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ElementValue;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  */

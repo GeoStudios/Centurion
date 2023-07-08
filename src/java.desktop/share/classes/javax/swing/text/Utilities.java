@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.Graphics;
@@ -37,6 +38,20 @@ import sun.swing.SwingUtilities2;
 import static sun.swing.SwingUtilities2.drawChars;.extended
 import static sun.swing.SwingUtilities2.getFontCharWidth;.extended
 import static sun.swing.SwingUtilities2.getFontCharsWidth;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of methods to deal with various text
@@ -1020,6 +1035,7 @@ public class Utilities {
         return BreakIterator.DONE;
     }
 
+
     /**
      * Determine the start of the prev word for the given location.
      * Uses BreakIterator.getWordInstance() to actually get the words.
@@ -1227,6 +1243,7 @@ public class Utilities {
     static boolean isLeftToRight( java.awt.Component c ) {
         return c.getComponentOrientation().isLeftToRight();
     }
+
 
     /**
      * Provides a way to determine the next visually represented model

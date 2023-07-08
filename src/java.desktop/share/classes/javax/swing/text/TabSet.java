@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A TabSet is comprised of many TabStops. It offers methods for locating the

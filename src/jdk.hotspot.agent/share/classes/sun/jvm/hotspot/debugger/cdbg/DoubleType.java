@@ -21,5 +21,21 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface DoubleType extends Type {
 }

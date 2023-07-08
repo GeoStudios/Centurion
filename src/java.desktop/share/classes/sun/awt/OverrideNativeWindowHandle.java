@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Used for replacing window owner with another non-Swing window.
  * It is useful in case of JavaFX-Swing interop:

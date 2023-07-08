@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.print;
 
+
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 import javax.print.attribute.*;
@@ -57,6 +58,20 @@ import java.nio.charset.Charset;
 import java.util.Iterator;
 import java.util.HashSet;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class IPPPrintService implements PrintService, SunPrinterJobService {
 
@@ -104,6 +119,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
     private boolean gifImagesAdded = false;
     private boolean jpgImagesAdded = false;
 
+
     /**
      * IPP Status Codes
      */
@@ -131,6 +147,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
     public static final String OP_CUPS_GET_DEFAULT = "4001";
     // gets the list of printers
     public static final String OP_CUPS_GET_PRINTERS = "4002";
+
 
     /**
      * List of all PrintRequestAttributes.  This is used
@@ -164,6 +181,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         Sides.ONE_SIDED,
     };
 
+
     /**
      * List of all PrintServiceAttributes.  This is used
      * for looping through all the IPP attribute name.
@@ -186,6 +204,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         {PrinterURI.class, "printer-uri"},
         {QueuedJobCount.class, "queued-job-count"}
     };
+
 
     /**
      * List of DocFlavors, grouped based on matching mime-type.
@@ -294,6 +313,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         DocFlavor.URL.TEXT_HTML_HOST,
     };
 
+
     // PCL DocFlavors
     private static final DocFlavor[] appPCL = {
         DocFlavor.BYTE_ARRAY.PCL,
@@ -308,6 +328,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         textPlain, imageJPG, imageGIF, imagePNG,
         textHtml, appPCL,
     };
+
 
     IPPPrintService(String name, URL url) {
         if ((name == null) || (url == null)){
@@ -337,6 +358,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
             }
         }
     }
+
 
     IPPPrintService(String name, String uriStr, boolean isCups) {
         if ((name == null) || (uriStr == null)){
@@ -370,6 +392,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
             throw new IllegalArgumentException("invalid uri");
         }
     }
+
 
     /*
      * Initialize mediaSizeNames, mediaTrays and other attributes.
@@ -442,6 +465,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
     }
 
+
     public DocPrintJob createPrintJob() {
         @SuppressWarnings("removal")
         SecurityManager security = System.getSecurityManager();
@@ -451,6 +475,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         // REMIND: create IPPPrintJob
         return new UnixPrintJob(this);
     }
+
 
     public synchronized Object
         getSupportedAttributeValues(Class<? extends Attribute> category,
@@ -782,6 +807,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
     }
 
+
     public AttributeSet getUnsupportedAttributes(DocFlavor flavor,
                                                  AttributeSet attributes) {
         if (flavor != null && !isDocFlavorSupported(flavor)) {
@@ -814,6 +840,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
             return unsupp;
         }
     }
+
 
     public synchronized DocFlavor[] getSupportedDocFlavors() {
 
@@ -910,6 +937,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         return flavor;
     }
 
+
     public boolean isDocFlavorSupported(DocFlavor flavor) {
         if (supportedDocFlavors == null) {
             getSupportedDocFlavors();
@@ -923,6 +951,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
         return false;
     }
+
 
     /**
      * Finds matching CustomMediaSizeName of given media.
@@ -940,6 +969,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
         return null;
     }
+
 
     /**
      * Returns the matching standard Media using string comparison of names.
@@ -984,6 +1014,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
         return new Media[0];
     }
+
 
     public synchronized Class<?>[] getSupportedAttributeCategories() {
         if (supportedCats != null) {
@@ -1054,6 +1085,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         System.arraycopy(supportedCats, 0, copyCats, 0, copyCats.length);
         return copyCats;
     }
+
 
     public boolean
         isAttributeCategorySupported(Class<? extends Attribute> category)
@@ -1155,6 +1187,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
     }
 
+
     public synchronized PrintServiceAttributeSet getAttributes() {
         // update getAttMap by sending again get-attributes IPP request
         init = false;
@@ -1188,6 +1221,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
             return true;
         } else return mimeType.equals("image/jpeg") && jpgImagesAdded;
     }
+
 
     private boolean isSupportedCopies(Copies copies) {
         CopiesSupported cs = (CopiesSupported)
@@ -1252,6 +1286,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
                         flavor.equals(DocFlavor.SERVICE_FORMATTED.PAGEABLE) ||
                         flavor.equals(DocFlavor.SERVICE_FORMATTED.PRINTABLE));
     }
+
 
     public boolean isAttributeValueSupported(Attribute attr,
                                              DocFlavor flavor,
@@ -1382,6 +1417,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
         return true;
     }
+
 
     public synchronized Object
         getDefaultAttributeValue(Class<? extends Attribute> category)
@@ -1641,9 +1677,11 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         return printer;
     }
 
+
     public boolean usesClass(Class<?> c) {
         return (c == sun.print.PSPrinterJob.class);
     }
+
 
     public static HttpURLConnection getIPPConnection(URL url) {
         HttpURLConnection connection;
@@ -1663,6 +1701,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         connection.setRequestProperty("Content-type", "application/ipp");
         return connection;
     }
+
 
     public synchronized boolean isPostscript() {
         if (isPS == null) {
@@ -1696,6 +1735,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
         return isPS.booleanValue();
     }
+
 
     private void opGetAttributes() {
         try {
@@ -1763,6 +1803,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
     }
 
+
     public static boolean writeIPPRequest(OutputStream os,
                                            String operCode,
                                            AttributeClass[] attCl) {
@@ -1814,6 +1855,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         }
         return true;
     }
+
 
     public static HashMap<String, AttributeClass>[] readIPPResponse(InputStream inputStream) {
 

@@ -21,9 +21,23 @@
 
 package nsk.share.jdi;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class contains methods common for nsk/jdi/ThreadReference/forceEarlyReturn tests

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
+
 import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StringEditor extends PropertyEditorSupport {
 

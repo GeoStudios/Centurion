@@ -21,11 +21,25 @@
 
 package nsk.jdi.ObjectReference.referringObjects.referringObjects003;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Test class handle request for start/stop test threads(threads are included in special thread group)

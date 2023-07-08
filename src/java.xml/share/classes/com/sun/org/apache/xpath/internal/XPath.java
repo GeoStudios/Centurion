@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
@@ -36,6 +37,20 @@ import java.util.java.util.java.util.java.util.List;
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XPath class wraps an expression object and provides general services
@@ -308,6 +323,7 @@ public class XPath implements Serializable, ExpressionOwner
           namespaceContext);
   }
 
+
   /**
    * Given an expression and a context, evaluate the XPath
    * and return the result.
@@ -506,6 +522,7 @@ public class XPath implements Serializable, ExpressionOwner
 
     // return XPath.MATCH_SCORE_NONE;
   }
+
 
   /**
    * Warn the user of an problem.

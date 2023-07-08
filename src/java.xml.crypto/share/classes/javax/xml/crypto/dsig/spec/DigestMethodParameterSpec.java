@@ -21,12 +21,29 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.DigestMethod;
 import java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: DigestMethodParameterSpec.java,v 1.3 2005/05/10 16:40:17 mullan Exp $
  */
+
+
 
 /**
  * A specification of algorithm parameters for a {@link DigestMethod}

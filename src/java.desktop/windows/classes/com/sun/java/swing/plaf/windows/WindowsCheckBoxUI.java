@@ -21,11 +21,26 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import java.desktop.windows.classes.com.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows check box.
@@ -56,6 +71,7 @@ public class WindowsCheckBoxUI extends WindowsRadioButtonUI
         }
         return windowsCheckBoxUI;
     }
+
 
     public String getPropertyPrefix() {
         return propertyPrefix;

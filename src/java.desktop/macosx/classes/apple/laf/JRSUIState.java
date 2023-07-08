@@ -21,7 +21,22 @@
 
 package java.desktop.macosx.classes.apple.laf;
 
+
 import java.desktop.macosx.classes.apple.laf.JRSUIConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("unchecked")
 public class JRSUIState {

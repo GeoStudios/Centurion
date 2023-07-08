@@ -21,8 +21,23 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
+
 import java.util.Map;
 import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class SettingsLog {
     private static final Map<String, String> settings = new TreeMap<>();

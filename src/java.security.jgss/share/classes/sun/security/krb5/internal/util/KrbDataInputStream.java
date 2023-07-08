@@ -21,9 +21,24 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.util;
 
+
 import java.io.BufferedInputStream;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a buffered input stream. It provides methods to read a chunck

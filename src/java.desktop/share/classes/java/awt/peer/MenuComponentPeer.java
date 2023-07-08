@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.awt.MenuComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base interface for all kinds of menu components. This is used by

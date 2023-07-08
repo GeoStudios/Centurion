@@ -21,6 +21,22 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Size {
 
     private int rows;

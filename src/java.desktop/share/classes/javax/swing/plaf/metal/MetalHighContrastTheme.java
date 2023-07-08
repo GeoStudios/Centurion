@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import java.desktop.share.classes.javax.swing.plaf.metal.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A high contrast theme. This is used on Windows if the system property
@@ -46,6 +61,7 @@ class MetalHighContrastTheme extends DefaultMetalTheme {
                               204, 204, 204);
     private static final ColorUIResource secondary3 = new ColorUIResource(
                               255, 255, 255);
+
 
     // This does not override getSecondary1 (102,102,102)
 

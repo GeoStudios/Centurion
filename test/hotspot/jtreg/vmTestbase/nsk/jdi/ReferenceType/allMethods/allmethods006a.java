@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.allMethods;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -73,6 +87,7 @@ public class allmethods006a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(allmethods006.SIGNAL_READY);
+
 
         //pipe.println(allmethods006.SIGNAL_GO);
         receiveSignal(allmethods006.SIGNAL_QUIT);

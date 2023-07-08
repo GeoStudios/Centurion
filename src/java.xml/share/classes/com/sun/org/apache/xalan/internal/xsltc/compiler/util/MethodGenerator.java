@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
@@ -70,9 +71,26 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: MethodGenerator.java,v 1.2.4.1 2005/09/05 11:16:47 pvedula Exp $
  */
+
+
+
 
 /**
  * @LastModified: July 2019
@@ -128,6 +146,7 @@ public class MethodGenerator extends MethodGen
                  * and "@*" can between shared by test sequences.
                  */
         private final Map<Pattern, InstructionList> _preCompiled = new HashMap<>();
+
 
     public MethodGenerator(int access_flags, Type return_type,
                            Type[] arg_types, String[] arg_names,
@@ -191,6 +210,7 @@ public class MethodGenerator extends MethodGen
                                           "endDocument",
                                           "()V");
         _endDocument = new INVOKEINTERFACE(index, 1);
+
 
         index = cpg.addInterfaceMethodref(NODE_ITERATOR,
                                           SET_START_NODE,

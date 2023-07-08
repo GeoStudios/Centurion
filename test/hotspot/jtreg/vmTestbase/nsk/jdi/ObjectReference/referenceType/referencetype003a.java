@@ -21,9 +21,23 @@
 
 package nsk.jdi.ObjectReference.referenceType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the referencetype003 JDI test.
@@ -76,6 +90,7 @@ public class referencetype003a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -145,6 +160,7 @@ public class referencetype003a {
     }
 }
 
+
 class Threadreferencetype003a extends Thread {
 
     public Threadreferencetype003a(String threadName) {
@@ -175,6 +191,7 @@ class Threadreferencetype003a extends Thread {
         log("method 'run' exit");
         return;
     }
+
 
     void log(String str) {
         referencetype003a.log2("thread2: " + str);

@@ -21,6 +21,21 @@
 
 package nsk.share.log;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marker interface to inject Log.
  * @see nsk.share.log.Log

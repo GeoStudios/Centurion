@@ -21,7 +21,21 @@
 
 package compiler.compilercontrol.mixed;
 
+
 import compiler.compilercontrol.share.MultiCommand;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import compiler.compilercontrol.share.MultiCommand;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver/timeout=1200 compiler.compilercontrol.mixed.RandomCommandsTest
  */
+
+
 
 public class RandomCommandsTest {
     public static void main(String[] args) {

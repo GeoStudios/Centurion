@@ -21,6 +21,22 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class ErrorFrame extends Http2Frame {
 
     // error codes

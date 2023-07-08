@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.peer.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XLabelPeer extends XComponentPeer implements LabelPeer {
     /**
@@ -74,6 +89,7 @@ class XLabelPeer extends XComponentPeer implements LabelPeer {
         return new Dimension(w + TEXT_XPAD,
                              fm.getAscent() + fm.getMaxDescent() + TEXT_YPAD);
     }
+
 
     /**
      * Paint the label

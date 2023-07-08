@@ -21,11 +21,26 @@
 
 package java.base.share.classes.sun.security.x509;
 
+
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class identifies algorithms, such as cryptographic transforms, each
@@ -224,6 +239,7 @@ public class AlgorithmId implements Serializable, DerEncoder {
         tmp.write(DerValue.tag_Sequence, bytes);
         out.write(tmp.toByteArray());
     }
+
 
     /**
      * Returns the DER-encoded X.509 AlgorithmId as a byte array.

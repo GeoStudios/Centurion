@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLTErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
@@ -33,6 +34,20 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Execute the current() function.

@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.hotspot.test;
 
+
 import sun.hotspot.WhiteBox;
 import jdk.vm.ci.meta.Constant;
 import jdk.vm.ci.meta.JavaKind;
@@ -28,6 +29,19 @@ import jdk.vm.ci.meta.MemoryAccessProvider;
 import jdk.vm.ci.runtime.JVMCI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,9 @@ import org.testng.annotations.Test;
  *      -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *      -XX:-UseJVMCICompiler jdk.vm.ci.hotspot.test.MemoryAccessProviderTest
  */
+
+
+
 
 public class MemoryAccessProviderTest {
     private static final MemoryAccessProvider PROVIDER = JVMCI.getRuntime().getHostJVMCIBackend().getConstantReflection().getMemoryAccessProvider();

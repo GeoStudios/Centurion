@@ -21,6 +21,7 @@
 
 package gc.g1.plab;
 
+
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.io.PrintStream;
@@ -30,6 +31,19 @@ import gc.g1.plab.lib.PLABUtils;
 import gc.g1.plab.lib.PlabInfo;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestPLABPromotion
@@ -44,6 +58,9 @@ import jdk.test.lib.process.ProcessTools;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/timeout=240 gc.g1.plab.TestPLABPromotion
  */
+
+
+
 
 /**
  * Test checks PLAB promotion of different size objects.

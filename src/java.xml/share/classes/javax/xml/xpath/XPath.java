@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.javax.xml.xpath;
 
+
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
 import java.xml.share.classes.javax.xml.namespace.QName;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code XPath} provides access to the XPath evaluation environment and expressions.
@@ -97,6 +112,7 @@ import org.xml.sax.InputSource;
  * @see <a href="http://www.w3.org/TR/xpath">XML Path Language (XPath) Version 1.0</a>
  */
 public interface XPath {
+
 
     /**
      * Reset this {@code XPath} to its original configuration.

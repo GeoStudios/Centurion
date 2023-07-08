@@ -21,6 +21,7 @@
 
 package jdk.accessibility.windows.classes.com.sun.java.accessibility.internal;
 
+
 import jdk.accessibility.windows.classes.com.sun.java.awt.*;
 import jdk.accessibility.windows.classes.com.sun.java.awt.event.*;
 import jdk.accessibility.windows.classes.com.sun.java.util.*;
@@ -41,6 +42,20 @@ import jdk.accessibility.windows.classes.com.sun.awt.AppContext;
 import jdk.accessibility.windows.classes.com.sun.awt.SunToolkit;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Note: This class has to be public.  It's loaded from the VM like this:
@@ -69,6 +84,7 @@ final public class AccessBridge {
     private final ArrayList<AccessibleRole> noExtendedVirtualNameSearchParentRoles = new ArrayList<>();
 
     private static native boolean isSysWow();
+
 
     /**
      * Load DLLs
@@ -179,6 +195,7 @@ final public class AccessBridge {
             javaShutdown();
         }
     }
+
 
     /*
      * Initialize the hashtable that maps Strings to AccessibleRoles.
@@ -1650,6 +1667,7 @@ final public class AccessBridge {
         return -1;
     }
 
+
     /**
      * returns the AccessibleComponent from an AccessibleContext
      */
@@ -2218,6 +2236,7 @@ final public class AccessBridge {
         }, ac);
     }
 
+
     /**
      * return the bounding rectangle at index from an AccessibleContext
      */
@@ -2470,6 +2489,7 @@ final public class AccessBridge {
         return -1;
     }
 
+
     /**
      * return the first line indent from an AttributeSet
      */
@@ -2660,6 +2680,7 @@ final public class AccessBridge {
         return attrString;
     }
 
+
     /* ===== AccessibleValue methods ===== */
 
     /**
@@ -2745,6 +2766,7 @@ final public class AccessBridge {
         }
         return null;
     }
+
 
     /* ===== AccessibleSelection methods ===== */
 
@@ -2910,6 +2932,7 @@ final public class AccessBridge {
             }
         }, ac);
     }
+
 
     /*
      * returns the AccessibleContext that contains an AccessibleTable
@@ -3725,6 +3748,7 @@ final public class AccessBridge {
         return retval;
     }
 
+
     // ============ AccessibleKeyBinding =============
 
     /*
@@ -4374,6 +4398,7 @@ final public class AccessBridge {
         }, ac);
     }
 
+
     /**
      * Additional methods for Teton
      */
@@ -4970,6 +4995,7 @@ final public class AccessBridge {
     private static final long PROPERTY_VISIBLEDATA_CHANGE_EVENTS = 128;
     private static final long PROPERTY_CHILD_CHANGE_EVENTS = 256;
     private static final long PROPERTY_ACTIVEDESCENDENT_CHANGE_EVENTS = 512;
+
 
     private static final long PROPERTY_EVENTS = (PROPERTY_NAME_CHANGE_EVENTS |
                                                 PROPERTY_DESCRIPTION_CHANGE_EVENTS |
@@ -5607,6 +5633,7 @@ final public class AccessBridge {
         });
     }
 
+
     /**
      *  Wrapper method around eventHandler.addAccessibilityEventNotification()
      */
@@ -5727,6 +5754,7 @@ final public class AccessBridge {
      * A specialized dialog that lets the user choose a color.
      */
     AccessibleRole.COLOR_CHOOSER,
+
 
     /**
      * A pane that allows the user to navigate through
@@ -6555,6 +6583,7 @@ final public class AccessBridge {
             }
         }
 
+
             // AccessibleComponent methods
 
         /**
@@ -6593,6 +6622,7 @@ final public class AccessBridge {
                 }
             }
         }
+
 
         /**
          * Get the foreground color of this object.

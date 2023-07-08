@@ -21,6 +21,7 @@
 
 package vm.gc.concurrent;
 
+
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.lang.management.MemoryUsage;
@@ -41,6 +42,19 @@ import nsk.share.log.Log;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.LocalRandom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Forest {
 
     // the actual size of TreeNode in bytes in the memory calculated as occupied memory / count of nodes
@@ -52,6 +66,7 @@ class Forest {
 
     /* log from test */
     static Log log;
+
 
     static int treeHeight;
 
@@ -112,6 +127,7 @@ class Forest {
         throw new TestFailure("Should not reach here. The correct exit point is inside cycle");
     }
 
+
     int treesCount() {
         return trees.length;
     }
@@ -119,6 +135,8 @@ class Forest {
     long nodesCount() {
         return allNodesCount;
     }
+
+
 
     // Confirms that all trees are balanced and have the correct height.
     void checkTrees() {
@@ -166,6 +184,7 @@ class Forest {
         }
     }
 
+
     // Interchanges two randomly selected subtrees (of same size and depth) several times
     void swapSubtrees(long count) {
         for (int i = 0; i < count; i++) {
@@ -185,6 +204,7 @@ class Forest {
         }
 
     }
+
 
     static class AtomicCycleInteger extends AtomicInteger {
         private int max;
@@ -227,6 +247,7 @@ class Forest {
         }
     }
 
+
     // Given a balanced tree full and a smaller balanced tree partial,
     // replaces an appropriate subtree of full by partial, taking care
     // to preserve the shape of the full tree.
@@ -259,6 +280,8 @@ class Forest {
             full.setRight(partial);
         }
     }
+
+
 
 }
 public class Concurrent extends ThreadedGCTest implements GarbageProducerAware, GarbageProducer1Aware, MemoryStrategyAware {
@@ -362,6 +385,8 @@ public class Concurrent extends ThreadedGCTest implements GarbageProducerAware, 
         printStatistics();
     }
 
+
+
     private void doStep() {
         // allocate some young garbage
         if (youngGarbageSize != 0) {
@@ -414,6 +439,7 @@ public class Concurrent extends ThreadedGCTest implements GarbageProducerAware, 
     public void setGarbageProducer(GarbageProducer gp) {
         this.gpOld = gp;
     }
+
 
     @Override
     public void setGarbageProducer1(GarbageProducer gpYoung) {

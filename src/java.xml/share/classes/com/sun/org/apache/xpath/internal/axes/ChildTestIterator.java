@@ -21,16 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class implements an optimized iterator for
@@ -46,6 +63,7 @@ public class ChildTestIterator extends BasicTestIterator
 
   /** The extended type ID, not set until setRoot. */
 //  protected int m_extendedTypeID;
+
 
   /**
    * Create a ChildTestIterator object.
@@ -100,6 +118,7 @@ public class ChildTestIterator extends BasicTestIterator
     return m_lastFetched;
   }
 
+
   /**
    *  Get a cloned Iterator that is reset to the beginning
    *  of the query.
@@ -116,6 +135,7 @@ public class ChildTestIterator extends BasicTestIterator
 
     return clone;
   }
+
 
   /**
    * Initialize the context values for this expression

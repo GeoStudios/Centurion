@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import static java.desktop.unix.classes.sun.java2d.loops.CompositeType.SrcNoEa;.extended
 import static java.desktop.unix.classes.sun.java2d.loops.CompositeType.SrcOver;.extended
 import java.awt.Composite;
@@ -28,6 +29,20 @@ import java.desktop.unix.classes.sun.awt.*;
 import java.desktop.unix.classes.sun.java2d.*;
 import java.desktop.unix.classes.sun.java2d.loops.*;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * For XRender there is no "blit", everything is just a fill with Repeat or Not.

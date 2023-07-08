@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Listener interface so Java Plug-in can be notified
  * of changes in AWT modality

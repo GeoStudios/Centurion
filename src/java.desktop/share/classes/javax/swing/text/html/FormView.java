@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.net.*;
 import java.io.*;
 import java.awt.*;
@@ -29,6 +30,20 @@ import java.util.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Component decorator that implements the view interface
@@ -191,6 +206,7 @@ public class FormView extends ComponentView implements ActionListener {
         }
         return c;
     }
+
 
     /**
      * Creates a component for an &lt;INPUT&gt; element based on the
@@ -394,6 +410,7 @@ public class FormView extends ComponentView implements ActionListener {
         return super.getMaximumSpan(axis);
     }
 
+
     /**
      * Responsible for processing the ActionEvent.
      * If the element associated with the FormView,
@@ -430,6 +447,7 @@ public class FormView extends ComponentView implements ActionListener {
             }
         }
     }
+
 
     /**
      * This method is responsible for submitting the form data.
@@ -605,6 +623,7 @@ public class FormView extends ComponentView implements ActionListener {
         return data;
     }
 
+
     /**
      * The following methods provide functionality required to
      * iterate over a the elements of the form and in the case
@@ -613,6 +632,7 @@ public class FormView extends ComponentView implements ActionListener {
      * case of reset, reinitialize the each model to its
      * initial state.
      */
+
 
     /**
      * Returns the Element representing the <code>FORM</code>.
@@ -697,6 +717,7 @@ public class FormView extends ComponentView implements ActionListener {
         }
     }
 
+
     /**
      * Returns the data associated with an &lt;INPUT&gt; form
      * element.  The value of "type" attributes is
@@ -759,6 +780,7 @@ public class FormView extends ComponentView implements ActionListener {
             return null;
         }
     }
+
 
     /**
      * Loads the buffer with the data associated with the Select
@@ -930,6 +952,7 @@ public class FormView extends ComponentView implements ActionListener {
             }
         }
     }
+
 
     /**
      * BrowseFileAction is used for input type == file. When the user

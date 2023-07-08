@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.swing.text;
 
+
 import javax.swing.undo.UndoableEdit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * UndoableEdit support for undo/redo actions synchronization

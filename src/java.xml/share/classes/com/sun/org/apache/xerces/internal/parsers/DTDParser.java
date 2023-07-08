@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.DTDGrammar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
@@ -32,10 +33,27 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIExceptio
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  */

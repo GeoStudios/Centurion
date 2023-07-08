@@ -21,6 +21,21 @@
 
 package vm.compiler.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Random {
     private int current;
 
@@ -39,6 +54,7 @@ public class Random {
     public int nextInt(int n) {
         return nextInt() % n;
     }
+
 
     /**
      * for testing purposes

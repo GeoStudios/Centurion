@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import java.awt.*;
 import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.DragGesturejava.util.Listener;
@@ -51,6 +52,20 @@ import java.desktop.share.classes.sun.awt.LightweightFrame;
 import java.desktop.share.classes.sun.awt.OverrideNativeWindowHandle;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
 import java.desktop.share.classes.sun.swing.SwingUtilities2.Repaintjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The frame serves as a lightweight container which paints its content
@@ -493,6 +508,7 @@ public final class JLightweightFrame extends LightweightFrame implements RootPan
         return getRootPane().getGlassPane();
     }
 
+
     /*
      * Notifies client toolkit that it should change a cursor.
      *
@@ -528,6 +544,7 @@ public final class JLightweightFrame extends LightweightFrame implements RootPan
             closeWindow.run();
         }
     }
+
 
     public <T extends DragGestureRecognizer> T createDragGestureRecognizer(
             Class<T> abstractRecognizerClass,

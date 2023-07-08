@@ -21,6 +21,7 @@
 
 package stream.EventsTest;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import javax.xml.stream.EventFilter;
@@ -30,6 +31,19 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.XMLEvent;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

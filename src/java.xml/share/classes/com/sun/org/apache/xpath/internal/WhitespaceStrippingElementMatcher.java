@@ -21,13 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
+
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * A class that implements this interface can tell if a given element should

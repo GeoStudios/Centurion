@@ -21,7 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents an intersection type.

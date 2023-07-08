@@ -21,8 +21,22 @@
 
 package javax.xml.parsers.ptests;
 
+
 import static jaxp.library.JAXPTestUtilities.FILE_SEP;.extended
 import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility interface which includes final variables of XML, golden file
@@ -34,6 +48,7 @@ public class ParserTestConst {
      */
     public static final String XML_DIR = getPathByClassName(ParserTestConst.class,
             ".." + FILE_SEP + "xmlfiles");
+
 
     /**
      * Golden validation files directory.

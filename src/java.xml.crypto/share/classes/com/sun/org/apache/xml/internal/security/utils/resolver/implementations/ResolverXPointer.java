@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations;
 
+
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverContext;
@@ -30,10 +31,26 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Handles barename XPointer Reference URIs.

@@ -21,9 +21,23 @@
 
 package nsk.monitoring.LockTest.LockTest002;
 
+
 import java.lang.management.ThreadInfo;
 import java.lang.management.ManagementFactory;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,9 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm nsk.monitoring.LockTest.LockTest002.LockTest002
  */
+
+
+
 
 public class LockTest002
 {

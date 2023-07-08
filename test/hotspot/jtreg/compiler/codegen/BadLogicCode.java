@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4157675
@@ -28,6 +43,7 @@ package compiler.codegen;
  * @author Tom Rodriguez
  * @run main compiler.codegen.BadLogicCode
  */
+
 
 public class BadLogicCode {
     static int values[] = {Integer.MIN_VALUE, -1, 0, 1, 4, 16, 31,

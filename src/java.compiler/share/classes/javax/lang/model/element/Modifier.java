@@ -21,6 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a modifier on a program element such
  * as a class, method, or field.

@@ -21,6 +21,21 @@
 
 package compiler.arguments;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8223769
@@ -28,6 +43,7 @@ package compiler.arguments;
  * @run main/othervm -Xcomp -XX:+IgnoreUnrecognizedVMOptions -XX:+StressReflectiveCode
  *                   compiler.arguments.TestStressReflectiveCode
  */
+
 
 public class TestStressReflectiveCode {
 

@@ -21,9 +21,24 @@
 
 package java.base.share.classes.sun.security.provider;
 
+
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Optimized methods for converting between byte[] and int[]/long[], both for
@@ -178,6 +193,7 @@ final class ByteArrayAccess {
             inOfs += 8;
         }
     }
+
 
     /**
      * long[] to byte[] conversion, little endian byte order

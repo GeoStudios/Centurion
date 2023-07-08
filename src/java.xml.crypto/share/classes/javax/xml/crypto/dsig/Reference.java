@@ -21,15 +21,32 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.Data;
 import java.xml.crypto.share.classes.javax.xml.crypto.URIReference;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.io.InputStream;
 import java.util.java.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: Reference.java,v 1.9 2005/05/10 16:03:46 mullan Exp $
  */
+
+
 
 /**
  * A representation of the <code>Reference</code> element as defined in the

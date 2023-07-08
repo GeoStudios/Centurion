@@ -21,9 +21,23 @@
 
 package nsk.jvmti.SuspendThreadList;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class suspendthrdlst001 extends DebugeeClass {
 

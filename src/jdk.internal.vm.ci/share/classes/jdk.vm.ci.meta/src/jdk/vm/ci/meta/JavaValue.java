@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marker interface for things that represent a Java value.
  */

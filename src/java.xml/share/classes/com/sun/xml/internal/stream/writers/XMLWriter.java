@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XMLWriter

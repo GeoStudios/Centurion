@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequestManager.deleteEventRequests;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the delevtreqs002 JDI test.

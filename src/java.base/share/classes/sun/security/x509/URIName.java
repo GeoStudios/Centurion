@@ -21,10 +21,25 @@
 
 package java.base.share.classes.sun.security.x509;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.base.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the URIName as required by the GeneralNames

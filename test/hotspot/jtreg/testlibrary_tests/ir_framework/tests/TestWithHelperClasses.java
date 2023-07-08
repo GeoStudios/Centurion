@@ -21,10 +21,24 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.driver.TestVMException;
 import compiler.lib.ir_framework.shared.TestFormatException;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -100,6 +114,7 @@ public class TestWithHelperClasses {
         }
     }
 
+
     static class StaticNestedHelper {
         @ForceCompile(CompLevel.C2)
         public void foo() {
@@ -134,6 +149,7 @@ class BadHelperClass {
     @Test
     public void test1() {}
  }
+
 
 class BadHelper {
     @Test

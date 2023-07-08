@@ -21,9 +21,26 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.text.Bidi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class BidiUtils {
+
+
 
     /**
      * Return the level of each character into the levels array starting at start.
@@ -148,6 +165,7 @@ public final class BidiUtils {
 
         return result;
     }
+
 
     /**
      * Return an array containing contiguous values from 0 to length

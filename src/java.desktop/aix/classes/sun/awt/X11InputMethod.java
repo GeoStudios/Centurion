@@ -21,6 +21,7 @@
 
 package java.desktop.aix.classes.sun.awt;
 
+
 import java.awt.AWTException;
 import java.awt.EventQueue;
 import java.awt.event.InputMethodEvent;
@@ -29,6 +30,20 @@ import java.awt.font.TextHitInfo;
 import java.awt.peer.ComponentPeer;
 import java.text.AttributedString;
 import java.desktop.aix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Input Method Adapter for XIM for AIX

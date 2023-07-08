@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This exception is thrown to indicate that the operation reached
@@ -51,6 +66,7 @@ import java.util.Hashtable;
   * name (a Name object), the environment (a Hashtable), the altName field
   * (a Name object), and the serialized form of the altNameCtx field.
   */
+
 
 public class CannotProceedException extends NamingException {
     /**
@@ -270,6 +286,7 @@ public class CannotProceedException extends NamingException {
     public void setAltNameCtx(Context altNameCtx) {
         this.altNameCtx = altNameCtx;
     }
+
 
     /**
      * Use serialVersionUID from JNDI 1.1.1 for interoperability

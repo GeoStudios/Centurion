@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The CatalogFeatures holds a collection of features and properties.

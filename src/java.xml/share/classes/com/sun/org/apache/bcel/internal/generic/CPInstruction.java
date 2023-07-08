@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constant;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantClass;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for instructions that use an index into the
@@ -43,12 +58,14 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
 
     private int index; // index to constant pool
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     CPInstruction() {
     }
+
 
     /**
      * @param index to constant pool
@@ -57,6 +74,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
         super(opcode, (short) 3);
         setIndex(index);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -67,6 +85,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
         out.writeByte(super.getOpcode());
         out.writeShort(index);
     }
+
 
     /**
      * Long output format:
@@ -82,6 +101,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
         return super.toString(verbose) + " " + index;
     }
 
+
     /**
      * @return mnemonic for instruction with symbolic references resolved
      */
@@ -95,6 +115,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
         return com.sun.org.apache.bcel.internal.Const.getOpcodeName(super.getOpcode()) + " " + str;
     }
 
+
     /**
      * Read needed data (i.e., index) from file.
      * @param bytes input stream
@@ -106,6 +127,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
         super.setLength(3);
     }
 
+
     /**
      * @return index in constant pool referred by this instruction.
      */
@@ -113,6 +135,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
     public final int getIndex() {
         return index;
     }
+
 
     /**
      * Set the index to constant pool.
@@ -125,6 +148,7 @@ public abstract class CPInstruction extends Instruction implements TypedInstruct
         }
         this.index = index;
     }
+
 
     /** @return type related with this instruction.
      */

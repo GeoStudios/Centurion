@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
+
 import org.w3c.dom.TypeInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides access to the type information determined

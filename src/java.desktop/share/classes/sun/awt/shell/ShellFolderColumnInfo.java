@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.awt.shell;
 
+
 import javax.swing.*;
 import java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ShellFolderColumnInfo {
     private String title;

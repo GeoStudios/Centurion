@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
+
 import java.util.Enumeration;
 import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the requirements for a table column model object suitable for

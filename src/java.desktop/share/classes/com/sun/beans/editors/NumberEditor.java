@@ -21,12 +21,28 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
+
 import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract Property editor for a java builtin number types.
  *
  */
+
 
 public abstract class NumberEditor extends PropertyEditorSupport {
 

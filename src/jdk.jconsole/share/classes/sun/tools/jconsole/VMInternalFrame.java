@@ -21,9 +21,24 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import javax.swing.*;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class VMInternalFrame extends MaximizableInternalFrame {

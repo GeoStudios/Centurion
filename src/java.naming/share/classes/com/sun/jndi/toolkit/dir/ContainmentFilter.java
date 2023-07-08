@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.dir;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Supports checking an attribute set satisfies a filter
@@ -31,6 +46,9 @@ import javax.naming.directory.*;
   * is a superset of the matching ones.
   *
   */
+
+
+
 
 public class ContainmentFilter implements AttrFilter {
     private final Attributes matchingAttrs;

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * General purpose LZW String Table.

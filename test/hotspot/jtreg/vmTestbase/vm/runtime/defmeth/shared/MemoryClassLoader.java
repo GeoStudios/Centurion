@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -28,6 +29,19 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class loader for classes from internal in-memory cache

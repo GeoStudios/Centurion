@@ -21,9 +21,24 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
+
 import java.util.Map;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An {@link AbstractInsnNode} that encapsulates a {@link Label}. */
 public class LabelNode extends AbstractInsnNode {

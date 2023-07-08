@@ -21,10 +21,24 @@
 
 package jdk.test.lib.jittester.loops;
 
+
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.Block;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class While extends IRNode {
 

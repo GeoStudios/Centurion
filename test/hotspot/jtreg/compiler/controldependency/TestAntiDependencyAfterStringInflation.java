@@ -21,6 +21,21 @@
 
 package compiler.controldependency;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8262739
@@ -28,6 +43,7 @@ package compiler.controldependency;
  * @run main/othervm -Xbatch
  *                   compiler.controldependency.TestAntiDependencyAfterStringInflation
  */
+
 
 public class TestAntiDependencyAfterStringInflation {
 

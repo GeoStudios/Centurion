@@ -21,13 +21,29 @@
 
 package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
+
 import java.rmi.*;
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The RemoteReference interface wraps a Reference in a Remote wrapper.
  *
  */
+
 
 public interface RemoteReference extends Remote {
 

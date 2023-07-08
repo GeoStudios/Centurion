@@ -21,8 +21,22 @@
 
 package javax.xml.transform.ptests;
 
+
 import static jaxp.library.JAXPTestUtilities.FILE_SEP;.extended
 import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the Base test class provide basic support for JAXP functional test
@@ -33,6 +47,7 @@ public class TransformerTestConst {
      */
     public static final String XML_DIR = getPathByClassName(TransformerTestConst.class,
             ".." + FILE_SEP + "xmlfiles");
+
 
     /**
      * Golden validation files directory.

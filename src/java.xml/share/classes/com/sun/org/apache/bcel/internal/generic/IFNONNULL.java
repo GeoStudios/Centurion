@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * IFNONNULL - Branch if reference is not null
@@ -41,9 +58,11 @@ public class IFNONNULL extends IfInstruction {
     IFNONNULL() {
     }
 
+
     public IFNONNULL(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.IFNONNULL, target);
     }
+
 
     /**
      * @return negation of instruction
@@ -52,6 +71,7 @@ public class IFNONNULL extends IfInstruction {
     public IfInstruction negate() {
         return new IFNULL(super.getTarget());
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

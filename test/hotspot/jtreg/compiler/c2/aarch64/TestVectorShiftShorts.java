@@ -21,6 +21,21 @@
 
 package compiler.c2.aarch64;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8255287
@@ -31,6 +46,7 @@ package compiler.c2.aarch64;
  *      -XX:CompileCommand=compileonly,compiler.c2.aarch64.TestVectorShiftShorts::test_*
  *      compiler.c2.aarch64.TestVectorShiftShorts
  */
+
 
 public class TestVectorShiftShorts {
 

@@ -21,12 +21,27 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
 import java.lang.reflect.Array;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a resolved Java method. Methods, like fields and types, are resolved through

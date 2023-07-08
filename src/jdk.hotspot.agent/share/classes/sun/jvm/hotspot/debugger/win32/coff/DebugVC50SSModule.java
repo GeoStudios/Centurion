@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface DebugVC50SSModule extends DebugVC50Subsection {
   short getOverlayNumber();
   /** Index into sstLibraries subsection if this module was linked

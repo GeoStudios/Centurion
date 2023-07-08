@@ -21,6 +21,7 @@
 
 package metaspace.stressDictionary;
 
+
 import java.util.*;
 import java.lang.management.ManagementFactory;
 import java.lang.reflect.InvocationTargetException;
@@ -30,6 +31,19 @@ import java.util.concurrent.atomic.AtomicLong;
 import nsk.share.gc.GCTestBase;
 import nsk.share.test.*;
 import vm.share.InMemoryJavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,9 @@ import vm.share.InMemoryJavaCompiler;
  * @library /vmTestbase /test/lib
  * @run main/othervm/timeout=600 metaspace.stressDictionary.StressDictionary -stressTime 30
  */
+
+
+
 
 /**
  * There is a data structure named "dictionary" in class BlockFreelist. It stores

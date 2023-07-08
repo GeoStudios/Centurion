@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.string;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,8 @@ import jdk.test.lib.Asserts;
  *
  * @run main compiler.intrinsics.string.TestStringIntrinsicMemoryFlow
  */
+
+
 
 public class TestStringIntrinsicMemoryFlow {
 

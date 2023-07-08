@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents strings that are arguments to relational constraints.
  * A <CODE>StringValueExp</CODE> may be used anywhere a <CODE>ValueExp</CODE> is required.
@@ -68,6 +84,7 @@ public class StringValueExp implements ValueExp   {
     public String toString()  {
         return "'" + val.replace("'", "''") + "'";
     }
+
 
     /**
      * Sets the MBean server on which the query is to be performed.

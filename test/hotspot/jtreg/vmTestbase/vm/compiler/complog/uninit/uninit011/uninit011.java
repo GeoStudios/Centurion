@@ -21,7 +21,21 @@
 
 package vm.compiler.complog.uninit.uninit011;
 
+
 import vm.compiler.complog.share.Constants;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,7 @@ import vm.compiler.complog.share.Constants;
  *      -parserClass vm.compiler.complog.uninit.UninitializedTrapCounter
  *      -parserOptions "-classFilter=.*uninit.*"
  */
+
 
 /**
  * Provoke compilation of uninitialized class's static method

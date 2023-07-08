@@ -21,10 +21,25 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaMethodProfile;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaTypeProfile;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ProfilingInfo;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.TriState;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for accessing the different kinds of data in a HotSpot {@code MethodData}. This is

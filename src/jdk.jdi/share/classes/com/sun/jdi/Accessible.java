@@ -21,6 +21,22 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Provides information on the accessibility of a type or type component.
  * Mirrors for program elements which allow an

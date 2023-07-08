@@ -21,7 +21,21 @@
 
 package compiler.vectorapi;
 
+
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestVectorErgonomics
@@ -31,6 +45,7 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver compiler.vectorapi.TestVectorErgonomics
  */
+
 
 public class TestVectorErgonomics {
 

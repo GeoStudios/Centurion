@@ -21,6 +21,22 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * When sending a frame, the length field must be set in sub-class
  * by calling computeLength()
@@ -61,6 +77,7 @@ public abstract class Http2Frame {
         this.streamid = streamid;
     }
 
+
     private String typeAsString() {
         return asString(type());
     }
@@ -72,6 +89,7 @@ public abstract class Http2Frame {
     int length() {
         return -1; // Unknown length
     }
+
 
     public static String asString(int type) {
         return switch (type) {

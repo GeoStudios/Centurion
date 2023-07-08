@@ -21,7 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common base class for all HotSpot {@link JavaType} implementations.

@@ -21,10 +21,24 @@
 
 package gc.g1;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jtreg.SkippedException;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestLargePageUseForHeap.java
@@ -39,6 +53,7 @@ import sun.hotspot.WhiteBox;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
         -XX:+IgnoreUnrecognizedVMOptions -XX:+UseLargePages gc.g1.TestLargePageUseForHeap
  */
+
 
 public class TestLargePageUseForHeap {
     static long largePageSize;

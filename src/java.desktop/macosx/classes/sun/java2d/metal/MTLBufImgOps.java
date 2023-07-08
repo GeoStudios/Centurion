@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
+
 import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
@@ -32,6 +33,20 @@ import java.awt.image.ConvolveOp;
 import java.awt.image.LookupOp;
 import java.awt.image.RescaleOp;
 import static java.desktop.macosx.classes.sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_BIOP_SHADER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MTLBufImgOps extends BufferedBufImgOps {
 

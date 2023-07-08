@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Auxiliary class for GenerateOopMap */
 public class CellTypeState {

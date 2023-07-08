@@ -21,6 +21,7 @@
 
 package sax;
 
+
 import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
 import java.io.StringReader;
 import javax.xml.parsers.SAXParser;
@@ -30,6 +31,19 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -56,6 +70,7 @@ public class SymbolTableResetTest {
     public void testNoFeatureSet() throws Exception {
         parseAndCheckReset(false, false);
     }
+
 
     /*
      * Test that when symbol table reset is requested through parser

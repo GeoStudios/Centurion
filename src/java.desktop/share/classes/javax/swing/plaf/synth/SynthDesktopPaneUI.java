@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -48,6 +49,20 @@ import java.desktop.share.classes.javax.swing.border.BevelBorder;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicDesktopPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -404,6 +419,7 @@ public class SynthDesktopPaneUI extends BasicDesktopPaneUI implements
                 }
             }
         }
+
 
         public void deiconifyFrame(JInternalFrame f) {
             JInternalFrame.JDesktopIcon desktopIcon = f.getDesktopIcon();

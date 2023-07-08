@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.util;
 
+
 import jdk.internal.util.Preconditions;
 import jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists of {@code static} utility methods for operating

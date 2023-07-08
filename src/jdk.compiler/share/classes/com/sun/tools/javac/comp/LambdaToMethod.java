@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodHandleSymbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.SignatureGenerator.InvalidSignatureException;
 import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
@@ -61,6 +62,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.type.TypeKind;
 import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This pass desugars lambda expressions into static methods
@@ -170,6 +185,7 @@ public class LambdaToMethod extends TreeTranslator {
             this.symbol = symbol;
             this.tree = tree;
         }
+
 
         @Override
         public int hashCode() {
@@ -330,6 +346,7 @@ public class LambdaToMethod extends TreeTranslator {
                     owner::getRawTypeAttributes,
                     owner::setTypeAttributes,
                     sym::setTypeAttributes);
+
 
             boolean init;
             if ((init = (owner.name == names.init)) || owner.name == names.clinit) {
@@ -498,6 +515,7 @@ public class LambdaToMethod extends TreeTranslator {
         }
 
         List<JCExpression> indy_args = init==null? List.nil() : translate(List.of(init), localContext.prev);
+
 
         //build a sam instance using an indy call to the meta-factory
         result = makeMetafactoryIndyCall(localContext, refSym.asHandle(), indy_args);

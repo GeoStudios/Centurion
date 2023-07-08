@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the validation mechanism for Swing components. GUIs often

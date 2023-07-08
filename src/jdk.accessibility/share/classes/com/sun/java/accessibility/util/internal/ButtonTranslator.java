@@ -21,12 +21,27 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util.internal;
 
+
 import jdk.accessibility.share.classes.com.sun.java.lang.*;
 import jdk.accessibility.share.classes.com.sun.java.util.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.image.*;
 import javax.accessibility.*;
 import jdk.accessibility.share.classes.com.sun.java.accessibility.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The Translator class provides a translation to interface Accessible

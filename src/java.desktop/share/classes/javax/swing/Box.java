@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
 import java.beans.ConstructorProperties;
 import java.desktop.share.classes.javax.accessibility.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A lightweight container
@@ -280,6 +295,7 @@ public class Box extends JComponent implements Accessible {
             g.fillRect(0, 0, getWidth(), getHeight());
         }
     }
+
 
     /**
      * An implementation of a lightweight component that participates in

@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.getValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -128,6 +142,7 @@ public class getvalue003 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -176,8 +191,10 @@ public class getvalue003 {
                 break ;
             }
 
+
             log2("      getting ReferenceType and ClassType objects for debuggeeClass");
             ReferenceType debuggeeClass = (ReferenceType) classes.get(0);
+
 
             String objName            = "testObj";
 
@@ -186,12 +203,14 @@ public class getvalue003 {
             String tIfaceObjName      = "iface_0";
             String tPrimArrayObjName  = "bl1";
 
+
             String className           = "nsk.jdi.ObjectReference.getValue.getvalue003aTestClass";
 
             String tClassTypeName      = "nsk.jdi.ObjectReference.getValue.getvalue003aClassForCheck_2";
             String tClassArrayTypeName = "nsk.jdi.ObjectReference.getValue.getvalue003aClassForCheck[]";
             String tIfaceTypeName      = "nsk.jdi.ObjectReference.getValue.getvalue003aClassForCheck_2";
             String tPrimArrayTypeName  = "boolean[][][][]";
+
 
             Field           field1  = null;
             Field           field2  = null;
@@ -204,6 +223,7 @@ public class getvalue003 {
 
             ReferenceType   classRef  = null;
 
+
             log2("......getting the mirror of tested getvalue003aTestClass obj : ObjectReference objRef");
 
             field1  = debuggeeClass.fieldByName(objName);
@@ -214,6 +234,7 @@ public class getvalue003 {
 
             classes   = vm.classesByName(testedClassName);
             classRef  = (ReferenceType) classes.get(0);
+
 
             log2("......checking up on class ClassType Field: getvalue003aClassForCheck_2 class2_0");
 
@@ -228,6 +249,7 @@ public class getvalue003 {
                 testExitCode = FAILED;
             }
 
+
             log2("......checking up on class ArrayType Field: getvalue003aClassForCheck[] cfc_0");
 
             field2    = classRef.fieldByName(tClassArrayObjName);
@@ -241,6 +263,7 @@ public class getvalue003 {
                 testExitCode = FAILED;
             }
 
+
             log2("......checking up on class InterfaceType Field: getvalue003aInterfaceForCheck iface_0");
 
             field2    = classRef.fieldByName(tIfaceObjName);
@@ -253,6 +276,7 @@ public class getvalue003 {
                 log3("ERROR: type of Value == " + str);
                 testExitCode = FAILED;
             }
+
 
             log2("......checking up on class PrimitiveArrayType Field: boolean[][][][] bl1");
 

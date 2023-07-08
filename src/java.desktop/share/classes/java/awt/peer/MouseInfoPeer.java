@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
+
 import java.desktop.share.classes.java.awt.Window;
 import java.desktop.share.classes.java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Peer interface for {@link java.awt.MouseInfo}. This is used to get

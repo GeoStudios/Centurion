@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.io.*;
 import java.lang.management.*;
@@ -32,6 +33,20 @@ import java.util.function.LongSupplier;
 import javax.swing.*;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Formatter.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 class SummaryTab extends Tab {
@@ -80,6 +95,7 @@ class SummaryTab extends Tab {
             public Result doInBackground() {
                 return formatSummary();
             }
+
 
             protected void done() {
                 try {

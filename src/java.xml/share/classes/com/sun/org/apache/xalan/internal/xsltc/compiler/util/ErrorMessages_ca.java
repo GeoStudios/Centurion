@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */
@@ -109,6 +126,7 @@ public class ErrorMessages_ca extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "La plantilla ''{0}'' ja est\u00e0 definida en aquest full d''estils."},
+
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -658,8 +676,10 @@ public class ErrorMessages_ca extends ListResourceBundle {
         {ErrorMsg.XSLTC_SOURCE_ERR,
         "S'ha cridat XSLTCSource.build() sense que s'hagu\u00e9s establert la identificaci\u00f3 del sistema."},
 
+
         {ErrorMsg.COMPILE_STDIN_ERR,
         "L'opci\u00f3 -i s'ha d'utilitzar amb l'opci\u00f3 -o."},
+
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -684,6 +704,8 @@ public class ErrorMessages_ca extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "RESUM \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <fitxer_jar>]\n      [-x] [-s] [-n <iteracions>] {-u <url_document> | <document>}\n      <classe> [<par\u00e0m1>=<valor1> ...]\n\n   utilitza la <classe> translet per transformar un document XML\n   especificat com a <document>. La <classe> translet es troba\n   o b\u00e9 a la CLASSPATH de l'usuari o b\u00e9 al <fitxer_jar> que es pot especificar opcionalment.\nOPCIONS\n   -j <fitxer_jar>    especifica un fitxer jar des del qual es pot carregar el translet\n   -x habilita la sortida de missatges de depuraci\u00f3 addicionals\n   -s              inhabilita la crida de System.exit\n   -n <iteracions> executa la transformaci\u00f3 el nombre de vegades <iteracions> i\n               mostra informaci\u00f3 de perfil\n   -u <url_document> especifica el document d'entrada XML com una URL\n"},
+
+
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and

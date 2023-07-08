@@ -21,12 +21,26 @@
 
 package propertiesparser;
 
+
 import propertiesparser.parser.MessageFile;
 import propertiesparser.gen.ClassGenerator;
 import java.io.File;
 import java.io.PrintStream;
 import java.util.TreeMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Translates a .properties file into a .java file containing an enum-like Java class
  *  which defines static factory methods for all resource keys in a given resource file. <P>

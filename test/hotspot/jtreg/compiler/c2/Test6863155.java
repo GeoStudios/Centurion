@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6863155
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6863155::test
  *      compiler.c2.Test6863155
  */
+
 
 public class Test6863155 {
     private static long test(byte b) {

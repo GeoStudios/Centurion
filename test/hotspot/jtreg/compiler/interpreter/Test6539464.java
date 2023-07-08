@@ -21,6 +21,21 @@
 
 package compiler.interpreter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6539464
@@ -30,6 +45,7 @@ package compiler.interpreter;
  *      -XX:CompileCommand=compileonly,compiler.interpreter.Test6539464::main
  *      compiler.interpreter.Test6539464
  */
+
 
 public class Test6539464 {
     static double log_value = 17197;

@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
+
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for shared methods among XMLStreamWriter implementations.

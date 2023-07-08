@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.util;
 
+
 import java.util.AbstractSequentialjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.ConcurrentModificationException;
@@ -29,6 +30,20 @@ import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Linked list implementation of the {@code List} interface.  Implements all
@@ -304,6 +319,7 @@ public class IdentityLinkedList<E>
         modCount++;
     }
 
+
     // Positional Access Operations
 
     /**
@@ -376,6 +392,7 @@ public class IdentityLinkedList<E>
         }
         return e;
     }
+
 
     // Search Operations
 

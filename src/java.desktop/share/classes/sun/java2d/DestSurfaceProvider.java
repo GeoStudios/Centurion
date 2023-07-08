@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d;
 
+
 import java.desktop.share.classes.sun.java2d.pipe.hw.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Classes implementing this interface provide access to their

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.javax.xml.parsers;
 
+
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -31,6 +32,20 @@ import org.xml.sax.EntityResolver;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the API to obtain DOM Document instances from an XML
@@ -52,6 +67,7 @@ import org.xml.sax.SAXException;
  */
 
 public abstract class DocumentBuilder {
+
 
     /** Protected constructor */
     protected DocumentBuilder () {
@@ -215,6 +231,7 @@ public abstract class DocumentBuilder {
     public abstract Document parse(InputSource is)
         throws SAXException, IOException;
 
+
     /**
      * Indicates whether or not this parser is configured to
      * understand namespaces.
@@ -307,6 +324,7 @@ public abstract class DocumentBuilder {
             + "\""
             );
     }
+
 
     /**
      * <p>Get the XInclude processing mode for this parser.</p>

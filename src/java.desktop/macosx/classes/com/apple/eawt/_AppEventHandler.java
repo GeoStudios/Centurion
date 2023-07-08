@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
+
 import java.awt.EventQueue;
 import java.awt.Frame;
 import java.awt.desktop.AboutEvent;
@@ -61,6 +62,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class _AppEventHandler {
     private static final int NOTIFY_ABOUT = 1;
@@ -266,6 +281,7 @@ class _AppEventHandler {
         }
     }
 
+
     class _AboutDispatcher extends _AppEventDispatcher<AboutHandler> {
         void performDefaultAction(final _NativeEvent event) {
             openCocoaAboutWindow(); // if the handler is null, fall back to showing the Cocoa default
@@ -426,6 +442,7 @@ class _AppEventHandler {
             handler.handleQuitRequestWith(new QuitEvent(), response);
         }
     }
+
 
 // -- ABSTRACT QUEUE/EVENT/LISTENER HELPERS --
 

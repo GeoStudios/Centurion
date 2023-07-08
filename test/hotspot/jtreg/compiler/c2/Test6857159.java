@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -36,6 +50,8 @@ import sun.hotspot.WhiteBox;
  *      -Xbatch -XX:CompileCommand=compileonly,compiler.c2.Test6857159$ct0::run
  *      compiler.c2.Test6857159
  */
+
+
 
 public class Test6857159 extends Thread {
     public static void main(String[] args) throws Exception {

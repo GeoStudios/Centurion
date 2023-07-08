@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import javax.xml.transform.Transformer;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This interface is meant to be used by a base interface to
@@ -43,6 +60,7 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
  */
 public interface TransformStateSetter
 {
+
 
   /**
    * Set the current node.

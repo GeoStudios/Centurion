@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Iterator;
@@ -30,6 +31,20 @@ import java.base.share.classes.jdk.internal.icu.lang.UCharacter.NumericType;
 import java.base.share.classes.jdk.internal.icu.text.UTF16;
 import java.base.share.classes.jdk.internal.icu.text.UnicodeSet;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * <p>Internal class used for Unicode character property database.</p>
@@ -326,6 +341,7 @@ public final class UCharacterProperty
                            LEAD_SURROGATE_SHIFT_) -
                            UTF16.TRAIL_SURROGATE_MIN_VALUE;
 
+
     // property data constants -------------------------------------------------
 
     /**
@@ -600,6 +616,7 @@ public final class UCharacterProperty
             throw new MissingResourceException(e.getMessage(),DATA_FILE_NAME_,"");
         }
     }
+
 
     // Moved from UProperty.java
     /**

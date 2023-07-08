@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This exception is thrown when the naming operation
   * being invoked has been interrupted. For example, an application

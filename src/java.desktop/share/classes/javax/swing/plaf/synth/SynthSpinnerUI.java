@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicSpinnerUI;
 import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -119,6 +134,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
         updateStyle(spinner);
     }
 
+
     private void updateStyle(JSpinner c) {
         SynthContext context = getContext(c, ENABLED);
         SynthStyle oldStyle = style;
@@ -131,6 +147,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
             }
         }
     }
+
 
     /**
      * Sets the <code>JSpinner's</code> layout manager to null.  This
@@ -159,6 +176,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
         return new SpinnerLayout();
     }
 
+
     /**
      * {@inheritDoc}
      */
@@ -170,6 +188,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
         return b;
     }
 
+
     /**
      * {@inheritDoc}
      */
@@ -180,6 +199,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
         installNextButtonListeners(b);
         return b;
     }
+
 
     /**
      * This method is called by installUI to get the editor component
@@ -211,6 +231,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
         updateEditorAlignment(editor);
         return editor;
     }
+
 
     /**
      * Called by the <code>PropertyChangeListener</code> when the
@@ -294,6 +315,7 @@ public class SynthSpinnerUI extends BasicSpinnerUI
                           g, 0, 0, c.getWidth(), c.getHeight());
         paint(context, g);
     }
+
 
     /**
      * Paints the specified component according to the Look and Feel.

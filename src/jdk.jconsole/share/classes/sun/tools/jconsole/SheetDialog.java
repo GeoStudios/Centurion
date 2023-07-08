@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -28,6 +29,20 @@ import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.text.*;
 import static javax.swing.JOptionPane.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public final class SheetDialog {
@@ -210,6 +225,8 @@ public final class SheetDialog {
         }
     }
 
+
+
     static class SheetOptionPane extends JOptionPane {
         SheetOptionPane(Object message, int messageType, int optionType,
                         Icon icon, Object[] options, Object initialValue) {
@@ -218,6 +235,7 @@ public final class SheetDialog {
             setBorder(new CompoundBorder(new LineBorder(new Color(204, 204, 204), 1),
                                          new EmptyBorder(4, 4, 4, 4)));
         }
+
 
         private static final Composite comp =
             AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.8F);

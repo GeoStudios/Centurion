@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8240905
@@ -28,6 +43,7 @@ package compiler.codegen;
  * @run main/othervm -Xbatch -XX:-TieredCompilation
  *                   compiler.codegen.TestMultiMemInstructionMatching
  */
+
 
 public class TestMultiMemInstructionMatching {
 

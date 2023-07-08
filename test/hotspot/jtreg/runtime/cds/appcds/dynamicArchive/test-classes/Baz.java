@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Baz implements Bar {
 
     public void foo() { System.out.println("OK"); }

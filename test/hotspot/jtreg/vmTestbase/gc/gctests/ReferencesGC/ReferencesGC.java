@@ -21,6 +21,7 @@
 
 package gc.gctests.ReferencesGC;
 
+
 import java.lang.ref.*;
 import nsk.share.TestFailure;
 import nsk.share.gc.Algorithms;
@@ -29,6 +30,19 @@ import nsk.share.gc.ThreadedGCTest;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -46,6 +60,8 @@ import nsk.share.test.ExecutionController;
  *      -ratio 0.9
  *      -t 1
  */
+
+
 
 public class ReferencesGC extends ThreadedGCTest {
 

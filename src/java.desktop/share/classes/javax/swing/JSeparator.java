@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,6 +31,20 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.SeparatorUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JSeparator</code> provides a general purpose component for
@@ -131,6 +146,7 @@ public class JSeparator extends JComponent implements SwingConstants, Accessible
         setUI((SeparatorUI)UIManager.getUI(this));
     }
 
+
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -142,6 +158,7 @@ public class JSeparator extends JComponent implements SwingConstants, Accessible
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
@@ -214,6 +231,7 @@ public class JSeparator extends JComponent implements SwingConstants, Accessible
                 throw new IllegalArgumentException( "orientation must be one of: VERTICAL, HORIZONTAL" );
         }
     }
+
 
     /**
      * Returns a string representation of this <code>JSeparator</code>.

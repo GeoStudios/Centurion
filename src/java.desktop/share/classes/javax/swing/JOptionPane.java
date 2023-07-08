@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
@@ -55,6 +56,20 @@ import java.desktop.share.classes.javax.swing.event.InternalFrameEvent;
 import java.desktop.share.classes.javax.swing.plaf.OptionPaneUI;
 import sun.awt.AWTAccessor;
 import static java.desktop.share.classes.javax.swing.ClientPropertyKey.PopupFactory_FORCE_HEAVYWEIGHT_POPUP;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JOptionPane</code> makes it easy to pop up a standard dialog box that
@@ -416,6 +431,7 @@ public class JOptionPane extends JComponent implements Accessible
     protected transient Object                initialSelectionValue;
     /** If true, a UI widget will be provided to the user to get input. */
     protected boolean                         wantsInput;
+
 
     /**
      * Shows a question-message dialog requesting input from the user. The
@@ -1028,6 +1044,7 @@ public class JOptionPane extends JComponent implements Accessible
         addPropertyChangeListener(listener);
     }
 
+
     /**
      * Brings up an internal confirmation dialog panel. The dialog
      * is a information-message dialog titled "Message".
@@ -1624,6 +1641,7 @@ public class JOptionPane extends JComponent implements Accessible
         return JOptionPane.getWindowForComponent(parentComponent.getParent());
     }
 
+
     /**
      * Returns the specified component's desktop pane.
      *
@@ -1863,6 +1881,7 @@ public class JOptionPane extends JComponent implements Accessible
         setUI((OptionPaneUI)UIManager.getUI(this));
     }
 
+
     /**
      * Returns the name of the UI class that implements the
      * {@literal L&F} for this component.
@@ -1875,6 +1894,7 @@ public class JOptionPane extends JComponent implements Accessible
     public String getUIClassID() {
         return uiClassID;
     }
+
 
     /**
      * Sets the option pane's message-object.
@@ -2288,6 +2308,7 @@ public class JOptionPane extends JComponent implements Accessible
         }
     }
 
+
     private static int styleFromMessageType(int messageType) {
         switch (messageType) {
         case ERROR_MESSAGE:
@@ -2443,6 +2464,7 @@ public class JOptionPane extends JComponent implements Accessible
             }
         }
     }
+
 
     /**
      * Returns a string representation of this <code>JOptionPane</code>.

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface for input method windows that need special handling
  * by input method window.

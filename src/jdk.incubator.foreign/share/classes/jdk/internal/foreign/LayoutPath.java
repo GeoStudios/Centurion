@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryHandles;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
@@ -40,6 +41,20 @@ import java.util.Deque;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.ToLongFunction;
 import java.util.function.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provide support for constructing layout paths; that is, starting from a root path (see {@link #rootPath(MemoryLayout, ToLongFunction)},

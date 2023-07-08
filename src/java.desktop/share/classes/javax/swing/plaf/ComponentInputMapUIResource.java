@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
+
 import java.desktop.share.classes.javax.swing.ComponentInputMap;
 import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A subclass of javax.swing.ComponentInputMap that implements UIResource.

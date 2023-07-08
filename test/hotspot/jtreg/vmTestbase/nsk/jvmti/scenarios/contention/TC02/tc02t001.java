@@ -21,9 +21,23 @@
 
 package nsk.jvmti.scenarios.contention.TC02;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS CLASS IS LINE NUMBER SENSITIVE
 

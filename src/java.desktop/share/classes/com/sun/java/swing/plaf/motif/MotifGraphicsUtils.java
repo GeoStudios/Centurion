@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.FontMetrics;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import javax.swing.JComponent;
 import javax.swing.SwingConstants;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  */

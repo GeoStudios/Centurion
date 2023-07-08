@@ -21,9 +21,23 @@
 
 package compiler.codegen;
 
+
 import jdk.test.lib.Utils;
 import java.util.BitSet;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -36,6 +50,9 @@ import java.util.Random;
  *
  * @run main/timeout=300 compiler.codegen.Test7100757
  */
+
+
+
 
 public class Test7100757 {
 

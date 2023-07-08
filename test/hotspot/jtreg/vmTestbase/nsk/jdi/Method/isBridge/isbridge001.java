@@ -21,12 +21,26 @@
 
 package nsk.jdi.Method.isBridge;
 
+
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test exercises the JDI method<br>

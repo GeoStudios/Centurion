@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
 import java.desktop.share.classes.java.awt.peer.SystemTrayPeer;
 import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
@@ -31,6 +32,20 @@ import sun.awt.AWTPermissions;
 import sun.awt.AppContext;
 import sun.awt.HeadlessToolkit;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code SystemTray} class represents the system tray for a
@@ -447,8 +462,10 @@ public class SystemTray {
         return getCurrentChangeSupport().getPropertyChangeListeners(propertyName);
     }
 
+
     // ***************************************************************
     // ***************************************************************
+
 
     /**
      * Support for reporting bound property changes for Object properties.

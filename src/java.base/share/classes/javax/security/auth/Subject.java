@@ -21,6 +21,7 @@
 
 package java.base.share.classes.javax.security.auth;
 
+
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.*;
@@ -36,6 +37,20 @@ import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
 import java.security.ProtectionDomain;
 import sun.security.util.ResourcesMgr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> A {@code Subject} represents a grouping of related information
@@ -582,6 +597,7 @@ public final class Subject implements java.io.Serializable {
     @SuppressWarnings("removal")
     private static AccessControlContext createContext(final Subject subject,
                                         final AccessControlContext acc) {
+
 
         return java.security.AccessController.doPrivileged
             (new java.security.PrivilegedAction<>() {

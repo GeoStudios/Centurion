@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8244407
@@ -30,6 +45,7 @@ package compiler.loopopts;
  *      -XX:CompileCommand=compileonly,compiler.loopopts.TestBeautifyLoops_2::testMethod
  *      compiler.loopopts.TestBeautifyLoops_2
  */
+
 
 public class TestBeautifyLoops_2 {
 

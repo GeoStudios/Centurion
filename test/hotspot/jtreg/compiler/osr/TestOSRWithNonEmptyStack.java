@@ -21,6 +21,7 @@
 
 package compiler.osr;
 
+
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Label;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -39,6 +40,19 @@ import static jdk.internal.org.objectweb.asm.Opcodes.ISTORE;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.POP;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8051344
@@ -47,6 +61,10 @@ import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
  * @run main/othervm -XX:CompileCommand=compileonly,TestCase::test
  *                   compiler.osr.TestOSRWithNonEmptyStack
  */
+
+
+
+
 
 public class TestOSRWithNonEmptyStack extends ClassLoader {
     private static final int CLASS_FILE_VERSION = 52;

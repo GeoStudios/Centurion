@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
+
 import java.awt.Rectangle;
 import java.awt.image.ColorModel;
 import java.awt.image.ComponentSampleModel;
@@ -55,6 +56,20 @@ import javax.imageio.event.IIOWriteWarningjava.util.Listener;
 import javax.imageio.plugins.bmp.BMPImageWriteParam;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java Image IO plugin writer for encoding a binary RenderedImage into
@@ -487,6 +502,7 @@ public class BMPImageWriter extends ImageWriter implements BMPConstants {
         if (padding != 0) {
             padding = 4 - padding;
         }
+
 
         // FileHeader is 14 bytes, BitmapHeader is 40 bytes,
         // add palette size and that is where the data will begin
@@ -1066,6 +1082,7 @@ public class BMPImageWriter extends ImageWriter implements BMPConstants {
         byte runVal1=0, runVal2=0, nextVal1=0, nextVal2=0;
         byte[] absBuf = new byte[256];
 
+
         runVal1 = bipixels[++j];
         runVal2 = bipixels[++j];
 
@@ -1260,6 +1277,7 @@ public class BMPImageWriter extends ImageWriter implements BMPConstants {
         }
     }
 
+
     private synchronized void incCompImageSize(int value){
         compImageSize = compImageSize + value;
     }
@@ -1282,6 +1300,7 @@ public class BMPImageWriter extends ImageWriter implements BMPConstants {
         // offset to image data
         stream.writeInt(offset);
     }
+
 
     private void writeInfoHeader(int headerSize,
                                  int bitsPerPixel) throws IOException {

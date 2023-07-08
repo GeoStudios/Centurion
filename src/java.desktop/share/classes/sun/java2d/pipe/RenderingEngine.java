@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
+
 import java.awt.Shape;
 import java.awt.BasicStroke;
 import java.awt.geom.PathIterator;
@@ -28,6 +29,20 @@ import java.awt.geom.AffineTransform;
 import java.security.AccessController;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
 import java.desktop.share.classes.sun.awt.geom.PathConsumer2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class abstracts a number of features for which the Java 2D
@@ -489,6 +504,7 @@ public abstract class RenderingEngine {
                                consumer.getClass().getName()+")");
             target.strokeTo(src, at, clip, bs, thin, normalize, antialias, consumer);
         }
+
 
         public float getMinimumAAPenSize() {
             System.out.println(name+".getMinimumAAPenSize()");

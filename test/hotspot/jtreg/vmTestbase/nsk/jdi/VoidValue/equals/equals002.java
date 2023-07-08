@@ -21,6 +21,7 @@
 
 package nsk.jdi.VoidValue.equals;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class equals002 {
 
@@ -48,6 +62,7 @@ public class equals002 {
     private ClassType testedClass;
     private ThreadReference thread;
     private static long waitTime;
+
 
     class TestRuntimeException extends RuntimeException {
         TestRuntimeException(String msg) {

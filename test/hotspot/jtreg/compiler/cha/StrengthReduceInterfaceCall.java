@@ -21,8 +21,22 @@
 
 package compiler.cha;
 
+
 import jdk.internal.vm.annotation.DontInline;
 import static compiler.cha.Utils.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -53,6 +67,8 @@ import static compiler.cha.Utils.*;.extended
  *                   -XX:+TieredCompilation -XX:TieredStopAtLevel=1
  *                      compiler.cha.StrengthReduceInterfaceCall
  */
+
+
 
 public class StrengthReduceInterfaceCall {
     public static void main(String[] args) {
@@ -517,6 +533,7 @@ public class StrengthReduceInterfaceCall {
         interface K21 extends J2 {}
         interface K22 extends J2 { Object m(); }
         interface K23 extends J2 { default Object m() { return WRONG; }}
+
 
         public void testMega1() {
             // 0. Trigger compilation of megamorphic call site

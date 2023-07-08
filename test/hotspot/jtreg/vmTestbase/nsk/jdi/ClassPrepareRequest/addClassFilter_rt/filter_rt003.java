@@ -21,6 +21,7 @@
 
 package nsk.jdi.ClassPrepareRequest.addClassFilter_rt;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type
@@ -84,6 +98,7 @@ public class filter_rt003 extends TestDebuggerType1 {
 
     private String testedClassName20 =
         "nsk.jdi.ClassPrepareRequest.addClassFilter_rt.filter_rt003aTestClass20";
+
 
     protected void testRun() {
         EventRequest  eventRequest1      = null;

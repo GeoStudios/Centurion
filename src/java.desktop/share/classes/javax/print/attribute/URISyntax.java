@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
+
 import java.io.Serial;
 import java.io.Serializable;
 import java.net.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code URISyntax} is an abstract base class providing the common

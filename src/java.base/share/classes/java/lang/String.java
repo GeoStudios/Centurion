@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.io.ObjectStreamField;
 import java.base.share.classes.java.io.UnsupportedEncodingException;
 import java.base.share.classes.java.lang.annotation.Native;
@@ -54,6 +55,20 @@ import sun.nio.cs.ArrayEncoder;
 import sun.nio.cs.ISO_8859_1;
 import sun.nio.cs.US_ASCII;
 import sun.nio.cs.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code String} class represents character strings. All
@@ -4009,6 +4024,7 @@ public final class String
                        : new StringUTF16.CharsSpliterator(value, Spliterator.IMMUTABLE),
             false);
     }
+
 
     /**
      * Returns a stream of code point values from this sequence.  Any surrogate

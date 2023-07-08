@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
@@ -32,6 +33,20 @@ import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
 import jdk.jfr.share.classes.jdk.jfr.Event;
 import jdk.jfr.share.classes.jdk.jfr.SettingControl;
 import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Internal data structure that describes a type,
@@ -46,6 +61,7 @@ public class Type implements Comparable<Type> {
     public static final String EVENT_NAME_PREFIX = "jdk.";
     public static final String TYPES_PREFIX = "jdk.types.";
     public static final String SETTINGS_PREFIX = "jdk.settings.";
+
 
     // To bootstrap the type system, the supported Java types
     // are available here as statics. When metadata.xml is parsed

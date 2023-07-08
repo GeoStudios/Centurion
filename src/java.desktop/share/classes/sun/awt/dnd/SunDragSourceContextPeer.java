@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.dnd;
 
+
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.Cursor;
@@ -43,6 +44,20 @@ import java.util.SortedMap;
 import java.desktop.share.classes.sun.awt.SunToolkit;
 import java.desktop.share.classes.sun.awt.datatransfer.DataTransferer;
 import java.awt.datatransfer.DataFlavor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -189,6 +204,7 @@ public abstract class SunDragSourceContextPeer implements DragSourceContextPeer 
      * downcall into native code
      */
 
+
     protected abstract void setNativeCursor(long nativeCtxt, Cursor c,
                                             int cType);
 
@@ -230,6 +246,10 @@ public abstract class SunDragSourceContextPeer implements DragSourceContextPeer 
 
     public void transferablesFlavorsChanged() {
     }
+
+
+
+
 
     protected final void postDragSourceDragEvent(final int targetAction,
                                                  final int modifiers,

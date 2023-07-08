@@ -21,12 +21,26 @@
 
 package nsk.jdi.VirtualMachine.setDefaultStratum.setDefaultStratum003;
 
+
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.request.*;
 import nsk.share.Consts;
 import nsk.share.jdi.EventHandler;
 import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -77,6 +91,8 @@ import nsk.share.jdi.sde.*;
  *      -testWorkDir .
  *      -testStratumCount 3
  */
+
+
 
 public class setDefaultStratum003 extends SDEDebugger {
     public static void main(String argv[]) {

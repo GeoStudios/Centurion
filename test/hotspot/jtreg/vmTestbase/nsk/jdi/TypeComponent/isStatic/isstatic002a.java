@@ -21,9 +21,23 @@
 
 package nsk.jdi.TypeComponent.isStatic;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class isstatic002a {
     public static void main (String argv[]) {

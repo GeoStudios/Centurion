@@ -21,8 +21,22 @@
 
 package vm.runtime.defmeth.shared.data.method.result;
 
+
 import vm.runtime.defmeth.shared.data.Clazz;
 import vm.runtime.defmeth.shared.data.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Check that an exception of type {@code excCall} is thrown from a call.

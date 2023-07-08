@@ -21,8 +21,22 @@
 
 package nsk.share.gc.gp.obj;
 
+
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.MemoryObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryObjectProducer implements GarbageProducer<MemoryObject> {
         public MemoryObject create(long memory) {

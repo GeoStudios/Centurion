@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.text;
 
+
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for normalizing and merging patterns for collation.

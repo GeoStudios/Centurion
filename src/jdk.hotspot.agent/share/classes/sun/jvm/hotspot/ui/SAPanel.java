@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.*;
@@ -38,6 +39,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action.*;
 import com.sun.java.swing.ui.*;
 import com.sun.java.swing.action.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This base class encapsulates many of the events that are fired from
  * the various panels in this directory so they can easily be plugged
@@ -45,6 +60,7 @@ import com.sun.java.swing.action.*;
  */
 public class SAPanel extends JPanel {
     protected List<SAListener> listeners = new ArrayList<>();
+
 
     public SAPanel() {
     }
@@ -102,5 +118,6 @@ public class SAPanel extends JPanel {
             listener.showCodeViewer(address);
         }
     }
+
 
 }

@@ -21,8 +21,22 @@
 
 package compiler.intrinsics.bmi.verifycode;
 
+
 import compiler.intrinsics.bmi.TestBlsrI;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,9 @@ import java.lang.reflect.Method;
  *      -XX:+IgnoreUnrecognizedVMOptions -XX:+UseBMI1Instructions
  *      compiler.intrinsics.bmi.verifycode.BlsrTestI
  */
+
+
+
 
 public class BlsrTestI extends BmiIntrinsicBase.BmiTestCase {
 

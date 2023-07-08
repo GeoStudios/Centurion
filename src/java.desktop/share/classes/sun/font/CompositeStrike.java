@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.Rectangle;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * performance:
@@ -95,6 +110,7 @@ public final class CompositeStrike extends FontStrike {
         return strikeMetrics;
     }
 
+
     /* Performance tweak: Slot 0 can often return all the glyphs
      * Note slot zero doesn't need to be masked.
      * Could go a step further and support getting a run of glyphs.
@@ -118,6 +134,7 @@ public final class CompositeStrike extends FontStrike {
             images[i] = strike.getGlyphImagePtr(glyphCodes[i] & SLOTMASK);
         }
     }
+
 
     long getGlyphImagePtr(int glyphCode) {
         PhysicalStrike strike = getStrikeForGlyph(glyphCode);

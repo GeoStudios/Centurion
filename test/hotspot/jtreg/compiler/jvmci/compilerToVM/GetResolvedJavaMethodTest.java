@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
@@ -29,6 +30,19 @@ import jdk.vm.ci.hotspot.PublicMetaspaceWrapperObject;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -50,6 +64,9 @@ import java.lang.reflect.Method;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetResolvedJavaMethodTest
  */
+
+
+
 
 public class GetResolvedJavaMethodTest {
     private static enum TestCase {

@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Test implements Runnable {
     public static native int count();
 

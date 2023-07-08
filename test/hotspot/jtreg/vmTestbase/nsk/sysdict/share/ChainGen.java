@@ -21,7 +21,21 @@
 
 package nsk.sysdict.share;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This tools generates a chain of classes.

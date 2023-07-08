@@ -21,12 +21,26 @@
 
 package nsk.jdi.ConstantField;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *   Test checks up static fields of JDI interfaces according to specification
@@ -117,6 +131,7 @@ public class values001 {
             exitStatus = Consts.TEST_FAILED;
         }
 
+
         // VirtualMachine
         if (VirtualMachine.TRACE_ALL != 16777215) {
             log.complain("***wrong value*** : VirtualMachine.TRACE_ALL = "
@@ -160,6 +175,7 @@ public class values001 {
             exitStatus = Consts.TEST_FAILED;
         }
 
+
         if (EventRequest.SUSPEND_ALL != 2) {
             log.complain("***wrong value*** : EventRequest.SUSPEND_ALL = "
                                 + EventRequest.SUSPEND_ALL);
@@ -177,6 +193,7 @@ public class values001 {
                                 + EventRequest.SUSPEND_NONE);
             exitStatus = Consts.TEST_FAILED;
         }
+
 
         if (StepRequest.STEP_INTO != 1) {
             log.complain("***wrong value*** : StepRequest.STEP_INTO = "

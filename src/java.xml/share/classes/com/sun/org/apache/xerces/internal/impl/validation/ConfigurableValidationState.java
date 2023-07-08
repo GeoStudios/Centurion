@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation;
 
+
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An extension of ValidationState which can be configured to turn

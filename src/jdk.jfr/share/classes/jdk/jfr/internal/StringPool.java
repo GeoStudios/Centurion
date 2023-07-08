@@ -21,8 +21,23 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class StringPool {
     static final int MIN_LIMIT = 16;

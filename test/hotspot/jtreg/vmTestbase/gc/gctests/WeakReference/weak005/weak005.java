@@ -21,8 +21,22 @@
 
 package gc.gctests.WeakReference.weak005;
 
+
 import nsk.share.gc.*;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import java.lang.ref.WeakReference;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.WeakReference.weak005.weak005 -t 1
  */
+
+
 
 /**
  * Test that GC correctly clears weak references.

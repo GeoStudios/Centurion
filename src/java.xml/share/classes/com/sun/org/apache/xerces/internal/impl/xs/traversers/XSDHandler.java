@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -118,6 +119,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The purpose of this class is to co-ordinate the construction of a
@@ -2046,6 +2061,8 @@ public class XSDHandler {
         return fUnparsedIdentityConstraintRegistrySub;
     }
 
+
+
     // This method squirrels away <keyref> declarations--along with the element
     // decls and namespace bindings they might find handy.
     protected void storeKeyRef (Element keyrefToStore, XSDocumentInfo schemaDoc,
@@ -2081,6 +2098,7 @@ public class XSDHandler {
 
         fKeyrefsMapXSDocumentInfo[fKeyrefStackPos++] = schemaDoc;
     } // storeKeyref (Element, XSDocumentInfo, XSElementDecl): void
+
 
     /**
      * resolveSchema method is responsible for resolving location of the schema (using XMLEntityResolver),
@@ -3686,6 +3704,7 @@ public class XSDHandler {
         fEntityManager.setProperty(JdkConstants.CDATA_CHUNK_SIZE,
                 componentManager.getProperty(JdkConstants.CDATA_CHUNK_SIZE));
     } // reset(XMLComponentManager)
+
 
     /**
      * Traverse all the deferred local elements. This method should be called

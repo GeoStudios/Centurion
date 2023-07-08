@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is used by the query building mechanism to represent conjunctions
  * of relational expressions.
@@ -42,6 +58,7 @@ class AndQueryExp extends QueryEval implements QueryExp {
      */
     private QueryExp exp2;
 
+
     /**
      * Default constructor.
      */
@@ -55,6 +72,7 @@ class AndQueryExp extends QueryEval implements QueryExp {
         exp1 = q1;
         exp2 = q2;
     }
+
 
     /**
      * Returns the left query expression.

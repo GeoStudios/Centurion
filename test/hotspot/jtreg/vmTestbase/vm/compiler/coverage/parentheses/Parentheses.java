@@ -21,6 +21,7 @@
 
 package vm.compiler.coverage.parentheses;
 
+
 import vm.compiler.coverage.parentheses.share.HotspotInstructionsExecutor;
 import vm.share.options.Option;
 import vm.share.options.Options;
@@ -32,6 +33,19 @@ import vm.compiler.coverage.parentheses.share.InstructionSequence;
 import vm.compiler.coverage.parentheses.share.TinyInstructionsExecutor;
 import vm.compiler.coverage.parentheses.share.generation.RandomInstructionsGenerator;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Parentheses {
 

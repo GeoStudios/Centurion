@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.wbmp;
 
+
 import java.base.share.classes.java.util.Arrays;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WBMPMetadataFormat extends IIOMetadataFormatImpl {
 
@@ -49,6 +64,8 @@ public class WBMPMetadataFormat extends IIOMetadataFormatImpl {
                      DATATYPE_INTEGER, true, null,
                      "1", "65535", true, true);
     }
+
+
 
     public boolean canNodeAppear(String elementName,
                                  ImageTypeSpecifier imageType) {

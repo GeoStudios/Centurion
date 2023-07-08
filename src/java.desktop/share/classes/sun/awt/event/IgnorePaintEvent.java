@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.awt.event;
 
+
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.event.PaintEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PaintEvents that are effectively ignored.  This class is used only for

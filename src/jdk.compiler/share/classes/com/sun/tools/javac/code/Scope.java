@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
 import java.lang.ref.WeakReference;
 import java.util.*;
@@ -35,6 +36,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKi
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.RECURSIVE;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators.createCompoundIterator;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators.createFilterIterator;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A scope represents an area of visibility in a Java program. The
  *  Scope class is a container for symbols which provides
@@ -993,6 +1008,7 @@ public abstract class Scope {
             List<Iterable<Symbol>> importFrom(TypeSymbol tsym, List<Iterable<Symbol>> results) {
                 if (tsym == null || !processed.add(tsym))
                     return results;
+
 
                 if (inspectSuperTypes) {
                     // also import inherited names

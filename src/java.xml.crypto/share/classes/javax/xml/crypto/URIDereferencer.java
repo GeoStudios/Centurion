@@ -21,9 +21,26 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: URIDereferencer.java,v 1.5 2005/05/10 15:47:42 mullan Exp $
  */
+
 
 /**
  * A dereferencer of {@link URIReference}s.

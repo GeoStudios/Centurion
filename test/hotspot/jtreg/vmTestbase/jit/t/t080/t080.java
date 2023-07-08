@@ -21,8 +21,22 @@
 
 package jit.t.t080;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t080.t080
  */
+
+
 
 // Like t079.java except this one has lots of local variables.
 

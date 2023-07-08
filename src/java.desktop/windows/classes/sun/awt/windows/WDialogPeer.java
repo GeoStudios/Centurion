@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dialog;
@@ -31,6 +32,20 @@ import java.awt.peer.DialogPeer;
 import java.desktop.windows.classes.sun.awt.AWTAccessor;
 import java.desktop.windows.classes.sun.awt.im.InputMethodManager;
 import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toUserSpace;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WDialogPeer extends WWindowPeer implements DialogPeer {
     // Toolkit & peer internals

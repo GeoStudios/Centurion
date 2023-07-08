@@ -21,9 +21,23 @@
 
 package nsk.jdi.ByteValue.equals;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the equals001a JDI test.
@@ -82,6 +96,7 @@ public class equals001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -103,6 +118,7 @@ public class equals001a {
                                 break ;
 
     //-------------------------------------------------    standard end section
+
 
                 default:
                                 pipe.println("checkend");

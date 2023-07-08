@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
@@ -41,6 +42,20 @@ import javax.print.attribute.standard.PageRanges;
 import javax.print.attribute.Attribute;
 import java.desktop.macosx.classes.sun.java2d.*;
 import java.desktop.macosx.classes.sun.print.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CPrinterJob extends RasterPrinterJob {
     // NOTE: This uses RasterPrinterJob as a base, but it doesn't use
@@ -286,6 +301,7 @@ public final class CPrinterJob extends RasterPrinterJob {
             spoolToService(psvc, attributes);
             return;
         }
+
 
         setAttributes(attributes);
         // throw exception for invalid destination

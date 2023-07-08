@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -36,10 +37,30 @@ import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
+
+
 
 /**
  * Sample implementation of similar SAX ErrorHandler and JAXP ErrorListener.
@@ -53,6 +74,7 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 public class ListingErrorHandler implements ErrorHandler, ErrorListener
 {
     protected PrintWriter m_pw = null;
+
 
     /**
      * Constructor ListingErrorHandler; user-supplied PrintWriter.
@@ -73,6 +95,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
     {
         m_pw = new PrintWriter(System.err, true);
     }
+
 
     /* ======== Implement org.xml.sax.ErrorHandler ======== */
     /**
@@ -107,6 +130,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
         if (getThrowOnWarning())
             throw exception;
     }
+
 
     /**
      * Receive notification of a recoverable error.
@@ -144,6 +168,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
             throw exception;
     }
 
+
     /**
      * Receive notification of a non-recoverable error.
      *
@@ -174,6 +199,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
         if (getThrowOnFatalError())
             throw exception;
     }
+
 
     /* ======== Implement javax.xml.transform.ErrorListener ======== */
 
@@ -262,7 +288,10 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
             throw exception;
     }
 
+
+
     /* ======== Implement worker methods ======== */
+
 
     /**
      * Print out location information about the exception.
@@ -340,6 +369,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
         }
     }
 
+
     /**
      * Print out the specific source line that caused the exception,
      * if possible to load it.
@@ -388,6 +418,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
             pw.println();
         }
     }
+
 
     /**
      * Return the specific source line that caused the exception,
@@ -455,6 +486,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
         return line;
     }
 
+
     /* ======== Implement settable properties ======== */
 
     /**
@@ -484,6 +516,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
 
     /** If we should throw exception on warnings; default:false.  */
     protected boolean throwOnWarning = false;
+
 
     /**
      * User-settable behavior: when to re-throw exceptions.
@@ -515,6 +548,7 @@ public class ListingErrorHandler implements ErrorHandler, ErrorListener
 
     /** If we should throw exception on errors; default:true.  */
     protected boolean throwOnError = true;
+
 
     /**
      * User-settable behavior: when to re-throw exceptions.

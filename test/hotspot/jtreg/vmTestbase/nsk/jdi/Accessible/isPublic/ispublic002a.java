@@ -21,9 +21,23 @@
 
 package nsk.jdi.Accessible.isPublic;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -73,6 +87,7 @@ public class ispublic002a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(ispublic002.SIGNAL_READY);
+
 
         //pipe.println(ispublic002.SIGNAL_GO);
         receiveSignal(ispublic002.SIGNAL_QUIT);

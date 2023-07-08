@@ -21,12 +21,27 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.util.function.IntFunction;
 import java.util.HashMap;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.Stable;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists solely of static constants
@@ -870,6 +885,7 @@ public abstract class VectorOperators {
             String msg = String.format("%s: %s%s%s", this, msg1, dot, msg2);
             return new UnsupportedOperationException(msg);
         }
+
 
         /*package-private*/
         @ForceInline

@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import static java.desktop.unix.classes.sun.awt.X11.XConstants.*;.extended
 import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import static java.desktop.unix.classes.sun.awt.X11.XEmbed.*;
 

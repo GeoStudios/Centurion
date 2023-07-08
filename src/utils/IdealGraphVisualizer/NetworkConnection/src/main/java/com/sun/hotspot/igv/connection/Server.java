@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.connection;
 
+
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
 import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.settings.Settings;
@@ -33,6 +34,20 @@ import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.util.prefs.Pre
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
 import org.openide.util.RequestProcessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

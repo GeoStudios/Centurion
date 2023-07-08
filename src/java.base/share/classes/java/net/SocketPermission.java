@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
@@ -44,6 +45,20 @@ import sun.net.PortConfig;
 import sun.security.util.RegisteredDomain;
 import sun.security.util.SecurityConstants;
 import sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents access to a network via sockets.
@@ -291,6 +306,7 @@ public final class SocketPermission extends Permission
         // name initialized to getHost(host); NPE detected in getHost()
         init(getName(), getMask(action));
     }
+
 
     SocketPermission(String host, int mask) {
         super(getHost(host));
@@ -775,6 +791,7 @@ public final class SocketPermission extends Permission
         }
         return false;
     }
+
 
     /**
      * get IP addresses. Sets invalid to true if we can't get them.

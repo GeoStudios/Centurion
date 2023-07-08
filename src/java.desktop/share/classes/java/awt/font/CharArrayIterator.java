@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.text.CharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CharArrayIterator implements CharacterIterator {
 

@@ -21,12 +21,26 @@
 
 package nsk.jdi.ThreadGroupReference.resume;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -146,6 +160,7 @@ public class resume001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -200,6 +215,7 @@ public class resume001 {
             String          threadName;
             ThreadReference thread;
 
+
             String threadNames [] = { "Thread2", "Thread3", "Thread4" };
 
             ReferenceType mainthreadClass = null;
@@ -227,6 +243,7 @@ public class resume001 {
 
                 log2("      getting a List of all running threads");
                 threads = vm.allThreads();
+
 
                 log2("......checking up threads resumed with groups[3].resume()");
                 log2("         expected: 'Thread4'");
@@ -263,6 +280,7 @@ public class resume001 {
                 }
                 vm.resume();
 
+
                 log2("......checking up threads resumed with groups[2].resume()");
                 log2("         expected: 'Thread3' and 'Thread4'");
                 groups[0].suspend();
@@ -297,6 +315,7 @@ public class resume001 {
                         log3("ERROR: some extra thread(s) is also suspended");
                 }
                 vm.resume();
+
 
                 log2("......checking up threads resumed with groups[1].resume()");
                 log2("         expected: 'Thread2'");
@@ -333,6 +352,7 @@ public class resume001 {
                 }
                 vm.resume();
 
+
                 log2("......checking up threads resumed with groups[0].resume()");
                 log2("         expected: 'Thread2', 'Thread3', and 'Thread4'");
                 groups[0].suspend();
@@ -367,6 +387,7 @@ public class resume001 {
                         log3("ERROR: some extra thread(s) is also suspended");
                 }
                 vm.resume();
+
 
                 log2("......instructing mainThread to leave synchronized block");
                 pipe.println("continue");

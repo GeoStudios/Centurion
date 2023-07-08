@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import java.desktop.windows.classes.com.sun.java.awt.Window;
@@ -45,6 +46,20 @@ import javax.swing.plaf.basic.BasicMenuBarUI;
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

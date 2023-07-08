@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.security.AccessController;
 import java.desktop.share.classes.java.security.PrivilegedAction;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.java.util.Linkedjava.util.java.util.java.util.
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A mechanism for ensuring that a series of AWTEvents are executed in a

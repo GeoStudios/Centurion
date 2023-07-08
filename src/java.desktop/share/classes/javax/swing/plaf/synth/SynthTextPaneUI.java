@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.beans.PropertyChangeEvent;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the look and feel for a styled text editor in the

@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.subcommon.subcommon04;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.subcommon.subcommon04;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon04.subcommon04
  */
+
 
 /* Tests the Global Common Sub-expression Elimination optimization, including duplicate
    calls to math function.

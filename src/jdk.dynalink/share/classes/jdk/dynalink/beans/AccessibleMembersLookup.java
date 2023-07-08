@@ -21,6 +21,7 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
+
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.base.share.classes.java.util.Arrays;
@@ -29,6 +30,20 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -36,6 +51,8 @@ import java.util.Map;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * Utility class for discovering accessible methods and inner classes. Normally, a public member declared on a class is

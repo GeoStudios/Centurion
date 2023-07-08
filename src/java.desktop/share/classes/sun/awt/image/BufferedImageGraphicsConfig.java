@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.Component;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
@@ -33,6 +34,20 @@ import java.awt.image.ColorModel;
 import java.awt.image.DirectColorModel;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class BufferedImageGraphicsConfig extends GraphicsConfiguration {
 

@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.monitor;
 
+
 import static com.sun.jmx.defaults.JmxProperties.MONITOR_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Introspector;
@@ -58,6 +59,20 @@ import java.management.share.classes.javax.management.NotificationBroadcasterSup
 import java.management.share.classes.javax.management.ObjectName;
 import java.management.share.classes.javax.management.ReflectionException;
 import static java.management.share.classes.javax.management.monitor.MonitorNotification.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the part common to all monitor MBeans.
@@ -368,6 +383,7 @@ public abstract class Monitor
      * Constant used to initialize all the numeric values.
      */
     static final Integer INTEGER_ZERO = 0;
+
 
     /*
      * ------------------------------------------

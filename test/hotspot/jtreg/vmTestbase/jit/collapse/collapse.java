@@ -21,8 +21,22 @@
 
 package jit.collapse;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.collapse.collapse
  */
+
+
 
 public class collapse {
         public static final GoldChecker goldChecker = new GoldChecker( "collapse" );

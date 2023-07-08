@@ -21,10 +21,24 @@
 
 package nsk.jvmti.DisposeEnvironment;
 
+
 import java.io.PrintStream;
 import java.lang.ref.SoftReference;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class disposeenv002 extends DebugeeClass {
 

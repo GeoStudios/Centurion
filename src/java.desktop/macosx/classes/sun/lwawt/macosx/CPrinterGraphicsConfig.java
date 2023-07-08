@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.Component;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
@@ -32,6 +33,20 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.print.PageFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CPrinterGraphicsConfig extends GraphicsConfiguration {
 

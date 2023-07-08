@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util.stream;
 
+
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.util.EnumSet;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
@@ -29,6 +30,20 @@ import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BinaryOperator;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // A compilation test for the code snippets in this class-level javadoc can be found at:
 // test/jdk/java/util/stream/test/org/openjdk/tests/java/util/stream/CollectorExample.java

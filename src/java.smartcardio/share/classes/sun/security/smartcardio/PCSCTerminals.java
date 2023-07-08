@@ -21,11 +21,26 @@
 
 package java.smartcardio.share.classes.sun.security.smartcardio;
 
+
 import java.util.*;
 import java.lang.ref.*;
 import javax.smartcardio.*;
 import static javax.smartcardio.CardTerminals.State.*;.extended
 import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TerminalFactorySpi implementation class.

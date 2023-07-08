@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8002069
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:CompileCommand=exclude,compiler.c2.Test8002069::dummy
  *      compiler.c2.Test8002069
  */
+
 
 public class Test8002069 {
     static abstract class O {

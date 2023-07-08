@@ -21,10 +21,25 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicPasswordFieldUI;
 import javax.swing.text.Caret;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.
@@ -40,6 +55,7 @@ public class WindowsPasswordFieldUI extends BasicPasswordFieldUI {
     public static ComponentUI createUI(JComponent c) {
         return new WindowsPasswordFieldUI();
     }
+
 
     /**
      * Creates the object to use for a caret.  By default an

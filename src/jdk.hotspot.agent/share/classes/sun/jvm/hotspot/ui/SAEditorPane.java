@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.io.*;
 import java.awt.event.*;
 import java.awt.im.InputContext;
@@ -28,6 +29,20 @@ import java.awt.datatransfer.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A simple subclass of JEditorPane for displaying uneditable html
  */

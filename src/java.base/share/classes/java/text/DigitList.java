@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.text;
 
+
 import java.base.share.classes.java.math.BigDecimal;
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.math.RoundingMode;
 import jdk.internal.math.FloatingDecimal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Digit List. Private to DecimalFormat.
@@ -412,6 +427,7 @@ final class DigitList implements Cloneable {
             }
         }
     }
+
 
     /**
      * Return true if truncating the representation to the given number

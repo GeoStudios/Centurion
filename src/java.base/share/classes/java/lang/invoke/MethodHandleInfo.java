@@ -21,11 +21,26 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import java.base.share.classes.java.lang.reflect.*;
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants;
 import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A symbolic reference obtained by cracking a direct method handle

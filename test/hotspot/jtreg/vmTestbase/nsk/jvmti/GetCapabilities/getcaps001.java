@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetCapabilities;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getcaps001 {
 

@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
+
 import org.ietf.jgss.*;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -29,6 +30,20 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.security.MessageDigest;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a base class for new GSS token definitions, as defined
@@ -423,6 +438,7 @@ abstract class MessageToken_v2 extends Krb5Token {
                                                 offset, len, key_usage);
     }
 
+
     /**
      * Constructs an empty MessageToken for the local context to send to
      * the peer. It also increments the local sequence number in the
@@ -607,6 +623,7 @@ abstract class MessageToken_v2 extends Krb5Token {
         public final void encode(OutputStream os) throws IOException {
             os.write(bytes);
         }
+
 
         /**
          * Returns the token id for the message token.

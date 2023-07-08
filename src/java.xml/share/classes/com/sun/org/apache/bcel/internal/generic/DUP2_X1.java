@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * DUP2_X1 - Duplicate two top operand stack words and put three down
@@ -36,6 +53,7 @@ public class DUP2_X1 extends StackInstruction {
     public DUP2_X1() {
         super(com.sun.org.apache.bcel.internal.Const.DUP2_X1);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

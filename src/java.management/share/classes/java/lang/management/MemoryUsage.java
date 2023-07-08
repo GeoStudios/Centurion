@@ -21,8 +21,23 @@
 
 package java.management.share.classes.java.lang.management;
 
+
 import javax.management.openmbean.CompositeData;
 import sun.management.MemoryUsageCompositeData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code MemoryUsage} object represents a snapshot of memory usage.

@@ -21,8 +21,22 @@
 
 package test;
 
+
 import java.util.Set;
 import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,8 @@ import static jdk.test.lib.Asserts.*;.extended
  * @summary test the packages returned by Module::getPackages for an unnamed
  *          module does not include the packages for named modules
  */
+
+
 
 public class GetPackagesTest {
     public static void main(String... args) throws Exception {

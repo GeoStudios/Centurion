@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Shortjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Shortjava.util.java.util.java.util.List;
@@ -29,10 +30,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSValue;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Class to get the information back after content is validated. This info

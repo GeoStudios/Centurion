@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
@@ -43,6 +44,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Sep 14, 2000:
 //  Fixed problem with namespace handling. Contributed by
 //  David Blondeau <blondeau@intalio.com>
@@ -55,6 +70,9 @@ import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
 //  Reported by Mikael Staldal <d96-mst-ingen-reklam@d.kth.se>
 // Aug 21, 2000:
 //  Added ability to omit DOCTYPE declaration.
+
+
+
 
 /**
  * Implements an XML serializer supporting both DOM and SAX pretty
@@ -135,7 +153,9 @@ extends BaseMarkupSerializer {
      */
     protected boolean fNamespacePrefixes = true;
 
+
     private boolean fPreserveSpace;
+
 
     /**
      * Constructs a new serializer. The serializer cannot be used without
@@ -146,6 +166,7 @@ extends BaseMarkupSerializer {
         super( new OutputFormat( Method.XML, null, false ) );
     }
 
+
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -155,6 +176,7 @@ extends BaseMarkupSerializer {
         super( format != null ? format : new OutputFormat( Method.XML, null, false ) );
         _format.setMethod( Method.XML );
     }
+
 
     /**
      * Constructs a new serializer that writes to the specified writer
@@ -170,6 +192,7 @@ extends BaseMarkupSerializer {
         setOutputCharStream( writer );
     }
 
+
     /**
      * Constructs a new serializer that writes to the specified output
      * stream using the specified output format. If <tt>format</tt>
@@ -184,9 +207,11 @@ extends BaseMarkupSerializer {
         setOutputByteStream( output );
     }
 
+
     public void setOutputFormat( OutputFormat format ) {
         super.setOutputFormat( format != null ? format : new OutputFormat( Method.XML, null, false ) );
     }
+
 
     /**
      * This methods turns on namespace fixup algorithm during
@@ -207,6 +232,7 @@ extends BaseMarkupSerializer {
     //-----------------------------------------//
     // SAX content handler serializing methods //
     //-----------------------------------------//
+
 
     public void startElement( String namespaceURI, String localName,
                               String rawName, Attributes attrs )
@@ -362,6 +388,7 @@ extends BaseMarkupSerializer {
         }
     }
 
+
     public void endElement( String namespaceURI, String localName,
                             String rawName )
     throws SAXException
@@ -372,6 +399,7 @@ extends BaseMarkupSerializer {
             throw new SAXException( except );
         }
     }
+
 
     public void endElementIO( String namespaceURI, String localName,
                               String rawName )
@@ -411,9 +439,11 @@ extends BaseMarkupSerializer {
             _printer.flush();
     }
 
+
     //------------------------------------------//
     // SAX document handler serializing methods //
     //------------------------------------------//
+
 
     public void startElement( String tagName, AttributeList attrs )
     throws SAXException
@@ -423,6 +453,7 @@ extends BaseMarkupSerializer {
         ElementState state;
         String       name;
         String       value;
+
 
         if (DEBUG) {
             System.out.println("==>startElement("+tagName+")");
@@ -507,15 +538,19 @@ extends BaseMarkupSerializer {
 
     }
 
+
     public void endElement( String tagName )
     throws SAXException
     {
         endElement( null, null, tagName );
     }
 
+
+
     //------------------------------------------//
     // Generic node serializing methods methods //
     //------------------------------------------//
+
 
     /**
      * Called to serialize the document's DOCTYPE by the root element.
@@ -610,6 +645,7 @@ extends BaseMarkupSerializer {
         serializePreRoot();
     }
 
+
     /**
      * Called to serialize a DOM element. Equivalent to calling {@link
      * #startElement}, {@link #endElement} and serializing everything
@@ -675,6 +711,7 @@ extends BaseMarkupSerializer {
         // Do not change the current element state yet.
         // This only happens in endElement().
         fPreserveSpace = state.preserveSpace;
+
 
         int length = 0;
         attrMap = null;
@@ -788,6 +825,7 @@ extends BaseMarkupSerializer {
                 _printer.indent();
             }
 
+
             // ---------------------------------------------------------
             // Fix up namespaces for element: per DOM L3
             // Need to consider the following cases:
@@ -813,6 +851,7 @@ extends BaseMarkupSerializer {
             // ---------------------------------------------------------
             // check if prefix/namespace is correct for current element
             // ---------------------------------------------------------
+
 
             if (uri != null) {  // Element has a namespace
                 uri = fSymbolTable.addSymbol(uri);
@@ -867,6 +906,7 @@ extends BaseMarkupSerializer {
                 }
             }
 
+
             // -----------------------------------------
             // Fix up namespaces for attributes: per DOM L3
             // check if prefix/namespace is correct the attributes
@@ -899,6 +939,8 @@ extends BaseMarkupSerializer {
                     prefix = attr.getPrefix();
                     prefix = prefix == null ? XMLSymbols.EMPTY_STRING :fSymbolTable.addSymbol(prefix);
                     String localpart = fSymbolTable.addSymbol( attr.getLocalName());
+
+
 
                     // ---------------------------------------------------
                     // print namespace declarations namespace declarations
@@ -1032,6 +1074,7 @@ extends BaseMarkupSerializer {
 
         }// end namespace fixup algorithm
 
+
         // If element has children, then serialize them, otherwise
         // serialize en empty tag.
         if (elem.hasChildNodes()) {
@@ -1067,6 +1110,8 @@ extends BaseMarkupSerializer {
         }
     }
 
+
+
     /**
      * Serializes a namespace attribute with the given prefix and value for URI.
      * In case prefix is empty will serialize default namespace declaration.
@@ -1093,6 +1138,8 @@ extends BaseMarkupSerializer {
         printEscaped( uri );
         _printer.printText( '"' );
     }
+
+
 
     /**
      * Prints attribute.
@@ -1154,6 +1201,7 @@ extends BaseMarkupSerializer {
         }
         return null;
     }
+
 
     /** Retrieve and remove the namespaces declarations from the list of attributes.
      *
@@ -1297,6 +1345,8 @@ extends BaseMarkupSerializer {
         }
     }
 
+
+
     protected void printText( char[] chars, int start, int length,
                               boolean preserveSpace, boolean unescaped ) throws IOException {
 
@@ -1346,6 +1396,7 @@ extends BaseMarkupSerializer {
         }
     }
 
+
    /**
     * DOM Level 3:
     * Check a node to determine if it contains unbound namespace prefixes.
@@ -1364,6 +1415,7 @@ extends BaseMarkupSerializer {
                                 System.out.println("==>First Child Node Prefix: " + node.getFirstChild().getPrefix());
                                 System.out.println("==>First Child Node NamespaceURI: " + node.getFirstChild().getNamespaceURI());
                         }
+
 
                         Node child, next;
                 for (child = node.getFirstChild(); child != null; child = next) {

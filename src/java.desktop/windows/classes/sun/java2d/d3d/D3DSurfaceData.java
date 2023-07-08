@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
+
 import java.awt.AlphaComposite;
 import java.awt.BufferCapabilities;
 import java.awt.Component;
@@ -70,6 +71,20 @@ import java.desktop.windows.classes.sun.java2d.ScreenUpdateManager;
 import java.desktop.windows.classes.sun.java2d.StateTracker;
 import java.desktop.windows.classes.sun.java2d.SurfaceDataProxy;
 import java.desktop.windows.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class describes a D3D "surface", that is, a region of pixels
@@ -831,6 +846,7 @@ public class D3DSurfaceData extends SurfaceData implements AccelSurface {
             rq.unlock();
         }
     }
+
 
     public GraphicsConfiguration getDeviceConfiguration() {
         return graphicsDevice.getDefaultConfiguration();

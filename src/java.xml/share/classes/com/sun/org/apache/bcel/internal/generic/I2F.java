@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * I2F - Convert int to float
@@ -38,6 +55,7 @@ public class I2F extends ConversionInstruction {
     public I2F() {
         super(com.sun.org.apache.bcel.internal.Const.I2F);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

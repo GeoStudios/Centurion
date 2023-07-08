@@ -21,10 +21,25 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
+
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.io.*;
 import java.lang.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides implementations for the methods that set and get
@@ -144,6 +159,7 @@ public class RowSetMetaDataImpl implements RowSetMetaData,  Serializable {
                  colInfo[i] = new ColInfo();
            }
        }
+
 
     }
 
@@ -753,6 +769,7 @@ public class RowSetMetaDataImpl implements RowSetMetaData,  Serializable {
         checkColRange(columnIndex);
         return colInfo[columnIndex].colTypeName;
     }
+
 
     /**
      * Indicates whether the designated column is definitely

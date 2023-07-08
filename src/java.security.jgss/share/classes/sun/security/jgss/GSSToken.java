@@ -21,11 +21,26 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.EOFException;
 import java.security.jgss.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities for processing GSS Tokens.

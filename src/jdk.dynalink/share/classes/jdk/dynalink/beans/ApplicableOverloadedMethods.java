@@ -21,10 +21,25 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
+
 import java.lang.invoke.MethodType;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -33,6 +48,8 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
+
+
 
 /**
  * Represents overloaded methods applicable to a specific call site signature.

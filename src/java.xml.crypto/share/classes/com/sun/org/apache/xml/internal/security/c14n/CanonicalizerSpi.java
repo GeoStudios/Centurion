@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.OutputStream;
 import java.util.Set;
@@ -29,10 +30,27 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Base class which all Canonicalization algorithms extend.
@@ -122,5 +140,6 @@ public abstract class CanonicalizerSpi {
     public abstract void engineCanonicalizeSubTree(
             Node rootNode, String inclusiveNamespaces, boolean propagateDefaultNamespace, OutputStream writer)
             throws CanonicalizationException;
+
 
 }

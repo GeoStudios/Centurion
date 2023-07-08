@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import java.util.HashSet;
 import java.base.share.classes.java.util.Objects;
 import java.util.Set;
@@ -30,6 +31,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Note;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A handler to process mandatory warnings, setting up a deferred diagnostic
@@ -91,6 +106,7 @@ public class MandatoryWarningHandler {
 
         private final String value;
     }
+
 
     /**
      * Create a handler for mandatory warnings.

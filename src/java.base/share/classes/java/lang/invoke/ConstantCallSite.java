@@ -21,8 +21,23 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code ConstantCallSite} is a {@link CallSite} whose target is permanent, and can never be changed.

@@ -21,6 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
@@ -45,6 +46,20 @@ import java.net.http.share.classes.jdk.internal.net.http.common.SequentialSchedu
 import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler.DeferredCompleter;
 import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler.RestartableTask;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SocketTube is a terminal tube plugged directly into the socket.
@@ -108,6 +123,7 @@ final class SocketTube implements FlowTube {
         assert s instanceof TubeSubscriber : "Expected TubeSubscriber, got:" + s;
         readPublisher.subscribe(s);
     }
+
 
     // ===================================================================== //
     //                       Flow.Subscriber                                 //
@@ -700,6 +716,7 @@ final class SocketTube implements FlowTube {
                 }
             }
 
+
             /*
              * Although this method is thread-safe, the Reactive-Streams spec seems
              * to not require it to be as such. It's a responsibility of the
@@ -744,6 +761,7 @@ final class SocketTube implements FlowTube {
                 if (debug.on()) debug.log("pausing read event");
                 pauseEvent(readEvent, this::signalError);
             }
+
 
             void handleError() {
                 assert errorRef.get() != null;
@@ -934,6 +952,7 @@ final class SocketTube implements FlowTube {
             }
         }
 
+
         // A repeatable ReadEvent which is paused after firing and can
         // be resumed if required - see SocketFlowEvent;
         final class ReadEvent extends SocketFlowEvent {
@@ -1066,6 +1085,7 @@ final class SocketTube implements FlowTube {
             return SocketTube.listOf(list, slice.asReadOnlyBuffer());
         }
     }
+
 
     // An implementation of BufferSource used for encrypted data.
     // This buffer source uses direct byte buffers that will be
@@ -1280,6 +1300,7 @@ final class SocketTube implements FlowTube {
         this.subscribe(readSubscriber);
         writePublisher.subscribe(this);
     }
+
 
     @Override
     public String toString() {

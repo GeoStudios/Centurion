@@ -21,6 +21,7 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001;
 
+
 import nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -28,6 +29,19 @@ import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -85,6 +99,10 @@ import java.io.*;
  *      -transport.address=dynamic
  */
 
+
+
+
+
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>
  * on base of classes which implement the Connector interfaces         <BR>
@@ -133,6 +151,7 @@ public class plugMultiConnect001 {
     static final String infoLogPrefix     = "-->                      ";
     static final String emptyString = "";
 
+
     static ArgumentHandler  argsHandler;
     static Log logHandler;
 
@@ -163,6 +182,7 @@ public class plugMultiConnect001 {
         }
         return result;
     }
+
 
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;

@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import java.util.Iterator;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
@@ -34,6 +35,19 @@ import jdk.test.lib.jittester.classes.Interface;
 import jdk.test.lib.jittester.functions.FunctionInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class InterfaceFactory extends Factory<Interface> {
     private final String name;

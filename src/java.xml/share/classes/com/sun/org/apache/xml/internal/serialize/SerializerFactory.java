@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.ObjectFactory;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
@@ -30,6 +31,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -46,9 +61,12 @@ import jdk.xml.internal.SecuritySupport;
 public abstract class SerializerFactory
 {
 
+
     public static final String FactoriesProperty = "com.sun.org.apache.xml.internal.serialize.factories";
 
+
     private static final Map<String, SerializerFactory>  _factories = Collections.synchronizedMap(new HashMap<>());
+
 
     static
     {
@@ -83,6 +101,7 @@ public abstract class SerializerFactory
         }
     }
 
+
     /**
      * Register a serializer factory, keyed by the given
      * method string.
@@ -97,6 +116,7 @@ public abstract class SerializerFactory
     }
     }
 
+
     /**
      * Register a serializer factory, keyed by the given
      * method string.
@@ -105,6 +125,7 @@ public abstract class SerializerFactory
     {
         return _factories.get( method );
     }
+
 
     /**
      * Returns the method supported by this factory and used to register
@@ -115,6 +136,7 @@ public abstract class SerializerFactory
      */
     protected abstract String getSupportedMethod();
 
+
     /**
      * Create a new serializer based on the {@link OutputFormat}.
      * If this method is used to create the serializer, the {@link
@@ -123,6 +145,7 @@ public abstract class SerializerFactory
      */
     public abstract Serializer makeSerializer(OutputFormat format);
 
+
     /**
      * Create a new serializer, based on the {@link OutputFormat} and
      * using the writer as the output character stream.  If this
@@ -130,6 +153,7 @@ public abstract class SerializerFactory
      */
     public abstract Serializer makeSerializer( Writer writer,
                                                OutputFormat format );
+
 
     /**
      * Create a new serializer, based on the {@link OutputFormat} and
@@ -142,5 +166,6 @@ public abstract class SerializerFactory
     public abstract Serializer makeSerializer( OutputStream output,
                                                OutputFormat format )
         throws UnsupportedEncodingException;
+
 
 }

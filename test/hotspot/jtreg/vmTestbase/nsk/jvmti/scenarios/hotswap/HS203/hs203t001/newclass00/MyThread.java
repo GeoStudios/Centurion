@@ -21,7 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS203.hs203t001;
 
+
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyThread extends Thread {
         public static AtomicBoolean resume = new AtomicBoolean(false);

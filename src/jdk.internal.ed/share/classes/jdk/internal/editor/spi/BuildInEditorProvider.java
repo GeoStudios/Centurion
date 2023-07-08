@@ -21,7 +21,22 @@
 
 package jdk.internal.ed.share.classes.jdk.internal.editor.spi;
 
+
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the provider of a built-in editor.

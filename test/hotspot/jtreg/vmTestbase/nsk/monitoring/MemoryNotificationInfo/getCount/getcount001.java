@@ -21,9 +21,23 @@
 
 package nsk.monitoring.MemoryNotificationInfo.getCount;
 
+
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getcount001 {
     private static boolean testFailed = false;

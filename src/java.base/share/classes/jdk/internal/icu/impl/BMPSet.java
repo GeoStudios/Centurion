@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
+
 import java.base.share.classes.jdk.internal.icu.text.UnicodeSet.SpanCondition;
 import java.base.share.classes.jdk.internal.icu.util.OutputInt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class for frozen UnicodeSets, implements contains() and span() optimized for BMP code points.

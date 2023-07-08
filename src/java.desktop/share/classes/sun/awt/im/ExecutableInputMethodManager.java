@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
+
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
 import java.awt.Component;
@@ -51,6 +52,20 @@ import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 import java.desktop.share.classes.sun.awt.InputMethodSupport;
 import java.desktop.share.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code ExecutableInputMethodManager} is the implementation of the

@@ -21,11 +21,25 @@
 
 package nsk.jdi.ArrayReference.length;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class length001 {
     final static String FIELD_NAME[][] = {

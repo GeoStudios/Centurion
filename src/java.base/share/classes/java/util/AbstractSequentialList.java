@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class provides a skeletal implementation of the {@code List}
  * interface to minimize the effort required to implement this interface
@@ -170,6 +186,7 @@ public abstract class AbstractSequentialList<E> extends AbstractList<E> {
         }
     }
 
+
     // Bulk Operations
 
     /**
@@ -214,6 +231,7 @@ public abstract class AbstractSequentialList<E> extends AbstractList<E> {
             throw new IndexOutOfBoundsException("Index: "+index);
         }
     }
+
 
     // Iterators
 

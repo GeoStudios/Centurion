@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
 import java.desktop.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code FlatteningPathIterator} class returns a flattened view of

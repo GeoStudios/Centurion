@@ -21,10 +21,24 @@
 
 package gc.ergonomics;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jtreg.SkippedException;
 import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestDynamicNumberOfGCThreads
@@ -36,6 +50,7 @@ import sun.hotspot.gc.GC;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.ergonomics.TestDynamicNumberOfGCThreads
  */
+
 
 public class TestDynamicNumberOfGCThreads {
   public static void main(String[] args) throws Exception {

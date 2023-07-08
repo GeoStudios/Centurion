@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8176505
@@ -30,6 +45,7 @@ package compiler.arraycopy;
  *
  * @author Volker Simonis
  */
+
 
 public class TestObjectArrayCopy {
 

@@ -21,12 +21,27 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
+
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.sql.rowset.share.classes.javax.naming.*;
 import java.io.*;
 import java.math.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard interface that all standard implementations of
@@ -217,6 +232,7 @@ public interface JdbcRowSet extends RowSet, Joinable {
     */
    void commit() throws SQLException;
 
+
    /**
     * Each <code>JdbcRowSet</code> contains a <code>Connection</code> object from
     * the original <code>ResultSet</code> or JDBC properties passed to it. This
@@ -236,6 +252,7 @@ public interface JdbcRowSet extends RowSet, Joinable {
     * @see java.sql.Connection#getAutoCommit()
     */
    boolean getAutoCommit() throws SQLException;
+
 
    /**
     * Each <code>JdbcRowSet</code> contains a <code>Connection</code> object from
@@ -263,6 +280,7 @@ public interface JdbcRowSet extends RowSet, Joinable {
      * @see #rollback(Savepoint)
      */
     void rollback() throws SQLException;
+
 
     /**
      * Each <code>JdbcRowSet</code> contains a <code>Connection</code> object from

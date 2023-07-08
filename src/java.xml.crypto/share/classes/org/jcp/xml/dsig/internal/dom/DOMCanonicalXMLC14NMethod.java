@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import javax.xml.crypto.*;
 import javax.xml.crypto.dsig.*;
 import javax.xml.crypto.dsig.spec.TransformParameterSpec;
@@ -28,10 +29,28 @@ import java.security.InvalidAlgorithmParameterException;
 import com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
 import com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * DOM-based implementation of CanonicalizationMethod for Canonical XML

@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.com.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MotifCheckBox implementation
@@ -38,6 +53,7 @@ public class MotifCheckBoxUI extends MotifRadioButtonUI {
     private static final String propertyPrefix = "CheckBox" + ".";
 
     private boolean defaults_initialized = false;
+
 
     // ********************************
     //         Create PLAF

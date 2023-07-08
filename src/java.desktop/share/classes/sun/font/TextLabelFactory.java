@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.awt.font.FontRenderContext;
 import java.text.Bidi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
    * A factory for text labels.  Basically this just holds onto the stuff that

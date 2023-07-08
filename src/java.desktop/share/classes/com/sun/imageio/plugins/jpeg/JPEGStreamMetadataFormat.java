@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
+
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGStreamMetadataFormat extends JPEGMetadataFormat {
 

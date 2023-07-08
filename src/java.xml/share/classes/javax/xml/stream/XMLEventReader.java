@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
+
 import java.xml.share.classes.javax.xml.stream.events.XMLEvent;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

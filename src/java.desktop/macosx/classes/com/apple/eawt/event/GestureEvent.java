@@ -21,8 +21,23 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
 import java.awt.*;
 import java.awt.event.InputEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract event all gestures inherit from.

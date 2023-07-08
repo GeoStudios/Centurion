@@ -21,6 +21,7 @@
 
 package nsk.jdi.PlugConnectors.TransportService.transportService003;
 
+
 import nsk.jdi.PlugConnectors.TransportService.transportService003.connectors.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -68,6 +82,10 @@ import java.io.*;
  *      -debugee.vmkind=java
  *      -transport.address=dynamic
  */
+
+
+
+
 
 /**
  * The test for the mechanism for creating pluggable Connectors             <BR>
@@ -124,6 +142,7 @@ public class transportService003 {
         }
         return result;
     }
+
 
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;

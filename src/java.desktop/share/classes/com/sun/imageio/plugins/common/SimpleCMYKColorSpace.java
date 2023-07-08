@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
+
 import java.awt.color.ColorSpace;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Singleton class representing a simple, mathematically defined CMYK

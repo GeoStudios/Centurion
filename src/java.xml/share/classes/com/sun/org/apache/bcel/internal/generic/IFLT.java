@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * IFLT - Branch if int comparison with zero succeeds
@@ -41,9 +58,11 @@ public class IFLT extends IfInstruction {
     IFLT() {
     }
 
+
     public IFLT(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.IFLT, target);
     }
+
 
     /**
      * @return negation of instruction
@@ -52,6 +71,7 @@ public class IFLT extends IfInstruction {
     public IfInstruction negate() {
         return new IFGE(super.getTarget());
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

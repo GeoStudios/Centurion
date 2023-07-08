@@ -21,7 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.management;
 
+
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Purpose of the interface is to be able to provide an implementation of

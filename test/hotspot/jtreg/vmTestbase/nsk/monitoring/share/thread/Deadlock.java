@@ -21,6 +21,7 @@
 
 package nsk.monitoring.share.thread;
 
+
 import java.lang.management.*;
 import nsk.share.log.*;
 import nsk.share.TestBug;
@@ -32,6 +33,19 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.TimeUnit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Scenario that starts threads that use different scenarios to deadlock.
@@ -303,6 +317,7 @@ public class Deadlock extends ThreadMonitoringScenarioBase {
                 }
         }
 
+
         private class DeadlockThread extends RecursiveMonitoringThread {
                 private boolean ready = false;
                 private Object readyLock = new Object();
@@ -391,6 +406,7 @@ public class Deadlock extends ThreadMonitoringScenarioBase {
                                 thread.check(threadMXBean);
                 }
         }
+
 
         private class NativeDeadlocker implements Deadlocker {
                 public void createLockers() {
@@ -492,6 +508,7 @@ public class Deadlock extends ThreadMonitoringScenarioBase {
                                 thread.check(threadMXBean);
                 }
         }
+
 
         protected Deadlocker createDeadlocker() {
                 switch (deadlockType) {

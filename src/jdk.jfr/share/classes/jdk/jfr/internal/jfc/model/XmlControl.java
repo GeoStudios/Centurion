@@ -21,7 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Corresponds to <control>
 final class XmlControl extends XmlElement {

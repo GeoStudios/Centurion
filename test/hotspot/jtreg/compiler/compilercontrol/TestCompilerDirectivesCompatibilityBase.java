@@ -21,6 +21,7 @@
 
 package compiler.compilercontrol;
 
+
 import compiler.testlibrary.CompilerUtils;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.test.lib.dcmd.CommandExecutor;
@@ -29,6 +30,19 @@ import org.testng.annotations.Test;
 import sun.hotspot.WhiteBox;
 import java.io.File;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestCompilerDirectivesCompatibilityBase
@@ -45,6 +59,9 @@ import java.lang.reflect.Method;
  *      -XX:+WhiteBoxAPI
  *      compiler.compilercontrol.TestCompilerDirectivesCompatibilityBase
  */
+
+
+
 
 public class TestCompilerDirectivesCompatibilityBase {
 

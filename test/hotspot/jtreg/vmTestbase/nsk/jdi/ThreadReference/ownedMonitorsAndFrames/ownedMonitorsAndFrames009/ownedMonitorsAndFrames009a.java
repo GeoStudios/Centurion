@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames009;
 
+
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ownedMonitorsAndFrames009a extends AbstractJDIDebuggee {
 

@@ -21,10 +21,24 @@
 
 package nsk.jvmti.scenarios.events.EM01;
 
+
 import java.lang.reflect.Field;
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class em01t001 extends DebugeeClass {
 

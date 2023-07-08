@@ -21,9 +21,24 @@
 
 package java.instrument.share.classes.java.lang.instrument;
 
+
 import java.instrument.share.classes.java.security.AccessController;
 import java.instrument.share.classes.java.security.PrivilegedAction;
 import java.instrument.share.classes.java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A transformer of class files. An agent registers an implementation of this
@@ -193,6 +208,7 @@ public interface ClassFileTransformer {
         throws IllegalClassFormatException {
         return null;
     }
+
 
     /**
      * Transforms the given class file and returns a new replacement class file.

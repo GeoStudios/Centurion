@@ -21,10 +21,25 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.ThreadGroupReference;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -33,6 +48,10 @@ import java.util.Iterator;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 class ThreadIterator implements Iterator<ThreadReference> {
     Iterator<ThreadReference> it = null;

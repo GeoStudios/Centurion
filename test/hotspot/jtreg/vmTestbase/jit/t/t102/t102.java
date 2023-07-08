@@ -21,8 +21,22 @@
 
 package jit.t.t102;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t102.t102
  */
+
+
 
 // Like t101.java except the short intege type is short instead of char.
 

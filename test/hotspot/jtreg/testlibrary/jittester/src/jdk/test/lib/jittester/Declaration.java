@@ -21,7 +21,21 @@
 
 package jdk.test.lib.jittester;
 
+
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Declaration extends IRNode {
     public Declaration(IRNode declarationExpr) {

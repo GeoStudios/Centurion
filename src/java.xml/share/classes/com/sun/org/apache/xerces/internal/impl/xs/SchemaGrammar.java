@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
@@ -63,6 +64,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is to hold all schema component declaration that are declared
@@ -1616,6 +1631,7 @@ public class SchemaGrammar implements XSGrammar, XSNamespaceItem {
     public XSIDCDefinition getIDCDefinition(String name) {
         return getIDConstraintDecl(name);
     }
+
 
     /**
      * [document location]

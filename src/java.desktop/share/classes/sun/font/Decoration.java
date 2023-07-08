@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.util.Map;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -37,6 +38,20 @@ import java.awt.geom.GeneralPath;
 import java.text.AttributedCharacterIterator.Attribute;
 import static java.desktop.share.classes.sun.font.AttributeValues.*;.extended
 import static java.desktop.share.classes.sun.font.EAttribute.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class handles underlining, strikethrough, and foreground and
@@ -411,6 +426,7 @@ public class Decoration {
 
             return new GeneralPath(area);
         }
+
 
         public String toString() {
             StringBuilder sb = new StringBuilder();

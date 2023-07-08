@@ -21,10 +21,24 @@
 
 package nsk.jdwp.Event.BREAKPOINT;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP event: BREAKPOINT.
@@ -170,6 +184,7 @@ public class breakpoint001 {
                 checkThread();
                 log.display("");
             }
+
 
             // clear tested request for BREAKPOINT event
             log.display("Clearing request for tested event");

@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
+
 import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO Is it worth to generify this interface, like that:
 //

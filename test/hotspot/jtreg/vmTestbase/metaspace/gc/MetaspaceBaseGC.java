@@ -21,6 +21,7 @@
 
 package metaspace.gc;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryPoolMXBean;
@@ -39,6 +40,19 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test that checks how GC works with Metaspace and "Compared Class Space".
@@ -96,6 +110,7 @@ public abstract class MetaspaceBaseGC {
         System.out.println("% Test passed.");
     }
 
+
     protected void configure(String args[]) {
         vmArgs.addAll(ManagementFactory.getRuntimeMXBean().getInputArguments());
 
@@ -112,6 +127,7 @@ public abstract class MetaspaceBaseGC {
         }
         parseArgs(args);
     }
+
 
     /**
      * Imitates class loading.
@@ -232,6 +248,8 @@ public abstract class MetaspaceBaseGC {
         return (v / 1024) + "k";
     }
 
+
+
     /**
      * @return amount of used memory
      */
@@ -267,6 +285,7 @@ public abstract class MetaspaceBaseGC {
             throw new Fault("Cannot detect page size");
         }
     }
+
 
     long parseValue(String s) {
         s = s.toLowerCase();

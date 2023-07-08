@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
+
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
@@ -41,6 +42,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The DTD loader. The loader knows how to build grammars from XMLInputSources.
@@ -373,6 +388,7 @@ public class XMLDTDLoader
     public Locale getLocale() {
         return fLocale;
     } // getLocale():  Locale
+
 
     /**
      * Sets the error handler.

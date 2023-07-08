@@ -21,6 +21,21 @@
 
 package com.sun.tools.javac;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Test {
     public static String mutable;
 }

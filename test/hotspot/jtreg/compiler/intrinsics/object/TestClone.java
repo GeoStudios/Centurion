@@ -21,7 +21,21 @@
 
 package compiler.intrinsics.object;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,6 +56,8 @@ import jdk.test.lib.Asserts;
  *      -XX:CompileCommand=compileonly,compiler.intrinsics.object.TestClone::test*
  *      compiler.intrinsics.object.TestClone
  */
+
+
 
 abstract class MyAbstract {
 

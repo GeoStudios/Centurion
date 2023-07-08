@@ -21,7 +21,21 @@
 
 package nsk.share.log;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic Log that outputs to PrintStream.

@@ -21,6 +21,7 @@
 
 package java.base.macosx.classes.java.net;
 
+
 import java.base.macosx.classes.java.security.AccessController;
 import java.base.macosx.classes.java.security.PrivilegedAction;
 import java.base.macosx.classes.java.util.Enumeration;
@@ -37,6 +38,7 @@ import java.base.macosx.classes.java.io.java.io.java.io.java.io.IOException;
  * Platforms that do not require a default interface implement a dummy
  * that returns null.
  */
+
 
 class DefaultInterface {
 

@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.text.CollationElementIterator;
 import java.text.Collator;
 import java.text.RuleBasedCollator;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * International friendly string comparison with case-order
@@ -92,6 +107,7 @@ public class StringComparable implements Comparable<StringComparable>  {
        }
   }
 
+
   private final int getCaseDiff (final String text, final String pattern){
      final int savedStrength = m_collator.getStrength();
      final int savedDecomposition = m_collator.getDecomposition();
@@ -120,6 +136,8 @@ public class StringComparable implements Comparable<StringComparable>  {
    }
 
   }
+
+
 
   private final int[] getFirstCaseDiff(final String text, final String pattern, final Locale locale){
 
@@ -187,6 +205,7 @@ public class StringComparable implements Comparable<StringComparable>  {
         }
 
   }
+
 
  // Return a mask for the part of the order we're interested in
     private static final int getMask(final int strength) {

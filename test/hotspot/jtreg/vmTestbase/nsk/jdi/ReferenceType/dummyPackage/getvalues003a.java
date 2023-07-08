@@ -21,11 +21,26 @@
 
 package nsk.jdi.ReferenceType.dummyPackage;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // dummy package
+
 
 /**
  * This is an auxiliary class outside a main debuggee package. It's

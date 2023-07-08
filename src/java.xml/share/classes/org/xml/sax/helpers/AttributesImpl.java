@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
+
 import java.xml.share.classes.org.xml.sax.Attributes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Default implementation of the Attributes interface.
@@ -50,9 +65,11 @@ import java.xml.share.classes.org.xml.sax.Attributes;
 public class AttributesImpl implements Attributes
 {
 
+
     ////////////////////////////////////////////////////////////////////
     // Constructors.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Construct a new, empty AttributesImpl object.
@@ -62,6 +79,7 @@ public class AttributesImpl implements Attributes
         length = 0;
         data = null;
     }
+
 
     /**
      * Copy an existing Attributes object.
@@ -76,9 +94,12 @@ public class AttributesImpl implements Attributes
         setAttributes(atts);
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.Attributes.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Return the number of attributes in the list.
@@ -90,6 +111,7 @@ public class AttributesImpl implements Attributes
     {
         return length;
     }
+
 
     /**
      * Return an attribute's Namespace URI.
@@ -108,6 +130,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Return an attribute's local name.
      *
@@ -124,6 +147,7 @@ public class AttributesImpl implements Attributes
             return null;
         }
     }
+
 
     /**
      * Return an attribute's qualified (prefixed) name.
@@ -142,6 +166,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Return an attribute's type by index.
      *
@@ -159,6 +184,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Return an attribute's value by index.
      *
@@ -174,6 +200,7 @@ public class AttributesImpl implements Attributes
             return null;
         }
     }
+
 
     /**
      * Look up an attribute's index by Namespace name.
@@ -199,6 +226,7 @@ public class AttributesImpl implements Attributes
         return -1;
     }
 
+
     /**
      * Look up an attribute's index by qualified (prefixed) name.
      *
@@ -216,6 +244,7 @@ public class AttributesImpl implements Attributes
         }
         return -1;
     }
+
 
     /**
      * Look up an attribute's type by Namespace-qualified name.
@@ -238,6 +267,7 @@ public class AttributesImpl implements Attributes
         return null;
     }
 
+
     /**
      * Look up an attribute's type by qualified (prefixed) name.
      *
@@ -256,6 +286,7 @@ public class AttributesImpl implements Attributes
         }
         return null;
     }
+
 
     /**
      * Look up an attribute's value by Namespace-qualified name.
@@ -278,6 +309,7 @@ public class AttributesImpl implements Attributes
         return null;
     }
 
+
     /**
      * Look up an attribute's value by qualified (prefixed) name.
      *
@@ -297,9 +329,12 @@ public class AttributesImpl implements Attributes
         return null;
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Manipulators.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Clear the attribute list for reuse.
@@ -316,6 +351,7 @@ public class AttributesImpl implements Attributes
         }
         length = 0;
     }
+
 
     /**
      * Copy an entire Attributes object.
@@ -340,6 +376,7 @@ public class AttributesImpl implements Attributes
             }
         }
     }
+
 
     /**
      * Add an attribute to the end of the list.
@@ -369,6 +406,7 @@ public class AttributesImpl implements Attributes
         data[length*5+4] = value;
         length++;
     }
+
 
     /**
      * Set an attribute in the list.
@@ -405,6 +443,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Remove an attribute from the list.
      *
@@ -432,6 +471,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Set the Namespace URI of a specific attribute.
      *
@@ -450,6 +490,7 @@ public class AttributesImpl implements Attributes
             badIndex(index);
         }
     }
+
 
     /**
      * Set the local name of a specific attribute.
@@ -470,6 +511,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Set the qualified name of a specific attribute.
      *
@@ -489,6 +531,7 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
     /**
      * Set the type of a specific attribute.
      *
@@ -506,6 +549,7 @@ public class AttributesImpl implements Attributes
             badIndex(index);
         }
     }
+
 
     /**
      * Set the value of a specific attribute.
@@ -525,9 +569,12 @@ public class AttributesImpl implements Attributes
         }
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Internal methods.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Ensure the internal array's capacity.
@@ -560,6 +607,7 @@ public class AttributesImpl implements Attributes
         data = newData;
     }
 
+
     /**
      * Report a bad array index in a manipulator.
      *
@@ -573,6 +621,8 @@ public class AttributesImpl implements Attributes
             "Attempt to modify attribute at illegal index: " + index;
         throw new ArrayIndexOutOfBoundsException(msg);
     }
+
+
 
     ////////////////////////////////////////////////////////////////////
     // Internal state.

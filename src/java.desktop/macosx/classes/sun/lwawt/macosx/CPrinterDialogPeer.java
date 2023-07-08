@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.*;
 import java.awt.dnd.*;
 import java.desktop.macosx.classes.sun.lwawt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPrinterDialogPeer extends LWWindowPeer {
     static {

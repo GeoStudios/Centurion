@@ -21,11 +21,25 @@
 
 package nsk.jdi.VirtualMachine.instanceCounts.instancecounts004;
 
+
 import java.io.PrintStream;
 import java.util.*;
 import nsk.share.Consts;
 import nsk.share.jdi.HeapwalkingDebugger;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -56,6 +70,8 @@ import nsk.share.test.Stresser;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
+
+
 
 public class instancecounts004 extends HeapwalkingDebugger {
 

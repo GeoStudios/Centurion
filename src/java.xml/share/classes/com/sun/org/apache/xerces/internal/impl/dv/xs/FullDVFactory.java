@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * the factory to create/return built-in schema DVs and create user-defined DVs
@@ -151,6 +166,7 @@ public class FullDVFactory extends BaseDVFactory {
         XSSimpleTypeDecl entitiesDV = new XSSimpleTypeDecl(tempDV, ENTITIES, URI_SCHEMAFORSCHEMA, (short)0, false, null);
         entitiesDV.applyFacets1(facets, XSSimpleType.FACET_MINLENGTH, (short)0);
         types.put(ENTITIES, entitiesDV);
+
 
         facets.whiteSpace  = XSSimpleType.WS_COLLAPSE;
         XSSimpleTypeDecl nmtokenDV = new XSSimpleTypeDecl(tokenDV, NMTOKEN, URI_SCHEMAFORSCHEMA, (short)0, false, null, XSConstants.NMTOKEN_DT);

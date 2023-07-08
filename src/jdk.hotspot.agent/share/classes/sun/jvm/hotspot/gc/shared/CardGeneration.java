@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Class CardGeneration is a generation that is covered by a card
     table, and uses a card-size block-offset array to implement

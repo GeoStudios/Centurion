@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Properties;
 import javax.xml.transform.Result;
@@ -29,6 +30,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
 import javax.xml.transform.Errorjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This serializer takes a series of SAX or
@@ -339,8 +354,10 @@ public final class ToHTMLStream extends ToStream
                     | ElemDesc.BLOCKFORM
                     | ElemDesc.BLOCKFORMFIELDSET));
 
+
         // NOW FOR ATTRIBUTE INFORMATION . . .
         ElemDesc elemDesc;
+
 
         // ----------------------------------------------
         elemDesc = (ElemDesc) m_elementFlags.get("a");
@@ -803,6 +820,7 @@ public final class ToHTMLStream extends ToStream
             m_needToCallStartDocument = false;
         }
 
+
         // if this element has a namespace then treat it like XML
         if (null != namespaceURI && namespaceURI.length() > 0)
         {
@@ -879,6 +897,7 @@ public final class ToHTMLStream extends ToStream
                         m_startNewLine = true;
                 }
             }
+
 
             if ((elemFlags & ElemDesc.HEADELEM) != 0)
             {
@@ -1162,6 +1181,7 @@ public final class ToHTMLStream extends ToStream
         int cleanStart = 0;
         int cleanLength = 0;
 
+
         char ch = 0;
         for (int i = 0; i < end; i++)
         {
@@ -1308,6 +1328,7 @@ public final class ToHTMLStream extends ToStream
                     cleanLength = 0;
                 }
 
+
                 // Mike Kay encodes this as &#34;, so he may know something I don't?
                 if (doURLEscaping)
                     writer.write("%22");
@@ -1379,6 +1400,8 @@ public final class ToHTMLStream extends ToStream
         }
         string.getChars(0, end, m_attrBuff, 0);
         final char[] chars = m_attrBuff;
+
+
 
         int cleanStart = 0;
         int cleanLength = 0;
@@ -1482,6 +1505,8 @@ public final class ToHTMLStream extends ToStream
             writer.write(ch);
         }
     }
+
+
 
     /**
      * Receive notification of character data.

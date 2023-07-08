@@ -21,9 +21,23 @@
 
 package compiler.floatingpoint;
 
+
 import jdk.test.lib.Platform;
 import jtreg.SkippedException;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -36,6 +50,8 @@ import sun.hotspot.WhiteBox;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *                   compiler.floatingpoint.NaNTest
  */
+
+
 
 public class NaNTest {
     static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

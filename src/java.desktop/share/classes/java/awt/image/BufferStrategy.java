@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.BufferCapabilities;
 import java.desktop.share.classes.java.awt.Graphics;
 import java.desktop.share.classes.java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code BufferStrategy} class represents the mechanism with which

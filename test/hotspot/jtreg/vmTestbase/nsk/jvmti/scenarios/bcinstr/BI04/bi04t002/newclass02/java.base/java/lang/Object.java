@@ -21,7 +21,21 @@
 
 package java.lang;
 
+
 import nsk.jvmti.scenarios.bcinstr.BI04.bi04t002a;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class <code>Object</code> is the root of the class hierarchy.

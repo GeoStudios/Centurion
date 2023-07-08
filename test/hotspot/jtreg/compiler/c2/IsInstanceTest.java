@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6894807
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main compiler.c2.IsInstanceTest
 */
+
 
 public class IsInstanceTest {
 

@@ -21,9 +21,23 @@
 
 package nsk.jdi.ExceptionRequest.addClassFilter_rt;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter_rt001 JDI test.
@@ -142,6 +156,7 @@ public class filter_rt001a {
         }
     }
 }
+
 
 class filter_rt001aTestClass10{
     void m10() {

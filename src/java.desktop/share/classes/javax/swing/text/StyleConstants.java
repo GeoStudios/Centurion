@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Toolkit;
 import java.desktop.share.classes.javax.swing.Icon;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -458,6 +473,7 @@ public class StyleConstants {
         return false;
     }
 
+
     /**
      * Checks whether the superscript attribute is set.
      *
@@ -472,6 +488,7 @@ public class StyleConstants {
         return false;
     }
 
+
     /**
      * Checks whether the subscript attribute is set.
      *
@@ -485,6 +502,7 @@ public class StyleConstants {
         }
         return false;
     }
+
 
     /**
      * Sets the underline attribute.
@@ -525,6 +543,7 @@ public class StyleConstants {
     public static void setSubscript(MutableAttributeSet a, boolean b) {
         a.addAttribute(Subscript, Boolean.valueOf(b));
     }
+
 
     /**
      * Gets the foreground color setting from the attribute list.
@@ -573,6 +592,7 @@ public class StyleConstants {
     public static void setBackground(MutableAttributeSet a, Color fg) {
         a.addAttribute(Background, fg);
     }
+
 
     // --- paragraph attribute accessors ----------------------------
 
@@ -835,5 +855,6 @@ public class StyleConstants {
             super(representation);
         }
     }
+
 
 }

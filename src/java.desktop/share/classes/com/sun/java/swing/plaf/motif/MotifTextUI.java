@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import java.desktop.share.classes.com.sun.java.awt.Rectangle;
@@ -36,6 +37,20 @@ import javax.swing.text.Caret;
 import javax.swing.text.DefaultCaret;
 import javax.swing.text.DefaultEditorKit;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the look and feel features that are common across
@@ -164,5 +179,6 @@ public class MotifTextUI {
                                                                     InputEvent.SHIFT_MASK),
                                              DefaultEditorKit.selectionForwardAction),
     };
+
 
 }

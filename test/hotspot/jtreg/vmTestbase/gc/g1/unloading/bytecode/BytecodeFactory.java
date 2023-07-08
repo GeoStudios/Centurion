@@ -21,6 +21,21 @@
 
 package gc.g1.unloading.bytecode;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface BytecodeFactory {
 
     Bytecode createBytecode(String className);

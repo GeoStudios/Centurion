@@ -21,7 +21,21 @@
 
 package jit.FloatingPoint.gen_math.Loops05;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.gen_math.Loops05.Loops05
  */
+
+
 
 public class Loops05
 {
@@ -54,8 +70,10 @@ public class Loops05
 
         double r1, r2, r3, r4, r5;
 
+
         Loops05 ll;
         ll = new Loops05();
+
 
         for(int i = 0; i < N; i++)
         {       for(int j = 0; j < N; j++)
@@ -116,6 +134,7 @@ public class Loops05
         return nor;
    }
 
+
    public void Echeck(double er, double ER)
    {
 
@@ -129,5 +148,9 @@ public class Loops05
         }
 
    }
+
+
+
+
 
 }

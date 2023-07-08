@@ -21,6 +21,21 @@
 
 package nsk.jdi.ReferenceType.methodsByName_ss;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is loaded by methbyname_ss002aClassLoader .
  */
@@ -46,6 +61,7 @@ class methbyname_ss002aClassForCheck {
     static long[]  s_prim_array_par_method(long[] la) {return new long[100];}
     static Object[]  s_ref_array_par_method(Object[] obja) {return new Object[100];}
 
+
     // instance methods
     void i_void_method() {}
     long    i_long_method() {return 100;}
@@ -63,5 +79,6 @@ class methbyname_ss002aClassForCheck {
 
     // static initializer
     static {}
+
 
 }

@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.StreamFilter;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.namespace.QName;
 import javax.xml.stream.events.XMLEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -501,6 +516,7 @@ public class XMLStreamFilterImpl implements javax.xml.stream.XMLStreamReader {
     public boolean isWhiteSpace() {
         return fStreamReader.isWhiteSpace();
     }
+
 
     /**
      *

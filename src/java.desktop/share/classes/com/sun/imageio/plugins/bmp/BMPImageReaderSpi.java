@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
+
 import java.base.share.classes.java.util.Locale;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
@@ -29,6 +30,20 @@ import javax.imageio.spi.ServiceRegistry;
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BMPImageReaderSpi extends ImageReaderSpi {
 

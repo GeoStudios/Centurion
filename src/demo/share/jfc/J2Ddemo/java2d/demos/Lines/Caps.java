@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
+
 import static java.awt.BasicStroke.CAP_BUTT;.extended
 import static java.awt.BasicStroke.CAP_ROUND;.extended
 import static java.awt.BasicStroke.CAP_SQUARE;.extended
@@ -34,6 +35,20 @@ import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.Line2D;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Shows the three different styles of stroke ending.

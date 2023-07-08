@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
+
 import java.naming.share.classes.javax.naming.*;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents a factory for obtaining the state of an

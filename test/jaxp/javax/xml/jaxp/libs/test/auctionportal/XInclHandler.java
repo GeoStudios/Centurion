@@ -21,6 +21,7 @@
 
 package test.auctionportal;
 
+
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -31,6 +32,19 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.ext.LexicalHandler;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SAX2 event handlers.

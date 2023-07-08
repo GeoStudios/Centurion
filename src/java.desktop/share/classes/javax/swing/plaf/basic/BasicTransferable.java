@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.datatransfer.DataFlavorUtil;
 import java.io.*;
 import java.awt.datatransfer.*;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A transferable implementation for the default data transfer of some Swing
@@ -65,6 +80,7 @@ class BasicTransferable implements Transferable, UIResource {
         this.plainData = plainData;
         this.htmlData = htmlData;
     }
+
 
     /**
      * Returns an array of DataFlavor objects indicating the flavors the data
@@ -282,5 +298,6 @@ class BasicTransferable implements Transferable, UIResource {
         }
         return false;
     }
+
 
 }

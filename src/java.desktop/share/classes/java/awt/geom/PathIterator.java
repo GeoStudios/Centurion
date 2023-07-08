@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
 import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code PathIterator} interface provides the mechanism

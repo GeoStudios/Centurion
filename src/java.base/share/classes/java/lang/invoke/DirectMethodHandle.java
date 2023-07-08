@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import jdk.internal.misc.Unsafe;
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.vm.annotation.Stable;
@@ -38,6 +39,20 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Const
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
 import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The flavor of method handle which implements a constant reference

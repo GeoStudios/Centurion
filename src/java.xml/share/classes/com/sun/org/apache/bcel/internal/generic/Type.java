@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ClassFormatException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for all possible java types, namely basic types
@@ -60,10 +75,12 @@ public abstract class Type {
     public static final Type UNKNOWN = new Type(Const.T_UNKNOWN, "<unknown object>") {
     };
 
+
     protected Type(final byte t, final String s) {
         type = t;
         signature = s;
     }
+
 
     /**
      * @return hashcode of Type
@@ -72,6 +89,7 @@ public abstract class Type {
     public int hashCode() {
         return type ^ signature.hashCode();
     }
+
 
     /**
      * @return whether the Types are equal
@@ -84,12 +102,14 @@ public abstract class Type {
           return false;
     }
 
+
     /**
      * @return signature for given type.
      */
     public String getSignature() {
         return signature;
     }
+
 
     /**
      * @return type as defined in Constants
@@ -125,6 +145,7 @@ public abstract class Type {
         }
     }
 
+
     /**
      * @return Type string, e.g. `int[]'
      */
@@ -133,6 +154,7 @@ public abstract class Type {
         return ((this.equals(Type.NULL) || (type >= Const.T_UNKNOWN))) ? signature : Utility
                 .signatureToString(signature, false);
     }
+
 
     /**
      * Convert type to Java method signature, e.g. int[] f(java.lang.String x)
@@ -162,13 +184,16 @@ public abstract class Type {
         }
     };//int consumed_chars=0; // Remember position in string, see getArgumentTypes
 
+
     private static int unwrap( final ThreadLocal<Integer> tl ) {
         return tl.get().intValue();
     }
 
+
     private static void wrap( final ThreadLocal<Integer> tl, final int value ) {
         tl.set(Integer.valueOf(value));
     }
+
 
     /**
      * Convert signature to a Type object.
@@ -201,6 +226,7 @@ public abstract class Type {
         }
     }
 
+
     /**
      * Convert return value of a method (signature) to a Type object.
      *
@@ -216,6 +242,7 @@ public abstract class Type {
             throw new ClassFormatException("Invalid method signature: " + signature, e);
         }
     }
+
 
     /**
      * Convert arguments of a method (signature) to an array of Type objects.
@@ -244,6 +271,7 @@ public abstract class Type {
         vec.toArray(types);
         return types;
     }
+
 
     /** Convert runtime java.lang.Class to BCEL Type object.
      * @param cl Java class
@@ -287,6 +315,7 @@ public abstract class Type {
         }
     }
 
+
     /**
      * Convert runtime java.lang.Class[] to BCEL Type objects.
      * @param classes an array of runtime class objects
@@ -299,6 +328,7 @@ public abstract class Type {
         }
         return ret;
     }
+
 
     public static String getSignature( final java.lang.reflect.Method meth ) {
         final StringBuilder sb = new StringBuilder("(");
@@ -364,10 +394,12 @@ public abstract class Type {
         }
     }
 
+
     static int getReturnTypeSize(final String signature) {
         final int index = signature.lastIndexOf(')') + 1;
         return Type.size(getTypeSize(signature.substring(index)));
     }
+
 
     /*
      * Currently only used by the ArrayType constructor.

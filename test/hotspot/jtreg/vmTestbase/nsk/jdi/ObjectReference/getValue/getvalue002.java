@@ -21,6 +21,7 @@
 
 package nsk.jdi.ObjectReference.getValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -150,6 +164,7 @@ public class getvalue002 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -189,6 +204,7 @@ public class getvalue002 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -216,6 +232,7 @@ public class getvalue002 {
                     expresult = returnCode1;
                     break label0;
                 }
+
 
                 log2("......getting Thread thread2 - 1-st argument");
                 listIterator = allThreads.listIterator();
@@ -264,6 +281,7 @@ public class getvalue002 {
                     break label1;
                 log2("      thread2 is at breakpoint");
 
+
                 log2("......getting ClassType classType - an object to apply newInstance()");
                 classes     = vm.classesByName(testedClassName);
                 testedClass = (ReferenceType) classes.get(0);
@@ -292,12 +310,14 @@ public class getvalue002 {
                     break label1;
                 }
 
+
                 // this is only to get an empty List with JDI methods but not with API List methods
                 log2("......forming an empty List argumentList for 3-d argument");
                 log2("       List argumentList = testedClass.methodsByName('m');");
                 List argumentList = testedClass.methodsByName("m");
                 log2("       argumentList.clear();");
                 argumentList.clear();
+
 
                 ObjectReference objRef = null;
 
@@ -308,6 +328,7 @@ public class getvalue002 {
                                      invokeMethod, Collections.<Value>emptyList(), 0);
                     if (objRef == null)
                         log2("       objRe == null");
+
 
                     log2("        ReferenceType refType = objRef.referenceType();");
                     ReferenceType refType = objRef.referenceType();
@@ -354,6 +375,7 @@ public class getvalue002 {
                 Field fsin2 = testedClass.fieldByName("in2");
                 Field fsln2 = testedClass.fieldByName("ln2");
                 Field fssh2 = testedClass.fieldByName("sh2");
+
 
                 log2("......loop of checks on each primitive type by performing statements like first one:");
                 log2("        BooleanValue blv = (BooleanValue) thisobj.getValue(fsbl1);");
@@ -419,6 +441,7 @@ public class getvalue002 {
                                 shv = (ShortValue) thisobj.getValue(fssh2);
                                 break;
 
+
                       default : log3("ERROR: TEST ERROR:  case: default:");
                                 expresult = returnCode1;
                                 break;
@@ -440,6 +463,7 @@ public class getvalue002 {
                     } // end of try
 
                 } // end of for
+
 
             }
             vm.resume();
@@ -528,6 +552,7 @@ public class getvalue002 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

@@ -21,6 +21,21 @@
 
 package compiler.membars;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key stress randomness
@@ -39,6 +54,7 @@ package compiler.membars;
  *
  * Run 3 times since the failure is intermittent.
  */
+
 
 public class DekkerTest {
 

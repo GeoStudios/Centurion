@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
 import java.io.Serial;
 import java.security.BasicPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AudioPermission} class represents access rights to the audio

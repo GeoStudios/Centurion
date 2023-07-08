@@ -21,8 +21,23 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.util.function.IntUnaryOperator;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class AbstractShuffle<E> extends VectorShuffle<E> {
     static final IntUnaryOperator IDENTITY = i -> i;

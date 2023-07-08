@@ -21,6 +21,7 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.report;
 
+
 import java.util.Vector;
 import java.util.Hashtable;
 import java.util.Enumeration;
@@ -29,6 +30,20 @@ import java.io.FileReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -36,6 +51,10 @@ import java.io.PrintStream;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 public class J2DAnalyzer {
     static Vector results = new Vector();

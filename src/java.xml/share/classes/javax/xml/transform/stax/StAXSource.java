@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.javax.xml.transform.stax;
 
+
 import java.xml.share.classes.javax.xml.stream.XMLEventReader;
 import java.xml.share.classes.javax.xml.stream.XMLStreamConstants;
 import java.xml.share.classes.javax.xml.stream.XMLStreamException;
 import java.xml.share.classes.javax.xml.stream.XMLStreamReader;
 import java.xml.share.classes.javax.xml.stream.events.XMLEvent;
 import java.xml.share.classes.javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Acts as a holder for an XML {@link Source} in the

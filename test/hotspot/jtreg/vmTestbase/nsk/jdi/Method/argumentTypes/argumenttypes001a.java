@@ -21,9 +21,23 @@
 
 package nsk.jdi.Method.argumentTypes;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the argumenttypes001 JDI test.
@@ -72,6 +86,7 @@ public class argumenttypes001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -112,6 +127,7 @@ public class argumenttypes001a {
 
 class argumenttypes001aTestClass {
 
+
     public boolean bl () { return false; }
     public byte    bt () { return 0;     }
     public char    ch () { return 0;     }
@@ -123,6 +139,8 @@ class argumenttypes001aTestClass {
 
     public void vd () { return ; }
 
+
+
    public void primitiveargsmethod ( boolean bl,
                                    byte    bt,
                                    char    ch,
@@ -133,6 +151,8 @@ class argumenttypes001aTestClass {
                                    short   sh ) {
        return ;
    }
+
+
 
     private argumenttypes001aClassForCheck2 class2 = new argumenttypes001aClassForCheck2();
 
@@ -151,6 +171,7 @@ class argumenttypes001aTestClass {
     }
 
 }
+
 
 interface argumenttypes001aIntfForCheck {
 

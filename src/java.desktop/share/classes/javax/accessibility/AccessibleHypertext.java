@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code AccessibleHypertext} class is the base class for all classes that
  * present hypertext information on the display. This class provides the

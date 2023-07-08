@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.sourceName;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the sourceName() method of ReferenceType interface for UNLOADED class
+
 
 class sourcename002b {}

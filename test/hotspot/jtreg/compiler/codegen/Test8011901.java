@@ -21,8 +21,22 @@
 
 package compiler.codegen;
 
+
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,9 @@ import java.lang.reflect.Field;
  *
  * @run main/othervm -XX:-BackgroundCompilation compiler.codegen.Test8011901
  */
+
+
+
 
 public class Test8011901 {
 

@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicPanelUI;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
 import java.awt.Graphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaPanelUI extends BasicPanelUI {
     private static final RecyclableSingleton<AquaPanelUI> instance = new RecyclableSingletonFromDefaultConstructor<AquaPanelUI>(AquaPanelUI.class);

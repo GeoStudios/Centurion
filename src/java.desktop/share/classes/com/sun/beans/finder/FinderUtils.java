@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Defines utility methods for use by finders.
  */

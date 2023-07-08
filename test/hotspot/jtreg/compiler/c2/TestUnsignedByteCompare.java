@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8204479
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:-UseOnStackReplacement -XX:-BackgroundCompilation -Xcomp -XX:-Inline
  *      compiler.c2.TestUnsignedByteCompare
  */
+
 
 public class TestUnsignedByteCompare {
 

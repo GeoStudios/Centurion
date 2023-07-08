@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XProtocol {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XProtocol");

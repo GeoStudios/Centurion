@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Interface for SAXImpl which adds methods used at run-time, over and above

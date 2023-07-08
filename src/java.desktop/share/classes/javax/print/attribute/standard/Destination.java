@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
+
 import java.io.File;
 import java.io.Serial;
 import java.net.URI;
@@ -28,6 +29,20 @@ import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
 import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
 import java.desktop.share.classes.javax.print.attribute.URISyntax;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code Destination} is a printing attribute class, a {@code URI}, that

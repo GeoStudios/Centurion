@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.DocumentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for a DOM serializer implementation, factory for DOM and SAX
@@ -65,6 +80,7 @@ import java.xml.share.classes.com.sun.org.xml.sax.DocumentHandler;
 public interface Serializer
 {
 
+
     /**
      * Specifies an output stream to which the document should be
      * serialized. This method should not be called while the
@@ -72,12 +88,14 @@ public interface Serializer
      */
     void setOutputByteStream(OutputStream output);
 
+
     /**
      * Specifies a writer to which the document should be serialized.
      * This method should not be called while the serializer is in
      * the process of serializing a document.
      */
     void setOutputCharStream( Writer output );
+
 
     /**
      * Specifies an output format for this serializer. It the
@@ -90,6 +108,7 @@ public interface Serializer
      */
     void setOutputFormat( OutputFormat format );
 
+
     /**
      * Return a {@link DocumentHandler} interface into this serializer.
      * If the serializer does not support the {@link DocumentHandler}
@@ -97,6 +116,7 @@ public interface Serializer
      */
     DocumentHandler asDocumentHandler()
         throws IOException;
+
 
     /**
      * Return a {@link ContentHandler} interface into this serializer.
@@ -106,6 +126,7 @@ public interface Serializer
     ContentHandler asContentHandler()
         throws IOException;
 
+
     /**
      * Return a {@link DOMSerializer} interface into this serializer.
      * If the serializer does not support the {@link DOMSerializer}
@@ -113,5 +134,6 @@ public interface Serializer
      */
     DOMSerializer asDOMSerializer()
         throws IOException;
+
 
 }

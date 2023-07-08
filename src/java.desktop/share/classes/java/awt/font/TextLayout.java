@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.awt.Color;
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.awt.Graphics2D;
@@ -48,6 +49,20 @@ import sun.font.FontLineMetrics;
 import sun.font.FontResolver;
 import sun.font.GraphicComponent;
 import sun.font.LayoutPathImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -236,6 +251,7 @@ public final class TextLayout implements Cloneable {
      * back to false.  Could be replaced with textLine != null <--> cacheIsValid.
      */
     private boolean cacheIsValid = false;
+
 
     // This value is obtained from an attribute, and constrained to the
     // interval [0,1].  If 0, the layout cannot be justified.
@@ -822,6 +838,7 @@ public final class TextLayout implements Cloneable {
     protected void handleJustify(float justificationWidth) {
       // never called
     }
+
 
     /**
      * Returns the baseline for this {@code TextLayout}.
@@ -1729,6 +1746,7 @@ public final class TextLayout implements Cloneable {
                     new double[] { x0, y0, x2, y2, x1, y1 } :
                     new double[] { x0, y0, x1, y1 };
     }
+
 
     private static GeneralPath pathToShape(double[] path, boolean close, LayoutPathImpl lp) {
         GeneralPath result = new GeneralPath(GeneralPath.WIND_EVEN_ODD, path.length);

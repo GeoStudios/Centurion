@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -39,6 +53,8 @@ import jdk.test.lib.Utils;
 // -Xcomp -Xbatch are also useful to ensure the full range of
 //   dividend and divisor combinations are tested
 //
+
+
 
 public class Test6603011 implements Runnable {
   static class s {
@@ -202,6 +218,7 @@ public class Test6603011 implements Runnable {
   public static void main(String[] args) throws Exception {
     Class cl = Test6603011.class;
     ClassLoader apploader = cl.getClassLoader();
+
 
     // Test every divisor between -100 and 100.
     for (int i = -100; i <= 100; i++) {

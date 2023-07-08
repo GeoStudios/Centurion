@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import javax.swing.plaf.UIResource;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 public class AquaNativeResources {

@@ -21,7 +21,21 @@
 
 package vm.compiler.complog.uninit.uninit003;
 
+
 import vm.compiler.complog.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,8 @@ import vm.compiler.complog.share.*;
  *      -parserClass vm.compiler.complog.uninit.UninitializedTrapCounter
  *      -parserOptions "-classFilter=.*uninit.*"
  */
+
+
 
 /**
  * Provoke OSR for loop without 'new' call of uninitialized class

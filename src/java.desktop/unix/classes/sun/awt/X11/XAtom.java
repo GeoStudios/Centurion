@@ -21,9 +21,24 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import jdk.internal.misc.Unsafe;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XAtom is a class that allows you to create and modify X Window properties.
@@ -55,6 +70,8 @@ import java.util.HashMap;
  * }</pre>
  *
  */
+
+
 
 public final class XAtom {
 
@@ -217,6 +234,7 @@ public final class XAtom {
     /* display for X connection */
     long display;
 
+
     /**  This constructor will create and intern a new XAtom that is specified
      *  by the supplied name.
      *
@@ -320,6 +338,7 @@ public final class XAtom {
         }
     }
 
+
     /**  Gets the window property for the specified window
      * @param window window id to use
      * @return string with the property.
@@ -336,6 +355,7 @@ public final class XAtom {
             XToolkit.awtUnlock();
         }
     }
+
 
     /*
      * Auxiliary function that returns the value of 'property' of type

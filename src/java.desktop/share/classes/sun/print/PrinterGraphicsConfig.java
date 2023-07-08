@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.Rectangle;
@@ -29,6 +30,20 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.DirectColorModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class PrinterGraphicsConfig extends GraphicsConfiguration {
 

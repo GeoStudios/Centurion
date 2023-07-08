@@ -21,11 +21,26 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests;
 
+
 import java.awt.Dimension;
 import java.awt.Graphics;
 import demo.share.java2d.J2DBench.src.j2dbench.Group;
 import demo.share.java2d.J2DBench.src.j2dbench.Option;
 import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -34,6 +49,11 @@ import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
+
 
 public abstract class MiscTests extends GraphicsTests {
     static Group miscroot;

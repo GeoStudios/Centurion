@@ -21,6 +21,56 @@
 
 package build.tools.jdwpgen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class ModuleTypeNode extends AbstractSimpleTypeNode {
 
     String docType() {

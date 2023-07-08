@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
@@ -44,6 +45,20 @@ import javax.swing.JTabbedPane;
 import javax.swing.UIManager;
 import javax.swing.border.TitledBorder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -51,6 +66,10 @@ import javax.swing.border.TitledBorder;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This is dialog which allows users to choose preferences
@@ -69,6 +88,7 @@ public final class MetalworksPrefs extends JDialog {
         JPanel conn = buildConnectingPanel();
         tabs.addTab("Filters", null, filters);
         tabs.addTab("Connecting", null, conn);
+
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
@@ -196,6 +216,7 @@ public final class MetalworksPrefs extends JDialog {
         this.setVisible(false);
     }
 }
+
 
 class ColumnLayout implements LayoutManager {
 

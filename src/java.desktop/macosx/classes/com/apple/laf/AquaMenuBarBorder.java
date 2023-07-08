@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics;
@@ -28,6 +29,20 @@ import java.awt.Insets;
 import javax.swing.border.Border;
 import javax.swing.plaf.UIResource;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class represents the border of a {@code JMenuBar}.

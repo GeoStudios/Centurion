@@ -21,6 +21,21 @@
 
 package compiler.c2.cr7200264;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Copy of test/compiler/6340864/TestIntVect.java without performance tests.
  */

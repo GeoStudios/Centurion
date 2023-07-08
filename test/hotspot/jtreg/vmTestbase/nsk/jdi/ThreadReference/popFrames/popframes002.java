@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.popFrames;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -108,6 +122,7 @@ public class popframes002 extends JDIBase {
     BreakpointRequest bpRequest;
     BreakpointRequest breakpointRequest2;
     BreakpointRequest breakpointRequest3;
+
 
     private int runThis (String argv[], PrintStream out) {
 
@@ -195,6 +210,7 @@ public class popframes002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -251,6 +267,7 @@ public class popframes002 extends JDIBase {
             return;
         }
 
+
         String bPointMethod = "methodForCommunication";
         String lineForComm  = "lineForComm";
 
@@ -298,6 +315,7 @@ public class popframes002 extends JDIBase {
             log2("......breakpointRequest3.enable();");
             breakpointRequest3.enable();
 
+
             log2("......eventSet.resume();");
             eventSet.resume();
             log2("......breakpointInMethod(breakpointRequest2);");
@@ -343,9 +361,11 @@ public class popframes002 extends JDIBase {
 
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
         log1("    TESTING ENDS");
         return;
     }
+
 
     // ============================== test's additional methods
 

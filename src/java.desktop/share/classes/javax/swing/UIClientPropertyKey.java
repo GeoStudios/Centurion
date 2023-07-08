@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface is used only for tagging keys for client properties for
  * {@code JComponent} set by UI which needs to be cleared on {@literal L&F}

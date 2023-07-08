@@ -21,9 +21,24 @@
 
 package jit.CondExpr;
 
+
 import nsk.share.TestFailure;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // test the conditional expressions
+
 
 /*
  * @test
@@ -35,6 +50,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.CondExpr.CondExpr
  */
+
+
 
 public class CondExpr {
 
@@ -58,9 +75,12 @@ public class CondExpr {
 
   public static int test_double(double arg) { return (int)(test_double1(arg) + test_double1(arg+1)); }
 
+
   public static int nested_test_int1(int arg) {
     return (arg>1) ? ((arg==10) ? 1 : 2) : ((arg==-10) ? 3: 4);
   }
+
+
 
   public static int nested_test_int (int arg) {
     return (nested_test_int1 (arg) + nested_test_int1 (arg+1) + nested_test_int1 (-arg) + nested_test_int1 (-arg-1)); }

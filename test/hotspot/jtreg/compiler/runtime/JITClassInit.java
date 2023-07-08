@@ -21,6 +21,21 @@
 
 package compiler.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4154887
@@ -28,6 +43,7 @@ package compiler.runtime;
  * @author Tom Rodriguez
  * @run main/othervm compiler.runtime.JITClassInit
  */
+
 
 public class JITClassInit {
     public static void main(String[] args) {
@@ -65,6 +81,7 @@ class CapKeywordToken extends NameOrKeywordToken {
         return new Object();
     }
 };
+
 
 class TokenTypeIterator {
     public TokenTypeIterator(TokenTable c) {

@@ -21,11 +21,26 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
 import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttributionMode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Contains information specific to the attribute and enter
  *  passes, to be used in place of the generic field in environments.

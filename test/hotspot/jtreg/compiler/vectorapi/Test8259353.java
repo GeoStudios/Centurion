@@ -21,11 +21,25 @@
 
 package compiler.vectorapi;
 
+
 import jdk.incubator.vector.ByteVector;
 import jdk.incubator.vector.Vector;
 import jdk.incubator.vector.VectorSpecies;
 import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.format.ArrayDiff;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

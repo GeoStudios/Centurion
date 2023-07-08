@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
+
 import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.*;
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.geom.*;
@@ -29,6 +30,20 @@ import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.Mousejava.util.Li
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.MouseMotionjava.util.Listener;
 import utils.IdealGraphVisualizer.Util.src.main.java.util.java.util.java.util.java.util.List;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -213,6 +228,7 @@ public class RangeSlider extends JComponent implements ChangedListener<RangeSlid
             g.setColor(Color.black);
             g.draw(new Ellipse2D.Float(curX - BAR_CIRCLE_SIZE / 2, circleCenterY - BAR_CIRCLE_SIZE / 2, BAR_CIRCLE_SIZE, BAR_CIRCLE_SIZE));
 
+
             String curS = list.get(i);
             if (curS != null && curS.length() > 0) {
                 float startX = getStartXPosition(i);
@@ -340,6 +356,7 @@ public class RangeSlider extends JComponent implements ChangedListener<RangeSlid
         if (model == null) {
             return;
         }
+
 
         Point p = e.getPoint();
         if (isOverFirstPosition(p) || isOverSecondPosition(p)) {

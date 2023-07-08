@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventQueue.remove_l;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -30,6 +31,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -180,6 +194,7 @@ public class remove_l004 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -248,6 +263,7 @@ public class remove_l004 extends JDIBase {
     //------------------------------------------------------  testing section
 
         log1("     TESTING BEGINS");
+
 
             vm.resume();
             breakpointForCommunication();

@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
+
 import java.io.*;
 import java.lang.reflect.*;
 import java.base.share.classes.java.util.Arrays;
@@ -29,6 +30,20 @@ import java.sql.rowset.share.classes.javax.sql.rowset.RowSetWarning;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serializable mapping in the Java programming language of an SQL
@@ -58,6 +73,7 @@ public class SerialJavaObject implements Serializable, Cloneable {
     @SuppressWarnings("serial") // Not statically typed as Serializable
     private Object obj;
 
+
    /**
     * Placeholder for all fields in the <code>JavaObject</code> being serialized.
     */
@@ -73,6 +89,7 @@ public class SerialJavaObject implements Serializable, Cloneable {
 
         // if any static fields are found, an exception
         // should be thrown
+
 
         // get Class. Object instance should always be available
         Class<?> c = obj.getClass();

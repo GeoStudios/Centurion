@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
 import java.awt.Color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ShadowEffect - base class with all the standard properties for shadow effects

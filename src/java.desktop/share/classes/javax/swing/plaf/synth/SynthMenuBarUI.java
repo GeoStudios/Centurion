@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Graphics;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

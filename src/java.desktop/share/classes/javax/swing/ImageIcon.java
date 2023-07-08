@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.IllegalComponentStateException;
@@ -53,6 +54,20 @@ import java.desktop.share.classes.javax.accessibility.AccessibleState;
 import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the Icon interface that paints Icons
@@ -531,6 +546,7 @@ public class ImageIcon implements Icon, Serializable, Accessible {
             loadImage(image);
         }
     }
+
 
     @Serial
     private void writeObject(ObjectOutputStream s)

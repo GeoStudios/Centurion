@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class XConstants {
 
     private XConstants(){}
@@ -168,6 +184,7 @@ public final class XConstants {
     public static final int MappingNotify = 34 ;
     public static final int LASTEvent = 35 ; /* must be bigger than any event # */
 
+
     /* Key masks. Used as modifiers to GrabButton and GrabKey, results of QueryPointer,
        state in various key-, mouse-, and button-related events. */
 
@@ -193,6 +210,7 @@ public final class XConstants {
     public static final int Mod5MapIndex = 7 ;
 
     public static final int AnyModifier = (1<<15) ; /* used in GrabButton, GrabKey */
+
 
     /* button names. Used as arguments to GrabButton and as detail in ButtonPress
        and ButtonRelease events.  Not to be confused with button masks above.
@@ -287,6 +305,7 @@ public final class XConstants {
     public static final int QueuedAfterReading = 1;
     public static final int QueuedAfterFlush = 2;
 
+
     /*****************************************************************
      * ERROR CODES
      *****************************************************************/
@@ -358,6 +377,7 @@ public final class XConstants {
     public static final int CWBorderWidth = (1<<4) ;
     public static final int CWSibling = (1<<5) ;
     public static final int CWStackMode = (1<<6) ;
+
 
     /* Bit Gravity */
 
@@ -559,6 +579,7 @@ public final class XConstants {
     public static final int AllocNone = 0 ; /* create map with no entries */
     public static final int AllocAll = 1 ; /* allocate entire map writeable */
 
+
     /* Flags used in StoreNamedColor, StoreColors */
 
     public static final int DoRed = (1<<0) ;
@@ -649,6 +670,7 @@ public final class XConstants {
     public static final int PseudoColor = 3 ;
     public static final int TrueColor = 4 ;
     public static final int DirectColor = 5 ;
+
 
     /* Byte order  used in imageByteOrder and bitmapBitOrder */
 

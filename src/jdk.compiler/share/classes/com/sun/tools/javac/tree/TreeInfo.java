@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
+
 import jdk.compiler.share.classes.com.sun.source.tree.Tree;
 import jdk.compiler.share.classes.com.sun.source.util.TreePath;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
@@ -43,6 +44,20 @@ import java.base.share.classes.java.util.Objects;
 import java.util.function.ToIntFunction;
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.LEFT;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.RIGHT;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Utility class containing inspector methods for trees.
  *
@@ -426,6 +441,7 @@ public class TreeInfo {
             return tree.pos;
     }
 
+
     /** Get the start position for a tree node.  The start position is
      * defined to be the position of the first character of the first
      * token of the node's source text.
@@ -638,6 +654,7 @@ public class TreeInfo {
         }
         return Position.NOPOS;
     }
+
 
     /** A DiagnosticPosition with the preferred position set to the
      *  end position of given tree, if it is a block with
@@ -1063,6 +1080,7 @@ public class TreeInfo {
         prefixPrec = 14,
         postfixPrec = 15,
         precCount = 16;
+
 
     /** Map operators to their precedence levels.
      */

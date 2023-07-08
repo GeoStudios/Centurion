@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.awt.Font;
 import sun.swing.plaf.DesktopProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DesktopProperty that only uses font height in configuring font. This
@@ -46,6 +61,7 @@ final class MetalFontDesktopProperty extends DesktopProperty {
      * Corresponds to a MetalTheme font type.
      */
     private final int type;
+
 
     /**
      * Creates a MetalFontDesktopProperty. The key used to lookup the

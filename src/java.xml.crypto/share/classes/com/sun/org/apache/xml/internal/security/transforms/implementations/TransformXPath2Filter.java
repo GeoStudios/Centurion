@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -44,10 +45,28 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * Implements the <I>XML Signature XPath Filter v2.0</I>

@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6711100
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6711100::<init>
  *      compiler.c2.Test6711100
  */
+
 
 public class Test6711100 {
 
@@ -52,4 +68,5 @@ public class Test6711100 {
       }
     }
 }
+
 

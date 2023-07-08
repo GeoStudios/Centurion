@@ -21,9 +21,24 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.NoSuchElementException;
 import java.base.share.classes.java.util.function.IntFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ordered sequence of constants, some of which may not yet

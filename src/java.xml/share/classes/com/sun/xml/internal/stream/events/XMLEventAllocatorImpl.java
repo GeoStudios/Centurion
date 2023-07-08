@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
 import java.util.java.util.java.util.java.util.List;
 import javax.xml.stream.util.XMLEventAllocator;
@@ -31,6 +32,20 @@ import javax.xml.namespace.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceContextWrapper;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
 import javax.xml.stream.util.XMLEventConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of XMLEvent Allocator.

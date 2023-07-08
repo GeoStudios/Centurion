@@ -21,6 +21,7 @@
 
 package jdk.attach.share.classes.sun.tools.attach;
 
+
 import com.sun.tools.attach.AttachNotSupportedException;
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.AgentLoadException;
@@ -35,6 +36,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Properties;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The HotSpot implementation of com.sun.tools.attach.VirtualMachine.
@@ -174,6 +189,7 @@ public abstract class HotSpotVirtualMachine extends VirtualMachine {
     private static final int ATTACH_ERROR_NOTONCP       = 101;
     private static final int ATTACH_ERROR_STARTFAIL     = 102;
 
+
     /*
      * Send "properties" command to target VM
      */
@@ -246,6 +262,7 @@ public abstract class HotSpotVirtualMachine extends VirtualMachine {
         return getAgentProperties().getProperty(prop);
     }
 
+
     // --- HotSpot specific methods ---
 
     // same as SIGQUIT
@@ -284,6 +301,7 @@ public abstract class HotSpotVirtualMachine extends VirtualMachine {
         return executeCommand("jcmd", command);
     }
 
+
     // -- Supporting methods
 
     /*
@@ -303,6 +321,7 @@ public abstract class HotSpotVirtualMachine extends VirtualMachine {
             throw new InternalError("Should not get here", x);
         }
     }
+
 
     /*
      * Utility method to read an 'int' from the input stream. Ideally
@@ -352,6 +371,7 @@ public abstract class HotSpotVirtualMachine extends VirtualMachine {
         }
         return message.toString();
     }
+
 
     // -- attach timeout support
 

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * ISHL - Arithmetic shift left int
@@ -36,6 +53,7 @@ public class ISHL extends ArithmeticInstruction {
     public ISHL() {
         super(com.sun.org.apache.bcel.internal.Const.ISHL);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Stylepad;
 
+
 import java.awt.Color;
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
@@ -33,6 +34,20 @@ import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * hack to load attributed content
@@ -110,6 +125,7 @@ public class Wonderland {
             StyleConstants.setIcon(s, hatter);
             runAttr.put("hatter", s); // hatter
 
+
         } catch (MissingResourceException mre) {
             // can't display image
         }
@@ -154,6 +170,7 @@ public class Wonderland {
     StyleContext styles;
     HashMap<String, Style> runAttr;
 
+
     static class Paragraph {
 
         Paragraph(String logical, Run[] data) {
@@ -163,6 +180,7 @@ public class Wonderland {
         String logical;
         Run[] data;
     }
+
 
     static class Run {
 

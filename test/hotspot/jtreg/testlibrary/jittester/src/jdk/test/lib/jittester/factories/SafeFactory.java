@@ -21,9 +21,23 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.SymbolTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class SafeFactory<T extends IRNode> extends Factory<T> {
     protected abstract T sproduce() throws ProductionFailedException;

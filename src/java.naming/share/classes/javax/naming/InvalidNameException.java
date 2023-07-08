@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This exception indicates that the name being specified does
   * not conform to the naming syntax of a naming system.

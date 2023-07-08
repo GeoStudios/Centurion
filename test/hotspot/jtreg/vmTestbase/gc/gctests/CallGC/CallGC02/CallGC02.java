@@ -21,9 +21,23 @@
 
 package gc.gctests.CallGC.CallGC02;
 
+
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
 import nsk.share.runner.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,8 @@ import nsk.share.runner.*;
  *          /test/lib
  * @run main/othervm gc.gctests.CallGC.CallGC02.CallGC02 -t 100 -gp random(arrays)
  */
+
+
 
 /**
  * This test starts a number of threads that do System.gc() and

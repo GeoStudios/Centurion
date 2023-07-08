@@ -21,12 +21,27 @@
 
 package java.base.share.classes.jdk.internal.jimage;
 
+
 import java.lang.ref.WeakReference;
 import java.nio.ByteBuffer;
 import java.util.AbstractMap;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ALOAD - Load reference from local variable
@@ -39,12 +54,14 @@ public class ALOAD extends LoadInstruction {
         super(Const.ALOAD, Const.ALOAD_0);
     }
 
+
     /** Load reference from local variable
      * @param n index of local variable
      */
     public ALOAD(final int n) {
         super(Const.ALOAD, Const.ALOAD_0, n);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

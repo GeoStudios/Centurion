@@ -21,6 +21,7 @@
 
 package parsers;
 
+
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.FileOutputStream;
 import java.io.FilePermission;
@@ -39,6 +40,19 @@ import com.sun.org.apache.bcel.internal.generic.MethodGen;
 import com.sun.org.apache.bcel.internal.generic.InstructionFactory;
 import com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8003147
@@ -48,6 +62,12 @@ import com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.j
  * @run testng/othervm parsers.Bug8003147Test
  * @summary Test port fix for BCEL bug 39695.
  */
+
+
+
+
+
+
 
 @Listeners({ jaxp.library.FilePolicy.class, jaxp.library.InternalAPIPolicy.class })
 public class Bug8003147Test {

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import sun.swing.SwingUtilities2;
 import sun.awt.AppContext;
 import java.desktop.share.classes.javax.swing.*;
@@ -30,6 +31,20 @@ import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MetalButtonUI implementation
@@ -109,6 +124,7 @@ public class MetalButtonUI extends BasicButtonUI {
     protected BasicButtonListener createButtonListener(AbstractButton b) {
         return super.createButtonListener(b);
     }
+
 
     // ********************************
     //         Default Accessors
@@ -217,6 +233,7 @@ public class MetalButtonUI extends BasicButtonUI {
                   focusRect.width+1, focusRect.height+1);
 
     }
+
 
     protected void paintText(Graphics g, JComponent c, Rectangle textRect, String text) {
         AbstractButton b = (AbstractButton) c;

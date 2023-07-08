@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * A digital search trie for 7-bit ASCII text

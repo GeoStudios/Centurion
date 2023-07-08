@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * XMLBufferListerner should be implemented by classes which wish to receive
  * call backs from XMLEntityReader.

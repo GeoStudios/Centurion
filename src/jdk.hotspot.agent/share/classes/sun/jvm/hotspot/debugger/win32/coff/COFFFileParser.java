@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
 import java.io.*;
 import java.nio.*;
 import java.nio.channels.*;
@@ -30,6 +31,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DataSource;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MappedByteBufferDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Top-level factory which parses COFF files, including object files,
     Portable Executables and DLLs. Returns {@link
@@ -1405,6 +1420,7 @@ public class COFFFileParser {
           public int   getOffset() { return offset; }
           public int   getSize() { return cbSeg; }
         }
+
 
         class DebugVC50SSSegNameImpl extends DebugVC50SubsectionImpl implements DebugVC50SSSegName {
           private final int offset;

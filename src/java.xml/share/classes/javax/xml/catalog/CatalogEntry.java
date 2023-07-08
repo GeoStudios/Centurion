@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents the catalog element or entry of a catalog file
  *

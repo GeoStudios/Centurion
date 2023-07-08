@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The ParameterDescriptor class allows bean implementors to provide
  * additional information on each of their parameters, beyond the

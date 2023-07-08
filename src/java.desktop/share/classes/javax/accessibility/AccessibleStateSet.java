@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code AccessibleStateSet} determines a component's state set. The

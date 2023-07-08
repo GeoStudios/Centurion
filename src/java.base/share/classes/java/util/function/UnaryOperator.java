@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.util.function;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents an operation on a single operand that produces a result of the
  * same type as its operand.  This is a specialization of {@code Function} for

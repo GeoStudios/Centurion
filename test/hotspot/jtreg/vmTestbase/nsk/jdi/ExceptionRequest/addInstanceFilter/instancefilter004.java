@@ -21,6 +21,7 @@
 
 package nsk.jdi.ExceptionRequest.addInstanceFilter;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type
@@ -82,6 +96,7 @@ public class instancefilter004 extends TestDebuggerType1 {
 
     private String testedClassName =
       "nsk.jdi.ExceptionRequest.addInstanceFilter.instancefilter004aTestClass";
+
 
     protected void testRun() {
         if ( !vm.canUseInstanceFilters() ) {

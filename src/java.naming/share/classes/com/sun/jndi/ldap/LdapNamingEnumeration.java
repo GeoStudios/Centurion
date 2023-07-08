@@ -21,11 +21,26 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
 import java.util.Vector;
 import javax.naming.ldap.Control;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LdapNamingEnumeration
         extends AbstractLdapNamingEnumeration<NameClassPair> {

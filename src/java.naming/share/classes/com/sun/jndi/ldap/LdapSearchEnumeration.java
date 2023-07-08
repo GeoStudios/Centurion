@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
@@ -32,6 +33,20 @@ import javax.naming.spi.*;
 import javax.naming.ldap.*;
 import javax.naming.ldap.LdapName;
 import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LdapSearchEnumeration
         extends AbstractLdapNamingEnumeration<SearchResult> {

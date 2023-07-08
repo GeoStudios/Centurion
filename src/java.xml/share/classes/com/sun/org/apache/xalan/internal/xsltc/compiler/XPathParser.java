@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.java_cup.internal.runtime.*;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
@@ -30,6 +31,20 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CUP v0.11b generated parser.

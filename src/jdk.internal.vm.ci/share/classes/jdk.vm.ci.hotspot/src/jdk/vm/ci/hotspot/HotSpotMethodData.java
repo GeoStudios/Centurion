@@ -21,6 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import static java.lang.String.format;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime;.extended
@@ -37,6 +38,20 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Jav
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.TriState;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Access to a HotSpot {@code MethodData} structure (defined in methodData.hpp).

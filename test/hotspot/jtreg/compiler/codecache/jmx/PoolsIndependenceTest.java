@@ -21,6 +21,7 @@
 
 package compiler.codecache.jmx;
 
+
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import sun.hotspot.code.BlobType;
@@ -35,6 +36,19 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test PoolsIndependenceTest
@@ -54,6 +68,10 @@ import jtreg.SkippedException;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.PoolsIndependenceTest
  */
+
+
+
+
 
 public class PoolsIndependenceTest implements NotificationListener {
 

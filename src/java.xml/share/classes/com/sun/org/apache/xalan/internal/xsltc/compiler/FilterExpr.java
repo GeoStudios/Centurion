@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
@@ -38,6 +39,20 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Nov 2017
@@ -213,6 +228,7 @@ class FilterExpr extends Expression {
                 // the values of the arguments to the constructor first, store them
                 // in temporary variables, create the object and reload the
                 // arguments from the temporaries to avoid the problem.
+
 
                 LocalVariableGen nodeIteratorTemp =
                     methodGen.addLocalVariable("filter_expr_tmp1",

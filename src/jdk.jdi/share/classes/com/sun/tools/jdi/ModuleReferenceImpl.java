@@ -21,9 +21,24 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
+
 import jdk.jdi.share.classes.com.sun.jdi.ClassLoaderReference;
 import jdk.jdi.share.classes.com.sun.jdi.ModuleReference;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ModuleReferenceImpl extends ObjectReferenceImpl implements ModuleReference {
 
@@ -40,6 +55,7 @@ class ModuleReferenceImpl extends ObjectReferenceImpl implements ModuleReference
 
     private boolean cachedName = false;
     private boolean cachedClassLoader = false;
+
 
     public synchronized String name() {
         if (cachedName) {

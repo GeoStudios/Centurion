@@ -21,11 +21,26 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
+
 import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.Property;
 import utils.IdealGraphVisualizer.Util.src.main.java.lang.reflect.InvocationTargetException;
 import org.openide.nodes.Node;
 import org.openide.nodes.Sheet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

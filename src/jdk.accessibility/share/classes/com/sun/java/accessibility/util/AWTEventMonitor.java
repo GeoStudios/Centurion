@@ -21,11 +21,26 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
+
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import jdk.accessibility.share.classes.com.sun.awt.AWTPermissions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>The {@code AWTEventMonitor} implements a suite of listeners that are
@@ -151,6 +166,7 @@ public class AWTEventMonitor {
 
     static private WindowListener windowListener_private = null;
 
+
     // Semantic listeners
     /**
      * The current list of registered ActionListener classes.
@@ -203,6 +219,7 @@ public class AWTEventMonitor {
     static protected TextListener          textListener          = null;
 
     static private TextListener textListener_private = null;
+
 
     /**
      * The actual listener that is installed on the component instances.
@@ -571,6 +588,7 @@ public class AWTEventMonitor {
             awtListener.removeListeners(EventID.TEXT);
         }
     }
+
 
     /**
      * AWTEventsListener is the class that does all the work for AWTEventMonitor.

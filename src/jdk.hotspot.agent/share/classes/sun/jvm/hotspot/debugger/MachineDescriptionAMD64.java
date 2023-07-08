@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MachineDescriptionAMD64 extends MachineDescriptionTwosComplement implements MachineDescription {
   public long getAddressSize() {
     return 8;

@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
+
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */
@@ -46,5 +63,6 @@ public final class OutputSettings {
         Properties properties = new Properties();
         return(properties);
     }
+
 
 }

@@ -21,8 +21,22 @@
 
 package jit.t.t034;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t034.t034
  */
+
+
 
 // opc_idiv
 // opc_imul

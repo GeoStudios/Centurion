@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import javax.accessibility.*;
 import javax.swing.*;
@@ -28,6 +29,20 @@ import javax.swing.border.*;
 import javax.swing.tree.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.*;
 import static java.lang.Math.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Miscellaneous utility methods for JConsole
@@ -74,6 +89,7 @@ public class Utilities {
         }
     }
 
+
     /**
      * A slightly modified border for JScrollPane to be used with a JTable inside
      * a JTabbedPane. It has only top part and the rest is clipped to make the
@@ -111,6 +127,7 @@ public class Utilities {
     public static void setAccessibleDescription(Accessible comp, String description) {
         comp.getAccessibleContext().setAccessibleDescription(description);
     }
+
 
     /**
      * Modifies color c1 to ensure it has acceptable contrast

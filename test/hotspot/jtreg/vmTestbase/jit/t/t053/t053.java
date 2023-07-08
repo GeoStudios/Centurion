@@ -21,8 +21,22 @@
 
 package jit.t.t053;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t053.t053
  */
+
+
 
 //
 // Tomcatv in java, with prints active
@@ -63,6 +79,7 @@ public class t053 {
         eps = 0.5e-7;
         h = 1.0/(N-1);
         rel = 2.0/relfa;
+
 
         aa = new double [N][N];
         dd = new double [N][N];
@@ -100,6 +117,7 @@ public class t053 {
        }
    }
 
+
                                 //  the values are dec on purpose
    i1p = 1;
    j1p = 1;
@@ -110,6 +128,7 @@ public class t053 {
 
    ixcm = jxcm = iycm = jycm = irxm = jrxm = irym = jrym = m = -1;
    dxcm = dycm = rxm = rym = 0.0;
+
 
    for(j=j1p ; j < j2m ; j++) {
 
@@ -202,6 +221,7 @@ public class t053 {
    t053.goldChecker.println(ll+"  "+ixcm+"  "+jxcm+"  "+dxcm+"  "+iycm+"  "+jycm+"  "+dycm+"  "+irxm+"  "+jrxm+"  "+rxm+"  "+irym+"  "+jrym+"  "+rym);
 
    } while ((ll < lmax) && (dmax > eps));
+
 
    t053.goldChecker.check();
  }

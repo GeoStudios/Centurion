@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** A DefaultHeapVisitor implements basic no-op HeapVisitor
     functionality. */
 

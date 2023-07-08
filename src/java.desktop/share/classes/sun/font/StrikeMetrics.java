@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* These are font metrics: they are in user space, not device space.
  * Hence they are not truly "strike" metrics. However it is convenient to
@@ -58,6 +73,7 @@ public final class StrikeMetrics {
     public float leadingY;
     public float maxAdvanceX;
     public float maxAdvanceY;
+
 
     /* The no-args constructor is used by CompositeStrike, which then
      * merges in the metrics of physical fonts.

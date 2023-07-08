@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils.res;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This is an interface for error messages.  This class is misnamed,

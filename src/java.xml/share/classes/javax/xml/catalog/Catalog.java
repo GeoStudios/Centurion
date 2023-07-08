@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
+
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Catalog class represents an entity Catalog as defined by

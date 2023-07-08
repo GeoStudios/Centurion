@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */

@@ -21,6 +21,7 @@
 
 package javax.xml.transform.ptests;
 
+
 import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertNotNull;.extended
@@ -34,6 +35,19 @@ import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Basic test for TransformerException specification.
@@ -69,6 +83,7 @@ public class TransformerExcpTest {
             assertEquals(e.getMessageAndLocation(),e.getMessage());
         }
     }
+
 
     /**
      * Spec says, "if the throwable was created with

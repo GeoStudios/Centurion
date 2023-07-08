@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents an entry in the requires table of the Module attribute.
@@ -43,6 +61,7 @@ public final class ModuleRequires implements Cloneable, Node {
     private final int requiresFlags;
     private final int requiresVersionIndex;  // either 0 or points to CONSTANT_Utf8_info
 
+
     /**
      * Construct object from file stream.
      *
@@ -54,6 +73,7 @@ public final class ModuleRequires implements Cloneable, Node {
         requiresFlags = file.readUnsignedShort();
         requiresVersionIndex = file.readUnsignedShort();
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -81,6 +101,7 @@ public final class ModuleRequires implements Cloneable, Node {
         file.writeShort(requiresVersionIndex);
     }
 
+
     /**
      * @return String representation
      */
@@ -88,6 +109,7 @@ public final class ModuleRequires implements Cloneable, Node {
     public String toString() {
         return "requires(" + requiresIndex + ", " + String.format("%04x", requiresFlags) + ", " + requiresVersionIndex + ")";
     }
+
 
     /**
      * @return Resolved string representation
@@ -101,6 +123,7 @@ public final class ModuleRequires implements Cloneable, Node {
         buf.append(", ").append(version);
         return buf.toString();
     }
+
 
     /**
      * @return deep copy of this object

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.FlowLayout;
 import java.awt.LayoutManager;
 import java.beans.BeanProperty;
@@ -32,6 +33,20 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.PanelUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JPanel</code> is a generic lightweight container.
@@ -130,6 +145,7 @@ public class JPanel extends JComponent implements Accessible
         return (PanelUI)ui;
     }
 
+
     /**
      * Sets the look and feel (L&amp;F) object that renders this component.
      *
@@ -156,6 +172,7 @@ public class JPanel extends JComponent implements Accessible
         return uiClassID;
     }
 
+
     /**
      * See readObject() and writeObject() in JComponent for more
      * information about serialization in Swing.
@@ -171,6 +188,7 @@ public class JPanel extends JComponent implements Accessible
             }
         }
     }
+
 
     /**
      * Returns a string representation of this JPanel. This method

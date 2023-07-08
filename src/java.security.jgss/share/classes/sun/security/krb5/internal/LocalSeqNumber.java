@@ -21,7 +21,22 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.Confounder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LocalSeqNumber implements SeqNumber {
     private int lastSeqNumber;

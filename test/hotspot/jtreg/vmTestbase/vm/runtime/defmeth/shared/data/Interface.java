@@ -21,6 +21,21 @@
 
 package vm.runtime.defmeth.shared.data;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents Java interface.
  */

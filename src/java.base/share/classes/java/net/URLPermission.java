@@ -21,12 +21,27 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents permission to access a resource or set of resources defined by a
@@ -358,6 +373,7 @@ public final class URLPermission extends Permission {
         return this.path.equals(that.path);
     }
 
+
     /**
      * Returns true if, this.getActions().equals(p.getActions())
      * and p's url equals this's url.  Returns false otherwise.
@@ -392,6 +408,7 @@ public final class URLPermission extends Permission {
             + authority.hashCode()
             + (path == null ? 0 : path.hashCode());
     }
+
 
     private List<String> normalizeMethods(String methods) {
         List<String> l = new ArrayList<>();

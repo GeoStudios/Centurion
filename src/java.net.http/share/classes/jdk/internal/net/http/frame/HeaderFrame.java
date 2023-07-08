@@ -21,9 +21,24 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
+
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Either a HeadersFrame or a ContinuationFrame
@@ -51,6 +66,7 @@ public abstract class HeaderFrame extends Http2Frame {
             default -> super.flagAsString(flag);
         };
     }
+
 
     public List<ByteBuffer> getHeaderBlock() {
         return headerBlocks;

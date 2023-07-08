@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class provides generalized "virtual constructor"
     functionality for VMObjects. In simple terms, it creates

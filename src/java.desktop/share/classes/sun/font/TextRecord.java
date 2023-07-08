@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.font;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Represents a region of text and context
  */

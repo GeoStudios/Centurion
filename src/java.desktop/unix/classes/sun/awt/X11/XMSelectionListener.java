@@ -21,11 +21,29 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
    * This code is ported to XAWT from MAWT based on awt_mgrsel.c
    * and XSettings.java code written originally by Valeriy Ushakov
    * Author : Bino George
    */
+
+
 
 public interface  XMSelectionListener {
 

@@ -21,12 +21,27 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.UnknownHostException;
 import java.time.Instant;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos TGS-REQ that is sent from the
@@ -192,6 +207,7 @@ public class KrbTgsReq {
          */
         if (asCreds.flags.get(KDCOptions.FORWARDED))
             options.set(KDCOptions.FORWARDED, true);
+
 
     }
 

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.Font;
 import java.awt.Color;
 import java.awt.SystemColor;
@@ -73,6 +74,20 @@ import java.beans.PropertyVetoException;
 import java.awt.Window;
 import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A base class to use in creating a look and feel for Swing.
@@ -352,6 +367,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         loadSystemColors(table, defaultSystemColors, isNativeLookAndFeel());
     }
 
+
     /**
      * Populates {@code table} with the {@code name-color} pairs in
      * {@code systemColors}. Refer to
@@ -469,6 +485,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         LazyValue dialogBold12 = t ->
             new FontUIResource(Font.DIALOG, Font.BOLD, 12);
 
+
         // *** Shared Colors
         ColorUIResource red = new ColorUIResource(Color.red);
         ColorUIResource black = new ColorUIResource(Color.black);
@@ -522,6 +539,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
                                          controlDkShadow,
                     controlShadow);
 
+
         // *** Button value objects
 
         LazyValue buttonBorder =
@@ -566,6 +584,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
                                                           BasicLookAndFeel.class,
                                                           "icons/FloppyDrive.gif");
 
+
         // *** InternalFrame value objects
 
         LazyValue internalFrameBorder = t ->
@@ -579,6 +598,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
             }
         };
 
+
         // *** Menus value objects
 
         LazyValue menuBarBorder =
@@ -589,6 +609,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
 
         LazyValue menuItemArrowIcon =
             t -> BasicIconFactory.getMenuItemArrowIcon();
+
 
         LazyValue menuArrowIcon =
             t -> BasicIconFactory.getMenuArrowIcon();
@@ -622,6 +643,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         LazyValue optionPaneButtonAreaBorder = t ->
             new BorderUIResource.EmptyBorderUIResource(6, zero, zero, zero);
 
+
         // *** ProgessBar value objects
 
         LazyValue progressBarBorder =
@@ -637,6 +659,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         Object sliderFocusInsets = twoInsets;
 
         Object toolBarSeparatorSize = new DimensionUIResource( 10, 10 );
+
 
         // *** SplitPane value objects
 
@@ -654,6 +677,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         Object tabbedPaneTabAreaInsets = new InsetsUIResource(3, 2, 0, 2);
 
         Object tabbedPaneContentBorderInsets = new InsetsUIResource(2, 2, 3, 3);
+
 
         // *** Text value objects
 
@@ -1392,6 +1416,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
                        "ctrl KP_UP", "requestFocus",
                  }),
 
+
             // *** Table
             "Table.font", dialogPlain12,
             "Table.foreground", controlText,  // cell text color
@@ -1845,6 +1870,8 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         return ActionEvent.ALT_MASK;
     }
 
+
+
     /**
      * Returns the ui that is of type <code>klass</code>, or null if
      * one can not be found.
@@ -2117,6 +2144,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
         }
     }
 
+
     /**
      * Sets the parent of the passed in ActionMap to be the audio action
      * map.
@@ -2127,6 +2155,7 @@ public abstract class BasicLookAndFeel extends LookAndFeel implements Serializab
             map.setParent(((BasicLookAndFeel)laf).getAudioActionMap());
         }
     }
+
 
     /**
      * Helper method to play a named sound.

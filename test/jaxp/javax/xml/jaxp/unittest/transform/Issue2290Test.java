@@ -21,6 +21,7 @@
 
 package transform;
 
+
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.Properties;
@@ -38,6 +39,19 @@ import org.w3c.dom.DocumentFragment;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -66,6 +80,7 @@ public class Issue2290Test {
             Transformer t = TransformerFactory.newInstance().newTransformer(new StreamSource(getClass().getResourceAsStream("Issue2290.xsl")));
             System.out.print("Created Transformer");
             execReaderXML = new StringReader("<?xml version=\"1.0\"?> <doc>Stuff</doc>");
+
 
             docBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             outDoc = docBuilder.newDocument();

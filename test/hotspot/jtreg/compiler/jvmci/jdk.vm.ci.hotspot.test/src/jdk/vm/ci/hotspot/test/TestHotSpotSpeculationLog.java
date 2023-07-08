@@ -21,6 +21,7 @@
 
 package jdk.vm.ci.hotspot.test;
 
+
 import java.util.function.Supplier;
 import org.testng.Assert;
 import org.testng.SkipException;
@@ -33,6 +34,19 @@ import jdk.vm.ci.meta.SpeculationLog;
 import jdk.vm.ci.meta.SpeculationLog.SpeculationReasonEncoding;
 import jdk.vm.ci.runtime.JVMCI;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -44,6 +58,10 @@ import jdk.vm.ci.runtime.JVMCI;
  *      -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler
  *      jdk.vm.ci.hotspot.test.TestHotSpotSpeculationLog
  */
+
+
+
+
 
 public class TestHotSpotSpeculationLog {
 

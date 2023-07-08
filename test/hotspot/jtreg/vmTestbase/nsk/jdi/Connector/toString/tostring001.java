@@ -21,6 +21,7 @@
 
 package nsk.jdi.Connector.toString;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -61,6 +75,7 @@ public class tostring001 {
     private static void complain(String msg) {
         log.complain("debugger FAILURE > " + msg);
     }
+
 
     //------------------------------------------------------ mutable common method
 

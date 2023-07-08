@@ -21,6 +21,7 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -43,6 +44,20 @@ import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerPa
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;.extended
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class AppImageFile {
 
     // These values will be loaded from AppImage xml file.
@@ -56,6 +71,7 @@ public class AppImageFile {
     private static final Map<Platform, String> PLATFORM_LABELS = Map.of(
             Platform.LINUX, "linux", Platform.WINDOWS, "windows", Platform.MAC,
             "macOS");
+
 
     private AppImageFile() {
         this(null, null, null, null);

@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -34,6 +35,20 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.Painter;
 import sun.lwawt.macosx.CPlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * From AquaInternalFrameUI

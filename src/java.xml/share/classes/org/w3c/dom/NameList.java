@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  The <code>NameList</code> interface provides the abstraction of an ordered
  * collection of parallel pairs of name and namespace values (which could be

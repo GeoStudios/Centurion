@@ -21,6 +21,7 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
@@ -52,6 +53,20 @@ import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundler
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.WinMsiBundler.MSI_SYSTEM_WIDE;.extended
 import static jdk.jpackage.windows.classes.jdk.jpackage.internal.WinMsiBundler.WIN_APP_IMAGE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Creates WiX fragment with components for contents of app image.

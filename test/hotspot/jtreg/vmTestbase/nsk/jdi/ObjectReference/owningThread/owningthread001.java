@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.owningThread;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -129,6 +143,7 @@ public class owningthread001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -176,6 +191,7 @@ public class owningthread001 {
             List            classes      = null;
             ObjectReference objRef       = null;
 
+
             label0: {
 
                 log2("getting ThreadReference object");
@@ -204,14 +220,17 @@ public class owningthread001 {
                 }
             }
 
+
             label1: {
                 if (expresult != returnCode0)
                     break label1;
+
 
                 log2("       suspending the main thread");
                 mainThread.suspend();
 
                 objRef = (ObjectReference) testedClass.getValue(testedClass.fieldByName("bl"));
+
 
                 if (!vm.canGetOwnedMonitorInfo()) {
 

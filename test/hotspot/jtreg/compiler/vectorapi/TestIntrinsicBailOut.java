@@ -21,8 +21,22 @@
 
 package compiler.vectorapi;
 
+
 import jdk.incubator.vector.*;
 import java.nio.ByteOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,7 @@ import java.nio.ByteOrder;
  * @run main/othervm -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:UseAVX=1
  *                   -XX:-TieredCompilation compiler.vectorapi.TestIntrinsicBailOut
  */
+
 
 public class TestIntrinsicBailOut {
   static final VectorSpecies<Double> SPECIES256 = DoubleVector.SPECIES_256;

@@ -21,14 +21,31 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.AlgorithmMethod;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec;
 import java.security.spec.AlgorithmParameterSpec;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: SignatureMethod.java,v 1.5 2005/05/10 16:03:46 mullan Exp $
  */
+
+
 
 /**
  * A representation of the XML <code>SignatureMethod</code> element
@@ -210,6 +227,7 @@ public interface SignatureMethod extends XMLStructure, AlgorithmMethod {
      *
      */
     String HMAC_SHA512 = "http://www.w3.org/2001/04/xmldsig-more#hmac-sha512";
+
 
     /**
      * The <a href="http://www.w3.org/2007/05/xmldsig-more#rsa-pss">

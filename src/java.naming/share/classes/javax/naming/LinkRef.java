@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * This class represents a Reference whose contents is a name, called the link name,
   * that is bound to an atomic name in a context.

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.org.xml.sax.Parser;      // deprecated.extended
@@ -36,6 +37,20 @@ import java.xml.share.classes.org.xml.sax.XMLReader;
 import java.xml.share.classes.org.xml.sax.Attributes;
 import java.xml.share.classes.org.xml.sax.ContentHandler;
 import java.xml.share.classes.org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Adapt a SAX2 XMLReader as a SAX1 Parser.
@@ -55,9 +70,11 @@ import java.xml.share.classes.org.xml.sax.SAXNotSupportedException;
 public class XMLReaderAdapter implements Parser, ContentHandler
 {
 
+
     ////////////////////////////////////////////////////////////////////
     // Constructor.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Create a new adapter.
@@ -75,6 +92,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         setup(XMLReaderFactory.createXMLReader());
     }
 
+
     /**
      * Create a new adapter.
      *
@@ -90,6 +108,8 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         setup(xmlReader);
     }
 
+
+
     /**
      * Internal setup.
      *
@@ -104,9 +124,12 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         qAtts = new AttributesAdapter();
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.Parser.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set the locale for error reporting.
@@ -124,6 +147,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         throw new SAXNotSupportedException("setLocale not supported");
     }
 
+
     /**
      * Register the entity resolver.
      *
@@ -135,6 +159,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         xmlReader.setEntityResolver(resolver);
     }
 
+
     /**
      * Register the DTD event handler.
      *
@@ -145,6 +170,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     {
         xmlReader.setDTDHandler(handler);
     }
+
 
     /**
      * Register the SAX1 document event handler.
@@ -160,6 +186,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         documentHandler = handler;
     }
 
+
     /**
      * Register the error event handler.
      *
@@ -170,6 +197,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     {
         xmlReader.setErrorHandler(handler);
     }
+
 
     /**
      * Parse the document.
@@ -191,6 +219,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     {
         parse(new InputSource(systemId));
     }
+
 
     /**
      * Parse the document.
@@ -214,6 +243,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         xmlReader.parse(input);
     }
 
+
     /**
      * Set up the XML reader.
      */
@@ -230,9 +260,12 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         xmlReader.setContentHandler(this);
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Implementation of org.xml.sax.ContentHandler.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Set a document locator.
@@ -245,6 +278,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         if (documentHandler != null)
             documentHandler.setDocumentLocator(locator);
     }
+
 
     /**
      * Start document event.
@@ -260,6 +294,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             documentHandler.startDocument();
     }
 
+
     /**
      * End document event.
      *
@@ -274,6 +309,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             documentHandler.endDocument();
     }
 
+
     /**
      * Adapt a SAX2 start prefix mapping event.
      *
@@ -285,6 +321,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     {
     }
 
+
     /**
      * Adapt a SAX2 end prefix mapping event.
      *
@@ -294,6 +331,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     public void endPrefixMapping (String prefix)
     {
     }
+
 
     /**
      * Adapt a SAX2 start element event.
@@ -316,6 +354,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         }
     }
 
+
     /**
      * Adapt a SAX2 end element event.
      *
@@ -334,6 +373,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             documentHandler.endElement(qName);
     }
 
+
     /**
      * Adapt a SAX2 characters event.
      *
@@ -350,6 +390,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         if (documentHandler != null)
             documentHandler.characters(ch, start, length);
     }
+
 
     /**
      * Adapt a SAX2 ignorable whitespace event.
@@ -368,6 +409,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             documentHandler.ignorableWhitespace(ch, start, length);
     }
 
+
     /**
      * Adapt a SAX2 processing instruction event.
      *
@@ -384,6 +426,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             documentHandler.processingInstruction(target, data);
     }
 
+
     /**
      * Adapt a SAX2 skipped entity event.
      *
@@ -396,6 +439,8 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     {
     }
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Internal state.
     ////////////////////////////////////////////////////////////////////
@@ -404,9 +449,12 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     DocumentHandler documentHandler;
     AttributesAdapter qAtts;
 
+
+
     ////////////////////////////////////////////////////////////////////
     // Internal class.
     ////////////////////////////////////////////////////////////////////
+
 
     /**
      * Internal class to wrap a SAX2 Attributes object for SAX1.
@@ -417,6 +465,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         {
         }
 
+
         /**
          * Set the embedded Attributes object.
          *
@@ -426,6 +475,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         {
             this.attributes = attributes;
         }
+
 
         /**
          * Return the number of attributes.
@@ -438,6 +488,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             return attributes.getLength();
         }
 
+
         /**
          * Return the qualified (prefixed) name of an attribute by position.
          *
@@ -448,6 +499,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         {
             return attributes.getQName(i);
         }
+
 
         /**
          * Return the type of an attribute by position.
@@ -460,6 +512,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             return attributes.getType(i);
         }
 
+
         /**
          * Return the value of an attribute by position.
          *
@@ -471,6 +524,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
             return attributes.getValue(i);
         }
 
+
         /**
          * Return the type of an attribute by qualified (prefixed) name.
          *
@@ -481,6 +535,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
         {
             return attributes.getType(qName);
         }
+
 
         /**
          * Return the value of an attribute by qualified (prefixed) name.

@@ -21,8 +21,22 @@
 
 package compiler.c1;
 
+
 import java.lang.reflect.Modifier;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -55,6 +69,9 @@ import jdk.test.lib.Asserts;
  *                   -XX:CompileCommand=compileonly,*CanonicalizeGetModifiers.test
  *                   compiler.c1.CanonicalizeGetModifiers
  */
+
+
+
 
 public class CanonicalizeGetModifiers {
     public static class T1 {

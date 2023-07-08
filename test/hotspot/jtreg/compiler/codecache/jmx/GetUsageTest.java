@@ -21,11 +21,25 @@
 
 package compiler.codecache.jmx;
 
+
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryPoolMXBean;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test GetUsageTest
@@ -47,6 +61,9 @@ import java.util.Map;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.GetUsageTest
  */
+
+
+
 
 public class GetUsageTest {
 

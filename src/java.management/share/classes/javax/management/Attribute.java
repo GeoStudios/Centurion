@@ -21,9 +21,25 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.io.Serializable;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // java import
+
 
 /**
  * Represents an MBean attribute by associating its name with its value.
@@ -46,6 +62,7 @@ public class Attribute implements Serializable   {
     @SuppressWarnings("serial") // Conditionally serializable
     private Object value= null;
 
+
     /**
      * Constructs an Attribute object which associates the given attribute name with the given value.
      *
@@ -62,6 +79,7 @@ public class Attribute implements Serializable   {
         this.name = name;
         this.value = value;
     }
+
 
     /**
      * Returns a String containing the  name of the attribute.
@@ -88,6 +106,7 @@ public class Attribute implements Serializable   {
      *
      * @return  True if the two Attribute objects are equal, otherwise false.
      */
+
 
     public boolean equals(Object object)  {
         if (!(object instanceof Attribute val)) {

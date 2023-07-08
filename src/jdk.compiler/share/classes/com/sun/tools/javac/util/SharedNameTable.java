@@ -21,8 +21,23 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import java.lang.ref.SoftReference;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of Name.Table that stores all names in a single shared

@@ -21,8 +21,23 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
+
 import javax.swing.*;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 
@@ -56,6 +71,7 @@ public class XObject extends JLabel {
     public int hashCode() {
         return object.hashCode();
     }
+
 
     public Object getObject() {
         return object;

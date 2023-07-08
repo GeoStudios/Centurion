@@ -21,8 +21,22 @@
 
 package gc.memory.UniThread.Circular1;
 
+
 import nsk.share.gc.*;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,8 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm gc.memory.UniThread.Circular1.Circular1 -iterations 5
  */
+
+
 
 /**
  * Test GC collection of circular linked lists.

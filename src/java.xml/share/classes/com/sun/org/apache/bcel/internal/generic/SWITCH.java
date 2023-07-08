@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * SWITCH - Branch depending on int value, generates either LOOKUPSWITCH or
@@ -38,6 +55,7 @@ public final class SWITCH implements CompoundInstruction {
     private InstructionHandle[] targets;
     private final Select instruction;
     private final int matchLength;
+
 
     /**
      * Template for switch() constructs. If the match array can be
@@ -70,9 +88,11 @@ public final class SWITCH implements CompoundInstruction {
         }
     }
 
+
     public SWITCH(final int[] match, final InstructionHandle[] targets, final InstructionHandle target) {
         this(match, targets, target, 1);
     }
+
 
     private void fillup( final int max_gap, final InstructionHandle target ) {
         final int max_size = matchLength + matchLength * max_gap;
@@ -98,6 +118,7 @@ public final class SWITCH implements CompoundInstruction {
         System.arraycopy(m_vec, 0, match, 0, count);
         System.arraycopy(t_vec, 0, targets, 0, count);
     }
+
 
     /**
      * Sort match and targets array with QuickSort.
@@ -134,6 +155,7 @@ public final class SWITCH implements CompoundInstruction {
         }
     }
 
+
     /**
      * @return match is sorted in ascending order with no gap bigger than max_gap?
      */
@@ -146,10 +168,12 @@ public final class SWITCH implements CompoundInstruction {
         return true;
     }
 
+
     @Override
     public InstructionList getInstructionList() {
         return new InstructionList(instruction);
     }
+
 
     public Instruction getInstruction() {
         return instruction;

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
+
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Cursor;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
@@ -42,6 +43,20 @@ import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.DragSourceContextAccessor;
 import sun.awt.dnd.SunDragSourceContextPeer;
 import sun.security.action.GetIntegerAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DragSource} is the entity responsible
@@ -135,6 +150,7 @@ public class DragSource implements Serializable {
             throw new RuntimeException("failed to load system cursor: " + name + " : " + e.getMessage());
         }
     }
+
 
     /**
      * The default {@code Cursor} to use with a copy operation indicating
@@ -512,6 +528,7 @@ public class DragSource implements Serializable {
     {
         return Toolkit.getDefaultToolkit().createDragGestureRecognizer(recognizerAbstractClass, this, c, actions, dgl);
     }
+
 
     /**
      * Creates a new {@code DragGestureRecognizer}

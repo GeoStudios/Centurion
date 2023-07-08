@@ -21,6 +21,21 @@
 
 package compiler.intrinsics.string;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires os.arch=="aarch64"
@@ -42,6 +57,7 @@ package compiler.intrinsics.string;
  * @run main/othervm -XX:SoftwarePrefetchHintDistance=16 compiler.intrinsics.string.TestStringCompareToSameLength 2 5 10 13 17 20 25 35 36 37 71 72 73 88 90
  * @run main/othervm -XX:SoftwarePrefetchHintDistance=-1 compiler.intrinsics.string.TestStringCompareToSameLength 2 5 10 13 17 20 25 35 36 37 71 72 73 88 90
  */
+
 
 public class TestStringCompareToSameLength {
     private final int size;

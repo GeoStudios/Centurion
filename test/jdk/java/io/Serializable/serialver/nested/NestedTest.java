@@ -21,9 +21,23 @@
 
 package serialver;
 
+
 import java.io.Serializable;
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,6 +54,9 @@ import jdk.test.lib.process.ProcessTools;
  * @summary  To test the use of nested class specification using the '.'
  *           notation instead of the '$' notation.
  */
+
+
+
 
 public class NestedTest implements Serializable {
     private static final long serialVersionUID = 1L;

@@ -21,6 +21,7 @@
 
 package propertiesparser.gen;
 
+
 import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
 import propertiesparser.parser.Message;
 import propertiesparser.parser.MessageFile;
@@ -48,6 +49,19 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassGenerator {
 

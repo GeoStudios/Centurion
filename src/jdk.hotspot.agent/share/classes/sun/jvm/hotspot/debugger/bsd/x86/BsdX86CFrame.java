@@ -21,11 +21,26 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.x86;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final public class BsdX86CFrame extends BasicCFrame {
    // package/class internals only

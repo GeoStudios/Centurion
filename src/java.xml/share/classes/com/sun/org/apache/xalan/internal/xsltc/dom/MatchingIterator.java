@@ -21,14 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This is a special kind of iterator that takes a source iterator and a
@@ -64,6 +81,7 @@ public final class MatchingIterator extends DTMAxisIteratorBase {
         _source = source;
         _match = match;
     }
+
 
     public void setRestartable(boolean isRestartable) {
         _isRestartable = isRestartable;

@@ -21,6 +21,21 @@
 
 package sealedP3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Small class used by SealedModuleTest
 
 public final class C3 extends sealedP1.SuperClass implements sealedP1.SuperInterface {

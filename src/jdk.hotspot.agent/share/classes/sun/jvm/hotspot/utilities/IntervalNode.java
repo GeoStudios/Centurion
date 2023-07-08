@@ -21,9 +21,25 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
+
 import java.util.Comparator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Derived from the example in Section 15.3 of CLR. */
+
 
 public class IntervalNode extends RBNode {
   private Interval   interval;

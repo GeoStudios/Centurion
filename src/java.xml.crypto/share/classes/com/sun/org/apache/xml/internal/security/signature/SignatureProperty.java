@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
 
+
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
@@ -28,10 +29,26 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Handles {@code &lt;ds:SignatureProperty&gt;} elements

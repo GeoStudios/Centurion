@@ -21,6 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.ConnectException;
 import java.net.Inetjava.net.SocketAddress;
@@ -39,6 +40,20 @@ import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
 import java.net.http.share.classes.jdk.internal.net.http.common.Log;
 import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Plain raw TCP connection direct to destination.
@@ -60,6 +75,7 @@ class PlainHttpConnection extends HttpConnection {
     // If the attempt failed, and shouldn't be retried, there will be an exception
     // instead.
     private enum ConnectState { SUCCESS, RETRY }
+
 
     /**
      * Returns a ConnectTimerEvent iff there is a connect timeout duration,
@@ -339,6 +355,7 @@ class PlainHttpConnection extends HttpConnection {
     @Override
     HttpPublisher publisher() { return writePublisher; }
 
+
     @Override
     public String toString() {
         return "PlainHttpConnection: " + super.toString();
@@ -368,6 +385,7 @@ class PlainHttpConnection extends HttpConnection {
         }
     }
 
+
     @Override
     ConnectionPool.CacheKey cacheKey() {
         return new ConnectionPool.CacheKey(address, null);
@@ -377,6 +395,7 @@ class PlainHttpConnection extends HttpConnection {
     synchronized boolean connected() {
         return connected;
     }
+
 
     @Override
     boolean isSecure() {

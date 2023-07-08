@@ -21,12 +21,27 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import javax.swing.plaf.*;
 import javax.swing.text.JTextComponent;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaTextFieldBorder extends AquaBorder {
     private static final RecyclableSingleton<AquaTextFieldBorder> instance = new RecyclableSingletonFromDefaultConstructor<AquaTextFieldBorder>(AquaTextFieldBorder.class);

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
@@ -29,10 +30,26 @@ import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class wraps a SAX error handler in an XNI error handler.

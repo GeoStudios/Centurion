@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The constant pool entries, the BootstrapMethods attribute entries and the (ASM specific) type
  * table entries of a class.

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code Stroke} interface allows a
  * {@link Graphics2D} object to obtain a {@link Shape} that is the

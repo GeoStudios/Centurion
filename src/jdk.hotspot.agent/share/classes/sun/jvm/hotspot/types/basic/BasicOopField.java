@@ -21,14 +21,30 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A specialization of BasicField which represents a field containing
     an oop value and which adds typechecked getValue() routines
     returning OopHandles. */
 
 public class BasicOopField extends BasicField implements OopField {
+
 
   public BasicOopField(OopField oopf) {
     super(oopf);

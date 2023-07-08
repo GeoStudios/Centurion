@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils.res;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 //
 //  LangResources_en.properties

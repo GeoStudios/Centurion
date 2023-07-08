@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Netscape's 3.1 servers have some schema bugs:
@@ -36,6 +51,7 @@ final class LdapSchemaParser {
 
     // do debugging
     private static final boolean debug = false;
+
 
     // names of attribute IDs in the LDAP schema entry
     static final String OBJECTCLASSDESC_ATTR_ID = "objectClasses";

@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
@@ -35,6 +36,19 @@ import java.util.Map;
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODHANDLE;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODTYPE;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_STRING;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -58,6 +72,10 @@ import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CON
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.ResolvePossiblyCachedConstantInPoolTest
  */
+
+
+
+
 
 /**
  * Test for {@code jdk.vm.ci.hotspot.CompilerToVM.resolvePossiblyCachedConstantInPool} method
@@ -111,6 +129,7 @@ public class ResolvePossiblyCachedConstantInPoolTest {
 
     private static final String NOT_NULL_MSG
             = "Object returned by resolvePossiblyCachedConstantInPool method should not be null";
+
 
     private static void validateMethodHandle(ConstantPool constantPoolCTVM,
                                              ConstantTypes cpType,

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Location information.
@@ -79,5 +96,6 @@ public interface XMLLocator {
      * determined that there is no such declaration.
      */
     String getXMLVersion();
+
 
 } // interface XMLLocator

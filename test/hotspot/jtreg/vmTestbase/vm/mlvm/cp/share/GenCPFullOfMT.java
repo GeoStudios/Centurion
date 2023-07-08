@@ -21,12 +21,26 @@
 
 package vm.mlvm.cp.share;
 
+
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.ClassWriterExt;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.internal.org.objectweb.asm.Type;
 import vm.mlvm.share.ClassfileGenerator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GenCPFullOfMT extends GenFullCP {
 

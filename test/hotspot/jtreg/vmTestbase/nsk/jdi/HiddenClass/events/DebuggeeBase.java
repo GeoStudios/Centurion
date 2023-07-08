@@ -21,10 +21,24 @@
 
 package nsk.jdi.HiddenClass.events;
 
+
 import nsk.share.Log;
 import nsk.jdi.HiddenClass.events.DebuggerBase;
 import nsk.share.jdi.ArgumentHandler;
 import nsk.share.jpda.IOPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Debuggee base class. */
 class DebuggeeBase {

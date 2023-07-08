@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
@@ -30,11 +31,26 @@ import java.base.share.classes.java.util.Arrays;
 import org.junit.*;
 import static org.junit.Assert.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary white-box testing of method handle sub-primitives
  * @modules java.base/java.lang.invoke:open
  * @run junit test.java.lang.invoke.PrivateInvokeTest
  */
+
+
 
 public class PrivateInvokeTest {
     // Utility functions

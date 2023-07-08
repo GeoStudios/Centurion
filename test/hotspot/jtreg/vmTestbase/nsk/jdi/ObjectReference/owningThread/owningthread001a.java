@@ -21,9 +21,23 @@
 
 package nsk.jdi.ObjectReference.owningThread;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the owningthread001 JDI test.
@@ -79,6 +93,7 @@ public class owningthread001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -99,6 +114,7 @@ public class owningthread001a {
                          thread2 = new
                               Threadowningthread001a("Thread2");
                          log1("       thread2 is created");
+
 
                      label: {
                          synchronized (Threadowningthread001a.lockingObject) {
@@ -163,6 +179,7 @@ class Threadowningthread001a extends Thread {
     public static Object waitnotifyObj = new Object();
     public static Object lockingObject = new Object();
 
+
     private int i1 = 0, i2 = 10;
 
     public void run() {
@@ -184,10 +201,12 @@ class Threadowningthread001a extends Thread {
         return;
     }
 
+
     void log(String str) {
         owningthread001a.log2("thread2: " + str);
     }
 }
+
 
 class TestClass  {
 

@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
 
+
 import java.io.OutputStream;
 import javax.xml.transform.TransformerException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityRuntimeException;
@@ -37,10 +38,28 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * Class TransformXPath

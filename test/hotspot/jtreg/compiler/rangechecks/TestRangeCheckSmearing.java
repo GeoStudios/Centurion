@@ -21,6 +21,7 @@
 
 package compiler.rangechecks;
 
+
 import compiler.whitebox.CompilerWhiteBoxTest;
 import compiler.testlibrary.CompilerUtils;
 import jdk.test.lib.Platform;
@@ -31,6 +32,19 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,9 @@ import java.util.HashMap;
  *                   compiler.rangechecks.TestRangeCheckSmearing
  *
  */
+
+
+
 
 public class TestRangeCheckSmearing {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

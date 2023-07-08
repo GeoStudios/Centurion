@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.dnd.*;
@@ -40,6 +41,20 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicTableUI implementation
@@ -738,6 +753,7 @@ public class BasicTableUI extends TableUI
         }
     }
 
+
 //
 //  The Table's Key listener
 //
@@ -872,6 +888,7 @@ public class BasicTableUI extends TableUI
             repaintLeadCell();
         }
 
+
         // KeyListener
         public void keyPressed(KeyEvent e) { }
 
@@ -943,6 +960,7 @@ public class BasicTableUI extends TableUI
                 }
             }
         }
+
 
         // MouseInputListener
 
@@ -1279,6 +1297,7 @@ public class BasicTableUI extends TableUI
                     BasicGraphicsUtils.isMenuShortcutKeyDown(e), true);
         }
 
+
         // PropertyChangeListener
         public void propertyChange(PropertyChangeEvent event) {
             String changeName = event.getPropertyName();
@@ -1347,6 +1366,7 @@ public class BasicTableUI extends TableUI
             }
         }
     }
+
 
     /*
      * Returns true if the given point is outside the preferredSize of the
@@ -2208,6 +2228,7 @@ public class BasicTableUI extends TableUI
         return row ? getAdjustedLead(table, row, table.getSelectionModel())
                    : getAdjustedLead(table, row, table.getColumnModel().getSelectionModel());
     }
+
 
     private static final TransferHandler defaultTransferHandler = new TableTransferHandler();
 

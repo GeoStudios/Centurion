@@ -21,6 +21,7 @@
 
 package compiler.lib.ir_framework.test;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.shared.TestRun;
 import compiler.lib.ir_framework.shared.TestRunException;
@@ -28,6 +29,19 @@ import sun.hotspot.WhiteBox;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for base, checked and custom run tests.

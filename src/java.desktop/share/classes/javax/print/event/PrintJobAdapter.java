@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.print.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An abstract adapter class for receiving print job events. The methods in this
  * class are empty. This class exists as a convenience for creating listener

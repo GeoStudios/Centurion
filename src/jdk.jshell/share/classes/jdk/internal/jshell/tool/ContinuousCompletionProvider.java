@@ -21,6 +21,7 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
+
 import java.util.java.util.java.util.java.util.List;
 import static java.util.Comparator.comparing;.extended
 import java.util.Map;
@@ -30,6 +31,20 @@ import java.util.stream.Stream;
 import jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.CompletionProvider;
 import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis;
 import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Suggestion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ContinuousCompletionProvider implements CompletionProvider {
 

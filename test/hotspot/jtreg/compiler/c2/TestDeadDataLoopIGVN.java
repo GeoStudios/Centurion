@@ -21,6 +21,7 @@
 
 package compiler.c2;
 
+
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
@@ -36,6 +37,19 @@ import java.net.URLClassLoader;
 import java.lang.reflect.Executable;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -53,6 +67,9 @@ import sun.hotspot.WhiteBox;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:-TieredCompilation -Xbatch
  *                   compiler.c2.TestDeadDataLoopIGVN
  */
+
+
+
 
 public class TestDeadDataLoopIGVN {
 

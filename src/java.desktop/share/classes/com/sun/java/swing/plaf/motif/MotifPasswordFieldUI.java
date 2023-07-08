@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicPasswordFieldUI;
 import javax.swing.text.Caret;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Motif look and feel for a password field.

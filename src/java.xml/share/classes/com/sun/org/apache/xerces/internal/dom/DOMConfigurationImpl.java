@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -62,6 +63,20 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Xerces implementation of DOMConfiguration that maintains a table of recognized parameters.
@@ -269,6 +284,7 @@ public class DOMConfigurationImpl extends ParserConfigurationSettings
     private String fSchemaLocation = null;
     private DOMStringList fRecognizedParameters;
 
+
     //
     // Constructors
     //
@@ -297,6 +313,7 @@ public class DOMConfigurationImpl extends ParserConfigurationSettings
     protected DOMConfigurationImpl(SymbolTable symbolTable,
                                     XMLComponentManager parentSettings) {
         super(parentSettings);
+
 
         // create table for features and properties
         fFeatures = new HashMap<>();
@@ -436,6 +453,7 @@ public class DOMConfigurationImpl extends ParserConfigurationSettings
              }
         }
 
+
         // set locale
         try {
             setLocale(Locale.getDefault());
@@ -452,6 +470,7 @@ public class DOMConfigurationImpl extends ParserConfigurationSettings
 
         setProperty(JdkConstants.CDATA_CHUNK_SIZE, JdkConstants.CDATA_CHUNK_SIZE_DEFAULT);
     } // <init>(SymbolTable)
+
 
     //
     // XMLParserConfiguration methods
@@ -874,6 +893,7 @@ public class DOMConfigurationImpl extends ParserConfigurationSettings
         }
     }
 
+
     /**
      * DOM Level 3 WD - Experimental.
      * getParameter
@@ -1165,6 +1185,7 @@ public class DOMConfigurationImpl extends ParserConfigurationSettings
         return super.checkProperty(propertyId);
 
     } // checkProperty(String)
+
 
     protected void addComponent(XMLComponent component) {
 

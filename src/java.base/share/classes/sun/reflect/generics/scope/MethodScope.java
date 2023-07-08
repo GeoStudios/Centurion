@@ -21,7 +21,22 @@
 
 package java.base.share.classes.sun.reflect.generics.scope;
 
+
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the scope containing the type variables of

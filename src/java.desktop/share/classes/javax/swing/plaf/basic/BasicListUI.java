@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import java.desktop.share.classes.javax.swing.*;
@@ -35,6 +36,20 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import sun.swing.SwingUtilities2;
 import java.desktop.share.classes.javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extensible implementation of {@code ListUI}.
@@ -282,6 +297,7 @@ public class BasicListUI extends ListUI
         rendererPane.paintComponent(g, rendererComponent, list, cx, cy, cw, ch, true);
     }
 
+
     /**
      * Paint the rows that intersect the Graphics objects clipRect.  This
      * method calls paintCell as necessary.  Subclasses
@@ -347,6 +363,7 @@ public class BasicListUI extends ListUI
         int leadIndex = adjustIndex(list.getLeadSelectionIndex(), list);
         int rowIncrement = (layoutOrientation == JList.HORIZONTAL_WRAP) ?
                            columnCount : 1;
+
 
         for (int colCounter = startColumn; colCounter <= endColumn;
              colCounter++) {
@@ -662,6 +679,7 @@ public class BasicListUI extends ListUI
         return new Dimension(width, height);
     }
 
+
     /**
      * Selected the previous row and force it to be visible.
      *
@@ -675,6 +693,7 @@ public class BasicListUI extends ListUI
             list.ensureIndexIsVisible(s);
         }
     }
+
 
     /**
      * Selected the previous row and force it to be visible.
@@ -690,6 +709,7 @@ public class BasicListUI extends ListUI
             list.ensureIndexIsVisible(s);
         }
     }
+
 
     /**
      * Registers the keyboard bindings on the <code>JList</code> that the
@@ -740,6 +760,7 @@ public class BasicListUI extends ListUI
         SwingUtilities.replaceUIInputMap(list, JComponent.WHEN_FOCUSED, null);
     }
 
+
     /**
      * Creates and installs the listeners for the JList, its model, and its
      * selectionModel.  This method is called at installUI() time.
@@ -782,6 +803,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     /**
      * Removes the listeners from the JList, its model, and its
      * selectionModel.  All of the listener fields, are reset to
@@ -816,6 +838,7 @@ public class BasicListUI extends ListUI
         propertyChangeListener = null;
         handler = null;
     }
+
 
     /**
      * Initializes list properties such as font, foreground, and background,
@@ -874,6 +897,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     /**
      * Sets the list properties that have not been explicitly overridden to
      * {@code null}. A property is considered overridden if its current value
@@ -909,6 +933,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     /**
      * Initializes <code>this.list</code> by calling <code>installDefaults()</code>,
      * <code>installListeners()</code>, and <code>installKeyboardActions()</code>
@@ -939,6 +964,7 @@ public class BasicListUI extends ListUI
         installKeyboardActions();
     }
 
+
     /**
      * Uninitializes <code>this.list</code> by calling <code>uninstallListeners()</code>,
      * <code>uninstallKeyboardActions()</code>, and <code>uninstallDefaults()</code>
@@ -964,6 +990,7 @@ public class BasicListUI extends ListUI
         list = null;
     }
 
+
     /**
      * Returns a new instance of {@code BasicListUI}.
      * {@code BasicListUI} delegates are allocated one per {@code JList}.
@@ -975,6 +1002,7 @@ public class BasicListUI extends ListUI
         return new BasicListUI();
     }
 
+
     /**
      * {@inheritDoc}
      * @throws NullPointerException {@inheritDoc}
@@ -983,6 +1011,7 @@ public class BasicListUI extends ListUI
         maybeUpdateLayoutState();
         return convertLocationToModel(location.x, location.y);
     }
+
 
     /**
      * {@inheritDoc}
@@ -996,6 +1025,7 @@ public class BasicListUI extends ListUI
         }
         return null;
     }
+
 
     /**
      * {@inheritDoc}
@@ -1104,6 +1134,7 @@ public class BasicListUI extends ListUI
         return getHeight(0, row);
     }
 
+
     /**
      * Convert the {@code JList} relative coordinate to the row that contains it,
      * based on the current layout. If {@code y0} doesn't fall within any row,
@@ -1118,6 +1149,7 @@ public class BasicListUI extends ListUI
     {
         return convertLocationToRow(0, y0, false);
     }
+
 
     /**
      * Return the {@code JList} relative Y coordinate of the origin of the specified
@@ -1366,6 +1398,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     /**
      * Recompute the value of cellHeight or cellHeights based
      * and cellWidth, based on the current font and the current
@@ -1585,6 +1618,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     /**
      * Creates a delegate that implements {@code MouseInputListener}.
      * The delegate is added to the corresponding {@code java.awt.Component} listener
@@ -1685,6 +1719,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     /**
      * Creates an instance of {@code ListSelectionHandler} that's added to
      * the {@code JLists} by selectionModel as needed.  Subclasses can override
@@ -1711,10 +1746,12 @@ public class BasicListUI extends ListUI
         return getHandler();
     }
 
+
     private void redrawList() {
         list.revalidate();
         list.repaint();
     }
+
 
     /**
      * The {@code ListDataListener} that's added to the {@code JLists} model at
@@ -1746,15 +1783,18 @@ public class BasicListUI extends ListUI
             getHandler().intervalAdded(e);
         }
 
+
         public void intervalRemoved(ListDataEvent e)
         {
             getHandler().intervalRemoved(e);
         }
 
+
         public void contentsChanged(ListDataEvent e) {
             getHandler().contentsChanged(e);
         }
     }
+
 
     /**
      * Creates an instance of {@code ListDataListener} that's added to
@@ -1782,6 +1822,7 @@ public class BasicListUI extends ListUI
     protected ListDataListener createListDataListener() {
         return getHandler();
     }
+
 
     /**
      * The PropertyChangeListener that's added to the JList at
@@ -1816,6 +1857,7 @@ public class BasicListUI extends ListUI
             getHandler().propertyChange(e);
         }
     }
+
 
     /**
      * Creates an instance of {@code PropertyChangeHandler} that's added to
@@ -1854,6 +1896,7 @@ public class BasicListUI extends ListUI
     /** Used by IncrementLeadSelectionAction. Indicates the action should
      * extend the selection from the anchor to the next index. */
     private static final int EXTEND_SELECTION = 2;
+
 
     private static class Actions extends UIAction {
         private static final String SELECT_PREVIOUS_COLUMN =
@@ -2491,6 +2534,7 @@ public class BasicListUI extends ListUI
         }
     }
 
+
     private class Handler implements FocusListener, KeyListener,
                           ListDataListener, ListSelectionListener,
                           MouseInputListener, PropertyChangeListener,
@@ -2735,6 +2779,7 @@ public class BasicListUI extends ListUI
             redrawList();
         }
 
+
         public void intervalRemoved(ListDataEvent e)
         {
             updateLayoutStateNeeded = modelChanged;
@@ -2755,10 +2800,12 @@ public class BasicListUI extends ListUI
             redrawList();
         }
 
+
         public void contentsChanged(ListDataEvent e) {
             updateLayoutStateNeeded = modelChanged;
             redrawList();
         }
+
 
         //
         // ListSelectionListener

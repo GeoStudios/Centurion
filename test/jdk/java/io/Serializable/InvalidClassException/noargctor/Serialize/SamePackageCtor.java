@@ -21,9 +21,25 @@
 
 package Serialize;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @bug 4093279
  */
+
 
 public class SamePackageCtor {
     SamePackageCtor() {

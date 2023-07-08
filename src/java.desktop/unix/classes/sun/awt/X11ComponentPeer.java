@@ -21,11 +21,26 @@
 
 package java.desktop.unix.classes.sun.awt;
 
+
 import java.awt.Rectangle;
 import java.awt.GraphicsConfiguration;
 import java.awt.image.ColorModel;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
 import java.awt.Graphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface X11ComponentPeer {
     long getWindow();

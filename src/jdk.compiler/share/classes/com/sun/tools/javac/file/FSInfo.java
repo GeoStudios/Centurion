@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
+
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
@@ -39,6 +40,20 @@ import java.util.jar.Attributes;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Get meta-info about files. Default direct (non-caching) implementation.

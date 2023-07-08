@@ -21,8 +21,22 @@
 
 package compiler.intrinsics.sha;
 
+
 import java.security.MessageDigest;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -133,6 +147,8 @@ import java.base.share.classes.java.util.Arrays;
  *      -Dalgorithm=SHA3-512 -Dalgorithm2=SHA-1
  *      compiler.intrinsics.sha.TestDigest
  */
+
+
 
 public class TestDigest {
     private static final int HASH_LEN = 64; /* up to 512-bit */

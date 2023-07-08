@@ -21,12 +21,27 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.util.Comparator;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CookieManager provides a concrete implementation of {@link CookieHandler},
@@ -114,7 +129,9 @@ public class CookieManager extends CookieHandler
 
     private CookiePolicy policyCallback;
 
+
     private CookieStore cookieJar = null;
+
 
     /* ---------------- Ctors -------------- */
 
@@ -128,6 +145,7 @@ public class CookieManager extends CookieHandler
     public CookieManager() {
         this(null, null);
     }
+
 
     /**
      * Create a new cookie manager with specified cookie store and cookie policy.
@@ -155,6 +173,7 @@ public class CookieManager extends CookieHandler
         }
     }
 
+
     /* ---------------- Public operations -------------- */
 
     /**
@@ -171,6 +190,7 @@ public class CookieManager extends CookieHandler
         if (cookiePolicy != null) policyCallback = cookiePolicy;
     }
 
+
     /**
      * To retrieve current cookie store.
      *
@@ -179,6 +199,7 @@ public class CookieManager extends CookieHandler
     public CookieStore getCookieStore() {
         return cookieJar;
     }
+
 
     public Map<String, List<String>>
         get(URI uri, Map<String, List<String>> requestHeaders)
@@ -242,6 +263,7 @@ public class CookieManager extends CookieHandler
         if (uri == null || responseHeaders == null) {
             throw new IllegalArgumentException("Argument is null");
         }
+
 
         // if there's no default CookieStore, no need to remember any cookie
         if (cookieJar == null)
@@ -334,6 +356,7 @@ public class CookieManager extends CookieHandler
         }
     }
 
+
     /* ---------------- Private operations -------------- */
 
     // to determine whether or not accept this cookie
@@ -344,6 +367,7 @@ public class CookieManager extends CookieHandler
             return false;
         }
     }
+
 
     private static boolean isInPortList(String lst, int port) {
         int i = lst.indexOf(',');
@@ -382,6 +406,7 @@ public class CookieManager extends CookieHandler
         return path.startsWith(pathToMatchWith);
     }
 
+
     /*
      * sort cookies with respect to their path and age: those with more longer Path attributes
      * precede those with shorter, as defined in RFC 6265. Cookies with the same length
@@ -404,6 +429,7 @@ public class CookieManager extends CookieHandler
         }
         return cookieHeader;
     }
+
 
     // Comparator compares the length of the path. Longer paths should precede shorter ones.
     // As per rfc6265 cookies with equal path lengths sort on creation time.

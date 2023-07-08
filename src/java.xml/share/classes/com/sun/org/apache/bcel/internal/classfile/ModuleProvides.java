@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class represents an entry in the provides table of the Module attribute.
@@ -42,6 +60,7 @@ public final class ModuleProvides implements Cloneable, Node {
     private final int providesIndex;  // points to CONSTANT_Class_info
     private final int providesWithCount;
     private final int[] providesWithIndex;  // points to CONSTANT_Class_info
+
 
     /**
      * Construct object from file stream.
@@ -57,6 +76,7 @@ public final class ModuleProvides implements Cloneable, Node {
             providesWithIndex[i] = file.readUnsignedShort();
         }
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -86,6 +106,7 @@ public final class ModuleProvides implements Cloneable, Node {
         }
     }
 
+
     /**
      * @return String representation
      */
@@ -93,6 +114,7 @@ public final class ModuleProvides implements Cloneable, Node {
     public String toString() {
         return "provides(" + providesIndex + ", " + providesWithCount + ", ...)";
     }
+
 
     /**
      * @return Resolved string representation
@@ -108,6 +130,7 @@ public final class ModuleProvides implements Cloneable, Node {
         }
         return buf.substring(0, buf.length()-1); // remove the last newline
     }
+
 
     /**
      * @return deep copy of this object

@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.macos;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.Vajava.util.java.util.java.util.List;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
@@ -33,6 +34,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.AArch64.C_POINTER;.extended
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.alignUp;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simplified va_list implementation used on macOS where all variadic

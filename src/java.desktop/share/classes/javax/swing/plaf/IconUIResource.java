@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.Icon;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An Icon wrapper class which implements UIResource.  UI

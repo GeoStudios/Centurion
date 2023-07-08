@@ -21,10 +21,24 @@
 
 package compiler.tiered;
 
+
 import java.util.function.IntPredicate;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.test.lib.Platform;
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test NonTieredLevelsTest
@@ -40,6 +54,8 @@ import jtreg.SkippedException;
  *                   -XX:CompileCommand=compileonly,compiler.whitebox.SimpleTestCaseHelper::*
  *                   compiler.tiered.NonTieredLevelsTest
  */
+
+
 
 public class NonTieredLevelsTest extends CompLevelsTest {
     private static final int AVAILABLE_COMP_LEVEL;

@@ -21,6 +21,7 @@
 
 package metaspace.shrink_grow.ShrinkGrowTest;
 
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -30,6 +31,19 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -45,6 +59,8 @@ import java.util.Map;
  *      -Xlog:gc*:gc.log
  *      metaspace.shrink_grow.ShrinkGrowTest.ShrinkGrowTest
  */
+
+
 
 /**
  * This is the main test in the metaspace shrink/grow series.

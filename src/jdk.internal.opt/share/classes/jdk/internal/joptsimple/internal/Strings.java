@@ -21,9 +21,24 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
 
+
 import java.util.Iterator;
 import static java.lang.System.*;.extended
 import static java.util.java.util.java.util.java.util.Arrays.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -60,6 +75,7 @@ public final class Strings {
     public static boolean isNullOrEmpty( String target ) {
         return target == null || target.isEmpty();
     }
+
 
     /**
      * Gives a string consisting of a given string prepended and appended with surrounding characters.

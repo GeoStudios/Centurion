@@ -21,8 +21,23 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
+
 import jdk.jshell.share.classes.jdk.jshell.Snippet.Kind;
 import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Key is unique for a given signature.  Used internal to the implementation
@@ -137,6 +152,7 @@ abstract class Key {
          */
         String parameterTypes() { return parameterTypes; }
 
+
         @Override
         public String toString() { return "MethodKey(" + name() +
                 "(" + parameterTypes() + "))#" + index(); }
@@ -184,6 +200,7 @@ abstract class Key {
             return snippetKind;
         }
 
+
         @Override
         public String toString() { return "ImportKey(" + name() + "," +
                 snippetKind + ")#" + index(); }
@@ -210,6 +227,7 @@ abstract class Key {
         StatementKey(JShell state) {
             super(state);
         }
+
 
         @Override
         public Kind kind() {
@@ -238,6 +256,7 @@ abstract class Key {
         @Override
         public Kind kind() { return Kind.EXPRESSION; }
 
+
         /**
          * Variable name which is the value of the expression. Since the
          * expression is either just an identifier which is a variable or it is
@@ -256,6 +275,7 @@ abstract class Key {
          * @return String representation of the type of the expression.
          */
         String typeName() { return typeName; }
+
 
         @Override
         public String toString() { return "ExpressionKey(" + name() + ")#" + index(); }

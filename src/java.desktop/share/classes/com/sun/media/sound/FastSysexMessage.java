@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.SysexMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * optimized FastSysexMessage that doesn't copy the array upon instantiation.

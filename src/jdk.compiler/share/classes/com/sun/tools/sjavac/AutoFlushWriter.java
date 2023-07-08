@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
+
 import java.io.FilterWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AutoFlushWriter extends FilterWriter {
 

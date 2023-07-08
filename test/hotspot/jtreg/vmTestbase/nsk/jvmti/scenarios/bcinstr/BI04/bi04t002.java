@@ -21,11 +21,25 @@
 
 package nsk.jvmti.scenarios.bcinstr.BI04;
 
+
 import java.io.PrintStream;
 import nsk.share.Log;
 import nsk.share.Consts;
 import nsk.share.jvmti.ArgumentHandler;
 import nsk.share.jvmti.DebugeeClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class bi04t002 extends DebugeeClass {
 

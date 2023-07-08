@@ -21,6 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -31,6 +32,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import javax.management.NotCompliantMBeanException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An analyzer for a given MBean interface.  The analyzer can
@@ -222,6 +237,7 @@ class MBeanAnalyzer<M> {
         public static final MethodOrder instance = new MethodOrder();
     }
 
+
     /* Eliminate methods that are overridden with a covariant return type.
        Reflection will return both the original and the overriding method
        but only the overriding one is of interest.  We return the methods
@@ -263,5 +279,6 @@ class MBeanAnalyzer<M> {
         methods.removeAll(overridden);
         return methods;
     }
+
 
 }

@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Parameter;
@@ -47,6 +48,20 @@ import jdk.jfr.share.classes.jdk.jfr.Registered;
 import jdk.jfr.share.classes.jdk.jfr.SettingControl;
 import jdk.jfr.share.classes.jdk.jfr.SettingDefinition;
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class responsible for adding instrumentation to a subclass of {@link Event}.
@@ -464,6 +479,7 @@ public final class EventInstrumentation {
             methodVisitor.visitInsn(Opcodes.IRETURN);
         });
     }
+
 
     private void getEventHandler(MethodVisitor methodVisitor) {
         if (untypedEventHandler) {

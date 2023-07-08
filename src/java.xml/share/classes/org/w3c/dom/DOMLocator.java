@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <code>DOMLocator</code> is an interface that describes a location (e.g.
  * where an error occurred).

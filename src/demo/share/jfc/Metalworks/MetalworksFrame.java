@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -45,6 +46,20 @@ import javax.swing.plaf.metal.DefaultMetalTheme;
 import javax.swing.plaf.metal.MetalTheme;
 import javax.swing.plaf.metal.OceanTheme;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -52,6 +67,10 @@ import javax.swing.plaf.metal.OceanTheme;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This is the main container frame for the Metalworks demo app
@@ -256,6 +275,7 @@ public final class MetalworksFrame extends JFrame {
                 desktop.setDragMode(JDesktopPane.OUTLINE_DRAG_MODE);
             }
         });
+
 
         speed.add(live);
         speed.add(outline);

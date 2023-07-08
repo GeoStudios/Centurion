@@ -21,7 +21,22 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
+
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Diagnostic command information. It contains the description of a

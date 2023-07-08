@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -32,10 +33,26 @@ import com.sun.org.apache.xml.internal.security.signature.NodeFilter;
 import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
 import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 public class ApacheNodeSetData implements ApacheData, NodeSetData<Node> {
 

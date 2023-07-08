@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.ActionEvent;
 import java.desktop.share.classes.java.awt.peer.MenuComponentPeer;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -38,6 +39,20 @@ import javax.accessibility.AccessibleStateSet;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.ComponentFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract class {@code MenuComponent} is the superclass
@@ -284,6 +299,7 @@ public abstract class MenuComponent implements java.io.Serializable {
         return font;
     } // getFont_NoClientCode()
 
+
     /**
      * Sets the font to be used for this menu component to the specified
      * font. This font is also used by all subcomponents of this menu
@@ -457,6 +473,7 @@ public abstract class MenuComponent implements java.io.Serializable {
      * Initialize JNI field and method IDs.
      */
     private static native void initIDs();
+
 
     /*
      * --- Accessibility Support ---
@@ -659,6 +676,7 @@ public abstract class MenuComponent implements java.io.Serializable {
         public AccessibleComponent getAccessibleComponent() {
             return this;
         }
+
 
         // AccessibleComponent methods
         //

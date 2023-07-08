@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.font;
 
+
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
@@ -36,6 +37,20 @@ import sun.font.BidiUtils;
 import sun.font.TextLineComponent;
 import sun.font.TextLabelFactory;
 import sun.font.FontResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code TextMeasurer} class provides the primitive operations

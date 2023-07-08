@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends Raster to provide pixel writing capabilities.

@@ -21,7 +21,21 @@
 
 package jit.FloatingPoint.gen_math.Matrix_3d;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,8 +48,10 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.FloatingPoint.gen_math.Matrix_3d.Matrix_3d
  */
 
+
 // Test working with 3D matrix.
 // There are no data dependences in code.
+
 
 public class Matrix_3d
 {
@@ -87,6 +103,8 @@ public class Matrix_3d
            }
         }
 
+
+
         double trace_xxx = mm.trace_matrix(N,xxx);
         double trace_yyy = mm.trace_matrix(N,yyy);
         double trace_zzz = mm.trace_matrix(N,zzz);
@@ -101,6 +119,7 @@ public class Matrix_3d
                 throw new TestFailure("test FAIL");
    }
 
+
   public double trace_matrix(int nn, double www[][][])
    {    double trace = 0;
         for(int i = 0; i < nn; i++)
@@ -110,5 +129,7 @@ public class Matrix_3d
         return Math.sqrt(trace);
 
    }
+
+
 
 }

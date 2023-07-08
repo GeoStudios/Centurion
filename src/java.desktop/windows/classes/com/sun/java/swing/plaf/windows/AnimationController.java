@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.security.AccessController;
 import java.desktop.windows.classes.com.sun.security.action.GetBooleanAction;
 import java.util.*;
@@ -35,6 +36,20 @@ import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Par
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Prop;
 import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;
 import java.desktop.windows.classes.com.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to help mimic Vista theme animations.  The only kind of
@@ -61,6 +76,7 @@ class AnimationController implements ActionListener, PropertyChangeListener {
     @SuppressWarnings("removal")
     private static final boolean VISTA_ANIMATION_DISABLED =
         AccessController.doPrivileged(new GetBooleanAction("swing.disablevistaanimation"));
+
 
     private static final Object ANIMATION_CONTROLLER_KEY =
         new StringBuilder("ANIMATION_CONTROLLER_KEY");

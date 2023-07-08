@@ -21,10 +21,25 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.event.*;
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class exists only as a hack to work around a Sun bug which parks the

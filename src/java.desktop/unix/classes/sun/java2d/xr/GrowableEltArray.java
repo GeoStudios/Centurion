@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Class to efficiently store glyph information for laid out glyphs,
  * passed to native or java backend.

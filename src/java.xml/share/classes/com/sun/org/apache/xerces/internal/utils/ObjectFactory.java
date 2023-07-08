@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
 
+
 import java.util.function.Supplier;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is duplicated for each JAXP subpackage so keep it in sync.
@@ -48,6 +63,7 @@ public final class ObjectFactory {
 
     /** Set to true for debugging */
     private static final boolean DEBUG = isDebugEnabled();
+
 
     //
     // Private static methods

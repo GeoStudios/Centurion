@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import javax.xml.stream.events.StartDocument;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLStreamConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implementation of StartDocumentEvent.
  *
@@ -82,6 +97,7 @@ implements StartDocument {
         else
             return fLocation.getSystemId();
     }
+
 
     public String getCharacterEncodingScheme() {
         return fEncodingScheam;

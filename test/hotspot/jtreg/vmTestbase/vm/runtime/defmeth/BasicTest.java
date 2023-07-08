@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth;
 
+
 import java.util.Map;
 import java.util.Set;
 import nsk.share.TestFailure;
@@ -32,6 +33,19 @@ import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.executor.TestExecutor;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -48,6 +62,10 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.BasicTest
  */
+
+
+
+
 
 /**
  * Basic tests on some of the assertions from JVMS.
@@ -186,6 +204,7 @@ public class BasicTest extends DefMethTest {
           .test().callSite(I, D, "m", "()I").throws_(IllegalAccessError.class).done()
           .test().callSite(I, E, "m", "()I").throws_(IllegalAccessError.class).done();
     }
+
 
     /**
      * interface I {

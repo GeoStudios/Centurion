@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import javax.xml.transform.SourceLocator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
@@ -34,6 +35,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the implementation of the DTM document interface.  It receives
@@ -112,6 +127,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
    */
   private IncrementalSAXSource m_incrSAXSource=null;
 
+
         // ========= DTM data structure declarations. ==============
 
         // nodes array: integer array blocks to hold the first level reference of the nodes,
@@ -146,6 +162,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
                 new ExpandedNameTable();
 
         private final XMLStringFactory m_xsf;
+
 
         /**
          * Construct a DTM.
@@ -510,6 +527,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
                 prefix=null; // Default prefix
               }
 
+
             appendNSDeclaration(
                                     m_prefixNames.stringToIndex(prefix),
                                     m_nsNames.stringToIndex(atts.getValue(i)),
@@ -537,6 +555,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
                 prefix=""; // Default prefix
                 localName=qName;
               }
+
 
             m_char.append(atts.getValue(i)); // Single-string value
             int contentEnd=m_char.length();
@@ -601,6 +620,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
   {
     // No-op in DTM
   }
+
 
   //================================================================
   // ========= Document Handler Functions =========
@@ -1519,6 +1539,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
         return expandedNameID;
         }
 
+
         /**
          * Given an expanded name, return an ID.  If the expanded-name does not
          * exist in the internal tables, the entry will be created, and the ID will
@@ -1539,6 +1560,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
            return expandedNameID;
         }
 
+
         /**
          * Given an expanded-name ID, return the local name part.
          *
@@ -1554,6 +1576,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
            String localName = expandedName.substring(colonpos+1);
            return localName;
         }
+
 
         /**
          * Given an expanded-name ID, return the namespace URI part.
@@ -1571,6 +1594,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
 
         return nsName;
         }
+
 
         /**
          * fixednames
@@ -1910,6 +1934,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
          */
         public String getUnparsedEntityURI(String name) {return null;}
 
+
         // ============== Boolean methods ================
 
         /**
@@ -2067,6 +2092,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
           //%TBD%
         }
 
+
   //================================================================
   // ==== BUILDER methods ====
   // %TBD% jjk: SHOULD PROBABLY BE INLINED, unless we want to support
@@ -2117,6 +2143,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
     int ourslot = appendNode(w0, w1, w2, w3);
     previousSibling = ourslot;
   }
+
 
   /** Append an Element child at the current insertion point. This
    * Element then _becomes_ the insertion point; subsequent appends
@@ -2299,6 +2326,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
     return null;
   }
 
+
   /** Terminate the element currently acting as an insertion point. Subsequent
    * insertions will occur as the last child of this element's parent.
    * */
@@ -2366,6 +2394,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
   {
     return null;
   }
+
 
   /**
    * A dummy routine to satisify the abstract interface. If the DTM

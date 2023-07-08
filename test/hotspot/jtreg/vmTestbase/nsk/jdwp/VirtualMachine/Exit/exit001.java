@@ -21,11 +21,25 @@
 
 package nsk.jdwp.VirtualMachine.Exit;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class exit001 {
     static final int JCK_STATUS_BASE = 95;
@@ -74,6 +88,7 @@ public class exit001 {
                 log.display("Waiting for command: " + "ready");
                 String cmd = pipe.readln();
                 log.display("Received command: " + cmd);
+
 
                 // Linux returns only 8 least significant bits of exit status - see #4459019 bug.
                 int expectedExitCode = 0x0F;

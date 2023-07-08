@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequest.disable;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -187,6 +201,7 @@ public class disable002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -249,6 +264,7 @@ public class disable002 extends JDIBase {
 
     //------------------------------------------------------  testing section
 
+
         EventRequest  eventRequest1 = null;
 
         String        fieldName1    = "var101";
@@ -258,6 +274,7 @@ public class disable002 extends JDIBase {
         String          threadName1 = "thread1";
 
         ReferenceType testClassReference = null;
+
 
         log1("     TESTING BEGINS");
 
@@ -277,6 +294,7 @@ public class disable002 extends JDIBase {
             log1(":::::: case: # " + i);
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
+
 
             switch (i) {
 
@@ -350,6 +368,7 @@ public class disable002 extends JDIBase {
                      eventRequest1 = eventRManager.createBreakpointRequest(breakpLocation);
                      break;
 
+
               default:
                       throw new JDITestRuntimeException("** default case 2 **");
             }
@@ -370,5 +389,6 @@ public class disable002 extends JDIBase {
         log1("    TESTING ENDS");
         return;
     }
+
 
 }

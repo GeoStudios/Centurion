@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.lang.reflect;
 
+
 import java.base.share.classes.java.util.StringJoiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Modifier class provides {@code static} methods and
@@ -41,6 +56,7 @@ public class Modifier {
      * Do not call.
      */
     private Modifier() {throw new AssertionError();}
+
 
     /**
      * Return {@code true} if the integer argument includes the
@@ -359,6 +375,7 @@ public class Modifier {
     private static final int INTERFACE_MODIFIERS =
         Modifier.PUBLIC         | Modifier.PROTECTED    | Modifier.PRIVATE |
         Modifier.ABSTRACT       | Modifier.STATIC       | Modifier.STRICT;
+
 
     /**
      * The Java source modifiers that can be applied to a constructor.

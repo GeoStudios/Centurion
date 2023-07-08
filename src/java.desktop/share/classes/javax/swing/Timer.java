@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.event.ActionEvent;
 import java.awt.event.Actionjava.util.Listener;
 import java.io.java.io.java.io.java.io.IOException;
@@ -36,6 +37,20 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Fires one or more {@code ActionEvent}s at specified
@@ -258,6 +273,7 @@ public class Timer implements Serializable
         listenerList.add(ActionListener.class, listener);
     }
 
+
     /**
      * Removes the specified action listener from the <code>Timer</code>.
      *
@@ -266,6 +282,7 @@ public class Timer implements Serializable
     public void removeActionListener(ActionListener listener) {
         listenerList.remove(ActionListener.class, listener);
     }
+
 
     /**
      * Returns an array of all the action listeners registered
@@ -281,6 +298,7 @@ public class Timer implements Serializable
     public ActionListener[] getActionListeners() {
         return listenerList.getListeners(ActionListener.class);
     }
+
 
     /**
      * Notifies all listeners that have registered interest for
@@ -350,6 +368,7 @@ public class Timer implements Serializable
         return TimerQueue.sharedInstance();
     }
 
+
     /**
      * Enables or disables the timer log. When enabled, a message
      * is posted to <code>System.out</code> whenever the timer goes off.
@@ -361,6 +380,7 @@ public class Timer implements Serializable
         logTimers = flag;
     }
 
+
     /**
      * Returns <code>true</code> if logging is enabled.
      *
@@ -370,6 +390,7 @@ public class Timer implements Serializable
     public static boolean getLogTimers() {
         return logTimers;
     }
+
 
     /**
      * Sets the <code>Timer</code>'s between-event delay, the number of milliseconds
@@ -402,6 +423,7 @@ public class Timer implements Serializable
         return delay;
     }
 
+
     /**
      * Sets the <code>Timer</code>'s initial delay, the time
      * in milliseconds to wait after the timer is started
@@ -418,6 +440,7 @@ public class Timer implements Serializable
             this.initialDelay = initialDelay;
         }
 
+
     /**
      * Returns the {@code Timer}'s initial delay.
      *
@@ -428,6 +451,7 @@ public class Timer implements Serializable
     public int getInitialDelay() {
         return initialDelay;
     }
+
 
     /**
      * If <code>flag</code> is <code>false</code>,
@@ -440,6 +464,7 @@ public class Timer implements Serializable
     public void setRepeats(boolean flag) {
         repeats = flag;
     }
+
 
     /**
      * Returns <code>true</code> (the default)
@@ -454,6 +479,7 @@ public class Timer implements Serializable
     public boolean isRepeats() {
         return repeats;
     }
+
 
     /**
      * Sets whether the <code>Timer</code> coalesces multiple pending
@@ -482,6 +508,7 @@ public class Timer implements Serializable
         }
     }
 
+
     /**
      * Returns {@code true} if the {@code Timer} coalesces
      * multiple pending action events.
@@ -494,6 +521,7 @@ public class Timer implements Serializable
         return coalesce;
     }
 
+
     /**
      * Sets the string that will be delivered as the action command
      * in <code>ActionEvent</code>s fired by this timer.
@@ -504,6 +532,7 @@ public class Timer implements Serializable
     public void setActionCommand(String command) {
         this.actionCommand = command;
     }
+
 
     /**
      * Returns the string that will be delivered as the action command
@@ -516,6 +545,7 @@ public class Timer implements Serializable
         return actionCommand;
     }
 
+
     /**
      * Starts the <code>Timer</code>,
      * causing it to start sending action events
@@ -527,6 +557,7 @@ public class Timer implements Serializable
         timerQueue().addTimer(this, getInitialDelay());
     }
 
+
     /**
      * Returns {@code true} if the {@code Timer} is running.
      *
@@ -536,6 +567,7 @@ public class Timer implements Serializable
     public boolean isRunning() {
         return timerQueue().containsTimer(this);
     }
+
 
     /**
      * Stops the <code>Timer</code>,
@@ -554,6 +586,7 @@ public class Timer implements Serializable
         }
     }
 
+
     /**
      * Restarts the <code>Timer</code>,
      * canceling any pending firings and causing
@@ -569,6 +602,7 @@ public class Timer implements Serializable
         }
     }
 
+
     /**
      * Resets the internal state to indicate this Timer shouldn't notify
      * any of its listeners. This does not stop a repeatable Timer from
@@ -577,6 +611,7 @@ public class Timer implements Serializable
     void cancelEvent() {
         notify.set(false);
     }
+
 
     @SuppressWarnings("removal")
     void post() {

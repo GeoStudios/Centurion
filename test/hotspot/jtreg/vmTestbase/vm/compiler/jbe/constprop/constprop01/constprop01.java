@@ -21,6 +21,21 @@
 
 package vm.compiler.jbe.constprop.constprop01;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,6 +46,7 @@ package vm.compiler.jbe.constprop.constprop01;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.constprop.constprop01.constprop01
  */
+
 
 // constprop01.java
 
@@ -61,6 +77,7 @@ class Starter {
         gl_opt += a_one;
     }
 }
+
 
 public class constprop01 {
     static int err = 0;
@@ -146,6 +163,7 @@ public class constprop01 {
         z = Math.pow(1/Math.PI, 15) + st.zero/Math.PI;
         System.out.println("z = "+z);
     }
+
 
     void hand_optimized() {
         int k, m;

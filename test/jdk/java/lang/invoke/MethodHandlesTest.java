@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import org.junit.*;
 import test.java.lang.invoke.remote.RemoteExample;
 import java.lang.invoke.MethodHandle;
@@ -37,6 +38,19 @@ import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Stream;
 import static org.junit.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

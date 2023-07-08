@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.dispose;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the dispose002 JDI test.
@@ -73,6 +87,7 @@ public class dispose002a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -164,6 +179,7 @@ public class dispose002a {
     }
 }
 
+
 class Threaddispose002a extends Thread {
 
     public Threaddispose002a(String threadName) {
@@ -172,6 +188,7 @@ class Threaddispose002a extends Thread {
 
     public static Object waitnotifyObj  = new Object();
     public static Object lockingObject  = new Object();
+
 
     public void run() {
         log("method 'run' enter");
@@ -203,6 +220,7 @@ class Threaddispose002a extends Thread {
     }
 
     public static final int breakpointLineNumber1 = 3;
+
 
     void log(String str) {
         dispose002a.log2("thread2: " + str);

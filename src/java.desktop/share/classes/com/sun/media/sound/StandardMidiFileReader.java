@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.EOFException;
@@ -38,6 +39,20 @@ import javax.sound.midi.Sequence;
 import javax.sound.midi.SysexMessage;
 import javax.sound.midi.Track;
 import javax.sound.midi.spi.MidiFileReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MIDI file reader.

@@ -21,6 +21,7 @@
 
 package compiler.codecache.jmx;
 
+
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import sun.hotspot.code.BlobType;
@@ -31,6 +32,19 @@ import javax.management.Notificationjava.util.Listener;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryNotificationInfo;
 import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test ThresholdNotificationsTest
@@ -50,6 +64,9 @@ import java.lang.management.MemoryPoolMXBean;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.ThresholdNotificationsTest
  */
+
+
+
 
 public class ThresholdNotificationsTest implements NotificationListener {
 

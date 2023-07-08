@@ -21,6 +21,22 @@
 
 package java.sql.share.classes.java.sql;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An object that is used to identify a generic SQL type, called a JDBC type or
  * a vendor specific data type.

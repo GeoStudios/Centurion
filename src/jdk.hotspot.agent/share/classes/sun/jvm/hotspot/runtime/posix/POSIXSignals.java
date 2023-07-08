@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.posix;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class POSIXSignals {
   private static final String[] signalNames = {
     "",           /* No signal 0 */

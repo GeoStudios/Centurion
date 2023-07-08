@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.lang.ref.WeakReference;
 import java.desktop.share.classes.sun.java2d.Disposer;
 import java.desktop.share.classes.sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FontScaler is "internal interface" to font rasterizer library.
  *

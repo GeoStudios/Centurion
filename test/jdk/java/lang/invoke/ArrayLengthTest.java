@@ -21,14 +21,31 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @run testng/othervm -ea -esa test.java.lang.invoke.ArrayLengthTest
  */
+
+
+
 
 public class ArrayLengthTest {
 

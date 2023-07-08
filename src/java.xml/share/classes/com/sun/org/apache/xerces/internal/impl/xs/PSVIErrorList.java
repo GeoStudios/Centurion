@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
 import java.util.Abstractjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * StringList implementation for schema error codes and error messages.

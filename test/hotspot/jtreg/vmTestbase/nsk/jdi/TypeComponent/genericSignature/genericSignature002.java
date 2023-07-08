@@ -21,12 +21,26 @@
 
 package nsk.jdi.TypeComponent.genericSignature;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the TypeComponent.genericSignature() method.           <BR>
@@ -75,6 +89,7 @@ public class genericSignature002 {
     private static void logAlways(String message) {
         logHandler.println(message);
     }
+
 
     private final static String primitiveTypeSign = "primitiveType";
     private final static String referenceTypeSign = "referenceType";
@@ -135,6 +150,7 @@ public class genericSignature002 {
             "<C1:Lnsk/jdi/TypeComponent/genericSignature/GS002_Class01;:Lnsk/jdi/TypeComponent/genericSignature/GS002_Interf01;C2:Lnsk/jdi/TypeComponent/genericSignature/GS002_Class02;:Lnsk/jdi/TypeComponent/genericSignature/GS002_Interf02;>(TC2;TC1;)TC1;"},
 
     };
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

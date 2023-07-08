@@ -21,11 +21,25 @@
 
 package compiler.codecache.jmx;
 
+
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryPoolMXBean;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test InitialAndMaxUsageTest
@@ -47,6 +61,9 @@ import java.util.java.util.java.util.java.util.List;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.InitialAndMaxUsageTest
  */
+
+
+
 
 public class InitialAndMaxUsageTest {
 

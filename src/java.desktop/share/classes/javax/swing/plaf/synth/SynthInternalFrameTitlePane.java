@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -47,6 +48,20 @@ import java.desktop.share.classes.javax.swing.UIManager;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class that manages a synth title bar
@@ -373,6 +388,7 @@ class SynthInternalFrameTitlePane extends BasicInternalFrameTitlePane
         }
         menuButton.setIcon(frameIcon);
     }
+
 
     class SynthTitlePaneLayout implements LayoutManager {
         public void addLayoutComponent(String name, Component c) {}

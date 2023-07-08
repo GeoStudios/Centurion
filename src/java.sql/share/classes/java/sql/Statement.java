@@ -21,8 +21,23 @@
 
 package java.sql.share.classes.java.sql;
 
+
 import java.sql.share.classes.java.util.regex.Pattern;
 import static java.sql.share.classes.java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>The object used for executing a static SQL statement
@@ -398,7 +413,9 @@ public interface Statement extends Wrapper, AutoCloseable {
      */
     boolean getMoreResults() throws SQLException;
 
+
     //--------------------------JDBC 2.0-----------------------------
+
 
     /**
      * Gives the driver a hint as to the direction in which
@@ -1034,6 +1051,7 @@ public interface Statement extends Wrapper, AutoCloseable {
      */
     boolean isCloseOnCompletion() throws SQLException;
 
+
     //--------------------------JDBC 4.2 -----------------------------
 
     /**
@@ -1362,6 +1380,7 @@ public interface Statement extends Wrapper, AutoCloseable {
      default String enquoteLiteral(String val)  throws SQLException {
          return "'" + val.replace("'", "''") +  "'";
     }
+
 
      /**
      * Returns a SQL identifier. If {@code identifier} is a simple SQL identifier:

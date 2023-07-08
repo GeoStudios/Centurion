@@ -21,12 +21,26 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine01;
 
+
 import com.sun.tools.attach.AttachNotSupportedException;
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.spi.AttachProvider;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -54,6 +68,8 @@ import nsk.share.test.TestUtils;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.share.aod.DummyTargetApplication
  */
+
+
 
 /*
  * Test provokes exception which should be thrown by VirtualMachine methods:

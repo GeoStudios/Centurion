@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marks a class of errors in which XSLTC has reached some incorrect internal
  * state from which it cannot recover.

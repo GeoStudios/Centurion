@@ -21,8 +21,22 @@
 
 package jit.t.t042;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t042.t042
  */
+
+
 
 // The special little twiddle that occurs when you invoke a method
 // of an array.

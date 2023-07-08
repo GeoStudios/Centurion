@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.awt.Component;
@@ -34,6 +35,20 @@ import java.awt.image.ImageConsumer;
 import java.awt.image.ImageObserver;
 import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
 import java.desktop.share.classes.sun.awt.image.FileImageSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ToolkitImage extends Image {
 

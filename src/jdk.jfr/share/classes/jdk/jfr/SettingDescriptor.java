@@ -21,11 +21,26 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
+
 import java.lang.annotation.Annotation;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import jdk.jfr.share.classes.jdk.jfr.internal.AnnotationConstruct;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes an event setting.

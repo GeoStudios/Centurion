@@ -21,9 +21,24 @@
 
 package jdk.localedata.share.classes.sun.text.resources.ext;
 
+
 import java.util.java.util.ListResourceBundle;
 import java.util.MissingResourceException;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  */
@@ -33,6 +48,9 @@ import java.net.URL;
  * build phase in order to create [Word|Line]BreakIteratorData_th files which
  * are used on runtime instead.
  */
+
+
+
 
 public class BreakIteratorRules_th extends ListResourceBundle {
     protected final Object[][] getContents() {

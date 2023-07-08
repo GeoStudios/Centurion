@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventSet.resume;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,6 +31,19 @@ import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
 import static nsk.share.Consts.TEST_FAILED;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type
@@ -80,6 +94,7 @@ public class resume009 extends TestDebuggerType1 {
 
     private String testedClassName = "nsk.jdi.EventSet.resume.TestClass";
 
+
     protected void testRun() {
 
         EventRequest eventRequest  = null;
@@ -90,12 +105,14 @@ public class resume009 extends TestDebuggerType1 {
 
         ReferenceType testClassReference = null;
 
+
         for (int i = 0; ; i++) {
 
             if (!shouldRunAfterBreakpoint()) {
                 vm.resume();
                 break;
             }
+
 
             display(":::::: case: # " + i);
 
@@ -115,6 +132,7 @@ public class resume009 extends TestDebuggerType1 {
                 eventRequest = settingThreadDeathRequest (
                                        SUSPEND_ALL,    "ThreadDeathRequest3");
                 break;
+
 
                 default:
                 throw new Failure("** default case 2 **");

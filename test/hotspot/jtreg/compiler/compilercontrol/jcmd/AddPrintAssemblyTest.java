@@ -21,9 +21,23 @@
 
 package compiler.compilercontrol.jcmd;
 
+
 import compiler.compilercontrol.share.SingleCommand;
 import compiler.compilercontrol.share.scenario.Command;
 import compiler.compilercontrol.share.scenario.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,8 @@ import compiler.compilercontrol.share.scenario.Scenario;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.jcmd.AddPrintAssemblyTest
  */
+
+
 
 public class AddPrintAssemblyTest {
     public static void main(String[] args) {

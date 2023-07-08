@@ -21,7 +21,22 @@
 
 package java.sql.share.classes.javax.sql;
 
+
 import java.sql.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory for {@code XAConnection} objects that is used internally.

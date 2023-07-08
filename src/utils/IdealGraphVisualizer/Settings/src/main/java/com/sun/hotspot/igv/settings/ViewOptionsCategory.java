@@ -21,12 +21,27 @@
 
 package utils.IdealGraphVisualizer.Settings.src.main.java.com.sun.hotspot.igv.settings;
 
+
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import org.netbeans.spi.options.OptionsCategory;
 import org.netbeans.spi.options.OptionsPanelController;
 import org.openide.util.ImageUtilities;
 import org.openide.util.NbBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -21,9 +21,23 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandles;
 import org.testng.*;
 import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,7 @@ import org.testng.annotations.*;
  * @compile CompileThresholdBootstrapTest.java
  * @run testng/othervm -Djava.lang.invoke.MethodHandle.COMPILE_THRESHOLD=30 test.java.lang.invoke.CompileThresholdBootstrapTest
  */
+
 
 public final class CompileThresholdBootstrapTest {
 

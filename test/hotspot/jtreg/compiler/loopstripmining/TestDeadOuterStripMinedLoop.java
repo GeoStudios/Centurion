@@ -21,7 +21,21 @@
 
 package compiler.loopstripmining;
 
+
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -31,6 +45,8 @@ import jdk.test.lib.Asserts;
  * @run main/othervm -Xbatch -XX:-TieredCompilation
  *                   compiler.loopstripmining.TestDeadOuterStripMinedLoop
  */
+
+
 
 public class TestDeadOuterStripMinedLoop {
 

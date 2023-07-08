@@ -21,6 +21,21 @@
 
 package compiler.intrinsics.string;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8142303
@@ -32,6 +47,7 @@ package compiler.intrinsics.string;
  *      -XX:CompileCommand=exclude,java.lang.String::checkBoundsOffCount
  *      compiler.intrinsics.string.TestStringConstruction
  */
+
 
 public class TestStringConstruction {
 

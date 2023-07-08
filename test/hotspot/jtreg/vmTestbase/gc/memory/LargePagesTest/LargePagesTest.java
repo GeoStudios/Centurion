@@ -21,8 +21,22 @@
 
 package gc.memory.LargePagesTest;
 
+
 import java.io.PrintStream;
 import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,11 +50,14 @@ import nsk.share.test.LocalRandom;
  * @run main/othervm gc.memory.LargePagesTest.LargePagesTest noThreads=5 duration=60
  */
 
+
+
 /*
  * Allocators purpose is to create pressure on the garbage collector
  * for a certain amount of time.
  * Note: this test moved from the "jr", the original name is func.vm.largepages.LargePagesTest
  */
+
 
 /**
  * @run main/othervm/timeout=150
@@ -138,6 +155,7 @@ final public class LargePagesTest extends Thread {
         if (verbose) {
             out.println("");
         }
+
 
         long endTime = System.currentTimeMillis();
         long runTime = endTime - startTime;

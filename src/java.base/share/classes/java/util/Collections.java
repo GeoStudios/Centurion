@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.util;
 
+
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
@@ -37,6 +38,20 @@ import java.base.share.classes.java.util.stream.IntStream;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static methods that operate on or return
@@ -171,6 +186,7 @@ public class Collections {
     public static <T> void sort(List<T> list, Comparator<? super T> c) {
         list.sort(c);
     }
+
 
     /**
      * Searches the specified list for the specified object using the binary
@@ -975,6 +991,7 @@ public class Collections {
         }
         return -1;  // No candidate matched the target
     }
+
 
     // Unmodifiable Wrappers
 
@@ -1948,6 +1965,7 @@ public class Collections {
                 ? new UnmodifiableEntrySet.UnmodifiableEntry<>(ceiling)
                 : null;
         }
+
 
         @SuppressWarnings("unchecked")
         public Entry<K, V> higherEntry(K key) {
@@ -2985,6 +3003,7 @@ public class Collections {
             }
         }
 
+
         public SortedMap<K,V> subMap(K fromKey, K toKey) {
             synchronized (mutex) {
                 return new SynchronizedNavigableMap<>(
@@ -3642,6 +3661,7 @@ public class Collections {
                                               Class<V> valueType) {
         return new CheckedMap<>(m, keyType, valueType);
     }
+
 
     /**
      * @serial include

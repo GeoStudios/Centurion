@@ -21,6 +21,21 @@
 
 package MyPackage;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI SetHeapSamplingInterval returns an illegal argument for negative ints.

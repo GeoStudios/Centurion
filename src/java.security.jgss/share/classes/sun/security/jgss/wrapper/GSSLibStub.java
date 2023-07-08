@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.wrapper;
 
+
 import java.util.Hashtable;
 import org.ietf.jgss.Oid;
 import org.ietf.jgss.GSSName;
@@ -28,6 +29,20 @@ import org.ietf.jgss.ChannelBinding;
 import org.ietf.jgss.MessageProp;
 import org.ietf.jgss.GSSException;
 import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is essentially a JNI calling stub for all wrapper classes.

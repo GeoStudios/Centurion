@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generic interface for a mutable collection of unique attributes.

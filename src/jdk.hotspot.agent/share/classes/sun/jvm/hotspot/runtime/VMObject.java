@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This is a base class for all VM runtime objects which wrap
     Addresses. The rationale is that without this in place, every

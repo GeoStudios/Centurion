@@ -21,10 +21,24 @@
 
 package nsk.jdwp.EventRequest.Clear;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: EventRequest.Clear.
@@ -212,6 +226,7 @@ public class clear001 {
                                                         JDWP.SuspendPolicy.ALL);
         log.display("  ... got requestID: " + eventRequestID);
     }
+
 
     /**
      * Test JDWP command.
@@ -437,6 +452,7 @@ public class clear001 {
 
         log.display("  ... event packet parsed");
     }
+
 
     /**
      * Disconnect debuggee and wait for it exited.

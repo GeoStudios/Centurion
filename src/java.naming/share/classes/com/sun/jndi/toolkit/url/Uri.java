@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.url;
 
+
 import java.net.MalformedURLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Uri object represents an absolute Uniform Resource Identifier
@@ -96,6 +111,7 @@ import java.net.MalformedURLException;
  * if were a {@code path} without a leading slash.
  */
 
+
 public class Uri {
 
     protected String uri;
@@ -105,6 +121,7 @@ public class Uri {
     protected boolean hasAuthority;
     protected String path;
     protected String query = null;
+
 
     /**
      * Creates a Uri object given a URI string.

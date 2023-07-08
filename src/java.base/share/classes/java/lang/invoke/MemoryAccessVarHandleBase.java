@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Base class for memory access var handle implementations.
  */

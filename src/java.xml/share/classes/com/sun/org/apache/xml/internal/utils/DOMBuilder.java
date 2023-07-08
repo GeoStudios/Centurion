@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.util.java.util.java.util.java.util.List;
@@ -35,6 +36,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class takes SAX events (in addition to some extra events
@@ -381,6 +396,8 @@ public class DOMBuilder
 
   /**
 
+
+
    * Receive notification of the end of an element.
    *
    * <p>The SAX parser will invoke this method at the end of every
@@ -479,6 +496,7 @@ public class DOMBuilder
     if(isOutsideDocElem()
        && com.sun.org.apache.xml.internal.utils.XMLCharacterRecognizer.isWhiteSpace(ch, start, length))
       return;  // avoid DOM006 Hierarchy request error
+
 
     String s = new String(ch, start, length);
 

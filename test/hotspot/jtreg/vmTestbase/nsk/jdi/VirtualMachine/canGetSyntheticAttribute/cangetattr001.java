@@ -21,12 +21,26 @@
 
 package nsk.jdi.VirtualMachine.canGetSyntheticAttribute;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -133,6 +147,7 @@ public class cangetattr001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -179,6 +194,7 @@ public class cangetattr001 {
                 log2("......getting Field flagField object");
                 testedclass = (ReferenceType) vm.classesByName(debuggeeName).get(0);
                 flagField = testedclass.fieldByName("flag");
+
 
                 if (vm.canGetSyntheticAttribute()) {
 

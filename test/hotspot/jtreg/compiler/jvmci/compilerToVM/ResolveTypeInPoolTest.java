@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
@@ -31,6 +32,19 @@ import jdk.vm.ci.meta.ConstantPool;
 import java.util.HashMap;
 import java.util.Map;
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_CLASS;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -54,6 +68,10 @@ import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CON
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.ResolveTypeInPoolTest
  */
+
+
+
+
 
 /**
  * Test for {@code jdk.vm.ci.hotspot.CompilerToVM.resolveTypeInPool} method

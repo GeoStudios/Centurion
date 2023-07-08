@@ -21,8 +21,22 @@
 
 package gc;
 
+
 import java.lang.ref.WeakReference;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8240696
@@ -34,6 +48,7 @@ import sun.hotspot.WhiteBox;
  *      -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *      gc.TestReferenceClearDuringMarking
  */
+
 
 public class TestReferenceClearDuringMarking {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

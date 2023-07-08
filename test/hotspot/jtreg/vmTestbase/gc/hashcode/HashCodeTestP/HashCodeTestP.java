@@ -21,12 +21,26 @@
 
 package gc.hashcode.HashCodeTestP;
 
+
 import gc.hashcode.HCHelper;
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -46,6 +60,8 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.HashCodeTestP.HashCodeTestP
  */
+
+
 
 /**
  * Test that verifies external hash codes. This class tests the scenario

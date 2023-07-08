@@ -21,12 +21,28 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.io.Serializable;
 import java.management.share.classes.javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 
 // RI import
+
 
 /**
  * Used to represent the object name of an MBean and its class name.
@@ -35,6 +51,7 @@ import java.management.share.classes.javax.management.ObjectName;
  *
  */
 public class ObjectInstance implements Serializable   {
+
 
     /* Serial version */
     private static final long serialVersionUID = -4099952623687795850L;
@@ -93,6 +110,7 @@ public class ObjectInstance implements Serializable   {
         this.name= objectName;
         this.className= className;
     }
+
 
     /**
      * Compares the current object instance with another object instance.

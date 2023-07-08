@@ -21,11 +21,26 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
+
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import jdk.internal.misc.InnocuousThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Support for garbage-collection latency requests.
@@ -36,6 +51,7 @@ import jdk.internal.misc.InnocuousThread;
 class GC {
 
     private GC() { }            /* To prevent instantiation */
+
 
     /* Latency-target value indicating that there's no active target
      */
@@ -57,6 +73,7 @@ class GC {
     private static class LatencyLock { }
 
     private static final Object lock = new LatencyLock();
+
 
     /**
      * Returns the maximum <em>object-inspection age</em>, which is the number
@@ -142,6 +159,7 @@ class GC {
 
     }
 
+
     /* Sets the latency target to the given value.
      * Must be invoked while holding the lock.
      */
@@ -157,6 +175,7 @@ class GC {
             lock.notify();
         }
     }
+
 
     /**
      * Represents an active garbage-collection latency request.  Instances of
@@ -248,6 +267,7 @@ class GC {
 
     }
 
+
     /**
      * Makes a new request for a garbage-collection latency of the given
      * number of real-time milliseconds.  A low-priority daemon thread makes a
@@ -263,6 +283,7 @@ class GC {
     public static LatencyRequest requestLatency(long latency) {
         return new LatencyRequest(latency);
     }
+
 
     /**
      * Returns the current smallest garbage-collection latency request, or zero

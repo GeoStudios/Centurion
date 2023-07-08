@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11NSDocumentScannerImpl;
@@ -53,6 +54,20 @@ import java.base.share.classes.java.util.Locale;
 import javax.xml.XMLConstants;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @xerces.internal
@@ -115,6 +130,7 @@ public class SchemaParsingConfig extends BasicParserConfiguration
     protected static final String GENERATE_SYNTHETIC_ANNOTATIONS =
         Constants.XERCES_FEATURE_PREFIX + Constants.GENERATE_SYNTHETIC_ANNOTATIONS_FEATURE;
 
+
     // property identifiers
 
     /** Property identifier: error reporter. */
@@ -159,6 +175,7 @@ public class SchemaParsingConfig extends BasicParserConfiguration
     /** Property identifier: locale. */
     protected static final String LOCALE =
         Constants.XERCES_PROPERTY_PREFIX + Constants.LOCALE_PROPERTY;
+
 
     // debugging
 

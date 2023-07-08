@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.Border;
@@ -31,6 +32,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>SynthStyle</code> is a set of style properties.
@@ -186,6 +201,7 @@ public abstract class SynthStyle {
         });
         DEFAULT_VALUES.put("TextField.focusInputMap", fieldInputMap);
         DEFAULT_VALUES.put("PasswordField.focusInputMap", fieldInputMap);
+
 
         DEFAULT_VALUES.put("ComboBox.ancestorInputMap",
                   new UIDefaults.LazyInputMap(new Object[] {

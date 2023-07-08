@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An abstract adapter class for receiving keyboard events.
  * The methods in this class are empty. This class exists as

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.Component;
 import java.awt.Color;
 import java.awt.SystemColor;
@@ -34,6 +35,20 @@ import java.awt.image.ColorModel;
 import java.awt.image.WritableRaster;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a special variant of BufferedImage that keeps a reference to

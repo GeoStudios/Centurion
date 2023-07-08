@@ -21,12 +21,29 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dom;
 
+
 import java.xml.crypto.share.classes.javax.xml.crypto.URIReference;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: DOMURIReference.java,v 1.5 2005/05/09 18:33:26 mullan Exp $
  */
+
+
 
 /**
  * A DOM-specific {@link URIReference}. The purpose of this class is to

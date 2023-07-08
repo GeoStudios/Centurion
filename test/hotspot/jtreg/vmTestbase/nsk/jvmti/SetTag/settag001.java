@@ -21,9 +21,23 @@
 
 package nsk.jvmti.SetTag;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class settag001 extends DebugeeClass {
 

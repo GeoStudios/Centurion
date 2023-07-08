@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth;
 
+
 import java.util.Set;
 import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.data.*;
@@ -28,6 +29,19 @@ import vm.runtime.defmeth.shared.data.method.body.EmptyBody;
 import vm.runtime.defmeth.shared.builder.TestBuilder;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,6 +58,9 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.AccessibilityFlagsTest
  */
+
+
+
 
 /*
  * Test allowed combinations of access flags on methods in interfaces.
@@ -127,6 +144,7 @@ public class AccessibilityFlagsTest extends DefMethTest {
         expectClassFormatError(
                 createDefaultMethodInterface(ACC_NATIVE | ACC_PRIVATE));
     }
+
 
     /**
      * interface I { synchronized void m(); }

@@ -21,10 +21,25 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import java.io.InvalidObjectException;
 import java.lang.reflect.Type;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.OpenType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A custom mapping between Java types and Open types for use in MXBeans.
@@ -188,6 +203,7 @@ public abstract class MXBeanMapping {
      */
     public abstract Object toOpenValue(Object javaValue)
     throws OpenDataException;
+
 
     /**
      * <p>Throw an appropriate InvalidObjectException if we will not

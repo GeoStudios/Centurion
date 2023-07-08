@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
+
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: Keywords.java,v 1.2.4.1 2005/09/14 19:46:01 jeffsuttor Exp $
  */
+
+
 
 /**
  * Table of strings to operation code lookups.

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A resource bundle containing the localized strings in the accessibility

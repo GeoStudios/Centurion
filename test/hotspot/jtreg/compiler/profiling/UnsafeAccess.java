@@ -21,7 +21,21 @@
 
 package compiler.profiling;
 
+
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,8 @@ import jdk.internal.misc.Unsafe;
  *                                 -XX:CompileCommand=dontinline,compiler.profiling.UnsafeAccess::test*
  *                                 compiler.profiling.UnsafeAccess
  */
+
+
 
 public class UnsafeAccess {
     private static final Unsafe U = Unsafe.getUnsafe();

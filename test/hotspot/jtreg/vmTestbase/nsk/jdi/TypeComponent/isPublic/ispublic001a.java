@@ -21,9 +21,23 @@
 
 package nsk.jdi.TypeComponent.isPublic;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ispublic001a {
 

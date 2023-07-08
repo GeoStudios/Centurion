@@ -21,16 +21,35 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.io.Externalizable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  */

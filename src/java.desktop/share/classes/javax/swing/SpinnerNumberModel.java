@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.util.*;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>SpinnerModel</code> for sequences of numbers.
@@ -88,6 +103,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     // bridge.
     private Comparable<?> minimum, maximum;
 
+
     /**
      * Constructs a <code>SpinnerModel</code> that represents
      * a closed sequence of
@@ -136,6 +152,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
         this.stepSize = stepSize;
     }
 
+
     /**
      * Constructs a <code>SpinnerNumberModel</code> with the specified
      * <code>value</code>, <code>minimum</code>/<code>maximum</code> bounds,
@@ -151,6 +168,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public SpinnerNumberModel(int value, int minimum, int maximum, int stepSize) {
         this(Integer.valueOf(value), Integer.valueOf(minimum), Integer.valueOf(maximum), Integer.valueOf(stepSize));
     }
+
 
     /**
      * Constructs a <code>SpinnerNumberModel</code> with the specified
@@ -169,6 +187,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
              Double.valueOf(maximum), Double.valueOf(stepSize));
     }
 
+
     /**
      * Constructs a <code>SpinnerNumberModel</code> with no
      * <code>minimum</code> or <code>maximum</code> value,
@@ -177,6 +196,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public SpinnerNumberModel() {
         this(Integer.valueOf(0), null, null, Integer.valueOf(1));
     }
+
 
     /**
      * Changes the lower bound for numbers in this sequence.
@@ -221,6 +241,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
         }
     }
 
+
     /**
      * Returns the first number in this sequence.
      *
@@ -230,6 +251,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public Comparable<?> getMinimum() {
         return minimum;
     }
+
 
     /**
      * Changes the upper bound for numbers in this sequence.
@@ -265,6 +287,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
         }
     }
 
+
     /**
      * Returns the last number in the sequence.
      *
@@ -274,6 +297,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public Comparable<?> getMaximum() {
         return maximum;
     }
+
 
     /**
      * Changes the size of the value change computed by the
@@ -300,6 +324,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
             fireStateChanged();
         }
     }
+
 
     /**
      * Returns the size of the value change computed by the
@@ -353,6 +378,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
         }
     }
 
+
     /**
      * Returns the next number in the sequence.
      *
@@ -366,6 +392,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public Object getNextValue() {
         return incrValue(+1);
     }
+
 
     /**
      * Returns the previous number in the sequence.
@@ -382,6 +409,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
         return incrValue(-1);
     }
 
+
     /**
      * Returns the value of the current element of the sequence.
      *
@@ -391,6 +419,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public Number getNumber() {
         return value;
     }
+
 
     /**
      * Returns the value of the current element of the sequence.
@@ -402,6 +431,7 @@ public class SpinnerNumberModel extends AbstractSpinnerModel implements Serializ
     public Object getValue() {
         return value;
     }
+
 
     /**
      * Sets the current value for this sequence.  If <code>value</code> is

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeSupport;
@@ -35,6 +36,20 @@ import java.desktop.share.classes.javax.swing.SwingUtilities;
 import java.desktop.share.classes.javax.swing.event.java.util.ListDataEvent;
 import java.desktop.share.classes.javax.swing.filechooser.FileSystemView;
 import sun.awt.shell.ShellFolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic implementation of a file list.
@@ -260,6 +275,7 @@ public class BasicDirectoryModel extends AbstractListModel<Object> implements Pr
         }
     }
 
+
     private final class FilesLoader implements Runnable {
         private final FileSystemView fileSystemView;
         private final boolean useFileHiding;
@@ -398,6 +414,7 @@ public class BasicDirectoryModel extends AbstractListModel<Object> implements Pr
         }
    }
 
+
     /**
      * Adds a PropertyChangeListener to the listener list. The listener is
      * registered for all bound properties of this class.
@@ -474,6 +491,7 @@ public class BasicDirectoryModel extends AbstractListModel<Object> implements Pr
         }
     }
 
+
     /**
      * Set the busy state for the model. The model is considered
      * busy when it is running a separate (interruptable)
@@ -493,6 +511,7 @@ public class BasicDirectoryModel extends AbstractListModel<Object> implements Pr
             }
         }
     }
+
 
     private final class DoChangeContents implements Runnable {
         private final List<File> addFiles;

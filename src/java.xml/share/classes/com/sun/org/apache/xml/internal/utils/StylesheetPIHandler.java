@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
@@ -31,6 +32,20 @@ import javax.xml.transform.sax.SAXSource;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Search for the xml-stylesheet processing instructions in an XML document.
@@ -304,6 +319,7 @@ public class StylesheetPIHandler extends DefaultHandler
       }
     }
   }
+
 
   /**
    * The spec notes that "The xml-stylesheet processing instruction is allowed only in the prolog of an XML document.",

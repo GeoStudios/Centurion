@@ -21,9 +21,23 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8031502
@@ -31,6 +45,7 @@ import java.lang.invoke.MethodType;
  * @compile ObjectMethodInInterfaceTest.java
  * @run main/othervm -Djava.lang.invoke.MethodHandle.COMPILE_THRESHOLD=0 test.java.lang.invoke.ObjectMethodInInterfaceTest
  */
+
 
 public class ObjectMethodInInterfaceTest {
     public static void main(String[] args) throws Throwable {

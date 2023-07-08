@@ -21,11 +21,25 @@
 
 package compiler.c2.cr6865031;
 
+
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -37,6 +51,8 @@ import java.util.java.util.java.util.java.util.List;
  *      -XX:CompileCommand=inline,compiler.c2.cr6865031.AbstractMemoryEfficientList::equals
  *      compiler.c2.cr6865031.Test hello goodbye
  */
+
+
 
 interface MyList {
     public int size();

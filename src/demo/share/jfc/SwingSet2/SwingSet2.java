@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.border.*;
@@ -32,6 +33,20 @@ import java.lang.reflect.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A demo that shows all of the Swing components.
@@ -118,8 +133,10 @@ public class SwingSet2 extends JPanel {
 
     private JEditorPane demoSrcPane = null;
 
+
     // contentPane cache, saved from the applet or application frame
     Container contentPane = null;
+
 
     // number of swingsets - for multiscreen
     // keep track of the number of SwingSets created - we only want to exit
@@ -161,6 +178,7 @@ public class SwingSet2 extends JPanel {
         demoLoader.start();
     }
 
+
     /**
      * SwingSet2 Main. Called only if we're an application, not an applet.
      */
@@ -179,6 +197,8 @@ public class SwingSet2 extends JPanel {
     // *******************************************************
     // *************** Demo Loading Methods ******************
     // *******************************************************
+
+
 
     public void initializeDemo() {
         JPanel top = new JPanel();
@@ -243,6 +263,7 @@ public class SwingSet2 extends JPanel {
         }
     }
 
+
     /**
      * Create menus
      */
@@ -271,6 +292,7 @@ public class SwingSet2 extends JPanel {
 
         createMenuItem(fileMenu, "FileMenu.save_as_label", "FileMenu.save_as_mnemonic",
                        "FileMenu.save_as_accessible_description", null);
+
 
         fileMenu.addSeparator();
 
@@ -319,6 +341,7 @@ public class SwingSet2 extends JPanel {
                             "AudioMenu.off_accessible_description",
                             new OffAudioAction(this));
 
+
         // ***** create the font submenu under the theme menu
         JMenu fontMenu = (JMenu) themesMenu.add(new JMenu(getString("FontMenu.fonts_label")));
         fontMenu.setMnemonic(getMnemonic("FontMenu.fonts_mnemonic"));
@@ -334,6 +357,8 @@ public class SwingSet2 extends JPanel {
                 "FontMenu.bold_mnemonic",
                 "FontMenu.bold_accessible_description",
                 new ChangeFontAction(this, false), fontButtonGroup);
+
+
 
         // *** now back to adding color/font themes to the theme menu
         mi = createThemesMenuItem(themesMenu, "ThemesMenu.ocean_label",
@@ -386,6 +411,7 @@ public class SwingSet2 extends JPanel {
                 new DragSupportAction());
 
         }
+
 
         // ***** create the multiscreen menu, if we have multiple screens
         GraphicsDevice[] screens = GraphicsEnvironment.
@@ -553,6 +579,7 @@ public class SwingSet2 extends JPanel {
         return mi;
     }
 
+
     /**
      * Load the first demo. This is done separately from the remaining demos
      * so that we can get SwingSet2 up and available to the user quickly.
@@ -561,6 +588,7 @@ public class SwingSet2 extends JPanel {
         DemoModule demo = addDemo(new InternalFrameDemo(this));
         setDemo(demo);
     }
+
 
     /**
      * Add a demo to the toolbar
@@ -591,6 +619,7 @@ public class SwingSet2 extends JPanel {
         return demo;
     }
 
+
     /**
      * Sets the current demo
      */
@@ -608,6 +637,7 @@ public class SwingSet2 extends JPanel {
         tabbedPane.setTitleAt(0, demo.getName());
         tabbedPane.setToolTipTextAt(0, demo.getToolTip());
     }
+
 
     /**
      * Bring up the SwingSet2 demo by showing the frame
@@ -721,6 +751,7 @@ public class SwingSet2 extends JPanel {
         return frame;
     }
 
+
     /**
      * Set the status
      */
@@ -732,6 +763,7 @@ public class SwingSet2 extends JPanel {
             }
         });
     }
+
 
     /**
      * This method returns a string from the demo's resource bundle.
@@ -766,6 +798,7 @@ public class SwingSet2 extends JPanel {
     boolean isDragEnabled() {
         return dragEnabled;
     }
+
 
     /**
      * Returns a mnemonic from the resource bundle. Typically used as
@@ -936,6 +969,7 @@ public class SwingSet2 extends JPanel {
         public void run() {
         }
     }
+
 
     // *******************************************************
     // ********************   Actions  ***********************
@@ -1191,6 +1225,7 @@ public class SwingSet2 extends JPanel {
                                  aboutimage.getIconHeight());
         }
     }
+
 
     private class ChangeFontAction extends AbstractAction {
         private final SwingSet2 swingset;

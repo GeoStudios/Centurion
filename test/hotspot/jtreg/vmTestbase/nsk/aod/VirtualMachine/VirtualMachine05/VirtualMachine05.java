@@ -21,11 +21,25 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine05;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -49,6 +63,9 @@ import java.util.java.util.java.util.java.util.List;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.share.aod.DummyTargetApplication
  */
+
+
+
 
 /*
  * Test checks method VirtualMachine.list()

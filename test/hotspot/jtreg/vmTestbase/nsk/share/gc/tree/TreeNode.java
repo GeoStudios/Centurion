@@ -21,8 +21,22 @@
 
 package nsk.share.gc.tree;
 
+
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageProducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A node of binary tree.
@@ -37,6 +51,7 @@ public final class TreeNode {
         private int height;
         private int size;
         private Object storage;
+
 
         /**
          * Create a tree node that will occupy approximately given memory.

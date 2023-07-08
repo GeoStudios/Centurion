@@ -21,10 +21,25 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WButtonPeer extends WComponentPeer implements ButtonPeer {
 
@@ -79,6 +94,7 @@ final class WButtonPeer extends WComponentPeer implements ButtonPeer {
             }
         }, when);
     }
+
 
     @Override
     public boolean shouldClearRectBeforePaint() {

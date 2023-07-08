@@ -21,8 +21,23 @@
 
 package java.base.share.classes.java.util.stream;
 
+
 import java.base.share.classes.java.util.Spliterator;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract class for fork-join tasks used to implement short-circuiting
@@ -132,6 +147,7 @@ abstract class AbstractShortCircuitTask<P_IN, P_OUT, R,
         task.setLocalResult(result);
         task.tryComplete();
     }
+
 
     /**
      * Declares that a globally valid result has been found.  If another task has

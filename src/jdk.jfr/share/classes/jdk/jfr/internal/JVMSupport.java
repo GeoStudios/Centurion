@@ -21,7 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Checks if the running VM supports Flight Recorder.

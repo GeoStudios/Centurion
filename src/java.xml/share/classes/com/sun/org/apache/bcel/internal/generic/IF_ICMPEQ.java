@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * IF_ICMPEQ - Branch if int comparison succeeds
@@ -41,9 +58,11 @@ public class IF_ICMPEQ extends IfInstruction {
     IF_ICMPEQ() {
     }
 
+
     public IF_ICMPEQ(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.IF_ICMPEQ, target);
     }
+
 
     /**
      * @return negation of instruction
@@ -52,6 +71,7 @@ public class IF_ICMPEQ extends IfInstruction {
     public IfInstruction negate() {
         return new IF_ICMPNE(super.getTarget());
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

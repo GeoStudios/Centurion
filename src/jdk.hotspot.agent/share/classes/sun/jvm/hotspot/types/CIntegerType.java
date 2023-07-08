@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This subinterface of Type provides accessors to deal with all
     C integer types. The observation is that, according to the C

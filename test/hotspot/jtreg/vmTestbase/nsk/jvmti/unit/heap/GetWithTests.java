@@ -21,13 +21,29 @@
 
 package nsk.jvmti.unit.heap;
 
+
 import nsk.share.jvmti.unit.*;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Unit tests for JVMTI GetObjectsWithTags function
  *
  */
+
+
 
 public class GetWithTests {
 
@@ -87,6 +103,7 @@ public class GetWithTests {
         if (tag_results.length != count) {
             throw new RuntimeException("tag_results.length is incorrect");
         }
+
 
         // Now verify the results
 

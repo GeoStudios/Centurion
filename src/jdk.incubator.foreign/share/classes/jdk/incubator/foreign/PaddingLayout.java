@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
 import java.lang.constant.Constable;
 import java.lang.constant.ConstantDescs;
 import java.lang.constant.DynamicConstantDesc;
@@ -28,6 +29,20 @@ import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.OptionalLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A padding layout. A padding layout specifies the size of extra space which is typically not accessed by applications,

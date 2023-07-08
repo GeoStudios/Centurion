@@ -21,8 +21,22 @@
 
 package nsk.jdi.EventIterator.nextEvent;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the nextevent001 JDI test.
@@ -170,6 +184,7 @@ public class nextevent001a {
         return PASSED;
     }
 
+
     public static void nullMethod() {
         throw new NullPointerException("test");
     }
@@ -263,6 +278,7 @@ public class nextevent001a {
             return;
         }
     }
+
 
     public static void log3(String str) {
         log1(Thread.currentThread().getName() + " : " + str);

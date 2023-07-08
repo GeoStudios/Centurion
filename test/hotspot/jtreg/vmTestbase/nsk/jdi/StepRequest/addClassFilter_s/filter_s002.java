@@ -21,6 +21,7 @@
 
 package nsk.jdi.StepRequest.addClassFilter_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -193,6 +207,7 @@ public class filter_s002 extends JDIBase {
         return testExitCode;
     }
 
+
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -261,6 +276,7 @@ public class filter_s002 extends JDIBase {
 
         String        property1          = "StepRequest1";
 
+
         for (int i = 0; ; i++) {
 
             vm.resume();
@@ -273,6 +289,7 @@ public class filter_s002 extends JDIBase {
                 vm.resume();
                 break;
             }
+
 
             log1(":::::: case: # " + i);
 

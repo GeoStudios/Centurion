@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVariable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Represents a local variable within a method. It contains its
@@ -47,6 +64,7 @@ public class LocalVariableGen implements InstructionTargeter, NamedAndTyped, Clo
     private InstructionHandle end;
     private int origIndex; // never changes; used to match up with LocalVariableTypeTable entries
     private boolean liveToEnd;
+
 
     /**
      * Generate a local variable that with index `index'. Note that double and long
@@ -72,6 +90,7 @@ public class LocalVariableGen implements InstructionTargeter, NamedAndTyped, Clo
         this.liveToEnd = end == null;
     }
 
+
     /**
      * Generates a local variable that with index `index'. Note that double and long
      * variables need two indexs. Index indices have to be provided by the user.
@@ -88,6 +107,7 @@ public class LocalVariableGen implements InstructionTargeter, NamedAndTyped, Clo
         this(index, name, type, start, end);
         this.origIndex = origIndex;
     }
+
 
     /**
      * Gets LocalVariable object.
@@ -119,63 +139,77 @@ public class LocalVariableGen implements InstructionTargeter, NamedAndTyped, Clo
                 .getConstantPool(), origIndex);
     }
 
+
     public void setIndex( final int index ) {
         this.index = index;
     }
+
 
     public int getIndex() {
         return index;
     }
 
+
     public int getOrigIndex() {
         return origIndex;
     }
+
 
     public void setLiveToEnd( final boolean live_to_end) {
         this.liveToEnd = live_to_end;
     }
 
+
     public boolean getLiveToEnd() {
         return liveToEnd;
     }
+
 
     @Override
     public void setName( final String name ) {
         this.name = name;
     }
 
+
     @Override
     public String getName() {
         return name;
     }
+
 
     @Override
     public void setType( final Type type ) {
         this.type = type;
     }
 
+
     @Override
     public Type getType() {
         return type;
     }
 
+
     public InstructionHandle getStart() {
         return start;
     }
 
+
     public InstructionHandle getEnd() {
         return end;
     }
+
 
     public void setStart( final InstructionHandle start ) { // TODO could be package-protected?
         BranchInstruction.notifyTarget(this.start, start, this);
         this.start = start;
     }
 
+
     public void setEnd( final InstructionHandle end ) { // TODO could be package-protected?
         BranchInstruction.notifyTarget(this.end, end, this);
         this.end = end;
     }
+
 
     /**
      * @param old_ih old target, either start or end
@@ -214,12 +248,14 @@ public class LocalVariableGen implements InstructionTargeter, NamedAndTyped, Clo
         return (start == ih) || (end == ih);
     }
 
+
     @Override
     public int hashCode() {
         // If the user changes the name or type, problems with the targeter hashmap will occur.
         // Note: index cannot be part of hash as it may be changed by the user.
         return name.hashCode() ^ type.hashCode();
     }
+
 
     /**
      * We consider to local variables to be equal, if the use the same index and
@@ -233,10 +269,12 @@ public class LocalVariableGen implements InstructionTargeter, NamedAndTyped, Clo
         return (l.index == index) && (l.start == start) && (l.end == end);
     }
 
+
     @Override
     public String toString() {
         return "LocalVariableGen(" + name + ", " + type + ", " + start + ", " + end + ")";
     }
+
 
     @Override
     public Object clone() {

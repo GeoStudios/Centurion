@@ -21,9 +21,23 @@
 
 package nsk.jvmti.ClassFileLoadHook;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test exercises the JVMTI event Class File Load Hook.<br>

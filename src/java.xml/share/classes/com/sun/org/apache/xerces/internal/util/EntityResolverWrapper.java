@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
+
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
@@ -32,6 +33,20 @@ import javax.xml.catalog.CatalogException;
 import java.xml.share.classes.com.sun.org.xml.sax.EntityResolver;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class wraps a SAX entity resolver in an XNI entity resolver.

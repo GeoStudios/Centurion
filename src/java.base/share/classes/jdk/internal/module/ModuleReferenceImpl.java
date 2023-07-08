@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.module;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
@@ -29,6 +30,20 @@ import java.lang.module.ModuleReference;
 import java.net.URI;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A ModuleReference implementation that supports referencing a module that

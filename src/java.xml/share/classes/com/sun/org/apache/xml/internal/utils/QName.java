@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.util.Stack;
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to represent a qualified name: "The name of an internal XSLT object,
@@ -400,6 +415,7 @@ public class QName implements java.io.Serializable
     m_hashCode = toString().hashCode();
   }
 
+
   /**
    * Construct a QName from a string, resolving the prefix
    * using the given namespace stack. The default namespace is
@@ -474,6 +490,7 @@ public class QName implements java.io.Serializable
         }
     }
 
+
     m_hashCode = toString().hashCode();
     _prefix = prefix;
   }
@@ -539,6 +556,7 @@ public class QName implements java.io.Serializable
     return (_namespaceURI != null
               ? ("{"+_namespaceURI + "}" + _localName) : _localName);
   }
+
 
   /**
    * Get the namespace of the qualified name.

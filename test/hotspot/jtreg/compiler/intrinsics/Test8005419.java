@@ -21,6 +21,21 @@
 
 package compiler.intrinsics;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8005419
@@ -28,6 +43,7 @@ package compiler.intrinsics;
  *
  * @run main/othervm -Xbatch -Xmx128m compiler.intrinsics.Test8005419
  */
+
 
 public class Test8005419 {
     public static int SIZE = 64;

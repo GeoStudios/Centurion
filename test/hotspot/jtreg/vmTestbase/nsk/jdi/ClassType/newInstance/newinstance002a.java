@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.newInstance;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the newinstance002 JDI test.
@@ -76,6 +90,7 @@ public class newinstance002a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
+
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -202,6 +217,7 @@ class Threadnewinstance002a extends Thread {
     }
 
     public static final int breakpointLineNumber1 = 3;
+
 
     void log(String str) {
         newinstance002a.log2("thread2: " + str);

@@ -21,11 +21,29 @@
 
 package java.base.share.classes.jdk.internal.org.xml.sax;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // SAXNotSupportedException.java - unsupported feature or value.
 // http://www.saxproject.org
 // Written by David Megginson
 // NO WARRANTY!  This class is in the Public Domain.
 // $Id: SAXNotSupportedException.java,v 1.4 2004/11/03 22:55:32 jsuttor Exp $
+
+
 
 /**
  * Exception class for an unsupported operation.
@@ -54,6 +72,7 @@ public class SAXNotSupportedException extends SAXException
     {
         super();
     }
+
 
     /**
      * Construct a new exception with the given message.

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
+
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Dimension;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
@@ -46,6 +47,20 @@ import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
 import javax.swing.Timer;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.ComponentAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DropTarget} is associated
@@ -498,6 +513,7 @@ public class DropTarget implements DropTargetListener, Serializable {
 
         componentPeer = peer;
 
+
         for (Component c = component;
              c != null && peer instanceof LightweightPeer; c = c.getParent()) {
             peer = acc.getPeer(c);
@@ -833,6 +849,7 @@ public class DropTarget implements DropTargetListener, Serializable {
      * That Component's "native" Peer
      */
     private transient DropTargetPeer nativePeer;
+
 
     /**
      * Default permissible actions supported by this DropTarget.

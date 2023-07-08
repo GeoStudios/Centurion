@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.awt.event.MouseAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An empty implementation of the {@code MouseInputListener} interface, provided

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.SystemColor;
@@ -31,6 +32,20 @@ import javax.swing.text.DefaultEditorKit;
 import javax.swing.plaf.basic.BasicBorders;
 import com.sun.java.swing.plaf.motif.*;
 import java.desktop.unix.classes.sun.awt.X11.XComponentPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings({"serial", "removal"}) // JDK-implementation class
 class XAWTLookAndFeel extends MotifLookAndFeel {
@@ -109,6 +124,7 @@ class XAWTLookAndFeel extends MotifLookAndFeel {
         Border focusBorder = new MotifBorders.FocusBorder(
             table.getColor("control"),
             table.getColor("activeCaptionBorder"));
+
 
         Border focusBevelBorder = new BorderUIResource.CompoundBorderUIResource(
             focusBorder,

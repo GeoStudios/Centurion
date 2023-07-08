@@ -21,6 +21,56 @@
 
 package build.tools.jdwpgen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class OutNode extends AbstractTypeListNode {
 
     String cmdName;

@@ -21,9 +21,23 @@
 
 package nsk.jvmti.SetSystemProperty;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class setsysprop002 extends DebugeeClass {
 

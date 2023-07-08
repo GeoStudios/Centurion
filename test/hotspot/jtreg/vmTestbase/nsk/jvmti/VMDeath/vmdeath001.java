@@ -21,9 +21,23 @@
 
 package nsk.jvmti.VMDeath;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test exercises the JVMTI event VM Death.<br>

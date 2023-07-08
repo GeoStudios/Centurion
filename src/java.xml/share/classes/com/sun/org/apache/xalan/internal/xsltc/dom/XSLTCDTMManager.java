@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.transform.Source;
@@ -44,10 +45,28 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * The default implementation for the DTMManager.

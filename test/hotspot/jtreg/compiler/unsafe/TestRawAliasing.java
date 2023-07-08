@@ -21,7 +21,21 @@
 
 package compiler.unsafe;
 
+
 import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -29,6 +43,8 @@ import java.lang.reflect.Field;
  * @run main/othervm -XX:CompileCommand=exclude,*.main -XX:-TieredCompilation -XX:-BackgroundCompilation compiler.unsafe.TestRawAliasing
  * @modules java.base/jdk.internal.misc:+open
  */
+
+
 
 public class TestRawAliasing {
     static private final jdk.internal.misc.Unsafe UNSAFE;

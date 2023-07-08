@@ -21,6 +21,7 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.driver.IRViolationException;
 import jdk.test.lib.Asserts;
@@ -31,6 +32,19 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -171,6 +185,7 @@ public class TestIRMatching {
                  BadFailOnConstraint.create(Traps.class, "instrinsicOrTypeCheckedInlining()", 3, "CallStaticJava", "uncommon_trap", "null_check"),
                  GoodRuleConstraint.create(Traps.class, "instrinsicOrTypeCheckedInlining()", 4)
         );
+
 
         runCheck(new String[] {"-XX:+BailoutToInterpreterForThrows"},
                  BadFailOnConstraint.create(UnhandledTrap.class, "unhandled()", 1, "CallStaticJava", "uncommon_trap"),
@@ -667,6 +682,7 @@ class GoodCount {
         result = iFld;
     }
 
+
     @Test
     @IR(counts = {IRNode.LOAD, "4", IRNode.STORE, "1", IRNode.LOAD_OF_FIELD, "iFld", "2", IRNode.LOAD_OF_FIELD, "iFld2", "0",
                   IRNode.LOAD_OF_FIELD, "lFldStatic", "1", IRNode.LOAD_OF_CLASS, "GoodCount", "2", IRNode.LOAD_OF_CLASS, "MyClass", "1",
@@ -736,6 +752,7 @@ class BadCount {
         result = iFld;
     }
 
+
     @Test
     @IR(counts = {IRNode.LOAD, "0"})
     @IR(counts = {IRNode.STORE, " <= 0"})
@@ -743,6 +760,7 @@ class BadCount {
         result = iFld;
     }
 }
+
 
 class RunTests {
     public int iFld;
@@ -767,6 +785,7 @@ class RunTests {
         good2();
     }
 
+
     @Test
     @IR(counts = {IRNode.STORE, "1"})
     @IR(failOn = IRNode.LOAD)
@@ -787,6 +806,7 @@ class RunTests {
         good3(4);
     }
 }
+
 
 class AllocArray {
     MyClass[] myClassArray;
@@ -1025,6 +1045,7 @@ class Traps {
     public void rangeCheck() {
         iArr[1] = 3;
     }
+
 
     @Test
     @IR(failOn = IRNode.TRAP) // fails
@@ -1303,6 +1324,7 @@ class CompilationOutputOfFails {
     private void dontInline() {}
 }
 
+
 // Used only by class Traps
 class NotLoaded {
     NotLoadedHelper notLoadedFld;
@@ -1329,6 +1351,7 @@ class ShouldNotReachException extends RuntimeException {
         super(s);
     }
 }
+
 
 // Base class for any kind of constraint that is used to verify if the framework reports the correct IR failures.
 abstract class Constraint {
@@ -1552,10 +1575,12 @@ class GoodFailOnRegexConstraint extends GoodRegexConstraint {
         super(klass, methodName, "failOn", ruleIdx, regexIndexes);
     }
 
+
     public static GoodFailOnRegexConstraint create(Class<?> klass, String methodName, int ruleIdx, int... regexIndexes) {
         return new GoodFailOnRegexConstraint(klass, methodName, ruleIdx, regexIndexes);
     }
 }
+
 
 // Constraint for rule that might fail with "counts" or "failOn", but the specified regex in "counts" does not fail.
 class GoodCountsRegexConstraint extends GoodRegexConstraint {
@@ -1563,6 +1588,7 @@ class GoodCountsRegexConstraint extends GoodRegexConstraint {
     private GoodCountsRegexConstraint(Class<?> klass, String methodName, int ruleIdx, int... regexIndexes) {
         super(klass, methodName, "counts", ruleIdx, regexIndexes);
     }
+
 
     public static GoodCountsRegexConstraint create(Class<?> klass, String methodName, int ruleIdx, int... regexIndexes) {
         return new GoodCountsRegexConstraint(klass, methodName, ruleIdx, regexIndexes);

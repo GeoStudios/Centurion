@@ -21,6 +21,21 @@
 
 package nsk.jvmti.ClassFileLoadHook;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Tested class to be loaded in JVMTI tests. */
 public class classfloadhk005r {
     static long staticField = 0;

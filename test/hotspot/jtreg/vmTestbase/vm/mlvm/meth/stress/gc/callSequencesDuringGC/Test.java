@@ -21,6 +21,7 @@
 
 package vm.mlvm.meth.stress.gc.callSequencesDuringGC;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -32,6 +33,19 @@ import vm.mlvm.meth.share.Argument;
 import vm.mlvm.meth.share.MHTransformationGen;
 import vm.mlvm.meth.share.RandomArgumentsGen;
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -58,6 +72,9 @@ import vm.mlvm.share.MlvmTest;
  *
  * @run main/othervm vm.mlvm.meth.stress.gc.callSequencesDuringGC.Test -stressIterationsFactor 1000
  */
+
+
+
 
 public class Test extends MlvmTest {
 

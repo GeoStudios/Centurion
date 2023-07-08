@@ -21,8 +21,22 @@
 
 package vm.share.monitoring.data;
 
+
 import java.lang.management.MemoryPoolMXBean;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryPoolData implements Serializable {
         private String name;

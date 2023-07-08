@@ -21,10 +21,24 @@
 
 package vm.compiler.optimizations.stringconcat.implicit;
 
+
 import nsk.share.StringGoldChecker;
 import vm.compiler.share.CompilerTest;
 import vm.compiler.share.CompilerTestLauncher;
 import vm.compiler.share.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Merge01 {
 
@@ -49,6 +63,7 @@ public class Merge01 {
         }
         return res;
     }
+
 
     public static void main(String[] args) {
         StringGoldChecker goldChecker = new StringGoldChecker(GOLDEN_HASH);

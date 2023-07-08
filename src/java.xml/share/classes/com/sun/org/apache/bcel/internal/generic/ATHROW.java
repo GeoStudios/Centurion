@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ATHROW -  Throw exception
@@ -38,6 +53,7 @@ public class ATHROW extends Instruction implements UnconditionalBranch, Exceptio
         super(com.sun.org.apache.bcel.internal.Const.ATHROW, (short) 1);
     }
 
+
     /** @return exceptions this instruction may cause
      */
     @Override
@@ -46,6 +62,7 @@ public class ATHROW extends Instruction implements UnconditionalBranch, Exceptio
             ExceptionConst.THROWABLE
         };
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

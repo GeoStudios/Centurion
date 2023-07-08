@@ -21,6 +21,21 @@
 
 package nsk.jvmti.GetSourceFileName;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 abstract class getsrcfn006c implements getsrcfn006b {
     int i3 = 3;
     abstract void m3();

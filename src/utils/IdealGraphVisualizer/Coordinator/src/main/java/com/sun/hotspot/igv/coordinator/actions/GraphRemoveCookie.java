@@ -21,7 +21,22 @@
 
 package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
 
+
 import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GraphRemoveCookie implements RemoveCookie {
     private final InputGraph graph;

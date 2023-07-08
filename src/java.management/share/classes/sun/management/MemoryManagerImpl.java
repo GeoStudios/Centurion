@@ -21,11 +21,26 @@
 
 package java.management.share.classes.sun.management;
 
+
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryManagerMXBean;
 import java.lang.management.MemoryPoolMXBean;
 import javax.management.MBeanNotificationInfo;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for a memory manager.

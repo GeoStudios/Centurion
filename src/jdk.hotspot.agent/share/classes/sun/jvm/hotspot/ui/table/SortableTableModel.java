@@ -21,10 +21,25 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table;
 
+
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A table model which stores its rows as a list. The elements

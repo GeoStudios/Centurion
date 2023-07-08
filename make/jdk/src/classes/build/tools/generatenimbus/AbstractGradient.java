@@ -21,6 +21,56 @@
 
 package build.tools.generatenimbus;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class AbstractGradient extends Paint {
     public enum CycleMethod {
         NO_CYCLE, REFLECT, REPEAT

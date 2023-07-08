@@ -21,6 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A mixin interface for an element that has a qualified name.
  *

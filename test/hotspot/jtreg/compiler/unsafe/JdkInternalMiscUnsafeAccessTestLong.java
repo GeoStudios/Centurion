@@ -21,9 +21,23 @@
 
 package compiler.unsafe;
 
+
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,10 @@ import static org.testng.Assert.*;.extended
  * @run testng/othervm -Diters=20000 -XX:-TieredCompilation  compiler.unsafe.JdkInternalMiscUnsafeAccessTestLong
  * @run testng/othervm -Diters=20000                         compiler.unsafe.JdkInternalMiscUnsafeAccessTestLong
  */
+
+
+
+
 
 public class JdkInternalMiscUnsafeAccessTestLong {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -155,6 +173,7 @@ public class JdkInternalMiscUnsafeAccessTestLong {
             long x = UNSAFE.getLongVolatile(base, offset);
             assertEquals(x, 0xCAFEBABECAFEBABEL, "putVolatile long value");
         }
+
 
         // Lazy
         {

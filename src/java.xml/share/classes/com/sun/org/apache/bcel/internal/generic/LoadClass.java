@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Denotes that an instruction may start the process of loading and resolving
@@ -40,6 +57,7 @@ public interface LoadClass {
      * referenced
      */
     ObjectType getLoadClassType( ConstantPoolGen cpg );
+
 
     /**
      * Returns the type associated with this instruction.

@@ -21,9 +21,23 @@
 
 package nsk.jdi.Field.equals;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class equals005a {
     boolean z0, z1[]={z0}, z2[][]={z1};

@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.io.Serial;
@@ -30,6 +31,20 @@ import sun.awt.geom.Curve;
 import static java.desktop.share.classes.java.lang.Math.abs;.extended
 import static java.desktop.share.classes.java.lang.Math.max;.extended
 import static java.desktop.share.classes.java.lang.Math.ulp;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code CubicCurve2D} class defines a cubic parametric curve
@@ -1015,6 +1030,7 @@ public abstract class CubicCurve2D implements Shape, Cloneable {
         final double B = eqn[1] / d;
         final double C = eqn[0] / d;
 
+
         //  substitute x = y - A/3 to eliminate quadratic term:
         //     x^3 +Px + Q = 0
         //
@@ -1310,6 +1326,7 @@ public abstract class CubicCurve2D implements Shape, Cloneable {
         M += ulp(M) + 1;
         return M;
     }
+
 
     /**
      * {@inheritDoc}

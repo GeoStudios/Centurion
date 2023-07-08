@@ -21,15 +21,33 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -41,12 +59,14 @@ public final class ConstantMethodType extends Constant {
 
     private int descriptorIndex;
 
+
     /**
      * Initialize from another object.
      */
     public ConstantMethodType(final ConstantMethodType c) {
         this(c.getDescriptorIndex());
     }
+
 
     /**
      * Initialize instance from file data.
@@ -58,10 +78,12 @@ public final class ConstantMethodType extends Constant {
         this(file.readUnsignedShort());
     }
 
+
     public ConstantMethodType(final int descriptor_index) {
         super(Const.CONSTANT_MethodType);
         this.descriptorIndex = descriptor_index;
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitly
@@ -75,6 +97,7 @@ public final class ConstantMethodType extends Constant {
         v.visitConstantMethodType(this);
     }
 
+
     /**
      * Dump name and signature index to file stream in binary format.
      *
@@ -87,13 +110,16 @@ public final class ConstantMethodType extends Constant {
         file.writeShort(descriptorIndex);
     }
 
+
     public int getDescriptorIndex() {
         return descriptorIndex;
     }
 
+
     public void setDescriptorIndex(final int descriptor_index) {
         this.descriptorIndex = descriptor_index;
     }
+
 
     /**
      * @return String representation

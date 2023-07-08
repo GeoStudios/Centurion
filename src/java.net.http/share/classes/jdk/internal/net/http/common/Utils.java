@@ -21,6 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.common;
 
+
 import sun.net.NetProperties;
 import sun.net.util.IPAddressUtil;
 import sun.net.www.HeaderParser;
@@ -71,6 +72,20 @@ import static java.lang.String.format;.extended
 import static java.nio.charset.StandardCharsets.US_ASCII;.extended
 import static java.util.stream.Collectors.joining;.extended
 import java.net.http.share.classes.jdk.internal.net.http.HttpRequestImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Miscellaneous utilities
@@ -261,6 +276,7 @@ public final class Utils {
     public static final BiPredicate<String, String> NO_PROXY_HEADERS_FILTER =
             (n,v) -> Utils.NO_PROXY_HEADER.test(n);
 
+
     public static boolean proxyHasDisabledSchemes(boolean tunnel) {
         return tunnel ? ! PROXY_AUTH_TUNNEL_DISABLED_SCHEMES.isEmpty()
                       : ! PROXY_AUTH_DISABLED_SCHEMES.isEmpty();
@@ -381,6 +397,7 @@ public final class Utils {
         return new URLPermission(urlString, actionStringBuilder.toString());
     }
 
+
     // ABNF primitives defined in RFC 7230
     private static final boolean[] tchar      = new boolean[256];
     private static final boolean[] fieldvchar = new boolean[256];
@@ -481,6 +498,7 @@ public final class Utils {
         }
         return true;
     }
+
 
     @SuppressWarnings("removal")
     public static int getIntegerNetProperty(String name, int defaultValue) {

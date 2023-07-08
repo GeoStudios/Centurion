@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  Inline style information attached to elements is exposed through the
  * <code>style</code> attribute. This represents the contents of the STYLE

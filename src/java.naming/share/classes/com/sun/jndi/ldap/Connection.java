@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.Interruptedjava.io.java.io.java.io.IOException;
@@ -50,6 +51,20 @@ import javax.net.ssl.HandshakeCompletedEvent;
 import javax.net.ssl.HandshakeCompletedjava.util.Listener;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.security.sasl.SaslException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A thread that creates a connection to an LDAP server.
@@ -111,6 +126,7 @@ public final class Connection implements Runnable {
 
     private static final boolean debug = false;
     private static final int dump = 0; // > 0 r, > 1 rw
+
 
     private final Thread worker;    // Initialized in constructor
 
@@ -386,6 +402,7 @@ public final class Connection implements Runnable {
         if (traceFile != null) {
             Ber.dumpBER(traceFile, traceTagOut, ber.getBuf(), 0, ber.getDataLen());
         }
+
 
         // unpause reader so that it can get response
         // NOTE: Must do this before writing request, otherwise might
@@ -667,6 +684,7 @@ public final class Connection implements Runnable {
         }
     }
 
+
     // Assume everything is "quiet"
     // "synchronize" might lead to deadlock so don't synchronize method
     // Use streamLock instead for synchronizing update to stream
@@ -716,6 +734,7 @@ public final class Connection implements Runnable {
     synchronized private InputStream getInputStream() {
         return inStream;
     }
+
 
     ////////////////////////////////////////////////////////////////////////////
     //
@@ -804,12 +823,14 @@ public final class Connection implements Runnable {
         }
     }
 
+
     ////////////////////////////////////////////////////////////////////////////
     //
     // The LDAP Binding thread. It does the mux/demux of multiple requests
     // on the same TCP connection.
     //
     ////////////////////////////////////////////////////////////////////////////
+
 
     public void run() {
         byte[] inbuf;   // Buffer for reading incoming bytes

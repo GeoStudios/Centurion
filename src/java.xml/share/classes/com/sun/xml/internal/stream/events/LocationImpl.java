@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import javax.xml.stream.Location;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *Implementation of Location interface to be used by

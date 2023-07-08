@@ -21,6 +21,22 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Requests that referral and other special LDAP objects be manipulated
  * as normal LDAP objects. It enables the requestor to interrogate or

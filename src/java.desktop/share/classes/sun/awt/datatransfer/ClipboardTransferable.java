@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.sun.awt.datatransfer;
 
+
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Reads all of the data from the system Clipboard which the data transfer

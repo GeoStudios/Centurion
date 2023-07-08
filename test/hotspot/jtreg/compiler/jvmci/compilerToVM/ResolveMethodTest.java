@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.AbstractClass;
 import compiler.jvmci.common.testcases.AbstractClassExtender;
@@ -39,6 +40,19 @@ import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 import java.util.HashSet;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -59,6 +73,9 @@ import java.util.Set;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.ResolveMethodTest
  */
+
+
+
 
 public class ResolveMethodTest {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();

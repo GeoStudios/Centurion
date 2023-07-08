@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.util.Hashtable;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ImageDecoder {
     InputStreamImageSource source;

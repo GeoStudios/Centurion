@@ -21,12 +21,26 @@
 
 package nsk.jdi.ReferenceType.visibleMethods;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>visibleMethods()</code>
@@ -46,6 +60,7 @@ public class visibmethod003 extends Log {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "visibmethod003b";
+
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

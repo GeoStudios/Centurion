@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
+
 import java.desktop.share.classes.java.awt.image.RenderedImage;
 import java.desktop.share.classes.java.awt.RenderingHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The RenderedImageFactory interface (often abbreviated RIF) is

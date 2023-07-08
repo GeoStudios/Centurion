@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
+
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code Arc2D} is the abstract superclass for all objects that
@@ -1107,6 +1122,7 @@ public abstract class Arc2D extends RectangularShape {
         if (angle < 0.0) {
             angle += 360.0;
         }
+
 
         return (angle >= 0.0) && (angle < angExt);
     }

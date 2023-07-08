@@ -21,10 +21,25 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import java.awt.geom.*;
 import java.util.*;
 import java.desktop.unix.classes.sun.font.*;
 import java.desktop.unix.classes.sun.java2d.pipe.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XRender pipeline backend interface.
@@ -32,6 +47,8 @@ import java.desktop.unix.classes.sun.java2d.pipe.*;
  * - XRBackendJava: And experimental backend, generating protocol directly using java-code and xcb's socket handoff functionality.
  * - XRBackendNative: Native 1:1 binding with libX11.
  */
+
+
 
 public interface XRBackend {
 

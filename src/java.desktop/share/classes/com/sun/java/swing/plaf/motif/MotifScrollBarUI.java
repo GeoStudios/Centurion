@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
+
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import java.desktop.share.classes.com.sun.java.awt.Insets;
@@ -32,6 +33,20 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import static java.desktop.share.classes.com.sun.swing.SwingUtilities2.drawHLine;.extended
 import static java.desktop.share.classes.com.sun.swing.SwingUtilities2.drawVLine;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of ScrollBarUI for the Motif Look and Feel

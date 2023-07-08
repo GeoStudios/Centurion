@@ -21,10 +21,24 @@
 
 package nsk.jdb.hidden_class.hc001;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdb.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,8 @@ import nsk.share.jdb.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
 
 public class hc001 extends JdbTest {
     static final String DEBUGGEE_CLASS    = hc001a.class.getTypeName();

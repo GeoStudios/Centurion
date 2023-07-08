@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Defines the interface for classes that know how to lay out
  * {@code Container}s.

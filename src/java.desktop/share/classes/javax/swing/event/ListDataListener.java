@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ListDataListener
@@ -39,6 +54,7 @@ public interface ListDataListener extends EventListener {
      */
     void intervalAdded(ListDataEvent e);
 
+
     /**
      * Sent after the indices in the index0,index1 interval
      * have been removed from the data model.  The interval
@@ -48,6 +64,7 @@ public interface ListDataListener extends EventListener {
      *    event information
      */
     void intervalRemoved(ListDataEvent e);
+
 
     /**
      * Sent when the contents of the list has changed in a way

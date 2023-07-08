@@ -21,6 +21,56 @@
 
 package build.tools.pandocfilter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class PandocManPageHtmlFilter extends PandocFilter {
 
     private JSONValue MetaInlines(JSONValue value) {

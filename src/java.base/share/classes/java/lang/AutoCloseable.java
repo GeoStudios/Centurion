@@ -21,6 +21,22 @@
 
 package java.base.share.classes.java.lang;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An object that may hold resources (such as file or socket handles)
  * until it is closed. The {@link #close()} method of an {@code AutoCloseable}

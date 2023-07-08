@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
+
 import java.awt.Insets;
 import java.desktop.share.classes.javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pluggable look and feel interface for JToolBar.

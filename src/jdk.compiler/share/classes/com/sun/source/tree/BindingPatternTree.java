@@ -21,6 +21,22 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A binding pattern tree
  *

@@ -21,7 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
 import jdk.xml.dom.share.classes.org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Create a frame. See the  FRAME element definition in HTML 4.0.

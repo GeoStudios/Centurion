@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class to track and run user level shutdown hooks registered through
@@ -51,6 +66,7 @@ class ApplicationShutdownHooks {
             hooks = null;
         }
     }
+
 
     private ApplicationShutdownHooks() {}
 

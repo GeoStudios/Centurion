@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
+
 import java.util.Vector;
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
@@ -28,6 +29,20 @@ import java.lang.reflect.Array;
 import java.naming.share.classes.javax.naming.NamingException;
 import java.naming.share.classes.javax.naming.NamingEnumeration;
 import java.naming.share.classes.javax.naming.OperationNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class provides a basic implementation of the {@code Attribute} interface.
@@ -481,6 +496,7 @@ public class BasicAttribute implements Attribute {
         throw new OperationNotSupportedException("attribute definition");
     }
 
+
 //  ---- serialization methods
 
     /**
@@ -527,6 +543,7 @@ public class BasicAttribute implements Attribute {
             values.addElement(s.readObject());
         }
     }
+
 
     class ValuesEnumImpl implements NamingEnumeration<Object> {
         Enumeration<Object> list;

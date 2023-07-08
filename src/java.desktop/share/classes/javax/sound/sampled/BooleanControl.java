@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code BooleanControl} provides the ability to switch between two possible
  * settings that affect a line's audio. The settings are boolean values

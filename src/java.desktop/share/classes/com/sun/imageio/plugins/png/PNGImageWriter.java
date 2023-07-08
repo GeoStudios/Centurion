@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.png;
 
+
 import java.awt.Rectangle;
 import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
@@ -43,6 +44,20 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.stream.ImageOutputStreamImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CRC {
 
@@ -87,6 +102,7 @@ final class CRC {
         return crc ^ 0xffffffff;
     }
 }
+
 
 final class ChunkStream extends ImageOutputStreamImpl {
 
@@ -282,6 +298,7 @@ final class IDATOutputStream extends ImageOutputStreamImpl {
         // super.finalize() in this case)
     }
 }
+
 
 final class PNGImageWriteParam extends ImageWriteParam {
 
@@ -795,6 +812,7 @@ public final class PNGImageWriter extends ImageWriter {
 
             cs.writeBytes(languageIter.next());
             cs.writeByte(0);
+
 
             cs.write(translatedKeywordIter.next().getBytes(StandardCharsets.UTF_8));
             cs.writeByte(0);

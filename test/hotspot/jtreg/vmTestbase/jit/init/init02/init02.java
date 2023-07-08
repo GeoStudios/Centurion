@@ -21,13 +21,28 @@
 
 package jit.init.init02;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
    The init02.java test checks if a JIT changes the order in which
    classes are initialized. Java semantics do not allow a class to be
    initialized until it is actually used.
 */
+
 
 /*
  * @test
@@ -39,6 +54,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.init.init02.init02
  */
+
+
 
 public class init02 {
     public static boolean failed = false;

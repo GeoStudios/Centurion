@@ -21,8 +21,23 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Basic implementation of the CFrame interface providing some of the
     functionality in a platform-independent manner. */

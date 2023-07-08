@@ -21,6 +21,21 @@
 
 package compiler.eliminateAutobox;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6934604
@@ -40,6 +55,7 @@ package compiler.eliminateAutobox;
  *                   compiler.eliminateAutobox.TestIntBoxing
  */
 
+
 public class TestIntBoxing {
 
   static final Integer ibc = new Integer(1);
@@ -49,6 +65,7 @@ public class TestIntBoxing {
   static void    dummy()     { }
   static int     foo(int i)  { return i; }
   static Integer foob(int i) { return Integer.valueOf(i); }
+
 
   static int simple(int i) {
     Integer ib = new Integer(i);
@@ -360,6 +377,7 @@ public class TestIntBoxing {
     return j1 + j2;
   }
 
+
   //===============================================
   // Safepointa and debug info for deoptimization
   static int simple_deop(int i) {
@@ -628,6 +646,7 @@ public class TestIntBoxing {
     return j1 + j2;
   }
 
+
   public static void main(String[] args) {
     final int ntests = 70;
 
@@ -669,6 +688,7 @@ public class TestIntBoxing {
     for (int i = 0; i < ntests; i++) {
       res[i] = 0;
     }
+
 
     for (int i = 0; i < 12000; i++) {
       res[0] += simple(i);

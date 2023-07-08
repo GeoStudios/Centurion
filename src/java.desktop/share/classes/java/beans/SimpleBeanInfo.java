@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.awt.Toolkit;
 import java.desktop.share.classes.java.awt.image.ImageProducer;
 import java.desktop.share.classes.java.net.URL;
 import java.desktop.share.classes.java.security.AccessController;
 import java.desktop.share.classes.java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a support class to make it easier for people to provide

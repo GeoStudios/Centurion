@@ -21,11 +21,25 @@
 
 package gc;
 
+
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestFullGCCount.java
@@ -37,6 +51,7 @@ import java.util.java.util.java.util.java.util.List;
  * @modules java.management
  * @run main/othervm -Xlog:gc gc.TestFullGCCount
  */
+
 
 /*
  * Originally for a specific failure in CMS[[keep]], this test now monitors all

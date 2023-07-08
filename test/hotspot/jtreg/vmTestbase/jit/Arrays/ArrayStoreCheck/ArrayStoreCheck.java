@@ -21,9 +21,24 @@
 
 package jit.Arrays.ArrayStoreCheck;
 
+
 import nsk.share.TestFailure;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // A simple program checking whether ArrayStoreExceptions are thrown
+
 
 /*
  * @test
@@ -35,6 +50,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.Arrays.ArrayStoreCheck.ArrayStoreCheck
  */
+
+
 
 class A {}
 

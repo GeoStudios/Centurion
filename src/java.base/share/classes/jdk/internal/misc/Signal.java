@@ -21,8 +21,23 @@
 
 package java.base.share.classes.jdk.internal.misc;
 
+
 import java.util.Hashtable;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides ANSI/ISO C signal support. A Java program can register
@@ -253,6 +268,7 @@ public final class Signal {
          */
         void handle(Signal sig);
     }
+
 
     /*
      * A package-private class implementing a signal handler in native code.

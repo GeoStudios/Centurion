@@ -21,6 +21,21 @@
 
 package compiler.jvmci.compilerToVM;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface DummyInterface {
     void dummyFunction();
 

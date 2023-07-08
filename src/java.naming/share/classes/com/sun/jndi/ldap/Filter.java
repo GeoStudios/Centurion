@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.NamingException;
 import javax.naming.directory.InvalidSearchFilterException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LDAP (RFC-1960) and LDAPv3 (RFC-2254) search filters.
@@ -284,6 +299,7 @@ final class Filter {
         return -1;
     }
 
+
     private static void encodeSimpleFilter(BerEncoder ber, byte[] filter,
         int filtStart, int filtEnd) throws IOException, NamingException {
 
@@ -299,6 +315,7 @@ final class Filter {
         if ((eq = indexOf(filter, '=', filtStart, filtEnd)) == -1) {
             throw new InvalidSearchFilterException("Missing 'equals'");
         }
+
 
         valueStart = eq + 1;        // value starts after equal sign
         valueEnd = filtEnd;

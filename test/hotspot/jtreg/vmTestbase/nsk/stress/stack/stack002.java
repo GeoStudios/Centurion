@@ -21,7 +21,21 @@
 
 package nsk.stress.stack;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -57,6 +71,9 @@ import java.io.PrintStream;
  * @requires vm.opt.DeoptimizeALot != true
  * @run main/othervm/timeout=900 nsk.stress.stack.stack002
  */
+
+
+
 
 public class stack002 {
     static final long timeout = 10000; // 10 seconds

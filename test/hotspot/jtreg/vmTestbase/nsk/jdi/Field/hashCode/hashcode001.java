@@ -21,12 +21,26 @@
 
 package nsk.jdi.Field.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class hashcode001 {
     private static Log log;

@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import java.awt.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * We render non-antialiased geometry (consisting of rectangles) into a mask,
@@ -145,6 +160,7 @@ public class MaskTileManager {
         }
     }
 
+
     /**
      * Renders the rectangles provided to the mask, and does a composition
      * operation with the properties set inXRCompositeManager.
@@ -203,6 +219,7 @@ public class MaskTileManager {
             }
         }
     }
+
 
     /**
      * Allocates enough MaskTile instances, to cover the whole

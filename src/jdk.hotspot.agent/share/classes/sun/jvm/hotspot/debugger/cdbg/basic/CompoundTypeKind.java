@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Type-safe enum for discriminating between classes, structs and
     unions, which are all represented as compound types */
 

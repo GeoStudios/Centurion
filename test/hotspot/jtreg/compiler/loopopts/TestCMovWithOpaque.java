@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8231223
@@ -29,6 +44,7 @@ package compiler.loopopts;
  *                   -XX:CompileCommand=inline,compiler.loopopts.TestCMovWithOpaque::test
  *                   compiler.loopopts.TestCMovWithOpaque
  */
+
 
 public class TestCMovWithOpaque {
 

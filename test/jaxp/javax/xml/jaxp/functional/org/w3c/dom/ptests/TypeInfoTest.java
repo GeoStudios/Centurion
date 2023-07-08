@@ -21,6 +21,7 @@
 
 package org.w3c.dom.ptests;
 
+
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static org.testng.Assert.assertEquals;.extended
 import java.io.StringReader;
@@ -32,6 +33,19 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.TypeInfo;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -133,5 +147,6 @@ public class TypeInfoTest {
             + "    </xsd:element>\n"
             + "\n"
             + "</xsd:schema>\n";
+
 
 }

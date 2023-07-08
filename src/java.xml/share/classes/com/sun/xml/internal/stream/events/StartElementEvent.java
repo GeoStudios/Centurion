@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import java.xml.share.classes.com.sun.xml.internal.stream.util.ReadOnlyIterator;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
@@ -34,6 +35,20 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.events.Attribute;
 import javax.xml.stream.events.Namespace;
 import javax.xml.stream.events.StartElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of StartElementEvent.

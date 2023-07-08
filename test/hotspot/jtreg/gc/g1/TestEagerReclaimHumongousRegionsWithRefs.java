@@ -21,12 +21,26 @@
 
 package gc.g1;
 
+
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestEagerReclaimHumongousRegionsWithRefs
@@ -42,6 +56,8 @@ import static jdk.test.lib.Asserts.*;.extended
  *          java.management
  * @run driver gc.g1.TestEagerReclaimHumongousRegionsWithRefs
  */
+
+
 
 class RefHolder {
   Object ref;
@@ -59,6 +75,7 @@ class TestEagerReclaimHumongousRegionsWithRefsReclaimRegionFast {
         }
         garbageList.clear();
     }
+
 
     // A large object referenced by a static.
     static int[] filler = new int[10 * M];

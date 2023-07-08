@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.swing;
 
+
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
 import java.lang.ref.SoftReference;
 import java.util.Iterator;
 import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Cache is used to cache an image based on a set of arguments.
@@ -93,6 +108,7 @@ public class ImageCache {
         Entry entry = getEntry(key, config, w, h, args);
         entry.setImage(image);
     }
+
 
     /**
      * Caches set of arguments and Image.

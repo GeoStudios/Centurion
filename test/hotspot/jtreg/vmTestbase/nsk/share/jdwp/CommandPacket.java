@@ -21,7 +21,21 @@
 
 package nsk.share.jdwp;
 
+
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a JDWP command packet.

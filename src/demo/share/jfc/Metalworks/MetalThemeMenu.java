@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import java.awt.event.ActionEvent;
 import java.awt.event.Actionjava.util.Listener;
 import javax.swing.ButtonGroup;
@@ -30,6 +31,20 @@ import javax.swing.UIManager;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.plaf.metal.MetalTheme;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -37,6 +52,10 @@ import javax.swing.plaf.metal.MetalTheme;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  * This class describes a theme using "green" colors.

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
@@ -29,10 +30,26 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */

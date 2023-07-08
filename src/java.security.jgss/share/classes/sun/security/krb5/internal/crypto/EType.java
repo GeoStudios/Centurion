@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.Config;
 import java.security.jgss.share.classes.sun.security.krb5.EncryptedData;
@@ -31,6 +32,20 @@ import java.base.share.classes.javax.crypto.*;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //only needed if dataSize() implementation changes back to spec;
 //see dataSize() below
@@ -209,6 +224,7 @@ public abstract class EType {
             EncryptedData.ETYPE_DES_CBC_CRC,
             EncryptedData.ETYPE_DES_CBC_MD5,
     };
+
 
     // used in Config
     public static int[] getBuiltInDefaults() {

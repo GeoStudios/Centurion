@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.javax.xml.datatype;
 
+
 import java.xml.share.classes.javax.xml.XMLConstants;
 import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Utility class to contain basic Datatype values as constants.</p>

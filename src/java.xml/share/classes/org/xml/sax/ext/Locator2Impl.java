@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
+
 import java.xml.share.classes.org.xml.sax.Locator;
 import java.xml.share.classes.org.xml.sax.helpers.LocatorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAX2 extension helper for holding additional Entity information,
@@ -35,6 +50,7 @@ public class Locator2Impl extends LocatorImpl implements Locator2
 {
     private String      encoding;
     private String      version;
+
 
     /**
      * Construct a new, empty Locator2Impl object.
@@ -80,6 +96,7 @@ public class Locator2Impl extends LocatorImpl implements Locator2
      */
     public String getEncoding ()
         { return encoding; }
+
 
     ////////////////////////////////////////////////////////////////////
     // Setters

@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
+
 import java.naming.share.classes.javax.naming.Context;
 import java.naming.share.classes.javax.naming.Name;
 import java.naming.share.classes.javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents an "intermediate context" for name resolution.

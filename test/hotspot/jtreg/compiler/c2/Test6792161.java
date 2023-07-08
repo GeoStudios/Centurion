@@ -21,7 +21,21 @@
 
 package compiler.c2;
 
+
 import java.lang.reflect.Constructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -30,6 +44,8 @@ import java.lang.reflect.Constructor;
  *
  * @run main/othervm/timeout=600 -Xcomp -XX:-TieredCompilation -XX:+IgnoreUnrecognizedVMOptions -XX:MaxInlineSize=120 compiler.c2.Test6792161
  */
+
+
 
 public class Test6792161 {
     static Constructor test(Class cls) throws Exception {

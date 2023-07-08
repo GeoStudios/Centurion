@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BsdVtblAccess extends BasicVtblAccess {
   private final String vt;

@@ -21,10 +21,24 @@
 
 package nsk.jdb.caught_exception.caught_exception002;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is debuggee aplication */
 public class caught_exception002a {

@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  The <code>DOMStringList</code> interface provides the abstraction of an
  * ordered collection of <code>DOMString</code> values, without defining or

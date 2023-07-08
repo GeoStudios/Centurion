@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.*;
@@ -34,10 +35,28 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 // The ObjectHeap is an abstraction over all generations in the VM
 // It gives access to all present objects and classes.
 //
+
+
+
+
 
 public class ObjectHeap {
 

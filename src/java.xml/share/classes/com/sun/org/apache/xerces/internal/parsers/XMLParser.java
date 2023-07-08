@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLP
 import jdk.xml.internal.JdkConstants;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class of all XML-related parsers.
@@ -82,6 +97,7 @@ public abstract class XMLParser {
 
     /** The XML Security Property Manager. */
     XMLSecurityPropertyManager securityPropertyManager;
+
 
     //
     // Constructors

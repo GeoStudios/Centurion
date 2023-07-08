@@ -21,12 +21,28 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A private interface to access clip bounds in wrapped Graphics objects.
  *
  */
+
 
 interface GraphicsWrapper {
     Graphics subGraphics();

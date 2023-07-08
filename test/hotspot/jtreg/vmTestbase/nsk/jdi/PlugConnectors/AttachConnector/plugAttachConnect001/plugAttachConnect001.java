@@ -21,12 +21,26 @@
 
 package nsk.jdi.PlugConnectors.AttachConnector.plugAttachConnect001;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -72,6 +86,9 @@ import java.io.*;
  *      -debugee.vmkind=java
  *      -transport.address=dynamic
  */
+
+
+
 
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>
@@ -137,6 +154,7 @@ public class plugAttachConnect001 {
         return result;
     }
 
+
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_PASSED;
 
@@ -151,6 +169,7 @@ public class plugAttachConnect001 {
         logAlways("==> nsk/jdi/PlugConnectors/AttachConnector/plugAttachConnect001 test...");
         logOnVerbose
             ("==> Test checks that expected pluggable attaching connector is created properly.");
+
 
         VirtualMachineManager virtualMachineManager = Bootstrap.virtualMachineManager();
         if (virtualMachineManager == null) {

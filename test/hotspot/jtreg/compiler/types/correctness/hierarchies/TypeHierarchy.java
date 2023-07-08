@@ -21,6 +21,21 @@
 
 package compiler.types.correctness.hierarchies;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Type hierarchy contains classes the type profiling and speculation are tested with
  */

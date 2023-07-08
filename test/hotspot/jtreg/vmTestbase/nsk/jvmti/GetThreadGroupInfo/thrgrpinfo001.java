@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetThreadGroupInfo;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class thrgrpinfo001 {
 
@@ -51,6 +65,7 @@ public class thrgrpinfo001 {
     public static int run(String args[], PrintStream out) {
         ThreadGroup parent = Thread.currentThread().getThreadGroup();
         ThreadGroup g = new ThreadGroup("TestGroup");
+
 
         g.setDaemon(false);
         g.setMaxPriority(Thread.MAX_PRIORITY);

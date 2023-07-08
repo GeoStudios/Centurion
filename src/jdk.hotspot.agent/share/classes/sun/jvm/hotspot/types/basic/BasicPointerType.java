@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
 
+
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This specialization of BasicType implements the PointerType
     interface and describes all C pointer types. */

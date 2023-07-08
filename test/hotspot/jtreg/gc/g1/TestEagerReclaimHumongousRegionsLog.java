@@ -21,11 +21,25 @@
 
 package gc.g1;
 
+
 import sun.hotspot.WhiteBox;
 import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestEagerReclaimHumongousRegionsLog
@@ -38,6 +52,9 @@ import jdk.test.lib.process.ProcessTools;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.g1.TestEagerReclaimHumongousRegionsLog
  */
+
+
+
 
 public class TestEagerReclaimHumongousRegionsLog {
 

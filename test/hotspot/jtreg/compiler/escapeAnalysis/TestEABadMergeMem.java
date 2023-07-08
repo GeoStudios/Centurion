@@ -21,6 +21,21 @@
 
 package compiler.escapeAnalysis;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8134031
@@ -30,6 +45,7 @@ package compiler.escapeAnalysis;
  *      -XX:CompileCommand=dontinline,compiler.escapeAnalysis.TestEABadMergeMem::m_notinlined
  *      compiler.escapeAnalysis.TestEABadMergeMem
  */
+
 
 public class TestEABadMergeMem {
 

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import java.base.share.classes.java.lang.constant.ClassDesc;
 import java.base.share.classes.java.lang.constant.Constable;
 import java.base.share.classes.java.lang.constant.ConstantDesc;
@@ -40,6 +41,20 @@ import jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A VarHandle is a dynamically strongly typed reference to a variable, or to a
@@ -565,6 +580,7 @@ public abstract class VarHandle implements Constable {
     @IntrinsicCandidate
     void set(Object... args);
 
+
     // Volatile accessors
 
     /**
@@ -626,6 +642,7 @@ public abstract class VarHandle implements Constable {
     @IntrinsicCandidate
     void setVolatile(Object... args);
 
+
     /**
      * Returns the value of a variable, accessed in program order, but with no
      * assurance of memory ordering effects with respect to other threads.
@@ -681,6 +698,7 @@ public abstract class VarHandle implements Constable {
     @MethodHandle.PolymorphicSignature
     @IntrinsicCandidate
     void setOpaque(Object... args);
+
 
     // Lazy accessors
 
@@ -748,6 +766,7 @@ public abstract class VarHandle implements Constable {
     @MethodHandle.PolymorphicSignature
     @IntrinsicCandidate
     void setRelease(Object... args);
+
 
     // Compare and set accessors
 
@@ -1241,6 +1260,7 @@ public abstract class VarHandle implements Constable {
     @MethodHandle.PolymorphicSignature
     @IntrinsicCandidate
     Object getAndAddRelease(Object... args);
+
 
     // Bitwise operations
     // Throw UnsupportedOperationException for refs
@@ -2155,6 +2175,7 @@ public abstract class VarHandle implements Constable {
         return mh;
     }
 
+
     /*non-public*/
     final void updateVarForm(VarForm newVForm) {
         if (vform == newVForm) return;
@@ -2180,6 +2201,7 @@ public abstract class VarHandle implements Constable {
         // compilation of the guard methods
         UNSAFE.ensureClassInitialized(VarHandleGuards.class);
     }
+
 
     // Fence methods
 

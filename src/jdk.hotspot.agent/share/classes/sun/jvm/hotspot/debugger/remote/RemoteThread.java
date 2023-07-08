@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class RemoteThread implements ThreadProxy {
    protected RemoteDebuggerClient debugger;

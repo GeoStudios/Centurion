@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequestManager.breakpointRequests;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the breakpreq002 JDI test.

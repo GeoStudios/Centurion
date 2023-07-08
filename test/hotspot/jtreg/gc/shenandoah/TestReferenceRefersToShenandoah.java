@@ -21,11 +21,25 @@
 
 package gc.shenandoah;
 
+
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @requires vm.gc.Shenandoah
@@ -76,6 +90,7 @@ import sun.hotspot.WhiteBox;
  *      -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC -XX:ShenandoahGCMode=iu -XX:ShenandoahGarbageThreshold=100 -Xmx100m
  *      gc.shenandoah.TestReferenceRefersToShenandoah
  */
+
 
 public class TestReferenceRefersToShenandoah {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

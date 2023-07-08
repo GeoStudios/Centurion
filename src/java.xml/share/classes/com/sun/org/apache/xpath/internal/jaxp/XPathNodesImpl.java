@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
+
 import java.util.Iterator;
 import javax.xml.xpath.XPathException;
 import javax.xml.xpath.XPathNodes;
 import javax.xml.xpath.XPathEvaluationResult.XPathResultType;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements XPathNodes that represents a set of nodes selected by

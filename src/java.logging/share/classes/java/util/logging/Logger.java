@@ -21,6 +21,7 @@
 
 package java.logging.share.classes.java.util.logging;
 
+
 import java.logging.share.classes.java.lang.ref.WeakReference;
 import java.logging.share.classes.java.security.AccessController;
 import java.logging.share.classes.java.security.PrivilegedAction;
@@ -37,6 +38,20 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import static jdk.internal.logger.DefaultLoggerFinder.isSystem;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Logger object is used to log messages for a specific
@@ -999,6 +1014,7 @@ public class Logger {
         log(lr);
     }
 
+
     //================================================================
     // Start of convenience methods WITHOUT className and methodName
     //================================================================
@@ -1304,6 +1320,7 @@ public class Logger {
         lr.setThrown(thrown);
         doLog(lr);
     }
+
 
     //=========================================================================
     // Start of convenience methods WITH className, methodName and bundle name.
@@ -1692,6 +1709,7 @@ public class Logger {
     public void exiting(String sourceClass, String sourceMethod) {
         logp(Level.FINER, sourceClass, sourceMethod, "RETURN");
     }
+
 
     /**
      * Log a method return, with result object.
@@ -2310,6 +2328,7 @@ public class Logger {
                 throw new IllegalArgumentException("can't replace resource bundle");
             }
 
+
             loggerBundle = LoggerBundle.get(baseName, bundle);
         }
     }
@@ -2460,6 +2479,7 @@ public class Logger {
             }
         }
     }
+
 
     // Private method to get the potentially inherited
     // resource bundle and resource bundle name for this Logger.

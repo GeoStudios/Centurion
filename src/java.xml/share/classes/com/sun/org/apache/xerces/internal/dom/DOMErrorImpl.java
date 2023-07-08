@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMLocator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * <code>DOMErrorImpl</code> is an implementation that describes an error.
@@ -60,6 +78,8 @@ public class DOMErrorImpl implements DOMError {
     public Exception fException = null;
     public String fType;
     public Object fRelatedData;
+
+
 
     //
     // Constructors
@@ -110,6 +130,7 @@ public class DOMErrorImpl implements DOMError {
                                   exception.getExpandedSystemId());
     } // createDOMLocator()
 
+
     /**
      * The related platform dependent exception if any.exception is a reserved
      * word, we need to rename it.Change to "relatedException". (F2F 26 Sep
@@ -131,5 +152,6 @@ public class DOMErrorImpl implements DOMError {
     public Object getRelatedData(){
         return fRelatedData;
     }
+
 
 }// class DOMErrorImpl

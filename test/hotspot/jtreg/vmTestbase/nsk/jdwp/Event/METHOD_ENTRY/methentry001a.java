@@ -21,12 +21,29 @@
 
 package nsk.jdwp.Event.METHOD_ENTRY;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    THIS TEST IS LINE NUMBER SENSITIVE
+
+
+
 
 /**
  * This class represents debuggee part in the test.

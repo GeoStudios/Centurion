@@ -21,6 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.event.*;
@@ -28,6 +29,20 @@ import javax.naming.ldap.*;
 import javax.naming.ldap.LdapName;
 import java.util.Vector;
 import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Gathers information to generate events by using the Persistent Search

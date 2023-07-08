@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface MemberFunctionType extends FunctionType {
   /** Containing class of this member function */
   Type getContainingClass();

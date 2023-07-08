@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.suspend;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -30,6 +31,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -145,6 +159,7 @@ public class suspend001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -185,6 +200,7 @@ public class suspend001 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -197,6 +213,7 @@ public class suspend001 {
             String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
+
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -204,6 +221,7 @@ public class suspend001 {
             BreakpointRequest breakpRequest1 = null;
             BreakpointRequest breakpRequest2 = null;
             //BreakpointRequest breakpRequest3 = null;
+
 
             label0: {
 
@@ -246,6 +264,7 @@ public class suspend001 {
                 }
             }
 
+
             label1: {
                 if (expresult != returnCode0)
                     break label1;
@@ -277,6 +296,7 @@ public class suspend001 {
                     break label1;
                 } else
                    expresult = returnCode0;
+
 
                 log2("......checking up that thread2.suspend() does suspend the suspended thread2");
 
@@ -356,6 +376,7 @@ public class suspend001 {
         return testExitCode;
     }
 
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -411,6 +432,7 @@ public class suspend001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

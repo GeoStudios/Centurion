@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.traversal;
 
+
 import java.xml.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Filters are objects that know how to "filter out" nodes. If a

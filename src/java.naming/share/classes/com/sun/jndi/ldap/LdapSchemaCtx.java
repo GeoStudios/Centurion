@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import java.util.Hashtable;
 import java.naming.share.classes.com.sun.jndi.toolkit.dir.HierMemDirCtx;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the class used to implement LDAP's GetSchema call.
@@ -253,6 +268,7 @@ final class LdapSchemaCtx extends HierMemDirCtx {
         LdapSchemaCtx ctx = new LdapSchemaCtx(LEAF, myEnv, info);
         return ctx;
     }
+
 
     private void addServerSchema(Attributes attrs)
         throws NamingException {

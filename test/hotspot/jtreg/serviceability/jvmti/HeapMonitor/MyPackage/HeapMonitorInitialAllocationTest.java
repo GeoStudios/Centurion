@@ -21,6 +21,21 @@
 
 package MyPackage;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI Heap Monitor does not always sample the first object.

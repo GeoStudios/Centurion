@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.desktop.share.classes.sun.swing.CachedPainter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Paint9Painter is used for painting images for both Synth and GTK's
@@ -90,6 +105,7 @@ public class Paint9Painter extends CachedPainter {
         return (image != null && image.getWidth(null) > 0 &&
                 image.getHeight(null) > 0);
     }
+
 
     public Paint9Painter(int cacheCount) {
         super(cacheCount);

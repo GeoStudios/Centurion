@@ -21,9 +21,23 @@
 
 package nsk.jdi.Method.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the hashcode001 JDI test.
@@ -73,6 +87,7 @@ public class hashcode001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -111,7 +126,9 @@ public class hashcode001a {
     }
 }
 
+
 class TestClass1 {
+
 
     public boolean bl () { return false; }
     public byte    bt () { return 0;     }
@@ -124,6 +141,8 @@ class TestClass1 {
 
     public void vd () { return ; }
 
+
+
    public void primitiveargsmethod ( boolean bl,
                                    byte    bt,
                                    char    ch,
@@ -134,6 +153,8 @@ class TestClass1 {
                                    short   sh ) {
        return ;
    }
+
+
 
     private ClassForCheck_2 class2 = new ClassForCheck_2();
 
@@ -152,9 +173,11 @@ class TestClass1 {
     }
 
 }
+
 
 class TestClass2 {
 
+
     public boolean bl () { return false; }
     public byte    bt () { return 0;     }
     public char    ch () { return 0;     }
@@ -166,6 +189,8 @@ class TestClass2 {
 
     public void vd () { return ; }
 
+
+
    public void primitiveargsmethod ( boolean bl,
                                    byte    bt,
                                    char    ch,
@@ -176,6 +201,8 @@ class TestClass2 {
                                    short   sh ) {
        return ;
    }
+
+
 
     private ClassForCheck_2 class2 = new ClassForCheck_2();
 
@@ -194,6 +221,7 @@ class TestClass2 {
     }
 
 }
+
 
 interface InterfaceForCheck {
 

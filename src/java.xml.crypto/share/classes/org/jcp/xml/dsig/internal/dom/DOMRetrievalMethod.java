@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.net.URI;
@@ -48,10 +49,28 @@ import java.xml.crypto.share.classes.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * DOM-based implementation of RetrievalMethod.

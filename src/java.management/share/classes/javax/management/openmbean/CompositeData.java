@@ -21,13 +21,29 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.util.Collection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 //
 
 // jmx import
 //
+
 
 /**
  * The {@code CompositeData} interface specifies
@@ -37,6 +53,7 @@ import java.util.Collection;
  *
  */
 public interface CompositeData {
+
 
     /**
      * Returns the <i>composite type </i> of this <i>composite data</i> instance.

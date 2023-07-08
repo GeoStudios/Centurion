@@ -21,8 +21,22 @@
 
 package jit.FloatingPoint.FPCompare.TestFPBinop;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.FPCompare.TestFPBinop.TestFPBinop
  */
+
+
 
 /** Test of Floating Point Binary Ops.
  ** This is intended to be run on a known-correct system and the
@@ -348,6 +364,7 @@ public class TestFPBinop {
         check(x, (zero + one * y), x / (zero + one * y), "rExpr", "/");
 
     }
+
 
     /* The convoluted coding is intended to prevent inlining */
     static float i(float x) {

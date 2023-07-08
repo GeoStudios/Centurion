@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.Border;
@@ -33,6 +34,20 @@ import java.beans.PropertyChangeEvent;
 import java.io.Serializable;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a basic implementation of the <code>ComboPopup</code> interface.
@@ -212,6 +227,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
      */
     protected static final int         SCROLL_DOWN = 1;
 
+
     //========================================
     // begin ComboPopup method implementations
     //
@@ -226,6 +242,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
         Point location = getPopupLocation();
         show( comboBox, location.x, location.y );
     }
+
 
     /**
      * Implementation of ComboPopup.hide().
@@ -336,6 +353,8 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
         // XXX - shouldn't call this method
 //        comboBox.unregisterKeyboardAction( KeyStroke.getKeyStroke( KeyEvent.VK_ENTER, 0 ) );
     }
+
+
 
     //===================================================================
     // begin Initialization routines
@@ -695,6 +714,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
     // end Initialization routines
     //=================================================================
 
+
     //===================================================================
     // begin Event Listenters
     //
@@ -876,6 +896,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
         }
     }
 
+
     private class AutoScrollActionHandler implements ActionListener {
         private final int direction;
 
@@ -892,6 +913,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
             }
         }
     }
+
 
     private class Handler implements ItemListener, MouseListener,
                           MouseMotionListener, MouseWheelListener,
@@ -1098,6 +1120,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
     // end Event Listeners
     //=================================================================
 
+
     /**
      * Overridden to unconditionally return false.
      */
@@ -1191,6 +1214,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
     // end Autoscroll methods
     //=================================================================
 
+
     //===================================================================
     // begin Utility methods
     //
@@ -1206,6 +1230,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
         context.setAccessibleParent(comboBox);
         return context;
     }
+
 
     /**
      * This is a utility method that helps event handlers figure out where to
@@ -1283,6 +1308,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
             meAccessor.isCausedByTouchEvent(e));
         return newEvent;
     }
+
 
     /**
      * Retrieves the height of the popup based on the current

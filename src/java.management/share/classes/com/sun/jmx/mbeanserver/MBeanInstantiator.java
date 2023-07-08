@@ -21,6 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -49,6 +50,20 @@ import javax.management.RuntimeOperationsException;
 import java.management.share.classes.com.sun.reflect.misc.ConstructorUtil;
 import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Implements the MBeanInstantiator interface. Provides methods for
  * instantiating objects, finding the class given its name and using
@@ -63,6 +78,7 @@ public class MBeanInstantiator {
     MBeanInstantiator(ModifiableClassLoaderRepository clr) {
         this.clr = clr;
     }
+
 
     /**
      * This methods tests if the MBean class makes it possible to
@@ -100,6 +116,7 @@ public class MBeanInstantiator {
         return theClass;
     }
 
+
     /**
      * Gets the class for the specified class name using the MBean
      * Interceptor's classloader
@@ -132,6 +149,7 @@ public class MBeanInstantiator {
         }
         return findClass(className,loader);
     }
+
 
     /**
      * Return an array of Class corresponding to the given signature, using
@@ -192,6 +210,7 @@ public class MBeanInstantiator {
         return tab;
     }
 
+
     /**
      * Instantiates an object given its class, using its empty constructor.
      * The call returns a reference to the newly created object.
@@ -245,6 +264,8 @@ public class MBeanInstantiator {
         return moi;
 
     }
+
+
 
    /**
      * Instantiates an object given its class, the parameters and
@@ -444,6 +465,7 @@ public class MBeanInstantiator {
         return objIn;
     }
 
+
     /**
      * Instantiates an object using the list of all class loaders registered
      * in the MBean Interceptor
@@ -472,6 +494,8 @@ public class MBeanInstantiator {
 
         return instantiate(className, null, null, null);
     }
+
+
 
     /**
      * Instantiates an object using the class Loader specified by its
@@ -507,6 +531,7 @@ public class MBeanInstantiator {
         return instantiate(className, loaderName, null,
                 null, loader);
     }
+
 
     /**
      * Instantiates an object using the list of all class loaders registered
@@ -544,6 +569,8 @@ public class MBeanInstantiator {
         Class<?> theClass = findClassWithDefaultLoaderRepository(className);
         return instantiate(theClass, params, signature, loader);
     }
+
+
 
     /**
      * Instantiates an object. The class loader to be used is identified by its
@@ -597,6 +624,7 @@ public class MBeanInstantiator {
         return instantiate(theClass, params, signature, loader);
     }
 
+
     /**
      * Return the Default Loader Repository used by this instantiator object.
      **/
@@ -632,6 +660,8 @@ public class MBeanInstantiator {
         }
         return theClass;
     }
+
+
 
     /**
      * Load the classes specified in the signature with the given loader,
@@ -693,6 +723,7 @@ public class MBeanInstantiator {
             return null;
         }
     }
+
 
     private static final Map<String, Class<?>> primitiveClasses = Util.newMap();
     static {

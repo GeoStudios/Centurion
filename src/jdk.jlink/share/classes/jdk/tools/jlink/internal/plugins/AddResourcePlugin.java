@@ -21,12 +21,27 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
+
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.function.Function;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base plugin to add a resource
@@ -55,6 +70,7 @@ abstract class AddResourcePlugin extends AbstractPlugin {
     public boolean hasRawArgument() {
         return true;
     }
+
 
     @Override
     public void configure(Map<String, String> config) {

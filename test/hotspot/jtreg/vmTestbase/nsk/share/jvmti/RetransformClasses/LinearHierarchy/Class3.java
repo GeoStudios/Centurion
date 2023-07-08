@@ -21,6 +21,21 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class3 extends Class4 {
     byte var_1;
     double var_2 = 9.323170900039764E307;
@@ -29,6 +44,7 @@ public class Class3 extends Class4 {
     String var_5 = "tookgfu";
     final double var_6 = 9.238786778915182E307;
     double var_7;
+
 
     public Class3()
     {

@@ -21,6 +21,7 @@
 
 package genstubs;
 
+
 import java.io.*;
 import java.util.*;
 import javax.tools.JavaFileObject;
@@ -49,6 +50,19 @@ import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.util.Name;
 import javax.tools.JavaFileManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generate stub source files by removing implementation details from input files.

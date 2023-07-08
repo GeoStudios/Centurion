@@ -21,6 +21,7 @@
 
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn001;
 
+
 import java.io.PrintStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import com.sun.jdi.*;
@@ -29,6 +30,19 @@ import com.sun.jdi.request.*;
 import nsk.share.Consts;
 import nsk.share.jdi.ForceEarlyReturnDebugger;
 import nsk.share.jpda.ForceEarlyReturnTestThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -77,6 +91,8 @@ import nsk.share.jpda.ForceEarlyReturnTestThread;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
 
 public class forceEarlyReturn001 extends ForceEarlyReturnDebugger {
     // Data for testing forceEarlyReturn for single method

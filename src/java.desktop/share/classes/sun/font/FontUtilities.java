@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.awt.Font;
 import java.lang.ref.SoftReference;
 import java.util.concurrent.ConcurrentHashMap;
@@ -28,6 +29,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import javax.swing.plaf.FontUIResource;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of utility methods.
@@ -442,6 +457,7 @@ public final class FontUtilities {
         return null;
     }
 
+
     /* This is called by Swing passing in a fontconfig family name
      * such as "sans". In return Swing gets a FontUIResource instance
      * that has queried fontconfig to resolve the font(s) used for this.
@@ -476,6 +492,7 @@ public final class FontUtilities {
         }
         return fuir;
     }
+
 
     /**
      * Used by windows printing to assess if a font is likely to

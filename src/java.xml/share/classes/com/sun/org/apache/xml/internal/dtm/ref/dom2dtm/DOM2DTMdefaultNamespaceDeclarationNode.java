@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.dom2dtm;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
@@ -32,10 +33,27 @@ import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
 import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /** This is a kluge to let us shove a declaration for xml: into the
  * DOM2DTM model.  Basically, it creates a proxy node in DOM space to
@@ -349,6 +367,7 @@ public class DOM2DTMdefaultNamespaceDeclarationNode implements Attr,TypeInfo
 
                 return null;
 
+
             }
 /*
         case Node.DOCUMENT_NODE : {
@@ -451,6 +470,7 @@ public class DOM2DTMdefaultNamespaceDeclarationNode implements Attr,TypeInfo
         }
 */
         return false;
+
 
     }
 

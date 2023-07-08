@@ -21,7 +21,22 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
+
 import java.sql.SQLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <h2>1.0 Background</h2>

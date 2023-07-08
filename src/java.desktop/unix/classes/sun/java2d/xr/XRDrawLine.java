@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Bresenham line-drawing implementation decomposing line segments
  * into a series of rectangles.
@@ -28,6 +44,7 @@ package java.desktop.unix.classes.sun.java2d.xr;
  * The code here is an almost 1:1 port of the existing C-source contained in
  * sun/java2d/loop/DrawLine.c and sun/java2d/loop/LoopMacros.h
  */
+
 
 public class XRDrawLine {
     static final int BIG_MAX = ((1 << 29) - 1);

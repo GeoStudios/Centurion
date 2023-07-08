@@ -21,6 +21,7 @@
 
 package dom.ls;
 
+
 import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;.extended
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
@@ -45,6 +46,19 @@ import org.w3c.dom.ls.LSParser;
 import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -21,6 +21,21 @@
 
 package compiler.runtime.safepoints;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8148490
@@ -31,6 +46,7 @@ package compiler.runtime.safepoints;
  *                   -XX:CompileCommand=exclude,compiler.runtime.safepoints.TestRegisterRestoring::main
  *                   compiler.runtime.safepoints.TestRegisterRestoring
  */
+
 
 public class TestRegisterRestoring {
     public static void main(String args[]) throws Exception {

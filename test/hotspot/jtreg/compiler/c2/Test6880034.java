@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6880034
@@ -31,6 +46,7 @@ package compiler.c2;
  *    -XX:CompileCommand=compileonly,compiler.c2.Test6880034::deopt_compiledframe_at_safepoint
  *    compiler.c2.Test6880034
  */
+
 
 // This test provokes a deoptimisation at a safepoint.
 //

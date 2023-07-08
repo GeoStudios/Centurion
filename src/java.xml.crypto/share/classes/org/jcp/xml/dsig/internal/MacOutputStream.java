@@ -21,13 +21,30 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal;
 
+
 import java.io.ByteArrayOutputStream;
 import javax.crypto.Mac;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Derived from Apache sources and changed to use Mac objects instead of

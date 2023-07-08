@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface to describe a structural piece of a document.  It
  * is intended to capture the spirit of an SGML element.
@@ -130,5 +146,6 @@ public interface Element {
      * @return true if a leaf element else false
      */
     boolean isLeaf();
+
 
 }

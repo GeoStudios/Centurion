@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6579789
@@ -30,6 +45,7 @@ package compiler.c1;
  *      -XX:CompileCommand=compileonly,compiler.c1.Test6579789::bug
  *      compiler.c1.Test6579789
  */
+
 
 public class Test6579789 {
     public static void main(String[] args) {

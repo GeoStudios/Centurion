@@ -21,14 +21,29 @@
 
 package vm.share.options.test;
 
+
 import java.util.Collection;
 import vm.share.options.Option;
 import vm.share.options.OptionSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
 
 /**
  * This example uses @Option annotation with an a factory attribute,
@@ -39,6 +54,7 @@ public class ExampleWithNonprimitiveOptions
 
     @Option(name = "iterations", default_value = "100", description = "Number of iterations")
     int iterations;
+
 
     @Option(description = "quiet or verbose")
     private String running_mode;
@@ -54,6 +70,7 @@ public class ExampleWithNonprimitiveOptions
          System.out.println("RM : " + running_mode);
          System.out.println("list is " + list.getClass());
     }
+
 
     public static void main(String[] args)
     {

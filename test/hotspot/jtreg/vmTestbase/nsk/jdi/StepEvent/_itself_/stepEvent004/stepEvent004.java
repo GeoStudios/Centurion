@@ -21,12 +21,26 @@
 
 package nsk.jdi.StepEvent._itself_.stepEvent004;
 
+
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.request.StepRequest;
 import nsk.share.Consts;
 import nsk.share.jdi.EventHandler;
 import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -81,6 +95,8 @@ import nsk.share.jdi.sde.*;
  *      -testWorkDir .
  *      -testStratumCount 3
  */
+
+
 
 public class stepEvent004 extends SDEDebugger {
     private static final int INIT_LINE = 31;

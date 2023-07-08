@@ -21,12 +21,27 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.rcache;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.util.Iterator;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.security.jgss.share.classes.sun.security.krb5.internal.KerberosTime;
 import java.security.jgss.share.classes.sun.security.krb5.internal.KrbApErrException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides an efficient caching mechanism to store AuthTimeWithHash

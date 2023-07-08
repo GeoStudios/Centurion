@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.desktop.unix.classes.sun.awt.X11CustomCursor;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to encapsulate a custom image-based cursor.
@@ -89,6 +104,7 @@ public class XCustomCursor extends X11CustomCursor {
 
             XlibWrapper.XAllocColor(display,colormap,fore_color.pData);
 
+
             XColor back_color = new XColor();
             back_color.set_flags((byte) (XConstants.DoRed | XConstants.DoGreen | XConstants.DoBlue));
 
@@ -97,6 +113,7 @@ public class XCustomCursor extends X11CustomCursor {
             back_color.set_blue((short) (((bcolor >> 0) & 0x000000ff) << 8));
 
             XlibWrapper.XAllocColor(display,colormap,back_color.pData);
+
 
             long nativeXorMask = Native.toData(xorMask);
             long source = XlibWrapper.XCreateBitmapFromData(display,root_window,nativeXorMask,width,height);

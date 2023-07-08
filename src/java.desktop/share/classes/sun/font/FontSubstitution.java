@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.font;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Interface that indicates a Font2D that is not a Composite but has the
  * property that it internally behaves like one, substituting glyphs

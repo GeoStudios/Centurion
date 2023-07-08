@@ -21,9 +21,23 @@
 
 package nsk.jvmti.GetSystemProperty;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getsysprop001 extends DebugeeClass {
 

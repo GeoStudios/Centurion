@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
+
 import java.sql.*;
 import javax.sql.*;
 import java.io.*;
@@ -37,6 +38,20 @@ import java.sql.rowset.share.classes.com.sun.rowset.internal.*;
 import java.sql.rowset.share.classes.com.sun.rowset.providers.*;
 import java.sql.rowset.share.classes.com.sun.reflect.misc.ReflectUtil;
 import static java.nio.charset.StandardCharsets.US_ASCII;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard implementation of the <code>CachedRowSet</code> interface.
@@ -314,6 +329,8 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
 
     private boolean updateOnInsert;
 
+
+
     /**
      * Constructs a new default <code>CachedRowSetImpl</code> object with
      * the capacity to hold 100 rows. This new object has no metadata
@@ -456,6 +473,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
      */
     public CachedRowSetImpl(@SuppressWarnings("rawtypes") Hashtable env) throws SQLException {
 
+
         try {
            resBundle = JdbcRowSetResourceBundle.getJdbcRowSetResourceBundle();
         } catch(IOException ioe) {
@@ -588,6 +606,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         }
     }
 
+
     //---------------------------------------------------------------------
     // Reading and writing data
     //---------------------------------------------------------------------
@@ -696,6 +715,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
 
         // notify any listeners that the rowset has changed
         notifyRowSetChanged();
+
 
     }
 
@@ -828,6 +848,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     private void setConnection (Connection connection) {
         conn = connection;
     }
+
 
     /**
      * Propagates all row update, insert, and delete changes to the
@@ -1351,6 +1372,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     // Advanced features
     //--------------------------------------------------------------------
 
+
     /**
      * Returns the <code>SyncProvider</code> implementation being used
      * with this <code>CachedRowSetImpl</code> implementation rowset.
@@ -1380,9 +1402,15 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         rowSetWriter = provider.getRowSetWriter();
     }
 
+
     //-----------------
     // methods inherited from RowSet
     //-----------------
+
+
+
+
+
 
     //---------------------------------------------------------------------
     // Reading and writing data
@@ -1414,6 +1442,8 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     public void execute() throws SQLException {
         execute(null);
     }
+
+
 
     //-----------------------------------
     // Methods inherited from ResultSet
@@ -1657,6 +1687,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         rvh.remove(cursorPos - 1);
         --numRows;
     }
+
 
     /**
      * Retrieves the value of the designated column in the current row
@@ -2438,6 +2469,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
 
     }
 
+
     // Methods for accessing results by column name
 
     /**
@@ -2796,6 +2828,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         return getBinaryStream(getColIdxByName(columnName));
     }
 
+
     // Advanced features:
 
     /**
@@ -2884,6 +2917,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     public ResultSetMetaData getMetaData() throws SQLException {
         return RowSetMD;
     }
+
 
     /**
      * Retrieves the value of the designated column in the current row
@@ -3012,6 +3046,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     public int findColumn(String columnName) throws SQLException {
         return getColIdxByName(columnName);
     }
+
 
     //--------------------------JDBC 2.0-----------------------------------
 
@@ -3705,6 +3740,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         return ret;
     }
 
+
     //---------------------------------------------------------------------
     // Updates
     //---------------------------------------------------------------------
@@ -3926,6 +3962,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         }
     }
 
+
     /**
      * Converts the given <code>Object</code> in the Java programming language
      * to the standard mapping for the specified SQL target data type.
@@ -4126,6 +4163,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         (!isString(trgType) && !isBoolean(trgType))) {
             throw new SQLException(resBundle.handleGetObject("cachedrowsetimpl.dtypemismt").toString());
         }
+
 
         try {
             switch (trgType) {
@@ -4676,6 +4714,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         checkIndex(columnIndex);
         // make sure the cursor is on a valid row
         checkCursor();
+
 
         if (!isString(RowSetMD.getColumnType(columnIndex)) &&
                 !isBinary(RowSetMD.getColumnType(columnIndex))) {
@@ -6392,6 +6431,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         return (keyColumns == null) ? null : Arrays.copyOf(keyColumns, keyColumns.length);
     }
 
+
     /**
      * Sets this <code>CachedRowSetImpl</code> object's
      * <code>keyCols</code> field with the given array of column
@@ -6682,6 +6722,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         updateArray(getColIdxByName(columnName), a);
     }
 
+
     /**
      * Retrieves the value of the designated column in this
      * <code>CachedRowSetImpl</code> object as a <code>java.net.URL</code> object
@@ -6765,6 +6806,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         } catch (SQLException e) {} // mask exception
         return rowsetWarning;
     }
+
 
     /**
      * The function tries to isolate the tablename when only setCommand
@@ -6956,6 +6998,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
            throw new SQLException(resBundle.handleGetObject("cachedrowsetimpl.setmatchcols").toString());
         }
 
+
         iMatchColumns.copyInto(int_temp);
 
         for(int i = 0; i < int_temp.length; i++) {
@@ -7020,6 +7063,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
            strMatchColumns.add(i,columnNames[i]);
         }
     }
+
 
     /**
      * Sets the designated parameter to the given <code>int</code>
@@ -7231,6 +7275,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
             endPos = start + getPageSize();
         }
 
+
         if (start == 1){
             resultSet.beforeFirst();
         }
@@ -7382,6 +7427,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         return pageSize;
     }
 
+
     /**
      * Retrieves the data present in the page prior to the page from where it is
      * called.
@@ -7483,6 +7529,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
        return retVal;
     }
     */
+
 
     /**
      * Goes to the page number passed as the parameter  from the current page.
@@ -7769,6 +7816,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
     }
 
+
     /*o
      * This method is used for updating SQL <code>NCLOB</code>  type that maps
      * to <code>java.sql.Types.NCLOB</code>
@@ -7805,6 +7853,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
     }
 
+
    /**
      * Retrieves the value of the designated column in the current row
      * of this <code>ResultSet</code> object as a <code>NClob</code> object
@@ -7826,6 +7875,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     public boolean isWrapperFor(Class<?> interfaces) throws SQLException {
         return false;
     }
+
 
    /**
       * Sets the designated parameter to the given <code>java.sql.SQLXML</code> object. The driver converts this to an
@@ -7849,6 +7899,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
      }
 
+
     /**
      * Sets the designated parameter to the given <code>java.sql.RowId</code> object. The
      * driver converts this to a SQL <code>ROWID</code> value when it sends it
@@ -7863,6 +7914,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
      }
 
+
     /**
     * Sets the designated parameter to the given <code>java.sql.RowId</code> object. The
     * driver converts this to a SQL <code>ROWID</code> when it sends it to the
@@ -7875,6 +7927,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
    public void setRowId(String parameterName, RowId x) throws SQLException {
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
      }
+
 
     /**
      * Sets the designated parameter to a <code>Reader</code> object. The
@@ -7901,6 +7954,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
      }
 
+
     /**
     * Sets the designated parameter to a <code>java.sql.NClob</code> object. The object
     * implements the <code>java.sql.NClob</code> interface. This <code>NClob</code>
@@ -7914,6 +7968,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     public void setNClob(String parameterName, NClob value) throws SQLException {
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
      }
+
 
   /**
      * Retrieves the value of the designated column in the current row
@@ -7933,6 +7988,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
        throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
      }
 
+
     /**
      * Retrieves the value of the designated column in the current row
      * of this <code>ResultSet</code> object as a
@@ -7950,6 +8006,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
     public java.io.Reader getNCharacterStream(String columnName) throws SQLException {
        throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.opnotysupp").toString());
      }
+
 
     /**
      * Updates the designated column with a <code>java.sql.SQLXML</code> value.
@@ -8678,6 +8735,7 @@ bel is the name of the column
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
     }
 
+
     /**
      * Updates the designated column with a binary stream value.
      * The updater methods are used to update column values in the
@@ -8871,6 +8929,7 @@ bel is the name of the column
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
   * Sets the designated parameter to a <code>Reader</code> object.
   * This method differs from the <code>setCharacterStream (int, Reader)</code> method
@@ -8895,6 +8954,7 @@ bel is the name of the column
     throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
     /**
      * Sets the designated parameter to a <code>Reader</code> object.  The reader must contain  the number
@@ -8922,6 +8982,7 @@ bel is the name of the column
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
     /**
      * Sets the designated parameter to a <code>java.sql.NClob</code> object. The driver converts this to
 a
@@ -8935,6 +8996,7 @@ a
      public void setNClob(int parameterIndex, NClob value) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
    /**
   * Sets the designated parameter to the given <code>String</code> object.
@@ -8954,6 +9016,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
   * Sets the designated parameter to the given <code>String</code> object.
   * The driver converts this to a SQL <code>NCHAR</code> or
@@ -8968,6 +9031,7 @@ a
          throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
   * Sets the designated parameter to a <code>Reader</code> object. The
@@ -8984,6 +9048,7 @@ a
   public void setNCharacterStream(int parameterIndex, Reader value, long length) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
   * Sets the designated parameter to a <code>Reader</code> object. The
@@ -9077,6 +9142,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
   /**
     * Sets the designated parameter to the given <code>java.sql.Clob</code> object.
     * The driver converts this to an SQL <code>CLOB</code> value when it
@@ -9092,6 +9158,7 @@ a
     public void setClob (String parameterName, Clob x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to a <code>Reader</code> object.
@@ -9117,6 +9184,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given <code>java.sql.Date</code> value
     * using the default time zone of the virtual machine that is running
@@ -9136,6 +9204,7 @@ a
        throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to the given <code>java.sql.Date</code> value,
@@ -9162,6 +9231,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given <code>java.sql.Time</code> value.
     * The driver converts this
@@ -9179,6 +9249,7 @@ a
        throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to the given <code>java.sql.Time</code> value,
@@ -9253,6 +9324,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to a <code>InputStream</code> object.  The inputstream must contain  the number
     * of characters specified by length otherwise a <code>SQLException</code> will be
@@ -9281,6 +9353,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to a <code>InputStream</code> object.
     * This method differs from the <code>setBinaryStream (int, InputStream)</code>
@@ -9308,6 +9381,7 @@ a
        throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to a <code>InputStream</code> object.  The <code>inputstream</code> must contain  the number
@@ -9339,6 +9413,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given <code>java.sql.Blob</code> object.
     * The driver converts this to an SQL <code>BLOB</code> value when it
@@ -9354,6 +9429,7 @@ a
    public void setBlob (String parameterName, Blob x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to a <code>InputStream</code> object.
@@ -9425,6 +9501,8 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
+
  /**
     * Sets the value of the designated parameter with the given object.
     * This method is like the method <code>setObject</code>
@@ -9449,6 +9527,7 @@ a
        throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
    * Sets the value of the designated parameter with the given object.
@@ -9515,6 +9594,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given input stream, which will have
     * the specified number of bytes.
@@ -9539,6 +9619,7 @@ a
                         int length) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
   /**
     * Sets the designated parameter to the given <code>Reader</code>
@@ -9568,6 +9649,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
   /**
    * Sets the designated parameter to the given input stream.
    * When a very large ASCII value is input to a <code>LONGVARCHAR</code>
@@ -9594,6 +9676,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given input stream.
     * When a very large binary value is input to a <code>LONGVARBINARY</code>
@@ -9618,6 +9701,8 @@ a
    throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
+
 
  /**
     * Sets the designated parameter to the given <code>Reader</code>
@@ -9665,6 +9750,8 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
+
  /**
     * Sets the designated parameter to the given Java <code>String</code> value.
     * The driver converts this
@@ -9685,6 +9772,8 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
+
  /**
     * Sets the designated parameter to the given Java array of bytes.
     * The driver converts this to an SQL <code>VARBINARY</code> or
@@ -9703,6 +9792,8 @@ a
    public void setBytes(String parameterName, byte[] x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
+
 
  /**
     * Sets the designated parameter to the given <code>java.sql.Timestamp</code> value.
@@ -9738,6 +9829,7 @@ a
    public void setNull(String parameterName, int sqlType) throws SQLException {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to SQL <code>NULL</code>.
@@ -9775,6 +9867,8 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
+
  /**
     * Sets the designated parameter to the given Java <code>boolean</code> value.
     * The driver converts this
@@ -9791,6 +9885,8 @@ a
    public void setBoolean(String parameterName, boolean x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
+
 
  /**
     * Sets the designated parameter to the given Java <code>byte</code> value.
@@ -9809,6 +9905,8 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
+
  /**
     * Sets the designated parameter to the given Java <code>short</code> value.
     * The driver converts this
@@ -9825,6 +9923,7 @@ a
    public void setShort(String parameterName, short x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to the given Java <code>int</code> value.
@@ -9843,6 +9942,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given Java <code>long</code> value.
     * The driver converts this
@@ -9860,6 +9960,7 @@ a
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given Java <code>float</code> value.
     * The driver converts this
@@ -9876,6 +9977,7 @@ a
    public void setFloat(String parameterName, float x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("cachedrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to the given Java <code>double</code> value.

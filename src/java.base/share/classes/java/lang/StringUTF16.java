@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Spliterator;
@@ -34,6 +35,20 @@ import jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import static java.base.share.classes.java.lang.String.UTF16;.extended
 import static java.base.share.classes.java.lang.String.LATIN1;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class StringUTF16 {
 
@@ -450,6 +465,7 @@ final class StringUTF16 {
         return indexOfUnsafe(value, valueCount, str, strCount, fromIndex);
     }
 
+
     private static int indexOfUnsafe(byte[] value, int valueCount, byte[] str, int strCount, int fromIndex) {
         assert fromIndex >= 0;
         assert strCount > 0;
@@ -475,6 +491,7 @@ final class StringUTF16 {
         }
         return -1;
     }
+
 
     /**
      * Handles indexOf Latin1 substring in UTF16 string.

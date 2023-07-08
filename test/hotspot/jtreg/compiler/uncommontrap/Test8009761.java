@@ -21,9 +21,23 @@
 
 package compiler.uncommontrap;
 
+
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
 import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,6 +54,8 @@ import compiler.whitebox.CompilerWhiteBoxTest;
  *      -XX:CompileCommand=exclude,compiler.uncommontrap.Test8009761::m2
  *      compiler.uncommontrap.Test8009761
  */
+
+
 
 public class Test8009761 {
 

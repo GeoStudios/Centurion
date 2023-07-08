@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.io.PrintWriter;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -59,6 +60,20 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ReturnIns
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Select;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Factory creates il.append() statements, and sets instruction targets.
  * A helper class for BCELifier.
@@ -73,6 +88,7 @@ class BCELFactory extends EmptyVisitor {
     private final PrintWriter _out;
     private final ConstantPoolGen _cp;
 
+
     BCELFactory(final MethodGen mg, final PrintWriter out) {
         _mg = mg;
         _cp = mg.getConstantPool();
@@ -80,6 +96,7 @@ class BCELFactory extends EmptyVisitor {
     }
 
     private final Map<Instruction, InstructionHandle> branch_map = new HashMap<>();
+
 
     public void start() {
         if (!_mg.isAbstract() && !_mg.isNative()) {
@@ -107,6 +124,7 @@ class BCELFactory extends EmptyVisitor {
         }
     }
 
+
     private boolean visitInstruction( final Instruction i ) {
         final short opcode = i.getOpcode();
         if ((InstructionConst.getInstruction(opcode) != null)
@@ -117,6 +135,7 @@ class BCELFactory extends EmptyVisitor {
         }
         return false;
     }
+
 
     @Override
     public void visitLocalVariableInstruction( final LocalVariableInstruction i ) {
@@ -132,6 +151,7 @@ class BCELFactory extends EmptyVisitor {
         }
     }
 
+
     @Override
     public void visitArrayInstruction( final ArrayInstruction i ) {
         final short opcode = i.getOpcode();
@@ -140,6 +160,7 @@ class BCELFactory extends EmptyVisitor {
         _out.println("il.append(_factory.createArray" + kind + "(" + BCELifier.printType(type)
                 + "));");
     }
+
 
     @Override
     public void visitFieldInstruction( final FieldInstruction i ) {
@@ -151,6 +172,7 @@ class BCELFactory extends EmptyVisitor {
                 + "\", " + BCELifier.printType(type) + ", " + CONSTANT_PREFIX
                 + Const.getOpcodeName(opcode).toUpperCase(Locale.ENGLISH) + "));");
     }
+
 
     @Override
     public void visitInvokeInstruction( final InvokeInstruction i ) {
@@ -164,6 +186,7 @@ class BCELFactory extends EmptyVisitor {
                 + BCELifier.printArgumentTypes(arg_types) + ", " + CONSTANT_PREFIX
                 + Const.getOpcodeName(opcode).toUpperCase(Locale.ENGLISH) + "));");
     }
+
 
     @Override
     @SuppressWarnings("fallthrough") // by design for case Const.ANEWARRAY
@@ -197,6 +220,7 @@ class BCELFactory extends EmptyVisitor {
         }
     }
 
+
     private void createConstant( final Object value ) {
         String embed = value.toString();
         if (value instanceof String) {
@@ -214,20 +238,24 @@ class BCELFactory extends EmptyVisitor {
         _out.println("il.append(new PUSH(_cp, " + embed + "));");
     }
 
+
     @Override
     public void visitLDC( final LDC i ) {
         createConstant(i.getValue(_cp));
     }
+
 
     @Override
     public void visitLDC2_W( final LDC2_W i ) {
         createConstant(i.getValue(_cp));
     }
 
+
     @Override
     public void visitConstantPushInstruction( final ConstantPushInstruction i ) {
         createConstant(i.getValue());
     }
+
 
     @Override
     public void visitINSTANCEOF( final INSTANCEOF i ) {
@@ -235,11 +263,13 @@ class BCELFactory extends EmptyVisitor {
         _out.println("il.append(new INSTANCEOF(_cp.addClass(" + BCELifier.printType(type) + ")));");
     }
 
+
     @Override
     public void visitCHECKCAST( final CHECKCAST i ) {
         final Type type = i.getType(_cp);
         _out.println("il.append(_factory.createCheckCast(" + BCELifier.printType(type) + "));");
     }
+
 
     @Override
     public void visitReturnInstruction( final ReturnInstruction i ) {
@@ -249,6 +279,7 @@ class BCELFactory extends EmptyVisitor {
 
     // Memorize BranchInstructions that need an update
     private final List<BranchInstruction> branches = new ArrayList<>();
+
 
     @Override
     public void visitBranchInstruction( final BranchInstruction bi ) {
@@ -295,10 +326,12 @@ class BCELFactory extends EmptyVisitor {
         }
     }
 
+
     @Override
     public void visitRET( final RET i ) {
         _out.println("il.append(new RET(" + i.getIndex() + ")));");
     }
+
 
     private void updateBranchTargets() {
         for (final BranchInstruction bi : branches) {
@@ -316,6 +349,7 @@ class BCELFactory extends EmptyVisitor {
             }
         }
     }
+
 
     private void updateExceptionHandlers() {
         final CodeExceptionGen[] handlers = _mg.getExceptionHandlers();

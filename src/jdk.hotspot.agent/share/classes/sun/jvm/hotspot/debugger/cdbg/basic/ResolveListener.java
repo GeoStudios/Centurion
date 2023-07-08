@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Provides notification about failed resolutions in the debug info
     database without causing the entire resolve operation to fail */

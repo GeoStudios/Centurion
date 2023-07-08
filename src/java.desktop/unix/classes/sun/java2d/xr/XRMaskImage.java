@@ -21,8 +21,23 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import java.awt.*;
 import java.awt.geom.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Management of mask used for some blit-types.
@@ -52,6 +67,7 @@ public class XRMaskImage {
 
         initBlitMask(parentDrawable, BLIT_MASK_SIZE, BLIT_MASK_SIZE);
     }
+
 
     /**
      * Prepares a mask used by a TransformedBlit, fills mask-contents and applies

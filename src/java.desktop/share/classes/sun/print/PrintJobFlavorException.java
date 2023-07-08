@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import javax.print.DocFlavor;
 import javax.print.FlavorException;
 import javax.print.PrintException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 class PrintJobFlavorException extends PrintException

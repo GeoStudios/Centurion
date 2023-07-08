@@ -21,6 +21,21 @@
 
 package nsk.share.gc;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marker interface to tell that a something stresses OOM.
  */

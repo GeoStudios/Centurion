@@ -21,7 +21,22 @@
 
 package java.rmi.share.classes.sun.rmi.log;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public
 class LogOutputStream extends OutputStream {

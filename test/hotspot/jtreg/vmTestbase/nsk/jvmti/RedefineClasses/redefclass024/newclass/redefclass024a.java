@@ -21,6 +21,21 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class redefclass024a {
     int intValue;
 

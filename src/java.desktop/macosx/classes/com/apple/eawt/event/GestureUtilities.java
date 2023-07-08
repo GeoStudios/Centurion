@@ -21,9 +21,24 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JRootPane;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Registration utility class to add {@link GestureListener}s to Swing components.

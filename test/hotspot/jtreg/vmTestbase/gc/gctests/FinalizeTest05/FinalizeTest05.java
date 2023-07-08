@@ -21,11 +21,25 @@
 
 package gc.gctests.FinalizeTest05;
 
+
 import nsk.share.gc.*;
 import java.util.*;
 import nsk.share.TestFailure;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,6 +52,8 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.FinalizeTest05.FinalizeTest05
  */
+
+
 
 /**
  */

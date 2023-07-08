@@ -21,8 +21,22 @@
 
 package gc.startup_warnings;
 
+
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestSerialGC
@@ -33,6 +47,8 @@ import jdk.test.lib.process.OutputAnalyzer;
  *          java.management
  * @run driver gc.startup_warnings.TestSerialGC
  */
+
+
 
 public class TestSerialGC {
 

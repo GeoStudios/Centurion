@@ -21,9 +21,24 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.CheckboxMenuItem;
 import java.awt.event.ItemEvent;
 import java.awt.peer.CheckboxMenuItemPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WCheckboxMenuItemPeer extends WMenuItemPeer
         implements CheckboxMenuItemPeer {

@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A {@code FloatControl} object provides control over a range of floating-point
  * values. Float controls are often represented in graphical user interfaces by
@@ -133,6 +149,7 @@ public abstract class FloatControl extends Control {
             throw new IllegalArgumentException("Initial value " + initialValue
                     + " exceeds allowable maximum value " + maximum + ".");
         }
+
 
         this.minimum = minimum;
         this.maximum = maximum;

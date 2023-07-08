@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BsdAddress implements Address {
     protected BsdDebugger debugger;
@@ -292,6 +307,7 @@ class BsdAddress implements Address {
   long getValue() {
     return addr;
   }
+
 
   private static void check(boolean arg, String failMessage) {
     if (!arg) {

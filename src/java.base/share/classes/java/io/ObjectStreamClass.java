@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.io;
 
+
 import java.base.share.classes.java.lang.invoke.MethodHandle;
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.MethodType;
@@ -64,6 +65,20 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaSecurityAccess;
 import sun.reflect.misc.ReflectUtil;
 import static java.base.share.classes.java.io.ObjectStreamField.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Serialization's descriptor for classes.  It contains the name and
@@ -2061,6 +2076,7 @@ public class ObjectStreamClass implements Serializable {
             typeCodes = new char[nfields];
             ArrayList<Class<?>> typeList = new ArrayList<>();
             Set<Long> usedKeys = new HashSet<>();
+
 
             for (int i = 0; i < nfields; i++) {
                 ObjectStreamField f = fields[i];

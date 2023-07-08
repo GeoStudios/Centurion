@@ -21,9 +21,24 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import java.lang.ref.SoftReference;
 import java.util.Date;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ZoneNode extends NameNode to represent a tree of the zones in the
@@ -44,6 +59,7 @@ import java.util.Vector;
  * repopulated later.
  *
  */
+
 
 class ZoneNode extends NameNode {
 

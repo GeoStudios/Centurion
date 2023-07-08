@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.util;
 
+
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * System Property access for internal use only.
@@ -168,6 +183,7 @@ public final class StaticProperty {
         return SUN_BOOT_LIBRARY_PATH;
     }
 
+
     /**
      * Return the {@code jdk.serialFilter} system property.
      *
@@ -180,6 +196,7 @@ public final class StaticProperty {
     public static String jdkSerialFilter() {
         return JDK_SERIAL_FILTER;
     }
+
 
     /**
      * Return the {@code jdk.serialFilterFactory} system property.

@@ -21,12 +21,26 @@
 
 package compiler.whitebox;
 
+
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import sun.hotspot.code.BlobType;
 import sun.hotspot.code.CodeBlob;
 import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test GetCodeHeapEntriesTest
@@ -44,6 +58,9 @@ import java.util.EnumSet;
  *                   -XX:+WhiteBoxAPI -XX:+SegmentedCodeCache
  *                   compiler.whitebox.GetCodeHeapEntriesTest
  */
+
+
+
 
 public class GetCodeHeapEntriesTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

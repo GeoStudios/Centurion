@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6559156
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main compiler.c2.Test6559156
  */
+
 
 public class Test6559156 {
 

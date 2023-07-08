@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8214239
@@ -33,6 +48,7 @@ package compiler.c2;
  *                   -XX:CompileCommand=dontinline,compiler/c2/TestBitSetAndReset.test*
  *                   compiler.c2.TestBitSetAndReset
  */
+
 
 public class TestBitSetAndReset {
     private static final int COUNT = 10_000;

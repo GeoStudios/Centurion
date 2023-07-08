@@ -21,10 +21,24 @@
 
 package nsk.jdwp.ThreadReference.OwnedMonitorsStackDepthInfo.ownedMonitorsStackDepthInfo001;
 
+
 import java.util.*;
 import nsk.share.TestBug;
 import nsk.share.jdwp.*;
 import nsk.share.locks.LockingThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ownedMonitorsStackDepthInfo001a extends AbstractJDWPDebuggee {
     public static Object monitor1;

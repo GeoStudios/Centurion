@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke.MethodHandles;
 
+
 import jdk.test.lib.TimeLimitedRunner;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
@@ -38,6 +39,19 @@ import java.base.share.classes.java.util.Objects;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @library /java/lang/invoke/common /test/lib

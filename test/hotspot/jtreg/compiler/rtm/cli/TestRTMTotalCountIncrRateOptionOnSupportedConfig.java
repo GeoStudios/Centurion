@@ -21,6 +21,21 @@
 
 package compiler.rtm.cli;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -33,6 +48,7 @@ package compiler.rtm.cli;
  * @requires vm.rtm.cpu & vm.rtm.compiler
  * @run driver compiler.rtm.cli.TestRTMTotalCountIncrRateOptionOnSupportedConfig
  */
+
 
 public class TestRTMTotalCountIncrRateOptionOnSupportedConfig
         extends RTMLockingAwareTest {

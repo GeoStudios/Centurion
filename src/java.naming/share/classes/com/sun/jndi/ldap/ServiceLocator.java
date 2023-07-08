@@ -21,12 +21,27 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.NamingManager;
 import javax.naming.ldap.LdapName;
 import javax.naming.ldap.Rdn;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class discovers the location of LDAP services by querying DNS.

@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.Dialog;
@@ -63,6 +64,20 @@ import java.desktop.unix.classes.sun.awt.X11GraphicsEnvironment;
 import java.desktop.unix.classes.sun.java2d.pipe.Region;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class XWindowPeer extends XPanelPeer implements WindowPeer,
                                                 DisplayChangedListener {
 
@@ -74,6 +89,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
 
     // should be synchronized on awtLock
     private static final Set<XWindowPeer> windows = new HashSet<XWindowPeer>();
+
 
     private boolean cachedFocusableWindow;
     XWarningWindow warningWindow;
@@ -165,6 +181,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
 
         XA_NET_WM_STATE = XAtom.get("_NET_WM_STATE");
 
+
         params.put(OVERRIDE_REDIRECT, Boolean.valueOf(isOverrideRedirect()));
 
         SunToolkit.awtLock();
@@ -192,6 +209,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
                // we should not call setForeGround because it will call a repaint
                // which the peer may not be ready to do yet.
         }
+
 
         alwaysOnTop = ((Window)target).isAlwaysOnTop() && ((Window)target).isAlwaysOnTopSupported();
 
@@ -1006,6 +1024,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
             Native.putLong(to_restack, 1,  mytopl);
             XlibWrapper.XRestackWindows(XToolkit.getDisplay(), to_restack, 2);
             XlibWrapper.unsafe.freeMemory(to_restack);
+
 
             if( !mustControlStackPosition ) {
                 mustControlStackPosition = true;

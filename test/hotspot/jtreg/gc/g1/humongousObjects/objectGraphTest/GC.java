@@ -21,12 +21,26 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods to initiate GC of requested type and
@@ -233,6 +247,7 @@ public enum GC {
      * @return list of tokens that should not be contained in gc log after gc of specified type
      */
     public abstract List<String> shouldNotContain();
+
 
     /**
      * Checks object' state after gc

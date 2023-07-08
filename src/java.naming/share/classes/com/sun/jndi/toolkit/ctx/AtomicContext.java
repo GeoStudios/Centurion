@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
 
+
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Clients: deal only with names for its own naming service
@@ -44,6 +59,7 @@ public abstract class AtomicContext extends ComponentContext {
     }
 
 // ------ Abstract methods whose implementation are provided by subclasses
+
 
     /* Equivalent to Context methods */
     protected abstract Object a_lookup(String name, Continuation cont)
@@ -81,6 +97,7 @@ public abstract class AtomicContext extends ComponentContext {
      */
     protected abstract StringHeadTail c_parseComponent(String inputName,
         Continuation cont) throws NamingException;
+
 
 // ------ Methods that need to be overridden by subclass
 
@@ -172,6 +189,7 @@ public abstract class AtomicContext extends ComponentContext {
     // the same meaning as the same name without a trailing slash,
     // then it should override these a_*_nns methods.
 
+
     protected Object a_lookup_nns(String name, Continuation cont)
         throws NamingException {
             a_processJunction_nns(name, cont);
@@ -231,6 +249,8 @@ public abstract class AtomicContext extends ComponentContext {
             a_processJunction_nns(cont);
             return null;
         }
+
+
 
     protected boolean isEmpty(String name) {
         return name == null || name.isEmpty();
@@ -555,6 +575,7 @@ public abstract class AtomicContext extends ComponentContext {
     protected boolean resolve_to_context(Name name, Continuation cont)
     throws NamingException {
         String target = name.toString();
+
 
         StringHeadTail ht = c_parseComponent(target, cont);
         String tail = ht.getTail();

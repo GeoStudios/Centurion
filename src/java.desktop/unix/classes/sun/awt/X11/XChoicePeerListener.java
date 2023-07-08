@@ -21,6 +21,22 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * The listener interface for receiving "interesting" for XFileDialogPeer
  * choice events (opening, closing).

@@ -21,7 +21,22 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.settings;
 
+
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class for settings that use boolean numbers

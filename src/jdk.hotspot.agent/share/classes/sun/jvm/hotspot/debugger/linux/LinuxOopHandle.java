@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LinuxOopHandle extends LinuxAddress implements OopHandle {
   public LinuxOopHandle(LinuxDebugger debugger, long addr) {

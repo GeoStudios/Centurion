@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  <code>LSResourceResolver</code> provides a way for applications to
  * redirect references to external resources.

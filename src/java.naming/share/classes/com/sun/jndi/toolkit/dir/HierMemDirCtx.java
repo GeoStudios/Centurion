@@ -21,10 +21,25 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.dir;
 
+
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A sample service provider that implements a hierarchical directory in memory.
@@ -336,6 +351,7 @@ public class HierMemDirCtx implements DirContext {
         return new FlatNames(bindings.keys());
     }
 
+
     public NamingEnumeration<Binding> listBindings(String name) throws NamingException {
         return listBindings(myParser.parse(name));
     }
@@ -407,6 +423,7 @@ public class HierMemDirCtx implements DirContext {
         }
         return newCtx;
     }
+
 
     public Object lookupLink(String name) throws NamingException {
         // This context does not treat links specially
@@ -726,6 +743,7 @@ public class HierMemDirCtx implements DirContext {
      protected Name getLeafName(Name name) throws NamingException {
          return (name.getSuffix(name.size() - 1));
      }
+
 
      public DirContext getSchema(String name) throws NamingException {
         throw new OperationNotSupportedException();

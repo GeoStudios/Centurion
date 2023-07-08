@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.javax.xml.parsers;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when a problem with configuration with the Parser Factories
  * exists. This error will typically be thrown when the class of a
@@ -59,6 +75,7 @@ public class FactoryConfigurationError extends Error {
         this.exception = null;
     }
 
+
     /**
      * Create a new <code>FactoryConfigurationError</code> with a
      * given <code>Exception</code> base cause of the error.
@@ -85,6 +102,7 @@ public class FactoryConfigurationError extends Error {
         super(msg);
         this.exception = e;
     }
+
 
     /**
      * Return the message (if any) for this error . If there is no

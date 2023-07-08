@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
 import java.desktop.share.classes.javax.accessibility.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>JWindow</code> is a container that can be displayed anywhere on the
@@ -365,6 +380,7 @@ public class JWindow extends Window implements Accessible,
         rootPaneCheckingEnabled = enabled;
     }
 
+
     /**
      * Adds the specified child <code>Component</code>.
      * This method is overridden to conditionally forward calls to the
@@ -414,6 +430,7 @@ public class JWindow extends Window implements Accessible,
         }
     }
 
+
     /**
      * Sets the <code>LayoutManager</code>.
      * Overridden to conditionally forward the call to the
@@ -434,6 +451,7 @@ public class JWindow extends Window implements Accessible,
         }
     }
 
+
     /**
      * Returns the <code>rootPane</code> object for this window.
      * @return the <code>rootPane</code> property for this window
@@ -446,6 +464,7 @@ public class JWindow extends Window implements Accessible,
     public JRootPane getRootPane() {
         return rootPane;
     }
+
 
     /**
      * Sets the new <code>rootPane</code> object for this window.
@@ -470,6 +489,7 @@ public class JWindow extends Window implements Accessible,
             }
         }
     }
+
 
     /**
      * Returns the <code>Container</code> which is the <code>contentPane</code>
@@ -603,6 +623,7 @@ public class JWindow extends Window implements Accessible,
         ",rootPaneCheckingEnabled=" + rootPaneCheckingEnabledString;
     }
 
+
 /////////////////
 // Accessibility support
 ////////////////
@@ -625,6 +646,7 @@ public class JWindow extends Window implements Accessible,
         }
         return accessibleContext;
     }
+
 
     /**
      * This class implements accessibility support for the

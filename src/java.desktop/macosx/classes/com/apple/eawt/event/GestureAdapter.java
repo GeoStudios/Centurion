@@ -21,6 +21,22 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Abstract adapter class for receiving gesture events. This class is provided
  * as a convenience for creating listeners.

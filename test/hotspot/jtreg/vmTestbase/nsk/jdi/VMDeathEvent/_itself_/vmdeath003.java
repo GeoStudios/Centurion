@@ -21,6 +21,7 @@
 
 package nsk.jdi.VMDeathEvent._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,12 +31,29 @@ import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 
 // VMDeathEvent  Interface Name VMDeathEvent
 // _itself_  Method Name                _itself_
 // vmdeath003  Test Name                vmdeath003
 // ------------------------------------------------------
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -178,6 +196,7 @@ public class vmdeath003 extends JDIBase {
 
         return testExitCode;
     }
+
 
    /*
     * Return value: 0 - normal end of the test

@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
 
+
 import java.io.Serializable;
 import javax.lang.model.type.TypeKind;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PrimitiveTypeDesc extends TypeDesc implements Serializable {
 

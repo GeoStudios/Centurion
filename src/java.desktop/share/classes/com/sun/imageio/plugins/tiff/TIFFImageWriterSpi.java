@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.base.share.classes.java.util.Locale;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriter;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.spi.ServiceRegistry;
 import javax.imageio.stream.ImageOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageWriterSpi extends ImageWriterSpi {
 

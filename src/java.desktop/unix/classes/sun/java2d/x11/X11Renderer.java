@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.x11;
 
+
 import java.awt.Polygon;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
@@ -38,6 +39,20 @@ import java.desktop.unix.classes.sun.java2d.pipe.ShapeDrawPipe;
 import java.desktop.unix.classes.sun.java2d.pipe.SpanIterator;
 import java.desktop.unix.classes.sun.java2d.pipe.ShapeSpanIterator;
 import java.desktop.unix.classes.sun.java2d.pipe.LoopPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class X11Renderer implements
     PixelDrawPipe,

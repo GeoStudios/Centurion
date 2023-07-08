@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.font.FontRenderContext;
 import java.desktop.share.classes.java.awt.font.GlyphVector;
 import java.desktop.share.classes.java.awt.font.LineMetrics;
@@ -87,6 +88,20 @@ import static sun.font.EAttribute.ETRANSFORM;.extended
 import static sun.font.EAttribute.EUNDERLINE;.extended
 import static sun.font.EAttribute.EWEIGHT;.extended
 import static sun.font.EAttribute.EWIDTH;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Font} class represents fonts, which are used to
@@ -894,6 +909,7 @@ public class Font implements java.io.Serializable
         }
         return hasPerm;
     }
+
 
     /**
      * Returns a new array of {@code Font} decoded from the specified stream.
@@ -1851,6 +1867,7 @@ public class Font implements java.io.Serializable
         return getClass().getName() + "[family=" + getFamily() + ",name=" + name + ",style=" +
             strStyle + ",size=" + size + "]";
     } // toString()
+
 
     /** Serialization support.  A {@code readObject}
      *  method is necessary because the constructor creates
@@ -2819,6 +2836,7 @@ public class Font implements java.io.Serializable
      * after the indicated limit should not be examined.
      */
     public static final int LAYOUT_NO_LIMIT_CONTEXT = 4;
+
 
     private static void applyTransform(AffineTransform trans, AttributeValues values) {
         if (trans == null) {

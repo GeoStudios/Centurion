@@ -21,8 +21,22 @@
 
 package nsk.jvmti.unit.ForceEarlyReturn;
 
+
 import java.io.PrintStream;
 import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class earlyretlong {
 
@@ -45,6 +59,7 @@ public class earlyretlong {
     native static void getReady(Class cls, int depth, long retval_base);
     native static int check();
     native static void printLong(long val);
+
 
     public static void main(String args[]) {
         args = nsk.share.jvmti.JVMTITest.commonInit(args);

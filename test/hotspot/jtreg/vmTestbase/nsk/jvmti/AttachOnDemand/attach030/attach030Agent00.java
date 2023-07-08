@@ -21,9 +21,23 @@
 
 package nsk.jvmti.AttachOnDemand.attach030;
 
+
 import nsk.share.TestBug;
 import nsk.share.aod.AbstractJarAgent;
 import java.lang.instrument.Instrumentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * First agent tries to redefine class loaded by the target application, then agent itself loads

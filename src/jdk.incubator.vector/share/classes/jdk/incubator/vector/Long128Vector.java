@@ -21,6 +21,7 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
+
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
@@ -29,6 +30,20 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -118,6 +133,7 @@ final class Long128Vector extends LongVector {
     public Long128Vector broadcast(long e) {
         return (Long128Vector) super.broadcastTemplate(e);  // specialize
     }
+
 
     @Override
     @ForceInline
@@ -343,6 +359,7 @@ final class Long128Vector extends LongVector {
         return super.compareTemplate(Long128Mask.class, op, s);  // specialize
     }
 
+
     @Override
     @ForceInline
     public Long128Vector blend(Vector<Long> v, VectorMask<Long> m) {
@@ -428,6 +445,7 @@ final class Long128Vector extends LongVector {
             super.selectFromTemplate((Long128Vector) v,
                                      (Long128Mask) m);  // specialize
     }
+
 
     @ForceInline
     @Override
@@ -749,6 +767,8 @@ final class Long128Vector extends LongVector {
     LongVector fromArray0(long[] a, int offset) {
         return super.fromArray0Template(a, offset);  // specialize
     }
+
+
 
     @ForceInline
     @Override

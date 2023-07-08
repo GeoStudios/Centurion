@@ -21,9 +21,23 @@
 
 package compiler.compilercontrol.jcmd;
 
+
 import compiler.compilercontrol.share.IntrinsicCommand;
 import compiler.compilercontrol.share.IntrinsicCommand.IntrinsicId;
 import compiler.compilercontrol.share.scenario.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,8 @@ import compiler.compilercontrol.share.scenario.Scenario;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.jcmd.ControlIntrinsicTest
  */
+
+
 
 public class ControlIntrinsicTest {
     public static void main(String[] args) {

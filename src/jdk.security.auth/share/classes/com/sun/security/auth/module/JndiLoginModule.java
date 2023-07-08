@@ -21,6 +21,7 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
+
 import javax.security.auth.*;
 import javax.security.auth.callback.*;
 import javax.security.auth.login.*;
@@ -34,6 +35,20 @@ import jdk.security.auth.share.classes.com.sun.security.auth.UnixPrincipal;
 import jdk.security.auth.share.classes.com.sun.security.auth.UnixNumericUserPrincipal;
 import jdk.security.auth.share.classes.com.sun.security.auth.UnixNumericGroupPrincipal;
 import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The module prompts for a username and password
@@ -464,6 +479,7 @@ public class JndiLoginModule implements LoginModule {
         for (int i = 0; i < supplementaryGroups.size(); i++) {
             subject.getPrincipals().remove(supplementaryGroups.get(i));
         }
+
 
         // clean out state
         cleanState();

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.util;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.CodeSigner;
@@ -50,6 +51,20 @@ import java.util.jar.Manifest;
 import java.base.share.classes.sun.security.jca.Providers;
 import java.base.share.classes.sun.security.pkcs.PKCS7;
 import java.base.share.classes.sun.security.pkcs.SignerInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SignatureFileVerifier {
 
@@ -130,6 +145,7 @@ public class SignatureFileVerifier {
 
         return sfBytes == null;
     }
+
 
     /**
      * returns true if we need this .SF file.

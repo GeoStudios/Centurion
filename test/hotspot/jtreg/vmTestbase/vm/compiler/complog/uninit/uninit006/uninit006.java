@@ -21,7 +21,21 @@
 
 package vm.compiler.complog.uninit.uninit006;
 
+
 import vm.compiler.complog.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,7 @@ import vm.compiler.complog.share.*;
  *      -parserClass vm.compiler.complog.uninit.UninitializedTrapCounter
  *      -parserOptions "-classFilter=.*uninit.*"
  */
+
 
 /**
  * Provoke compilation of uninitialized class's method

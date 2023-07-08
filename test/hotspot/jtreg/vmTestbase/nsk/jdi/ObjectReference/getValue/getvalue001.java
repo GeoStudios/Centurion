@@ -21,6 +21,7 @@
 
 package nsk.jdi.ObjectReference.getValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -143,6 +157,7 @@ public class getvalue001 {
         }
 
         waitTime = argsHandler.getWaitTime();
+
 
         IOPipe pipe     = new IOPipe(debuggee);
 
@@ -304,6 +319,7 @@ public class getvalue001 {
                 Field fsln2 = testedClass.fieldByName("ln2");
                 Field fssh2 = testedClass.fieldByName("sh2");
 
+
                 log2("......loop of checks on each primitive type by performing statements like first one:");
                 log2("        BooleanValue blv = (BooleanValue) thisobj.getValue(fsbl1);");
                 for ( int i3 = 0; i3 < 8; i3++) {
@@ -368,6 +384,7 @@ public class getvalue001 {
                                 shv = (ShortValue) thisobj.getValue(fssh2);
                                 break;
 
+
                       default : log3("ERROR: TEST ERROR:  case: default:");
                                 expresult = returnCode1;
                                 break;
@@ -421,6 +438,8 @@ public class getvalue001 {
         }
         return testExitCode;
     }
+
+
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
@@ -479,6 +498,7 @@ public class getvalue001 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

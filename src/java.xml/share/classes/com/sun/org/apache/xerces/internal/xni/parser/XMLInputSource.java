@@ -21,15 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
 import java.io.InputStream;
 import java.io.Reader;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class represents an input source for an XML document. The

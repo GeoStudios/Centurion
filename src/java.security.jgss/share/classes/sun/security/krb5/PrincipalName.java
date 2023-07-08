@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.net.*;
@@ -31,6 +32,20 @@ import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
 import java.security.jgss.share.classes.sun.security.krb5.internal.ccache.CCacheOutputStream;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1 PrincipalName type and its realm in a single class.
@@ -116,6 +131,7 @@ public class PrincipalName implements Cloneable {
      * The realm this principal belongs to.
      */
     private final Realm nameRealm;      // not null
+
 
     /**
      * When constructing a PrincipalName, whether the realm is included in
@@ -307,6 +323,7 @@ public class PrincipalName implements Cloneable {
             return new PrincipalName(subDer, realm);
         }
     }
+
 
     // XXX Error checkin consistent with MIT krb5_parse_name
     // Code repetition, realm parsed again by class Realm
@@ -594,6 +611,7 @@ public class PrincipalName implements Cloneable {
         temp.write(DerValue.tag_Sequence, bytes);
         return temp.toByteArray();
     }
+
 
     /**
      * Checks if two <code>PrincipalName</code> objects have identical values in their corresponding data fields.

@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.beans.ConstructorProperties;
 import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code BasicStroke} class defines a basic set of rendering
@@ -281,6 +296,7 @@ public class BasicStroke implements Stroke {
     public BasicStroke() {
         this(1.0f, CAP_SQUARE, JOIN_MITER, 10.0f, null, 0.0f);
     }
+
 
     /**
      * Returns a {@code Shape} whose interior defines the

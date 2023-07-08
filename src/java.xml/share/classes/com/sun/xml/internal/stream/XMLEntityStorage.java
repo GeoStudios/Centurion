@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
@@ -34,6 +35,20 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -110,6 +125,7 @@ public class XMLEntityStorage {
      */
     public void reset(XMLComponentManager componentManager)
     throws XMLConfigurationException {
+
 
         // xerces features
 

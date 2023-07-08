@@ -21,6 +21,7 @@
 
 package nsk.jdi.StackFrame.setValue.setvalue005;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -29,6 +30,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -72,6 +86,10 @@ import nsk.share.jdi.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
+
 
 /**
  * The test checks that the JDI method:<br>

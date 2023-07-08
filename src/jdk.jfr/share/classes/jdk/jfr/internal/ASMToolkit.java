@@ -21,6 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintWriter;
 import java.util.java.util.java.util.java.util.List;
@@ -32,6 +33,20 @@ import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Method;
 import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.util.TraceClassVisitor;
 import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.FieldInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ASMToolkit {
     private static final Type TYPE_STRING = Type.getType(String.class);
@@ -49,6 +64,7 @@ final class ASMToolkit {
     public static void invokeVirtual(MethodVisitor methodVisitor, String className, Method m) {
         methodVisitor.visitMethodInsn(Opcodes.INVOKEVIRTUAL, className, m.getName(), m.getDescriptor(), false);
     }
+
 
     public static Type toType(ValueDescriptor v) {
         String typeName = v.getTypeName();

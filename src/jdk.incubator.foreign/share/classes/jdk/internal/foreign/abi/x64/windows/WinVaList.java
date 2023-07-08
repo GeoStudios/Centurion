@@ -21,6 +21,7 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows;
 
+
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.Vajava.util.java.util.java.util.List;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
@@ -32,6 +33,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.Win64.C_POINTER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // see vadefs.h (VC header)
 //

@@ -21,12 +21,29 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Thrown when an invalid string operation is passed
  * to a method for constructing a query.
  *
  */
 public class BadStringOperationException extends Exception   {
+
 
     /* Serial version */
     private static final long serialVersionUID = 7802201238441662100L;
@@ -45,6 +62,7 @@ public class BadStringOperationException extends Exception   {
     public BadStringOperationException(String message) {
         this.op = message;
     }
+
 
     /**
      * Returns the string representing the object.

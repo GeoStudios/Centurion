@@ -21,12 +21,27 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
+
 import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1 Realm type.
@@ -193,6 +208,7 @@ public class Realm implements Cloneable {
         out.putDerValue(new KerberosString(this.realm).toDerValue());
         return out.toByteArray();
     }
+
 
     /**
      * Parse (unmarshal) a realm from a DER input stream.  This form

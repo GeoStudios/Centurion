@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import javax.xml.parsers.ParserConfigurationException;
@@ -30,10 +31,27 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.si
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Base class which all Transform algorithms extend. The common methods that
@@ -43,6 +61,7 @@ import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
  * Extensions of this class must be thread-safe.
  */
 public abstract class TransformSpi {
+
 
     /**
      * The mega method which MUST be implemented by the Transformation Algorithm.

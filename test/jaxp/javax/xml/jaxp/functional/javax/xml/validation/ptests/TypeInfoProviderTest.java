@@ -21,6 +21,7 @@
 
 package javax.xml.validation.ptests;
 
+
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static javax.xml.validation.ptests.ValidationTestConst.XML_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
@@ -42,6 +43,19 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

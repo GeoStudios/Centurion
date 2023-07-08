@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
@@ -34,6 +35,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceI
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XML representation for an attribute declaration

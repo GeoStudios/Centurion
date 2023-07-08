@@ -21,10 +21,24 @@
 
 package nsk.jdwp.Method.IsObsolete;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: Method.IsObsolete.
@@ -415,6 +429,7 @@ public class isobsolete002 {
 
         return location;
     }
+
 
     /**
      * Load class bytes form the given file.

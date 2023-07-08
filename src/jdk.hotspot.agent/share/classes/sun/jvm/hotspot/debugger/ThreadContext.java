@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This is a placeholder interface for a thread's context, containing
     only integer registers (no floating-point ones). What it contains

@@ -21,8 +21,22 @@
 
 package nsk.share.jpda;
 
+
 import nsk.share.*;
 import nsk.share.jdi.Binder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements communicational channel between
@@ -92,6 +106,7 @@ public class IOPipe extends SocketIOPipe {
         ioPipe.startListening();
         return ioPipe;
     }
+
 
     protected void connect() {
         super.connect();

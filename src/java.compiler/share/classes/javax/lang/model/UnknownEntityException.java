@@ -21,6 +21,22 @@
 
 package java.compiler.share.classes.javax.lang.model;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Superclass of exceptions which indicate that an unknown kind of
  * entity was encountered.  This situation can occur if the language

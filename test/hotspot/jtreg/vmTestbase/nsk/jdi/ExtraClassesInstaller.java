@@ -21,11 +21,25 @@
 
 package nsk.jdi;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ExtraClassesInstaller {
     public static void main(String[] args) {

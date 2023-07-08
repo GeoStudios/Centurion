@@ -21,11 +21,26 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Event annotation, determines whether an event by default has a stack trace

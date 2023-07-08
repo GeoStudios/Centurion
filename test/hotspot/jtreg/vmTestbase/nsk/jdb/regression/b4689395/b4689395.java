@@ -21,11 +21,25 @@
 
 package nsk.jdb.regression.b4689395;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import nsk.share.classload.ClassLoadUtils;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -117,6 +131,9 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class b4689395 extends JdbTest {
         final static String TEST_CLASS     = b4689395.class.getName();

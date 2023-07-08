@@ -21,14 +21,31 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.base.share.classes.java.util.Arrays;
 import java.management.share.classes.javax.management.Descriptor;
 import java.management.share.classes.javax.management.ImmutableDescriptor;
 import java.management.share.classes.javax.management.MBeanOperationInfo;
 import java.management.share.classes.javax.management.MBeanParameterInfo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // java import
 //
+
+
 
 /**
  * Describes an operation of an Open MBean.
@@ -49,10 +66,12 @@ public class OpenMBeanOperationInfoSupport
      */
     private final OpenType<?> returnOpenType;
 
+
     // As this instance is immutable,
     // these two values need only be calculated once.
     private transient Integer myHashCode = null;
     private transient String  myToString = null;
+
 
     /**
      * <p>Constructs an {@code OpenMBeanOperationInfoSupport}
@@ -175,6 +194,7 @@ public class OpenMBeanOperationInfoSupport
         this.returnOpenType = returnOpenType;
     }
 
+
     // Converts an array of OpenMBeanParameterInfo objects extending
     // MBeanParameterInfo into an array of MBeanParameterInfo.
     //
@@ -203,9 +223,11 @@ public class OpenMBeanOperationInfoSupport
         return dst;
     }
 
+
     // [JF]: should we add constructor with java.lang.reflect.Method
     // method parameter ?  would need to add consistency check between
     // OpenType<?> returnOpenType and method.getReturnType().
+
 
     /**
      * Returns the <i>open type</i> of the values returned by the
@@ -217,7 +239,10 @@ public class OpenMBeanOperationInfoSupport
         return returnOpenType;
     }
 
+
+
     /* ***  Commodity methods from java.lang.Object  *** */
+
 
     /**
      * <p>Compares the specified {@code obj} parameter with this

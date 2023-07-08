@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -44,6 +45,20 @@ import sun.awt.EmbeddedFrame;
 import sun.awt.OSInfo;
 import sun.swing.SwingAccessor;
 import static java.desktop.share.classes.javax.swing.ClientPropertyKey.PopupFactory_FORCE_HEAVYWEIGHT_POPUP;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>PopupFactory</code>, as the name implies, is used to obtain
@@ -146,6 +161,7 @@ public class PopupFactory {
         }
         return factory;
     }
+
 
     /**
      * Provides a hint as to the type of <code>Popup</code> that should
@@ -346,6 +362,7 @@ public class PopupFactory {
         return false;
     }
 
+
     /**
      * Popup implementation that uses a Window as the popup.
      */
@@ -541,6 +558,8 @@ public class PopupFactory {
         }
     }
 
+
+
     /**
      * ContainerPopup consolidates the common code used in the light/medium
      * weight implementations of <code>Popup</code>.
@@ -682,6 +701,7 @@ public class PopupFactory {
         }
     }
 
+
     /**
      * Popup implementation that is used in headless environment.
      */
@@ -702,6 +722,7 @@ public class PopupFactory {
         public void hide() {
         }
     }
+
 
     /**
      * Popup implementation that uses a JPanel as the popup.
@@ -772,6 +793,8 @@ public class PopupFactory {
                 return null;
             }
         }
+
+
 
         //
         // Popup methods
@@ -853,6 +876,7 @@ public class PopupFactory {
         }
     }
 
+
     /**
      * Popup implementation that uses a Panel as the popup.
      */
@@ -862,6 +886,7 @@ public class PopupFactory {
 
         /** Child of the panel. The contents are added to this. */
         private JRootPane rootPane;
+
 
         /**
          * Returns a medium weight <code>Popup</code> implementation. If
@@ -926,6 +951,7 @@ public class PopupFactory {
                 return null;
             }
         }
+
 
         //
         // Popup
@@ -998,6 +1024,7 @@ public class PopupFactory {
             rootPane.getContentPane().add(contents, BorderLayout.CENTER);
             pack();
         }
+
 
         // This implements SwingHeavyWeight so that repaints on it
         // are processed by the RepaintManager and SwingPaintEventDispatcher.

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import javax.imageio.metadata.IIOMetadataFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFAttrInfo {
     int valueType = IIOMetadataFormat.VALUE_ARBITRARY;

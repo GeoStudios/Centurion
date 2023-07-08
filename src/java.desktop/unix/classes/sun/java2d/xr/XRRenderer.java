@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
+
 import java.awt.*;
 import java.awt.geom.*;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
@@ -36,6 +37,20 @@ import java.desktop.unix.classes.sun.java2d.pipe.ShapeSpanIterator;
 import java.desktop.unix.classes.sun.java2d.pipe.LoopPipe;
 import static java.desktop.unix.classes.sun.java2d.xr.XRUtils.clampToShort;.extended
 import static java.desktop.unix.classes.sun.java2d.xr.XRUtils.clampToUShort;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XRender provides only accalerated rectangles. To emulate higher "order"

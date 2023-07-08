@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.loading;
 
+
 import com.sun.jmx.defaults.JmxProperties;
 import com.sun.jmx.defaults.ServiceName;
 import com.sun.jmx.remote.util.EnvHelp;
@@ -64,7 +65,26 @@ import static com.sun.jmx.defaults.JmxProperties.MLET_LOGGER;.extended
 import com.sun.jmx.defaults.ServiceName;
 import java.management.share.classes.javax.management.ServiceNotFoundException;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Java import
+
+
+
+
+
 
 /**
  * Allows you to instantiate and register one or several MBeans in the MBean server
@@ -177,6 +197,7 @@ public class MLet extends java.net.URLClassLoader
       */
      private MBeanServer server = null;
 
+
      /**
       * The list of instances of the <CODE>MLetContent</CODE>
       * class found at the specified URL.
@@ -184,10 +205,12 @@ public class MLet extends java.net.URLClassLoader
       */
      private List<MLetContent> mletList = new ArrayList<MLetContent>();
 
+
      /**
       * The directory used for storing libraries locally before they are loaded.
       */
      private String libraryDirectory;
+
 
      /**
       * The object name of the MLet Service.
@@ -229,6 +252,7 @@ public class MLet extends java.net.URLClassLoader
          primitiveClasses.put(Double.TYPE.toString(), Double.class);
 
      }
+
 
      /*
       * ------------------------------------------
@@ -372,11 +396,13 @@ public class MLet extends java.net.URLClassLoader
          }
      }
 
+
      /*
       * ------------------------------------------
       *  PUBLIC METHODS
       * ------------------------------------------
       */
+
 
      /**
       * Appends the specified URL to the list of URLs to search for classes and
@@ -776,6 +802,7 @@ public class MLet extends java.net.URLClassLoader
      public void preDeregister() throws java.lang.Exception {
      }
 
+
      /**
       * Allows the m-let to perform any operations needed after having been
       * unregistered in the MBean server.
@@ -1068,6 +1095,7 @@ public class MLet extends java.net.URLClassLoader
          //
          return null;
      }
+
 
      /*
       * ------------------------------------------

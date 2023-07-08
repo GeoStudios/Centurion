@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import com.sun.beans.finder.BeanInfoFinder;
 import com.sun.beans.finder.PropertyEditorFinder;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.util.Map;
 import java.desktop.share.classes.java.util.WeakHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ThreadGroupContext} is an application-dependent
@@ -69,6 +84,7 @@ final class ThreadGroupContext {
         this.isDesignTime = isDesignTime;
     }
 
+
     boolean isGuiAvailable() {
         Boolean isGuiAvailable = this.isGuiAvailable;
         return (isGuiAvailable != null)
@@ -79,6 +95,7 @@ final class ThreadGroupContext {
     void setGuiAvailable(boolean isGuiAvailable) {
         this.isGuiAvailable = Boolean.valueOf(isGuiAvailable);
     }
+
 
     synchronized BeanInfo getBeanInfo(Class<?> type) {
         return (this.beanInfoCache != null)
@@ -104,6 +121,7 @@ final class ThreadGroupContext {
             this.beanInfoCache.clear();
         }
     }
+
 
     synchronized BeanInfoFinder getBeanInfoFinder() {
         if (this.beanInfoFinder == null) {

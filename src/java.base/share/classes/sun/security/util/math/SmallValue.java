@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.security.util.math;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A "small" value that can be used with the field arithmetic library. This
  * interface enables optimizations based on the fact that certain values are
@@ -30,4 +46,5 @@ package java.base.share.classes.sun.security.util.math;
 
 public interface SmallValue {
 }
+
 

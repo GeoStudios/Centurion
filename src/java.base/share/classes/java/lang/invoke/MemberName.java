@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
+
 import sun.invoke.util.BytecodeDescriptor;
 import sun.invoke.util.VerifyAccess;
 import java.base.share.classes.java.lang.reflect.Constructor;
@@ -32,6 +33,20 @@ import java.base.share.classes.java.util.*;
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code MemberName} is a compact symbolic datum which fully characterizes
@@ -872,6 +887,7 @@ final class MemberName implements Member, Cloneable {
             throw new LinkageError("bad field type alias: "+type+" not visible from "+refc);
         }
     }
+
 
     /** Produce a string form of this member name.
      *  For types, it is simply the type's own string (as reported by {@code toString}).

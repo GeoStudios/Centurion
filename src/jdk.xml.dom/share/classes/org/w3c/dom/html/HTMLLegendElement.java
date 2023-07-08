@@ -21,6 +21,22 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  Provides a caption for a <code>FIELDSET</code> grouping.  See the  LEGEND
  * element definition in HTML 4.0.

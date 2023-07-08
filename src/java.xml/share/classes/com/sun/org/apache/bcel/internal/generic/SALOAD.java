@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * SALOAD - Load short from array
@@ -36,6 +53,7 @@ public class SALOAD extends ArrayInstruction implements StackProducer {
     public SALOAD() {
         super(com.sun.org.apache.bcel.internal.Const.SALOAD);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

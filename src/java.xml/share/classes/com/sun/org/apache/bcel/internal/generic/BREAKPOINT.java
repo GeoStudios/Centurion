@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * BREAKPOINT, JVM dependent, ignored by default
@@ -35,6 +52,7 @@ public class BREAKPOINT extends Instruction {
     public BREAKPOINT() {
         super(com.sun.org.apache.bcel.internal.Const.BREAKPOINT, (short) 1);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

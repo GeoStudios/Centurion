@@ -21,12 +21,26 @@
 
 package org.xml.sax.ptests;
 
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple attributes handler.

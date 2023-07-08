@@ -21,9 +21,24 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
+
 import java.util.HashMap;
 import jdk.compiler.share.classes.com.sun.source.doctree.EntityTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Table of entities defined in HTML 5.2.

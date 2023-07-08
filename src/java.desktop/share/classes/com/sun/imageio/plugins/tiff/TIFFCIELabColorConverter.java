@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class TIFFCIELabColorConverter extends TIFFColorConverter {
 
     // XYZ coordinate or reference white (CIE D65)
@@ -31,6 +47,7 @@ public class TIFFCIELabColorConverter extends TIFFColorConverter {
     private static final float THRESHOLD = (float)Math.pow(0.008856, 1.0/3.0);
 
     public TIFFCIELabColorConverter() {}
+
 
     private float clamp(float x) {
         if (x < 0.0f) {

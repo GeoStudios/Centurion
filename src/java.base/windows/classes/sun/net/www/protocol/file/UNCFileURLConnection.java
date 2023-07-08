@@ -21,10 +21,25 @@
 
 package java.base.windows.classes.sun.net.www.protocol.file;
 
+
 import java.io.File;
 import java.io.FilePermission;
 import java.net.URL;
 import java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class UNCFileURLConnection extends FileURLConnection {
 

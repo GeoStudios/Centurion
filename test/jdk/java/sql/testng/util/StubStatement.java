@@ -21,6 +21,7 @@
 
 package util;
 
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -28,6 +29,19 @@ import java.sql.SQLWarning;
 import java.sql.Statement;
 import java.util.regex.Pattern;
 import static java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubStatement implements Statement {
 
@@ -250,5 +264,7 @@ public class StubStatement implements Statement {
     public boolean isWrapperFor(Class<?> iface) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+
 
 }

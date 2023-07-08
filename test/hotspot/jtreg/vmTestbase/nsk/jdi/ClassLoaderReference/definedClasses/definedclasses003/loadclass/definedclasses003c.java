@@ -21,6 +21,21 @@
 
 package nsk.jdi.ClassLoaderReference.definedClasses;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class should not be loaded by definedclasses003aClassLoader .
  */

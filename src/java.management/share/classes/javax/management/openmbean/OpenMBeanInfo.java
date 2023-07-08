@@ -21,16 +21,34 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.management.share.classes.javax.management.MBeanAttributeInfo;
 import java.management.share.classes.javax.management.MBeanOperationInfo;
 import java.management.share.classes.javax.management.MBeanConstructorInfo;
 import java.management.share.classes.javax.management.MBeanNotificationInfo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // java import
 //
 
+
 // jmx import
 //
+
+
 
 /**
  * <p>Describes an Open MBean: an Open MBean is recognized as such if
@@ -122,6 +140,7 @@ public interface OpenMBeanInfo {
      * @return the notification array.
      */
     MBeanNotificationInfo[] getNotifications() ;
+
 
     // commodity methods
     //

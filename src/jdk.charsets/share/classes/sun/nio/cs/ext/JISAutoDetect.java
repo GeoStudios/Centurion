@@ -21,6 +21,7 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -35,6 +36,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import jdk.charsets.share.classes.sun.nio.cs.*;
 import static java.lang.Character.UnicodeBlock;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JISAutoDetect
     extends Charset
@@ -215,6 +230,7 @@ public class JISAutoDetect
                 throw new IllegalStateException("charset not yet detected");
             return ((CharsetDecoder) detectedDecoder).charset();
         }
+
 
         /**
          * Returned Shift_JIS Charset name is OS dependent

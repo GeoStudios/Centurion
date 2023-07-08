@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.event.PaintEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PaintEventDispatcher is responsible for dispatching PaintEvents.  There

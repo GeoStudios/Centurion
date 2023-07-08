@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class CurveLink {
     Curve curve;
     double ytop;

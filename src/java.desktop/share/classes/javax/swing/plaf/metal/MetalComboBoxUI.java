@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import java.io.Serializable;
 import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Metal UI for JComboBox

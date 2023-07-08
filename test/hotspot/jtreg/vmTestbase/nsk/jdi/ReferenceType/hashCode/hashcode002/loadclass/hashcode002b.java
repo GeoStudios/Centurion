@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.hashCode;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the hashCode() method of ReferenceType interface for UNLOADED class
+
 
 class hashcode002b {}

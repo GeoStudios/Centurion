@@ -21,8 +21,22 @@
 
 package jit.t.t033;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t033.t033
  */
+
+
 
 // opc_iand, opc_ior, opc_ixor
 // opc_land, opc_lor, opc_lxor

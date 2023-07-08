@@ -21,7 +21,21 @@
 
 package jit.verifier.VerifyInitLocal;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,6 +50,8 @@ import nsk.share.TestFailure;
  * @compile VerifyInitLocal3N.jasm
  * @run main/othervm jit.verifier.VerifyInitLocal.VerifyInitLocal
  */
+
+
 
 /**
  * @(#)VerifyInitLocal.java       1.1 01/03/15

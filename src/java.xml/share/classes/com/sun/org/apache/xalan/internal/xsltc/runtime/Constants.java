@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class defines constants used by both the compiler and the

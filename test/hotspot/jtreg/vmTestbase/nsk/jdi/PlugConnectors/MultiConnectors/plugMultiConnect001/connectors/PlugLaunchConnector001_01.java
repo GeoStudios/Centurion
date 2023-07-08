@@ -21,15 +21,31 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001.connectors;
 
+
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * A Simple LaunchingConnector without default arguments used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect001 test
  */
+
+
 
 public class PlugLaunchConnector001_01 extends PlugConnectors implements LaunchingConnector {
 
@@ -41,6 +57,7 @@ public class PlugLaunchConnector001_01 extends PlugConnectors implements Launchi
         = new PlugConnectorsTransport("PlugLaunchConnector001_01_Transport");
     static Map<String, Connector.Argument> plugLaunchConnectorDefaultArguments
         = new HashMap<String, Connector.Argument>();
+
 
     public PlugLaunchConnector001_01() {
 

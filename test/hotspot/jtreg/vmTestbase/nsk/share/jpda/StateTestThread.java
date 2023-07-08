@@ -21,8 +21,22 @@
 
 package nsk.share.jpda;
 
+
 import nsk.share.TestBug;
 import nsk.share.locks.MonitorLockingThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  StateTestThread sequentially switches its state in following order:

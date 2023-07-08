@@ -21,11 +21,25 @@
 
 package compiler.intrinsics;
 
+
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import java.lang.reflect.Executable;
 import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -65,6 +79,9 @@ import java.base.share.classes.java.util.Objects;
  *                   -XX:CompileCommand=DisableIntrinsic,jdk.internal.misc.Unsafe::putCharVolatile,_getIntVolatile
  *                   compiler.intrinsics.IntrinsicDisabledTest
 */
+
+
+
 
 public class IntrinsicDisabledTest {
 
@@ -179,6 +196,7 @@ public class IntrinsicDisabledTest {
             throw new RuntimeException("Intrinsic for [" + getInt.toGenericString() +
                                        "] is not available globally although it should be.");
         }
+
 
         if (!wb.isIntrinsicAvailable(getIntVolatile, compLevel)) {
             throw new RuntimeException("Intrinsic for [" + getIntVolatile.toGenericString() +

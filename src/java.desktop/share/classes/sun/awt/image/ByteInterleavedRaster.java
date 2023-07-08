@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.RasterFormatException;
@@ -31,6 +32,20 @@ import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.DataBufferByte;
 import java.awt.Rectangle;
 import java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines a Raster with pixels consisting of one or more
@@ -1166,6 +1181,7 @@ public class ByteInterleavedRaster extends ByteComponentRaster {
                         srcOffX, srcOffY,
                         width, height, srcRaster);
     }
+
 
     /**
      * Creates a subraster given a region of the raster.  The x and y

@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8076188 8246153 8248226
@@ -40,6 +55,7 @@ package compiler.arraycopy;
  *                   -XX:CompileCommand=dontinline,compiler.arraycopy.TestEliminateArrayCopy*::m*
  *                   compiler.arraycopy.TestEliminateArrayCopy
  */
+
 
 public class TestEliminateArrayCopy {
 

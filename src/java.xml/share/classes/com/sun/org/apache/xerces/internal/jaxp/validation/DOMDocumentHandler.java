@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
+
 import javax.xml.transform.dom.DOMResult;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
@@ -30,10 +31,28 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
 import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * <p>An extension to XMLDocumentHandler for building DOM structures.</p>

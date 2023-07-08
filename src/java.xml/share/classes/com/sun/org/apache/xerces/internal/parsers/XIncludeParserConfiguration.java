@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude.XIncludeHandler;
@@ -31,10 +32,26 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This parser configuration includes an <code>XIncludeHandler</code> in the pipeline
@@ -134,6 +151,7 @@ public class XIncludeParserConfiguration extends XML11Configuration {
         setProperty(XINCLUDE_HANDLER, fXIncludeHandler);
         setProperty(NAMESPACE_CONTEXT, new XIncludeNamespaceSupport());
     } // <init>(SymbolTable,XMLGrammarPool)}
+
 
         /** Configures the pipeline. */
     protected void configurePipeline() {

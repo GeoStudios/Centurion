@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -28,6 +29,20 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for <em>Attribute</em> objects. Currently the

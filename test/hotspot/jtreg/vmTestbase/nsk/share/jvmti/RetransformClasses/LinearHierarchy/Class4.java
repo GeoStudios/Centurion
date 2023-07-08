@@ -21,6 +21,21 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class4 extends Class5 {
     final float var_1 = 2.4781701E38F + 'h';
     float var_2;
@@ -30,6 +45,7 @@ public class Class4 extends Class5 {
     long var_6 = 8757737737422427136L;
     long var_7;
     final float var_8 = var_1;
+
 
     public Class4()
     {

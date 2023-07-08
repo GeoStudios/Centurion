@@ -21,12 +21,27 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
+
 import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
 import jdk.hotspot.agent.share.classes.com.sun.java.util.Vector;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            CommonUI
@@ -85,6 +100,7 @@ public class TabsDlg extends JDialog
         }
 
     }
+
 
     public TabsDlg(String title, Vector panels)
     {
@@ -210,5 +226,7 @@ public class TabsDlg extends JDialog
     private ActionListener cancelListener;
     private ActionListener applyListener;
     private static TabsDlg tabsDlg;
+
+
 
 }

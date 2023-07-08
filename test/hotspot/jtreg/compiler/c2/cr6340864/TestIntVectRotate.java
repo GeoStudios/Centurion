@@ -21,6 +21,21 @@
 
 package compiler.c2.cr6340864;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8248830
@@ -32,6 +47,7 @@ package compiler.c2.cr6340864;
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:MaxVectorSize=32 compiler.c2.cr6340864.TestIntVectRotate
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:+IgnoreUnrecognizedVMOptions -XX:UseAVX=3 compiler.c2.cr6340864.TestIntVectRotate
  */
+
 
 public class TestIntVectRotate {
   private static final int ARRLEN = 997;

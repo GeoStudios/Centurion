@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.awt.event.InputEvent;
 import java.util.EventObject;
 import java.net.URL;
 import java.desktop.share.classes.javax.swing.text.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * HyperlinkEvent is used to notify interested parties that
@@ -181,6 +196,7 @@ public class HyperlinkEvent extends EventObject {
     private final String desc;
     private final Element sourceElement;
     private InputEvent inputEvent;
+
 
     /**
      * Defines the ENTERED, EXITED, and ACTIVATED event types, along

@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8243670
@@ -30,6 +45,7 @@ package compiler.c2;
  *      -XX:CompileOnly=compiler.c2.TestReplaceEquivPhis::test
  *      -XX:-BackgroundCompilation compiler.c2.TestReplaceEquivPhis
  */
+
 
 public class TestReplaceEquivPhis {
 

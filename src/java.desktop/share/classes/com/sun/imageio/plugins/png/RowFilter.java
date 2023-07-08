@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.png;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class RowFilter {
 
     private static final int abs(int x) {

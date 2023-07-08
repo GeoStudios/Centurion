@@ -21,6 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
+
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.peer.RobotPeer;
@@ -31,6 +32,20 @@ import java.desktop.unix.classes.sun.awt.UNIXToolkit;
 import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
 import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 final class XRobotPeer implements RobotPeer {

@@ -21,6 +21,21 @@
 
 package nsk.share.gc;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  An object that occupies approximately given number of bytes in memory.
  */

@@ -21,6 +21,7 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Datagramjava.net.java.net.java.net.Socket;
 import java.net.DatagramPacket;
@@ -35,9 +36,24 @@ import java.util.Map;
 import java.util.HashMap;
 import jdk.naming.dns.share.classes.com.sun.security.jca.JCAUtil;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Some of this code began life as part of sun.javaos.net.DnsClient
 // originally by sritchie@eng 1/96.  It was first hacked up for JNDI
 // use by caveh@eng 6/97.
+
 
 /**
  * The DnsClient class performs DNS client operations in support of DnsContext.
@@ -378,6 +394,7 @@ public class DnsClient {
         ne.setRootCause(caughtException);
         throw ne;
     }
+
 
     /**
      * Tries to retrieve a UDP packet matching the given xid

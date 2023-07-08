@@ -21,8 +21,22 @@
 
 package jit.t.t040;
 
+
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,9 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t040.t040
  */
+
+
+
 
 // opc_multianewarray
 

@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLDTDDescription;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * <p>This interface extends <code>XMLEntityResolver</code> providing

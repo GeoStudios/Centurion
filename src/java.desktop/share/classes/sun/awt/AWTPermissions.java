@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.awt;
 
+
 import java.awt.AWTPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the {@code AWTPermission} objects used for permission checks.

@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.CodeException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class represents an exception handler, i.e., specifies the  region where
@@ -48,6 +65,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
     private InstructionHandle handlerPc;
     private ObjectType catchType;
 
+
     /**
      * Add an exception handler, i.e., specify region where a handler is active and an
      * instruction where the actual handling is done.
@@ -65,6 +83,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         this.catchType = catchType;
     }
 
+
     /**
      * Get CodeException object.<BR>
      *
@@ -80,6 +99,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
                 (catchType == null) ? 0 : cp.addClass(catchType));
     }
 
+
     /* Set start of handler
      * @param startPc Start of handled region (inclusive)
      */
@@ -87,6 +107,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         BranchInstruction.notifyTarget(this.startPc, start_pc, this);
         this.startPc = start_pc;
     }
+
 
     /* Set end of handler
      * @param endPc End of handled region (inclusive)
@@ -96,6 +117,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         this.endPc = end_pc;
     }
 
+
     /* Set handler code
      * @param handlerPc Start of handler
      */
@@ -103,6 +125,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         BranchInstruction.notifyTarget(this.handlerPc, handler_pc, this);
         this.handlerPc = handler_pc;
     }
+
 
     /**
      * @param old_ih old target, either start or end
@@ -129,6 +152,7 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         }
     }
 
+
     /**
      * @return true, if ih is target of this handler
      */
@@ -137,15 +161,18 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         return (startPc == ih) || (endPc == ih) || (handlerPc == ih);
     }
 
+
     /** Sets the type of the Exception to catch. Set 'null' for ANY. */
     public void setCatchType( final ObjectType catchType ) {
         this.catchType = catchType;
     }
 
+
     /** Gets the type of the Exception to catch, 'null' for ANY. */
     public ObjectType getCatchType() {
         return catchType;
     }
+
 
     /** @return start of handled region (inclusive)
      */
@@ -153,11 +180,13 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         return startPc;
     }
 
+
     /** @return end of handled region (inclusive)
      */
     public InstructionHandle getEndPC() {
         return endPc;
     }
+
 
     /** @return start of handler
      */
@@ -165,10 +194,12 @@ public final class CodeExceptionGen implements InstructionTargeter, Cloneable {
         return handlerPc;
     }
 
+
     @Override
     public String toString() {
         return "CodeExceptionGen(" + startPc + ", " + endPc + ", " + handlerPc + ")";
     }
+
 
     @Override
     public Object clone() {

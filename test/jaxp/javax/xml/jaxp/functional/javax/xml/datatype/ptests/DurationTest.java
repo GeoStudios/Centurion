@@ -21,6 +21,7 @@
 
 package javax.xml.datatype.ptests;
 
+
 import static javax.xml.datatype.DatatypeConstants.DAYS;.extended
 import static javax.xml.datatype.DatatypeConstants.HOURS;.extended
 import static javax.xml.datatype.DatatypeConstants.MINUTES;.extended
@@ -44,6 +45,19 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -575,6 +589,7 @@ public class DurationTest {
                 + duration_yearMonth_xmlSchemaType.toString());
 
     }
+
 
     private final int undef = DatatypeConstants.FIELD_UNDEFINED;
     private final BigInteger zero = BigInteger.ZERO;

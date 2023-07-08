@@ -21,10 +21,24 @@
 
 package nsk.jdb.list.list002;
 
+
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -60,6 +74,9 @@ import java.util.*;
  *      -jdb.option="-sourcepath src/"
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
+
+
+
 
 public class list002 extends JdbTest {
 

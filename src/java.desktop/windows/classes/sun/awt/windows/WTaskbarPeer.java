@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.AlphaComposite;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -33,6 +34,20 @@ import java.awt.image.DataBufferInt;
 import java.desktop.windows.classes.sun.awt.AWTAccessor;
 import java.desktop.windows.classes.sun.awt.OSInfo;
 import java.desktop.windows.classes.sun.awt.shell.ShellFolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WTaskbarPeer implements TaskbarPeer {
 

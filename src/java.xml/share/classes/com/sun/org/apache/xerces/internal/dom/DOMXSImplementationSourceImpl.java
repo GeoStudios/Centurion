@@ -21,11 +21,26 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSImplementationImpl;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementationjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Allows to retrieve <code>XSImplementation</code>, DOM Level 3 Core and LS implementations

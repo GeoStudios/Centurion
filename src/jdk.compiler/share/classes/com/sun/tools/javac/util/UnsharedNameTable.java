@@ -21,7 +21,22 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
+
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of Name.Table that stores names in individual arrays
@@ -71,6 +86,7 @@ public class UnsharedNameTable extends Name.Table {
     public UnsharedNameTable(Names names) {
         this(names, 0x8000);
     }
+
 
     @Override
     public Name fromChars(char[] cs, int start, int len) {

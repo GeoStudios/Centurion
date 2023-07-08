@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.print;
 
+
 import java.desktop.share.classes.java.awt.Graphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Printable} interface is implemented

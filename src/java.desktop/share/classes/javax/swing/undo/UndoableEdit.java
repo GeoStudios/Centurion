@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
+
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An <code>UndoableEdit</code> represents an edit.  The edit may

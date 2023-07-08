@@ -21,7 +21,21 @@
 
 package jit.t.t007;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.t.t007.t007
  */
+
+
 
 public class t007
 {

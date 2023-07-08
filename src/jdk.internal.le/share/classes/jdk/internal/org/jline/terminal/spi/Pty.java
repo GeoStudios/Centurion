@@ -21,12 +21,27 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi;
 
+
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface Pty extends Closeable {
 

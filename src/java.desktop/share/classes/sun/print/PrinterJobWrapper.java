@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.sun.print;
 
+
 import java.awt.print.PrinterJob;
 import java.io.Serial;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.PrintRequestAttribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PrinterJobWrapper implements PrintRequestAttribute {
 

@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.lang.annotation.*;
@@ -40,6 +41,20 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A generator of dynamic proxy implementations of
  * java.lang.annotation.Annotation.
@@ -58,11 +73,13 @@ public class AnnotationProxyMaker {
     private final Attribute.Compound anno;
     private final Class<? extends Annotation> annoType;
 
+
     private AnnotationProxyMaker(Attribute.Compound anno,
                                  Class<? extends Annotation> annoType) {
         this.anno = anno;
         this.annoType = annoType;
     }
+
 
     /**
      * Returns a dynamic proxy for an annotation mirror.
@@ -72,6 +89,7 @@ public class AnnotationProxyMaker {
         AnnotationProxyMaker apm = new AnnotationProxyMaker(anno, annoType);
         return annoType.cast(apm.generateAnnotation());
     }
+
 
     /**
      * Returns a dynamic proxy for an annotation mirror.
@@ -136,6 +154,7 @@ public class AnnotationProxyMaker {
         return vv.getValue(attr);
     }
 
+
     private class ValueVisitor implements Attribute.Visitor {
 
         private final MethodSymbol meth;      // annotation element being visited
@@ -162,6 +181,7 @@ public class AnnotationProxyMaker {
             }
             return value;
         }
+
 
         public void visitConstant(Attribute.Constant c) {
             value = c.getValue();
@@ -240,6 +260,7 @@ public class AnnotationProxyMaker {
                 value = null;       // indicates a type mismatch
         }
 
+
         /**
          * Sets "value" to an ExceptionProxy indicating a type mismatch.
          */
@@ -261,6 +282,7 @@ public class AnnotationProxyMaker {
             value = new AnnotationTypeMismatchExceptionProxy(method);
         }
     }
+
 
     /**
      * ExceptionProxy for MirroredTypeException.
@@ -292,7 +314,7 @@ public class AnnotationProxyMaker {
                    type.equals(proxy.type);
         }
 
-        private RuntimeException generateException() {
+        protected RuntimeException generateException() {
             return new MirroredTypeException(type);
         }
 
@@ -303,6 +325,7 @@ public class AnnotationProxyMaker {
             type = null;
         }
     }
+
 
     /**
      * ExceptionProxy for MirroredTypesException.
@@ -336,7 +359,7 @@ public class AnnotationProxyMaker {
                    types.equals(proxy.types);
         }
 
-        private RuntimeException generateException() {
+        protected RuntimeException generateException() {
             return new MirroredTypesException(types);
         }
 

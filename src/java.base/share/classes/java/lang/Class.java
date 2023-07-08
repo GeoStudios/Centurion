@@ -21,6 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
+
 import java.base.share.classes.java.lang.annotation.Annotation;
 import java.base.share.classes.java.lang.constant.ClassDesc;
 import java.base.share.classes.java.lang.invoke.TypeDescriptor;
@@ -72,6 +73,20 @@ import sun.reflect.generics.scope.ClassScope;
 import sun.security.util.SecurityConstants;
 import sun.reflect.annotation.*;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of the class {@code Class} represent classes and
@@ -357,6 +372,7 @@ public final class Class<T> implements java.io.Serializable,
         return forName0(className, true, ClassLoader.getClassLoader(caller), caller);
     }
 
+
     /**
      * Returns the {@code Class} object associated with the class or
      * interface with the given string name, using the given class loader.
@@ -452,6 +468,7 @@ public final class Class<T> implements java.io.Serializable,
                                             ClassLoader loader,
                                             Class<?> caller)
         throws ClassNotFoundException;
+
 
     /**
      * Returns the {@code Class} with the given <a href="ClassLoader.html#binary-name">
@@ -662,6 +679,7 @@ public final class Class<T> implements java.io.Serializable,
     @IntrinsicCandidate
     public native boolean isInstance(Object obj);
 
+
     /**
      * Determines if the class or interface represented by this
      * {@code Class} object is either the same as, or is a superclass or
@@ -689,6 +707,7 @@ public final class Class<T> implements java.io.Serializable,
     @IntrinsicCandidate
     public native boolean isAssignableFrom(Class<?> cls);
 
+
     /**
      * Determines if this {@code Class} object represents an
      * interface type.
@@ -699,6 +718,7 @@ public final class Class<T> implements java.io.Serializable,
     @IntrinsicCandidate
     public native boolean isInterface();
 
+
     /**
      * Determines if this {@code Class} object represents an array class.
      *
@@ -707,6 +727,7 @@ public final class Class<T> implements java.io.Serializable,
      */
     @IntrinsicCandidate
     public native boolean isArray();
+
 
     /**
      * Determines if the specified {@code Class} object represents a
@@ -932,6 +953,7 @@ public final class Class<T> implements java.io.Serializable,
             return (TypeVariable<Class<T>>[])new TypeVariable<?>[0];
     }
 
+
     /**
      * Returns the {@code Class} representing the direct superclass of the
      * entity (class, interface, primitive type or void) represented by
@@ -945,6 +967,7 @@ public final class Class<T> implements java.io.Serializable,
      */
     @IntrinsicCandidate
     public native Class<? super T> getSuperclass();
+
 
     /**
      * Returns the {@code Type} representing the direct superclass of
@@ -1172,6 +1195,7 @@ public final class Class<T> implements java.io.Serializable,
         return (info == null) ?  getInterfaces() : info.getSuperInterfaces();
     }
 
+
     /**
      * Returns the {@code Class} representing the component type of an
      * array.  If this class does not represent an array class this method
@@ -1241,6 +1265,7 @@ public final class Class<T> implements java.io.Serializable,
     @IntrinsicCandidate
     public native int getModifiers();
 
+
     /**
      * Gets the signers of this class.
      *
@@ -1250,10 +1275,12 @@ public final class Class<T> implements java.io.Serializable,
      */
     public native Object[] getSigners();
 
+
     /**
      * Set the signers of this class.
      */
     native void setSigners(Object[] signers);
+
 
     /**
      * If this {@code Class} object represents a local or anonymous
@@ -1495,6 +1522,7 @@ public final class Class<T> implements java.io.Serializable,
         }
     }
 
+
     /**
      * If the class or interface represented by this {@code Class} object
      * is a member of another class, returns the {@code Class} object
@@ -1528,6 +1556,7 @@ public final class Class<T> implements java.io.Serializable,
 
     private native Class<?> getDeclaringClass0();
 
+
     /**
      * Returns the immediately enclosing class of the underlying
      * class.  If the underlying class is a top level class this
@@ -1548,6 +1577,7 @@ public final class Class<T> implements java.io.Serializable,
         // c) Inner classes (non-static member classes)
         // d) Local classes (named classes declared within a method)
         // e) Anonymous classes
+
 
         // JVM Spec 4.7.7: A class must have an EnclosingMethod
         // attribute if and only if it is a local class or an
@@ -1818,6 +1848,7 @@ public final class Class<T> implements java.io.Serializable,
             });
     }
 
+
     /**
      * Returns an array containing {@code Field} objects reflecting all
      * the accessible public fields of the class or interface represented by
@@ -1863,6 +1894,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return copyFields(privateGetPublicFields());
     }
+
 
     /**
      * Returns an array containing {@code Method} objects reflecting all the
@@ -1953,6 +1985,7 @@ public final class Class<T> implements java.io.Serializable,
         return copyMethods(privateGetPublicMethods());
     }
 
+
     /**
      * Returns an array containing {@code Constructor} objects reflecting
      * all the public constructors of the class represented by this
@@ -1991,6 +2024,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return copyConstructors(privateGetDeclaredConstructors(true));
     }
+
 
     /**
      * Returns a {@code Field} object that reflects the specified public member
@@ -2048,6 +2082,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return getReflectionFactory().copyField(field);
     }
+
 
     /**
      * Returns a {@code Method} object that reflects the specified public
@@ -2198,6 +2233,7 @@ public final class Class<T> implements java.io.Serializable,
             getConstructor0(parameterTypes, Member.PUBLIC));
     }
 
+
     /**
      * Returns an array of {@code Class} objects reflecting all the
      * classes and interfaces declared as members of the class represented by
@@ -2242,6 +2278,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return getDeclaredClasses0();
     }
+
 
     /**
      * Returns an array of {@code Field} objects reflecting all the fields
@@ -2425,6 +2462,7 @@ public final class Class<T> implements java.io.Serializable,
         return copyMethods(privateGetDeclaredMethods(false));
     }
 
+
     /**
      * Returns an array of {@code Constructor} objects reflecting all the
      * constructors declared by the class represented by this
@@ -2473,6 +2511,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return copyConstructors(privateGetDeclaredConstructors(false));
     }
+
 
     /**
      * Returns a {@code Field} object that reflects the specified declared
@@ -2528,6 +2567,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return getReflectionFactory().copyField(field);
     }
+
 
     /**
      * Returns a {@code Method} object that reflects the specified
@@ -2875,6 +2915,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return true;
     }
+
 
     /** protection domain returned when the internal domain is null */
     private static java.security.ProtectionDomain allPermDomain;
@@ -3252,6 +3293,7 @@ public final class Class<T> implements java.io.Serializable,
         Collections.addAll(c, o);
     }
 
+
     //
     //
     // java.lang.reflect.Constructor handling
@@ -3354,6 +3396,7 @@ public final class Class<T> implements java.io.Serializable,
         }
         return res;
     }
+
 
     //
     // Helpers for fetchers of one field, method, or constructor
@@ -3572,6 +3615,7 @@ public final class Class<T> implements java.io.Serializable,
     @java.io.Serial
     private static final long serialVersionUID = 3206093459760846163L;
 
+
     /**
      * Class Class is special cased within the Serialization Stream Protocol.
      *
@@ -3591,6 +3635,7 @@ public final class Class<T> implements java.io.Serializable,
     @java.io.Serial
     private static final ObjectStreamField[] serialPersistentFields =
         new ObjectStreamField[0];
+
 
     /**
      * Returns the assertion status that would be assigned to this

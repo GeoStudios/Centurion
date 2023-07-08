@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * GOTO - Branch always (to relative offset, not absolute address)
@@ -42,9 +59,11 @@ public class GOTO extends GotoInstruction implements VariableLengthInstruction {
     GOTO() {
     }
 
+
     public GOTO(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.GOTO, target);
     }
+
 
     /**
      * Dump instruction as byte code to stream out.
@@ -62,6 +81,7 @@ public class GOTO extends GotoInstruction implements VariableLengthInstruction {
             out.writeInt(super.getIndex());
         }
     }
+
 
     /**
      * Called in pass 2 of InstructionList.setPositions() in order to update
@@ -83,6 +103,7 @@ public class GOTO extends GotoInstruction implements VariableLengthInstruction {
         }
         return 0;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

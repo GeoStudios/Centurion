@@ -21,6 +21,21 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  <code>redefineclasses021b</code> is deugee's part of the redefineclasses021.
  *  adding <code>public</code> modifier

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.ComboBoxUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboPopup;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Synth's ComboPopup.

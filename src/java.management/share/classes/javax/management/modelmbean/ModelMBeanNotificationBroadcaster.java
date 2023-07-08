@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
+
 import java.management.share.classes.javax.management.Attribute;
 import java.management.share.classes.javax.management.AttributeChangeNotification;
 import java.management.share.classes.javax.management.java.util.ListenerNotFoundException;
@@ -29,6 +30,20 @@ import java.management.share.classes.javax.management.Notification;
 import java.management.share.classes.javax.management.NotificationBroadcaster;
 import java.management.share.classes.javax.management.Notificationjava.util.Listener;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface must be implemented by the ModelMBeans. An implementation of this interface
@@ -110,6 +125,7 @@ public interface ModelMBeanNotificationBroadcaster extends NotificationBroadcast
         void sendAttributeChangeNotification(AttributeChangeNotification notification)
         throws MBeanException, RuntimeOperationsException;
 
+
         /**
          * Sends an attributeChangeNotification which contains the old value and new value for the
          * attribute to the registered AttributeChangeNotification listeners on the ModelMBean.
@@ -134,6 +150,7 @@ public interface ModelMBeanNotificationBroadcaster extends NotificationBroadcast
         void sendAttributeChangeNotification(Attribute oldValue, Attribute newValue)
         throws MBeanException, RuntimeOperationsException;
 
+
         /**
          * Registers an object which implements the NotificationListener interface as a listener.  This
          * object's 'handleNotification()' method will be invoked when any attributeChangeNotification is issued through
@@ -155,6 +172,7 @@ public interface ModelMBeanNotificationBroadcaster extends NotificationBroadcast
                                                            String attributeName,
                                                            Object handback)
         throws MBeanException, RuntimeOperationsException, IllegalArgumentException;
+
 
         /**
          * Removes a listener for attributeChangeNotifications from the RequiredModelMBean.

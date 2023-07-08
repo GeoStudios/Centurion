@@ -21,6 +21,7 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl.digest;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
@@ -50,6 +51,20 @@ import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.sasl.*;
 import java.security.sasl.share.classes.com.sun.security.sasl.util.AbstractSaslImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for DIGEST-MD5 mechanism. Provides utility methods
@@ -781,6 +796,7 @@ abstract class DigestMD5Base extends AbstractSaslImpl {
             }
         }
      }
+
 
     /**
      * Implementation of the SecurityCtx interface allowing for messages

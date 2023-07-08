@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8173373
@@ -29,6 +44,7 @@ package compiler.c1;
  *                   -XX:CompileCommand=compileonly,compiler.c1.TestUnresolvedField::test*
  *                   compiler.c1.TestUnresolvedFieldMain
  */
+
 
 public class TestUnresolvedFieldMain {
     public static void main(String[] args) {

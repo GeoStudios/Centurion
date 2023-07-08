@@ -21,6 +21,22 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Exception for errors that occur during communication with the
  * Smart Card stack or the card itself.

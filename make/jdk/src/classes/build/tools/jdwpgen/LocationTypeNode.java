@@ -21,6 +21,56 @@
 
 package build.tools.jdwpgen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class LocationTypeNode extends AbstractSimpleTypeNode {
 
     String docType() {

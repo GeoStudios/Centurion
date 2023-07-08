@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
 
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -37,6 +38,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.Basic
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> An implementation of the JVMDebugger interface which talks to
     windbg and symbol table management is done in Java. </P>
@@ -142,6 +157,7 @@ public class WindbgDebuggerLocal extends DebuggerBase implements WindbgDebugger 
     return null;
   }
 
+
   /** From the Debugger interface via JVMDebugger */
   public synchronized void attach(int processID) throws DebuggerException {
     attachInit();
@@ -191,6 +207,7 @@ public class WindbgDebuggerLocal extends DebuggerBase implements WindbgDebugger 
     }
     return true;
   }
+
 
   /** From the Debugger interface via JVMDebugger */
   public Address parseAddress(String addressString) throws NumberFormatException {
@@ -258,6 +275,7 @@ public class WindbgDebuggerLocal extends DebuggerBase implements WindbgDebugger 
   //--------------------------------------------------------------------------------
   // Implementation of ThreadAccess interface
   //
+
 
   /** From the ThreadAccess interface via Debugger and JVMDebugger */
   public ThreadProxy getThreadForIdentifierAddress(Address addr) {
@@ -483,6 +501,7 @@ public class WindbgDebuggerLocal extends DebuggerBase implements WindbgDebugger 
     else
        return new ReadResult(address);
   }
+
 
   private DLL findDLLByName(String fullPathName) {
     for (Iterator iter = loadObjects.iterator(); iter.hasNext(); ) {

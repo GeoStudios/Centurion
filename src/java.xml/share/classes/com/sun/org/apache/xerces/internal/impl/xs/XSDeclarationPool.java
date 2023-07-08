@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * This class is pool that enables caching of XML Schema declaration objects.
@@ -306,6 +323,8 @@ public final class XSDeclarationPool {
         return newarray;
     }
 
+
+
     public void reset(){
         fElementDeclIndex = 0;
         fParticleDeclIndex = 0;
@@ -315,5 +334,6 @@ public final class XSDeclarationPool {
         fAttrDeclIndex = 0;
         fAttributeUseIndex = 0;
     }
+
 
 }

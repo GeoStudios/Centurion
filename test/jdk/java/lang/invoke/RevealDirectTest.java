@@ -21,6 +21,7 @@
 
 package test.java.lang.invoke;
 
+
 import java.lang.reflect.*;
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
@@ -29,6 +30,19 @@ import static java.lang.invoke.MethodHandleInfo.*;.extended
 import java.util.*;
 import static org.junit.Assert.*;.extended
 import org.junit.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -47,6 +61,8 @@ import org.junit.*;
  * $ $JAVA8X_HOME/bin/java  -cp $JUNIT4_JAR:../../../.. -ea -esa org.junit.runner.JUnitCore test.java.lang.invoke.RevealDirectTest
  * $ $JAVA8X_HOME/bin/java  -cp $JUNIT4_JAR:../../../.. -ea -esa    -Djava.security.manager test.java.lang.invoke.RevealDirectTest
  */
+
+
 
 public class RevealDirectTest {
     public static void main(String... av) throws Throwable {

@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.io.ObjectStreamException;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.lang.annotation.Native;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to encapsulate symbolic colors representing the color of

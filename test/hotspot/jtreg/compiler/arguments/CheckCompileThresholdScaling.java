@@ -21,8 +21,22 @@
 
 package compiler.arguments;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test CheckCompileThresholdScaling
@@ -35,6 +49,8 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.arguments.CheckCompileThresholdScaling
  */
+
+
 
 public class CheckCompileThresholdScaling {
 

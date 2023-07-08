@@ -21,9 +21,23 @@
 
 package nsk.jdi.StepRequest.addClassFilter_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter_s001 JDI test.
@@ -81,6 +95,7 @@ public class filter_s001a {
 
         log1("debuggee started!");
 
+
             for (int i = 0; ; i++) {
 
                 if (instruction > maxInstr) {
@@ -106,6 +121,7 @@ public class filter_s001a {
                                 } catch ( InterruptedException e ) {
                                 }
                             break;
+
 
                     case 1:
                             thread2 = new Thread2filter_s001a("thread2");

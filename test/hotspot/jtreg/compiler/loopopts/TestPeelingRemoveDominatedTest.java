@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,6 +46,7 @@ package compiler.loopopts;
  * @run main/othervm -XX:+UnlockDiagnosticVMOptions -Xcomp -XX:-TieredCompilation -XX:+StressGCM
  *                   -XX:CompileCommand=compileonly,compiler.loopopts.TestPeelingRemoveDominatedTest compiler.loopopts.TestPeelingRemoveDominatedTest
  */
+
 
 public class TestPeelingRemoveDominatedTest {
     public static int N = 400;
@@ -47,6 +63,7 @@ public class TestPeelingRemoveDominatedTest {
     public void mainTest() {
         vMeth();
     }
+
 
     static void vMeth() {
         iArrFld[1] = 2;

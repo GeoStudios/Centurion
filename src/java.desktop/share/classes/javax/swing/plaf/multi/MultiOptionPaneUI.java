@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.multi;
 
+
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.plaf.OptionPaneUI;
 import java.desktop.share.classes.javax.swing.JOptionPane;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Dimension;
 import java.desktop.share.classes.javax.accessibility.Accessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A multiplexing UI used to combine <code>OptionPaneUI</code>s.

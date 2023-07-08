@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing.text;
 
+
 import java.awt.ComponentOrientation;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -56,6 +57,20 @@ import javax.swing.text.html.HTML;
 import java.desktop.share.classes.sun.font.FontDesignMetrics;
 import java.desktop.share.classes.sun.swing.text.html.FrameEditorPaneTag;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An implementation of {@code Printable} to print {@code JTextComponent} with
  * the header and footer.
@@ -80,6 +95,7 @@ import java.desktop.share.classes.sun.swing.text.html.FrameEditorPaneTag;
  *
  */
 public class TextComponentPrintable implements CountingPrintable {
+
 
     private static final int LIST_SIZE = 1000;
 
@@ -175,6 +191,7 @@ public class TextComponentPrintable implements CountingPrintable {
         }
         return ret;
     }
+
 
     /**
      * Returns frames under the {@code editor}.
@@ -273,6 +290,7 @@ public class TextComponentPrintable implements CountingPrintable {
         this.rowsMetrics = new ArrayList<IntegerSegment>(LIST_SIZE);
         this.printShell = createPrintShell(textComponent);
     }
+
 
     /**
      * creates a printShell.
@@ -425,6 +443,9 @@ public class TextComponentPrintable implements CountingPrintable {
         return ret;
     }
 
+
+
+
     /**
      * Returns the number of pages in this printable.
      * <p>
@@ -486,6 +507,7 @@ public class TextComponentPrintable implements CountingPrintable {
         }
         return ret;
     }
+
 
     /**
      * The EDT part of the print method.
@@ -552,6 +574,7 @@ public class TextComponentPrintable implements CountingPrintable {
         return Printable.PAGE_EXISTS;
     }
 
+
     private boolean needReadLock = false;
 
     /**
@@ -571,6 +594,7 @@ public class TextComponentPrintable implements CountingPrintable {
             }
         }
     }
+
 
     /**
      * Tries to acquire document's readLock if it was released

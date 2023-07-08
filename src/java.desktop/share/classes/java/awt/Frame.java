@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
+
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.awt.event.WindowEvent;
 import java.desktop.share.classes.java.awt.peer.FramePeer;
@@ -37,6 +38,20 @@ import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import sun.awt.AWTAccessor;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Frame} is a top-level window with a title and a border.
@@ -140,6 +155,7 @@ public class Frame extends Window implements MenuContainer {
     @Deprecated
     public static final int     DEFAULT_CURSOR                  = Cursor.DEFAULT_CURSOR;
 
+
    /**
     * @deprecated   replaced by {@code Cursor.CROSSHAIR_CURSOR}.
     */
@@ -218,6 +234,7 @@ public class Frame extends Window implements MenuContainer {
     @Deprecated
     public static final int     MOVE_CURSOR                     = Cursor.MOVE_CURSOR;
 
+
     /**
      * Frame is in the "normal" state.  This symbolic constant names a
      * frame state with all state bits cleared.
@@ -277,6 +294,7 @@ public class Frame extends Window implements MenuContainer {
      * @serial
      */
     Rectangle maximizedBounds;
+
 
     /**
      * This is the title of the frame.  It can be changed
@@ -502,6 +520,7 @@ public class Frame extends Window implements MenuContainer {
             title = "";
         }
 
+
         synchronized(this) {
             this.title = title;
             FramePeer peer = (FramePeer)this.peer;
@@ -626,6 +645,7 @@ public class Frame extends Window implements MenuContainer {
         }
         firePropertyChange("resizable", oldResizable, resizable);
     }
+
 
     /**
      * Sets the state of this frame (obsolete).
@@ -777,6 +797,7 @@ public class Frame extends Window implements MenuContainer {
         return (getExtendedState() & ICONIFIED) != 0 ? ICONIFIED : NORMAL;
     }
 
+
     /**
      * Gets the state of this frame. The state is
      * represented as a bitwise mask.
@@ -867,6 +888,7 @@ public class Frame extends Window implements MenuContainer {
             return maximizedBounds;
         }
     }
+
 
     /**
      * Disables or enables decorations for this frame.
@@ -1308,6 +1330,7 @@ public class Frame extends Window implements MenuContainer {
             }
             return states;
         }
+
 
     } // inner class AccessibleAWTFrame
 

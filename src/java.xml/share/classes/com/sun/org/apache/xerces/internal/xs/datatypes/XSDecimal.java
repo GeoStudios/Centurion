@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes;
 
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * <p>Interface to expose the value of 'decimal' and related datatypes.</p>

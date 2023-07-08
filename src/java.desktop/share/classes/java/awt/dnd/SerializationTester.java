@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
+
 import java.desktop.share.classes.java.io.OutputStream;
 import java.desktop.share.classes.java.io.ObjectOutputStream;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tests if an object can truly be serialized by serializing it to a null

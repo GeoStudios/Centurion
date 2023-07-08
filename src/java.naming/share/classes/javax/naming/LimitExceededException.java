@@ -21,7 +21,22 @@
 
 package java.naming.share.classes.javax.naming;
 
+
 import java.naming.share.classes.javax.naming.Name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This exception is thrown when a method

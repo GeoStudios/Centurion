@@ -21,7 +21,21 @@
 
 package MyPackage;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -30,6 +44,7 @@ import java.io.PrintStream;
  * @compile GetNamedModuleTest.java
  * @run main/othervm/native -agentlib:GetNamedModuleTest MyPackage.GetNamedModuleTest
  */
+
 
 public class GetNamedModuleTest {
 

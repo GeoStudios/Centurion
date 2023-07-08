@@ -21,9 +21,23 @@
 
 package compiler.codegen;
 
+
 import java.nio.ByteBuffer;
 import java.util.zip.CRC32;
 import java.util.zip.Checksum;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,6 +46,8 @@ import java.util.zip.Checksum;
  *
  * @run main compiler.codegen.CRCTest
  */
+
+
 
 public class CRCTest {
 

@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
+
 import java.awt.color.ColorSpace;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A dummy {@code ColorSpace} to enable {@code ColorModel}

@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Denotes an unparameterized instruction to store a value into a local variable,
@@ -42,6 +59,7 @@ public abstract class StoreInstruction extends LocalVariableInstruction implemen
         super(canon_tag, c_tag);
     }
 
+
     /**
      * @param opcode Instruction opcode
      * @param c_tag Instruction number for compact version, ASTORE_0, e.g.
@@ -50,6 +68,7 @@ public abstract class StoreInstruction extends LocalVariableInstruction implemen
     protected StoreInstruction(final short opcode, final short c_tag, final int n) {
         super(opcode, c_tag, n);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,9 +21,23 @@
 
 package nsk.jdi.InterfaceType.implementors;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the implementors001 JDI test.
@@ -76,6 +90,7 @@ public class implementors001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
+
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -119,6 +134,7 @@ public class implementors001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
+
 
 interface Iface0{
     static int i0 = 0;

@@ -21,10 +21,24 @@
 
 package nsk.jdwp.Event.SINGLE_STEP;
 
+
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP event: SINGLE_STEP.

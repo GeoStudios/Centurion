@@ -21,7 +21,21 @@
 
 package jit.deoptimization.test03;
 
+
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,6 +47,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.deoptimization.test03.test03
  */
+
+
 
 /*
  *      Simple loop causes the optimizer to deoptimize

@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CompressedReadStream extends CompressedStream {
   /** Equivalent to CompressedReadStream(buffer, 0) */
@@ -62,6 +77,7 @@ public class CompressedReadStream extends CompressedStream {
     }
   }
 
+
   public float readFloat() {
     return Float.intBitsToFloat(reverseInt(readInt()));
   }
@@ -83,6 +99,7 @@ public class CompressedReadStream extends CompressedStream {
   //--------------------------------------------------------------------------------
   // Internals only below this point
   //
+
 
   // This encoding, called UNSIGNED5, is taken from J2SE Pack200.
   // It assumes that most values have lots of leading zeroes.

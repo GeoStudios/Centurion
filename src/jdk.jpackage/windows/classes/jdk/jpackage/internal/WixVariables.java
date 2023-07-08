@@ -21,8 +21,23 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
+
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WixVariables {
 

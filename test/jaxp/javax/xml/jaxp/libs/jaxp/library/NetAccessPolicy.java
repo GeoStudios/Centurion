@@ -21,8 +21,22 @@
 
 package jaxp.library;
 
+
 import java.net.java.net.SocketPermission;
 import org.testng.ITestContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This policy can access network.

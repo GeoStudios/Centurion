@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the requirements for an object responsible for

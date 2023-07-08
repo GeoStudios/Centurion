@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ClassGenException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionHandle;
@@ -33,6 +34,20 @@ import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * InstructionFinder is a tool to search for given instructions patterns, i.e.,
@@ -76,6 +91,7 @@ public class InstructionFinder {
     private String ilString; // instruction list as string
     private InstructionHandle[] handles; // map instruction
 
+
     // list to array
     /**
      * @param il
@@ -85,6 +101,7 @@ public class InstructionFinder {
         this.il = il;
         reread();
     }
+
 
     /**
      * Reread the instruction list, e.g., after you've altered the list upon a
@@ -100,6 +117,7 @@ public class InstructionFinder {
         }
         ilString = new String(buf);
     }
+
 
     /**
      * Map symbolic instruction names like "getfield" to a single character.
@@ -120,6 +138,7 @@ public class InstructionFinder {
         }
         throw new IllegalArgumentException("Instruction unknown: " + pattern);
     }
+
 
     /**
      * Replace symbolic names of instructions with the appropiate character and
@@ -156,6 +175,7 @@ public class InstructionFinder {
         return buf.toString();
     }
 
+
     /**
      * @return the matched piece of code as an array of instruction (handles)
      */
@@ -164,6 +184,7 @@ public class InstructionFinder {
         System.arraycopy(handles, matched_from, match, 0, match_length);
         return match;
     }
+
 
     /**
      * Search for the given pattern in the instruction list. You can search for
@@ -230,6 +251,7 @@ public class InstructionFinder {
         return matches.iterator();
     }
 
+
     /**
      * Start search beginning from the start of the given instruction list.
      *
@@ -241,6 +263,7 @@ public class InstructionFinder {
     public final Iterator<InstructionHandle[]> search( final String pattern ) {
         return search(pattern, il.getStart(), null);
     }
+
 
     /**
      * Start search beginning from `from'.
@@ -257,6 +280,7 @@ public class InstructionFinder {
         return search(pattern, from, null);
     }
 
+
     /**
      * Start search beginning from the start of the given instruction list. Check
      * found matches with the constraint object.
@@ -272,12 +296,14 @@ public class InstructionFinder {
         return search(pattern, il.getStart(), constraint);
     }
 
+
     /**
      * Convert opcode number to char.
      */
     private static char makeChar( final short opcode ) {
         return (char) (opcode + OFFSET);
     }
+
 
     /**
      * @return the inquired instruction list
@@ -375,6 +401,7 @@ public class InstructionFinder {
         map.put("instruction", buf.toString());
     }
 
+
     private static String precompile( final short from, final short to, final short extra ) {
         final StringBuilder buf = new StringBuilder("(");
         for (short i = from; i <= to; i++) {
@@ -386,12 +413,14 @@ public class InstructionFinder {
         return buf.toString();
     }
 
+
     /*
      * Internal debugging routines.
      */
 //    private static final String pattern2string( String pattern ) {
 //        return pattern2string(pattern, true);
 //    }
+
 
 //    private static final String pattern2string( String pattern, boolean make_string ) {
 //        StringBuffer buf = new StringBuffer();

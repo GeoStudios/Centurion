@@ -21,6 +21,21 @@
 
 package vm.compiler.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class CompilerTestLauncher {
 
     public final static int ITERATIONS = 10000;
@@ -28,6 +43,7 @@ public class CompilerTestLauncher {
     public static int launch(CompilerTest test) {
         return launch(test, ITERATIONS);
     }
+
 
     public static int launch(CompilerTest test, int iterations) {
         System.out.println("launching test " + test);

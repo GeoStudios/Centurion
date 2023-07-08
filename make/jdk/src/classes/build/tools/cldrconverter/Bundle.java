@@ -21,6 +21,56 @@
 
 package build.tools.cldrconverter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Bundle {
     static enum Type {
         LOCALENAMES, CURRENCYNAMES, TIMEZONENAMES, CALENDARDATA, FORMATDATA;

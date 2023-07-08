@@ -21,14 +21,32 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * The base class for some EXSLT extension classes.

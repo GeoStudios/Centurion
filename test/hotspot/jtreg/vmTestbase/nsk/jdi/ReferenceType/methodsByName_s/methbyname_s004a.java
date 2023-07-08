@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.methodsByName_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the methbyname_s004 JDI test.
@@ -37,6 +51,7 @@ public class methbyname_s004a {
         package_prefix = "nsk.jdi.ReferenceType.methodsByName_s.";
 //        package_prefix = "";    //  for DEBUG without package
     static String checked_class_name = package_prefix + "methbyname_s004aClassForCheck";
+
 
     private static void print_log_on_verbose(String message) {
         if ( verbose_mode ) {
@@ -88,6 +103,7 @@ public class methbyname_s004a {
 
 abstract class methbyname_s004aClassForCheck extends methbyname_s004aSuperClassForCheck implements methbyname_s004aInterfaceForCheck {
 
+
     // overloaded static methods
     static void  s_overloaded_method() {}
     static String  s_overloaded_method(String s) {return "string";}
@@ -104,6 +120,7 @@ abstract class methbyname_s004aClassForCheck extends methbyname_s004aSuperClassF
 
     Object  i_super_overloaded_method(long l, String s) {return new Object();}
     Object  i_interf_overloaded_method(long l, String s) {return new Object();}
+
 
 }
 

@@ -21,12 +21,26 @@
 
 package nsk.jdi.LocalVariable.name;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -180,6 +194,7 @@ public class name001 {
 
             Method testMethod = (Method) methods.get(0);
 
+
             String names[] = { "bl1", "bt1", "ch1", "db1",
                                "fl1", "in1", "ln1", "sh1",
                                "class2", "iface", "cfc"  };
@@ -270,6 +285,7 @@ public class name001 {
                         }
                         break;
 
+
                 case 8:                 // ClassType
                         if (!lVarName.equals("class2")) {
                             testExitCode = FAILED;
@@ -290,6 +306,7 @@ public class name001 {
                             log3("ERROR: !lVarName.equals('cfc')");
                         }
                         break;
+
 
                 default: expresult = 2;
                          break ;

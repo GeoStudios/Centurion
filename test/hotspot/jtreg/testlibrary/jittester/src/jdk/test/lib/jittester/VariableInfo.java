@@ -21,7 +21,21 @@
 
 package jdk.test.lib.jittester;
 
+
 import jdk.test.lib.jittester.types.TypeKlass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VariableInfo extends Symbol {
 

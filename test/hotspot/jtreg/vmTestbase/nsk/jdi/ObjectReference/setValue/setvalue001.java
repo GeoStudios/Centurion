@@ -21,12 +21,26 @@
 
 package nsk.jdi.ObjectReference.setValue;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -123,6 +137,7 @@ public class setvalue001 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -177,6 +192,7 @@ public class setvalue001 {
             classes       = vm.classesByName(testedClassName);
             testedClass   = (ReferenceType) classes.get(0);
 
+
             Field fsbl1 = testedClass.fieldByName("bl1");
             Field fsbt1 = testedClass.fieldByName("bt1");
             Field fsch1 = testedClass.fieldByName("ch1");
@@ -194,6 +210,7 @@ public class setvalue001 {
             Field fsin2 = testedClass.fieldByName("in2");
             Field fsln2 = testedClass.fieldByName("ln2");
             Field fssh2 = testedClass.fieldByName("sh2");
+
 
             log2("......loop of checks on each primitive type by performing statements like first ones:");
             log2("            BooleanValue blv1 = (BooleanValue) objRef.getValue(fsbl1);");
@@ -408,6 +425,7 @@ public class setvalue001 {
                                 testExitCode = FAILED;
                             }
                             break;
+
 
                   default : log3("ERROR: TEST ERROR:  case: default:");
                             testExitCode = FAILED;

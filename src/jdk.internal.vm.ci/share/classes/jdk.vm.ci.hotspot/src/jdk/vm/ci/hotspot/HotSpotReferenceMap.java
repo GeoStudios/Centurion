@@ -21,9 +21,24 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
 import java.base.share.classes.java.util.Arrays;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.Location;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.ReferenceMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes where the object references are in machine state, compliant with what HotSpot expects.

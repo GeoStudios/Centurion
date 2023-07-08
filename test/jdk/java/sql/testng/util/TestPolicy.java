@@ -21,6 +21,7 @@
 
 package util;
 
+
 import java.io.FilePermission;
 import java.lang.reflect.ReflectPermission;
 import java.security.AllPermission;
@@ -36,6 +37,19 @@ import java.util.Enumeration;
 import java.util.PropertyPermission;
 import java.util.StringJoiner;
 import java.util.logging.LoggingPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Simple Policy class that supports the required Permissions to validate the

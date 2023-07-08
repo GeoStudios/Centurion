@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS302.hs302t003;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyClass {
 
   private String name;

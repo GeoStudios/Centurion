@@ -21,10 +21,25 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
+
 import java.management.share.classes.sun.management.counter.*;
 import java.nio.ByteBuffer;
 import java.nio.ReadOnlyBufferException;
 import java.nio.charset.Charset;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PerfStringCounter extends PerfByteArrayCounter
     implements StringCounter {

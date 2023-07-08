@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
+
 import java.desktop.windows.classes.com.sun.java.awt.*;
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
@@ -34,6 +35,20 @@ import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicBorders;
 import javax.swing.plaf.basic.BasicToolBarUI;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindowsToolBarUI extends BasicToolBarUI {
 

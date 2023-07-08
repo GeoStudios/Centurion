@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.lang.ref.WeakReference;
 import java.awt.FontFormatException;
 import java.io.FileNotFoundException;
@@ -40,6 +41,20 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.HashMap;
 import java.awt.Font;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Adobe Technical Note 5040 details the format of PFB files.
@@ -140,6 +155,7 @@ public class Type1Font extends FileFont {
         }
         Collections.addAll(styleNameTokes, styleTokens);
         }
+
 
     /**
      * Constructs a Type1 Font.
@@ -616,6 +632,7 @@ public class Type1Font extends FileFont {
         bb.get(nameBytes);
         return new String(nameBytes, StandardCharsets.US_ASCII);
     }
+
 
     public String getPostscriptName() {
         return psName;

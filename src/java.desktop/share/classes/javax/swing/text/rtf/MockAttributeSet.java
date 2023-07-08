@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
+
 import java.util.Dictionary;
 import java.util.Enumeration;
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
 import java.desktop.share.classes.javax.swing.text.MutableAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This AttributeSet is made entirely out of tofu and Ritz Crackers
    and yet has a remarkably attribute-set-like interface! */
@@ -96,6 +111,7 @@ class MockAttributeSet
     {
          throw new InternalError("MockAttributeSet: charade revealed!");
     }
+
 
     public Enumeration<?> getAttributeNames()
     {

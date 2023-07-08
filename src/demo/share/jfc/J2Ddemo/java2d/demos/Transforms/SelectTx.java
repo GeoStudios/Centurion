@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Transforms;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.ORANGE;.extended
 import static java.awt.Color.WHITE;.extended
@@ -38,6 +39,20 @@ import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Scaling or Shearing or Rotating an image & rectangle.
@@ -223,6 +238,7 @@ public class SelectTx extends AnimatingControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new SelectTx());
     }
+
 
     static final class DemoControls extends CustomControls implements
             ActionListener {

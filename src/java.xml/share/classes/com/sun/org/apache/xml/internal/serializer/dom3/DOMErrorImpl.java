@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMLocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * Implementation of the DOM Level 3 DOMError interface.
@@ -58,6 +75,7 @@ final class DOMErrorImpl implements DOMError {
 
     // The location of the exception
     private DOMLocatorImpl fLocation = new DOMLocatorImpl();
+
 
     //
     // Constructors
@@ -111,6 +129,7 @@ final class DOMErrorImpl implements DOMError {
         fRelatedData = relatedData;
         fLocation = location;
     }
+
 
     /**
      * The severity of the error, either <code>SEVERITY_WARNING</code>,

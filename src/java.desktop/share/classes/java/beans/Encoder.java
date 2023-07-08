@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.java.beans;
 
+
 import com.sun.beans.finder.PersistenceDelegateFinder;
 import java.desktop.share.classes.java.util.HashMap;
 import java.desktop.share.classes.java.util.IdentityHashMap;
 import java.desktop.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code Encoder} is a class which can be used to create

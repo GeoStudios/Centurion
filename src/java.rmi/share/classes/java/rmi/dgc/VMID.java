@@ -21,8 +21,23 @@
 
 package java.rmi.share.classes.java.rmi.dgc;
 
+
 import java.rmi.share.classes.java.rmi.server.UID;
 import java.rmi.share.classes.java.security.SecureRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A VMID is a identifier that is unique across all Java virtual

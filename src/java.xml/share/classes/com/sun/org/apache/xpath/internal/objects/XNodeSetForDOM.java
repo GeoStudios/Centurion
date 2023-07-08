@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
@@ -28,10 +29,27 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class overrides the XNodeSet#object() method to provide the original
@@ -127,5 +145,7 @@ public class XNodeSetForDOM extends XNodeSet
     return (m_origObj instanceof NodeList)
                    ? (NodeList)m_origObj : super.nodelist();
   }
+
+
 
 }

@@ -21,9 +21,23 @@
 
 package compiler.profiling;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -34,6 +48,8 @@ import java.lang.invoke.MethodType;
  *                   -XX:Tier3InvocationThreshold=200 -XX:Tier0InvokeNotifyFreqLog=7
  *                   compiler.profiling.TestUnexpectedProfilingMismatch
  */
+
+
 
 public class TestUnexpectedProfilingMismatch {
 

@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
+
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLReporter;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -102,6 +117,8 @@ public class StaxErrorReporter extends XMLErrorReporter {
             message = str.toString();
         }
 
+
+
         //no reporter was specified
         /**
          * if (reporter == null) {
@@ -144,6 +161,7 @@ public class StaxErrorReporter extends XMLErrorReporter {
         }
         return message;
     }
+
 
     Location convertToStaxLocation(final XMLLocator location){
         return new Location(){

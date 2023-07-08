@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.AbstractClass;
 import compiler.jvmci.common.testcases.AnotherSingleImplementer;
@@ -43,6 +44,19 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -62,6 +76,9 @@ import java.util.stream.Stream;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetVtableIndexForInterfaceTest
  */
+
+
+
 
 public class GetVtableIndexForInterfaceTest {
     private static final int INVALID_VTABLE_INDEX = -4; // see method.hpp: VtableIndexFlag

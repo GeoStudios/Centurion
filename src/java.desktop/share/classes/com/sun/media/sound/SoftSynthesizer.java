@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -56,6 +57,20 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The software synthesizer class.

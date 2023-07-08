@@ -21,15 +21,31 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
+
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * @xerces.internal

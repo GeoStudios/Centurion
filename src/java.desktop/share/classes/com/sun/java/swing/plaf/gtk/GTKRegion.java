@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
 import javax.swing.plaf.synth.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A typesafe enumeration of the distinct rendering portions specific

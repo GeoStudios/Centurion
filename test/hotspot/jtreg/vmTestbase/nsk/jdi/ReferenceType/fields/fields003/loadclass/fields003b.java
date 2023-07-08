@@ -21,7 +21,23 @@
 
 package nsk.jdi.ReferenceType.fields;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the fields() method of ReferenceType interface for UNLOADED class
+
 
 class fields003b {}

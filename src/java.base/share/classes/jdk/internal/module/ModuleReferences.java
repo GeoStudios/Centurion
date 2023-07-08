@@ -21,6 +21,7 @@
 
 package java.base.share.classes.jdk.internal.module;
 
+
 import java.io.File;
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
@@ -46,6 +47,20 @@ import java.util.zip.ZipFile;
 import java.base.share.classes.jdk.internal.jmod.JmodFile;
 import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
 import sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory for creating ModuleReference implementations where the modules are
@@ -110,6 +125,7 @@ class ModuleReferences {
         return newModule(attrs, dir.toUri(), supplier, patcher, null);
     }
 
+
     /**
      * A base module reader that encapsulates machinery required to close the
      * module reader safely.
@@ -164,6 +180,7 @@ class ModuleReferences {
             }
         }
 
+
         @Override
         public final Optional<InputStream> open(String name) throws IOException {
             readLock.lock();
@@ -205,6 +222,7 @@ class ModuleReferences {
             }
         }
     }
+
 
     /**
      * A ModuleReader for a modular JAR file.
@@ -274,6 +292,7 @@ class ModuleReferences {
         }
     }
 
+
     /**
      * A ModuleReader for a JMOD file.
      */
@@ -338,6 +357,7 @@ class ModuleReferences {
             jf.close();
         }
     }
+
 
     /**
      * A ModuleReader for an exploded module.

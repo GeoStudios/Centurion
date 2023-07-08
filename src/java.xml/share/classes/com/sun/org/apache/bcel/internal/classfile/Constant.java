@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Objects;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract superclass for classes to represent the different constant types
@@ -45,6 +60,7 @@ public abstract class Constant implements Cloneable, Node {
             final Constant THAT = (Constant) o2;
             return Objects.equals(THIS.toString(), THAT.toString());
         }
+
 
         @Override
         public int hashCode( final Object o ) {

@@ -21,9 +21,23 @@
 
 package nsk.monitoring.share;
 
+
 import java.util.*;
 import java.io.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Generator {
         private String patternFileName;

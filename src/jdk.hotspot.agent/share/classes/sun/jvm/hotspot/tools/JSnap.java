@@ -21,11 +21,26 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
+
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JSnap extends Tool {
 

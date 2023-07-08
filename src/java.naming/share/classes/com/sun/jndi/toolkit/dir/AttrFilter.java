@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.dir;
 
+
 import javax.naming.NamingException;
 import javax.naming.directory.Attributes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Is implemented by classes that can perform filter checks on

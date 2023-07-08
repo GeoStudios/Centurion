@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.ComponentOrientation;
@@ -71,6 +72,20 @@ import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.text.InternationalFormatter;
 import sun.swing.DefaultLookup;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The default Spinner UI delegate.
  *
@@ -88,6 +103,7 @@ public class BasicSpinnerUI extends SpinnerUI
     protected JSpinner spinner;
     private Handler handler;
 
+
     /**
      * The mouse/action listeners that are added to the spinner's
      * arrow buttons.  These listeners are shared by all
@@ -99,6 +115,7 @@ public class BasicSpinnerUI extends SpinnerUI
     private static final ArrowButtonHandler nextButtonHandler = new ArrowButtonHandler("increment", true);
     private static final ArrowButtonHandler previousButtonHandler = new ArrowButtonHandler("decrement", false);
     private PropertyChangeListener propertyChangeListener;
+
 
     /**
      * Used by the default LayoutManager class - SpinnerLayout for
@@ -123,11 +140,13 @@ public class BasicSpinnerUI extends SpinnerUI
         return new BasicSpinnerUI();
     }
 
+
     private void maybeAdd(Component c, String s) {
         if (c != null) {
             spinner.add(c, s);
         }
     }
+
 
     /**
      * Calls <code>installDefaults</code>, <code>installListeners</code>,
@@ -152,6 +171,7 @@ public class BasicSpinnerUI extends SpinnerUI
         installKeyboardActions();
     }
 
+
     /**
      * Calls <code>uninstallDefaults</code>, <code>uninstallListeners</code>,
      * and then removes all of the spinners children.
@@ -164,6 +184,7 @@ public class BasicSpinnerUI extends SpinnerUI
         this.spinner = null;
         c.removeAll();
     }
+
 
     /**
      * Initializes <code>PropertyChangeListener</code> with
@@ -192,6 +213,7 @@ public class BasicSpinnerUI extends SpinnerUI
         }
     }
 
+
     /**
      * Removes the <code>PropertyChangeListener</code> added
      * by installListeners.
@@ -215,6 +237,7 @@ public class BasicSpinnerUI extends SpinnerUI
         propertyChangeListener = null;
         handler = null;
     }
+
 
     /**
      * Initialize the <code>JSpinner</code> <code>border</code>,
@@ -247,6 +270,7 @@ public class BasicSpinnerUI extends SpinnerUI
         }
     }
 
+
     /**
      * Sets the <code>JSpinner's</code> layout manager to null.  This
      * method is called by <code>uninstallUI</code>.
@@ -259,12 +283,14 @@ public class BasicSpinnerUI extends SpinnerUI
         spinner.setLayout(null);
     }
 
+
     private Handler getHandler() {
         if (handler == null) {
             handler = new Handler();
         }
         return handler;
     }
+
 
     /**
      * Installs the necessary listeners on the next button, <code>c</code>,
@@ -315,6 +341,7 @@ public class BasicSpinnerUI extends SpinnerUI
         return getHandler();
     }
 
+
     /**
      * Creates a <code>PropertyChangeListener</code> that can be
      * added to the JSpinner itself.  Typically, this listener
@@ -329,6 +356,7 @@ public class BasicSpinnerUI extends SpinnerUI
     protected PropertyChangeListener createPropertyChangeListener() {
         return getHandler();
     }
+
 
     /**
      * Creates a decrement button, i.e. component that replaces the spinner
@@ -348,6 +376,7 @@ public class BasicSpinnerUI extends SpinnerUI
         installPreviousButtonListeners(c);
         return c;
     }
+
 
     /**
      * Creates an increment button, i.e. component that replaces the spinner
@@ -382,6 +411,7 @@ public class BasicSpinnerUI extends SpinnerUI
         return b;
     }
 
+
     /**
      * This method is called by installUI to get the editor component
      * of the <code>JSpinner</code>.  By default it just returns
@@ -413,6 +443,7 @@ public class BasicSpinnerUI extends SpinnerUI
         updateEditorAlignment(editor);
         return editor;
     }
+
 
     /**
      * Called by the <code>PropertyChangeListener</code> when the
@@ -500,6 +531,7 @@ public class BasicSpinnerUI extends SpinnerUI
         }
     }
 
+
     /**
      * Updates the enabled state of the children Components based on the
      * enabled state of the <code>JSpinner</code>.
@@ -507,6 +539,7 @@ public class BasicSpinnerUI extends SpinnerUI
     private void updateEnabledState() {
         updateEnabledState(spinner, spinner.isEnabled());
     }
+
 
     /**
      * Recursively updates the enabled state of the child
@@ -539,6 +572,7 @@ public class BasicSpinnerUI extends SpinnerUI
             }
         }
     }
+
 
     /**
      * Installs the keyboard Actions onto the JSpinner.
@@ -859,6 +893,7 @@ public class BasicSpinnerUI extends SpinnerUI
         }
     }
 
+
     private static class Handler implements LayoutManager,
             PropertyChangeListener, ChangeListener {
         //
@@ -973,6 +1008,7 @@ public class BasicSpinnerUI extends SpinnerUI
             setBounds(nextButton,     buttonsX, nextY,      buttonsWidth, nextHeight);
             setBounds(previousButton, buttonsX, previousY,  buttonsWidth, previousHeight);
         }
+
 
         //
         // PropertyChangeListener

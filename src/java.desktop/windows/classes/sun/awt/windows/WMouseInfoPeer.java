@@ -21,10 +21,25 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
 import java.awt.Window;
 import java.awt.peer.MouseInfoPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class WMouseInfoPeer implements MouseInfoPeer {
 

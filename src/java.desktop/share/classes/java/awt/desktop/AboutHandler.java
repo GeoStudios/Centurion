@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An implementer receives notification when the app is asked to show its about
  * dialog.

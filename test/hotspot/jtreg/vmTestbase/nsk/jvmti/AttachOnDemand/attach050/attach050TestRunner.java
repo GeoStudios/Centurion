@@ -21,8 +21,22 @@
 
 package nsk.jvmti.AttachOnDemand.attach050;
 
+
 import nsk.share.Failure;
 import nsk.share.aod.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,6 +55,8 @@ import nsk.share.aod.*;
  *      -javaOpts="-XX:+UsePerfData -XX:+EnableDynamicAgentLoading ${test.vm.opts} ${test.java.opts}"
  *      -na attach050Agent00
  */
+
+
 
 public class attach050TestRunner extends AODTestRunner {
 

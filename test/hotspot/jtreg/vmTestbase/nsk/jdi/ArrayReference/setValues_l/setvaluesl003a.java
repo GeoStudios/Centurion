@@ -21,13 +21,28 @@
 
 package nsk.jdi.ArrayReference.setValues_l;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class setvaluesl003a {
 
     static setvaluesl003aClassToCheck testedObj = new setvaluesl003aClassToCheck();
+
 
     public static final String[] VALID_CONVERSIONS = {
                                 "B",        // primitive types to byte
@@ -38,6 +53,7 @@ public class setvaluesl003a {
                                 "BCIJS",   // primitive types to long
                                 "BS"       // primitive types to short
     };
+
 
     public final static String[] COMBINE = {
                                                 "BYTE_VALUES",

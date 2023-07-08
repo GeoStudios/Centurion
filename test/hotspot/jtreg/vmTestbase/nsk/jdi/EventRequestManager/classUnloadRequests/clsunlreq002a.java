@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequestManager.classUnloadRequests;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the clsunlreq002 JDI test.

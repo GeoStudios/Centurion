@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
+
 import java.base.share.classes.javax.crypto.Cipher;
 import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
@@ -42,6 +43,20 @@ import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Aes128
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Aes256;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.ArcFourHmac;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.EType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CipherHelper {
 
@@ -387,6 +402,7 @@ class CipherHelper {
                 ge.initCause(e);
                 throw ge;
             }
+
 
         default:
             throw new GSSException(GSSException.FAILURE, -1,
@@ -950,6 +966,7 @@ class CipherHelper {
                                           byte[] ivBytes)
         throws  GSSException  {
 
+
         try {
             IvParameterSpec iv = new IvParameterSpec(ivBytes);
             SecretKey jceKey = new SecretKeySpec(key, "DES");
@@ -1098,6 +1115,7 @@ class CipherHelper {
         //     + CONFOUNDER_SIZE + "\n");
         // debug("Confounder is " + getHexBytes(confounder) + "\n");
 
+
         /*
          * len is a multiple of 8 due to padding.
          * Decrypt all blocks directly into the output buffer except for
@@ -1226,6 +1244,7 @@ class CipherHelper {
 
     private byte[] des3KdEncrypt(byte[] confounder, byte[] plaintext,
         int start, int len, byte[] padding) throws GSSException {
+
 
         // [confounder | plaintext | padding]
         byte[] all = new byte[confounder.length + len + padding.length];

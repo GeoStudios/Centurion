@@ -21,12 +21,27 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
+
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KrbDataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a buffered input stream. It is used for parsing key table

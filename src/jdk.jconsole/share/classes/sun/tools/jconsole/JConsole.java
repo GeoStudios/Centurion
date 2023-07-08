@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -37,6 +38,20 @@ import javax.net.ssl.SSLHandshakeException;
 import com.sun.tools.jconsole.JConsolePlugin;
 import jdk.jconsole.share.classes.sun.net.util.IPAddressUtil;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class JConsole extends JFrame
@@ -64,6 +79,7 @@ public class JConsole extends JFrame
         updateLafValues();
     }
 
+
     static void updateLafValues() {
         String lafName = UIManager.getLookAndFeel().getClass().getName();
         IS_GTK = lafName.equals("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
@@ -71,6 +87,7 @@ public class JConsole extends JFrame
 
         //BorderedComponent.updateLafValues();
     }
+
 
     private static final String title =
         Messages.JAVA_MONITORING___MANAGEMENT_CONSOLE;
@@ -143,6 +160,7 @@ public class JConsole extends JFrame
                                                      InputEvent.ALT_DOWN_MASK));
         exitMI.addActionListener(this);
         connectionMenu.add(exitMI);
+
 
         JMenu helpMenu = new JMenu(Messages.HELP_MENU_TITLE);
         helpMenu.setMnemonic(Resources.getMnemonicInt(Messages.HELP_MENU_TITLE));
@@ -365,6 +383,7 @@ public class JConsole extends JFrame
         }
     }
 
+
     public void tileWindows() {
         int w = -1;
         int h = -1;
@@ -503,6 +522,7 @@ public class JConsole extends JFrame
         }.start();
     }
 
+
     // Call on EDT
     void addHost(final String hostName, final int port,
                  final String userName, final String password,
@@ -526,6 +546,7 @@ public class JConsole extends JFrame
         }.start();
     }
 
+
     // Call on worker thread
     void addProxyClient(final ProxyClient proxyClient, final boolean tile) {
         SwingUtilities.invokeLater(new Runnable() {
@@ -545,6 +566,7 @@ public class JConsole extends JFrame
         });
     }
 
+
     // Call on worker thread
     private void failed(final Exception ex,
                         final String url,
@@ -562,6 +584,7 @@ public class JConsole extends JFrame
             }
         });
     }
+
 
     private VMInternalFrame addFrame(VMPanel vmPanel) {
         final VMInternalFrame vmIF = new VMInternalFrame(vmPanel);
@@ -728,6 +751,7 @@ public class JConsole extends JFrame
         return msg + ": " + ex.getMessage();
     }
 
+
     // InternalFrameListener interface
 
     public void internalFrameClosing(InternalFrameEvent e) {
@@ -749,6 +773,7 @@ public class JConsole extends JFrame
     public void internalFrameActivated(InternalFrameEvent e) {}
     public void internalFrameDeactivated(InternalFrameEvent e) {}
 
+
     private static void usage() {
         System.err.println(Resources.format(Messages.ZZ_USAGE_TEXT, "jconsole"));
     }
@@ -760,6 +785,7 @@ public class JConsole extends JFrame
                                  final ProxyClient proxyClient,
                                  final boolean noTile,
                                  final boolean hotspot) {
+
 
         // Always create Swing GUI on the Event Dispatching Thread
         SwingUtilities.invokeLater(new Runnable() {
@@ -937,6 +963,7 @@ public class JConsole extends JFrame
         return true;
     }
 
+
     private static ServiceLoader<JConsolePlugin> pluginService = null;
 
     // Return a list of newly instantiated JConsolePlugin objects
@@ -1034,6 +1061,7 @@ public class JConsole extends JFrame
         }
         return new URL("file", "", name);
     }
+
 
     private static class FixedJRootPane extends JRootPane {
         public void updateUI() {

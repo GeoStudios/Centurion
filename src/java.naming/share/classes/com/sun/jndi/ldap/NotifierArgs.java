@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
+
 import javax.naming.directory.SearchControls;
 import javax.naming.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class holds the information in an event registration/deregistration

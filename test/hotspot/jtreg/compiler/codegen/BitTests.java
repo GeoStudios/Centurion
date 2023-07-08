@@ -21,6 +21,21 @@
 
 package compiler.codegen;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8144028
@@ -34,6 +49,7 @@ package compiler.codegen;
  * @run main/othervm -Xbatch -XX:+TieredCompilation
  *      compiler.codegen.BitTests
  */
+
 
 // Try to ensure that the bit test instructions TBZ/TBNZ, TST/TSTW
 // don't generate incorrect code.  We can't guarantee that C2 will use
@@ -125,6 +141,7 @@ public class BitTests {
         counter = testLongMaskBranch(counter, 0x800000000l);
         return counter;
     }
+
 
     private final long finalBits = 3;
 

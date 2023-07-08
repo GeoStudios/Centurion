@@ -21,8 +21,23 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.security.AccessController;
 import com.sun.jmx.mbeanserver.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the name of the Java implementation class of
@@ -82,6 +97,7 @@ class ClassAttributeValueExp extends AttributeValueExp {
         attr = "Class";
     }
 
+
     /**
      * Applies the ClassAttributeValueExp on an MBean. Returns the name of
      * the Java implementation class of the MBean.
@@ -111,6 +127,7 @@ class ClassAttributeValueExp extends AttributeValueExp {
     public String toString()  {
         return attr;
     }
+
 
     protected Object getValue(ObjectName name) {
         try {

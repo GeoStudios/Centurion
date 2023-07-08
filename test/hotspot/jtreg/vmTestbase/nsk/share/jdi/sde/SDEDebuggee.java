@@ -21,9 +21,23 @@
 
 package nsk.share.jdi.sde;
 
+
 import java.lang.reflect.Method;
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SDEDebuggee extends AbstractJDIDebuggee {
     public static String mainThreadName = "SDEDebuggee_mainThread";

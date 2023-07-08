@@ -21,6 +21,22 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *
  * Interface provided by internal http authentication cache.

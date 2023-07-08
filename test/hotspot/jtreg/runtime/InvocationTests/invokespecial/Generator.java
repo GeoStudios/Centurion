@@ -21,11 +21,25 @@
 
 package invokespecial;
 
+
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import shared.AbstractGenerator;
 import shared.AccessType;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * INVOKESPECIAL EXPECTED RESULTS
@@ -241,6 +255,9 @@ import java.util.Map;
  * by invokespecial, so this change should have little impact on JVM users).
  *
  */
+
+
+
 
 public class Generator extends AbstractGenerator {
     public static void main (String[] args) throws Exception {

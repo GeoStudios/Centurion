@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is intended to handle &lt;var&gt; element.
  * This element retrieves the value of specified variable.

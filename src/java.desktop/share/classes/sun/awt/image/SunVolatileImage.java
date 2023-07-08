@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Component;
@@ -38,6 +39,20 @@ import java.desktop.share.classes.sun.java2d.DestSurfaceProvider;
 import java.desktop.share.classes.sun.java2d.Surface;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
 import static java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the base implementation of the VolatileImage

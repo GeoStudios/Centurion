@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory used for obtaining <code>SynthStyle</code>s.  Each of the

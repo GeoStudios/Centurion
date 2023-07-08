@@ -21,12 +21,26 @@
 
 package nsk.jdi.TypeComponent.signature;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class sign003 {
     final static String CONSTR_SIGN[] = {

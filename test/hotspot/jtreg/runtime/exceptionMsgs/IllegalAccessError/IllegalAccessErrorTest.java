@@ -21,6 +21,7 @@
 
 package test;
 
+
 import java.lang.reflect.*;
 import java.lang.invoke.MethodHandles.Lookup;
 import static java.lang.invoke.MethodHandles.*;.extended
@@ -30,6 +31,19 @@ import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import test.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -44,6 +58,9 @@ import test.*;
 // Put this test into a package so we see qualified class names in
 // the error messages. Verify that classes are printed with '.' instead
 // of '/'.
+
+
+
 
 abstract public class IllegalAccessErrorTest {
 
@@ -347,6 +364,7 @@ abstract class IAE1_C {
 class IAE1_D extends IAE1_C {
 }
 
+
 // Class hierarchies for test2.
 abstract class IAE2_A {
     abstract public IAE2_D gen();
@@ -363,6 +381,7 @@ abstract class IAE2_C {
 
 class IAE2_D extends IAE2_C {
 }
+
 
 // Class hierarchies for test3.
 class IAE3_A {
@@ -382,6 +401,7 @@ abstract class IAE3_C {
 
 class IAE3_D extends IAE3_C {
 }
+
 
 // Class hierarchies for test6.
 class IAE6_A {

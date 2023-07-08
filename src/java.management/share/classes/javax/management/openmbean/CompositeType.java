@@ -21,16 +21,32 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
+
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.Collections;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
 //
 
 // jmx import
 //
+
 
 /**
  * The <code>CompositeType</code> class is the <i>open type</i> class
@@ -58,6 +74,7 @@ public class CompositeType extends OpenType<CompositeData> {
     private transient Integer myHashCode = null;
     private transient String  myToString = null;
     private transient Set<String> myNamesSet = null;
+
 
     /* *** Constructor *** */
 
@@ -237,6 +254,7 @@ public class CompositeType extends OpenType<CompositeData> {
         return myNamesSet; // always return the same value
     }
 
+
     /**
      * Tests whether <var>obj</var> is a value which could be
      * described by this <code>CompositeType</code> instance.
@@ -333,6 +351,7 @@ public class CompositeType extends OpenType<CompositeData> {
         }
         return true;
     }
+
 
     /* *** Methods overriden from class Object *** */
 

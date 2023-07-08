@@ -21,10 +21,25 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
+
 import java.management.share.classes.sun.management.counter.*;
 import java.nio.*;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class PerfDataEntry {
     private class EntryFieldOffset {
@@ -90,6 +105,7 @@ class PerfDataEntry {
                                                " buffer limit = " + b.limit());
         }
 
+
         b.position(entryStart + EntryFieldOffset.VECTOR_LENGTH);
         vectorLength = b.getInt();
 
@@ -154,6 +170,7 @@ class PerfDataEntry {
         data.order(b.order());
         data.limit(dataSize);
     }
+
 
     public int size() {
         return entryLength;

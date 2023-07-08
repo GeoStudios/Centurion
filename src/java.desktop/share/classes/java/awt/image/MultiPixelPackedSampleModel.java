@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code MultiPixelPackedSampleModel} class represents
  * one-banded images and can pack multiple one-sample
@@ -150,6 +166,7 @@ public class MultiPixelPackedSampleModel extends SampleModel
         }
         this.bitMask = (1 << numberOfBits) - 1;
     }
+
 
     /**
      * Creates a new {@code MultiPixelPackedSampleModel} with the

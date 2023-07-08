@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -35,6 +36,20 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JColorChooserDemo
@@ -58,6 +73,7 @@ public class ColorChooserDemo extends DemoModule {
         ColorChooserDemo demo = new ColorChooserDemo(null);
         demo.mainImpl();
     }
+
 
     /**
      * ColorChooserDemo Constructor

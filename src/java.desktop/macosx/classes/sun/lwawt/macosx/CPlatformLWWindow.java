@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
+
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.GraphicsDevice;
@@ -38,6 +39,20 @@ import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.lwawt.LWLightweightFramePeer;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPlatformLWWindow extends CPlatformWindow {
 

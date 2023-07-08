@@ -21,9 +21,23 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.PrintVariables;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.types.TypeKlass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class PrintVariablesFactory extends Factory<PrintVariables> {
     private final TypeKlass ownerClass;

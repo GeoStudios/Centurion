@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
+
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines an event that encapsulates changes to a list.

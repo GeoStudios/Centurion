@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.DataBuffer;
@@ -30,6 +31,20 @@ import java.awt.image.Raster;
 import java.awt.image.RasterFormatException;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is useful for describing 1, 2, or 4 bit image data
@@ -1367,6 +1382,7 @@ public class BytePackedRaster extends SunWritableRaster {
         {
             throw new RasterFormatException("Invalid raster dimension");
         }
+
 
         /*
          * pixelBitstride was verified in constructor, so just make

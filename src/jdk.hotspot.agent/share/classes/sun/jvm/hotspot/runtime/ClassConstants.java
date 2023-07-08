@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface ClassConstants
 {
     // constant pool constant types - from JVM spec.
@@ -94,6 +110,7 @@ public interface ClassConstants
     long JVM_ACC_ANNOTATION   = 0x2000; /* annotation type */
     long JVM_ACC_ENUM         = 0x4000; /* field is declared as element of enum */
 
+
     // from accessFlags.hpp - hotspot internal flags
 
     // flags actually put in .class file
@@ -159,6 +176,7 @@ public interface ClassConstants
                                                                  JVM_ACC_ANNOTATION |
                                                                  JVM_ACC_ENUM |
                                                                  JVM_ACC_SYNTHETIC);
+
 
     long JVM_RECOGNIZED_FIELD_MODIFIERS  = (JVM_ACC_PUBLIC |
                                                                 JVM_ACC_PRIVATE |

@@ -21,6 +21,22 @@
 
 package java.base.share.classes.jdk.internal.invoke;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface VMStorageProxy {
     int type();
     int index();

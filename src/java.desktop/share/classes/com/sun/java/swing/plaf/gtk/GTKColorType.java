@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
 import javax.swing.plaf.synth.ColorType;
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import javax.swing.plaf.ColorUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

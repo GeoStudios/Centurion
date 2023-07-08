@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
+
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.image.RenderedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ContextualRenderedImageFactory provides an interface for the

@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */
@@ -249,6 +266,7 @@ public class ErrorMessages_fr extends ListResourceBundle {
         {BasisLibrary.UNSUPPORTED_EXT_ERR,
         "Extension XSLTC ''{0}'' non reconnue"},
 
+
         /*
          * Note to translators:  This error message is produced if the translet
          * class was compiled using a newer version of XSLTC and deployed for
@@ -266,6 +284,7 @@ public class ErrorMessages_fr extends ListResourceBundle {
          */
         {BasisLibrary.INVALID_QNAME_ERR,
         "Un attribut dont la valeur doit \u00EAtre un QName avait la valeur ''{0}''"},
+
 
         /*
          * Note to translators:  An attribute whose effective value is required

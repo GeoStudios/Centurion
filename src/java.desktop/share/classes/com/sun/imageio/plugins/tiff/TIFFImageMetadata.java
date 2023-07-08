@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -44,6 +45,20 @@ import javax.imageio.plugins.tiff.ExifParentTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import javax.imageio.plugins.tiff.TIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageMetadata extends IIOMetadata {
 

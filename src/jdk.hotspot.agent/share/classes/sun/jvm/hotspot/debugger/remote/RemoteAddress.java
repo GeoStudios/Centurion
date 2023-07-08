@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class RemoteAddress implements Address {
   protected RemoteDebuggerClient debugger;
@@ -285,6 +300,7 @@ class RemoteAddress implements Address {
   long getValue() {
     return addr;
   }
+
 
   private static void check(boolean arg, String failMessage) {
     if (!arg) {

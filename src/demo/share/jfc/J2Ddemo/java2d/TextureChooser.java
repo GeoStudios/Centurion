@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.LIGHT_GRAY;.extended
@@ -49,6 +50,20 @@ import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Four types of Paint displayed: Geometry, Text & Image Textures and
@@ -117,6 +132,7 @@ public final class TextureChooser extends JPanel {
     public GradientPaint getGradientPaint() {
         return new GradientPaint(0, 0, WHITE, 80, 0, GREEN);
     }
+
 
     public class Surface extends JPanel {
 

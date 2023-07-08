@@ -21,7 +21,21 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class redefclass003r {
     static public byte byteFld = 10;

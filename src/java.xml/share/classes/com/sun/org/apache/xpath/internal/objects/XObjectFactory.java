@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
@@ -28,10 +29,27 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.OneStepIterator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 public class XObjectFactory
 {

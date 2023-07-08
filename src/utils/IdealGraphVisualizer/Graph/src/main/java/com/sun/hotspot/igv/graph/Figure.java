@@ -21,6 +21,7 @@
 
 package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph;
 
+
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputBlock;
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputNode;
@@ -32,6 +33,20 @@ import utils.IdealGraphVisualizer.Graph.src.main.java.awt.*;
 import utils.IdealGraphVisualizer.Graph.src.main.java.awt.image.BufferedImage;
 import utils.IdealGraphVisualizer.Graph.src.main.java.util.java.util.java.util.java.util.List;
 import utils.IdealGraphVisualizer.Graph.src.main.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Figure extends Properties.Entity implements Source.Provider, Vertex {
 
@@ -299,6 +314,7 @@ public class Figure extends Properties.Entity implements Source.Provider, Vertex
         if (VERTICAL_LAYOUT) {
             int width = Math.max(getWidth(), Figure.SLOT_WIDTH * (Math.max(inputSlots.size(), outputSlots.size()) + 1));
             int height = getHeight() + 2 * Figure.SLOT_WIDTH - 2 * Figure.OVERLAPPING;
+
 
             return new Dimension(width, height);
         } else {

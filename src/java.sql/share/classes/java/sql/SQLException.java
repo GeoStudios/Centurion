@@ -21,9 +21,24 @@
 
 package java.sql.share.classes.java.sql;
 
+
 import java.sql.share.classes.java.util.Iterator;
 import java.sql.share.classes.java.util.NoSuchElementException;
 import java.sql.share.classes.java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>An exception that provides information on a database access
@@ -75,6 +90,7 @@ public class SQLException extends java.lang.Exception
             }
         }
     }
+
 
     /**
      * Constructs a {@code SQLException} object with a given

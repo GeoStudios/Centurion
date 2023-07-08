@@ -21,11 +21,25 @@
 
 package compiler.whitebox;
 
+
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.NMethod;
 import java.lang.reflect.Executable;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Phaser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test DeoptimizeFramesTest
@@ -51,6 +65,9 @@ import java.util.concurrent.Phaser;
  *                   -XX:+IgnoreUnrecognizedVMOptions -XX:-DeoptimizeRandom -XX:-DeoptimizeALot
  *                   compiler.whitebox.DeoptimizeFramesTest false
  */
+
+
+
 
 public class DeoptimizeFramesTest extends CompilerWhiteBoxTest {
     private final boolean makeNotEntrant;
@@ -114,6 +131,7 @@ public class DeoptimizeFramesTest extends CompilerWhiteBoxTest {
             Asserts.assertEQ(nm.compile_id, nm2.compile_id, "should be the same nmethod");
         }
     }
+
 
     private static class TestCaseImpl implements TestCase {
         private static final Executable EXECUTABLE;

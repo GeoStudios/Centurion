@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
+
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import java.desktop.share.classes.javax.swing.*;
@@ -38,6 +39,20 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A default L&amp;F implementation of MenuBarUI.  This implementation
@@ -214,6 +229,7 @@ public class BasicMenuBarUI extends MenuBarUI  {
         return handler;
     }
 
+
     public Dimension getMinimumSize(JComponent c) {
         return null;
     }
@@ -251,6 +267,7 @@ public class BasicMenuBarUI extends MenuBarUI  {
                 ((JMenu)c).getModel().removeChangeListener(changeListener);
         }
     }
+
 
     private static class Actions extends UIAction {
         private static final String TAKE_FOCUS = "takeFocus";

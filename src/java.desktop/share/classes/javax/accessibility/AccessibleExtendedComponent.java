@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code AccessibleExtendedComponent} interface should be supported by any
  * object that is rendered on the screen. This interface provides the standard

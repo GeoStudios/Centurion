@@ -21,12 +21,29 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * INSTANCEOF - Determine if object is of given type
@@ -43,14 +60,17 @@ public class INSTANCEOF extends CPInstruction implements LoadClass, ExceptionThr
     INSTANCEOF() {
     }
 
+
     public INSTANCEOF(final int index) {
         super(com.sun.org.apache.bcel.internal.Const.INSTANCEOF, index);
     }
+
 
     @Override
     public Class<?>[] getExceptions() {
         return ExceptionConst.createExceptions(ExceptionConst.EXCS.EXCS_CLASS_AND_INTERFACE_RESOLUTION);
     }
+
 
     @Override
     public ObjectType getLoadClassType( final ConstantPoolGen cpg ) {
@@ -60,6 +80,7 @@ public class INSTANCEOF extends CPInstruction implements LoadClass, ExceptionThr
         }
         return (t instanceof ObjectType) ? (ObjectType) t : null;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,6 +21,7 @@
 
 package java.base.share.classes.javax.security.auth;
 
+
 import java.security.AccessController;
 import java.security.Principal;
 import java.security.PrivilegedAction;
@@ -28,6 +29,20 @@ import java.security.ProtectionDomain;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code SubjectDomainCombiner} updates ProtectionDomains

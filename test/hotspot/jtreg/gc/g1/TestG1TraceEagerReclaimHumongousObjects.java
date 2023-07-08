@@ -21,9 +21,23 @@
 
 package gc.g1;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestG1TraceEagerReclaimHumongousObjects
@@ -36,6 +50,7 @@ import java.util.Linkedjava.util.java.util.java.util.List;
  *          java.management
  * @run driver gc.g1.TestG1TraceEagerReclaimHumongousObjects
  */
+
 
 public class TestG1TraceEagerReclaimHumongousObjects {
   public static void main(String[] args) throws Exception {

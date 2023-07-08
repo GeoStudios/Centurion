@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
+
 import java.sql.rowset.share.classes.com.sun.rowset.JdbcRowSetResourceBundle;
 import java.sql.*;
 import javax.sql.*;
@@ -29,6 +30,20 @@ import java.text.MessageFormat;
 import java.util.*;
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the {@code XmlWriter}  interface, which writes a
@@ -548,6 +563,7 @@ public class WebRowSetXmlWriter implements XmlWriter, Serializable {
         }
     }
 
+
     private void writeShort(short s) throws java.io.IOException {
         writer.write(Short.toString(s));
     }
@@ -614,6 +630,7 @@ public class WebRowSetXmlWriter implements XmlWriter, Serializable {
         return false;
     }
 
+
     /**
      * This function has been added for the processing of special characters
      * lik <,>,'," and & in the data to be serialized. These have to be taken
@@ -648,6 +665,7 @@ public class WebRowSetXmlWriter implements XmlWriter, Serializable {
         s = specialStr;
         return s;
     }
+
 
     /**
      * This method re populates the resBundle

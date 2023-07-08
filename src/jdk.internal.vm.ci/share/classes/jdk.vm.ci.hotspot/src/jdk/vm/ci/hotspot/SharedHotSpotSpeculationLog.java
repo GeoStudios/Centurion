@@ -21,6 +21,22 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A wrapper that holds a strong reference to a "master" speculation log that
  * {@linkplain HotSpotSpeculationLog#managesFailedSpeculations() manages} the failed speculations

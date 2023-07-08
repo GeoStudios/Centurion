@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * D2L - Convert double to long
@@ -38,6 +55,7 @@ public class D2L extends ConversionInstruction {
     public D2L() {
         super(com.sun.org.apache.bcel.internal.Const.D2L);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

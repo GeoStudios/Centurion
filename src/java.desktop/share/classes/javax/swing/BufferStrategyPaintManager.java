@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
@@ -33,6 +34,20 @@ import sun.java2d.SunGraphics2D;
 import sun.java2d.pipe.hw.ExtendedBufferCapabilities;
 import sun.awt.SunToolkit;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A PaintManager implementation that uses a BufferStrategy for
@@ -606,6 +621,8 @@ class BufferStrategyPaintManager extends RepaintManager.PaintManager {
         accumulatedMaxY = Math.max(accumulatedMaxY, y + h);
     }
 
+
+
     /**
      * BufferInfo is used to track the BufferStrategy being used for
      * a particular Component.  In addition to tracking the BufferStrategy
@@ -630,6 +647,7 @@ class BufferStrategyPaintManager extends RepaintManager.PaintManager {
         private boolean contentsLostDuringExpose;
         // Indicates we need to generate a paint event on expose.
         private boolean paintAllOnExpose;
+
 
         public BufferInfo(Container root) {
             this.root = new WeakReference<Container>(root);

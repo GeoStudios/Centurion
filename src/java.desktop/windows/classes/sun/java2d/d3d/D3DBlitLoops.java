@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
+
 import java.awt.Composite;
 import java.awt.Transparency;
 import java.awt.geom.AffineTransform;
@@ -43,6 +44,20 @@ import java.desktop.windows.classes.sun.java2d.pipe.RenderBuffer;
 import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
 import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
 import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class D3DBlitLoops {
 

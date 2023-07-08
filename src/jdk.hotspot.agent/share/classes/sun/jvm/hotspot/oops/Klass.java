@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -29,6 +30,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Klass extends Metadata implements ClassConstants {
   static {
@@ -73,6 +88,7 @@ public class Klass extends Metadata implements ClassConstants {
     LH_ARRAY_TAG_TYPE_VALUE    = db.lookupIntConstant("Klass::_lh_array_tag_type_value").intValue();
     LH_ARRAY_TAG_OBJ_VALUE     = db.lookupIntConstant("Klass::_lh_array_tag_obj_value").intValue();
   }
+
 
   public Klass(Address addr) {
     super(addr);

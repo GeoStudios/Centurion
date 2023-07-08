@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.InstanceKlass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface ClassFilter
 {

@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *  This interface represents an output destination for data.
  * <p> This interface allows an application to encapsulate information about

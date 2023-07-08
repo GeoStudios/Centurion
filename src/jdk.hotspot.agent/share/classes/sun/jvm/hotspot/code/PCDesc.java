@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -28,6 +29,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** PcDescs map a physical PC (given as offset from start of nmethod)
     to the corresponding source scope and byte code index. */
@@ -83,6 +98,7 @@ public class PCDesc extends VMObject {
   public Address getRealPC(NMethod code) {
     return code.codeBegin().addOffsetTo(getPCOffset());
   }
+
 
   public boolean getReexecute() {
     int flags = (int)pcFlagsField.getValue(addr);

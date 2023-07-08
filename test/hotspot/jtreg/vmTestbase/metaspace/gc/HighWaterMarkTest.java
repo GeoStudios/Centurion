@@ -21,8 +21,22 @@
 
 package metaspace.gc;
 
+
 import java.base.share.classes.java.util.Arrays;
 import vm.share.VMRuntimeEnvUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test metaspace ergonomic.
@@ -159,6 +173,7 @@ public class HighWaterMarkTest extends FirstGCTest {
             loadNewClasses(9, true);  // load classes and keep references
             loadNewClasses(1, false); // load classes without keeping references
         }
+
 
         System.out.println("% Classes loaded: " + attempts*10);
         System.out.println("% Used metaspace    : " + bytes2k(getUsed()));

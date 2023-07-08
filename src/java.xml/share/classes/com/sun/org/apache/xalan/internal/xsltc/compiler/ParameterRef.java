@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CHECKCAST;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GETFIELD;
@@ -31,10 +32,26 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeSetType;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  */

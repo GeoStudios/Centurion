@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CheckboxIcon implementation for OrganicCheckBoxUI
@@ -85,6 +100,7 @@ public class MetalCheckBoxIcon implements Icon, UIResource, Serializable {
             g.setColor( MetalLookAndFeel.getControlShadow() );
             g.drawRect( x, y, controlSize-1, controlSize-1);
         }
+
 
         if(drawCheck) {
             if (cb.isBorderPaintedFlat()) {

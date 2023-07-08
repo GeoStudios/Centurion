@@ -21,7 +21,21 @@
 
 package q;
 
+
 import p.Foo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // access protected inner class Foo.T
 public class Bar extends Foo {

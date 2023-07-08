@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
+
 import java.awt.Canvas;
 import java.awt.Choice;
 import java.awt.Color;
@@ -32,6 +33,20 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeSupport;
 import java.beans.PropertyEditor;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ColorEditor extends Panel implements PropertyEditor {
 
@@ -134,6 +149,7 @@ public class ColorEditor extends Panel implements PropertyEditor {
                 : "null";
     }
 
+
     private void changeColor(Color c) {
 
         if (c == null) {
@@ -202,6 +218,7 @@ public class ColorEditor extends Panel implements PropertyEditor {
     public void removePropertyChangeListener(PropertyChangeListener l) {
         support.removePropertyChangeListener(l);
     }
+
 
     private final String[] colorNames = { " ", "white", "lightGray", "gray", "darkGray",
                         "black", "red", "pink", "orange",

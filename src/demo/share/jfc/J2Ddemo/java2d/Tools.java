@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.LIGHT_GRAY;.extended
@@ -59,6 +60,20 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EtchedBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tools to control individual demo graphic attributes.  Also, control for
@@ -408,6 +423,7 @@ public final class Tools extends JPanel implements ActionListener,
         }
         thread = null;
     }
+
 
     /**
      * Expand and Collapse the Tools Panel with this bumpy button.

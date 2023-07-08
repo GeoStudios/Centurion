@@ -21,6 +21,7 @@
 
 package lib.jdb;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
@@ -36,6 +37,19 @@ import java.util.stream.Collectors;
 import jdk.test.lib.JDKToolFinder;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.StreamPumper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Jdb implements AutoCloseable {
     public Jdb(String... args) {
@@ -82,6 +96,7 @@ public class Jdb implements AutoCloseable {
     // pattern for message of an application disconnect
     public static final String APPLICATION_DISCONNECTED = "The application has been disconnected";
 
+
     @Override
     public void close() throws Exception {
         shutdown();
@@ -110,6 +125,7 @@ public class Jdb implements AutoCloseable {
             }
         }
     }
+
 
     // waits until string {@pattern} appears in the jdb output, within the last {@code lines} lines.
     /* Comment from original /test/jdk/com/sun/jdi/ShellScaffold.sh

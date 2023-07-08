@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface DebugVC50SSSrcModule extends DebugVC50Subsection {
   /** The number of source files contributing code to segments. */
   int getNumSourceFiles();

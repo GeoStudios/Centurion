@@ -21,8 +21,22 @@
 
 package compiler.codecache.stress;
 
+
 import java.util.Random;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test UnexpectedDeoptimizationTest
@@ -47,6 +61,8 @@ import jdk.test.lib.Utils;
  *                   -XX:+SegmentedCodeCache
  *                   compiler.codecache.stress.UnexpectedDeoptimizationTest
  */
+
+
 
 public class UnexpectedDeoptimizationTest implements Runnable {
     private final Random rng = Utils.getRandomInstance();

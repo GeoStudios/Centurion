@@ -21,8 +21,22 @@
 
 package nsk.jvmti.scenarios.hotswap.HS203.hs203t003;
 
+
 import nsk.share.jvmti.RedefineAgent;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -55,11 +69,14 @@ import java.util.concurrent.atomic.AtomicBoolean;
  *      nsk.jvmti.scenarios.hotswap.HS203.hs203t003.hs203t003
  */
 
+
+
 public class hs203t003 extends RedefineAgent {
 
     public native boolean popThreadFrame(Thread thread);
     public native boolean isSuspended(Thread thread);
     public native boolean resumeThread(Thread thread);
+
 
     public hs203t003(String[] arg) {
         super(arg);
@@ -71,6 +88,7 @@ public class hs203t003 extends RedefineAgent {
         hs203t003 hsCase = new hs203t003(arg);
         System.exit(hsCase.runAgent());
     }
+
 
     public boolean agentMethod() {
         boolean passed = false;

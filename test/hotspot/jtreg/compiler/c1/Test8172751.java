@@ -21,9 +21,23 @@
 
 package compiler.c1;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MutableCallSite;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -32,6 +46,8 @@ import java.lang.invoke.MutableCallSite;
  *
  * @run main/othervm -XX:-BackgroundCompilation compiler.c1.Test8172751
  */
+
+
 
 public class Test8172751 {
     private static final MethodHandle CONSTANT_TRUE = MethodHandles.constant(boolean.class, true);

@@ -21,9 +21,23 @@
 
 package nsk.jdi.StackFrame.setValue.setvalue006;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

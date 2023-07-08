@@ -21,11 +21,26 @@
 
 package java.instrument.share.classes.java.lang.instrument;
 
+
 import java.instrument.share.classes.java.security.ProtectionDomain;
 import java.instrument.share.classes.java.util.java.util.java.util.java.util.List;
 import java.instrument.share.classes.java.util.Map;
 import java.instrument.share.classes.java.util.Set;
 import java.instrument.share.classes.java.util.jar.JarFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides services needed to instrument Java
@@ -332,6 +347,7 @@ public interface Instrumentation {
     redefineClasses(ClassDefinition... definitions)
         throws  ClassNotFoundException, UnmodifiableClassException;
 
+
     /**
      * Tests whether a class is modifiable by
      * {@linkplain #retransformClasses retransformation}
@@ -408,6 +424,7 @@ public interface Instrumentation {
      */
     long
     getObjectSize(Object objectToSize);
+
 
     /**
      * Specifies a JAR file with instrumentation classes to be defined by the

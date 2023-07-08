@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.visibleMethods;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debugee application for the visibmethod001 JDI test.
@@ -37,6 +51,7 @@ public class visibmethod001a {
         package_prefix = "nsk.jdi.ReferenceType.visibleMethods.";
 //        package_prefix = "";    //  for DEBUG without package
     static String checked_class_name = package_prefix + "visibmethod001aClassForCheck";
+
 
     private static void print_log_on_verbose(String message) {
         if ( verbose_mode ) {
@@ -192,6 +207,7 @@ abstract class visibmethod001aClassForCheck extends visibmethod001aSuperClassFor
 
     // static initializer
     static {}
+
 
 }
 

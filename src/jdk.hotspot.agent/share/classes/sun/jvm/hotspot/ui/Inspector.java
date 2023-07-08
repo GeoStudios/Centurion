@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
@@ -32,6 +33,20 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class implements tree-browsing functionality of a particular
     SimpleTreeNode, and is only designed to be used in a debugging
@@ -321,6 +336,7 @@ public class Inspector extends SAPanel {
           }
         }
       };
+
 
     if (VM.getVM().getRevPtrs() != null) {
       cutoverButtonRunnable.run();

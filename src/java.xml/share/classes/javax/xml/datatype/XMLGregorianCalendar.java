@@ -21,12 +21,27 @@
 
 package java.xml.share.classes.javax.xml.datatype;
 
+
 import java.xml.share.classes.javax.xml.namespace.QName;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
 import java.util.TimeZone;
 import java.util.GregorianCalendar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Representation for W3C XML Schema 1.0 date/time datatypes.
@@ -398,6 +413,7 @@ public abstract class XMLGregorianCalendar
      */
     public abstract void setFractionalSecond(BigDecimal fractional);
 
+
     /**
      * Set time as one unit, including the optional infinite precision
      * fractional seconds.
@@ -426,6 +442,7 @@ public abstract class XMLGregorianCalendar
         setSecond(second);
         setFractionalSecond(fractional);
     }
+
 
     /**
      * Set time as one unit, including optional milliseconds.
@@ -1039,6 +1056,8 @@ public abstract class XMLGregorianCalendar
      * @return TimeZone for this.
      */
     public abstract TimeZone getTimeZone(int defaultZoneoffset);
+
+
 
     /**
      * Creates and returns a copy of this object.

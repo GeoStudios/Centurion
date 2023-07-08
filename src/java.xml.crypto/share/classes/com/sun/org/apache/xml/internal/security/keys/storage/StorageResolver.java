@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage;
 
+
 import java.security.KeyStore;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
@@ -31,10 +32,27 @@ import java.util.NoSuchElementException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations.KeyStoreResolver;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations.SingleCertificateResolver;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class collects customized resolvers for Certificates.

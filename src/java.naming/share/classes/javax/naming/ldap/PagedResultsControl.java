@@ -21,9 +21,24 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import com.sun.jndi.ldap.Ber;
 import com.sun.jndi.ldap.BerEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Requests that the results of a search operation be returned by the LDAP

@@ -21,6 +21,22 @@
 
 package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface FolderElement {
 
     Folder getParent();

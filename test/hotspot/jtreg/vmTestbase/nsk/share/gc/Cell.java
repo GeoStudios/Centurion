@@ -21,7 +21,21 @@
 
 package nsk.share.gc;
 
+
 import nsk.share.gc.MemoryObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Cell extends MemoryObject {
         private int number;

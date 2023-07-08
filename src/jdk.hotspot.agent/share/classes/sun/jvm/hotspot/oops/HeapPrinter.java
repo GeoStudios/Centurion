@@ -21,7 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HeapPrinter implements HeapVisitor {
 

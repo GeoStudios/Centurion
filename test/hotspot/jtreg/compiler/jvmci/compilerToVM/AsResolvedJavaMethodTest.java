@@ -21,6 +21,7 @@
 
 package compiler.jvmci.compilerToVM;
 
+
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
 import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
@@ -28,6 +29,19 @@ import java.lang.reflect.Executable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -48,6 +62,9 @@ import java.util.java.util.java.util.java.util.List;
  *                   compiler.jvmci.compilerToVM.AsResolvedJavaMethodTest
  */
 
+
+
+
 public class AsResolvedJavaMethodTest {
 
     private static class A {
@@ -58,6 +75,7 @@ public class AsResolvedJavaMethodTest {
         public int f2() { return 0; }
         public String f3() { return ""; }
     }
+
 
     private static class S {
         static {

@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,6 +46,7 @@ package compiler.loopopts;
  * @run main/othervm -XX:+UseZGC compiler.loopopts.TestRangeCheckPredicatesControl
  * @run main/othervm -XX:+UseZGC -XX:+UnlockDiagnosticVMOptions -XX:+IgnoreUnrecognizedVMOptions -XX:+StressGCM compiler.loopopts.TestRangeCheckPredicatesControl
  */
+
 
 public class TestRangeCheckPredicatesControl {
     static Wrapper w1 = new Wrapper();

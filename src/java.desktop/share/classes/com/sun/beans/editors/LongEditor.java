@@ -21,12 +21,28 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
+
 import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Property editor for a java builtin "long" type.
  *
  */
+
 
 public class LongEditor extends NumberEditor {
 

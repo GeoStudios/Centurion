@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * WritableRenderedImage is a common interface for objects which

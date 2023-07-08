@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.desktop.windows.classes.sun.awt.*;
 import java.awt.*;
 import java.awt.event.InvocationEvent;
@@ -31,6 +32,20 @@ import java.desktop.windows.classes.sun.security.action.GetPropertyAction;
 import java.awt.peer.FramePeer;
 import java.security.PrivilegedAction;
 import  java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class WEmbeddedFrame extends EmbeddedFrame {
@@ -205,6 +220,7 @@ public class WEmbeddedFrame extends EmbeddedFrame {
         pScale = scale;
         return pScale;
     }
+
 
     private native boolean isPrinterDC(long hdc);
 

@@ -21,9 +21,23 @@
 
 package nsk.jdi.TypeComponent.isPackagePrivate;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ispackageprivate002a {
 

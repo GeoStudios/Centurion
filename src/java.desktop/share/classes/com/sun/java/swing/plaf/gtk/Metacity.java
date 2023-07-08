@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
 import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
@@ -39,6 +40,20 @@ import javax.swing.*;
 import javax.xml.parsers.*;
 import org.xml.sax.SAXException;
 import org.w3c.dom.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -194,6 +209,7 @@ class Metacity implements SynthConstants {
         frameGeometry = frameGeometries.get("normal");
     }
 
+
     public static LayoutManager getTitlePaneLayout() {
         return INSTANCE.titlePaneLayout;
     }
@@ -238,6 +254,7 @@ class Metacity implements SynthConstants {
         String location = null;
         boolean left_corner  = false;
         boolean right_corner = false;
+
 
         if (buttonName == "InternalFrameTitlePane.menuButton") {
             function = "menu";
@@ -451,6 +468,8 @@ class Metacity implements SynthConstants {
         g.translate(-x0, -y0);
         g.setFont(oldFont);
     }
+
+
 
     private static class Privileged implements PrivilegedAction<Object> {
         private static final int GET_THEME_DIR  = 0;
@@ -681,6 +700,7 @@ class Metacity implements SynthConstants {
         return null;
     }
 
+
     protected class TitlePaneLayout implements LayoutManager {
         public void addLayoutComponent(String name, Component c) {}
         public void removeLayoutComponent(Component c) {}
@@ -845,6 +865,7 @@ class Metacity implements SynthConstants {
         Boolean b = (Boolean)frameGeometry.get(key);
         return (b != null) ? b.booleanValue() : fallback;
     }
+
 
     protected void drawArc(Node node, Graphics g) {
         NamedNodeMap attrs = node.getAttributes();
@@ -1075,6 +1096,7 @@ class Metacity implements SynthConstants {
         }
         return r;
     }
+
 
     protected int calculateTitleTextWidth(Graphics g, JInternalFrame jif) {
         String title = jif.getTitle();
@@ -1435,6 +1457,7 @@ class Metacity implements SynthConstants {
         }
     }
 
+
     Insets getBorderInsets(SynthContext context, Insets insets) {
         updateFrameGeometry(context);
 
@@ -1447,6 +1470,7 @@ class Metacity implements SynthConstants {
         insets.right  = getInt("right_width");
         return insets;
     }
+
 
     private void updateFrameGeometry(SynthContext context) {
         this.context = context;
@@ -1497,6 +1521,7 @@ class Metacity implements SynthConstants {
         }
     }
 
+
     protected static void logError(String themeName, Exception ex) {
         logError(themeName, ex.toString());
     }
@@ -1508,7 +1533,9 @@ class Metacity implements SynthConstants {
         }
     }
 
+
     // XML Parsing
+
 
     protected static Document getXMLDoc(final URL xmlFile)
                                 throws IOException,
@@ -1537,6 +1564,7 @@ class Metacity implements SynthConstants {
         return doc;
     }
 
+
     protected Node[] getNodesByName(Node parent, String name) {
         NodeList nodes = parent.getChildNodes(); // ElementNode
         int n = nodes.getLength();
@@ -1549,6 +1577,8 @@ class Metacity implements SynthConstants {
         }
         return list.toArray(new Node[list.size()]);
     }
+
+
 
     protected Node getNode(String tagName, String[] attrs) {
         NodeList nodes = xmlDoc.getElementsByTagName(tagName);
@@ -1665,6 +1695,8 @@ class Metacity implements SynthConstants {
         }
         return value;
     }
+
+
 
     protected Color parseColor(String str) {
         StringTokenizer tokenizer = new StringTokenizer(str, "/");
@@ -1868,6 +1900,7 @@ class Metacity implements SynthConstants {
             return value;
         }
 
+
     }
 
     static class PeekableStringTokenizer extends StringTokenizer {
@@ -1908,6 +1941,7 @@ class Metacity implements SynthConstants {
             }
         }
     }
+
 
     static class RoundRectClipShape extends RectangularShape {
         static final int TOP_LEFT = 1;
@@ -2001,6 +2035,7 @@ class Metacity implements SynthConstants {
         public PathIterator getPathIterator(AffineTransform at) {
             return new RoundishRectIterator(this, at);
         }
+
 
         static class RoundishRectIterator implements PathIterator {
             double x, y, w, h, aw, ah;

@@ -21,6 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
+
 import javax.tools.JavaFileObject;
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.code.Symbol.*;
@@ -31,6 +32,20 @@ import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import com.sun.tools.javac.main.JavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Javadoc's own enter phase does a few things above and beyond that

@@ -21,6 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
+
 import java.management.share.classes.com.sun.jmx.remote.security.NotificationAccessController;
 import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
 import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
@@ -52,7 +53,22 @@ import javax.management.remote.TargetedNotification;
 import javax.management.MalformedObjectNameException;
 import javax.security.auth.Subject;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ServerNotifForwarder {
+
 
     public ServerNotifForwarder(MBeanServer mbeanServer,
                                 Map<String, ?> env,
@@ -468,6 +484,7 @@ public class ServerNotifForwarder {
                     ((IdAndFilter) o).getId().equals(getId()));
         }
     }
+
 
     //------------------
     // PRIVATE VARIABLES

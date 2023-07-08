@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Metalworks;
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
@@ -29,6 +30,20 @@ import java.io.*;
 import javax.swing.text.*;
 import javax.swing.event.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -36,6 +51,10 @@ import javax.swing.event.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
 
 /**
  */
@@ -51,6 +70,7 @@ public class MetalworksHelp extends JInternalFrame {
         setContentPane(html);
     }
 }
+
 
 @SuppressWarnings("serial")
 class HtmlPane extends JScrollPane implements HyperlinkListener {
@@ -103,6 +123,7 @@ class HtmlPane extends JScrollPane implements HyperlinkListener {
         html.setCursor(waitCursor);
         SwingUtilities.invokeLater(new PageLoader(u, c));
     }
+
 
     /**
      * temporary class that loads synchronously (although

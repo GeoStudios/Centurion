@@ -21,9 +21,23 @@
 
 package nsk.monitoring.share;
 
+
 import java.lang.management.*;
 import java.util.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>ThreadController</code> class allows to operate with threads.
@@ -64,6 +78,7 @@ public class ThreadController extends StateController {
      * Result code: thread not found.
      */
     static public final int ERR_THREAD_NOTFOUND = 3;
+
 
     // Prefix to print while logging
     static final String LOG_PREFIX = "ThreadController> ";
@@ -107,6 +122,7 @@ public class ThreadController extends StateController {
 
     private ThreadsGroupLocks threadsGroupLocks;
 
+
     int maxDepth;
     static int invocationType;
 
@@ -139,6 +155,7 @@ public class ThreadController extends StateController {
         setDepth(maxDepth);
         setInvocationType(invocationType);
     }
+
 
     // Calculate how many threads of each kind to start
     private void setThreadCount(int threadCount) {
@@ -218,6 +235,7 @@ public class ThreadController extends StateController {
         return THREAD_KINDS.length;
     }
 
+
     /**
      * Brings out VM into defined state.
      * <p/>
@@ -296,6 +314,7 @@ public class ThreadController extends StateController {
             }
         }
     }
+
 
     /**
      * Finds a thread with defined id.
@@ -610,6 +629,7 @@ class WaitingThread extends BaseThread {
         }
     }
 
+
     protected void bringState() {
         ThreadsGroupLocks.PlainCountDownLatch barrier = threadsGroupLocks.getBarrier(STATE);
         try {
@@ -740,6 +760,7 @@ class RunningThread extends BaseThread {
         return state == Thread.State.RUNNABLE;
     }
 }
+
 
 class ThreadsGroupLocks {
 

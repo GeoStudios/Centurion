@@ -21,9 +21,23 @@
 
 package nsk.jvmti.DynamicCodeGenerated;
 
+
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class dyncodgen001 extends DebugeeClass {
 

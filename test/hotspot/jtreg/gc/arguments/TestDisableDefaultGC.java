@@ -21,7 +21,21 @@
 
 package gc.arguments;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestDisableDefaultGC
@@ -34,6 +48,7 @@ import jdk.test.lib.process.OutputAnalyzer;
  *          java.management
  * @run driver gc.arguments.TestDisableDefaultGC
  */
+
 
 public class TestDisableDefaultGC {
     public static void main(String[] args) throws Exception {

@@ -21,7 +21,21 @@
 
 package compiler.loopopts;
 
+
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -31,6 +45,8 @@ import jdk.test.lib.Utils;
  * @run main/othervm -XX:CompileCommand=compileonly,compiler.loopopts.TestInfLoopNearUsePlacement::test
  *                   compiler.loopopts.TestInfLoopNearUsePlacement
  */
+
+
 
 public class TestInfLoopNearUsePlacement {
 

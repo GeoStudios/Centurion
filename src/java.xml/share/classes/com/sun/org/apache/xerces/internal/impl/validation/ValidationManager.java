@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ValidationManager is a coordinator property for validators in the
@@ -77,6 +92,7 @@ public class ValidationManager {
     public final boolean isCachedDTD() {
         return fCachedDTD;
     } // isCachedDTD():  boolean
+
 
     public final void reset (){
         fVSs.clear();

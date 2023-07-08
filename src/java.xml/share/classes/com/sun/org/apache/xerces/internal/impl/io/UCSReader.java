@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io;
 
+
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.xml.share.classes.com.sun.xml.internal.stream.util.BufferAllocator;
 import java.xml.share.classes.com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * Reader for UCS-2 and UCS-4 encodings.

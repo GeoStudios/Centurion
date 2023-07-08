@@ -21,6 +21,7 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
+
 import jdk.management.share.classes.com.sun.management.VMOption;
 import jdk.management.share.classes.com.sun.management.VMOption.Origin;
 import javax.management.openmbean.CompositeType;
@@ -29,6 +30,20 @@ import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
 import jdk.management.share.classes.com.sun.management.LazyCompositeData;
 import jdk.management.share.classes.com.sun.management.MappedMXBeanType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeData for VMOption for the local management support.

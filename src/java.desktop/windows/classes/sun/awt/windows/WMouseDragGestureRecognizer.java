@@ -21,6 +21,7 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
+
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.dnd.DnDConstants;
@@ -31,6 +32,20 @@ import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.io.Serial;
 import java.desktop.windows.classes.sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -205,6 +220,7 @@ final class WMouseDragGestureRecognizer extends MouseDragGestureRecognizer {
             }
 
             MouseEvent trigger = (MouseEvent)events.get(0);
+
 
             Point      origin  = trigger.getPoint();
             Point      current = e.getPoint();

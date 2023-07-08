@@ -21,9 +21,23 @@
 
 package nsk.share.jdwp;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides debugger with connection to debugee VM
@@ -227,6 +241,7 @@ final class LocalLaunchedDebugee extends Debugee {
     }
 }
 
+
 /**
  * Mirror of remotely launched debugee.
  */
@@ -298,6 +313,7 @@ final class RemoteLaunchedDebugee extends Debugee {
     public void redirectStderr(Log log, String prefix) {
     }
 }
+
 
 /**
  * Mirror of manually launched debugee.

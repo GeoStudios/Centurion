@@ -21,6 +21,7 @@
 
 package java.base.unix.classes.sun.net.www.protocol.file;
 
+
 import java.net.InetAddress;
 import java.net.URLConnection;
 import java.net.URL;
@@ -31,6 +32,20 @@ import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.unix.classes.sun.net.www.ParseUtil;
 import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Open an file input stream given a URL.
@@ -43,6 +58,7 @@ public class Handler extends URLStreamHandler {
             host = "";
         return host;
     }
+
 
     protected void parseURL(URL u, String spec, int start, int limit) {
         /*

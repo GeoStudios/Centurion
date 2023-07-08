@@ -21,6 +21,56 @@
 
 package build.tools.pandocfilter.json;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface JSONValue {
     default int asInt() {
         throw new IllegalStateException("Unsupported conversion to int");

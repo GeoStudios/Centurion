@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.color.ColorSpace;
 import java.desktop.share.classes.java.awt.Transparency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DirectColorModel} class is a {@code ColorModel}
@@ -300,6 +315,7 @@ public class DirectColorModel extends PackedColorModel {
         }
     }
 
+
     /*
      * Given an int pixel in this ColorModel's ColorSpace, converts
      * it to the default sRGB ColorSpace and returns the R, G, and B
@@ -311,6 +327,7 @@ public class DirectColorModel extends PackedColorModel {
         // Note that getNormalizedComponents returns non-premultiplied values
         return colorSpace.toRGB(norm);
     }
+
 
     private int getsRGBComponentFromsRGB(int pixel, int idx) {
         int c = ((pixel & maskArray[idx]) >>> maskOffsets[idx]);
@@ -324,6 +341,7 @@ public class DirectColorModel extends PackedColorModel {
         }
         return c;
     }
+
 
     private int getsRGBComponentFromLinearRGB(int pixel, int idx) {
         int c = ((pixel & maskArray[idx]) >>> maskOffsets[idx]);
@@ -343,6 +361,7 @@ public class DirectColorModel extends PackedColorModel {
         // now range of c is 0-255 or 0-65535, depending on lRGBprecision
         return tosRGB8LUT[c] & 0xff;
     }
+
 
     /**
      * Returns the red color component for the specified pixel, scaled
@@ -509,6 +528,7 @@ public class DirectColorModel extends PackedColorModel {
         return getRed(pixel);
     }
 
+
     /**
      * Returns the green color component for the specified pixel, scaled
      * from 0 to 255 in the default RGB {@code ColorSpace}, sRGB.  A
@@ -560,6 +580,7 @@ public class DirectColorModel extends PackedColorModel {
         }
         return getGreen(pixel);
     }
+
 
     /**
      * Returns the blue color component for the specified pixel, scaled

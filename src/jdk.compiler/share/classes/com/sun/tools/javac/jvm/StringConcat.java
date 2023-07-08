@@ -21,6 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
+
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve;
@@ -36,6 +37,20 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.PLU
 import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Items.*;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This lowers the String concatenation to something that JVM can understand.
  *

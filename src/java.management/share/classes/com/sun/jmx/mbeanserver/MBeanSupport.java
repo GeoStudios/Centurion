@@ -21,6 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
+
 import javax.management.Attribute;
 import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
@@ -34,6 +35,20 @@ import javax.management.ObjectName;
 import javax.management.ReflectionException;
 import java.management.share.classes.com.sun.jmx.mbeanserver.MXBeanMappingFactory;
 import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for MBeans.  There is one instance of this class for

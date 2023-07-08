@@ -21,16 +21,34 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This class is derived from <em>Attribute</em> and represents a reference
@@ -42,6 +60,7 @@ public final class Signature extends Attribute {
 
     private int signatureIndex;
 
+
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -49,6 +68,7 @@ public final class Signature extends Attribute {
     public Signature(final Signature c) {
         this(c.getNameIndex(), c.getLength(), c.getSignatureIndex(), c.getConstantPool());
     }
+
 
     /**
      * Construct object from file stream.
@@ -63,6 +83,7 @@ public final class Signature extends Attribute {
         this(name_index, length, input.readUnsignedShort(), constant_pool);
     }
 
+
     /**
      * @param name_index Index in constant pool to CONSTANT_Utf8
      * @param length Content length in bytes
@@ -73,6 +94,7 @@ public final class Signature extends Attribute {
         super(Const.ATTR_SIGNATURE, name_index, length, constant_pool);
         this.signatureIndex = signatureIndex;
     }
+
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -87,6 +109,7 @@ public final class Signature extends Attribute {
         v.visitSignature(this);
     }
 
+
     /**
      * Dump source file attribute to file stream in binary format.
      *
@@ -99,6 +122,7 @@ public final class Signature extends Attribute {
         file.writeShort(signatureIndex);
     }
 
+
     /**
      * @return Index in constant pool of source file name.
      */
@@ -106,12 +130,14 @@ public final class Signature extends Attribute {
         return signatureIndex;
     }
 
+
     /**
      * @param signatureIndex the index info the constant pool of this signature
      */
     public void setSignatureIndex( final int signatureIndex ) {
         this.signatureIndex = signatureIndex;
     }
+
 
     /**
      * @return GJ signature.
@@ -131,9 +157,11 @@ public final class Signature extends Attribute {
             super(data.getBytes());
         }
 
+
         String getData() {
             return new String(buf);
         }
+
 
         void unread() {
             if (pos > 0) {
@@ -142,9 +170,11 @@ public final class Signature extends Attribute {
         }
     }
 
+
     private static boolean identStart( final int ch ) {
         return ch == 'T' || ch == 'L';
     }
+
 
     private static void matchIdent( final MyByteArrayInputStream in, final StringBuilder buf ) {
         int ch;
@@ -188,6 +218,7 @@ public final class Signature extends Attribute {
         }
     }
 
+
     private static void matchGJIdent( final MyByteArrayInputStream in, final StringBuilder buf ) {
         int ch;
         matchIdent(in, buf);
@@ -222,6 +253,7 @@ public final class Signature extends Attribute {
         }
     }
 
+
     public static String translate( final String s ) {
         //System.out.println("Sig:" + s);
         final StringBuilder buf = new StringBuilder();
@@ -229,13 +261,16 @@ public final class Signature extends Attribute {
         return buf.toString();
     }
 
+
     public static boolean isFormalParameterList( final String s ) {
         return s.startsWith("<") && (s.indexOf(':') > 0);
     }
 
+
     public static boolean isActualParameterList( final String s ) {
         return s.startsWith("L") && s.endsWith(">;");
     }
+
 
     /**
      * @return String representation
@@ -245,6 +280,7 @@ public final class Signature extends Attribute {
         final String s = getSignature();
         return "Signature: " + s;
     }
+
 
     /**
      * @return deep copy of this attribute

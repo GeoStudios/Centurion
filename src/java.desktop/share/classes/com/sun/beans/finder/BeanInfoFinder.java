@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
+
 import java.beans.BeanDescriptor;
 import java.beans.BeanInfo;
 import java.beans.MethodDescriptor;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is utility class that provides functionality

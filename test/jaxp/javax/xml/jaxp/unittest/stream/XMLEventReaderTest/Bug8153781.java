@@ -21,6 +21,7 @@
 
 package stream.XMLEventReaderTest;
 
+
 import java.io.StringReader;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
@@ -30,6 +31,19 @@ import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

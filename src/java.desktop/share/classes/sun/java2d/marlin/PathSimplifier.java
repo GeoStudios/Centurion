@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class PathSimplifier implements DPathConsumer2D {
 
     // distance threshold in pixels (device)

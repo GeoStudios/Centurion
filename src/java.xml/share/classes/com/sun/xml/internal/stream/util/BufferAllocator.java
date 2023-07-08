@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.util;
 
+
 import java.lang.ref.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Buffer allocator for buffers of sizes 128 B, 2 KB and 8 KB. Includes

@@ -21,6 +21,7 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
+
 import java.sql.*;
 import javax.sql.*;
 import javax.naming.*;
@@ -28,6 +29,20 @@ import java.io.*;
 import java.math.*;
 import java.util.*;
 import javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard implementation of the {@code JdbcRowSet} interface. See the interface
@@ -76,6 +91,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
      */
     private ResultSetMetaData resMD;
 
+
     /**
      * The Vector holding the Match Columns
      */
@@ -85,6 +101,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
      * The Vector that will hold the Match Column names.
      */
     private final Vector<String> strMatchColumns;
+
 
     protected transient JdbcRowSetResourceBundle resBundle;
 
@@ -129,6 +146,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         } catch(IOException ioe) {
             throw new RuntimeException(ioe);
         }
+
 
         initParams();
 
@@ -251,6 +269,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
             throw new RuntimeException(ioe);
         }
 
+
         initParams();
         // set the defaults
         setShowDeleted(false);
@@ -324,6 +343,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
             throw new RuntimeException(ioe);
         }
 
+
         initParams();
 
         // Pass the arguments to BaseRowSet
@@ -358,6 +378,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
            strMatchColumns.add(j,null);
         }
     }
+
 
     /**
      * Constructs a {@code JdbcRowSet} object using the given valid
@@ -408,6 +429,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         } catch(IOException ioe) {
             throw new RuntimeException(ioe);
         }
+
 
         initParams();
 
@@ -481,6 +503,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         }
     }
 
+
     protected void checkState() throws SQLException {
 
         // If all the three i.e.  conn, ps & rs are
@@ -544,14 +567,18 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         // set the properties of our shiny new statement
         setProperties(ps);
 
+
         // set the parameters
         decodeParams(getParams(), ps);
+
 
         // execute the statement
         rs = ps.executeQuery();
 
+
         // notify listeners
         notifyRowSetChanged();
+
 
     }
 
@@ -629,6 +656,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         }
 
     }
+
 
     protected PreparedStatement prepare() throws SQLException {
         // get a connection
@@ -1172,6 +1200,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         return rs.getBinaryStream(columnIndex);
     }
 
+
     //======================================================================
     // Methods for accessing results by column name
     //======================================================================
@@ -1476,6 +1505,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         return getBinaryStream(findColumn(columnName));
     }
 
+
     //=====================================================================
     // Advanced features:
     //=====================================================================
@@ -1666,6 +1696,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
 
         return rs.findColumn(columnName);
     }
+
 
     //--------------------------JDBC 2.0-----------------------------------
 
@@ -2085,6 +2116,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
             return rstype;
         }
 
+
     }
 
     /**
@@ -2453,6 +2485,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
 
         rs.updateDate(columnIndex, x);
     }
+
 
     /**
      * Updates the designated column with a {@code java.sql.Time} value.
@@ -3183,6 +3216,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         return rs.getRef(i);
     }
 
+
     /**
      * Returns the value of the designated column in the current row
      * of this rowset's {@code ResultSet} object as a {@code Blob} object.
@@ -3450,6 +3484,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         return getTimestamp(findColumn(columnName), cal);
     }
 
+
     /**
      * Sets the designated column in either the current row or the insert
      * row of this {@code JdbcRowSetImpl} object with the given
@@ -3533,6 +3568,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         checkState();
         rs.updateClob(columnIndex, c);
     }
+
 
     /**
      * Sets the designated column in either the current row or the insert
@@ -3789,6 +3825,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
            throw new SQLException(resBundle.handleGetObject("jdbcrowsetimpl.setmatchcols").toString());
         }
 
+
         iMatchColumns.copyInto(int_temp);
 
         for(int i = 0; i < int_temp.length; i++) {
@@ -3853,6 +3890,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
            strMatchColumns.add(i,columnNames[i]);
         }
     }
+
 
     /**
      * Sets the designated parameter to the given {@code int}
@@ -4075,6 +4113,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         rs = null;
     }
 
+
     /**
      * Rollbacks all the updates in the {@code JdbcRowSet} back to the
      * last {@code Savepoint} transaction marker. Wraps the internal
@@ -4100,6 +4139,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
             setConcurrency(rs.getConcurrency());
         }
     }
+
 
     // Checking ResultSet Type and Concurrency
     private void checkTypeConcurrency() throws SQLException {
@@ -4276,6 +4316,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
           super.setDataSourceName(dsName);
        }
     }
+
 
     /**
      * Sets the Url property for this {@code JdbcRowSet} object
@@ -4588,6 +4629,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
 
+
     /*o
      * This method is used for updating SQL {@code NCLOB}  type that maps
      * to {@code java.sql.Types.NCLOB}
@@ -4623,6 +4665,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
     public NClob getNClob(int i) throws SQLException {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
+
 
   /**
      * Retrieves the value of the designated column in the current row
@@ -4695,6 +4738,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
      }
 
+
    /**
      * Sets the designated parameter to the given {@code String} object.
      * The driver converts this to a SQL {@code NCHAR} or
@@ -4712,6 +4756,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
      public void setNString(int parameterIndex, String value) throws SQLException {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
      }
+
 
    /**
     * Sets the designated parameter in this {@code RowSet} object's command
@@ -4753,6 +4798,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
      }
 
+
     /**
      * Retrieves the value of the designated column in the current row
      * of this {@code ResultSet} object as a
@@ -4770,6 +4816,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
     public java.io.Reader getNCharacterStream(int columnIndex) throws SQLException {
        throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
      }
+
 
     /**
      * Retrieves the value of the designated column in the current row
@@ -5363,6 +5410,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
 
+
     /**
      * Updates the designated column with an ascii stream value, which will have
      * the specified number of bytes.
@@ -5507,6 +5555,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
 
+
     /**
      * Updates the designated column with a binary stream value, which will have
      * the specified number of bytes.
@@ -5556,6 +5605,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
 
+
     /**
      * Updates the designated column with a binary stream value.
      * The updater methods are used to update column values in the
@@ -5581,6 +5631,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
                             java.io.InputStream x) throws SQLException {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
+
 
     /**
      * Updates the designated column with a character stream value, which will have
@@ -5659,6 +5710,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
 
+
   /**
    * Sets the designated parameter to the given {@code java.net.URL} value.
    * The driver converts this to an SQL {@code DATALINK} value
@@ -5673,6 +5725,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
   public void setURL(int parameterIndex, java.net.URL x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
   /**
    * Sets the designated parameter to a {@code Reader} object.
@@ -5729,6 +5782,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
   }
 
+
  /**
   * Sets the designated parameter to a {@code Reader} object.
   * This method differs from the {@code setCharacterStream (int, Reader)} method
@@ -5753,6 +5807,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
     throws SQLException{
              throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
     /**
      * Sets the designated parameter to a {@code Reader} object. The reader must contain the number
@@ -5781,6 +5836,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
 
+
     /**
      * Sets the designated parameter to a {@code java.sql.NClob} object.
      * The driver converts this to an
@@ -5794,6 +5850,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
      public void setNClob(int parameterIndex, NClob value) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
   * Sets the designated parameter to the given {@code String} object.
@@ -5825,6 +5882,8 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
   public void setNCharacterStream(int parameterIndex, Reader value, long length) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
+
 
  /**
   * Sets the designated parameter to a {@code Reader} object. The
@@ -5919,6 +5978,8 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
 
+
+
   /**
     * Sets the designated parameter to the given {@code java.sql.Clob} object.
     * The driver converts this to an SQL {@code CLOB} value when it
@@ -5958,6 +6019,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
       throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
    /**
     * Sets the designated parameter to the given {@code java.sql.Date} value
@@ -6003,6 +6065,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
        throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to the given {@code java.sql.Time} value.
@@ -6072,6 +6135,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
 
+
   /**
    * Sets the designated parameter to a {@code Reader} object.  The reader must contain  the number
    * of characters specified by length otherwise a {@code SQLException} will be
@@ -6094,6 +6158,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
      throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
    /**
     * Sets the designated parameter to an {@code InputStream} object.  The inputstream must contain  the number
@@ -6183,6 +6248,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
          throws SQLException{
          throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
     }
+
 
    /**
     * Sets the designated parameter to the given {@code java.sql.Blob} object.
@@ -6360,6 +6426,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
       throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
  }
 
+
 /**
   * Sets the designated parameter to the given input stream, which will have
   * the specified number of bytes.
@@ -6438,6 +6505,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
           throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
  /**
     * Sets the designated parameter to the given input stream.
@@ -6529,6 +6597,8 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
    public void setString(String parameterName, String x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
+
 
    /**
     * Sets the designated parameter to the given Java array of bytes.
@@ -6637,6 +6707,8 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
 
+
+
  /**
     * Sets the designated parameter to the given Java {@code byte} value.
     * The driver converts this
@@ -6654,6 +6726,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
 
+
  /**
     * Sets the designated parameter to the given Java {@code short} value.
     * The driver converts this
@@ -6670,6 +6743,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
    public void setShort(String parameterName, short x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
    /**
     * Sets the designated parameter to the given Java {@code int} value.
@@ -6704,6 +6778,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
    public void setLong(String parameterName, long x) throws SQLException{
         throw new SQLFeatureNotSupportedException(resBundle.handleGetObject("jdbcrowsetimpl.featnotsupp").toString());
    }
+
 
    /**
     * Sets the designated parameter to the given Java {@code float} value.

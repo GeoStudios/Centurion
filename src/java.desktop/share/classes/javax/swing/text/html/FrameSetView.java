@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
+
 import java.awt.*;
 import java.util.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements a FrameSetView, intended to support the HTML
@@ -96,6 +111,7 @@ class FrameSetView extends javax.swing.text.BoxView {
         }
         return items;
     }
+
 
     /**
      * Initializes a number of internal state variables
@@ -203,6 +219,7 @@ class FrameSetView extends javax.swing.text.BoxView {
         return reqs;
     }
 
+
     /**
      * This method is responsible for returning in span[] the
      * span for each child view along the major axis.  it
@@ -280,6 +297,7 @@ class FrameSetView extends javax.swing.text.BoxView {
                 span[i] = (int) ( ((float)targetSpan * tempPercents[i]) / 100.00f);
                 remainingSpace -= span[i];
             }
+
 
             // this is for just in case there is something left over.. if there is we just
             // add it one pixel at a time to the frames in order.. We shouldn't really ever get

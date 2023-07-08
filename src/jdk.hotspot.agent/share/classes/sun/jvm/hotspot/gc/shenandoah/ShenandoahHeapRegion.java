@@ -21,6 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah;
 
+
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.ContiguousSpace;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.LiveRegionsProvider;
@@ -37,6 +38,20 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ShenandoahHeapRegion extends VMObject implements LiveRegionsProvider {
     private static int EmptyUncommitted;

@@ -21,7 +21,21 @@
 
 package runtime.invokedynamic;
 
+
 import java.lang.invoke.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -29,6 +43,7 @@ import java.lang.invoke.*;
  * @compile MethodHandleConstantHelper.jasm
  * @run main runtime.invokedynamic.MethodHandleConstantTest
  */
+
 
 public class MethodHandleConstantTest {
     static final MethodHandles.Lookup LOOKUP = MethodHandles.lookup();

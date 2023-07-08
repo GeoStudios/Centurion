@@ -21,6 +21,22 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Plugin to set the vendor version string, by redefining the static field
  * java.lang.VersionProps.VENDOR_VERSION

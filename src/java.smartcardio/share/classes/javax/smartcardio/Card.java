@@ -21,7 +21,22 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
+
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Smart Card with which a connection has been established. Card objects

@@ -21,11 +21,26 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
+
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Minimal port of the VM's oop map generator for interpreted frames */
 
@@ -2134,6 +2149,7 @@ public class GenerateOopMap {
     _init_vars = null;
     _rt = new RetTable();
   }
+
 
   // Compute the map.
   public void computeMap() {

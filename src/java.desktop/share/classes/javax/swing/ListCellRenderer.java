@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Identifies components that can be used as "rubber stamps" to paint

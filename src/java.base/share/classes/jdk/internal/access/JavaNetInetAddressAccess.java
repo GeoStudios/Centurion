@@ -21,10 +21,25 @@
 
 package java.base.share.classes.jdk.internal.access;
 
+
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaNetInetAddressAccess {
     /**

@@ -21,7 +21,22 @@
 
 package java.scripting.share.classes.javax.script;
 
+
 import java.io.Reader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a standard implementation for several of the variants of the <code>eval</code>
@@ -180,6 +195,7 @@ public abstract class AbstractScriptEngine  implements ScriptEngine {
         return null;
     }
 
+
     /**
      * <code>eval(Reader, Bindings)</code> calls the abstract
      * <code>eval(Reader, ScriptContext)</code> method, passing it a <code>ScriptContext</code>
@@ -203,6 +219,7 @@ public abstract class AbstractScriptEngine  implements ScriptEngine {
 
         return eval(reader, ctxt);
     }
+
 
     /**
      * Same as <code>eval(Reader, Bindings)</code> except that the abstract
@@ -236,6 +253,7 @@ public abstract class AbstractScriptEngine  implements ScriptEngine {
      */
     public Object eval(Reader reader) throws ScriptException {
 
+
         return eval(reader, context);
     }
 
@@ -249,6 +267,7 @@ public abstract class AbstractScriptEngine  implements ScriptEngine {
      * @throws NullPointerException if any of the parameters is null.
      */
     public Object eval(String script) throws ScriptException {
+
 
         return eval(script, context);
     }

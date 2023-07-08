@@ -21,12 +21,27 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
+
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
 import sun.awt.AppContext;
 import sun.security.action.GetPropertyAction;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A concrete implementation of {@code MetalTheme} providing
@@ -258,6 +273,7 @@ public class DefaultMetalTheme extends MetalTheme {
      * @return the secondary 3 color
      */
     protected ColorUIResource getSecondary3() { return secondary3; }
+
 
     /**
      * Returns the control text font. This returns Dialog, 12pt. If

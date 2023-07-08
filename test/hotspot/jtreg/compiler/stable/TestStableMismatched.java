@@ -21,6 +21,21 @@
 
 package compiler.stable;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStableMismatched
  * @bug 8158228
@@ -33,6 +48,7 @@ package compiler.stable;
  *                   -XX:CompileOnly=compiler.stable.TestStableMismatched::test,::charAt
  *                   compiler.stable.TestStableMismatched
  */
+
 
 public class TestStableMismatched {
     public static void main(String args[]) {

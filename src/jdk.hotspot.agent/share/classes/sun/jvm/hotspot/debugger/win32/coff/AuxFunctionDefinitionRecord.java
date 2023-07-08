@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface AuxFunctionDefinitionRecord extends AuxSymbolRecord {
   /** Symbol-table index of the corresponding .bf (begin function)
       symbol record. */

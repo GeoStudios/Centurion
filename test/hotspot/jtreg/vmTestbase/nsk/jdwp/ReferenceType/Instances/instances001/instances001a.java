@@ -21,10 +21,24 @@
 
 package nsk.jdwp.ReferenceType.Instances.instances001;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import nsk.share.ReferringObjectSet;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import nsk.share.jdwp.AbstractJDWPDebuggee;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class TestClass {
 

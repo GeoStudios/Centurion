@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
+
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosKey;
 import javax.security.auth.kerberos.KerberosPrincipal;
@@ -36,6 +37,20 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Credentials of a kerberos acceptor. A KerberosPrincipal object (kp) is

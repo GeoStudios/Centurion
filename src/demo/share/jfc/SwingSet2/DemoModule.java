@@ -21,6 +21,7 @@
 
 package demo.share.jfc.SwingSet2;
 
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -36,6 +37,20 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generic SwingSet2 demo module
@@ -106,6 +121,7 @@ public class DemoModule extends JFrame {
         return swingset;
     }
 
+
     public String getString(String key) {
 
         if (getSwingSet2() != null) {
@@ -127,6 +143,7 @@ public class DemoModule extends JFrame {
             return new ImageIcon(getClass().getResource(path), description);
         }
     }
+
 
     public String getSourceCode() {
         return sourceCode;

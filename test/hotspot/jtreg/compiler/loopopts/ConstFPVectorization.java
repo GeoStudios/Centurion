@@ -21,6 +21,21 @@
 
 package compiler.loopopts;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8074869
@@ -28,6 +43,7 @@ package compiler.loopopts;
  * @run main compiler.loopopts.ConstFPVectorization 8
  * @author volker.simonis@gmail.com
  */
+
 
 public class ConstFPVectorization {
 

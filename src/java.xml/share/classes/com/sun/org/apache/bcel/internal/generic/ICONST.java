@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * ICONST - Push value between -1, ..., 5, other values cause an exception
  *
@@ -31,12 +47,14 @@ public class ICONST extends Instruction implements ConstantPushInstruction {
 
     private int value;
 
+
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     ICONST() {
     }
+
 
     public ICONST(final int i) {
         super(com.sun.org.apache.bcel.internal.Const.ICONST_0, (short) 1);
@@ -48,10 +66,12 @@ public class ICONST extends Instruction implements ConstantPushInstruction {
         value = i;
     }
 
+
     @Override
     public Number getValue() {
         return Integer.valueOf(value);
     }
+
 
     /** @return Type.INT
      */
@@ -59,6 +79,7 @@ public class ICONST extends Instruction implements ConstantPushInstruction {
     public Type getType( final ConstantPoolGen cp ) {
         return Type.INT;
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

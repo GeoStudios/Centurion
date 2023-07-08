@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
@@ -56,6 +57,20 @@ import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Built on org.apache.xml.serializer.TreeWalker and adds functionality to
@@ -788,6 +803,7 @@ final class DOM3TreeWalker {
 
             }
 
+
             // discard-default-content=true
             // Default attr's are not passed to the filter and this contraint
             // is applied only when discard-default-content=true
@@ -1085,6 +1101,7 @@ final class DOM3TreeWalker {
             }
         }
     }
+
 
     // ***********************************************************************
     // Methods to check well-formedness

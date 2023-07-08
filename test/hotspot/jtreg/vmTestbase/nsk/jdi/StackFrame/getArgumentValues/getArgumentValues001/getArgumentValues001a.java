@@ -21,9 +21,23 @@
 
 package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues001;
 
+
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

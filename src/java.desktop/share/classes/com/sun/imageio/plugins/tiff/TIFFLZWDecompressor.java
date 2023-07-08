@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class TIFFLZWDecompressor extends TIFFDecompressor {
 

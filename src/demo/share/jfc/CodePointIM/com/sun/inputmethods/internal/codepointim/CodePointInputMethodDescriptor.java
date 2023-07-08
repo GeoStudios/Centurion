@@ -21,10 +21,25 @@
 
 package demo.share.jfc.CodePointIM.com.sun.inputmethods.internal.codepointim;
 
+
 import java.awt.Image;
 import java.awt.im.spi.InputMethodDescriptor;
 import java.awt.im.spi.InputMethod;
 import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -33,6 +48,11 @@ import java.base.share.classes.java.util.Locale;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
+
+
 
 /**
  * The CodePointInputMethod is a simple input method that allows Unicode

@@ -21,13 +21,30 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
+
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
 
 /**
  * GETFIELD - Fetch field from object
@@ -46,14 +63,17 @@ public class GETFIELD extends FieldInstruction implements ExceptionThrower, Stac
     GETFIELD() {
     }
 
+
     public GETFIELD(final int index) {
         super(Const.GETFIELD, index);
     }
+
 
     @Override
     public int produceStack( final ConstantPoolGen cpg ) {
         return getFieldSize(cpg);
     }
+
 
     @Override
     public Class<?>[] getExceptions() {
@@ -61,6 +81,7 @@ public class GETFIELD extends FieldInstruction implements ExceptionThrower, Stac
             ExceptionConst.NULL_POINTER_EXCEPTION,
             ExceptionConst.INCOMPATIBLE_CLASS_CHANGE_ERROR);
     }
+
 
     /**
      * Call corresponding visitor method(s). The order is:

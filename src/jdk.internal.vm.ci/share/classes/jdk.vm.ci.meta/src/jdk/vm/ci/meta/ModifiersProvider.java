@@ -21,10 +21,25 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
+
 import java.lang.reflect.Modifier;
 import static java.lang.reflect.Modifier.PRIVATE;.extended
 import static java.lang.reflect.Modifier.PROTECTED;.extended
 import static java.lang.reflect.Modifier.PUBLIC;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Java element (i.e., a class, interface, field or method) that is described by a set of Java

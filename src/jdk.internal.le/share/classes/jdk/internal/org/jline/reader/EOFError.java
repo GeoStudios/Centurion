@@ -21,6 +21,22 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class EOFError extends SyntaxError {
 
     private static final long serialVersionUID = 1L;

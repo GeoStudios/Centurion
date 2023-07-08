@@ -21,9 +21,23 @@
 
 package gc.gctests.mallocWithGC3;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -55,6 +69,8 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm/native/timeout=300 gc.gctests.mallocWithGC3.mallocWithGC3
  */
+
+
 
 public class mallocWithGC3 extends TestBase {
         static {
@@ -104,6 +120,7 @@ public class mallocWithGC3 extends TestBase {
 
                 tArray[0] = new javaHeapEater(v);
                 tArray[1] = new cHeapEater();
+
 
                 try {
                         for(int i = 0; i < tArray.length ; i++ )

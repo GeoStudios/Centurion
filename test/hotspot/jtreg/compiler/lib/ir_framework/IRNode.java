@@ -21,12 +21,26 @@
 
 package compiler.lib.ir_framework;
 
+
 import compiler.lib.ir_framework.driver.IRMatcher;
 import compiler.lib.ir_framework.shared.TestFormat;
 import compiler.lib.ir_framework.shared.TestFormatException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides default regex strings that can be used in {@link IR @IR} annotations to specify IR constraints.
@@ -119,6 +133,7 @@ public class IRNode {
 
     public static final String SCOPE_OBJECT = "(.*# ScObj.*" + END;
     public static final String MEMBAR = START + "MemBar" + MID + END;
+
 
     private static final String ALLOC_OF_POSTFIX =  ":.*\\R(.*(movl|xorl|nop|spill).*\\R)*.*call,static  wrapper for: _new_instance_Java" + END;
     private static final String ALLOC_ARRAY_OF_POSTFIX = ";:.*\\R(.*(movl|xorl|nop|spill).*\\R)*.*call,static  wrapper for: _new_array_Java" + END;

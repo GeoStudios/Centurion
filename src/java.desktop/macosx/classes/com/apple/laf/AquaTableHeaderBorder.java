@@ -21,6 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
+
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -28,6 +29,20 @@ import javax.swing.plaf.UIResource;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIState;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class AquaTableHeaderBorder extends AbstractBorder {

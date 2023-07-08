@@ -21,6 +21,21 @@
 
 package compiler.c1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8207355
@@ -29,6 +44,7 @@ package compiler.c1;
  *                   -XX:CompileCommand=compileonly,compiler.c1.TestLinearScanOrder::test
  *                   compiler.c1.TestLinearScanOrderMain
  */
+
 
 // WARNING: This test will not fail but time out in C1's ComputeLinearScanOrder phase
 public class TestLinearScanOrderMain {

@@ -21,8 +21,23 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
+
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class IntegerWriter {
 

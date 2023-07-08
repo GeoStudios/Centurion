@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.net.www.protocol.mailto;
 
+
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
@@ -28,9 +29,25 @@ import java.io.*;
 import java.base.share.classes.sun.net.www.*;
 import java.base.share.classes.sun.net.smtp.SmtpClient;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-
  *      mailto stream opener
  */
+
+
 
 //import java.base.share.classes.sun.net.www.protocol.news.ArticlePoster;
 

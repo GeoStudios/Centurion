@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.*;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
@@ -31,6 +32,20 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFac
 import java.io.*; // for dumpDTM.extended
 import java.util.Vector;
 import javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>DTMDefaultBase</code> class serves as a helper base for DTMs.
@@ -113,6 +128,7 @@ public abstract class DTMDefaultBase implements DTM
    * (Efficiency hook)
    */
   protected DTMManagerDefault m_mgrDefault=null;
+
 
   /** The document identity number(s). If we have overflowed the addressing
    * range of the first that was assigned to us, we may add others. */
@@ -952,6 +968,7 @@ public abstract class DTMDefaultBase implements DTM
       + (nodeHandle & DTMManager.IDENT_NODE_DEFAULT);
   }
 
+
   /**
    * Given a node handle, get the handle of the node's first child.
    * If not yet resolved, waits for more nodes to be added to the document and
@@ -1236,6 +1253,7 @@ public abstract class DTMDefaultBase implements DTM
     return DTM.NULL;
   }
 
+
   /** Build table of namespace declaration
    * locations during DTM construction. Table is aArrayList<>of
    * SuballocatedIntVectors containing the namespace node HANDLES declared at
@@ -1431,6 +1449,7 @@ public abstract class DTMDefaultBase implements DTM
 
     return -1 - i; // not-found has to be encoded.
   }
+
 
   /**
    * Given a node handle, get the index of the node's first child.

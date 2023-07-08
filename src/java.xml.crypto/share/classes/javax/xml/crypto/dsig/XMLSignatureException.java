@@ -21,12 +21,29 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
 import java.io.PrintStream;
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * $Id: XMLSignatureException.java,v 1.5 2005/05/10 16:03:48 mullan Exp $
  */
+
+
 
 /**
  * Indicates an exceptional condition that occurred during the XML

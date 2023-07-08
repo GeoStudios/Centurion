@@ -21,6 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.rcache;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
@@ -28,6 +29,20 @@ import java.nio.ByteOrder;
 import java.nio.channels.SeekableByteChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class represents an old style replay cache entry. It is only used in

@@ -21,6 +21,22 @@
 
 package java.management.share.classes.javax.management;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The MBean is already registered in the repository.
  *

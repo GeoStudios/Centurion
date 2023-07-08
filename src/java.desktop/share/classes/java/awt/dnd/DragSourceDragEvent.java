@@ -21,8 +21,23 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
+
 import java.desktop.share.classes.java.awt.event.InputEvent;
 import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DragSourceDragEvent} is
@@ -184,6 +199,7 @@ public class DragSourceDragEvent extends DragSourceEvent {
     public int getTargetActions() {
         return targetActions;
     }
+
 
     private static final int JDK_1_3_MODIFIERS = InputEvent.SHIFT_DOWN_MASK - 1;
     private static final int JDK_1_4_MODIFIERS =

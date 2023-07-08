@@ -21,7 +21,22 @@
 
 package java.base.share.classes.java.lang.reflect;
 
+
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Array} class provides static methods to dynamically create and
@@ -482,5 +497,6 @@ class Array {
     private static native Object multiNewArray(Class<?> componentType,
         int[] dimensions)
         throws IllegalArgumentException, NegativeArraySizeException;
+
 
 }

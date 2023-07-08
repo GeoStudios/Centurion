@@ -21,9 +21,23 @@
 
 package nsk.jdi.Field.type;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class type001a {
     boolean z0;

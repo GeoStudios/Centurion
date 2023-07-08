@@ -21,6 +21,7 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
+
 import java.lang.ref.SoftReference;
 import java.nio.charset.Charset;
 import java.nio.charset.spi.CharsetProvider;
@@ -29,6 +30,20 @@ import java.util.TreeMap;
 import java.util.Iterator;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract base class for charset providers.

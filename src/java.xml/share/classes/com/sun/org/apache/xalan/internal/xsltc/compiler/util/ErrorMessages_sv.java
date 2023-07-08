@@ -21,7 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
+
 import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */
@@ -104,6 +119,7 @@ public class ErrorMessages_sv extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "Mallen ''{0}'' har redan definierats i denna formatmall."},
+
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -680,8 +696,10 @@ public class ErrorMessages_sv extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "Parameterv\u00E4rdet f\u00F6r {0} m\u00E5ste vara giltigt Java-objekt"},
 
+
         {ErrorMsg.COMPILE_STDIN_ERR,
         "Alternativet -i m\u00E5ste anv\u00E4ndas med alternativet -o."},
+
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -706,6 +724,8 @@ public class ErrorMessages_sv extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "SYNOPSIS \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <jarfile>]\n      [-x] [-n <iterationer>] {-u <dokument_url> | <dokument>}\n      <klass> [<param1>=<v\u00E4rde1> ...]\n\n   anv\u00E4nder translet <klass> vid transformering av XML-dokument \n   angivna som <dokument>. Translet-<klass> finns antingen i\n   anv\u00E4ndarens CLASSPATH eller i valfritt angiven <jarfile>.\nALTERNATIV\n   -j <jarfile>    anger en jar-fil varifr\u00E5n translet laddas\n   -x              ger ytterligare fels\u00F6kningsmeddelanden\n   -n <iterationer> k\u00F6r <iterations>-tider vid transformering och\n                   visar profileringsinformation\n   -u <dokument_url> anger XML-indatadokument som URL\n"},
+
+
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -963,6 +983,7 @@ public class ErrorMessages_sv extends ListResourceBundle {
         {ErrorMsg.OUTLINE_ERR_DELETED_TARGET,
          "Internt XSLTC-fel: originalmetoden refererar fortfarande till en instruktion som var en del av ett bytekodsblock som gjordes till en disposition."
         },
+
 
         /*
          * Note to translators:  This message describes an internal error in the

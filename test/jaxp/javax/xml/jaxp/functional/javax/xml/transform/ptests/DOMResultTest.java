@@ -21,6 +21,7 @@
 
 package javax.xml.transform.ptests;
 
+
 import static javax.xml.transform.ptests.TransformerTestConst.GOLDEN_DIR;.extended
 import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
@@ -43,6 +44,19 @@ import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DOM parse on test file to be compared with golden output file. No Exception

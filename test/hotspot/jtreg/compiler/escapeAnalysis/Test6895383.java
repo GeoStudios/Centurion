@@ -21,8 +21,22 @@
 
 package compiler.escapeAnalysis;
 
+
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -31,6 +45,8 @@ import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
  *
  * @run main/othervm -Xcomp compiler.escapeAnalysis.Test6895383
  */
+
+
 
 public class Test6895383 {
     public static void main(String argv[]) {

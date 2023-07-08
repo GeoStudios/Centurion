@@ -21,6 +21,7 @@
 
 package vm.mlvm.meth.func.java.throwException;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -30,6 +31,19 @@ import vm.mlvm.meth.share.RandomArgumentGen;
 import vm.mlvm.meth.share.RandomArgumentsGen;
 import vm.mlvm.meth.share.transform.v2.MHMacroTF;
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -52,6 +66,9 @@ import vm.mlvm.share.MlvmTest;
  *
  * @run main/othervm vm.mlvm.meth.func.java.throwException.Test
  */
+
+
+
 
 public class Test extends MlvmTest {
 

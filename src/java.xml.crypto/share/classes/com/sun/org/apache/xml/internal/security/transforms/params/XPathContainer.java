@@ -21,6 +21,7 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.params;
 
+
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformParam;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
@@ -28,10 +29,27 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
 
 /**
  * This Object serves both as namespace prefix resolver and as container for

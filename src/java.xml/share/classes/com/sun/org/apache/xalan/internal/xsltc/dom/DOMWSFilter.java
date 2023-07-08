@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
@@ -30,9 +31,25 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: DOMWSFilter.java,v 1.2.4.1 2005/09/06 06:14:31 pvedula Exp $
  */
+
+
 
 /**
  * A wrapper class that adapts the

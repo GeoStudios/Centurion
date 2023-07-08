@@ -21,6 +21,22 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface Expander {
 
     String expandHistory(History history, String line);

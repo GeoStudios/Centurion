@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.java.beans;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A PropertyEditor class provides support for GUIs that want to
  * allow users to edit a property value of a given type.

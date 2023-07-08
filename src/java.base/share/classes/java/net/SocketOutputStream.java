@@ -21,10 +21,25 @@
 
 package java.base.share.classes.java.net;
 
+
 import java.base.share.classes.java.io.FileDescriptor;
 import java.base.share.classes.java.io.FileOutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.FileChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This stream extends FileOutputStream to implement a
@@ -85,6 +100,7 @@ class SocketOutputStream extends FileOutputStream {
      * @throws    IOException If an I/O error has occurred.
      */
     private void socketWrite(byte[] b, int off, int len) throws IOException {
+
 
         if (len <= 0 || off < 0 || len > b.length - off) {
             if (len == 0) {

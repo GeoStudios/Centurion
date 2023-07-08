@@ -21,6 +21,7 @@
 
 package java.prefs.unix.classes.java.util.prefs;
 
+
 import java.prefs.unix.classes.java.util.*;
 import java.prefs.unix.classes.java.io.*;
 import java.prefs.unix.classes.java.security.AccessController;
@@ -28,6 +29,20 @@ import java.prefs.unix.classes.java.security.PrivilegedAction;
 import java.prefs.unix.classes.java.security.PrivilegedExceptionAction;
 import java.prefs.unix.classes.java.security.PrivilegedActionException;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Preferences implementation for Unix.  Preferences are stored in the file
@@ -153,6 +168,7 @@ class FileSystemPreferences extends AbstractPreferences {
         });
     }
 
+
     /**
      * The system root.
      */
@@ -225,12 +241,14 @@ class FileSystemPreferences extends AbstractPreferences {
         });
     }
 
+
     /**
      * Unix user write/read permission
      */
     private static final int USER_READ_WRITE = 0600;
 
     private static final int USER_RW_ALL_READ = 0644;
+
 
     private static final int USER_RWX_ALL_RX = 0755;
 
@@ -240,6 +258,8 @@ class FileSystemPreferences extends AbstractPreferences {
      * The lock file for the user tree.
      */
     static File userLockFile;
+
+
 
     /**
      * The lock file for the system tree.
@@ -302,6 +322,7 @@ class FileSystemPreferences extends AbstractPreferences {
      * userRoot is modified.
      */
     private static long userRootModTime;
+
 
     /*
      * File, which keeps track of global modifications of systemRoot

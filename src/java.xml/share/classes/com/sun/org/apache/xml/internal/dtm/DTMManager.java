@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DTMManager instance can be used to create DTM and
@@ -328,12 +343,14 @@ public abstract class DTMManager
    * */
   public static final int IDENT_DTM_NODE_BITS = 16;
 
+
   /** When this bitmask is ANDed with a DTM node handle number, the result
    * is the low bits of the node's index number within that DTM. To obtain
    * the high bits, add the DTM ID portion's offset as assigned in the DTM
    * Manager.
    */
   public static final int IDENT_NODE_DEFAULT = (1<<IDENT_DTM_NODE_BITS)-1;
+
 
   /** When this bitmask is ANDed with a DTM node handle number, the result
    * is the DTM's document identity number.
@@ -344,6 +361,7 @@ public abstract class DTMManager
     * one less than this.
    */
   public static final int IDENT_MAX_DTMS = (IDENT_DTM_DEFAULT >>> IDENT_DTM_NODE_BITS) + 1;
+
 
   /**
    * %TBD% Doc

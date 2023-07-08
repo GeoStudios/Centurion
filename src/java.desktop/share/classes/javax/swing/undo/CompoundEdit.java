@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A concrete subclass of AbstractUndoableEdit, used to assemble little

@@ -21,6 +21,22 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface represents the Attribute Use schema component.
  */

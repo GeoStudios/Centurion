@@ -21,9 +21,24 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.regex;
 
+
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A regular expression parser for the XML Schema.
@@ -150,6 +165,7 @@ class ParserForXMLSchema extends RegexParser {
         tok.mergeRanges(this.getTokenForShorthand(c));
         return -1;
     }
+
 
     /**
      * Parses a character-class-expression, not a character-class-escape.

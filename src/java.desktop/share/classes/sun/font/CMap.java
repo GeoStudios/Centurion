@@ -21,11 +21,26 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.IntBuffer;
 import java.base.share.classes.java.util.Locale;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A tt font has a CMAP table which is in turn made up of sub-tables which
@@ -383,6 +398,7 @@ abstract class CMap {
         }
         return converterMaps[encodingID];
     }
+
 
     static CMap createCMap(ByteBuffer buffer, int offset, char[] xlat) {
         /* First do a sanity check that this cmap subtable is contained
@@ -907,6 +923,7 @@ abstract class CMap {
         }
 
     }
+
 
     // Format 4-byte 10: Trimmed table mapping
     // Seems unlikely this code will ever get tested as we look for

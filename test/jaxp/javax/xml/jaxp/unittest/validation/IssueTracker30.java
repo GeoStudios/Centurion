@@ -21,6 +21,7 @@
 
 package validation;
 
+
 import java.io.File;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
@@ -33,6 +34,19 @@ import org.testng.annotations.Test;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -93,6 +107,7 @@ public class IssueTracker30 {
             Assert.fail(ex.getMessage(), ex);
         }
     }
+
 
     private boolean testMaxOccurs(String xmlFileName, String xsdFileName) throws Exception {
         File xmlFile = new File(getClass().getResource(xmlFileName).getFile());

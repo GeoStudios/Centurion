@@ -21,8 +21,23 @@
 
 package java.base.share.classes.sun.text;
 
+
 import jdk.internal.icu.impl.NormalizerImpl;
 import jdk.internal.icu.text.NormalizerBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ComposedCharIter {
     /**

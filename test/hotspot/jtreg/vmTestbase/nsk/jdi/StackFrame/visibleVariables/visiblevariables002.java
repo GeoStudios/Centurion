@@ -21,6 +21,7 @@
 
 package nsk.jdi.StackFrame.visibleVariables;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,6 +30,19 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -142,6 +156,7 @@ public class visiblevariables002 {
 
         waitTime = argsHandler.getWaitTime();
 
+
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -180,6 +195,7 @@ public class visiblevariables002 {
 
             int expresult = returnCode0;
 
+
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -191,6 +207,7 @@ public class visiblevariables002 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
+
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -276,6 +293,7 @@ public class visiblevariables002 {
                     break label1;
                 }
 
+
                 String        name0 = null;
                 String        name1 = null;
                 String  testedName0 = "vi_i1";
@@ -345,6 +363,8 @@ public class visiblevariables002 {
         return testExitCode;
     }
 
+
+
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -400,6 +420,7 @@ public class visiblevariables002 {
 
         return breakpRequest;
     }
+
 
     /*
      * private int breakpoint ()

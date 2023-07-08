@@ -21,6 +21,7 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -33,6 +34,20 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.java.util.java.util.java.util.List;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSelectionListener {
@@ -47,6 +62,7 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
 
     private ThreadOverviewPanel overviewPanel;
     private boolean plotterListening = false;
+
 
     private static final String threadCountKey   = "threadCount";
     private static final String peakKey          = "peak";
@@ -71,6 +87,7 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
                         Center: plotter
 
     */
+
 
     public static String getTabName() {
         return Messages.THREADS;
@@ -258,6 +275,7 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
                     }
                 }
 
+
                 for (long oldThread : oldThreads) {
                     boolean found = false;
                     for (long newThread : newThreads) {
@@ -392,6 +410,7 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
         });
     }
 
+
     private void detectDeadlock() {
         workerAdd(new Runnable() {
             public void run() {
@@ -478,6 +497,7 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
         });
     }
 
+
     // Return deadlocked threads or null
     public Long[][] getDeadlockedThreadIds() throws IOException {
         ProxyClient proxyClient = vmPanel.getProxyClient();
@@ -536,6 +556,10 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
         return dcycles.toArray(new Long[0][0]);
     }
 
+
+
+
+
     // ActionListener interface
     public void actionPerformed(ActionEvent evt) {
         String cmd = ((AbstractButton)evt.getSource()).getActionCommand();
@@ -545,6 +569,8 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
             detectDeadlock();
         }
     }
+
+
 
     // DocumentListener interface
 
@@ -559,6 +585,8 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
     public void changedUpdate(DocumentEvent e) {
         doUpdate();
     }
+
+
 
     private class ThreadJList extends JList<Long> {
         private final JTextArea textArea;
@@ -658,6 +686,7 @@ class ThreadTab extends Tab implements ActionListener, DocumentListener, ListSel
         }
         return new OverviewPanel[] { overviewPanel };
     }
+
 
     private static class ThreadOverviewPanel extends OverviewPanel {
         ThreadOverviewPanel() {

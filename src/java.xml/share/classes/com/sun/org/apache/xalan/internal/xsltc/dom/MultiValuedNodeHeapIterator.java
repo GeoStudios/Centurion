@@ -21,10 +21,25 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
+
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * reserved comment block
@@ -33,6 +48,9 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIte
 /*
  * $Id: UnionIterator.java 337874 2004-02-16 23:06:53Z minchau $
  */
+
+
+
 
 /**
  * <p><code>MultiValuedNodeHeapIterator</code> takes a set of multi-valued
@@ -68,6 +86,7 @@ public abstract class MultiValuedNodeHeapIterator extends DTMAxisIteratorBase {
          * @return the next DTM node.
          */
         public abstract int step();
+
 
         /**
          * Creates a deep copy of this {@link HeapNode}.  The clone is not
@@ -150,6 +169,7 @@ public abstract class MultiValuedNodeHeapIterator extends DTMAxisIteratorBase {
 
     // cached heap size for use in gotoMark
     private int _cachedHeapSize;
+
 
     public DTMAxisIterator cloneIterator() {
         _isRestartable = false;

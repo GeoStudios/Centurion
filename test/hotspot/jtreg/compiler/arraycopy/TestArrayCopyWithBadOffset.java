@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8224539
@@ -28,6 +43,7 @@ package compiler.arraycopy;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -Xbatch -XX:+AlwaysIncrementalInline
  *                   compiler.arraycopy.TestArrayCopyWithBadOffset
  */
+
 
 public class TestArrayCopyWithBadOffset {
 

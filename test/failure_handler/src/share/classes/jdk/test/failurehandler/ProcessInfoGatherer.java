@@ -21,6 +21,21 @@
 
 package jdk.test.failurehandler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface ProcessInfoGatherer {
     void gatherProcessInfo(HtmlSection section, long pid);
 }

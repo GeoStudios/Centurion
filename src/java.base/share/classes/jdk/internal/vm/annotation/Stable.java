@@ -21,7 +21,22 @@
 
 package java.base.share.classes.jdk.internal.vm.annotation;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A field may be annotated as stable if all of its component variables

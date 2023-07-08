@@ -21,10 +21,27 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
 
 /**
  * Primary constants used by the XSLT Processor
@@ -109,6 +126,7 @@ public class Constants
     S_EXSLT_FUNCTIONS_URL = "http://exslt.org/functions",
     S_EXSLT_DYNAMIC_URL = "http://exslt.org/dynamic",
     S_EXSLT_STRINGS_URL = "http://exslt.org/strings";
+
 
   /**
    * The minimum version of XSLT supported by this processor.

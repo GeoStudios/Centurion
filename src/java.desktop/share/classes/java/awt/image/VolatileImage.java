@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
+
 import java.desktop.share.classes.java.awt.Color;
 import java.desktop.share.classes.java.awt.Graphics;
 import java.desktop.share.classes.java.awt.Graphics2D;
@@ -30,6 +31,20 @@ import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.awt.ImageCapabilities;
 import java.desktop.share.classes.java.awt.Toolkit;
 import java.desktop.share.classes.java.awt.Transparency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * VolatileImage is an image which can lose its
@@ -240,6 +255,7 @@ public abstract class VolatileImage extends Image implements Transparency
      *          image.
      */
     public abstract Graphics2D createGraphics();
+
 
     // Volatile management methods
 

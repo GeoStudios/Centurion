@@ -21,11 +21,25 @@
 
 package compiler.gcbarriers;
 
+
 import java.lang.reflect.Field;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Random;
 import jdk.test.lib.Utils;
 import sun.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test id=z
@@ -59,6 +73,8 @@ import sun.misc.Unsafe;
  *                   -XX:CompileCommand=dontinline,*::mergeImpl*
  *                   compiler.gcbarriers.UnsafeIntrinsicsTest
  */
+
+
 
 public class UnsafeIntrinsicsTest {
 

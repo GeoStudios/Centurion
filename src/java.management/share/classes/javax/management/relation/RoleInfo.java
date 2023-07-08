@@ -21,6 +21,7 @@
 
 package java.management.share.classes.javax.management.relation;
 
+
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
@@ -30,6 +31,20 @@ import java.io.Serializable;
 import java.security.AccessController;
 import java.management.share.classes.javax.management.MBeanServer;
 import java.management.share.classes.javax.management.NotCompliantMBeanException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RoleInfo object summarises a role in a relation type.
@@ -556,6 +571,7 @@ public class RoleInfo implements Serializable {
         in.defaultReadObject();
       }
     }
+
 
     /**
      * Serializes a {@link RoleInfo} to an {@link ObjectOutputStream}.

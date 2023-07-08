@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
+
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
@@ -38,6 +39,20 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs namespace binding on the startElement and endElement
@@ -320,6 +335,7 @@ public class XMLNamespaceBinder
         return fDocumentHandler;
     } // setDocumentHandler(XMLDocumentHandler)
 
+
     //
     // XMLDocumentHandler methods
     //
@@ -333,6 +349,7 @@ public class XMLNamespaceBinder
     public XMLDocumentSource getDocumentSource (){
         return fDocumentSource;
     } // getDocumentSource
+
 
     /**
      * This method notifies the start of a general entity.
@@ -494,6 +511,7 @@ public class XMLNamespaceBinder
         }
     } // processingInstruction(String,XMLString)
 
+
     /**
      * Binds the namespaces. This method will handle calling the
      * document handler to start the prefix mappings.
@@ -518,6 +536,7 @@ public class XMLNamespaceBinder
         else if (fDocumentHandler != null) {
             fDocumentHandler.startElement(element, attributes, augs);
         }
+
 
     } // startElement(QName,XMLAttributes)
 
@@ -805,6 +824,7 @@ public class XMLNamespaceBinder
                 fDocumentHandler.startElement(element, attributes, augs);
             }
         }
+
 
     } // handleStartElement(QName,XMLAttributes,boolean)
 

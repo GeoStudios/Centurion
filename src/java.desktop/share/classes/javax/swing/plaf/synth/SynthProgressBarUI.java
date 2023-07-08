@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
+
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.desktop.share.classes.javax.swing.*;
@@ -29,6 +30,20 @@ import java.desktop.share.classes.javax.swing.plaf.basic.BasicProgressBarUI;
 import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

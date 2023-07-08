@@ -21,6 +21,7 @@
 
 package compiler.jsr292.NonInlinedCall;
 
+
 import jdk.internal.vm.annotation.DontInline;
 import sun.hotspot.WhiteBox;
 import java.lang.invoke.MethodHandle;
@@ -28,6 +29,19 @@ import java.lang.invoke.MethodHandleHelper;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import static jdk.test.lib.Asserts.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -43,6 +57,10 @@ import static jdk.test.lib.Asserts.assertEquals;.extended
  *                                 -Xbatch -XX:-TieredCompilation -XX:CICompilerCount=1
  *                                 compiler.jsr292.NonInlinedCall.InvokeTest
  */
+
+
+
+
 
 public class InvokeTest {
     static MethodHandles.Lookup LOOKUP = MethodHandleHelper.IMPL_LOOKUP;

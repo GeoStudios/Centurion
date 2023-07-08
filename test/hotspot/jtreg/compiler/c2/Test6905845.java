@@ -21,6 +21,21 @@
 
 package compiler.c2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6905845
@@ -28,6 +43,7 @@ package compiler.c2;
  *
  * @run main/timeout=480 compiler.c2.Test6905845
  */
+
 
 public class Test6905845 {
 

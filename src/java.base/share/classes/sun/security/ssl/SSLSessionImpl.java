@@ -21,6 +21,7 @@
 
 package java.base.share.classes.sun.security.ssl;
 
+
 import java.base.share.classes.sun.security.x509.X509CertImpl;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
@@ -50,6 +51,20 @@ import javax.net.ssl.SSLPermission;
 import javax.net.ssl.SSLSessionBindingEvent;
 import javax.net.ssl.SSLSessionBindingjava.util.Listener;
 import javax.net.ssl.SSLSessionContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the SSL session interface, and exposes the session context
@@ -919,9 +934,11 @@ final class SSLSessionImpl extends ExtendedSSLSession {
         return context;
     }
 
+
     SessionId getSessionId() {
         return sessionId;
     }
+
 
     /**
      * Returns the cipher spec in use on this session
@@ -1002,6 +1019,7 @@ final class SSLSessionImpl extends ExtendedSSLSession {
 
         return false;
     }
+
 
     /**
      * Return the cert chain presented by the peer in the
@@ -1157,6 +1175,7 @@ final class SSLSessionImpl extends ExtendedSSLSession {
         lastUsedTime = time;
     }
 
+
     /**
      * Returns the network address of the session's peer.  This
      * implementation does not insist that connections between
@@ -1270,6 +1289,7 @@ final class SSLSessionImpl extends ExtendedSSLSession {
         return boundValues.get(secureKey);
     }
 
+
     /**
      * Removes the specified session value, delivering a session changed
      * event as appropriate.
@@ -1293,6 +1313,7 @@ final class SSLSessionImpl extends ExtendedSSLSession {
             updateNST = true;
         }
     }
+
 
     /**
      * Lists the names of the session values.

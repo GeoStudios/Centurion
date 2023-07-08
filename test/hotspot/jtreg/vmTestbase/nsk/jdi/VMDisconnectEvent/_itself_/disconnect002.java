@@ -21,6 +21,7 @@
 
 package nsk.jdi.VMDisconnectEvent._itself_;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -28,6 +29,19 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class is the debugger application in the test
 

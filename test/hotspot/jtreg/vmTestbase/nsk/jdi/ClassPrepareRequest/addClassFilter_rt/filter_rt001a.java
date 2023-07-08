@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassPrepareRequest.addClassFilter_rt;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the filter_rt001 JDI test.
@@ -93,6 +107,7 @@ public class filter_rt001a {
                     case 0:
                             filter_rt001aTestClass10 obj = new filter_rt001aTestClass10();
                             break;
+
 
                     case 1:
                             filter_rt001aThread1 thread1 = new filter_rt001aThread1("thread1");

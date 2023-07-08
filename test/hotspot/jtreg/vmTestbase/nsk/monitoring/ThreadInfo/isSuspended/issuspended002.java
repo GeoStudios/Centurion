@@ -21,9 +21,23 @@
 
 package nsk.monitoring.ThreadInfo.isSuspended;
 
+
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class issuspended002 {
     private final static int DEF_TIME_MAX = 30;  // default max # secs to test

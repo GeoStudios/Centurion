@@ -21,6 +21,22 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class ChainEnd {
     CurveLink head;
     CurveLink tail;

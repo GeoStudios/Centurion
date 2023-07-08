@@ -21,10 +21,25 @@
 
 package java.desktop.share.classes.javax.swing;
 
+
 import java.awt.event.*;
 import java.util.Vector;
 import java.util.Enumeration;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to create a multiple-exclusion scope for

@@ -21,9 +21,23 @@
 
 package nsk.jdi.ClassType.allInterfaces;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.
@@ -78,6 +92,7 @@ public class allinterfaces002a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(allinterfaces002.SIGNAL_READY);
+
 
         //pipe.println(allinterfaces002.SIGNAL_GO);
         receiveSignal(allinterfaces002.SIGNAL_QUIT);

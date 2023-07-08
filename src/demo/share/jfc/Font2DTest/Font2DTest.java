@@ -21,6 +21,7 @@
 
 package demo.share.jfc.Font2DTest;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.BorderLayout;
@@ -55,6 +56,20 @@ import java.util.BitSet;
 import javax.swing.*;
 import javax.swing.event.*;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -62,6 +77,9 @@ import javax.swing.event.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
+
+
+
 
 /**
  * Font2DTest.java
@@ -483,6 +501,7 @@ public final class Font2DTest extends JPanel
             filePromptDialog.setDialogType( JFileChooser.SAVE_DIALOG );
             filePromptDialog.setDialogTitle( "Save..." );
             str = "Save";
+
 
         }
         else {

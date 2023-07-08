@@ -21,6 +21,7 @@
 
 package compiler.c1;
 
+
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
 import jdk.internal.org.objectweb.asm.Label;
@@ -32,6 +33,19 @@ import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6932496
@@ -42,6 +56,9 @@ import java.nio.file.Paths;
  *      -XX:CompileCommand=compileonly,compiler.c1.Test6932496::test
  *      compiler.c1.Test6932496
  */
+
+
+
 
 public class Test6932496 extends ClassLoader {
     private static final int CLASS_FILE_VERSION = 49;

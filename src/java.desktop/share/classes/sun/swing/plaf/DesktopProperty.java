@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.swing.plaf;
 
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Frame;
@@ -37,6 +38,20 @@ import javax.swing.UIManager;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
 import java.desktop.share.classes.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wrapper for a value from the desktop. The value is lazily looked up, and
@@ -71,6 +86,7 @@ public class DesktopProperty implements UIDefaults.ActiveValue {
      */
     private final Object fallback;
 
+
     /**
      * Cleans up any lingering state held by unrefeernced
      * DesktopProperties.
@@ -82,6 +98,7 @@ public class DesktopProperty implements UIDefaults.ActiveValue {
             pcl.dispose();
         }
     }
+
 
     /**
      * Sets whether or not an updateUI call is pending.
@@ -119,6 +136,7 @@ public class DesktopProperty implements UIDefaults.ActiveValue {
             updateWindowUI(ownedWin);
         }
     }
+
 
     /**
      * Creates a DesktopProperty.

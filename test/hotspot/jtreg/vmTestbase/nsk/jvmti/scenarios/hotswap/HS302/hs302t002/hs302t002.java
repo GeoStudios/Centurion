@@ -21,7 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS302.hs302t002;
 
+
 import nsk.share.jvmti.RedefineAgent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,11 +56,13 @@ import nsk.share.jvmti.RedefineAgent;
  *      nsk.jvmti.scenarios.hotswap.HS302.hs302t002.hs302t002
  */
 
+
 public class hs302t002 extends RedefineAgent {
 
     public hs302t002(String[] arg) {
         super(arg);
     }
+
 
     public static void main(String[] arg) {
         arg = nsk.share.jvmti.JVMTITest.commonInit(arg);

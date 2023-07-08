@@ -21,6 +21,56 @@
 
 package build.tools.compileproperties;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Translates a .properties file into a .java file containing the
  *  definition of a java.util.Properties subclass which can then be
  *  compiled with javac. <P>
@@ -45,6 +95,7 @@ public class CompileProperties {
             "        };\n" +
             "    }\n" +
             "}\n";
+
 
     // This comes from Properties
     private static final char[] hexDigit = {

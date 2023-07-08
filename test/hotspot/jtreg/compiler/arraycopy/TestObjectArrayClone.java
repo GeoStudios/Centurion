@@ -21,6 +21,21 @@
 
 package compiler.arraycopy;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8155643 8268125 8270461
@@ -35,6 +50,7 @@ package compiler.arraycopy;
  *                   -XX:CompileCommand=compileonly,compiler.arraycopy.TestObjectArrayClone::testClone*
  *                   compiler.arraycopy.TestObjectArrayClone
  */
+
 
 class Payload implements Cloneable {
     boolean b;

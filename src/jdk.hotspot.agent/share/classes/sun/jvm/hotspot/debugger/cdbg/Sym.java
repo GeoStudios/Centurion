@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Provides a superinterface for all symbol types */
 
 public interface Sym {

@@ -21,9 +21,24 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table;
 
+
 import java.util.*;
 import javax.swing.table.TableModel;
 import javax.swing.event.TableModelEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A comparator which compares rows in a table model

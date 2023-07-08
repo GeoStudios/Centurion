@@ -21,14 +21,31 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
 
+
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: XPathFilter2ParameterSpec.java,v 1.7 2005/05/13 18:45:42 mullan Exp $
  */
+
+
 
 /**
  * Parameters for the W3C Recommendation

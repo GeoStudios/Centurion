@@ -21,6 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
+
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.geom.Dimension2D;
@@ -32,6 +33,20 @@ import java.util.function.BiFunction;
 import java.util.stream.Collectors;
 import java.awt.image.MultiResolutionImage;
 import java.awt.image.AbstractMultiResolutionImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MultiResolutionCachedImage extends AbstractMultiResolutionImage {
 

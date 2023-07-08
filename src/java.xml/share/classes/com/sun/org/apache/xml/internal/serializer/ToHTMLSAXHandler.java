@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
+
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -33,10 +34,28 @@ import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
+
+
+
+
 
 /**
  * This class accepts SAX-like calls, then sends true SAX calls to a
@@ -155,6 +174,7 @@ public final class ToHTMLSAXHandler extends ToSAXHandler
     {
     }
 
+
     /**
      * Does nothing.
      * @param writer this parameter is ignored.
@@ -186,6 +206,7 @@ public final class ToHTMLSAXHandler extends ToSAXHandler
         throws SAXException
     {
     }
+
 
     /**
      * Does nothing.
@@ -476,6 +497,7 @@ public final class ToHTMLSAXHandler extends ToSAXHandler
         chars.getChars(0, length, m_charsBuff, 0);
         this.characters(m_charsBuff, 0, length);
     }
+
 
     /**
      * A constructor

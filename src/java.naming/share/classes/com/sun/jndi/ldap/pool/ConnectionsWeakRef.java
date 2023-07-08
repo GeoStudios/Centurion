@@ -21,8 +21,23 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
+
 import java.lang.ref.WeakReference;
 import java.lang.ref.ReferenceQueue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class defines a WeakReference to the ConnectionRef (the referent).

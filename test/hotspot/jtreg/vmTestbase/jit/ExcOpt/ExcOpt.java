@@ -21,9 +21,24 @@
 
 package jit.ExcOpt;
 
+
 import nsk.share.TestFailure;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // tests exception handler inside optimizable loops and around them
+
 
 /*
  * @test
@@ -35,6 +50,8 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.ExcOpt.ExcOpt
  */
+
+
 
 public class ExcOpt {
   static int x;

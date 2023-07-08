@@ -21,11 +21,25 @@
 
 package nsk.monitoring.LoggingMXBean.getParentLoggerName;
 
+
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
 import java.util.logging.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getparentloggername001 {
 
@@ -70,6 +84,7 @@ public class getparentloggername001 {
                     +"is "+mxbeanParentName);
             }
 
+
             // Test case 2. check
             // if the specified logger does not exist, null is returned
             if (loggingMonitor.getParentLoggerName("no such logger") != null) {
@@ -79,6 +94,7 @@ public class getparentloggername001 {
                 log.complain("loggingMXBean.getParentLoggerName(\"no such logger\") "
                     + "does not return null");
             }
+
 
             // Test case 3. check
             // if the specified logger is the root Logger in the namespace, the

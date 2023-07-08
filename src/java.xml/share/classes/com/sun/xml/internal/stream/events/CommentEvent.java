@@ -21,8 +21,23 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
 import javax.xml.stream.events.Comment;
 import javax.xml.stream.events.XMLEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains information about Comment event.
@@ -52,6 +67,7 @@ public class CommentEvent extends DummyEvent implements Comment {
     public String toString() {
         return "<!--" + getText() + "-->";
     }
+
 
     /** Return the string data of the comment, returns empty string if it
      * does not exist

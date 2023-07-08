@@ -21,9 +21,24 @@
 
 package java.management.share.classes.javax.management;
 
+
 import java.management.share.classes.javax.management.MBeanException;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
 import java.management.share.classes.javax.management.InstanceNotFoundException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class is the interface to be implemented by MBeans that are meant to be
@@ -34,6 +49,7 @@ import java.management.share.classes.javax.management.InstanceNotFoundException;
  *
  */
 public interface PersistentMBean {
+
 
     /**
      * Instantiates thisMBean instance with the data found for

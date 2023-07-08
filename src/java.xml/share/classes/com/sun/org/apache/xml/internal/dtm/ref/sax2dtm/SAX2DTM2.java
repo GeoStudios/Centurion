@@ -21,6 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
 
+
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMException;
@@ -43,6 +44,20 @@ import javax.xml.transform.Source;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAX2DTM2 is an optimized version of SAX2DTM which is used in non-incremental situation.
@@ -1730,6 +1745,7 @@ public class SAX2DTM2 extends SAX2DTM
    *                End of nested iterators
    *******************************************************************/
 
+
   // %OPT% Array references which are used to cache the map0 arrays in
   // SuballocatedIntVectors. Using the cached arrays reduces the level
   // of indirection and results in better performance than just calling
@@ -3266,6 +3282,7 @@ public class SAX2DTM2 extends SAX2DTM
             copyAttribute(current, eType, handler);
        }
     }
+
 
     /**
      * Copy an Attribute node to a SerializationHandler

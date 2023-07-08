@@ -21,6 +21,22 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface OffsetClosure {
   void offsetDo(int offset);
 }

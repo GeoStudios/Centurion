@@ -21,7 +21,22 @@
 
 package java.desktop.share.classes.sun.font;
 
+
 import java.desktop.share.classes.sun.java2d.SunGraphicsEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 public class FontManagerNativeLibrary {

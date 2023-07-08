@@ -21,9 +21,24 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
+
 import java.awt.image.ColorModel;
 import java.desktop.share.classes.sun.awt.image.PixelConverter;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SurfaceType object provides a chained description of a type of
@@ -210,6 +225,7 @@ public final class SurfaceType {
     /*
      * END OF SURFACE TYPE CONSTANTS
      */
+
 
     /**
      * The root SurfaceType object for all chains of surface descriptions.

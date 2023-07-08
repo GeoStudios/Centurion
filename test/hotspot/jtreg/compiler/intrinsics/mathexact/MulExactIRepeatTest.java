@@ -21,8 +21,22 @@
 
 package compiler.intrinsics.mathexact;
 
+
 import jdk.test.lib.Utils;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,6 +49,9 @@ import java.util.Random;
  *
  * @run main compiler.intrinsics.mathexact.MulExactIRepeatTest
  */
+
+
+
 
 public class MulExactIRepeatTest {
     public static void main(String[] args) {
@@ -66,6 +83,7 @@ public class MulExactIRepeatTest {
 
             int b = nonExact(c, d, method);
             int n = exact(c, d, method);
+
 
             if (n != b) {
                 throw new RuntimeException("n != b : " + n + " != " + b);

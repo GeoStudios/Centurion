@@ -21,6 +21,21 @@
 
 package gc.g1.unloading.bytecode;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is another template class that extends Thread.
  */
@@ -47,5 +62,6 @@ public class ThreadTemplateClass extends Thread {
         i = i * 2000 / 1994 + 153;
         field2 = i;
     }
+
 
 }

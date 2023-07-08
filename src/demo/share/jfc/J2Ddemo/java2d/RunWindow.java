@@ -21,6 +21,7 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
+
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.RED;.extended
@@ -45,6 +46,20 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A separate window for running the J2Ddemo.  Go from tab to tab or demo to
